@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AVR9_T00AE" variety="T00AE">
+<name>WASHER NOZZLE (for Rear)</name>
+<para id="RM000002M6I04DX" category="G" type-id="8000T" name-id="WW0X8-45" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000002M6I04DX_01" type-id="01" category="01">
+<s-1 id="RM000002M6I04DX_01_0001" proc-id="RM21Q0EV__00004TV00000">
+<ptxt>INSPECT REAR WASHER NOZZLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>With the engine running, check that the center stream of washer fluid sprays on the back door glass within the hatched area shown in the illustration.</ptxt>
+<spec>
+<title>Standard</title>
+<specitem>
+<ptxt>Washer fluid hits the back door glass in the area shown in the illustration.</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="E226583E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ceramic Line</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiper Pattern</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>39 mm (1.53 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>100 mm (3.97 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the rear washer nozzle.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

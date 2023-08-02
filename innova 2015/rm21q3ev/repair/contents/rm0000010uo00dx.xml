@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZO_T0042" variety="T0042">
+<name>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</name>
+<para id="RM0000010UO00DX" category="A" type-id="30014" name-id="MT086-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010UO00DX_01" type-id="01" category="01">
+<s-1 id="RM0000010UO00DX_01_0001" proc-id="RM21Q0EV__00001AB00000">
+<ptxt>INSTALL MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034230E07" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coast the lip of a new oil seal with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in the oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09223-00010</s-number>
+</sstitem>
+</sst>
+<spec>
+<title>Standard depth</title>
+<specitem>
+<ptxt>0 +-0.5 mm (0 +-0.020 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Be careful not to damage the lip of the oil seal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UO00DX_01_0002" proc-id="RM21Q0EV__00001AC00000">
+<ptxt>INSTALL MANUAL TRANSMISSION UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the manual transmission unit (see page <xref label="Seep01" href="RM0000010UR00MX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

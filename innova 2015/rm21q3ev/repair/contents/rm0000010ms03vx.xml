@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1000K_S000I" variety="S000I">
+<name>DIFFERENTIAL</name>
+<ttl id="1000K_S000I_7AX2I_T00AP" variety="T00AP">
+<name>DIFFERENTIAL CARRIER ASSEMBLY</name>
+<para id="RM0000010MS03VX" category="A" type-id="8000E" name-id="AD1JA-06" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010MS03VX_01" type-id="01" category="01">
+<s-1 id="RM0000010MS03VX_01_0001" proc-id="RM21Q0EV__000055P00000">
+<ptxt>ASSEMBLE DIFFERENTIAL CASE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the side gear thrust washer to the side gear.</ptxt>
+<figure>
+<graphic graphicname="C236671" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Using the table below, select 2 thrust washers which will ensure that the backlash is within the specifications.</ptxt>
+</atten4>
+<spec>
+<title>Standard Washer Thickness</title>
+<table>
+<tgroup cols="1">
+<colspec colname="COL1" colwidth="4.13in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Thickness mm (in.)</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>0.96 to 1.04 (0.00378 to 0.0409)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1.06 to 1.14 (0.0418 to 0.0448)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1.16 to 1.24 (0.0457 to 0.0488)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1.26 to 1.34 (0.0496 to 0.0527)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the 2 side gears (with thrust washers), 2 pinion gears, 2 pinion gear thrust washers and pinion shaft to the differential case.</ptxt>
+<figure>
+<graphic graphicname="C236669" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Align the holes of the differential case and pinion shaft.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Measure the side gear backlash.</ptxt>
+<figure>
+<graphic graphicname="C236672" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a dial indicator, measure the side gear backlash while holding one pinion gear toward the differential case.</ptxt>
+<spec>
+<title>Standard backlash</title>
+<specitem>
+<ptxt>0.05 to 0.20 mm (0.00197 to 0.00787 in.)</ptxt>
+</specitem>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the backlash is not as specified, install 2 side gear thrust washers with different thicknesses.</ptxt>
+</item>
+</list1>
+</s3>
+</s2>
+<s2>
+<ptxt>Using a pin punch and hammer, tap in the straight pin through the differential case and hole of the pinion shaft.</ptxt>
+<figure>
+<graphic graphicname="C236668" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Stake the differential case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0003" proc-id="RM21Q0EV__000055Q00000">
+<ptxt>INSTALL DIFFERENTIAL RING GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Clean the contact surfaces of the differential case and ring gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Heat the ring gear in boiling water that is approximately 100°C (212°F).</ptxt>
+</s2>
+<s2>
+<ptxt>Carefully remove the ring gear from the boiling water.</ptxt>
+</s2>
+<s2>
+<ptxt>After the moisture on the ring gear has completely evaporated, quickly align the matchmarks on the ring gear and differential case and install the ring gear to the differential case.</ptxt>
+<figure>
+<graphic graphicname="C236674E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Matchmark</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Temporarily install 5 new lock plates and the 10 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>After the ring gear cools down, diametrically tighten the 10 bolts uniformly in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>97</t-value1>
+<t-value2>989</t-value2>
+<t-value4>72</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a chisel and hammer, stake the 5 lock plates.</ptxt>
+<figure>
+<graphic graphicname="C236675E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Strike the tab labeled A so that it is flush with the flat surface of the bolt. Strike the tab labeled B so that half of the tab contacts the bolt as shown in the illustration.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0004" proc-id="RM21Q0EV__000055R00000">
+<ptxt>INSTALL REAR DIFFERENTIAL CASE BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and a press, press the 2 case bearings (inner) onto the differential case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-60010</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-00560</s-subnumber>
+<s-subnumber>09951-00570</s-subnumber>
+<s-subnumber>09951-07150</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236676E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0005" proc-id="RM21Q0EV__000055S00000">
+<ptxt>INSPECT DIFFERENTIAL RING GEAR RUNOUT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the differential case and 2 case bearings (outer) to the carrier, and install the 2 adjusting nuts so that there is no play in the bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 bearing caps with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>85</t-value1>
+<t-value2>870</t-value2>
+<t-value4>63</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the runout of the ring gear.</ptxt>
+<figure>
+<graphic graphicname="C237352" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum runout</title>
+<specitem>
+<ptxt>0.07 mm (0.00276 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the runout exceeds the specified maximum value, remove the ring gear and check the runout of the differential case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts, 2 bearing caps, 2 adjusting nuts and differential case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0007" proc-id="RM21Q0EV__000055T00000">
+<ptxt>INSTALL REAR DRIVE PINION FRONT TAPERED ROLLER BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and a press, press the bearing (outer) into the carrier.</ptxt>
+<sst>
+<sstitem>
+<s-number>09316-60011</s-number>
+<s-subnumber>09316-00011</s-subnumber>
+<s-subnumber>09316-00021</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236677E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0008" proc-id="RM21Q0EV__000055U00000">
+<ptxt>INSTALL REAR DRIVE PINION REAR TAPERED ROLLER BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and a press, press the bearing (outer) into the carrier.</ptxt>
+<sst>
+<sstitem>
+<s-number>09316-60011</s-number>
+<s-subnumber>09316-00011</s-subnumber>
+<s-subnumber>09316-00041</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236678E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0009" proc-id="RM21Q0EV__000055V00000">
+<ptxt>INSTALL REAR DRIVE PINION REAR TAPERED ROLLER BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the plate washer to the drive pinion.</ptxt>
+<atten4>
+<ptxt>First, install a washer that has the same thickness as the removed washer. After checking the tooth contact pattern, replace the washer with one of a different thickness if necessary.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using SST and a press, press the bearing (inner) onto the drive pinion.</ptxt>
+<sst>
+<sstitem>
+<s-number>09506-30012</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236679E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0010" proc-id="RM21Q0EV__000055W00000">
+<ptxt>ADJUST DIFFERENTIAL DRIVE PINION PRELOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the drive pinion, bearing (inner) and oil slinger.</ptxt>
+<figure>
+<graphic graphicname="C237303" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Install the spacer and oil seal after adjusting the gear contact pattern.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using SST, install the companion flange.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-30012</s-number>
+<s-subnumber>09951-03010</s-subnumber>
+<s-subnumber>09953-03010</s-subnumber>
+<s-subnumber>09954-03010</s-subnumber>
+<s-subnumber>09955-03030</s-subnumber>
+<s-subnumber>09956-03040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C237304E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hold</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Before using SST (center bolt), apply hypoid gear oil to its threads and tip.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Adjust the drive pinion preload by installing the drive pinion nut.</ptxt>
+<figure>
+<graphic graphicname="C237305E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using SST to hold the companion flange in place, tighten the nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09330-00021</s-number>
+<s-subnumber>09330-00030</s-subnumber>
+</sstitem>
+</sst>
+<torque>
+<torqueitem>
+<t-value1>230</t-value1>
+<t-value2>2345</t-value2>
+<t-value4>170</t-value4>
+<ptxt>or less</ptxt>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>As there is no spacer, tighten a little at a time. Be careful not to overtighten the nut.</ptxt>
+</item>
+<item>
+<ptxt>Apply hypoid gear oil LSD to drive pinion thread and nut seat face.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a torque wrench, measure the preload.</ptxt>
+<figure>
+<graphic graphicname="C237317" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Drive Pinion Preload (Starting Torque)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Bearing</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>1.4 to 2.0 N*m (15 to 20 kgf*cm, 13 to 17 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.6 to 0.9 N*m (7 to 9 kgf*cm, 6 to 7 in.*lbf)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>For a more accurate measurement, rotate the bearing forward and backward several times before measuring.</ptxt>
+</item>
+<item>
+<ptxt>Record the differential drive pinion preload for the total preload measurement.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0011" proc-id="RM21Q0EV__000055X00000">
+<ptxt>INSTALL DIFFERENTIAL CASE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the differential case and 2 case bearings (outer) to the differential carrier.</ptxt>
+<figure>
+<graphic graphicname="C236658" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Make sure the 2 case bearings (outer) are not interchanged.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0012" proc-id="RM21Q0EV__000055Y00000">
+<ptxt>INSTALL REAR DIFFERENTIAL BEARING ADJUSTING NUT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 adjusting nuts to the carrier, making sure the nuts are threaded properly.</ptxt>
+<figure>
+<graphic graphicname="C237306" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0013" proc-id="RM21Q0EV__000055Z00000">
+<ptxt>INSPECT AND ADJUST DIFFERENTIAL RING GEAR AND DIFFERENTIAL DRIVE PINION BACKLASH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the matchmarks on the caps and carrier.</ptxt>
+<figure>
+<graphic graphicname="C236657E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Matchmark</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Install the right and left bearing caps with the 4 bolts.</ptxt>
+<figure>
+<graphic graphicname="C237308" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>85</t-value1>
+<t-value2>870</t-value2>
+<t-value4>63</t-value4>
+</torqueitem>
+</torque>
+<list1 type="nonmark">
+<item>
+<ptxt>If the bearing cap does not fit tightly on the carrier, the adjusting nuts are not threaded properly.</ptxt>
+<atten4>
+<ptxt>Reinstall the adjusting nuts if necessary.</ptxt>
+</atten4>
+</item>
+</list1>
+</s2>
+<s2>
+<ptxt>Loosen the 4 bearing cap bolts to the point where the adjusting nuts can be turned by SST.</ptxt>
+<figure>
+<graphic graphicname="C237309E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>for LH Side</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>for RH Side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using SST, tighten the adjusting nut on the ring gear side until the ring gear has a backlash of about 0.2 mm (0.00787 in.).</ptxt>
+<sst>
+<sstitem>
+<s-number>09504-00011</s-number>
+</sstitem>
+<sstitem>
+<s-number>09960-10010</s-number>
+<s-subnumber>09962-01000</s-subnumber>
+<s-subnumber>09963-00700</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>While turning the ring gear, use SST to fully tighten the adjusting nut on the drive pinion side. After the bearings have settled, loosen the adjusting nut on the drive pinion side.</ptxt>
+<sst>
+<sstitem>
+<s-number>09504-00011</s-number>
+</sstitem>
+<sstitem>
+<s-number>09960-10010</s-number>
+<s-subnumber>09962-01000</s-subnumber>
+<s-subnumber>09963-00700</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using SST, tighten the adjusting nut 1 to 1.5 notches from the 0 preload position.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, adjust the ring gear backlash until it is within the specification.</ptxt>
+<figure>
+<graphic graphicname="C237310E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard backlash</title>
+<specitem>
+<ptxt>0.13 to 0.18 mm (0.00512 to 0.00708 in.)</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The backlash is adjusted by turning the left and right adjusting nuts by an equal amount. For example, loosen the nut on the right side one notch and loosen the nut on the left side one notch.</ptxt>
+</item>
+<item>
+<ptxt>Perform the measurement at 3 or more positions around the circumference of the ring gear.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Tighten the bearing cap bolts.</ptxt>
+<figure>
+<graphic graphicname="C236657" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>85</t-value1>
+<t-value2>870</t-value2>
+<t-value4>63</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0036" proc-id="RM21Q0EV__000056600000">
+<ptxt>INSPECT TOTAL PRELOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a torque wrench, measure the preload with the teeth of the drive pinion and ring gear in contact.</ptxt>
+<figure>
+<graphic graphicname="C236639" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Total Preload</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Bearing</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>New Bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.4 to 0.5 N*m (4 to 6 kgf*cm, 4 to 5 in.*lbf) + drive pinion preload</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused Bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.4 to 0.5 N*m (4 to 6 kgf*cm, 4 to 5 in.*lbf) + drive pinion preload</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, adjust the preload.</ptxt>
+<atten3>
+<ptxt>Record the differential ring gear preload.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0015" proc-id="RM21Q0EV__000056000000">
+<ptxt>INSPECT TOOTH CONTACT BETWEEN RING GEAR AND DRIVE PINION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat 3 or 4 teeth at 3 different positions on the ring gear with Prussian blue.</ptxt>
+<figure>
+<graphic graphicname="C237311" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Hold the companion flange firmly in place and rotate the ring gear in both directions.</ptxt>
+</s2>
+<s2>
+<ptxt>Inspect the tooth contact pattern.</ptxt>
+<list1 type="nonmark">
+<figure>
+<graphic graphicname="SA01653E17" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<item>
+<ptxt>If the teeth are not contacting properly, use the following chart to select a proper washer.</ptxt>
+<figure>
+<graphic graphicname="C237312E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plate Washer</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard Plate Washer Thickness</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Thickness mm (in.)</ptxt>
+</entry>
+<entry>
+<ptxt>Thickness mm (in.)</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>2.23 to 2.25 (0.0878 to 0.0885)</ptxt>
+</entry>
+<entry>
+<ptxt>2.50 to 2.52 (0.0985 to 0.0992)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.26 to 2.28 (0.0890 to 0.0897)</ptxt>
+</entry>
+<entry>
+<ptxt>2.53 to 2.55 (0.0996 to 0.1003)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.29 to 2.31 (0.0902 to 0.0909)</ptxt>
+</entry>
+<entry>
+<ptxt>2.56 to 2.58 (0.1008 to 0.1015)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.32 to 2.34 (0.0914 to 0.0921)</ptxt>
+</entry>
+<entry>
+<ptxt>2.59 to 2.61 (0.1020 to 0.1027)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.35 to 2.37 (0.0926 to 0.0933)</ptxt>
+</entry>
+<entry>
+<ptxt>2.62 to 2.64 (0.1032 to 0.1039)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.38 to 2.40 (0.0937 to 0.0944)</ptxt>
+</entry>
+<entry>
+<ptxt>2.65 to 2.67 (0.1044 to 0.1051)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.41 to 2.43 (0.0949 to 0.0956)</ptxt>
+</entry>
+<entry>
+<ptxt>2.68 to 2.70 (0.1056 to 0.1062)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.44 to 2.46 (0.0961 to 0.0968)</ptxt>
+</entry>
+<entry>
+<ptxt>2.71 to 2.73 (0.1070 to 0.1074)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.47 to 2.49 (0.0973 to 0.0980)</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0031" proc-id="RM21Q0EV__000054D00000">
+<ptxt>REMOVE REAR DRIVE PINION NUT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and a hammer, loosen the staked part of the nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09930-00010</s-number>
+<s-subnumber>09931-00010</s-subnumber>
+<s-subnumber>09931-00020</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236628E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using SST to hold the companion flange in place, remove the nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09330-00021</s-number>
+<s-subnumber>09330-00030</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236629E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hold</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0037" proc-id="RM21Q0EV__000054E00000">
+<ptxt>REMOVE REAR DRIVE PINION COMPANION FLANGE SUB-ASSEMBLY WITH DUST DEFLECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, remove the companion flange with dust deflector.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-30012</s-number>
+<s-subnumber>09951-03010</s-subnumber>
+<s-subnumber>09953-03010</s-subnumber>
+<s-subnumber>09954-03010</s-subnumber>
+<s-subnumber>09955-03030</s-subnumber>
+<s-subnumber>09956-03040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C238731E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Before using SST (center bolt), apply hypoid gear oil to its threads and tip.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0038" proc-id="RM21Q0EV__000054G00000">
+<ptxt>REMOVE REAR DIFFERENTIAL DRIVE PINION OIL SLINGER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the oil slinger from the drive pinion.</ptxt>
+<figure>
+<graphic graphicname="C237315" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0032" proc-id="RM21Q0EV__000055600000">
+<ptxt>REMOVE REAR DRIVE PINION FRONT TAPERED ROLLER BEARING
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, remove the roller bearing (inner) from the drive pinion.</ptxt>
+<sst>
+<sstitem>
+<s-number>09556-22010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236632E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0039" proc-id="RM21Q0EV__000054J00000">
+<ptxt>INSTALL REAR DIFFERENTIAL DRIVE PINION BEARING SPACER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new bearing spacer.</ptxt>
+<figure>
+<graphic graphicname="C237515" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Make sure the spacer is installed correctly.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0021" proc-id="RM21Q0EV__000056100000">
+<ptxt>INSTALL REAR DRIVE PINION FRONT TAPERED ROLLER BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the bearing (inner) to the drive pinion.</ptxt>
+<figure>
+<graphic graphicname="C237314" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0040" proc-id="RM21Q0EV__000054L00000">
+<ptxt>INSTALL REAR DIFFERENTIAL DRIVE PINION OIL SLINGER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the oil slinger to the drive pinion.</ptxt>
+<figure>
+<graphic graphicname="C237315" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0034" proc-id="RM21Q0EV__000054M00000">
+<ptxt>INSTALL REAR DIFFERENTIAL CARRIER OIL SEAL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to the lip of the oil seal.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in a new oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09554-30011</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236636E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Seal Depth</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard oil seal depth</title>
+<specitem>
+<ptxt>0.5 +/-0.3mm (0.02 +/-0.0118in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0041" proc-id="RM21Q0EV__000054N00000">
+<ptxt>INSTALL REAR DRIVE PINION COMPANION FLANGE SUB-ASSEMBLY WITH DUST DEFLECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, install the companion flange with dust deflector.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-30012</s-number>
+<s-subnumber>09951-03010</s-subnumber>
+<s-subnumber>09953-03010</s-subnumber>
+<s-subnumber>09954-03010</s-subnumber>
+<s-subnumber>09955-03030</s-subnumber>
+<s-subnumber>09956-03040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C238732E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Before using SST (center bolt), apply hypoid gear oil to its threads and tip.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Apply hypoid gear oil LSD to drive pinion thread and nut seat face.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST to hold the companion flange in place, install a new nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09330-00021</s-number>
+<s-subnumber>09330-00030</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C237316E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hold</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<torque>
+<torqueitem>
+<t-value1>230</t-value1>
+<t-value2>2345</t-value2>
+<t-value4>170</t-value4>
+<ptxt>or less</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0026" proc-id="RM21Q0EV__000056200000">
+<ptxt>INSPECT TOTAL PRELOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a torque wrench, measure the preload.</ptxt>
+<figure>
+<graphic graphicname="C237317" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Total Preload</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Bearing</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 to 2.1 N*m (15 to 21 kgf*cm, 14 to 19 in.*lbf) + ring gear preload</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.7 to 1.0 N*m (7 to 10 kgf*cm, 6 to 9 in.*lbf) + ring gear preload</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If necessary, disassemble and inspect the differential.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0027" proc-id="RM21Q0EV__000056300000">
+<ptxt>INSPECT DIFFERENTIAL RING GEAR BACKLASH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, check the backlash of the ring gear.</ptxt>
+<figure>
+<graphic graphicname="C236650" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard backlash</title>
+<specitem>
+<ptxt>0.13 to 0.18 mm (0.00511 to 0.00709 in.)</ptxt>
+</specitem>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the backlash is not as specified, adjust the side bearing preload or perform repairs as necessary.</ptxt>
+<atten4>
+<ptxt>Perform the measurement at 3 or more positions around the circumference of the ring gear.</ptxt>
+</atten4>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MS03VX_01_0042" proc-id="RM21Q0EV__000055300000">
+<ptxt>INSPECT REAR DRIVE PINION COMPANION FLANGE SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the runout of the companion flange vertically and laterally.</ptxt>
+<figure>
+<graphic graphicname="C236648E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30 mm (1.18 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Maximum Runout</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Runout</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Vertical runout</ptxt>
+</entry>
+<entry>
+<ptxt>0.10 mm (0.00394 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lateral runout</ptxt>
+</entry>
+<entry>
+<ptxt>0.10 mm (0.00394 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the runout is more than the maximum, replace the companion flange.</ptxt>
+</item>
+</list1>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0043" proc-id="RM21Q0EV__000054P00000">
+<ptxt>STAKE DRIVE PINION NUT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a chisel and hammer, stake the nut.</ptxt>
+<figure>
+<graphic graphicname="C236640" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MS03VX_01_0030" proc-id="RM21Q0EV__000056400000">
+<ptxt>INSTALL REAR DIFFERENTIAL BEARING ADJUSTING NUT LOCK</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install 2 new adjusting nut locks to the bearing caps with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="C237318" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>130</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Bend the nut locks.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12061_S000Y" variety="S000Y">
+<name>HEATING / AIR CONDITIONING</name>
+<ttl id="12061_S000Y_7AI7Y_T000I" variety="T000I">
+<name>AIR CONDITIONING SYSTEM</name>
+<para id="RM000004V3C002X" category="F" type-id="8048Z" name-id="ACE2C-03" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004V3C002X_z0" proc-id="NM21Q0EV__000001C00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<step2>
+<ptxt>The manual air conditioning system and automatic air conditioning system consist of the following parts:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Air Conditioning Control Assembly*1</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Allows operation and adjustment of the air conditioning system via the switches.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Integration Panel Sub-assembly*2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air Conditioning Amplifier Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmits and receives data to and from the switches and sensors.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Cooler Compressor Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A fixed displacement cooler compressor assembly is used.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Cooler Condenser Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A Multi-Flow-IV (MF-IV) sub-cool condenser is used to improve heat exchange efficiency.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Heater Radiator Unit Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A Straight Flow Aluminum-II (SFA-II) heater radiator is used for compactness and high performance.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Blower with Fan Motor Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>High magnetic force magnets and ball bearings are used to achieve a compact and lightweight assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 Cooler Evaporator Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A Revolutionary super-slim Structure (RS) is used for compactness.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 Cooler Thermistor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the temperature of the cool air past the No. 1 cooler evaporator sub-assembly and transmits the data to the air conditioning amplifier assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Cooler Expansion Valve</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sprays the refrigerant in an atomized form.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Cooler Thermistor (Ambient Temperature Sensor)*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects ambient temperature and outputs it to the air conditioning amplifier assembly via the combination meter assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Cooler Thermistor (Room Temperature Sensor)*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects room temperature and outputs it to the air conditioning amplifier assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Cooler Thermistor (Solar Sensor)*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the changes in the amount of solar energy and outputs them to the air conditioning amplifier assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Damper Servo Sub-assembly*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Receives the input of the operation signals from the fresh-air/recirculation selector switch via the air conditioning amplifier assembly, operates the motor, and opens and closes the fresh-air/recirculation damper.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mode Damper Servo Sub-assembly*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Receives the input of the operation signals from the mode selector switch via the air conditioning amplifier assembly, operates the motor, and opens and closes the mode damper.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air Mix Control Servo Motor*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Operates the motor to open and close the air mix damper upon receiving the input of the operation signals from the temperature setting dial via the air conditioning amplifier assembly, or when the system is operating under auto control.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Clean Air Filter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Removes other particles to provide a comfortable interior space.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Receives the signals from the engine coolant temperature sensor and transmits them to the air conditioning amplifier assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air Conditioning Pressure Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mounted on the high-pressure pipe, this sensor controls the compressor assembly.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: Models with manual air conditioning system</ptxt>
+</item>
+<item>
+<ptxt>*2: Models with automatic air conditioning system</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>The rear cooler system consists of the following parts:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Cooler Control Switch Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Allows operation and adjustment of the air conditioning system via the switches.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Blower with Fan Motor Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>High magnetic force magnets and ball bearings are used to achieve a compact and lightweight assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Evaporator Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A Revolutionary super-slim Structure (RS) is used for compactness.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>SYSTEM CONTROL</ptxt>
+<step2>
+<ptxt>The air conditioning system uses the following controls:</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="4.24in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Control</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Outlet Air Temp. Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Mix Damper Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This function provisionally calculates the required outlet air temperature through an arithmetic circuit in the air mix damper using the output signals from various sensors, and adjusts the value in accordance with signals from the evaporator temperature sensor and water temperature sensor. The function then determines the appropriate air mix damper opening angle in accordance with the temperature control switch setting. </ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Blower Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Manual Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sets the blower speed in accordance with the operation of the blower switch.</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Automatic Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Time-lagged Air Flow Control:</ptxt>
+<ptxt>2 types of time-lagged air flow control (in accordance with the temperature detected by the evaporator temperature sensor) help prevent hot air from being emitted from the FACE or BI-LEVEL vent.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Sunlight Air Flow Control:</ptxt>
+<ptxt>Controls the blower speed in accordance with the intensity of the sunlight when the air outlet is in FACE or BI-LEVEL. The blower speed can be adjusted in response to the signal received from the solar sensor.</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Air Outlet Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Manual Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Changes the air outlet in accordance with the selected position of the mode select switch.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mode Damper Switching Servomotor Control:</ptxt>
+<ptxt>When the AUTO switch of the heater control panel has been turned on, automatic control causes the mode servomotor to rotate to a desired position in accordance with the target damper opening, which is based on the calculation of the outlet air temperature. (On the models with the automatic cooler, this function switches the damper to FACE or BI-LEVEL.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Compressor Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the DEF mode switch is turned on, the magnetic clutch relay is activated automatically to engage the compressor. Also, when the blower is turned off and the front defroster switch is turned on, the blower will turn on in the automatic control condition.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Self-diagnosis</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Checks the indicator, sensor and actuator in accordance with operation of the heater control panel switches, and then a Diagnostic Trouble Code (DTC) is displayed on the LCD portion to indicate if there is a malfunction or not.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>Air Conditioning Control Assembly</ptxt>
+<step3>
+<ptxt>Air Conditioning Control Assembly</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>A rotary switch type air conditioning control assembly is used.</ptxt>
+</item>
+<item>
+<ptxt>5 air outlet modes are provided on the control panel on the models with manual air conditioning. To enable finer mode settings, a positive feel is provided between the positions of these modes, thus achieving a high comfort level.</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="Y110607" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<list1 type="unordered">
+<item>
+<ptxt>A control cable is used. This cable is circular, and is placed around the cable pulleys that are provided on the air conditioning control assembly and the damper.</ptxt>
+</item>
+<item>
+<ptxt>The operation effort of the air conditioning control assembly is transmitted to the damper via the control cable, which always moves in the pulling direction. Due to the consistent action point of the pulleys, the fluctuation of the operating effort has been minimized through the use of the pulleys. These measures have ensured ease of use and have reduced the operating effort.</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="Y108971E02" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulley</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Base of Pulley</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Control Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Conditioning Control Assembly Side</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Damper Side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Integration Panel Sub-assembly</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>An integration panel sub-assembly with Liquid Crystal Display (LCD) is used to ensure excellent visibility.</ptxt>
+</item>
+<item>
+<ptxt>A push button type integration panel sub-assembly is used. </ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="Y109957" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>Cooler Control Switch Assembly</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The blower motor of the rear cooler can be operated with the rear blower switch only when the cooler switch is on.</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="Y110047" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Air Conditioning Unit</ptxt>
+<step3>
+<ptxt>A semi-center location air conditioning unit is used, in which the evaporator and heater radiator are placed in the vehicle's longitudinal direction. As a result, the air conditioning unit has been made compact and lightweight.</ptxt>
+<figure>
+<graphic graphicname="Y110102E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Heater Radiator Unit Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Cooler Evaporator Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>A partial recirculation system is used. This system has an air inlet control door (sub) in the air inlet duct. Thus, it is able to cycle a small volume of recirculated air even in the FRESH mode, thus enhancing heating performance. When the blower switch is on, the suction force of the blower fan opens this air inlet control door (sub).</ptxt>
+<figure>
+<graphic graphicname="Y110608E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Inlet Control Door</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Inlet Control Door (Sub)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fresh Air</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Recirculated Air</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>No. 1 Cooler Evaporator Sub-assembly</ptxt>
+<step3>
+<ptxt>A Revolutionary super-slim Structure (RS) evaporator is used. By placing the tanks at the top and the bottom of the No. 1 cooler evaporator sub-assembly and by using a micropore tube construction, the following effects have been achieved:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Heat exchanging efficiency is ensured.</ptxt>
+</item>
+<item>
+<ptxt>Temperature distribution is made uniform.</ptxt>
+</item>
+<item>
+<ptxt>The No. 1 cooler evaporator sub-assembly is made thinner.</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="Y100511E02" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Tank</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Micropore Tube</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooling Fin</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>No. 1 Cooler Thermistor</ptxt>
+<step3>
+<ptxt>The No. 1 cooler thermistor detects the temperature of the cool air immediately past the No. 1 cooler evaporator sub-assembly in the form of resistance changes, and outputs it to the air conditioning amplifier assembly.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Heater Radiator Unit Sub-assembly</ptxt>
+<step3>
+<ptxt>This heater radiator unit sub-assembly has been made more compact and performance has been improved by making the core section finer and improving the shapes of the tank section and flow section. Also, the environment has been considered.</ptxt>
+<figure>
+<graphic graphicname="Y100512" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Blower with Fan Motor Sub-assembly</ptxt>
+<step3>
+<ptxt>The blower assembly has a built-in blower controller, and is controlled using duty control performed by the air conditioning amplifier assembly.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Servomotor</ptxt>
+<step3>
+<ptxt>The pulse pattern type servomotor consists of a printed-circuit board and a servomotor. The printed-circuit board has three contact points, and transmits the two on and off signals with different pulse phases to the bus connector. The bus connector detects the damper position and movement direction with these signals, and transmits the results to the air conditioning amplifier.</ptxt>
+</step3>
+<step3>
+<ptxt>After the negative battery terminal cable has been reconnected, the air conditioning amplifier initializes both the mode and air inlet servomotors twice: once when the ignition switch is turned to ON and then turned off. The DEF light inside the heater control panel flashes while initializing.</ptxt>
+<figure>
+<graphic graphicname="Y110039E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Clean Air Filter</ptxt>
+<step3>
+<ptxt>A semi-standard type clean air filter is used. The clean air filter is installed in the upper section of the blower fan for easy replacement of the clean air filter without the need for removing the one-touch clip in the glove box.</ptxt>
+<figure>
+<graphic graphicname="Y112871E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Clean Air Filter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Cooler Condenser Assembly</ptxt>
+<step3>
+<ptxt>In the sub-cool cycle, after the refrigerant passes through the condensing portion of the condenser assembly, both the liquid refrigerant and the gaseous refrigerant that could not be liquefied are cooled again in the super-cooling portion. Thus, the refrigerant is sent to the No. 1 cooler evaporator sub-assembly in an almost completely liquefied state.</ptxt>
+<figure>
+<graphic graphicname="Y110040E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condensing Portion</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Super-cooling Portion</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Modulator</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100136" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Gaseous Refrigerant</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="V100137" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Liquid Refrigerant</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The point at which the air bubbles disappear in the refrigerant of the sub-cool cycle is lower than the proper amount of refrigerant with which the system must be filled. Therefore, if the system is refilled with refrigerant based on the point at which the air bubbles disappear, the amount of refrigerant would be insufficient. As a result, the cooling performance of the system will be affected. If the system is overfilled with refrigerant, this will also lead to reduced performance. For the proper method of verifying the amount of the refrigerant and to refill the system with refrigerant, refer to the corresponding Repair Manual for this model.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="Y100972E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Cooler Compressor Assembly</ptxt>
+<step3>
+<ptxt>A compact, lightweight and low-noise 10-cylinder swash plate type cooler compressor is used.</ptxt>
+<figure>
+<graphic graphicname="Y113024E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Swash Plate</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Piston</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shaft</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Swash Plate Chamber</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Cooler Thermistor (Room Temperature Sensor)</ptxt>
+<step3>
+<ptxt>The cooler thermistor (room temperature sensor) detects the room temperature based on changes in the resistance of its built-in thermistor, and outputs a signal. This signal is used by the air conditioning amplifier assembly.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Cooler Thermistor (Ambient Temperature Sensor)</ptxt>
+<step3>
+<ptxt>The cooler thermistor (ambient temperature sensor) detects the ambient temperature based on changes in the resistance of its built-in thermistor, and outputs a signal. This signal is used by the air conditioning amplifier assembly.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Cooler Thermistor (Solar Sensor)</ptxt>
+<step3>
+<ptxt>The cooler thermistor (solar sensor) consists of a photo diode, 2 amplifier circuits for the cooler thermistor (solar sensor), and a frequency converter circuit for the light control sensor.</ptxt>
+</step3>
+<step3>
+<ptxt>The cooler thermistor (solar sensor) detects (in the form of changes in the current that flows through the built-in photo diode) the changes in the amount of sunlight from its LH and RH sides (2 directions) and outputs these sunlight strength signals to the air conditioning amplifier assembly.</ptxt>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>Mode Position and Damper Operation</ptxt>
+<figure>
+<graphic graphicname="Y110045E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="1.06in"/>
+<colspec colname="COLSPEC0" colwidth="1.06in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="3.19in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Control Damper</ptxt>
+</entry>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle" align="center">
+<ptxt>Operation Position</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Damper Position</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Operation</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Air Inlet Control Damper</ptxt>
+</entry>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle">
+<ptxt>FRESH</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Brings in fresh air.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle">
+<ptxt>RECIRC</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Recirculates internal air.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air Mix Control Damper</ptxt>
+</entry>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle">
+<ptxt>MAX COLD to MAX HOT</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C-D-E</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Varies the mixture ratio of the cool air and the warm air in order to regulate the temperature continuously from HOT to COLD</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="4" valign="middle">
+<ptxt>Mode Control Damper</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>FACE</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100673" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>F, K</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air blows out of the center registers and side register.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BI-LEVEL</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100674" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>F, J</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air blows out of the center registers, side registers and footwell register ducts.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FOOT</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100675" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>G, I</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air blows out of the footwell register ducts and side register. In addition, air blows out slightly from the front defroster.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FOOT/DEF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100676" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>H, I</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Defrosts the windshield through the front defroster and side register, while air is also blown out from the footwell register ducts.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DEF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100677" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>H, K</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Defrosts the windshield through the front defroster and side register.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Air Outlets and Airflow Volume</ptxt>
+<step3>
+<ptxt>Manual Air Conditioning System and Automatic Air Conditioning System Model</ptxt>
+<figure>
+<graphic graphicname="Y112701E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="6">
+<colspec colname="COL1" colwidth="1.19in"/>
+<colspec colname="COL2" colwidth="1.20in"/>
+<colspec colname="COL3" colwidth="1.17in"/>
+<colspec colname="COL4" colwidth="1.19in"/>
+<colspec colname="COL5" colwidth="1.17in"/>
+<colspec colname="COLSPEC0" colwidth="1.16in"/>
+<thead>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Indication</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Mode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Center</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Side</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Footwell</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Defroster</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100673" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>FACE</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100974" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100974" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100674" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>BI-LEVEL</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100976" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100675" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>FOOT</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y104733" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y104733" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100676" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>FOOT/DEF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y104733" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100677" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>DEF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y104733" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The size of the circle ○ indicates the proportion of airflow volume.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Rear Air Outlets</ptxt>
+<figure>
+<graphic graphicname="Y110129" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>DIAGNOSIS</ptxt>
+<step2>
+<ptxt>Diagnostic Trouble Code (DTC)</ptxt>
+<step3>
+<ptxt>The air conditioning amplifier assembly has a self-diagnosis function. It stores any operation failures in the air conditioning system memory in the form of DTCs. For details, refer to the corresponding Repair Manual for this model.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

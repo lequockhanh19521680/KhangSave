@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="routing">
+	<Code id="BC1" type="w2w" subcode="">
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="BK" type="gp" subcode="">
+		<refs type="system" code="SYS022"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="BB1" type="w2w" subcode="">
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="BA1" type="w2w" subcode="">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="BJ" type="gp" subcode="">
+		<refs type="system" code="SYS003"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS022"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="BE2" type="w2w" subcode="">
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="BE1" type="w2w" subcode="">
+		<refs type="system" code="SYS017"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="BD2" type="w2w" subcode="">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS021"/>
+		<refs type="system" code="SYS022"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="BD1" type="w2w" subcode="">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/></Code>
+	<Code id="BD3" type="w2w" subcode="">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS021"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="BD4" type="w2w" subcode="">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS022"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS037"/></Code>
+</CodeList>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AWVT_T00AJ" variety="T00AJ">
+<name>WIPER SWITCH</name>
+<para id="RM00000114801JX" category="A" type-id="30014" name-id="WW550-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000114801JX_01" type-id="01" category="01">
+<s-1 id="RM00000114801JX_01_0001" proc-id="RM21Q0EV__00004ZB00000">
+<ptxt>INSTALL WINDSHIELD WIPER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the windshield wiper switch assembly.</ptxt>
+<atten3>
+<ptxt>Do not push the claw with excessive force as damage may occur.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114801JX_01_0022">
+<ptxt>INSTALL STEERING COLUMN UPPER COVER</ptxt>
+</s-1>
+<s-1 id="RM00000114801JX_01_0011" proc-id="RM21Q0EV__00001T700000">
+<ptxt>INSTALL STEERING COLUMN LOWER COVER
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035005E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the lower cover with the 3 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>2.0</t-value1>
+<t-value2>20</t-value2>
+<t-value3>18</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000114801JX_01_0006" proc-id="RM21Q0EV__00004ZC00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

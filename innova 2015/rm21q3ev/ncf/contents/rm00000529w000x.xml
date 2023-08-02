@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="53">
+<name>Suspension</name>
+<section id="12029_S000I" variety="S000I">
+<name>TIRE / WHEEL</name>
+<ttl id="12029_S000I_7AKNQ_T0012" variety="T0012">
+<name>TIRE AND WHEEL TYPE SYSTEM</name>
+<para id="RM00000529W000X" category="F" type-id="8048W" name-id="TW1M8-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM00000529W000X_z0" proc-id="NM21Q0EV__000003C00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>2 sizes of tire are available.</ptxt>
+</step2>
+<step2>
+<ptxt>1 type of steel disc wheel and 1 type of aluminum disc wheel are available.</ptxt>
+</step2>
+<step2>
+<ptxt>A full size spare tire is available.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.84in"/>
+<colspec colname="COL2" colwidth="2.62in"/>
+<colspec colname="COL3" colwidth="2.62in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Tire Size</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>195/70R14</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>205/65R15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Disc Wheel Size</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>14 x 5<sup>1</sup>/<sub>2</sub>JJ</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>15 x 6J</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Disc Wheel Material</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Steel</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Aluminum</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Pitch Circle Diameter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>114.3 mm (4.5 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Inset</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>45.0 mm (1.8 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Wheel Cap</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Center Ornament</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Wheel Design</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="X105253" width="1.7716535433070868in" height="1.7716535433070868in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="X105362" width="1.7716535433070868in" height="1.7716535433070868in"/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

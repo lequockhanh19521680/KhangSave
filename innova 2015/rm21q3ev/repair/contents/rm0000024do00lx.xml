@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A820_T006E" variety="T006E">
+<name>FOG LIGHT ASSEMBLY</name>
+<para id="RM0000024DO00LX" category="A" type-id="30014" name-id="LIBQU-01" from="201403">
+<name>INSTALLATION</name>
+<subpara id="RM0000024DO00LX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004XJ00001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000024DO00LX_01" type-id="01" category="01">
+<s-1 id="RM0000024DO00LX_01_0004" proc-id="RM21Q0EV__00004XF00001">
+<ptxt>INSTALL FOG LIGHT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 guides to install the fog light assembly LH.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the screw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024DO00LX_01_0011" proc-id="RM21Q0EV__00003PN00000">
+<ptxt>INSTALL FRONT BUMPER COVER (for Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Fog Light:</ptxt>
+<ptxt>Connect the 2 fog light connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 8 claws and 2 guides to install the front bumper cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 5 clips and 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 pin hold clips and 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip and 6 screws.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DO00LX_01_0013" proc-id="RM21Q0EV__00005EH00000">
+<ptxt>INSTALL FRONT BUMPER COVER (except Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Fog Light:</ptxt>
+<ptxt>Connect the 2 fog light connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 8 claws and 2 guide to install the front bumper cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 5 clips and 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 4 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip and 6 screws.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DO00LX_01_0012" proc-id="RM21Q0EV__00003QX00000">
+<ptxt>INSTALL RADIATOR GRILLE (for Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DO00LX_01_0014" proc-id="RM21Q0EV__00005F400000">
+<ptxt>INSTALL RADIATOR GRILLE (except Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DO00LX_01_0008" proc-id="RM21Q0EV__00004XG00001">
+<ptxt>ADJUST FOG LIGHT AIMING</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000001GEG01SX"/>).</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

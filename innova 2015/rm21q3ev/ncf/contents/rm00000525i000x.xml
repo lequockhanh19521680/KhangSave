@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12016_S000B" variety="S000B">
+<name>A45DE AUTOMATIC TRANSMISSION / TRANSAXLE</name>
+<ttl id="12016_S000B_7AIQN_T000Q" variety="T000Q">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM00000525I000X" category="F" type-id="8048Y" name-id="AT9CT-01" from="201202">
+<name>PARTS LOCATION</name>
+<subpara id="RM00000525I000X_z0" proc-id="NM21Q0EV__000002J00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="X104702E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Input Speed Sensor (NC0)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve S2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve S1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve SLT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve SL</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vehicle Speed Sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Output Speed Sensor (SP2)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ATF Temperature Sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Park/Neutral Position Switch Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="X104711E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stop Light Switch Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Lock Control ECU Sub-assembly</ptxt>
+<ptxt>- Transmission Control Switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7AVOM_T00A6" variety="T00A6">
+<name>REAR NO. 1 SEAT ASSEMBLY (for Captain Seat Type)</name>
+<para id="RM000002PBO00RX" category="A" type-id="80002" name-id="SE7QF-05" from="201202" to="201403">
+<name>DISASSEMBLY</name>
+<subpara id="RM000002PBO00RX_01" type-id="11" category="10" proc-id="RM21Q0EV__00004OA00000">
+<content3 releasenbr="1">
+<atten2>
+<ptxt>Wear protective gloves. Sharp areas on the parts may injure your hands.</ptxt>
+</atten2>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the RH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000002PBO00RX_02" type-id="01" category="01">
+<s-1 id="RM000002PBO00RX_02_0006" proc-id="RM21Q0EV__00004OB00000">
+<ptxt>REMOVE REAR SEAT HEADREST ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the rear seat headrest assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0007" proc-id="RM21Q0EV__00004OC00000">
+<ptxt>REMOVE REAR SEAT INNER CUSHION SHIELD RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B155358E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the rear part of the rear seat inner cushion shield RH in the order shown in the illustration, and then detach the claw and remove the rear seat inner cushion shield RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0021" proc-id="RM21Q0EV__00003I700000">
+<ptxt>REMOVE REAR NO. 1 SEAT INNER BELT ASSEMBLY RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B155348" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the nut and rear No. 1 seat inner belt assembly RH.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000002PBO00RX_02_0009" proc-id="RM21Q0EV__00004OD00000">
+<ptxt>REMOVE RECLINING ADJUSTER RELEASE HANDLE RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Raise the reclining adjuster release handle RH to reveal the claw. Using a screwdriver, detach the claw and remove the reclining adjuster release handle RH.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B276711E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0010" proc-id="RM21Q0EV__00004OE00000">
+<ptxt>REMOVE REAR SEAT CUSHION SHIELD RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B155360E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the rear part of the rear seat cushion shield RH in the order shown in the illustration, and then detach the claw and remove the rear seat cushion shield RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0011" proc-id="RM21Q0EV__00004OF00000">
+<ptxt>REMOVE REAR SEAT ARMREST ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the fastener and open the rear seat armrest cover.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fastener</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B278700E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the bolt, armrest lock plate, No. 1 armrest plate and rear seat armrest assembly RH from the rear No. 1 seatback frame.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Armrest Lock Plate</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Armrest Plate</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B278701E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0023" proc-id="RM21Q0EV__00004OR00000">
+<ptxt>REMOVE CENTER SEAT HINGE SPACER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B278702" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the center seat hinge spacer from the rear seat armrest assembly RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0014" proc-id="RM21Q0EV__00004OI00000">
+<ptxt>REMOVE SEATBACK SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using needle nose pliers, remove the seatback spring.</ptxt>
+<figure>
+<graphic graphicname="B276714" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0012" proc-id="RM21Q0EV__00004OG00000">
+<ptxt>REMOVE REAR NO. 1 SEATBACK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 bolts and rear No. 1 seatback assembly from the rear No. 1 seat cushion assembly.</ptxt>
+<figure>
+<graphic graphicname="B278703" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0013" proc-id="RM21Q0EV__00004OH00000">
+<ptxt>REMOVE REAR NO. 1 SEATBACK COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 hooks and roll up the rear No. 1 seatback cover.</ptxt>
+<figure>
+<graphic graphicname="B278704" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the hog rings from the wires of the rear No. 1 seatback cover. Then roll up the rear No. 1 seatback cover.</ptxt>
+<figure>
+<graphic graphicname="B207788" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the hog rings and detach the 2 straps of the rear No. 1 seatback cover.</ptxt>
+<figure>
+<graphic graphicname="B209094" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pass the 2 straps of the rear No. 1 seatback cover through the 2 holes of the No. 1 seatback pad RH to the surface.</ptxt>
+<figure>
+<graphic graphicname="B276725" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Roll up the rear No. 1 seatback cover to detach the 2 hooks.</ptxt>
+<figure>
+<graphic graphicname="B278705" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the hog rings from the center of the No. 1 seatback pad and roll up the rear No. 1 seatback cover.</ptxt>
+<figure>
+<graphic graphicname="B278843" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the hog rings from the upper part of the rear No. 1 seatback frame. Then roll up the rear No. 1 seatback cover.</ptxt>
+<figure>
+<graphic graphicname="B207581" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws and remove the 2 rear seat headrest supports.</ptxt>
+<figure>
+<graphic graphicname="B207089" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the hog rings and rear No. 1 seatback cover from the No. 1 seatback pad RH.</ptxt>
+<figure>
+<graphic graphicname="B207091" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0022" proc-id="RM21Q0EV__00004OQ00000">
+<ptxt>REMOVE NO. 1 SEATBACK PAD RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No. 1 seatback pad RH from the rear No. 1 seatback frame.</ptxt>
+<figure>
+<graphic graphicname="B207090" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0024" proc-id="RM21Q0EV__00004OS00000">
+<ptxt>REMOVE REAR SEAT CUSHION EDGE PROTECTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B278707E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Bend out the 2 cushion edge tabs.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cushion Edge Tab</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Be careful not to break the cushion edge tabs.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the 2 rear seat cushion edge protectors from the 2 cushion edge tabs.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0025" proc-id="RM21Q0EV__00004OT00000">
+<ptxt>REMOVE SEAT CUSHION COVER WITH PAD</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B278709E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear No. 1 Seat Cushion Cover Lower Part</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<s2>
+<ptxt>Detach the hook.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the hog rings and fold back the lower part of the rear No. 1 seat cushion cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the hog rings and the seat cushion cover with pad from the rear No. 1 seat cushion frame.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0015" proc-id="RM21Q0EV__00004OJ00000">
+<ptxt>REMOVE REAR NO. 1 SEAT CUSHION COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the hog rings and rear No. 1 seat cushion cover from the rear No. 1 seat cushion pad.</ptxt>
+<figure>
+<graphic graphicname="B207084" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0020" proc-id="RM21Q0EV__00004OO00000">
+<ptxt>REMOVE REAR SEAT CUSHION EDGE PROTECTOR RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B278711" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear seat cushion edge protector RH from the reclining adjuster lower arm sub-assembly RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0016" proc-id="RM21Q0EV__00004OK00000">
+<ptxt>REMOVE NO. 1 SEAT CUSHION FRAME SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 bolts and No. 1 seat cushion frame sub-assembly RH.</ptxt>
+<figure>
+<graphic graphicname="B281157" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0017" proc-id="RM21Q0EV__00004OL00000">
+<ptxt>REMOVE SEAT TRACK ADJUSTING HANDLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver, detach the 2 springs and remove the seat track adjusting handle as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B278713" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<figure>
+<graphic graphicname="B278715" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>The seat track adjusting handle will get caught on the springs when removing it. Detach the springs to remove the seat track adjusting handle.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0018" proc-id="RM21Q0EV__00004OM00000">
+<ptxt>REMOVE RECLINING ADJUSTER LOWER ARM SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 bolts and reclining adjuster lower arm sub-assembly LH from the rear seat inner track assembly RH.</ptxt>
+<figure>
+<graphic graphicname="B155370" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBO00RX_02_0019" proc-id="RM21Q0EV__00004ON00000">
+<ptxt>REMOVE RECLINING ADJUSTER LOWER ARM SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

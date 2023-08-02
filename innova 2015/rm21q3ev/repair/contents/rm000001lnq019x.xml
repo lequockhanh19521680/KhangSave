@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A83C_T007Q" variety="T007Q">
+<name>POWER WINDOW REGULATOR MOTOR</name>
+<para id="RM000001LNQ019X" category="G" type-id="3001K" name-id="WS0E5-02" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001LNQ019X_01" type-id="01" category="01">
+<s-1 id="RM000001LNQ019X_01_0001" proc-id="RM21Q0EV__00002PY00000">
+<ptxt>INSPECT POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Front LH)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B086401E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply battery voltage to connector terminals 1 and 2.</ptxt>
+<atten3>
+<ptxt>Do not apply battery voltage to any terminals except terminals 1 and 2.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Check that the motor gear rotates smoothly as follows.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 1</ptxt>
+<ptxt>Battery negative (-) → 2</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates counterclockwise</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates clockwise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the regulator motor assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LNQ019X_01_0002" proc-id="RM21Q0EV__00002PZ00000">
+<ptxt>INSPECT POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Front RH)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B086400E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply battery voltage to connector terminals 1 and 2.</ptxt>
+<atten3>
+<ptxt>Do not apply battery voltage to any terminals except terminals 1 and 2.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Check that the motor gear rotates smoothly as follows.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 1</ptxt>
+<ptxt>Battery negative (-) → 2</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates clockwise</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates counterclockwise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the regulator motor assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LNQ019X_01_0003" proc-id="RM21Q0EV__00002Q000000">
+<ptxt>INSPECT POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Rear LH)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085065E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply battery voltage to connector terminals 1 and 2.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the motor gear rotates smoothly as follows.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 1</ptxt>
+<ptxt>Battery negative (-) → 2</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates clockwise</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates counterclockwise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the regulator motor assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LNQ019X_01_0004" proc-id="RM21Q0EV__00002Q100000">
+<ptxt>INSPECT POWER WINDOW REGULATOR MOTOR ASSEMBLY (for Rear RH)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085064E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply battery voltage to connector terminals 1 and 2.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the motor gear rotates smoothly as follows.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 1</ptxt>
+<ptxt>Battery negative (-) → 2</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates counterclockwise</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>Motor gear rotates clockwise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the regulator motor assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

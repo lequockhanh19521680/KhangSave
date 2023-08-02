@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A811_T005F" variety="T005F">
+<name>AIR CONDITIONING UNIT</name>
+<para id="RM0000012JQ024X" category="A" type-id="80002" name-id="ACFTN-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000012JQ024X_01" type-id="01" category="01">
+<s-1 id="RM0000012JQ024X_01_0022" proc-id="RM21Q0EV__00004F500000">
+<ptxt>REMOVE AIR CONDITIONING AMPLIFIER ASSEMBLY (for Manual Air Conditioning System)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231906" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the screw and air conditioning amplifier assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JQ024X_01_0027" proc-id="RM21Q0EV__00004HN00000">
+<ptxt>REMOVE BLOWER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226179" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 screws and blower assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JQ024X_01_0023" proc-id="RM21Q0EV__00004G900000">
+<ptxt>REMOVE AIR MIX DAMPER CONTROL CABLE SUB-ASSEMBLY (for Manual Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 3 claws and remove the air mix damper control cable sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E226086" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ024X_01_0003" proc-id="RM21Q0EV__00004G300000">
+<ptxt>REMOVE HEATER CONTROL CABLE SUB-ASSEMBLY (for Manual Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 3 claws and remove the heater control cable sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E226087" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ024X_01_0024" proc-id="RM21Q0EV__00004GA00000">
+<ptxt>REMOVE AIR MIX DAMPER SERVO SUB-ASSEMBLY (for Automatic Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 screws and air mix damper servo sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E173249" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ024X_01_0012" proc-id="RM21Q0EV__00004G600000">
+<ptxt>REMOVE MODE DAMPER SERVO SUB-ASSEMBLY (for Automatic Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225044E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the claw and remove the lever.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lever</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 3 screws and mode damper servo sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E225045" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ024X_01_0026" proc-id="RM21Q0EV__00004GB00000">
+<ptxt>REMOVE HEATER RADIATOR UNIT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw and heater radiator unit sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E173260" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ024X_01_0006" proc-id="RM21Q0EV__00004G500000">
+<ptxt>REMOVE NO. 1 COOLER EVAPORATOR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 screws.</ptxt>
+<figure>
+<graphic graphicname="E226116" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 3 claws and remove the lower heater case.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the clamp and remove the No. 1 cooler evaporator sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E212974" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ024X_01_0005" proc-id="RM21Q0EV__00004G400000">
+<ptxt>REMOVE COOLER EXPANSION VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 4 mm socket hexagon wrench, remove the 2 hexagon bolts.</ptxt>
+<figure>
+<graphic graphicname="E225050" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the cooler expansion valve and 2 O-rings from the cooler evaporator.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ024X_01_0017" proc-id="RM21Q0EV__000048I00000">
+<ptxt>REMOVE NO. 1 COOLER THERMISTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No. 1 cooler thermistor (front evaporator temperature sensor).</ptxt>
+<figure>
+<graphic graphicname="E173254" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

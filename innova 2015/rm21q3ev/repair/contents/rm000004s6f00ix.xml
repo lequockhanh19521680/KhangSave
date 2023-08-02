@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLQ_T0097" variety="T0097">
+<name>FRONT BUMPER (for Standard)</name>
+<para id="RM000004S6F00IX" category="A" type-id="30014" name-id="ET6SK-03" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000004S6F00IX_02" type-id="11" category="10" proc-id="RM21Q0EV__00003PS00000">
+<content3 releasenbr="1">
+<atten4>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (See page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004S6F00IX_01" type-id="01" category="01">
+<s-1 id="RM000004S6F00IX_01_0014" proc-id="RM21Q0EV__00003PQ00000">
+<ptxt>INSTALL FRONT BUMPER NO. 2 RETAINER BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front bumper No. 2 retainer bracket with the bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0015" proc-id="RM21Q0EV__00003PR00000">
+<ptxt>INSTALL FRONT BUMPER NO. 1 RETAINER BRACKET</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the front bumper No. 2 retainer bracket.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0001" proc-id="RM21Q0EV__00003PI00000">
+<ptxt>INSTALL FRONT BUMPER SIDE SUPPORT LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws to install the front bumper side support.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0002" proc-id="RM21Q0EV__00003PJ00000">
+<ptxt>INSTALL FRONT BUMPER SIDE SUPPORT RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0007" proc-id="RM21Q0EV__00003PM00000">
+<ptxt>INSTALL FRONT BUMPER REINFORCEMENT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front bumper reinforcement with the 4 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>67</t-value1>
+<t-value2>683</t-value2>
+<t-value4>49</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0004" proc-id="RM21Q0EV__00003PK00000">
+<ptxt>INSTALL RADIATOR SIDE DEFLECTOR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the radiator side deflector with the 2 clips and bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0005" proc-id="RM21Q0EV__00003PL00000">
+<ptxt>INSTALL RADIATOR SIDE DEFLECTOR RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0011" proc-id="RM21Q0EV__00003PN00000">
+<ptxt>INSTALL FRONT BUMPER COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Fog Light:</ptxt>
+<ptxt>Connect the 2 fog light connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 8 claws and 2 guides to install the front bumper cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 5 clips and 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 pin hold clips and 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip and 6 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6F00IX_01_0012" proc-id="RM21Q0EV__00003QX00000">
+<ptxt>INSTALL RADIATOR GRILLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004S6F00IX_01_0013" proc-id="RM21Q0EV__00003PP00000">
+<ptxt>ADJUST FOG LIGHT AIMING (w/ Fog Light)</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000001GEG01SX"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

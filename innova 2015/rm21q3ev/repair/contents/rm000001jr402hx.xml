@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A810_T005E" variety="T005E">
+<name>REAR COOLING UNIT</name>
+<para id="RM000001JR402HX" category="A" type-id="8000E" name-id="ACD2S-05" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000001JR402HX_01" type-id="01" category="01">
+<s-1 id="RM000001JR402HX_01_0001" proc-id="RM21Q0EV__00004BQ00000">
+<ptxt>INSTALL REAR COOLING UNIT EXPANSION VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Sufficiently apply compressor oil to 2 new O-rings and the fitting surface of the evaporator sub-assembly joint.</ptxt>
+<spec>
+<title>Compressor oil</title>
+<specitem>
+<ptxt>ND-OIL 8 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the 2 O-rings to the evaporator sub-assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the rear cooling unit expansion valve to the evaporator sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR402HX_01_0002" proc-id="RM21Q0EV__00004BR00000">
+<ptxt>INSTALL AIR CONDITIONING TUBE AND ACCESSORY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Sufficiently apply compressor oil to 2 new O-rings and the fitting surface of the air conditioning tube and accessory assembly joint.</ptxt>
+<spec>
+<title>Compressor oil</title>
+<specitem>
+<ptxt>ND-OIL 8 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the 2 O-rings to the air conditioning tube and accessory assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 4 mm socket hexagon wrench, install the air conditioning tube and accessory assembly to the evaporator with the 2 hexagon bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>3.4</t-value1>
+<t-value2>34</t-value2>
+<t-value3>30</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the 3 claws to install the cooling unit case (motor side).</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 9 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR402HX_01_0003" proc-id="RM21Q0EV__00004BS00000">
+<ptxt>INSTALL REAR BLOWER MOTOR WITH FAN SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear blower motor with fan sub-assembly with the 3 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR402HX_01_0004" proc-id="RM21Q0EV__00004BT00000">
+<ptxt>INSTALL NO. 2 COOLER UNIT DRAIN HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 2 cooler unit drain hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR402HX_01_0008" proc-id="RM21Q0EV__000047B00000">
+<ptxt>INSTALL BLOWER (REAR) RESISTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the blower (rear) resistor with the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

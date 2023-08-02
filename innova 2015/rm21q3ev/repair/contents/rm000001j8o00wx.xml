@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="40">
+<name>SECURITIES</name>
+<section id="1002N_S000U" variety="S000U">
+<name>THEFT DETERRENT</name>
+<ttl id="1002N_S000U_7A81M_T0060" variety="T0060">
+<name>THEFT DETERRENT SYSTEM</name>
+<para id="RM000001J8O00WX" category="J" type-id="3009M" name-id="TD0B8-03" from="201202">
+<dtccode/>
+<dtcname>ECU Power Source Circuit</dtcname>
+<subpara id="RM000001J8O00WX_01" type-id="60" category="03" proc-id="RM21Q0EV__000027000000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>This circuit provides power to operate the theft warning ECU.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000001J8O00WX_02" type-id="32" category="03" proc-id="RM21Q0EV__000027100000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="B119733E02" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001J8O00WX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000001J8O00WX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001J8O00WX_04_0001" proc-id="RM21Q0EV__000027200000">
+<testtitle>INSPECT FUSE (ECU-B, DCC, DOOR)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ECU-B and DCC fuses from the engine room relay block.</ptxt>
+</test1>
+<test1>
+<ptxt>Remove the DOOR fuse from the NO. 3 relay block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the fuses.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001J8O00WX_04_0002" fin="false">OK</down>
+<right ref="RM000001J8O00WX_04_0003" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001J8O00WX_04_0002" proc-id="RM21Q0EV__000027300000">
+<testtitle>CHECK WIRE HARNESS (THEFT WARNING ECU - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the T20 ECU connector.</ptxt>
+<figure>
+<graphic graphicname="B119734E25" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>T20-4 (+B1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>T20-14 (+B2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>T20-1 (E) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001J8O00WX_04_0005" fin="true">OK</down>
+<right ref="RM000001J8O00WX_04_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001J8O00WX_04_0003">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM000001J8O00WX_04_0004">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001J8O00WX_04_0005">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

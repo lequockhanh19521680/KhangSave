@@ -1,0 +1,2040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y8_T002M" variety="T002M">
+<name>ENGINE UNIT</name>
+<para id="RM000000YMX019X" category="A" type-id="8000E" name-id="EMDPO-01" from="201202" to="201503">
+<name>REASSEMBLY</name>
+<subpara id="RM000000YMX019X_01" type-id="01" category="01">
+<s-1 id="RM000000YMX019X_01_0001" proc-id="RM21Q0EV__00000LF00000">
+<ptxt>INSTALL TIGHT PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply adhesive around the tight plugs.</ptxt>
+<figure>
+<graphic graphicname="A058129E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in new tight plugs as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097965E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09950-60010</s-number>
+<s-subnumber>09951-00300</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07100</s-subnumber>
+<s-subnumber>09951-00350</s-subnumber>
+<s-subnumber>09951-00400</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A097966E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0002" proc-id="RM21Q0EV__00000LG00000">
+<ptxt>INSTALL STUD BOLT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using an E8 "TORX" socket wrench, install the stud bolts labeled A.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using an E7 "TORX" socket wrench, install the stud bolt labeled B.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>When reusing the stud bolt, apply adhesive to the bolt before installing it.</ptxt>
+</atten4>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1344, Three Bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using an E7 "TORX" socket wrench, install the stud bolts labeled C.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="A264466E02" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0003" proc-id="RM21Q0EV__00000LH00000">
+<ptxt>INSTALL STRAIGHT PIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a plastic-faced hammer, tap in new straight pins to the cylinder block.</ptxt>
+<figure>
+<graphic graphicname="G035890E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0004" proc-id="RM21Q0EV__00000LI00000">
+<ptxt>INSTALL RING PIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a plastic-faced hammer, tap in new ring pins to the cylinder block.</ptxt>
+<figure>
+<graphic graphicname="A097969E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0005" proc-id="RM21Q0EV__00000LJ00000">
+<ptxt>INSTALL OIL NOZZLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 5 mm hexagon wrench, install the oil nozzle. </ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.0</t-value1>
+<t-value2>71</t-value2>
+<t-value3>62</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0006" proc-id="RM21Q0EV__00000LK00000">
+<ptxt>INSTALL CYLINDER BLOCK WATER DRAIN COCK</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cylinder block water drain cock as shown in the illustration. </ptxt>
+<figure>
+<graphic graphicname="A097970E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>24.5</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0007" proc-id="RM21Q0EV__00000LL00000">
+<ptxt>INSTALL PISTON WITH PIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Assemble the piston and connecting rod.</ptxt>
+<figure>
+<graphic graphicname="G035729E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a small screwdriver, install a new snap ring at one end of the piston pin hole.</ptxt>
+</s3>
+<s3>
+<ptxt>Gradually heat the piston to approximately 80 to 90°C (176 to 194°F).</ptxt>
+<figure>
+<graphic graphicname="A087202E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Coat the piston pin with engine oil.</ptxt>
+<figure>
+<graphic graphicname="A097972E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Align the front marks of the piston and connecting rod, and push in the piston pin with your thumb.</ptxt>
+<atten4>
+<ptxt>The piston and pin are a matched set.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Check the fit between the piston and piston pin by trying to move the piston back and forth on the piston pin.</ptxt>
+<figure>
+<graphic graphicname="G035197E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Using a small screwdriver, install a new snap ring at the other end of the piston pin hole.</ptxt>
+<figure>
+<graphic graphicname="G035729E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the piston rings.</ptxt>
+<s3>
+<ptxt>Install the oil ring expander and 2 side rails by hand.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="A087190E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a piston ring expander, install the 2 compression rings with the painted mark as shown in the illustration.</ptxt>
+<atten4>
+<figure>
+<graphic graphicname="A240936E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<list1 type="unordered">
+<item>
+<ptxt>The No. 1 compression ring is reversible.</ptxt>
+</item>
+<item>
+<ptxt>There are 2 types of No. 1 compression rings. One type has a code mark and the other does not.</ptxt>
+</item>
+<item>
+<ptxt>Install the No. 1 compression ring with the code mark (1N) facing upward.</ptxt>
+</item>
+<item>
+<ptxt>Install the No. 2 compression ring with the code mark (2N) facing upward.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Position the piston rings so that the ring ends are as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097974E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not align the ring ends.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0008" proc-id="RM21Q0EV__00000LM00000">
+<ptxt>INSTALL CONNECTING ROD BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the bearing claw with the groove of the connecting rod or connecting cap.</ptxt>
+<figure>
+<graphic graphicname="A097986E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the bearings in the connecting rod and connecting rod cap.</ptxt>
+<atten3>
+<ptxt>Clean the backside of the bearing and the bearing surface of the connecting rod. The surface should be free of dust and oil.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0009" proc-id="RM21Q0EV__00000LN00000">
+<ptxt>INSTALL CRANKSHAFT BEARING</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not apply engine oil to the bearing's contact area and backside.</ptxt>
+</item>
+<item>
+<ptxt>The crankshaft bearing cap bolt is tightened in 2 progressive steps.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Clean the main journal, and the interior and exterior of the bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the upper bearing. </ptxt>
+<figure>
+<graphic graphicname="G036601E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Install the upper bearing to the cylinder block so that the upper bearing's lubrication hole is centered within the cylinder block's lubrication hole, as shown in the illustration.</ptxt>
+<spec>
+<title>Reference (Dimension of A)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Journal</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt># 1, 5</ptxt>
+</entry>
+<entry>
+<ptxt>3.75 mm (0.1476 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt># 3</ptxt>
+</entry>
+<entry>
+<ptxt>1.75 mm (0.0689 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt># 2, 4</ptxt>
+</entry>
+<entry>
+<ptxt>2.75 mm (0.1083 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not apply engine oil to the bearing's contact area and backside.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the lower bearing.</ptxt>
+<figure>
+<graphic graphicname="A097958E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Install the lower bearing to the bearing cap.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a vernier caliper, measure the distance between the bearing cap's edge and the lower bearing's edge.</ptxt>
+<spec>
+<title>Dimension (A - B)</title>
+<specitem>
+<ptxt>0.3 mm (0.0118 in.) or less</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Reference (Dimension of A or B)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Journal</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Dimension</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt># 1, 5</ptxt>
+</entry>
+<entry>
+<ptxt>3.83 mm (0.1508 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt># 3</ptxt>
+</entry>
+<entry>
+<ptxt>1.74 mm (0.0685 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt># 2, 4</ptxt>
+</entry>
+<entry>
+<ptxt>2.75 mm (0.1083 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not apply engine oil to the bearing's contact area and backside.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>With the upper bearing and lower bearing installed, use a plastic-faced hammer to install the bearing caps to the cylinder block. </ptxt>
+<atten3>
+<ptxt>Make sure the bearing cap's front mark and journal number are correct.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the amount of misalignment between the upper bearing and lower bearing, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097959E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>Standard value</title>
+<specitem>
+<ptxt>0.9 mm (0.035 in.) or less</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Remove the bearing cap.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0010" proc-id="RM21Q0EV__00000LO00000">
+<ptxt>INSTALL CRANKSHAFT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the crankshaft thrust washer upper to the cylinder block.</ptxt>
+<figure>
+<graphic graphicname="A097960E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Install the 2 thrust washers under the No. 3 journal position of the cylinder block with the oil grooves facing outward.</ptxt>
+<atten3>
+<ptxt>Be careful when installing the thrust bearing upper and lower as they are similar but cannot be interchanged.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the 2 thrust washers on the No. 3 bearing cap with the grooves facing outward.</ptxt>
+<figure>
+<graphic graphicname="A097961E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful when installing the thrust bearing upper and lower as they are similar but cannot be interchanged. The lower bearing has a claw as shown in the illustration.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Apply engine oil to the upper bearing, then place the crankshaft on the cylinder block.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply engine oil to the lower bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 5 crankshaft bearing caps in their proper locations.</ptxt>
+<figure>
+<graphic graphicname="A097963E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the crankshaft bearing cap bolts.</ptxt>
+<figure>
+<graphic graphicname="A097951E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The main bearing cap bolts are tightened in 2 progressive steps.</ptxt>
+</item>
+<item>
+<ptxt>If any of the main bearing cap bolts are broken or deformed, replace them as necessary.</ptxt>
+</item>
+</list1>
+</atten4>
+<s3>
+<ptxt>Install and uniformly tighten the 10 main bearing cap bolts in the sequence shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>39</t-value1>
+<t-value2>398</t-value2>
+<t-value4>29</t-value4>
+</torqueitem>
+</torque>
+<ptxt>If any one of the main bearing cap bolts does not meet the torque specification, replace the main bearing cap bolt.</ptxt>
+</s3>
+<s3>
+<ptxt>Mark the front of the bearing cap bolts with paint.</ptxt>
+<figure>
+<graphic graphicname="A099641E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Retighten the bearing cap bolts by 90° in the numerical order above.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the painted marks are now at a 90° angle to the front.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check that the crankshaft turns smoothly.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the crankshaft thrust clearance.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0011" proc-id="RM21Q0EV__00000LP00000">
+<ptxt>INSTALL PISTON WITH CONNECTING ROD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a piston ring compressor, push the correctly numbered piston and connecting rod assembly into the cylinder with the front mark of the piston facing forward.</ptxt>
+<figure>
+<graphic graphicname="A097979E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Match the numbered connecting rod cap with the connecting rod.</ptxt>
+</s3>
+<s3>
+<ptxt>Align the pins of the connecting rod cap with the pin holes of the connecting rod, and install the connecting rod cap.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the front mark of the connecting rod cap is facing forward.</ptxt>
+<figure>
+<graphic graphicname="A097980E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the connecting rod cap bolts.</ptxt>
+<figure>
+<graphic graphicname="G035198E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The connecting rod cap bolts are tightened in 2 progressive steps.</ptxt>
+</item>
+<item>
+<ptxt>If any connecting rod bolt is broken or deformed, replace it.</ptxt>
+</item>
+</list1>
+</atten4>
+<s3>
+<ptxt>Apply a light coat of engine oil on the threads and under the heads of the connecting rod cap bolts.</ptxt>
+</s3>
+<s3>
+<ptxt>Install and alternately tighten the bolts of the connecting rod cap in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>24.5</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+<ptxt>If any one of the connecting rod cap bolts does not meet the torque specification, replace the cap bolts.</ptxt>
+</s3>
+<s3>
+<ptxt>Mark the front of the connecting rod cap bolts with paint.</ptxt>
+<figure>
+<graphic graphicname="A099641E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Retighten the connecting rod cap bolts by 90° as shown.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the painted marks are now at a 90° angle to the front.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check that the crankshaft turns smoothly.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the connecting rod thrust clearance.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0012" proc-id="RM21Q0EV__00000LQ00000">
+<ptxt>INSTALL RING PIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a plastic-faced hammer, tap in a new ring pin until the pin stops.</ptxt>
+<figure>
+<graphic graphicname="G035306E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0013" proc-id="RM21Q0EV__00000LR00000">
+<ptxt>INSTALL NO. 1 HEAD STRAIGHT SCREW PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 10 mm hexagon wrench, install a new gasket and the straight screw plug.</ptxt>
+<figure>
+<graphic graphicname="A099454E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0014" proc-id="RM21Q0EV__00000LS00000">
+<ptxt>INSTALL NO. 2 HEAD STRAIGHT SCREW PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 19 mm hexagon wrench, install a new gasket and the straight screw plug.</ptxt>
+<figure>
+<graphic graphicname="A099455E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>140</t-value1>
+<t-value2>1428</t-value2>
+<t-value4>103</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0015" proc-id="RM21Q0EV__00000LT00000">
+<ptxt>INSTALL TIGHT PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply adhesive to the tight plug hole of the cylinder head.</ptxt>
+<figure>
+<graphic graphicname="A058129E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using SST, tap in a new tight plug to the cylinder head as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097941E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09950-60010</s-number>
+<s-subnumber>09951-00250</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07100</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0016" proc-id="RM21Q0EV__00000LU00000">
+<ptxt>INSTALL STUD BOLT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using E5 and E7 "TORX" socket wrenches, install the stud bolts.</ptxt>
+<figure>
+<graphic graphicname="A170634E06" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>3.0</t-value1>
+<t-value2>31</t-value2>
+<t-value3>27</t-value3>
+<ptxt>for stud bolt A</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+<ptxt>for stud bolt B and C</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0017" proc-id="RM21Q0EV__00000LV00000">
+<ptxt>INSTALL OIL CONTROL VALVE FILTER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that no foreign matter is on the mesh part of the filter.</ptxt>
+<figure>
+<graphic graphicname="A097943E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If foreign objects are present, clean the part thoroughly.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 6 mm hexagon wrench, install a new gasket and the oil control valve filter with the screw plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>30</t-value1>
+<t-value2>306</t-value2>
+<t-value4>22</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0018">
+<ptxt>INSTALL VALVE SPRING SEAT</ptxt>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0019" proc-id="RM21Q0EV__00000LW00000">
+<ptxt>INSTALL VALVE STEM OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of engine oil on a new oil seal.</ptxt>
+<figure>
+<graphic graphicname="A097944E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Pay close attention when installing the intake and exhaust oil seals. For example, installing the intake oil seal into the exhaust or installing the exhaust oil seal to the intake can cause installation problems later.</ptxt>
+</atten3>
+<atten4>
+<ptxt>The intake valve oil seal is gray and the exhaust valve oil seal is black.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using SST, push in the oil seal. </ptxt>
+<figure>
+<graphic graphicname="A099457E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09201-41020</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Failure to use SST will cause the seal to be damaged or improperly seated.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0020" proc-id="RM21Q0EV__00000LX00000">
+<ptxt>INSTALL INTAKE VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply plenty of engine oil to the tip area of the intake valve indicated in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097945E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the valve, spring seat, compression spring and spring retainer to the cylinder head.</ptxt>
+<figure>
+<graphic graphicname="A087176E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Install the same parts in the same combination to the original locations.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using SST and wooden blocks, compress the spring and install the 2 retainer locks.</ptxt>
+<sst>
+<sstitem>
+<s-number>09202-70020</s-number>
+<s-subnumber>09202-00010</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A097931E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a 5 mm pin punch and plastic-faced hammer, lightly tap the valve stem tip to ensure a proper fit. </ptxt>
+<figure>
+<graphic graphicname="A099458E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the valve stem tip.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0021" proc-id="RM21Q0EV__00000LY00000">
+<ptxt>INSTALL EXHAUST VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply plenty of engine oil to the tip area of the intake valve indicated in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099459E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the valve, spring seat, compression spring and spring retainer to the cylinder head.</ptxt>
+<figure>
+<graphic graphicname="A087017E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Install the same parts in the same combination to the original locations.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using SST and wooden blocks, compress the spring and install the 2 retainer locks.</ptxt>
+<sst>
+<sstitem>
+<s-number>09202-70020</s-number>
+<s-subnumber>09202-00010</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A097946E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a 5 mm pin punch and plastic-faced hammer, lightly tap the valve stem tip to ensure a proper fit. </ptxt>
+<figure>
+<graphic graphicname="A097947E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the valve stem tip.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0022" proc-id="RM21Q0EV__00000LZ00000">
+<ptxt>INSTALL VALVE LASH ADJUSTER</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Keep the lash adjuster free from dirt and foreign objects.</ptxt>
+</item>
+<item>
+<ptxt>Only use clean engine oil.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Place the lash adjuster into a container full of engine oil.</ptxt>
+<figure>
+<graphic graphicname="A097867E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Insert SST's tip into the lash adjuster's plunger and use the tip to press down on the check ball inside the plunger. </ptxt>
+<sst>
+<sstitem>
+<s-number>09276-75010</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Squeeze SST and the lash adjuster together to move the plunger up and down 5 to 6 times.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the movement of the plunger and bleed the air.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Plunger moves up and down.</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>When bleeding high-pressure air from the compression chamber, make sure that the tip of SST is actually pressing the check ball as shown in the illustration. If the check ball is not pressed, air will not bleed.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>After bleeding the air, remove SST. Then, try to quickly and firmly press the plunger with one finger.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Plunger is very difficult to move.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the lash adjuster.</ptxt>
+<atten3>
+<ptxt>Install the lash adjuster to the same place it was removed from.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0023" proc-id="RM21Q0EV__00000M000000">
+<ptxt>INSTALL VALVE STEM CAP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of engine oil to the valve stem cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the valve stem cap to the cylinder head.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0024" proc-id="RM21Q0EV__00000M100000">
+<ptxt>INSTALL VALVE ROCKER ARM</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply clean engine oil to the valve lash adjuster tip and valve stem cap surface. Then install the valve rocker arm. </ptxt>
+<figure>
+<graphic graphicname="G035211E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Install the valve stem cap, lash adjuster and valve rocker arm to the same place it was removed from.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0025" proc-id="RM21Q0EV__00000M200000">
+<ptxt>INSTALL ENGINE REAR OIL SEAL RETAINER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply seal packing in a continuous line to the places shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097914E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1344, Three Bond 1344 or Equivalent</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard seal diameter</title>
+<specitem>
+<ptxt>2 to 3 mm (0.079 to 0.118 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Remove any oil from the contact surface.</ptxt>
+</item>
+<item>
+<ptxt>Install the crankcase within 3 minutes after applying seal packing.</ptxt>
+</item>
+<item>
+<ptxt>Do not start the engine for at least 2 hours after the installation.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the oil seal with the 6 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>133</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0026" proc-id="RM21Q0EV__00000M300000">
+<ptxt>INSTALL OIL FILTER BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new O-ring to the oil filter bracket.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new O-ring and gasket to the oil filter bracket union bolt.</ptxt>
+<atten3>
+<ptxt>Apply a light coat of engine oil to the new O-ring.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the oil filter bracket with the oil filter union bolt and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>68.5</t-value1>
+
+<t-value2>699</t-value2>
+<t-value4>51</t-value4>
+<ptxt>for union bolt</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>255</t-value2>
+<t-value4>18</t-value4>
+<ptxt>for nut</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0027" proc-id="RM21Q0EV__00000M400000">
+<ptxt>INSTALL OIL FILTER UNION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 27 mm socket wrench, install the oil filter union. </ptxt>
+<torque>
+<torqueitem>
+<t-value1>43</t-value1>
+<t-value2>438</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0028" proc-id="RM21Q0EV__00000M500000">
+<ptxt>INSTALL OIL FILTER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check and clean the oil filter installation surface.</ptxt>
+<figure>
+<graphic graphicname="A097902E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply clean engine oil to the gasket of a new oil filter.</ptxt>
+</s2>
+<s2>
+<ptxt>Lightly screw the oil filter into place, and tighten it until the gasket contacts the seat.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, tighten the oil filter. </ptxt>
+<sst>
+<sstitem>
+<s-number>09228-07501</s-number>
+</sstitem>
+</sst>
+<s3>
+<ptxt>When using a torque wrench:</ptxt>
+<torque>
+<torqueitem>
+<t-value1>17.2</t-value1>
+<t-value2>175</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>When not using a torque wrench:</ptxt>
+<ptxt>Tighten the oil filter a 3/4 turn using a common wrench.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0029" proc-id="RM21Q0EV__00000M600000">
+<ptxt>INSTALL CYLINDER HEAD GASKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply seal packing to the cylinder block upper side and cylinder head gasket upper side as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097915E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1282B, Three Bond 1282B or Equivalent</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard seal diameter</title>
+<specitem>
+<ptxt>4 to 7 mm (0.15 to 0.28 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Remove any oil from the contact surface.</ptxt>
+</item>
+<item>
+<ptxt>Install the cylinder head gasket within 3 minutes after applying the seal packing.</ptxt>
+</item>
+<item>
+<ptxt>Install the cylinder head bolts within 15 minutes after applying the seal packing.</ptxt>
+</item>
+<item>
+<ptxt>Do not add engine oil within 4 hours of installation.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Place a new cylinder head gasket on the cylinder block surface with the Lot No. stamp facing upward. </ptxt>
+<figure>
+<graphic graphicname="A097916E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure the installation direction is correct.</ptxt>
+</item>
+<item>
+<ptxt>Place the cylinder head gently to avoid damaging the gasket with the bottom part of the head.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0030" proc-id="RM21Q0EV__00000M700000">
+<ptxt>INSTALL CYLINDER HEAD</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>The cylinder head bolts are tightened in 3 progressive steps.</ptxt>
+</atten4>
+<s2>
+<ptxt>Place the cylinder head on the cylinder block.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply a light coat of engine oil on the threads and under the heads of the cylinder head bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 10 mm bi-hexagon wrench, install and uniformly tighten the 10 cylinder head bolts with the plate washers, in several passes, in the sequence shown. </ptxt>
+<figure>
+<graphic graphicname="A097901E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>39</t-value1>
+<t-value2>398</t-value2>
+<t-value4>29</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Mark the front of the cylinder head bolt heads with paint.</ptxt>
+<figure>
+<graphic graphicname="A097917E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Retighten the cylinder head bolts by 90° in the numerical order shown.</ptxt>
+</s2>
+<s2>
+<ptxt>Retighten the cylinder head bolts by an additional 90°.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the painted marks are now facing rearward.</ptxt>
+</s2>
+<s2>
+<ptxt>Seal packing will seep out on the engine's front side. Thoroughly wipe clean any seal packing.</ptxt>
+<figure>
+<graphic graphicname="A097918E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0031" proc-id="RM21Q0EV__00000M800000">
+<ptxt>INSTALL CAMSHAFT TIMING GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Put the camshaft timing gear and camshaft together by aligning the key groove and straight pin.</ptxt>
+<figure>
+<graphic graphicname="A097872E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that there is no gap between the gear's flange and the camshaft.</ptxt>
+</s2>
+<s2>
+<ptxt>With the camshaft timing gear fixed in place, tighten the flange bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>78</t-value1>
+<t-value2>795</t-value2>
+<t-value4>58</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0032" proc-id="RM21Q0EV__00000M900000">
+<ptxt>INSTALL CAMSHAFT TIMING SPROCKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Clamp the camshaft in a vise and then install the camshaft timing sprocket to the camshaft with the sprocket bolt.</ptxt>
+<figure>
+<graphic graphicname="A086867E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>78</t-value1>
+<t-value2>795</t-value2>
+<t-value4>58</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Be careful not to damage the camshaft in the vise.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0053" proc-id="RM21Q0EV__00000MN00000">
+<ptxt>INSTALL CAMSHAFT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply clean engine oil to the camshaft's cam portion and the cylinder head journals.</ptxt>
+<figure>
+<graphic graphicname="G034736E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Set the camshaft and No. 2 camshaft as shown in the illustration.</ptxt>
+<atten3>
+<ptxt>Before and after setting the camshaft and No. 2 camshaft, firmly set the rocker arm to the lash adjuster. </ptxt>
+</atten3>
+<figure>
+<graphic graphicname="G035211E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Loosely install the No. 1 camshaft bearing cap.</ptxt>
+<figure>
+<graphic graphicname="A113790E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check the proper location of each No. 2 camshaft bearing cap and install each one.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new O-ring to the  No. 1 camshaft bearing cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosely install the oil delivery pipe.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 21 bolts in the order shown in the illustration. </ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+<ptxt>for bolt A</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>15.5</t-value1>
+<t-value2>158</t-value2>
+<t-value4>11</t-value4>
+<ptxt>for except bolt A</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0033" proc-id="RM21Q0EV__00000MA00000">
+<ptxt>INSTALL OIL JET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new gasket and the oil jet with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0034" proc-id="RM21Q0EV__00000MB00000">
+<ptxt>INSTALL CRANKSHAFT PULLEY SET KEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 pulley keys to the crankshaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0035" proc-id="RM21Q0EV__00000MC00000">
+<ptxt>INSTALL CRANKSHAFT POSITION SENSOR PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the sensor plate with the front mark facing forward.</ptxt>
+<figure>
+<graphic graphicname="A097919E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0036" proc-id="RM21Q0EV__00000MD00000">
+<ptxt>INSTALL CRANKSHAFT TIMING SPROCKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the timing sprocket as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0037" proc-id="RM21Q0EV__00000ME00000">
+<ptxt>INSTALL CHAIN VIBRATION DAMPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the vibration damper with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0038" proc-id="RM21Q0EV__00000MF00000">
+<ptxt>INSTALL CHAIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>As shown in the illustration, install the chain on the sprocket and gear with the painted marks aligned with the timing marks on the sprocket and gear.</ptxt>
+<figure>
+<graphic graphicname="A097920E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The camshaft mark plate is yellow.</ptxt>
+</item>
+<item>
+<ptxt>The crankshaft mark plate is orange.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Use a rope to tie the chain of the crankshaft timing sprocket. Tie the rope near the sprocket.</ptxt>
+<figure>
+<graphic graphicname="A086975E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>After the chain tensioner has been installed, the rope must be removed.</ptxt>
+</atten3>
+<atten4>
+<ptxt>The rope is tied so that the chain will not jump a tooth.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0039" proc-id="RM21Q0EV__00000MG00000">
+<ptxt>INSTALL CHAIN TENSIONER SLIPPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the tensioner slipper with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0040" proc-id="RM21Q0EV__00000MH00000">
+<ptxt>INSTALL CHAIN TENSIONER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Move the stopper plate upward to release the lock, and push the plunger deep into the tensioner.</ptxt>
+<figure>
+<graphic graphicname="G037277E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Move the stopper plate downward to set the lock, and insert a 12.7 mm hexagon wrench into the stopper plate's hole.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the chain tensioner with the bolt and nut.</ptxt>
+<figure>
+<graphic graphicname="G039810E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>10</t-value1>
+<t-value2>102</t-value2>
+<t-value4>7</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0041" proc-id="RM21Q0EV__00000MI00000">
+<ptxt>INSTALL TIMING CHAIN GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new O-ring and the chain guide with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="G037278E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>10</t-value1>
+<t-value2>102</t-value2>
+<t-value4>7</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Remove the hexagon wrench.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0056" proc-id="RM21Q0EV__00000MP00000">
+<ptxt>INSTALL OIL PUMP RELIEF VALVE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat the relief valve with engine oil.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert the relief valve and spring into the pump body hole.</ptxt>
+<figure>
+<graphic graphicname="A086864E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install a new gasket to the plug.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 27 mm socket wrench, install the plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMX019X_01_0054" proc-id="RM21Q0EV__00000J500000">
+<ptxt>INSTALL TIMING CHAIN COVER OIL SEAL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place the timing chain cover on wooden blocks.</ptxt>
+<figure>
+<graphic graphicname="A097898E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver with its tip taped, pry out the oil seal.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in a new oil seal until its surface is flush with the timing chain cover edge.</ptxt>
+<figure>
+<graphic graphicname="A172563E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09223-75010</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07150</s-subnumber>
+</sstitem>
+</sst>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Keep the lip free from foreign matter.</ptxt>
+</item>
+<item>
+<ptxt>Do not tap the oil seal at an angle.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>When installing the crankshaft pulley, check the shape of the pulley. The correct pulley has a groove (See page <xref label="Seep01" href="RM000000YMX019X_01_0055"/>).</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Apply a light coat of MP grease to the oil seal lip.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMX019X_01_0057" proc-id="RM21Q0EV__00000MQ00000">
+<ptxt>INSTALL WATER PUMP ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new gasket and the water pump with the 8 bolts.</ptxt>
+<figure>
+<graphic graphicname="A087223E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>133</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMX019X_01_0058" proc-id="RM21Q0EV__00000MR00000">
+<ptxt>INSTALL TIMING CHAIN COVER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install 3 new O-rings to the timing chain cover as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A116074E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply adhesive to the timing chain cover plug.</ptxt>
+<figure>
+<graphic graphicname="A058128E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota genuine adhesive 1324, three bond 1324 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using a 10 mm socket hexagon wrench, install the timing chain cover plug.</ptxt>
+<figure>
+<graphic graphicname="G036021E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>16.6</t-value1>
+<t-value2>169</t-value2>
+<t-value4>12</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Apply seal packing in a continuous line as shown in the illustration.</ptxt>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota genuine seal packing block, three bond 1207B or equivalent</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard seal diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Position</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A - A, C - C</ptxt>
+</entry>
+<entry>
+<ptxt>2.5 to 3.0 mm (0.098 to 0.118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B - B, D - D</ptxt>
+</entry>
+<entry>
+<ptxt>4.0 to 4.5 mm (0.157 to 0.177 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E</ptxt>
+</entry>
+<entry>
+<ptxt>3.0 to 3.5 mm (0.118 to 0.138 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Remove any oil from the contact surface.</ptxt>
+</item>
+<item>
+<ptxt>Install the timing chain cover within 3 minutes and tighten the bolts within 15 minutes after applying seal packing.</ptxt>
+</item>
+<item>
+<ptxt>Do not start the engine for at least 4 hours after the installation.</ptxt>
+</item>
+</list1>
+</atten3>
+<figure>
+<graphic graphicname="G038862E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the oil pump's drive rotor spline and crankshaft as shown in the illustration. Install the spline and chain cover plate to the crankshaft.</ptxt>
+<figure>
+<graphic graphicname="A087226E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Loosely install the timing chain cover with the 19 bolts and 2 nuts, but do not tighten the bolts and nuts yet.</ptxt>
+</s2>
+<s2>
+<ptxt>Excluding the bolts labeled A and C, tighten the bolts and nuts in this order: Area 1, Area 2 and Area 3. </ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+<spec>
+<title>Bolt Length</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Length</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Thread Diameter</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Bolt A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>75 mm (2.95 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 mm (0.394 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Bolt B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>75 mm (2.95 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8 mm (0.315 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Bolt C</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>90 mm (3.54 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8 mm (0.315 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Bolt D</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>95 mm (3.74 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8 mm (0.315 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Bolt E</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>35 mm (1.38 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8 mm (0.315 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Bolt F</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>75 mm (2.95 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 mm (0.394 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Excluding the bolts labeled A, E and F, tighten the bolts and nuts in this order: Area 1, Area 3, Area 2.</ptxt>
+<torque>
+<subtitle>for bolt C</subtitle>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+<subtitle>for bolt B, D and nut</subtitle>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Tighten the bolts labeled A in this order: Area 2 and Area 3.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>60</t-value1>
+<t-value2>612</t-value2>
+<t-value4>44</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Tighten the bolt labeled F.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>46</t-value1>
+<t-value2>469</t-value2>
+<t-value4>34</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Tighten the bolts labeled E in Area 4.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="G037337E09" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMX019X_01_0046" proc-id="RM21Q0EV__00000MJ00000">
+<ptxt>INSTALL NO. 1 OIL PAN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the stud bolt.</ptxt>
+<s3>
+<ptxt>Using an E5 "TORX" socket wrench, install the stud bolts labeled A for the oil pan as shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>Using an E7 "TORX" socket wrench, install the stud bolts labeled B for the oil strainer as shown in the illustration. </ptxt>
+<torque>
+<torqueitem>
+<t-value1>3.0</t-value1>
+<t-value2>31</t-value2>
+<t-value3>27</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="G035730E10" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</s3>
+</s2>
+<s2>
+<ptxt>Install a new tight plug.</ptxt>
+<figure>
+<graphic graphicname="A058129E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Apply adhesive around a new tight plug.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>Using SST, install the tight plug as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099218E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09950-60010</s-number>
+<s-subnumber>09951-00300</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07100</s-subnumber>
+</sstitem>
+</sst>
+</s3>
+</s2>
+<s2>
+<ptxt>Apply seal packing in a continuous line to the places shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G038861E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing Black, Three Bond 1207B or Equivalent</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard seal diameter</title>
+<specitem>
+<ptxt>2 to 3 mm (0.08 to 0.12 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Remove any oil from the contact surface.</ptxt>
+</item>
+<item>
+<ptxt>Install the crankcase within 3 minutes after applying seal packing.</ptxt>
+</item>
+<item>
+<ptxt>Do not start the engine for at least 4 hours after the installation.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Temporarily install the oil pan with the 16 bolts and 2 nuts.</ptxt>
+<figure>
+<graphic graphicname="A099220E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Bolt length:</ptxt>
+<ptxt>20 mm (0.79 in.) for bolt A</ptxt>
+<ptxt>40 mm (1.57 in.) for bolt B</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Uniformly tighten the 16 bolts and 2 nuts in the sequence shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0059" proc-id="RM21Q0EV__00000MS00000">
+<ptxt>INSTALL OIL STRAINER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new gasket and the oil strainer with the bolt and 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMX019X_01_0060" proc-id="RM21Q0EV__00000MT00000">
+<ptxt>INSTALL NO. 2 OIL PAN
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply seal packing in a continuous line as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099221E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota genuine seal packing block, three bond 1207B or equivalent</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard seal diameter</title>
+<specitem>
+<ptxt>2.5 to 3.5 mm (0.098 to 0.138 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Remove any oil from the contact surface.</ptxt>
+</item>
+<item>
+<ptxt>Install the oil pan within 3 minutes after applying seal packing.</ptxt>
+</item>
+<item>
+<ptxt>Do not start the engine for at least 4 hours after the installation.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Temporarily install the oil pan with the 20 bolts and 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Uniformly tighten the 20 bolts and 2 nuts in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099214E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMX019X_01_0055" proc-id="RM21Q0EV__00000MO00000">
+<ptxt>CHECK CRANKSHAFT PULLEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the crankshaft pulley matches the pulley labeled A in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A170499E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>If the crankshaft pulley matches the pulley labeled B, replace the crankshaft pulley.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0049" proc-id="RM21Q0EV__00000MK00000">
+<ptxt>INSTALL CRANKSHAFT PULLEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the pulley set key with the key groove of the pulley, and slide on the pulley.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, install a new pulley bolt. </ptxt>
+<figure>
+<graphic graphicname="A097885E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09213-54015</s-number>
+<s-subnumber>91651-60855</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+<torque>
+<torqueitem>
+<t-value1>260</t-value1>
+<t-value2>2,651</t-value2>
+<t-value4>192</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not reuse the pulley bolt.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0050" proc-id="RM21Q0EV__00000ML00000">
+<ptxt>INSTALL CYLINDER HEAD COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 gaskets to the head cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply seal packing to the places shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099825E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing Black, Three Bond 1207B or Equivalent</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Remove any oil from the contact surface.</ptxt>
+</item>
+<item>
+<ptxt>Install the crankcase within 3 minutes after applying seal packing.</ptxt>
+</item>
+<item>
+<ptxt>Do not start the engine for at least 2 hours after the installation.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Temporarily install the cover with the 19 bolts and 2 nuts.</ptxt>
+<figure>
+<graphic graphicname="G035202E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Uniformly tighten the 19 bolts and 2 nuts in the sequence shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>In numerical order, confirm that the bolts labeled 1 to 8 are tightened to the torque specification. Tighten the bolts as necessary.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0051" proc-id="RM21Q0EV__00000MM00000">
+<ptxt>INSTALL VENTILATION VALVE</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+<s-1 id="RM000000YMX019X_01_0052">
+<ptxt>INSTALL OIL FILLER CAP</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

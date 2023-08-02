@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXP01HX" category="J" type-id="303L1" name-id="RSDW1-01" from="201202" to="201303">
+<dtccode/>
+<dtcname>SRS Warning Light Remains ON</dtcname>
+<subpara id="RM000000YXP01HX_01" type-id="60" category="03" proc-id="RM21Q0EV__000021900000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The SRS warning light is located on the combination meter. When the SRS is normal, the SRS warning light illuminates for approximately 6 seconds after the ignition switch is turned from OFF to ON, and then turns OFF automatically. If there is a malfunction in the SRS, the SRS warning light illuminates to inform the driver. When terminals TC and CG of the DLC3 are connected, the DTCs are communicated through SRS warning light blinking patterns.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000YXP01HX_02" type-id="32" category="03" proc-id="RM21Q0EV__000021A00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="H101255E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000YXP01HX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000YXP01HX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000YXP01HX_04_0001" proc-id="RM21Q0EV__000021B00000">
+<testtitle>INSPECT BATTERY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Measure the voltage of the battery.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<specitem>
+<ptxt>11 to 14 V</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0002" fin="false">OK</down>
+<right ref="RM000000YXP01HX_04_0010" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0002" proc-id="RM21Q0EV__000021C00000">
+<testtitle>CHECK CONNECTION OF CONNECTOR</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt> Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the connector is properly connected to the center airbag sensor.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Connector is connected.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0003" fin="false">OK</down>
+<right ref="RM000000YXP01HX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0003" proc-id="RM21Q0EV__000021D00000">
+<testtitle>PREPARE FOR INSPECTION</testtitle>
+<content6 releasenbr="1">
+<atten2>
+<ptxt>Be sure to perform the following procedures before troubleshooting to avoid unexpected airbag deployment.</ptxt>
+</atten2>
+<test1>
+<ptxt>Disconnect the connector from the center airbag sensor.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the connector from the steering pad.</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0004" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0004" proc-id="RM21Q0EV__000021E00000">
+<testtitle>CHECK CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100389E10" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Connect the cable to the negative (-) battery terminal, and wait for at least 2 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage and resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A19-21 (IG2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>8 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A19-25 (E1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0005" fin="false">OK</down>
+<right ref="RM000000YXP01HX_04_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0005" proc-id="RM21Q0EV__000021F00000">
+<testtitle>CHECK COMBINATION METER ASSEMBLY (POWER SOURCE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100390E42" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C20-21 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>8 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0006" fin="false">OK</down>
+<right ref="RM000000YXP01HX_04_0013" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0006" proc-id="RM21Q0EV__000021G00000">
+<testtitle>CHECK WIRE HARNESS (CENTER AIRBAG SENSOR - COMBINATION METER AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100391E29" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A19 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A19-14 (LA) - C20-20</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0007" fin="false">OK</down>
+<right ref="RM000000YXP01HX_04_0014" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0007" proc-id="RM21Q0EV__000021H00000">
+<testtitle>CHECK SRS WARNING LIGHT OPERATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A19 ECU connector with the C20 meter connector connected.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the warning light illuminates 10 seconds after turning the ignition switch ON.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Warning light illuminates 10 seconds after turning ignition switch ON.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0008" fin="false">OK</down>
+<right ref="RM000000YXP01HX_04_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0008" proc-id="RM21Q0EV__000021I00000">
+<testtitle>CHECK CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100389E11" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A19 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A19-14 (LA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>8 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0009" fin="false">OK</down>
+<right ref="RM000000YXP01HX_04_0016" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0009" proc-id="RM21Q0EV__000021J00000">
+<testtitle>REPLACE CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Replace the center airbag sensor.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the SRS warning light illuminates normally.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>SRS warning light illuminates normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXP01HX_04_0018" fin="true">OK</down>
+<right ref="RM000000YXP01HX_04_0017" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0010">
+<testtitle>RECHARGE OR REPLACE BATTERY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0011">
+<testtitle>CONNECT CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0012">
+<testtitle>REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0013">
+<testtitle>REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0014">
+<testtitle>REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0015">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0016">
+<testtitle>REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0017">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXP01HX_04_0018">
+<testtitle>END</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

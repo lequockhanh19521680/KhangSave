@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7A83F_T007T" variety="T007T">
+<name>OUTER REAR VIEW MIRROR</name>
+<para id="RM0000015DS06YX" category="G" type-id="3001K" name-id="MX2Q6-05" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000015DS06YX_01" type-id="01" category="01">
+<s-1 id="RM0000015DS06YX_01_0002" proc-id="RM21Q0EV__000045400000">
+<ptxt>INSPECT OUTER REAR VIEW MIRROR ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the mirror connector.</ptxt>
+<figure>
+<graphic graphicname="B280860E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply battery voltage and check operation of the mirror.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.01in"/>
+<colspec colname="COL2" colwidth="1.12in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Measurement Condition </ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) →Terminal 5 (MV) </ptxt>
+<ptxt>Battery negative (-) → Terminal 3 (M+)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns upward</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) → Terminal 3 (M+) </ptxt>
+<ptxt>Battery negative (-) → Terminal 5 (MV)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns downward</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) → Terminal 1 (MH) </ptxt>
+<ptxt>Battery negative (-) → Terminal 3 (M+)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns left</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) → Terminal 3 (M+) </ptxt>
+<ptxt>Battery negative (-) → Terminal 1 (MH)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns right</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the outer rear view mirror assembly LH.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Outer Rear View Mirror Assembly LH)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>w/ side turn signal light:</ptxt>
+<s3>
+<figure>
+<graphic graphicname="B280803E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the side turn signal light.</ptxt>
+<ptxt>Apply battery voltage to the terminals of the connector, and check the illumination condition.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Battery positive (+) → Terminal 4 (B)</ptxt>
+<ptxt>Battery negative (-) → Terminal 2 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Side turn light illuminates</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the side turn signal light assembly LH (See page <xref label="Seep01" href="RM000003S7S01SX"/>).</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Outer Rear View Mirror Assembly LH)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000015DS06YX_01_0004" proc-id="RM21Q0EV__000045500000">
+<ptxt>INSPECT OUTER REAR VIEW MIRROR ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the mirror connector.</ptxt>
+<figure>
+<graphic graphicname="B280859E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply battery voltage and check operation of the mirror.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.01in"/>
+<colspec colname="COL2" colwidth="1.12in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Measurement Condition </ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) →Terminal 5 (MV) </ptxt>
+<ptxt>Battery negative (-) → Terminal 3 (M+)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns upward</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) → Terminal 3 (M+) </ptxt>
+<ptxt>Battery negative (-) → Terminal 5 (MV)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns downward</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) → Terminal 1 (MH) </ptxt>
+<ptxt>Battery negative (-) → Terminal 3 (M+)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns left</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) → Terminal 3 (M+) </ptxt>
+<ptxt>Battery negative (-) → Terminal 1 (MH)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Turns right</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the outer rear view mirror assembly RH.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Outer Rear View Mirror Assembly RH)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>w/ side turn signal light:</ptxt>
+<s3>
+<figure>
+<graphic graphicname="B280803E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the side turn signal light.</ptxt>
+<ptxt>Apply battery voltage to the terminals of the connector, and check the illumination condition.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Battery positive (+) → Terminal 4 (B)</ptxt>
+<ptxt>Battery negative (-) → Terminal 2 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Side turn light illuminates</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, check the side turn signal light assembly RH (See page<xref label="Seep01" href="RM000003S7S01SX"/>).</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Outer Rear View Mirror Assembly RH)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

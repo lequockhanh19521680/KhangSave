@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A820_T006E" variety="T006E">
+<name>FOG LIGHT ASSEMBLY</name>
+<para id="RM0000024DQ00LX" category="A" type-id="80001" name-id="LIBQT-01" from="201403">
+<name>REMOVAL</name>
+<subpara id="RM0000024DQ00LX_01" type-id="11" category="10" proc-id="RM21Q0EV__00004X200001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000024DQ00LX_02" type-id="01" category="01">
+<s-1 id="RM0000024DQ00LX_02_0012" proc-id="RM21Q0EV__00003QM00000">
+<ptxt>REMOVE RADIATOR GRILLE (for Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 clips.</ptxt>
+<figure>
+<graphic graphicname="B280893" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Put protective tape around the radiator grille.</ptxt>
+<figure>
+<graphic graphicname="B280907E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Detach the 8 claws and remove the radiator grille.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DQ00LX_02_0014" proc-id="RM21Q0EV__00005EL00000">
+<ptxt>REMOVE RADIATOR GRILLE (except Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 clips.</ptxt>
+<figure>
+<graphic graphicname="B349294" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Put protective tape around the radiator grille.</ptxt>
+<figure>
+<graphic graphicname="B349295E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Detach the 8 claws and remove the remove the radiator grille.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DQ00LX_02_0013" proc-id="RM21Q0EV__00003OV00000">
+<ptxt>REMOVE FRONT BUMPER COVER (for Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 6 screws and clip.</ptxt>
+<figure>
+<graphic graphicname="B280750" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B280864E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for both screws.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, turn the pin hold clip 90° and remove the pin hold clip.</ptxt>
+<atten4>
+<ptxt>Use the same procedure for both pin hold clips.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Put protective tape around the front bumper cover.</ptxt>
+<figure>
+<graphic graphicname="B280865E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 5 clips and 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 8 claws and 2 guides and remove the front bumper cover.</ptxt>
+<figure>
+<graphic graphicname="B280866" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>w/ Fog Light:</ptxt>
+<ptxt>Disconnect the 2 fog light connectors.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DQ00LX_02_0015" proc-id="RM21Q0EV__00005DE00000">
+<ptxt>REMOVE FRONT BUMPER COVER (except Standard)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 6 screws and clip.</ptxt>
+<figure>
+<graphic graphicname="B349278" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B349279" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for both screws.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Put protective tape around the front bumper cover.</ptxt>
+<figure>
+<graphic graphicname="B349281E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 5 clips and 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 8 claws and 2 guides and remove the front bumper cover.</ptxt>
+<figure>
+<graphic graphicname="B349282" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>w/ Fog Light:</ptxt>
+<ptxt>Disconnect the 2 fog light connectors.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024DQ00LX_02_0004" proc-id="RM21Q0EV__00004X300001">
+<ptxt>REMOVE FOG LIGHT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B280871" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 2 guides and remove the fog light assembly LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

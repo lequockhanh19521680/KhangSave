@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROO_T009R" variety="T009R">
+<name>COMPRESSOR</name>
+<para id="RM0000016TR07HX" category="A" type-id="8000E" name-id="ACDFP-04" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000016TR07HX_01" type-id="01" category="01">
+<s-1 id="RM0000016TR07HX_01_0005" proc-id="RM21Q0EV__000047S00000">
+<ptxt>INSTALL MAGNET CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E171847" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the magnet clutch stator with the parts aligned as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install a new snap ring with the chamfered side facing outward.</ptxt>
+<figure>
+<graphic graphicname="E155204" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the magnet clutch rotor and a new snap ring with the chamfered side facing outward.</ptxt>
+<figure>
+<graphic graphicname="E155205" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>Do not damage the seal cover of the bearing when installing the snap ring.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the magnet clutch washer(s) and magnet clutch hub.</ptxt>
+<atten3>
+<ptxt>Do not change the combination of magnet clutch washer(s) used before disassembly.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the battery to the magnet clutch assembly as shown in the illustration to fix the hub and rotor in place.</ptxt>
+</s2>
+<s2>
+<ptxt>Wrap the drive belt around the rotor and securely hold it in place by hand.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the bolt.</ptxt>
+<figure>
+<graphic graphicname="E171834E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>135</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure that there is no foreign matter or oil on the compressor shaft, bolt, and clutch hub.</ptxt>
+</item>
+<item>
+<ptxt>When reusing the drive belt, check the belt for wear, cracks or other signs of damage.</ptxt>
+</item>
+</list1>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Battery</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000016TR07HX_01_0008" proc-id="RM21Q0EV__000047T00000">
+<ptxt>INSTALL COOLER BRACKET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E171844" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the ground wire and install the cooler bracket with the screw.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the clamp.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000016TR07HX_01_0009" proc-id="RM21Q0EV__000047U00000">
+<ptxt>INSPECT MAGNET CLUTCH CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E171835E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Clamp the cooler compressor in a vise between aluminum plates.</ptxt>
+</s2>
+<s2>
+<ptxt>Set a dial indicator to the magnet clutch hub.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the battery positive (+) lead to terminal 1 of the magnet clutch connector. Turn the magnet clutch on and off by connecting and disconnecting the battery negative (-) lead to and from the ground wire, and measure the clearance.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.35 to 0.60 mm (0.014 to 0.024 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the measured value is not within the standard clearance, remove the magnet clutch hub and adjust the clearance using magnet clutch washers to obtain the standard clearance.</ptxt>
+<spec>
+<title>Magnet clutch washer thickness</title>
+<specitem>
+<ptxt>0.1 mm (0.004 in.)</ptxt>
+<ptxt>0.3 mm (0.012 in.)</ptxt>
+<ptxt>0.5 mm (0.020 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Adjustment should be performed with 3 or fewer magnet clutch washers.</ptxt>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Battery</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Magnet Clutch Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the cooler compressor from the vise.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

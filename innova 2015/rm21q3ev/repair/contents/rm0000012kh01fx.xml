@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A819_T005N" variety="T005N">
+<name>AIR CONDITIONING AMPLIFIER (for Manual Air Conditioning System)</name>
+<para id="RM0000012KH01FX" category="A" type-id="80001" name-id="ACD2L-04" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000012KH01FX_01" type-id="01" category="01">
+<s-1 id="RM0000012KH01FX_01_0002" proc-id="RM21Q0EV__00004F500000">
+<ptxt>REMOVE AIR CONDITIONING AMPLIFIER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231906" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the screw and air conditioning amplifier assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

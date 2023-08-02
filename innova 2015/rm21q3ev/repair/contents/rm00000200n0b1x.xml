@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM00000200N0B1X" category="C" type-id="801QL" name-id="AV017G-213" from="201403">
+<dtccode>60-10</dtccode>
+<dtcname>AM Tuner PLL does not Lock</dtcname>
+<dtccode>60-11</dtccode>
+<dtcname>FM Tuner PLL does not Lock</dtcname>
+<subpara id="RM00000200N0B1X_01" type-id="60" category="03" proc-id="RM21Q0EV__00005H700000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<table frame="all" pgwide="1">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.34in"/>
+<colspec colname="col2" colwidth="2.34in"/>
+<colspec colname="col3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>60-10</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>AM tuner PLL (phase locked loop) synchronization is impossible.</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Radio receiver assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>60-11</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>FM tuner PLL (phase locked loop) synchronization is impossible.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM00000200N0B1X_02" type-id="51" category="05" proc-id="RM21Q0EV__00005H800000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>After the inspection is completed, clear the DTCs.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM00000200N0B1X_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000200N0B1X_03_0001" proc-id="RM21Q0EV__00005H900000">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Replace the radio receiver assembly (See page <xref label="Seep01" href="RM000003OG9012X"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM00000200N0B1X_03_0002" fin="true">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM00000200N0B1X_03_0002">
+<testtitle>END</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

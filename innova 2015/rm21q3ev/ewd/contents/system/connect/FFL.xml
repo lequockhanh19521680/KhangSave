@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="gp" code="EB">
+		<pin>
+			<line id="1" color="W-B">
+				<connector type="conn" code="J1">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J1">
+		<pin no="9">
+			<line id="2" color="W-B">
+				<connector type="conn" code="F1" subcode="A">
+					<pin no="1" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J1">
+		<pin no="9">
+			<line id="2" color="W-B">
+				<connector type="conn" code="F16" subcode="B">
+					<pin no="1" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="F1" subcode="A">
+		<pin no="2" spec="Before Feb. 2012 Production">
+			<line id="3" color="R-W">
+				<connector type="conn" code="J3" subcode="B">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="F16" subcode="B">
+		<pin no="2" spec="From Feb. 2012 Production">
+			<line id="3" color="R-W">
+				<connector type="conn" code="J3" subcode="B">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J2" subcode="A">
+		<pin no="9">
+			<line id="4" color="R-W">
+				<connector type="jbc" code="1I">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J1">
+		<pin no="12">
+			<line id="5" color="W-B">
+				<connector type="sp" code="1537">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="1I">
+		<pin no="3">
+			<line id="6" color="G-B">
+				<connector type="jbc" code="2J">
+					<pin no="13"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J2" subcode="A">
+		<pin no="10">
+			<line id="7" color="R-W">
+				<connector type="conn" code="F2" subcode="A">
+					<pin no="2" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J2" subcode="A">
+		<pin no="10">
+			<line id="7" color="R-W">
+				<connector type="conn" code="F15" subcode="B">
+					<pin no="2" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="1I">
+		<pin no="2">
+			<line id="8" color="G">
+				<connector type="jbc" code="2J">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="EA">
+		<pin>
+			<line id="9" color="W-B">
+				<connector type="sp" code="1537">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1537">
+		<pin>
+			<line id="10" color="W-B">
+				<connector type="conn" code="F2" subcode="A">
+					<pin no="1" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1537">
+		<pin>
+			<line id="10" color="W-B">
+				<connector type="conn" code="F15" subcode="B">
+					<pin no="1" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2Q">
+		<pin no="30">
+			<line id="11" color="G-B">
+				<connector type="conn" code="C10" subcode="A">
+					<pin no="30" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2Q">
+		<pin no="30">
+			<line id="11" color="G-B">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="30" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C10" subcode="A">
+		<pin no="8" spec="Before Feb. 2012 Production">
+			<line id="12" color="G">
+				<connector type="jbc" code="2S">
+					<pin no="23"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C20" subcode="C">
+		<pin no="8" spec="From Feb. 2012 Production">
+			<line id="12" color="G">
+				<connector type="jbc" code="2S">
+					<pin no="23"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2S">
+		<pin no="7">
+			<line id="13" color="G">
+				<connector type="jbc" code="2Q">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2R">
+		<pin no="7">
+			<line id="14" color="G">
+				<connector type="conn" code="C12">
+					<pin no="10"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C12">
+		<pin no="3">
+			<line id="15" color="G-B">
+				<connector type="jbc" code="2Q">
+					<pin no="14"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="16" color="W-B">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J26" subcode="B">
+		<pin no="3">
+			<line id="17" color="P">
+				<connector type="conn" code="C12">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C12">
+		<pin no="13">
+			<line id="18" color="G-W">
+				<connector type="jbc" code="2C">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

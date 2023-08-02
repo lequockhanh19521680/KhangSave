@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12051_S000S" variety="S000S">
+<name>DOOR LOCK</name>
+<ttl id="12051_S000S_7AHYT_T000B" variety="T000B">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM000004RYG003X" category="F" type-id="8048X" name-id="DL772-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000004RYG003X_z0" proc-id="NM21Q0EV__000000U00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="Y110184E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="Y109846E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="Y110203E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

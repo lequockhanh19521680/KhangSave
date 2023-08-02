@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XX_T002B" variety="T002B">
+<name>CRANKSHAFT POSITION SENSOR</name>
+<para id="RM000000VX101PX" category="G" type-id="3001K" name-id="ES0A7-11" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000000VX101PX_01" type-id="01" category="01">
+<s-1 id="RM000000VX101PX_01_0001" proc-id="RM21Q0EV__000005B00000">
+<ptxt>INSPECT CRANKSHAFT POSITION SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G037850E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the resistance between terminals 1 and 2.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Temperature</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Cold</ptxt>
+</entry>
+<entry>
+<ptxt>1,630 to 2,740 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Hot</ptxt>
+</entry>
+<entry>
+<ptxt>2,065 to 3,225 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>In the table above, the terms "Cold" and "Hot" refer to the temperature of the sensor. "Cold" means approximately -10 to 50°C (14 to 122°F). "Hot" means approximately 50 to 100°C (122 to 212°F).</ptxt>
+</atten3>
+<ptxt>If the resistance is not as specified, replace the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

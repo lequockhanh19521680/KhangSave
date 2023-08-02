@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1002F_S000H" variety="S000H">
+<name>PROPELLER SHAFT</name>
+<ttl id="1002F_S000H_7ARNQ_T009N" variety="T009N">
+<name>PROPELLER SHAFT ASSEMBLY</name>
+<para id="RM000000ZZ5025X" category="A" type-id="8000E" name-id="PR0A8-06" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000000ZZ5025X_z2">
+<content4>
+<table frame="all" colsep="1" rowsep="1">
+<title>SST</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.96in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.18in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.04in" colsep="0"/>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000032" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09330-00021</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Companion Flange Holding Tool</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="2">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000033" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09332-25010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Universal Joint Bearing</ptxt>
+<ptxt>Remover &amp; Replacer</ptxt>
+<ptxt/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

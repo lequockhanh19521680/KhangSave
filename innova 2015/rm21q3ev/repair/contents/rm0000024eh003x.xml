@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81R_T0065" variety="T0065">
+<name>HEADLIGHT DIMMER SWITCH</name>
+<para id="RM0000024EH003X" category="A" type-id="30014" name-id="LIA1F-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000024EH003X_01" type-id="01" category="01">
+<s-1 id="RM0000024EH003X_01_0005" proc-id="RM21Q0EV__00001TB00000">
+<ptxt>INSTALL HEADLIGHT DIMMER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B136347" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the headlight dimmer switch with the claw as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the headlight dimmer switch with the clamp.</ptxt>
+<figure>
+<graphic graphicname="B136353" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+<figure>
+<graphic graphicname="B088653" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024EH003X_01_0016" proc-id="RM21Q0EV__00004ZB00000">
+<ptxt>INSTALL WIPER AND WASHER SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the windshield wiper switch assembly.</ptxt>
+<atten3>
+<ptxt>Do not push the claw with excessive force as damage may occur.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024EH003X_01_0017" proc-id="RM21Q0EV__00001TD00000">
+<ptxt>INSTALL SPIRAL CABLE SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the front wheels are facing straight ahead.</ptxt>
+</s2>
+<s2>
+<ptxt>Set the turn signal switch to the neutral position.</ptxt>
+<atten3>
+<ptxt>Make sure that the turn signal switch is in the neutral position, as the pin of the turn signal switch may be snapped.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the spiral cable.</ptxt>
+<atten3>
+<ptxt>When replacing the spiral cable with a new one, remove the lock pin before installing the steering wheel.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connectors to the spiral cable.</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, do not damage the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024EH003X_01_0018" proc-id="RM21Q0EV__00001T700000">
+<ptxt>INSTALL STEERING COLUMN COVER UPPER
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035005E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the lower cover with the 3 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>2.0</t-value1>
+<t-value2>20</t-value2>
+<t-value3>18</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024EH003X_01_0019" proc-id="RM21Q0EV__00001T700000">
+<ptxt>INSTALL STEERING COLUMN COVER LOWER
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035005E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the lower cover with the 3 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>2.0</t-value1>
+<t-value2>20</t-value2>
+<t-value3>18</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024EH003X_01_0020" proc-id="RM21Q0EV__00001T800000">
+<ptxt>INSTALL STEERING WHEEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C129232E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the matchmarks on the steering wheel and main shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the steering set nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024EH003X_01_0013">
+<ptxt>PLACE FRONT WHEELS FACING STRAIGHT AHEAD</ptxt>
+</s-1>
+<s-1 id="RM0000024EH003X_01_0014">
+<ptxt>INSPECT STEERING WHEEL CENTER POINT</ptxt>
+</s-1>
+<s-1 id="RM0000024EH003X_01_0021" proc-id="RM21Q0EV__00004UO00000">
+<ptxt>INSTALL STEERING PAD SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Support the steering pad with one hand.</ptxt>
+<figure>
+<graphic graphicname="B278764" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the connector to the steering pad.</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, take care not to damage the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the horn connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Confirm that the groove along the circumference of the "TORX" screw is attached to the screw case and place the steering pad onto the steering wheel.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, tighten the 2 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.8</t-value1>
+<t-value2>90</t-value2>
+<t-value3>78</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024EH003X_01_0015">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM0000024EH003X_01_0022" proc-id="RM21Q0EV__00004UT00000">
+<ptxt>INSPECT STEERING PAD ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>With the steering pad installed on the vehicle, perform a visual check. If there are any defects as mentioned below, replace the steering pad with a new one:</ptxt>
+<ptxt>Cuts, minute cracks or marked discoloration on the steering pad top surface or in the grooved portion.</ptxt>
+</s2>
+<s2>
+<ptxt>Make sure that the horn sounds.</ptxt>
+<ptxt>If the horn does not sound, inspect the horn system.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024EH003X_01_0003" proc-id="RM21Q0EV__000028Y00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="2">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024EH003X_01_0004" proc-id="RM21Q0EV__000028Z00000">
+<ptxt>CHECK SRS WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the SRS warning light (see page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

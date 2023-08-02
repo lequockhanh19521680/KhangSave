@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="V1">
+<name>General</name>
+<section id="12001_S0001" variety="S0001">
+<name>INTRODUCTION</name>
+<ttl id="12001_S0001_7AJVJ_T000W" variety="T000W">
+<name>FEATURES</name>
+<para id="RM000004S40001X" category="F" type-id="80492" name-id="IN0WR-02" from="201202">
+<name>PERFORMANCE</name>
+<subpara id="RM000004S40001X_z0" proc-id="NM21Q0EV__000002N00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>1TR-FE Engine</ptxt>
+<step3>
+<ptxt>The 1TR-FE engine is an in-line, 4-cylinder, 2.0-liter, 16-valve DOHC engine. On this engine, the Variable Valve Timing-intelligent (VVT-i) system and Electronic Throttle Control System-intelligent (ETCS-i) are used. These control functions have been optimized to further improve engine performance and fuel economy, and to reduce exhaust emissions.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.12in"/>
+<colspec colname="COL3" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Engine Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1TR-FE</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="4" valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. of Cyls. and Arrangement</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4-cylinder, In-line</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Valve Mechanism</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>16-valve DOHC, Chain Drive (with VVT-i)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Displacement</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1998 cm<sup>3</sup> (121.9 cu. in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Max. Output [SAE-NET]</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>100 kW @ 5600 rpm</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Max. Torque [SAE-NET]</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>182 N*m @ 4000 rpm</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Automatic Transmission</ptxt>
+<step3>
+<ptxt>A45DE 4-speed automatic transmission is used.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Manual Transmission</ptxt>
+<step3>
+<ptxt>G58 5-speed manual transmission is used.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Suspension</ptxt>
+<step3>
+<ptxt>A double-wishbone type independent suspension is used for the front.</ptxt>
+<figure>
+<graphic graphicname="V101348" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>A 4-link coil spring with lateral control rod type rigid axle suspension is used for the rear.</ptxt>
+<figure>
+<graphic graphicname="V101696" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Brake</ptxt>
+<step3>
+<ptxt>The Anti-lock Brake System (ABS) is used.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Steering</ptxt>
+<step3>
+<ptxt>A rack and pinion type steering gear is used.</ptxt>
+</step3>
+<step3>
+<ptxt>A hydraulic power steering is used.</ptxt>
+</step3>
+<step3>
+<ptxt>A manual tilt mechanism is used.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

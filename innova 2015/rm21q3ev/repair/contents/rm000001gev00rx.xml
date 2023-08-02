@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7A828_T006M" variety="T006M">
+<name>REAR WIPER MOTOR</name>
+<para id="RM000001GEV00RX" category="G" type-id="3001K" name-id="WW0AZ-15" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001GEV00RX_01" type-id="01" category="01">
+<s-1 id="RM000001GEV00RX_01_0001" proc-id="RM21Q0EV__00004UA00000">
+<ptxt>INSPECT REAR WIPER MOTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the wiper operation.</ptxt>
+<figure>
+<graphic graphicname="B117882E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Connect the battery's positive (+) lead to terminal 1 (B) and the negative (-) lead to terminal 2 (+1), and check that the motor operates.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Motor operates.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the motor assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the automatic stop operation.</ptxt>
+<s3>
+<ptxt>Connect the battery's positive (+) lead to terminal 1 (B) and the negative (-) lead to terminal 2 (+1). With the motor rotating, disconnect terminal 1 (B) to stop the wiper motor operation at the automatic stop position.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B117887E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check that the motor stops automatically at the automatic stop position.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic Stop Position</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Standard Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Standard Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>112° to 118°</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Refer to illustration.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the motor assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQE00JX" category="C" type-id="302C5" name-id="ES10OG-001" from="201202">
+<dtccode>P0115/22</dtccode>
+<dtcname>Engine Coolant Temperature Circuit</dtcname>
+<dtccode>P0117/22</dtccode>
+<dtcname>Engine Coolant Temperature Circuit Low Input</dtcname>
+<dtccode>P0118/22</dtccode>
+<dtcname>Engine Coolant Temperature Circuit High Input</dtcname>
+<subpara id="RM000000ZQE00JX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000AN00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>A thermistor is built into the Engine Coolant Temperature (ECT) sensor and changes its resistance value according to the engine coolant temperature.</ptxt>
+<ptxt>The structure of the sensor and its connection to the ECM is the same as that of the intake air temperature sensor and its connection.</ptxt>
+<atten4>
+<ptxt>If the ECM detects DTC P0115/22, P0117/22 or P0118/22, the ECM enters fail-safe mode in which the ECT is assumed to be 80°C (176°F).</ptxt>
+<table pgwide="1">
+<tgroup cols="3" align="left">
+<colspec colname="COL1" colwidth="1.44in"/>
+<colspec colname="COL2" colwidth="2.39in"/>
+<colspec colname="COL3" colwidth="3.25in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0115/22</ptxt>
+</entry>
+<entry>
+<ptxt>Open or short in ECT sensor circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in ECT sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>ECT sensor</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0117/22</ptxt>
+</entry>
+<entry>
+<ptxt>Short in ECT sensor circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Short in ECT sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>ECT sensor</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0118/22</ptxt>
+</entry>
+<entry>
+<ptxt>Open in ECT sensor circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open in ECT sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>ECT sensor</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten4>
+<atten4>
+<ptxt>When DTC P0115/22, P0117/22 or P0118/22 is detected, check the engine coolant temperature by entering the following menus on the intelligent tester: Powertrain / Engine and ECT / Data List / Coolant Temp.</ptxt>
+<table pgwide="1">
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Temperature Displayed</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Malfunction</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>-40°C (-40°F) </ptxt>
+</entry>
+<entry>
+<ptxt>Open circuit</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>140°C (284°F) or more</ptxt>
+</entry>
+<entry>
+<ptxt>Short circuit</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQE00JX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000AO00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The ECT sensor is used to monitor the engine coolant temperature. The ECT sensor has a thermistor that varies its resistance depending on the temperature of the engine coolant. When the coolant temperature is low, the resistance in the thermistor increases. When the temperature is high, the resistance drops. The variations in resistance are reflected in the voltage output from the sensor. The ECM monitors the sensor voltage and uses this value to calculate the ECT. When the sensor output voltage deviates from the normal operating range, the ECM interprets this as a fault in the ECT sensor and sets a DTC.</ptxt>
+<ptxt>Example:</ptxt>
+<ptxt>When the ECM calculates that the ECT is -40°C (-40°F) (P0118/22) or more than 140°C (284°F) (P0117/22) and that either condition continues for 0.5 seconds or more, the ECM will set a DTC.</ptxt>
+<ptxt>This monitor runs for 0.5 seconds after the ignition switch is turned ON (1 trip detection logic).</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQE00JX_03" type-id="32" category="03" proc-id="RM21Q0EV__00000AP00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A119255E03" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQE00JX_04" type-id="51" category="05" proc-id="RM21Q0EV__00000AQ00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If DTCs related to different systems that have terminal E2 as the ground terminal are output simultaneously, terminal E2 may have an open circuit.</ptxt>
+</item>
+<item>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQE00JX_05" type-id="54" category="05">
+<name>When using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQE00JX_06" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQE00JX_06_0020" proc-id="RM21Q0EV__00000AW00000">
+<testtitle>READ OUTPUT DTC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read DTCs.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0115/22</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0117/22</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0118/22</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_06_0001" fin="false">A</down>
+<right ref="RM000000ZQE00JX_06_0008" fin="false">B</right>
+<right ref="RM000000ZQE00JX_06_0002" fin="false">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0001" proc-id="RM21Q0EV__00000AR00000">
+<testtitle>READ DATA LIST (ENGINE COOLANT TEMPERATURE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Coolant Temp.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Temperature value is 80 to 97°C (176 to 207°F) after warming up the engine.</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Temperature Displayed</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>-40°C (-40°F)</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>140°C (284°F) or more</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OK (same as the actual engine coolant temperature)</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If there is an open circuit, the intelligent tester indicates -40°C (-40°F).</ptxt>
+</item>
+<item>
+<ptxt>If there is a short circuit, the intelligent tester indicates 140°C (284°F) or more.</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_06_0002" fin="false">A</down>
+<right ref="RM000000ZQE00JX_06_0008" fin="false">B</right>
+<right ref="RM000000ZQE00JX_06_0004" fin="true">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0002" proc-id="RM21Q0EV__00000AS00000">
+<testtitle>READ DATA LIST (CHECK FOR OPEN IN WIRE HARNESS)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A096473E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the W1 ECT sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect terminals 1 and 2 of the W1 ECT sensor wire harness side connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Coolant Temp.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Temperature value is 140°C (284°F) or more</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_06_0003" fin="false">NG</down>
+<right ref="RM000000ZQE00JX_06_0005" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0003" proc-id="RM21Q0EV__00000AT00000">
+<testtitle>READ DATA LIST (CHECK FOR OPEN IN ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034688E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the W1 ECT sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect terminals THW and E2 of the E12 ECM connector.</ptxt>
+<atten4>
+<ptxt>Before checking, perform a visual and contact pressure check on the ECM connector.</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Coolant Temp.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Temperature value is 140°C (284°F) or more</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_06_0007" fin="true">NG</down>
+<right ref="RM000000ZQE00JX_06_0006" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0004">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0005">
+<testtitle>CONFIRM GOOD CONNECTION AT SENSOR. IF OK, REPLACE ENGINE COOLANT TEMPERATURE SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0007">
+<testtitle>CONFIRM GOOD CONNECTION AT ECM. IF OK, REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0008" proc-id="RM21Q0EV__00000AU00000">
+<testtitle>READ DATA LIST (CHECK FOR SHORT IN WIRE HARNESS)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A096475E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the W1 ECT sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Coolant Temp.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Temperature value is -40°C (-40°F)</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_06_0009" fin="false">NG</down>
+<right ref="RM000000ZQE00JX_06_0010" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0009" proc-id="RM21Q0EV__00000AV00000">
+<testtitle>CHECK WIRE HARNESS (ECM - ENGINE COOLANT TEMPERATURE SENSOR)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034689E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the W1 ECT sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-32 (THW) - W1-2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-28 (E2) - W1-1</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-32 (THW) or W1-2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_06_0012" fin="true">OK</down>
+<right ref="RM000000ZQE00JX_06_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0010">
+<testtitle>REPLACE ENGINE COOLANT TEMPERATURE SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0011">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_06_0012">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+<subpara id="RM000000ZQE00JX_07" type-id="55" category="05">
+<name>When not using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQE00JX_08" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQE00JX_08_0013" proc-id="RM21Q0EV__00000AX00000">
+<testtitle>CHECK ECM (THW VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E16" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage between terminals THW and E2 of the ECM connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Engine Coolant Temperature</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 3.4 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>80°C (176°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.2 to 1.0 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_08_0014" fin="false">NG</down>
+<right ref="RM000000ZQE00JX_08_0016" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_08_0014" proc-id="RM21Q0EV__00000AY00000">
+<testtitle>INSPECT ENGINE COOLANT TEMPERATURE SENSOR</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Inspect the ECT sensor (see page <xref label="Seep01" href="RM000000VW801EX_01_0001"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_08_0015" fin="false">OK</down>
+<right ref="RM000000ZQE00JX_08_0017" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_08_0015" proc-id="RM21Q0EV__00000AZ00000">
+<testtitle>CHECK WIRE HARNESS (ECM - ENGINE COOLANT TEMPERATURE SENSOR)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034689E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the W1 ECT sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-32 (THW) - W1-2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-28 (E2) - W1-1</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-32 (THW) or W1-2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQE00JX_08_0019" fin="true">OK</down>
+<right ref="RM000000ZQE00JX_08_0018" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_08_0016">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_08_0017">
+<testtitle>REPLACE ENGINE COOLANT TEMPERATURE SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_08_0018">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQE00JX_08_0019">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XM_T0020" variety="T0020">
+<name>AXLE</name>
+<para id="RM0000028S0004X" category="F" type-id="30028" name-id="SS23O-01" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028S0004X_z0" proc-id="RM21Q0EV__000004L00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Front axle hub assembly x Lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>199</ptxt>
+</entry>
+<entry>
+<ptxt>2,029</ptxt>
+</entry>
+<entry>
+<ptxt>147</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Steering knuckle x Tie rod end</ptxt>
+</entry>
+<entry>
+<ptxt>49</ptxt>
+</entry>
+<entry>
+<ptxt>500</ptxt>
+</entry>
+<entry>
+<ptxt>35</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Disc brake caliper x Steering knuckle</ptxt>
+</entry>
+<entry>
+<ptxt>126</ptxt>
+</entry>
+<entry>
+<ptxt>1,285</ptxt>
+</entry>
+<entry>
+<ptxt>93</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front brake hose bracket set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+<entry>
+<ptxt>296</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front ABS speed sensor wire harness bracket set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+<entry>
+<ptxt>326</ptxt>
+</entry>
+<entry>
+<ptxt>24</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front ABS speed sensor set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>8.5</ptxt>
+</entry>
+<entry>
+<ptxt>87</ptxt>
+</entry>
+<entry>
+<ptxt>75 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Steering knuckle x Upper ball joint</ptxt>
+</entry>
+<entry>
+<ptxt>110</ptxt>
+</entry>
+<entry>
+<ptxt>1,122</ptxt>
+</entry>
+<entry>
+<ptxt>81</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Steering knuckle x Lower arm assembly w/ attachment</ptxt>
+</entry>
+<entry>
+<ptxt>160</ptxt>
+</entry>
+<entry>
+<ptxt>1,632</ptxt>
+</entry>
+<entry>
+<ptxt>118</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front wheel</ptxt>
+</entry>
+<entry>
+<ptxt>110</ptxt>
+</entry>
+<entry>
+<ptxt>1,122</ptxt>
+</entry>
+<entry>
+<ptxt>81</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear axle housing x Rear axle shaft bearing outer retainer</ptxt>
+</entry>
+<entry>
+<ptxt>80</ptxt>
+</entry>
+<entry>
+<ptxt>820</ptxt>
+</entry>
+<entry>
+<ptxt>59</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear ABS speed sensor set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>8.5</ptxt>
+</entry>
+<entry>
+<ptxt>87</ptxt>
+</entry>
+<entry>
+<ptxt>75 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Rear brake tube x Wheel cylinder</ptxt>
+</entry>
+<entry>
+<ptxt>With SST: 14</ptxt>
+</entry>
+<entry>
+<ptxt>With SST: 143</ptxt>
+</entry>
+<entry>
+<ptxt>With SST: 10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>With out SST: 15</ptxt>
+</entry>
+<entry>
+<ptxt>With out SST: 155</ptxt>
+</entry>
+<entry>
+<ptxt>With out SST: 11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear wheel</ptxt>
+</entry>
+<entry>
+<ptxt>110</ptxt>
+</entry>
+<entry>
+<ptxt>1,122</ptxt>
+</entry>
+<entry>
+<ptxt>81</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X9_T001N" variety="T001N">
+<name>BRAKE</name>
+<para id="RM00000244B009X" category="F" type-id="30027" name-id="SS23J-09" from="201303" to="201503">
+<name>SERVICE DATA</name>
+<subpara id="RM00000244B009X_z0" proc-id="RM21Q0EV__000004000001">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Brake Pedal</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Brake Pedal height from dash panel</ptxt>
+</entry>
+<entry>
+<ptxt>for Manual Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>152.9 to 162.9 mm (6.020to 6.413 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>for Automatic Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>154.1 to 164.1 mm (6.067 to 6.461 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Brake pedal free play</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 to 6.0 mm (0.039 to 0.236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Stop light switch clearance</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 to 2.5 mm (0.0591 to 0.0984 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Brake pedal reserve distance from dash panel</ptxt>
+</entry>
+<entry>
+<ptxt>78.0 mm (3.071 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Brake Master Cylinder</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Booster push rod and accessory tool clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0 mm (0 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Front Brake</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Front pad lining thickness</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>10.0 mm (0.394 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 mm (0.0394 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Front disc thickness</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>28.0 mm (1.102 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum</ptxt>
+</entry>
+<entry>
+<ptxt>26.0 mm (1.024 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front disc runout</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Rear Brake</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Rear brake drum inside diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>254.0 mm (10.000 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>256.0 mm (10.079 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Rear brake shoe lining thickness</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>5.1 mm (0.201 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 mm (0.039 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Rear brake drum and rear brake shoe clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 mm (0.020 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Load Sensing Proportioning Valve</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COLSPEC0" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Standard rear axle load</ptxt>
+</entry>
+<entry>
+<ptxt>9072 N (925 kgf, 2039 lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Standard rear brake fluid pressure</ptxt>
+</entry>
+<entry>
+<ptxt>5150 +/-820 kPa (52.5 +/-8.4 kgf/cm<sup>2</sup>, 747 +/-119 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Pressure (Reference)</ptxt>
+</entry>
+<entry>
+<ptxt>For one turn of lock nut "A"</ptxt>
+</entry>
+<entry>
+<ptxt>170 kPa (1.7 kgf/cm<sup>2</sup>, 24.7 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>For 1 mm (0.0394 in.) of "B" length</ptxt>
+</entry>
+<entry>
+<ptxt>60 kPa (0.6 kgf/cm<sup>2</sup>,8.7 psi)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

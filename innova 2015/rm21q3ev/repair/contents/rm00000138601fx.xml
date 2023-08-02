@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7A80W_T005A" variety="T005A">
+<name>POWER STEERING SYSTEM</name>
+<para id="RM00000138601FX" category="G" type-id="8000T" name-id="PS2CG-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM00000138601FX_01" type-id="01" category="01">
+<s-1 id="RM00000138601FX_01_0001" proc-id="RM21Q0EV__00001UL00000">
+<ptxt>INSPECT DRIVE BELT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Visually check the belt for excessive wear, frayed cords, etc. If any defect is found, replace the drive belt.</ptxt>
+<figure>
+<graphic graphicname="F040449E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Cracks on the rib side of the belt are considered acceptable. Replace the belt if there are any missing ribs.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138601FX_01_0002" proc-id="RM21Q0EV__00001UM00000">
+<ptxt>BLEED AIR FROM POWER STEERING SYSTEM</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fluid level.</ptxt>
+</s2>
+<s2>
+<ptxt>Jack up the front of the vehicle and support it with stands.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel.</ptxt>
+<s3>
+<ptxt>With the engine stopped, turn the steering wheel slowly from lock to lock several times.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. Run the engine at idle for a few minutes.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel.</ptxt>
+<s3>
+<ptxt>With the engine idling, turn the steering wheel to the left or right full lock position and hold it there for 2 to 3 seconds. Then turn the steering wheel to the opposite full lock position and hold it there for 2 to 3 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>Repeat the step above several times.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Stop the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Check for foaming or emulsification. If the system has to be bled twice because of foaming or emulsification, check for fluid leaks in the system.</ptxt>
+<figure>
+<graphic graphicname="F040897E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check the fluid level.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138601FX_01_0003" proc-id="RM21Q0EV__00001UN00000">
+<ptxt>CHECK FLUID LEVEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Keep the vehicle level.</ptxt>
+<figure>
+<graphic graphicname="F040898E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>With the engine stopped, check the power steering fluid level in the oil reservoir. If necessary, add power steering fluid.</ptxt>
+<spec>
+<title>Power steering fluid</title>
+<specitem>
+<ptxt>"TEXAMATIC 1888" or equivalent</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>If the fluid is hot, check that the fluid level is within the HOT range on the oil reservoir. If the fluid is cold, check that the fluid level is within the COLD range.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Start the engine and run it at idle.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel to the left or right full lock position, and then to the opposite full lock position. Repeat this several times to raise the fluid temperature.</ptxt>
+<spec>
+<title>Standard fluid temperature</title>
+<specitem>
+<ptxt>75 to 80°C (167 to 176°F)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Check for foaming or emulsification. If foaming or emulsification is identified, bleed air from the power steering system.</ptxt>
+<figure>
+<graphic graphicname="F040897E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>With the engine idling, measure the fluid level in the oil reservoir.</ptxt>
+<figure>
+<graphic graphicname="R011786E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Stop the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Wait a few minutes and remeasure the fluid level in the oil reservoir.</ptxt>
+<spec>
+<title>Maximum fluid level increase</title>
+<specitem>
+<ptxt>5 mm (0.20 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If a problem is found, bleed air from the power steering system.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the fluid level.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138601FX_01_0004" proc-id="RM21Q0EV__00001UO00000">
+<ptxt>CHECK STEERING FLUID PRESSURE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the pressure feed tube (see page <xref label="Seep01" href="RM00000138D01EX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Connect SST as shown in the illustration below.</ptxt>
+<sst>
+<sstitem>
+<s-number>09640-10010</s-number>
+<s-subnumber>09641-01010</s-subnumber>
+<s-subnumber>09641-01020</s-subnumber>
+<s-subnumber>09641-01030</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F051281E03" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<atten3>
+<ptxt>Check that the value of SST is in the open position.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Bleed air from the power steering system.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and run it at idle.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel to the left or right full lock position. Then turn the wheel to the opposite full lock position. Repeat this several times to raise the fluid temperature.</ptxt>
+<spec>
+<title>Standard fluid temperature</title>
+<specitem>
+<ptxt>75 to 80°C (167 to 176°F)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>With the engine idling, close the valve of SST and observe the reading on SST.</ptxt>
+<figure>
+<graphic graphicname="C114329E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Minimum fluid pressure</title>
+<specitem>
+<ptxt>8800 to 9300 kPa (89.8 to 94.8 kgf/cm<sup>2</sup>, 1276 to 1348 psi)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not keep the valve closed for more than 10 seconds.</ptxt>
+</item>
+<item>
+<ptxt>Do not let the fluid temperature become too high.</ptxt>
+</item>
+</list1>
+</atten3>
+<ptxt>If the pressure is not within the specified range, check for fluid leaks and replace parts as necessary.</ptxt>
+</s2>
+<s2>
+<ptxt>With the engine idling, fully open the valve.</ptxt>
+<figure>
+<graphic graphicname="C114330E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Measure the fluid pressure at engine speeds of 1,000 rpm and 3,000 rpm.</ptxt>
+<spec>
+<title>Fluid pressure difference</title>
+<specitem>
+<ptxt>490 kPa (5 kgf/cm<sup>2</sup>, 71 psi) or less</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Do not turn the steering wheel.</ptxt>
+</atten3>
+<ptxt>If the pressure is not within the specified range, check for fluid leaks and replace parts as necessary.</ptxt>
+</s2>
+<s2>
+<ptxt>With the engine idling and the valve fully open, turn the steering wheel to the full lock position.</ptxt>
+<figure>
+<graphic graphicname="C114331E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Minimum fluid pressure</title>
+<specitem>
+<ptxt>8800 to 9300 kPa (89.8 to 94.8 kgf/cm<sup>2</sup>, 1276 to 1348 psi)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not maintain the lock position for more than 10 seconds.</ptxt>
+</item>
+<item>
+<ptxt>Do not let the fluid temperature become too high.</ptxt>
+</item>
+</list1>
+</atten3>
+<ptxt>If the pressure is not within the specified range, check for fluid leaks and replace parts as necessary.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect SST.</ptxt>
+<sst>
+<sstitem>
+<s-number>09640-10010</s-number>
+<s-subnumber>09641-01010</s-subnumber>
+<s-subnumber>09641-01020</s-subnumber>
+<s-subnumber>09641-01030</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Connect the pressure feed tube (see page <xref label="Seep02" href="RM00000138B01HX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Bleed air from the power steering system.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138601FX_01_0005" proc-id="RM21Q0EV__00001UP00000">
+<ptxt>CHECK STEERING RESISTANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Center the steering wheel.</ptxt>
+<figure>
+<graphic graphicname="F008858E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the steering pad (see page <xref label="Seep01" href="RM0000010AS01FX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and run it at idle.</ptxt>
+</s2>
+<s2>
+<ptxt>Measure the steering resistance in both directions.</ptxt>
+<spec>
+<title>Steering resistance (Reference)</title>
+<specitem>
+<ptxt>5.5 N*m (56 kgf*cm, 49 in.*lbf)</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Tire type, tire pressure and type of surface beneath the vehicle should be taken into consideration before making your diagnosis.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Tighten the steering wheel set nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the steering pad (see page <xref label="Seep02" href="RM0000010AQ01FX_02_0001"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

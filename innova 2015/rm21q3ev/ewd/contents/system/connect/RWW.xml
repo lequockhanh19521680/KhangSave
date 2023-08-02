@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="w2w" code="II3" sex="male">
+		<pin no="14">
+			<line id="1" color="B-Y">
+				<connector type="conn" code="C14" subcode="B">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II3" sex="female">
+		<pin no="14">
+			<line id="2" color="B-Y">
+				<connector type="conn" code="R1">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R1">
+		<pin no="1">
+			<line id="3" color="L-W">
+				<connector type="conn" code="J3" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J2" subcode="A">
+		<pin no="7">
+			<line id="4" color="L-W">
+				<connector type="jbc" code="2L">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BD2" sex="male">
+		<pin no="6" spec="Before Feb. 2012 Production">
+			<line id="5" color="L-R">
+				<connector type="w2w" code="IA1" sex="male">
+					<pin no="11"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BD3" sex="male">
+		<pin no="8" spec="From Feb. 2012 Production">
+			<line id="5" color="L-R">
+				<connector type="w2w" code="IA1" sex="male">
+					<pin no="11"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BD2" sex="female">
+		<pin no="6" spec="Before Feb. 2012 Production">
+			<line id="6" color="L-R">
+				<connector type="conn" code="R11">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BD3" sex="female">
+		<pin no="8" spec="From Feb. 2012 Production">
+			<line id="6" color="L-R">
+				<connector type="conn" code="R11">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R11">
+		<pin no="1">
+			<line id="7" color="L-W">
+				<connector type="w2w" code="BD2" sex="female">
+					<pin no="5" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R11">
+		<pin no="1">
+			<line id="7" color="L-W">
+				<connector type="w2w" code="BD3" sex="female">
+					<pin no="3" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BD2" sex="male">
+		<pin no="5" spec="Before Feb. 2012 Production">
+			<line id="8" color="L-W">
+				<connector type="jbc" code="2K">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BD3" sex="male">
+		<pin no="3" spec="From Feb. 2012 Production">
+			<line id="8" color="L-W">
+				<connector type="jbc" code="2K">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="IA1" sex="female">
+		<pin no="11">
+			<line id="9" color="L-R">
+				<connector type="conn" code="C13" subcode="A">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IH">
+		<pin>
+			<line id="10" color="W-B">
+				<connector type="conn" code="C13" subcode="A">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

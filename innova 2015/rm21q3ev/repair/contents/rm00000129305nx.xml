@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81H_T005V" variety="T005V">
+<name>FRONT SEAT INNER BELT ASSEMBLY</name>
+<para id="RM00000129305NX" category="G" type-id="3001K" name-id="SB280-03" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM00000129305NX_01" type-id="01" category="01">
+<s-1 id="RM00000129305NX_01_0001" proc-id="RM21Q0EV__000024I00000">
+<ptxt>INSPECT FRONT SEAT INNER BELT ASSEMBLY (for Driver Side)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085672E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Seat belt unfastened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Seat belt fastened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the inner belt assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000129305NX_01_0003" proc-id="RM21Q0EV__000024K00000">
+<ptxt>INSPECT FRONT SEAT INNER BELT ASSEMBLY (for Front Passenger Side)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B118978E10" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Seat belt is unfastened and more than 147 N (15 kgf, 33 lbf) of force is applied to occupant detection sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 100 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Seat belt is fastened and more than 147 N (15 kgf, 33 lbf) of force is applied to occupant detection sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the inner belt assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000129305NX_01_0002" proc-id="RM21Q0EV__000024J00000">
+<ptxt>INSPECT OCCUPANT DETECTION SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E169498E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1- 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>More than 147 N (15 kgf, 33 lbf) of force applied to occupant detection sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 100 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1- 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No force applied to occupant detection sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the occupant detection sensor (front seat cushion pad).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

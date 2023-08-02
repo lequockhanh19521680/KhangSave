@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z8_T003M" variety="T003M">
+<name>PARK / NEUTRAL POSITION SWITCH</name>
+<para id="RM0000010N9064X" category="A" type-id="30014" name-id="AT44H-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010N9064X_01" type-id="01" category="01">
+<s-1 id="RM0000010N9064X_01_0001" proc-id="RM21Q0EV__00000XH00000">
+<ptxt>INSTALL PARK/NEUTRAL POSITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034253E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the park/neutral position switch to the manual valve lever shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the bolt.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new lock washer and the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.0</t-value1>
+<t-value2>71</t-value2>
+<t-value3>62</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Turn the control shaft lever clockwise until it stops, and then turn it counterclockwise 2 notches to set it to the N position.</ptxt>
+<figure>
+<graphic graphicname="D028682E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Adjust the park/neutral position switch (See page <xref label="Seep01" href="RM0000010N805SX_01_0001"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, bend the tabs of the lock washer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010N9064X_01_0002">
+<ptxt>CONNECT PARK/NEUTRAL POSITION SWITCH CONNECTOR</ptxt>
+</s-1>
+<s-1 id="RM0000010N9064X_01_0003" proc-id="RM21Q0EV__00000XI00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable to the negative (-) battery terminal.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010N9064X_01_0009" proc-id="RM21Q0EV__00000XK00000">
+<ptxt>INSPECT SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When moving the shift lever from P to R with the ignition switch to ON and the brake pedal depressed, make sure that the shift lever moves smoothly and correctly into position.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and make sure that the vehicle moves forward after moving the shift lever from N to D, and moves in reverse after shifting to R.</ptxt>
+<ptxt>If the results are not as specified, inspect the park/neutral position switch and check the shift lever.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010N9064X_01_0010" proc-id="RM21Q0EV__00000XL00000">
+<ptxt>ADJUST SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Move the shift lever to N.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the control cable.</ptxt>
+<figure>
+<graphic graphicname="C193823" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the control shaft lever clockwise until it stops, and then turn it counterclockwise 2 notches to set it to the N position.</ptxt>
+<figure>
+<graphic graphicname="D028682E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>While holding the control shaft lever slightly toward the R position side, connect the cable with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010N9064X_01_0008" proc-id="RM21Q0EV__00000XJ00000">
+<ptxt>INSPECT PARK/NEUTRAL POSITION SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply the parking brake and turn the ignition switch to ON.</ptxt>
+</s2>
+<s2>
+<ptxt>Depress the brake pedal and check that the engine starts when the shift lever is on N or P, but does not start in other positions.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the back-up light illuminates and the reverse warning buzzer sounds when the shift lever is on R, but do not function in other positions.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010N9064X_01_0011" proc-id="RM21Q0EV__00000XM00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="2">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZF_T003T" variety="T003T">
+<name>OIL PUMP</name>
+<para id="RM0000013B801RX" category="A" type-id="8000E" name-id="AT455-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000013B801RX_01" type-id="01" category="01">
+<s-1 id="RM0000013B801RX_01_0001" proc-id="RM21Q0EV__000010C00000">
+<ptxt>INSTALL FRONT OIL PUMP OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191455E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST and a hammer, tap in a new oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-30020</s-number>
+<s-subnumber>09351-32140</s-subnumber>
+</sstitem>
+</sst>
+<atten4>
+<ptxt>The oil seal end should be flush with the outer edge of the pump body.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Coat the oil seal lip with MP grease.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013B801RX_01_0009" proc-id="RM21Q0EV__000010H00000">
+<ptxt>FIX FRONT OIL PUMP BODY SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place the oil pump body on the torque converter clutch.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013B801RX_01_0002" proc-id="RM21Q0EV__000010D00000">
+<ptxt>INSTALL FRONT OIL PUMP DRIVE GEAR AND DRIVEN GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191448" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the driven gear and drive gear with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the driven gear and drive gear to the oil pump body.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013B801RX_01_0004" proc-id="RM21Q0EV__000010E00000">
+<ptxt>INSTALL STATOR SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the stator shaft with each bolt hole.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the stator shaft with the 6 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Install SST to the pump body and stator shaft.</ptxt>
+<figure>
+<graphic graphicname="C191457E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09363-20010</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Tighten SST to align the pump body and stator shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 6 bolts.</ptxt>
+<figure>
+<graphic graphicname="C191458" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>7.4</t-value1>
+<t-value2>75</t-value2>
+<t-value3>65</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Remove SST.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013B801RX_01_0005" proc-id="RM21Q0EV__000010F00000">
+<ptxt>INSTALL CLUTCH DRUM OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191446" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new oil seal rings with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the oil seal ring ends and install the oil seal rings to the stator shaft.</ptxt>
+<atten4>
+<ptxt>After installing the oil seal rings, check that they rotate smoothly.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013B801RX_01_0008" proc-id="RM21Q0EV__000010G00000">
+<ptxt>INSTALL FRONT OIL PUMP BODY O-RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191444" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new O-ring to the oil pump.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

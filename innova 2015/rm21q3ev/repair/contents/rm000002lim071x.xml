@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LIM071X" category="D" type-id="3001B" name-id="AC02TZ-183" from="201403">
+<name>HOW TO PROCEED WITH TROUBLESHOOTING</name>
+<subpara id="RM000002LIM071X_z0" proc-id="RM21Q0EV__00004PO00001">
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use these procedures to troubleshoot the air conditioning system.</ptxt>
+</item>
+<item>
+<ptxt>*: Use the intelligent tester.</ptxt>
+</item>
+</list1>
+</atten4>
+<descript-diag>
+<descript-testgroup>
+<testtitle>VEHICLE BROUGHT TO WORKSHOP</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CUSTOMER PROBLEM ANALYSIS AND SYMPTOM CHECK</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>INSPECT BATTERY VOLTAGE</testtitle>
+<test1>
+<ptxt>Measure the voltage of the battery.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<specitem>
+<ptxt>11 to 14 V</ptxt>
+</specitem>
+</spec>
+<ptxt>If the voltage is below 11 V, recharge or replace the battery before proceeding to the next step.</ptxt>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK FOR DTC*</testtitle>
+<test1>
+<ptxt>Check for DTCs and note any codes that are output (See page <xref label="Seep11" href="RM000002LIT02SX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep12" href="RM000002LIT02SX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Based on the DTCs output above, try to force output of the air conditioning system DTC by simulating the conditions indicated by the DTC. Then recheck for DTCs.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>DTC is not output</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>DTC is output</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+<results>
+<result>B</result>
+<action-ci-right>Go to DIAGNOSTIC TROUBLE CODE CHART (See page <xref label="Seep10" href="RM000002LIN05JX"/>)</action-ci-right>
+<result-ci-down>A</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>PROBLEM SYMPTOMS TABLE</testtitle>
+<test1>
+<ptxt>Refer to Problem Symptoms Table (See page <xref label="Seep06" href="RM0000045E302EX"/>).</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Fault is not listed in problem symptoms table</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Fault is listed in problem symptoms table</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+<results>
+<result>B</result>
+<action-ci-right>ADJUST, REPAIR OR REPLACE IN ACCORDANCE WITH PROBLEM SYMPTOMS TABLE</action-ci-right>
+<result-ci-down>A</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>OVERALL ANALYSIS AND TROUBLESHOOTING*</testtitle>
+<test1>
+<ptxt>Terminals of ECU (See page <xref label="Seep05" href="RM000002LIP03LX"/>)</ptxt>
+</test1>
+<test1>
+<ptxt>Data List/Active Test (See page <xref label="Seep13" href="RM000003R7K00JX"/>)</ptxt>
+</test1>
+<test1>
+<ptxt>On-vehicle Inspection</ptxt>
+</test1>
+<test1>
+<ptxt>Inspection</ptxt>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>ADJUST, REPAIR OR REPLACE</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CONFIRMATION TEST</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+<action-ci-fin>END</action-ci-fin>
+</results>
+</descript-testgroup>
+</descript-diag>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

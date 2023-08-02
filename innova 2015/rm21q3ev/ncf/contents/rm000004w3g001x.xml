@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="54">
+<name>Brake</name>
+<section id="12032_S000L" variety="S000L">
+<name>BRAKE (FRONT)</name>
+<ttl id="12032_S000L_7AKNT_T0015" variety="T0015">
+<name>FRONT BRAKE</name>
+<para id="RM000004W3G001X" category="F" type-id="8048W" name-id="FB0KJ-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004W3G001X_z0" proc-id="NM21Q0EV__000003300000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A ventilated disc brake is used.</ptxt>
+</step2>
+<step2>
+<ptxt>An opposed 1-piston type caliper is used.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ventilated Disc</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Caliper Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>PD60</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Wheel Cylinder Diameter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>60.325 mm (2.375 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rotor Size (Diameter x Thickness)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>255.0 mm x 28.0 mm (10.0 in. x 1.1 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Pad Material</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>PS558H</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Pad Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.1 cm<sup>2</sup> (5.75 in.<sup>2</sup>) x 2</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

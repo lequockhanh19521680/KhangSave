@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROY_T00A0" variety="T00A0">
+<name>AIR CONDITIONING AMPLIFIER (for Automatic Air Conditioning System)</name>
+<para id="RM000004QZA00DX" category="G" type-id="3001K" name-id="ACCVH-12" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000004QZA00DX_01" type-id="01" category="01">
+<s-1 id="RM000004QZA00DX_01_0001" proc-id="RM21Q0EV__00004AI00000">
+<ptxt>INSPECT NO. 1 COOLER WIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<figure>
+<graphic graphicname="B276029E02" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL3" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A1 - B1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A2 - B2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A3 - B3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A4 - B4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A5 - B5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A6 - B6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A7 - B7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A8 - B8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A9 - B9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A10 - B10</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A11 - B11</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A12 - B12</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A13 - B13</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A14 - B14</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A15 - B15</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the No. 1 cooler wire.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

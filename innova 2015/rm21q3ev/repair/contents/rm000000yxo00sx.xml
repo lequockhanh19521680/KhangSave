@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXO00SX" category="U" type-id="303FJ" name-id="RS0GD-21" from="201202">
+<name>DATA LIST / ACTIVE TEST</name>
+<subpara id="RM000000YXO00SX_z0" proc-id="RM21Q0EV__000021800000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>READ DATA LIST</ptxt>
+<atten4>
+<ptxt>Using the intelligent tester's Data List allows switch, sensor, actuator and other item values to be read without removing any parts. Reading the Data List early in troubleshooting is one way to save time.</ptxt>
+</atten4>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Read the Data List according to the display on the tester.</ptxt>
+<table pgwide="1">
+<title>Center airbag sensor assembly:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Display Type Information</ptxt>
+</entry>
+<entry>
+<ptxt>Display type identification information/</ptxt>
+<ptxt>LR: Display is indicated by LH/RH</ptxt>
+<ptxt>DP: Display is indicated by Driver/Passenger</ptxt>
+</entry>
+<entry>
+<ptxt>DP</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Number of Past DTC</ptxt>
+</entry>
+<entry>
+<ptxt>Number of past DTCs recorded/  Min.: 0, Max.: 255</ptxt>
+</entry>
+<entry>
+<ptxt>0</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

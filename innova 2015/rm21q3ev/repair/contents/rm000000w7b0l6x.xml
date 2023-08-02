@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W7B0L6X" category="D" type-id="303FC" name-id="AT0030-107" from="201202" to="201303">
+<name>HYDRAULIC TEST</name>
+<subpara id="RM000000W7B0L6X_z0" proc-id="RM21Q0EV__000018900000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>MEASURE LINE PRESSURE</ptxt>
+<figure>
+<graphic graphicname="C192329E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Perform the test at the normal operating ATF temperature: 50 to 80°C (122 to 176°F).</ptxt>
+</item>
+<item>
+<ptxt>The line pressure test should always be performed with at least 2 people. One person should observe the condition of the wheels and wheel chocks while the other is performing the test.</ptxt>
+</item>
+<item>
+<ptxt>Be careful to prevent SST's hose from interfering with the exhaust pipe.</ptxt>
+</item>
+<item>
+<ptxt>This test must be performed after checking and adjusting the engine.</ptxt>
+</item>
+<item>
+<ptxt>Perform the test with the A/C off.</ptxt>
+</item>
+</list1>
+</atten3>
+<step2>
+<ptxt>Warm up the ATF.</ptxt>
+</step2>
+<step2>
+<ptxt>Remove the test plug from the transmission case and connect SST.</ptxt>
+<sst>
+<sstitem>
+<s-number>09992-00095</s-number>
+<s-subnumber>09992-00231</s-subnumber>
+<s-subnumber>09992-00271</s-subnumber>
+</sstitem>
+</sst>
+</step2>
+<step2>
+<ptxt>Fully apply the parking brake and chock the 4 wheels.</ptxt>
+</step2>
+<step2>
+<ptxt>Start the engine and check the idling speed.</ptxt>
+</step2>
+<step2>
+<ptxt>Keep your left foot firmly on the brake pedal and move the shift lever to D.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the line pressure when the engine is idling.</ptxt>
+</step2>
+<step2>
+<ptxt>Depress the accelerator pedal as much as possible with your right foot. Quickly read the highest line pressure reading when the engine speed reaches stall speed.</ptxt>
+</step2>
+<step2>
+<ptxt>Perform the measure line pressure test again with the shift lever on R.</ptxt>
+<table pgwide="1">
+<title>Specified line pressure:</title>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Shift Lever on D</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Shift Lever on R</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>Idling</ptxt>
+</entry>
+<entry align="left">
+<ptxt>350 to 410 kPa</ptxt>
+<ptxt>(3.6 to 4.2 kgf/cm<sup>2</sup>, 51 to 59 psi)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>500 to 570 kPa</ptxt>
+<ptxt>(5.1 to 5.8 kgf/cm<sup>2</sup>, 73 to 83 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>Stall</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1030 to 1200 kPa</ptxt>
+<ptxt>(10.5 to 12.2 kgf/cm<sup>2</sup>, 149 to 174 psi)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1420 to 1790 kPa</ptxt>
+<ptxt>(14.5 to 18.3 kgf/cm<sup>2</sup>, 206 to 260 psi)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Evaluation:</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.75in"/>
+<colspec colname="COL2" colwidth="3.33in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Problem</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Possible Cause</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Measured values at all positions are higher than specified</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Shift solenoid valve SLT defective</ptxt>
+</item>
+<item>
+<ptxt>Regulator valve defective</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Measured values at all positions are lower than specified</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Shift solenoid valve SLT defective</ptxt>
+</item>
+<item>
+<ptxt>Regulator valve defective</ptxt>
+</item>
+<item>
+<ptxt>Oil pump defective</ptxt>
+</item>
+<item>
+<ptxt>O/D direct clutch defective</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Pressure is low when shift lever is on D only</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>D position circuit fluid leak</ptxt>
+</item>
+<item>
+<ptxt>Forward clutch defective</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Pressure is low when shift lever is on R only</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>R position circuit fluid leak</ptxt>
+</item>
+<item>
+<ptxt>Direct clutch defective</ptxt>
+</item>
+<item>
+<ptxt>1st and reverse brake defective</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A80A_T004O" variety="T004O">
+<name>FRONT UPPER SUSPENSION ARM</name>
+<para id="RM0000010U700BX" category="A" type-id="80002" name-id="SP3DU-02" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000010U700BX_01" type-id="01" category="01">
+<s-1 id="RM0000010U700BX_01_0001" proc-id="RM21Q0EV__000051A00000">
+<ptxt>REMOVE FRONT UPPER SUSPENSION ARM BUSH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049918E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a hammer and chisel, strike and bend the entire flange of the upper arm bush as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F049919E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using SST and a press, press out the bush.</ptxt>
+<sst>
+<sstitem>
+<s-number>09613-26010</s-number>
+</sstitem>
+<sstitem>
+<s-number>09710-22021</s-number>
+<s-subnumber>09710-01061</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09950-00020</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010U700BX_01_0002" proc-id="RM21Q0EV__000051B00000">
+<ptxt>REMOVE UPPER BALL JOINT DUST COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the dust cover set ring and dust cover from the upper arm.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not damage the ball joint dust cover.</ptxt>
+</item>
+<item>
+<ptxt>If the ball joint dust cover is damaged, replace it.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010U700BX_01_0003" proc-id="RM21Q0EV__000051C00000">
+<ptxt>REMOVE FRONT UPPER BALL JOINT</ptxt>
+<content1 releasenbr="2">
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+<figure>
+<graphic graphicname="C237639" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using SST and a press, press out the upper ball joint.</ptxt>
+<figure>
+<graphic graphicname="C237640E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09612-30012</s-number>
+</sstitem>
+<sstitem>
+<s-number>09388-40010</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

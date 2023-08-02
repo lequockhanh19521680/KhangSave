@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1000J_S000L" variety="S000L">
+<name>TIRE AND WHEEL</name>
+<ttl id="1000J_S000L_7A80C_T004Q" variety="T004Q">
+<name>TIRE AND WHEEL SYSTEM</name>
+<para id="RM0000010MW00TX" category="G" type-id="3001K" name-id="TW1MB-01" from="201202" to="201403">
+<name>INSPECTION</name>
+<subpara id="RM0000010MW00TX_01" type-id="01" category="01">
+<s-1 id="RM0000010MW00TX_01_0001" proc-id="RM21Q0EV__00001KS00000">
+<ptxt>INSPECT TIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the tires for wear and proper inflation pressure.</ptxt>
+<spec>
+<title>Standard cold tire inflation pressure</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tire Size</ptxt>
+</entry>
+<entry>
+<ptxt>Front Pressure</ptxt>
+</entry>
+<entry>
+<ptxt>Rear Pressure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>195/70R 14 91S</ptxt>
+<ptxt>205/65R 15 94S</ptxt>
+</entry>
+<entry>
+<ptxt>230 kPa (2.3 kgf/cm<sup>2</sup>, 33 psi)</ptxt>
+</entry>
+<entry>
+<ptxt>230 kPa (2.3 kgf/cm<sup>2</sup>, 33 psi)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="R003031E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a dial indicator, measure the tire runout.</ptxt>
+<spec>
+<title>Standard tire runout</title>
+<specitem>
+<ptxt>3.0 mm (0.118 in.) or less</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MW00TX_01_0002" proc-id="RM21Q0EV__00001KT00000">
+<ptxt>ROTATE TIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Rotate the tires.</ptxt>
+<figure>
+<graphic graphicname="C113172E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>The rotation method is different depending on the type of the vehicle's wheels and spare tire's wheel (see illustration).</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MW00TX_01_0005" proc-id="RM21Q0EV__00001KW00000">
+<ptxt>INSPECT WHEEL BALANCE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C080976E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check and adjust the balance of the wheels.</ptxt>
+<spec>
+<title>Standard imbalance after adjustment</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tire Size</ptxt>
+</entry>
+<entry>
+<ptxt>Balance Weight</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>195/70R 14 91S</ptxt>
+</entry>
+<entry>
+<ptxt>15 g (0.033 lb) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>205/65R 15 94S</ptxt>
+</entry>
+<entry>
+<ptxt>14 g (0.030 lb) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MW00TX_01_0003" proc-id="RM21Q0EV__00001KU00000">
+<ptxt>INSPECT WHEEL BEARING BACKLASH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect the front wheel bearing backlash (see page <xref label="Seep01" href="RM000000ZZM00IX_01_0001"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Inspect the rear wheel bearing backlash (see page <xref label="Seep02" href="RM000000ZZW00IX_01_0001"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MW00TX_01_0004" proc-id="RM21Q0EV__00001KV00000">
+<ptxt>INSPECT FOR AXLE HUB DEVIATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect for front axle hub deviation (see page <xref label="Seep01" href="RM000000ZZM00IX_01_0001"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Inspect for rear axle hub deviation (see page <xref label="Seep02" href="RM000000ZZW00IX_01_0001"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

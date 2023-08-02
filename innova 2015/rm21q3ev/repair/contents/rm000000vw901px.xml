@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XY_T002C" variety="T002C">
+<name>ENGINE COOLANT TEMPERATURE SENSOR</name>
+<para id="RM000000VW901PX" category="K" type-id="30193" name-id="ES0PN-06" from="201202" to="201403">
+<name>COMPONENTS</name>
+<subpara id="RM000000VW901PX_02" type-id="02" category="04" proc-id="RM21Q0EV__000005R00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A111717E10" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000000VW901PX_01" type-id="02" category="04" proc-id="RM21Q0EV__000005Q00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A111686E04" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

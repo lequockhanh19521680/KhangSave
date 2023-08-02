@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80J_T004X" variety="T004X">
+<name>BRAKE PEDAL</name>
+<para id="RM0000010K801KX" category="A" type-id="80001" name-id="BR4LZ-02" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010K801KX_01" type-id="01" category="01">
+<s-1 id="RM0000010K801KX_01_0004" proc-id="RM21Q0EV__00001PF00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="2">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag and seat belt pretensioner activation.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010K801KX_01_0003" proc-id="RM21Q0EV__00001PE00000">
+<ptxt>REMOVE COMBINATION METER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the combination meter assembly (See page <xref label="Seep01" href="RM000004S68006X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010K801KX_01_0001" proc-id="RM21Q0EV__00001PC00000">
+<ptxt>DISCONNECT BRAKE MASTER CYLINDER PUSH ROD CLEVIS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the stop light switch connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the return spring.</ptxt>
+<figure>
+<graphic graphicname="C226773E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the clip and clevis pin.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the push rod clevis from the brake pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010K801KX_01_0002" proc-id="RM21Q0EV__00001PD00000">
+<ptxt>REMOVE BRAKE PEDAL SUPPORT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C228311E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt from the support.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts and support.</ptxt>
+<figure>
+<graphic graphicname="C111300" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

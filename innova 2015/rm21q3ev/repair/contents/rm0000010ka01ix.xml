@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80J_T004X" variety="T004X">
+<name>BRAKE PEDAL</name>
+<para id="RM0000010KA01IX" category="A" type-id="8000E" name-id="BR4M0-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010KA01IX_01" type-id="01" category="01">
+<s-1 id="RM0000010KA01IX_01_0001" proc-id="RM21Q0EV__00001PJ00000">
+<ptxt>INSTALL BRAKE PEDAL PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the pad to the pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KA01IX_01_0002" proc-id="RM21Q0EV__00001PK00000">
+<ptxt>INSTALL STOP LIGHT SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111301E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the adjuster to the support.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert the switch into the adjuster until it slightly touches the pedal.</ptxt>
+<atten3>
+<ptxt>Do not depress the pedal.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Turn the switch a quarter turn clockwise.</ptxt>
+<figure>
+<graphic graphicname="C111302E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>1.5</t-value1>
+<t-value2>15</t-value2>
+<t-value3>13</t-value3>
+<ptxt>or less</ptxt>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not depress the pedal.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the switch connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the switch clearance.</ptxt>
+<spec>
+<title>Standard stop light switch clearance</title>
+<specitem>
+<ptxt>1.5 to 2.5 mm (0.0591 to 0.0984 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KA01IX_01_0003" proc-id="RM21Q0EV__00001PL00000">
+<ptxt>INSTALL BRAKE PEDAL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C213466E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Apply a light coat of lithium soap base glycol grease to 2 new bushes, the brake pedal shaft collar and shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the brake pedal shaft collar and 2 bushes to the pedal.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the pedal to the support with the shaft and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

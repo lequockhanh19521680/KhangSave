@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N7V00EX" category="J" type-id="300WI" name-id="PM1XE-01" from="201202">
+<dtccode/>
+<dtcname>Park / Neutral Position Switch Circuit</dtcname>
+<subpara id="RM000003N7V00EX_01" type-id="60" category="03" proc-id="RM21Q0EV__00002LA00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>This circuit sends the park / neutral position switch signals to the clearance warning ECU.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000003N7V00EX_02" type-id="32" category="03" proc-id="RM21Q0EV__00002LB00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E168779E02" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000003N7V00EX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000003N7V00EX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000003N7V00EX_04_0002" proc-id="RM21Q0EV__00002LC00000">
+<testtitle>INSPECT PARK / NEUTRAL POSITION SWITCH</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="E149961E07" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the N1 switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift lever on R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift lever not on R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N7V00EX_04_0003" fin="false">OK</down>
+<right ref="RM000003N7V00EX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N7V00EX_04_0003" proc-id="RM21Q0EV__00002LD00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (PARK / NEUTRAL POSITION SWITCH - CLEARANCE WARNING ECU)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the N1 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E168861E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C17 ECU connector.</ptxt>
+<figure>
+<graphic graphicname="E149933E25" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.36in"/>
+<colspec colname="COLSPEC0" colwidth="1.36in"/>
+<colspec colname="COL2" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>N1-2 (RB) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N1-2 (RB) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.36in"/>
+<colspec colname="COLSPEC0" colwidth="1.36in"/>
+<colspec colname="COLSPEC1" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>N1-1 (RL) - C17-13 (RL)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N1-1 (RL) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N7V00EX_04_0007" fin="true">OK</down>
+<right ref="RM000003N7V00EX_04_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N7V00EX_04_0006">
+<testtitle>REPLACE PARK / NEUTRAL POSITION SWITCH</testtitle>
+</testgrp>
+<testgrp id="RM000003N7V00EX_04_0007">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM000003N6S00LX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000003N7V00EX_04_0008">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

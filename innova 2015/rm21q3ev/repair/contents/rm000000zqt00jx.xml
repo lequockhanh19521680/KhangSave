@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQT00JX" category="C" type-id="302J7" name-id="ES0OX-15" from="201202">
+<dtccode>P0604/89</dtccode>
+<dtcname>Internal Control Module Random Access Memory (RAM) Error</dtcname>
+<dtccode>P0606/89</dtccode>
+<dtcname>ECM / PCM Processor</dtcname>
+<dtccode>P0607/89</dtccode>
+<dtcname>Control Module Performance</dtcname>
+<dtccode>P0657/89</dtccode>
+<dtcname>Actuator Supply Voltage Circuit / Open</dtcname>
+<subpara id="RM000000ZQT00JX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000CF00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The ECM continuously monitors its internal memory status, internal circuits, and output signals sent to the throttle actuator. This self-check insures that the ECM is functioning properly. If any malfunction is detected, the ECM will set the appropriate DTC and illuminate the MIL.</ptxt>
+<ptxt>The ECM memory status is diagnosed by internal "mirroring" of the main CPU and the sub CPU to detect Random Access Memory (RAM) errors. The 2 CPUs also perform continuous mutual monitoring. The ECM illuminates the MIL and sets a DTC if one of the following occurs: 1) outputs from the 2 CPUs are different and deviate from the standard, 2) the signals sent to the throttle actuator deviate from the standard, 3) a malfunction is found in the throttle actuator supply voltage, or 4) any other ECM malfunction is found.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0604/89</ptxt>
+<ptxt>P0606/89</ptxt>
+<ptxt>P0607/89</ptxt>
+<ptxt>P0657/89</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM internal error</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQT00JX_02" type-id="51" category="05" proc-id="RM21Q0EV__00000CG00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQT00JX_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQT00JX_03_0001" proc-id="RM21Q0EV__00000CH00000">
+<testtitle>CHECK OTHER DTC OUTPUT (IN ADDITION TO DTC P0604/89, P0606/89, P0607/89, P0657/89)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read DTCs.</ptxt>
+<spec>
+<title>Result</title>
+<table pgwide="1">
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0604/89,r P0606/89, P0607/89 or P0657/89</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0604/89, P0606/89, P0607/89, P0657/89 and other DTCs</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQT00JX_03_0003" fin="true">A</down>
+<right ref="RM000000ZQT00JX_03_0002" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQT00JX_03_0002">
+<testtitle>GO TO RELEVANT DTC CHART</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQT00JX_03_0003">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

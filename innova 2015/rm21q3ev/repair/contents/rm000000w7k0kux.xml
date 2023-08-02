@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W7K0KUX" category="D" type-id="304R5" name-id="AT0033-212" from="201202">
+<name>MONITOR DRIVE PATTERN</name>
+<subpara id="RM000000W7K0KUX_z0" proc-id="RM21Q0EV__000018F00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>TEST MONITOR DRIVE PATTERN FOR ECT</ptxt>
+<atten2>
+<ptxt>Perform this drive pattern on a level surface and strictly observe the posted speed limits and traffic laws while driving.</ptxt>
+</atten2>
+<atten4>
+<ptxt>Performing this drive pattern is one method to simulate the ECT's malfunction detection conditions.</ptxt>
+<ptxt>The DTCs may not be detected through ordinary, everyday driving. Also, DTCs may not be detected through this drive pattern.</ptxt>
+</atten4>
+<step2>
+<ptxt>Preparation for driving</ptxt>
+<step3>
+<ptxt>Warm up the engine sufficiently (engine coolant temperature is 60°C (140°F) or higher).</ptxt>
+</step3>
+<step3>
+<ptxt>Drive the vehicle when the atmospheric temperature is -10°C (14°F) or higher. </ptxt>
+<ptxt>Malfunctions are not detected when the atmospheric temperature is less than -10°C (14°F).</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Drive pattern</ptxt>
+<step3>
+<ptxt>Drive the vehicle through all the gears.</ptxt>
+<ptxt>Stop → 1st → 2nd → 3rd → 4th → 4th (lock-up on).</ptxt>
+</step3>
+<step3>
+<ptxt>Repeat the above drive pattern 3 times or more.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When using the intelligent tester, the monitor status can be found by entering the following menus: Powertrain / Engine and ECT / Data List.</ptxt>
+</item>
+<item>
+<ptxt>In the event that the drive pattern must be interrupted (due to traffic conditions or other factors), the drive pattern can be resumed and, in most cases, the monitor can be completed.</ptxt>
+</item>
+</list1>
+</atten3>
+</step3>
+</step2>
+</step1>
+<figure>
+<graphic graphicname="C115866E30" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<atten4>
+<ptxt>*: Drive as described in the uppermost gear to engage lock-up. Once the vehicle speed reaches approximately 80 km/h (50 mph), the vehicle can enter lock-up condition.</ptxt>
+</atten4>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

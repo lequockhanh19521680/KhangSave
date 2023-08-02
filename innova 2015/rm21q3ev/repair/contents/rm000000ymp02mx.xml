@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y6_T002K" variety="T002K">
+<name>DRIVE BELT</name>
+<para id="RM000000YMP02MX" category="A" type-id="80001" name-id="EMDPK-01" from="201303">
+<name>REMOVAL</name>
+<subpara id="RM000000YMP02MX_01" type-id="01" category="01">
+<s-1 id="RM000000YMP02MX_01_0001" proc-id="RM21Q0EV__000005F00001">
+<ptxt>REMOVE DRIVE BELT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and decrease the tension in the drive belt. Then remove the drive belt.</ptxt>
+<figure>
+<graphic graphicname="A099194E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>When removing the drive belt, do not use the idle pulley's bolt.</ptxt>
+</atten3>
+<atten4>
+<ptxt>After removing the drive belt, move the tensioner upward to the maximum position.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMP02MX_01_0002" proc-id="RM21Q0EV__00000FV00001">
+<ptxt>REMOVE TENSIONER PULLEY</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Perform the following procedure when it is necessary to replace the tensioner pulley.</ptxt>
+</atten3>
+<s2>
+<ptxt>Remove the oil dipstick.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt, dipstick guide and O-ring.</ptxt>
+<atten4>
+<ptxt>Cover the dipstick guide hole to prevent foreign matter from entering it.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the bolt, dust seal and tensioner pulley.</ptxt>
+<figure>
+<graphic graphicname="G035081E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

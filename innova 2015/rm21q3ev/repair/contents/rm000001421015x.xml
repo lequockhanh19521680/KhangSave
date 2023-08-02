@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YJ_T002X" variety="T002X">
+<name>HEATED OXYGEN SENSOR</name>
+<para id="RM000001421015X" category="G" type-id="3001K" name-id="EC03A-07" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001421015X_01" type-id="01" category="01">
+<s-1 id="RM000001421015X_01_0001" proc-id="RM21Q0EV__00000PY00000">
+<ptxt>INSPECT HEATED OXYGEN SENSOR (for Bank 1 Sensor 1)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A112088E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the resistance between terminals 1 (HT1A) and 2 (+B) of the sensor.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>5 to 10 Ω at 20°C (68°F)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the heated oxygen sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

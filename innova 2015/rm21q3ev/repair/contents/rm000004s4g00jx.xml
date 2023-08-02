@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARM0_T009H" variety="T009H">
+<name>BACK DOOR OUTSIDE GARNISH (for Standard)</name>
+<para id="RM000004S4G00JX" category="A" type-id="80002" name-id="ETABD-01" from="201403">
+<name>DISASSEMBLY</name>
+<subpara id="RM000004S4G00JX_01" type-id="01" category="01">
+<s-1 id="RM000004S4G00JX_01_0001" proc-id="RM21Q0EV__00004Y000001">
+<ptxt>REMOVE LICENSE PLATE LIGHT ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws.</ptxt>
+<figure>
+<graphic graphicname="E227745" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the license plate light assembly while turning it as shown in the illustration.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004S4G00JX_01_0002" proc-id="RM21Q0EV__00003TU00001">
+<ptxt>REMOVE BACK DOOR OUTSIDE GARNISH PROTECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the back door outside garnish protector.</ptxt>
+<figure>
+<graphic graphicname="B281404" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S4G00JX_01_0003" proc-id="RM21Q0EV__00003TV00001">
+<ptxt>REMOVE BACK DOOR OUTSIDE GARNISH PROTECTOR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the back door outside garnish protector.</ptxt>
+<figure>
+<graphic graphicname="B281405" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S4G00JX_01_0004" proc-id="RM21Q0EV__00003TW00001">
+<ptxt>REMOVE BACK DOOR OUTSIDE GARNISH PROTECTOR RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

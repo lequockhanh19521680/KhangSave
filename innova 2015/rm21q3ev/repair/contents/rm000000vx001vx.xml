@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XX_T002B" variety="T002B">
+<name>CRANKSHAFT POSITION SENSOR</name>
+<para id="RM000000VX001VX" category="A" type-id="30014" name-id="ES1AGU-001" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000VX001VX_01" type-id="01" category="01">
+<s-1 id="RM000000VX001VX_01_0001" proc-id="RM21Q0EV__000005600000">
+<ptxt>INSTALL CRANKSHAFT POSITION SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099147E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Apply a light coat of engine oil to the O-ring of the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the connector to the connector bracket.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the harness clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VX001VX_01_0009" proc-id="RM21Q0EV__00000G500000">
+<ptxt>INSTALL NO. 1 COMPRESSOR MOUNTING BRACKET
+</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Instal the No. 1 compressor mounting bracket exactly as described in the procedures below to properly secure and prevent damage to the fan and generator V belt.</ptxt>
+</atten3>
+<s2>
+<ptxt>Temporarily install the No. 1 compressor mounting bracket with the 3 bolts.</ptxt>
+<figure>
+<graphic graphicname="A330624" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Temporarily install the No. 1 compressor mounting bracket with the 3 bolts so that the bracket can be moved by hand.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Push the No. 1 compressor mounting bracket toward the cylinder block as shown in the illustration and tighten bolt B.</ptxt>
+<figure>
+<graphic graphicname="A332516E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>45</t-value1>
+<t-value2>459</t-value2>
+<t-value4>33</t-value4>
+<ptxt>for bolt B</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Make sure there is no clearance between the cylinder block and No. 1 compressor mounting bracket as shown in the illustration.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Uniformly tighten the 4 bolts in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A332517E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>45</t-value1>
+<t-value2>459</t-value2>
+<t-value4>33</t-value4>
+<ptxt>for bolt A</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>24.5</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+<ptxt>for bolt C</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VX001VX_01_0006" proc-id="RM21Q0EV__000005900000">
+<ptxt>INSTALL COOLER COMPRESSOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G039332E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Temporarily install the compressor with the bolt labeled A.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the compressor completely by tightening the 4 bolts in the order shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>255</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>In order to prevent misalignment, which causes belt rattle, tightening of the bolts must be performed in the order shown.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the compressor connector.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099198E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the suction hose with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VX001VX_01_0008" proc-id="RM21Q0EV__000005A00000">
+<ptxt>INSTALL DRIVE BELT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the drive belt to the pulleys except the drive belt tensioner pulley.</ptxt>
+<figure>
+<graphic graphicname="G038623E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and then install the drive belt to the tensioner pulley. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>The backside of the drive belt should face the tensioner pulley.</ptxt>
+</item>
+<item>
+<ptxt>Check that the drive belt is properly set to each pulley.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>After a new belt has been installed, check that the tensioner indicator mark is within range A shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G038479E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VX001VX_01_0003">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000VX001VX_01_0004" proc-id="RM21Q0EV__000005700000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

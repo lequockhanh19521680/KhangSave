@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80O_T0052" variety="T0052">
+<name>BRAKE MASTER CYLINDER</name>
+<para id="RM000005J91000X" category="K" type-id="30193" name-id="BR6X5-01" from="201303">
+<name>COMPONENTS</name>
+<subpara id="RM000005J91000X_01" type-id="02" category="04" proc-id="RM21Q0EV__00005B900000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="C239740E08" width="7.1065789991732in" height="7.79558250324816in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000005J91000X_02" type-id="02" category="04" proc-id="RM21Q0EV__00005BA00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="C239739E05" width="7.1065789991732in" height="7.79558250324816in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

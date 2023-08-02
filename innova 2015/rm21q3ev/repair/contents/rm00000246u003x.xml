@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A80Y_T005C" variety="T005C">
+<name>REFRIGERANT</name>
+<para id="RM00000246U003X" category="G" type-id="8000T" name-id="AC1T1-02" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM00000246U003X_01" type-id="01" category="01">
+<s-1 id="RM00000246U003X_01_0001" proc-id="RM21Q0EV__00001VU00000">
+<ptxt>INSPECT REFRIGERANT VOLUME</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="I043712E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check the sight glass on the liquid pipe A.</ptxt>
+<ptxt>Test conditions:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Temperature at the air inlet is 30 to 35°C (86 to 95°F).</ptxt>
+</item>
+<item>
+<ptxt>Engine is running at 1500 rpm.</ptxt>
+</item>
+<item>
+<ptxt>Blower speed control switch is at HI.</ptxt>
+</item>
+<item>
+<ptxt>A/C switch is on.</ptxt>
+</item>
+<item>
+<ptxt>Temperature control switch is at the MAX. COOL position.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Doors are fully open.</ptxt>
+</item>
+</list1>
+<table frame="all">
+<tgroup cols="4">
+<colspec colname="col1" colwidth="1.77in"/>
+<colspec colname="col2" colwidth="1.77in"/>
+<colspec colname="col3" colwidth="1.77in"/>
+<colspec colname="col4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Amount of Refrigerant</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Procedures</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry>
+<ptxt>Bubbles visible</ptxt>
+</entry>
+<entry>
+<ptxt>Insufficient*</ptxt>
+</entry>
+<entry>
+<ptxt>(1) Check for gas leakage and repair if necessary</ptxt>
+<ptxt>(2) Add refrigerant until bubbles disappear</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>No bubbles visible</ptxt>
+</entry>
+<entry>
+<ptxt>Empty, insufficient or too much</ptxt>
+</entry>
+<entry>
+<ptxt>Refer to items 3 and 4</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>No temperature difference between compressor inlet and outlet</ptxt>
+</entry>
+<entry>
+<ptxt>Empty or nearly empty</ptxt>
+</entry>
+<entry>
+<ptxt>(1) Check for gas leakage with halogen leak detector and repair if necessary </ptxt>
+<ptxt>(2) Add refrigerant until bubbles disappear</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4</ptxt>
+</entry>
+<entry>
+<ptxt>Considerable temperature difference between compressor inlet and outlet</ptxt>
+</entry>
+<entry>
+<ptxt>Correct or too much</ptxt>
+</entry>
+<entry>
+<ptxt>Refer to items 5 and 6</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>5</ptxt>
+</entry>
+<entry>
+<ptxt>Immediately after A/C is off, refrigerant becomes clear</ptxt>
+</entry>
+<entry>
+<ptxt>Too much</ptxt>
+</entry>
+<entry>
+<ptxt>(1) Drain or discharge refrigerant</ptxt>
+<ptxt>(2) Bleed air and supply proper amount of purified refrigerant</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>6</ptxt>
+</entry>
+<entry>
+<ptxt>Immediately after A/C is off, refrigerant foams and then becomes clear</ptxt>
+</entry>
+<entry>
+<ptxt>Correct</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: If the ambient temperature is higher than usual but cooling is sufficient, bubbles in the sight glass are permissible.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000246U003X_01_0002" proc-id="RM21Q0EV__00001VV00000">
+<ptxt>INSPECT REFRIGERANT PRESSURE WITH MANIFOLD GAUGE SET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>This method uses a manifold gauge set to locate problem areas. Read the manifold gauge pressure when these conditions are established.</ptxt>
+<ptxt>Test conditions:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Temperature at the air inlet with the switch set at RECIRC is 30 to 35°C (86 to 95°F).</ptxt>
+</item>
+<item>
+<ptxt>Engine is running at 1500 rpm.</ptxt>
+</item>
+<item>
+<ptxt>All doors are fully open.</ptxt>
+</item>
+<item>
+<ptxt>Blower speed control switch is at HI.</ptxt>
+</item>
+<item>
+<ptxt>A/C switch is on.</ptxt>
+</item>
+</list1>
+<ptxt>Gauge readings (Reference).</ptxt>
+<figure>
+<graphic graphicname="E225088E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure on low-pressure side</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blower HI Zone</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blower LO Zone</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure on high-pressure side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<s3>
+<ptxt>Normally functioning refrigeration system</ptxt>
+<figure>
+<graphic graphicname="E225089" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Gauge Reading</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Pressure Side</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Refrigerant Volume</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Low</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0.15 to 0.25 MPa (1.5 to 2.5 kgf/cm<sup>2</sup>)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>High</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.37 to 1.57 MPa (14 to 16 kgf/cm<sup>2</sup>)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+<s3>
+<ptxt>The A/C system periodically changes between normal and improper function due to moisture in the refrigerant system.</ptxt>
+<figure>
+<graphic graphicname="E225090" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>During operation, pressure on low pressure side cycles between normal and vacuum</ptxt>
+</entry>
+<entry>
+<ptxt>Moisture in refrigeration system freezes at expansion valve orifice, causing temporary stop of cycle. However, when melted, normal state is restored.</ptxt>
+</entry>
+<entry>
+<ptxt>- Dryer is overly saturated</ptxt>
+<ptxt>- Moisture in refrigeration system freezes at expansion valve orifice and blocks refrigerant circulation</ptxt>
+</entry>
+<entry>
+<ptxt>1. Replace cooler dryer</ptxt>
+<ptxt>2. Remove moisture from cycle by repeatedly evacuating air</ptxt>
+<ptxt>3. Supply appropriate volume of new refrigerant</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>The A/C system does not function effectively due to insufficient refrigerant.</ptxt>
+<figure>
+<graphic graphicname="E225091" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>- Pressure low on both low and high pressure sides</ptxt>
+<ptxt>- Cooling performance insufficient</ptxt>
+</entry>
+<entry>
+<ptxt>Gas leakage from refrigeration system</ptxt>
+</entry>
+<entry>
+<ptxt>- Insufficient refrigerant</ptxt>
+<ptxt>- Refrigerant leakage</ptxt>
+</entry>
+<entry>
+<ptxt>1. Check for gas leakage and repair if necessary</ptxt>
+<ptxt>2. Supply appropriate volume of new refrigerant</ptxt>
+<ptxt>3. If indicated pressure value close to 0 when connected to gauge, create vacuum after inspecting and repairing the location of leakage</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>The A/C system does not function effectively due to poor circulation of the refrigerant.</ptxt>
+<figure>
+<graphic graphicname="E225092" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>- Pressure low on both low and high pressure sides</ptxt>
+<ptxt>- Frost exists on piping from condenser to A/C unit</ptxt>
+</entry>
+<entry>
+<ptxt>Refrigerant flow obstructed by dirt in condenser</ptxt>
+</entry>
+<entry>
+<ptxt>Condenser clogged</ptxt>
+</entry>
+<entry>
+<ptxt>Replace condenser</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>The A/C system does not function or functions intermittently because the refrigerant does not circulate.</ptxt>
+<figure>
+<graphic graphicname="E225092" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>- Vacuum indicated on low pressure side, and extremely low pressure indicated on high pressure side</ptxt>
+<ptxt>- Frost or condensation seen on piping on both sides of condenser or expansion valve</ptxt>
+</entry>
+<entry>
+<ptxt>- Refrigerant flow obstructed by moisture or dirt in refrigeration system</ptxt>
+<ptxt>- Refrigerant flow obstructed by gas leakage from expansion valve</ptxt>
+</entry>
+<entry>
+<ptxt>Refrigerant does not circulate</ptxt>
+</entry>
+<entry>
+<ptxt>1. Check expansion valve refrigerant</ptxt>
+<ptxt>2. Clean expansion valve by blowing air</ptxt>
+<ptxt>3. Replace condenser</ptxt>
+<ptxt>4. Evacuate air and charge appropriate volume of new refrigerant</ptxt>
+<ptxt>5. For gas leakage from expansion valve, replace expansion valve</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>The A/C system does not function effectively due to overcharged refrigerant or insufficient cooling of the condenser.</ptxt>
+<figure>
+<graphic graphicname="E225093" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Pressure extremely high on both low and high-pressure sides</ptxt>
+</entry>
+<entry>
+<ptxt>- Excessive refrigerant</ptxt>
+<ptxt>- Cooling performance of condenser insufficient</ptxt>
+</entry>
+<entry>
+<ptxt>- Condenser is dirty</ptxt>
+<ptxt>- Condenser fan motor is malfunctioning</ptxt>
+<ptxt>- Excessive refrigerant</ptxt>
+</entry>
+<entry>
+<ptxt>1. Clean condenser</ptxt>
+<ptxt>2. Check condenser fan motor operation</ptxt>
+<ptxt>3. If 1 and 2 normal, check the amount of refrigerant and supply appropriate volume of refrigerant</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>The A/C system does not function due to air in the refrigeration system.</ptxt>
+<atten2>
+<ptxt>The low-pressure piping may be very hot and cause serious burns.</ptxt>
+</atten2>
+<atten3>
+<ptxt>These gauge indications occur when the refrigeration system opens and the system is charged with refrigerant without vacuum purging.</ptxt>
+</atten3>
+<figure>
+<graphic graphicname="E225094" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>- Pressure extremely high on both low and high-pressure sides</ptxt>
+<ptxt>- Low-pressure piping is too hot to touch</ptxt>
+</entry>
+<entry>
+<ptxt>Air in refrigeration system</ptxt>
+</entry>
+<entry>
+<ptxt>- Air in refrigeration system</ptxt>
+<ptxt>- Vacuum purging insufficient</ptxt>
+</entry>
+<entry>
+<ptxt>1. Check if compressor oil is dirty or insufficient</ptxt>
+<ptxt>2. Evacuate air and charge new refrigerant</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>The A/C system does not function effectively due to an expansion valve malfunction.</ptxt>
+<figure>
+<graphic graphicname="E225094" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>- Pressure extremely high on both low and high-pressure sides</ptxt>
+<ptxt>- Frost or condensation on piping on low-pressure side</ptxt>
+</entry>
+<entry>
+<ptxt>Problem with expansion valve</ptxt>
+</entry>
+<entry>
+<ptxt>- Excessive refrigerant in low pressure piping</ptxt>
+<ptxt>- Expansion valve too wide open</ptxt>
+</entry>
+<entry>
+<ptxt>Replace expansion valve</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>The A/C system does not function due to a defective compressor.</ptxt>
+<figure>
+<graphic graphicname="E225095" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptoms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Probable Cause</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Corrective Actions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>- Pressure extremely high on both low and high-pressure sides</ptxt>
+<ptxt>- Pressure extremely low on high pressure side</ptxt>
+</entry>
+<entry>
+<ptxt>Internal leakage in compressor</ptxt>
+</entry>
+<entry>
+<ptxt>- Compression failure</ptxt>
+<ptxt>- Leakage from damaged valve or broken sliding parts</ptxt>
+</entry>
+<entry>
+<ptxt>Repair or replace compressor</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

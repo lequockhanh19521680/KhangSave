@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z8_T003M" variety="T003M">
+<name>PARK / NEUTRAL POSITION SWITCH</name>
+<para id="RM0000010N805SX" category="N" type-id="3000G" name-id="AT09V-20" from="201202">
+<name>ADJUSTMENT</name>
+<subpara id="RM0000010N805SX_01" type-id="01" category="01">
+<s-1 id="RM0000010N805SX_01_0001" proc-id="RM21Q0EV__00000XG00000">
+<ptxt>ADJUST PARK/NEUTRAL POSITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D025795E07" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Loosen the park/neutral position switch bolt and move the shift lever to N.</ptxt>
+</s2>
+<s2>
+<ptxt>Align the neutral basic line with the switch groove.</ptxt>
+</s2>
+<s2>
+<ptxt>Hold the switch in position and tighten the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>62</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>After adjustment, perform the inspection (See page <xref label="Seep01" href="RM0000010ND056X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

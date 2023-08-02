@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z5_T003J" variety="T003J">
+<name>SPEED SENSOR</name>
+<para id="RM0000010N301WX" category="G" type-id="3001K" name-id="AT0FH-09" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010N301WX_01" type-id="01" category="01">
+<s-1 id="RM0000010N301WX_01_0001" proc-id="RM21Q0EV__00000WM00000">
+<ptxt>INSPECT SPEED SENSOR (NC0)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C110343E96" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>560 to 680 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010N301WX_01_0002" proc-id="RM21Q0EV__00000WN00000">
+<ptxt>INSPECT SPEED SENSOR (SP2)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C110343E54" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>560 to 680 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

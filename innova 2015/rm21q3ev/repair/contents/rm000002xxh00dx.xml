@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW3_T00AK" variety="T00AK">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/o Theft Deterrent System)</name>
+<para id="RM000002XXH00DX" category="R" type-id="3001F" name-id="DL7ML-02" from="201202">
+<name>PARTS LOCATION</name>
+<subpara id="RM000002XXH00DX_01" type-id="02" category="04" proc-id="RM21Q0EV__00004ZK00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B293960E02" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000002XXH00DX_02" type-id="02" category="04" proc-id="RM21Q0EV__00004ZL00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B312423E04" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000002XXH00DX_06" type-id="02" category="04" proc-id="RM21Q0EV__00004ZM00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B281244E03" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

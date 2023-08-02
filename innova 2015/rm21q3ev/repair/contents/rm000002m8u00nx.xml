@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1000K_S000I" variety="S000I">
+<name>DIFFERENTIAL</name>
+<ttl id="1000K_S000I_7A7ZW_T004A" variety="T004A">
+<name>DIFFERENTIAL SYSTEM</name>
+<para id="RM000002M8U00NX" category="T" type-id="3001H" name-id="DF0BU-19" from="201202">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000002M8U00NX_z0" proc-id="RM21Q0EV__000056N00000">
+<content5 releasenbr="2">
+<atten4>
+<ptxt>Use the table below to help determine the cause of problem symptoms. If multiple suspected areas are listed, the potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Differential System</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Oil leak from rear differential</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Oil (level too high or wrong grade)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000037HK00LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Rear differential carrier oil seal (worn or damaged)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MG01IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Companion flange (loose or damaged)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MG01IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Oil leak from rear drive pinion shaft</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Oil (level too high or wrong grade)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000037HK00LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Rear differential carrier oil seal (worn or damaged)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MG01IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Companion flange (loose or damaged)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MG01IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

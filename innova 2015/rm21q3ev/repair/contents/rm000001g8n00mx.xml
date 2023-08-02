@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A806_T004K" variety="T004K">
+<name>REAR COIL SPRING</name>
+<para id="RM000001G8N00MX" category="A" type-id="30014" name-id="SP3EL-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001G8N00MX_02" type-id="11" category="10" proc-id="RM21Q0EV__00001JE00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (see page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001G8N00MX_01" type-id="01" category="01">
+<s-1 id="RM000001G8N00MX_01_0001" proc-id="RM21Q0EV__00001J700000">
+<ptxt>INSTALL REAR COIL SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049945E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the coil spring and insulator to the lower control arm and frame. Fit the lower end of the coil spring into the recess of the spring lower seat.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0014" proc-id="RM21Q0EV__00001IY00000">
+<ptxt>TEMPORARILY INSTALL REAR SHOCK ABSORBER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118719" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install 2 new bushes and the 2 retainers to the shock absorber.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the shock absorber to the axle housing with the nut.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G8N00MX_01_0003" proc-id="RM21Q0EV__00001J800000">
+<ptxt>INSTALL REAR WHEEL</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1,122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0015" proc-id="RM21Q0EV__000051S00000">
+<ptxt>STABILIZE SUSPENSION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the vehicle several times to stabilize the suspension.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G8N00MX_01_0016" proc-id="RM21Q0EV__00001J000000">
+<ptxt>FULLY TIGHTEN REAR SHOCK ABSORBER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>82</t-value1>
+<t-value2>816</t-value2>
+<t-value4>60</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G8N00MX_01_0006" proc-id="RM21Q0EV__00001J900000">
+<ptxt>CONNECT REAR BRAKE TUBE FLEXIBLE HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the hose to the 3 way joint.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip to the flexible hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the flexible hose to the brake line.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>23</t-value1>
+<t-value2>235</t-value2>
+<t-value4>20</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0007" proc-id="RM21Q0EV__000059E00000">
+<ptxt>CONNECT NO. 3 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the No. 3 parking brake cable assembly (see page <xref label="Seep01" href="RM0000010QT00XX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0017" proc-id="RM21Q0EV__00001JD00000">
+<ptxt>INSTALL TAILPIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the tail exhaust pipe (see page <xref label="Seep01" href="RM00000135901LX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0018">
+<ptxt>CONNECT SKID CONTROL SENSOR WIRE</ptxt>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0010" proc-id="RM21Q0EV__00001JA00000">
+<ptxt>FILL RESERVOIR WITH BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fill the reservoir with brake fluid (see page <xref label="Seep01" href="RM0000010K4011X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0011" proc-id="RM21Q0EV__00001JB00000">
+<ptxt>BLEED BRAKE LINE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Bleed the brake line (see page <xref label="Seep01" href="RM0000010K3017X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0012" proc-id="RM21Q0EV__00001JC00000">
+<ptxt>CHECK FLUID LEVEL IN RESERVOIR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fluid level in the reservoir (see page <xref label="Seep01" href="RM0000010K4011X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8N00MX_01_0013">
+<ptxt>CHECK FOR BRAKE FLUID LEAKAGE</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

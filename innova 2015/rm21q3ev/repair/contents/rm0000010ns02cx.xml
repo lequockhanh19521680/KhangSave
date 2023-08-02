@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZB_T003P" variety="T003P">
+<name>FLOOR SHIFT ASSEMBLY</name>
+<para id="RM0000010NS02CX" category="A" type-id="8000E" name-id="AT41V-02" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010NS02CX_02" type-id="01" category="01">
+<s-1 id="RM0000010NS02CX_02_0003" proc-id="RM21Q0EV__00000Z000000">
+<ptxt>INSTALL SHIFT LOCK RELEASE BUTTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191478" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the spring and shift lock release button.</ptxt>
+<atten4>
+<ptxt>Make sure attach the claws are securely attached.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NS02CX_02_0005" proc-id="RM21Q0EV__00000Z100000">
+<ptxt>INSTALL LOWER POSITION INDICATOR HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037859E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the 3 claws to install the position indicator housing.</ptxt>
+<atten4>
+<ptxt>Make sure attach the claws are securely attached.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NS02CX_02_0006" proc-id="RM21Q0EV__00000Z200000">
+<ptxt>INSTALL INDICATOR LIGHT WIRE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037858E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the bulb to the position indicator housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector to install the indicator light wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 3 clamps.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NS02CX_02_0007" proc-id="RM21Q0EV__00000Z300000">
+<ptxt>INSTALL POSITION INDICATOR SLIDE COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 2 position indicator slide cover to the position indicator slide cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the position indicator slide cover together with the No. 2 position indicator slide cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NS02CX_02_0008" proc-id="RM21Q0EV__00000Z400000">
+<ptxt>INSTALL UPPER POSITION INDICATOR HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037857E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the 4 claws to install the upper position indicator housing to the lower position indicator housing.</ptxt>
+<atten4>
+<ptxt>Make sure attach the claws are securely attached.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NS02CX_02_0009" proc-id="RM21Q0EV__00000Z500000">
+<ptxt>INSTALL SHIFT LEVER KNOB SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037856E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Twist the knob clockwise to install it.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

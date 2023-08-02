@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000E_S000B" variety="S000B">
+<name>1TR-FE IGNITION</name>
+<ttl id="1000E_S000B_7A7YW_T003A" variety="T003A">
+<name>IGNITION SYSTEM</name>
+<para id="RM000000SM501MX" category="U" type-id="303FI" name-id="IG017-27" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000000SM501MX_z0" proc-id="RM21Q0EV__00000TX00000">
+<content5 releasenbr="1">
+<ptxt>Ignition timing is controlled by the ECM based on signals from various sensors.</ptxt>
+<figure>
+<graphic graphicname="A302444E02" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

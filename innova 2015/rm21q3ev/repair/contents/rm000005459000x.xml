@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80O_T0052" variety="T0052">
+<name>BRAKE MASTER CYLINDER</name>
+<para id="RM000005459000X" category="A" type-id="80002" name-id="BR642-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000005459000X_01" type-id="01" category="01">
+<s-1 id="RM000005459000X_01_0001" proc-id="RM21Q0EV__000053A00000">
+<ptxt>REMOVE BRAKE MASTER CYLINDER RESERVOIR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the brake master cylinder reservoir from the brake master cylinder sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000005459000X_01_0002" proc-id="RM21Q0EV__000053B00000">
+<ptxt>REMOVE MASTER CYLINDER RESERVOIR GROMMET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 master cylinder reservoir grommets from the brake master cylinder reservoir assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000005459000X_01_0003">
+<ptxt>REMOVE BRAKE FLUID INFORMATION LABEL</ptxt>
+</s-1>
+<s-1 id="RM000005459000X_01_0004" proc-id="RM21Q0EV__000053C00000">
+<ptxt>REMOVE BRAKE MASTER CYLINDER RESERVOIR FILLER CAP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the brake master cylinder reservoir filler cap assembly from the brake master cylinder reservoir assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000005459000X_01_0005" proc-id="RM21Q0EV__000053D00000">
+<ptxt>REMOVE BRAKE MASTER CYLINDER RESERVOIR STRAINER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the brake master cylinder reservoir strainer from the brake master cylinder reservoir assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000005459000X_01_0006" proc-id="RM21Q0EV__000053E00000">
+<ptxt>REMOVE BRAKE MASTER CYLINDER KIT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Push in the piston and remove the snap ring using snap ring pliers.</ptxt>
+<figure>
+<graphic graphicname="C236920" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Push in the piston and remove the piston stopper bolt and gasket.</ptxt>
+<figure>
+<graphic graphicname="C236922" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the No.1 piston from the master cylinder body by pulling straight out.</ptxt>
+<atten3>
+<ptxt>Do not scratch the inside of the cylinder body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Tap the flanged part against wooden blocks until the end of the No. 2 piston comes out. When the end of the No. 2 piston comes out, pull the No. 2 piston straight out of the master cylinder body.</ptxt>
+<figure>
+<graphic graphicname="C236923" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not scratch the inside of the cylinder body.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

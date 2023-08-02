@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQA00JX" category="C" type-id="3008U" name-id="ES10OM-001" from="201202">
+<dtccode>P0340/12</dtccode>
+<dtcname>Camshaft Position Sensor Circuit Malfunction</dtcname>
+<dtccode>P0341/12</dtccode>
+<dtcname>Camshaft Position Sensor "A" Circuit  Range / Performance (Bank 1 or Single Sensor)</dtcname>
+<subpara id="RM000000ZQA00JX_01" type-id="60" category="03" proc-id="RM21Q0EV__000009400000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The camshaft position sensor consists of a magnet and an iron core which is wrapped with copper wire, and is installed on the cylinder head. When the camshaft rotates, each of the 3 teeth on the camshaft pass through the camshaft position sensor. This activates the internal magnet in the sensor, generating a voltage in the copper wire. The camshaft rotation is synchronized with the crankshaft rotation. When the crankshaft turns twice, the voltage is generated 3 times in the camshaft position sensor. The generated voltage in the sensor acts as a signal, allowing the ECM to locate the camshaft position. This signal is then used to control ignition timing, fuel injection timing, and the VVT system.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0340/12</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>No camshaft position sensor signal to ECM during cranking (2 trip detection logic)</ptxt>
+</item>
+<item>
+<ptxt>No camshaft position sensor signal to ECM at engine speed of 600 rpm or more (1 trip detection logic)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in camshaft position sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Camshaft position sensor</ptxt>
+</item>
+<item>
+<ptxt>Camshaft timing pulley</ptxt>
+</item>
+<item>
+<ptxt>Jumped tooth of timing chain</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0341/12</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>While crankshaft rotates twice, camshaft position sensor signal is input to ECM 12 times or more (1 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in camshaft position sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Camshaft position sensor</ptxt>
+</item>
+<item>
+<ptxt>Camshaft timing pulley</ptxt>
+</item>
+<item>
+<ptxt>Jumped tooth of timing chain</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>DTC P0340/12 indicates a malfunction related to the camshaft position sensor (+) circuit (the wire harness between the ECM and camshaft position sensor, and the camshaft position sensor itself).</ptxt>
+</item>
+<item>
+<ptxt>DTC P0341/12 indicates a malfunction related to the camshaft position sensor (-) circuit (the wire harness between the ECM and camshaft position sensor, and the camshaft position sensor itself).</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQA00JX_02" type-id="64" category="03" proc-id="RM21Q0EV__000009500000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>If there is no signal from the VVT sensor even though the engine is running, or if the rotation of the camshaft and the crankshaft is not synchronized, the ECM interprets this as a malfunction of the sensor.</ptxt>
+<ptxt>This monitor runs for 10 seconds (the first 10 seconds of engine idle) after the engine is started.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQA00JX_03" type-id="32" category="03" proc-id="RM21Q0EV__000009600000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P0335/13 (see page <xref label="Seep01" href="RM000000ZQI00IX_03"/>). </ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQA00JX_04" type-id="51" category="05" proc-id="RM21Q0EV__000009700000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQA00JX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQA00JX_05_0001" proc-id="RM21Q0EV__000009800000">
+<testtitle>INSPECT CAMSHAFT POSITION SENSOR (RESISTANCE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A064984E12" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C1 sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the sensor.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Sensor Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Cold</ptxt>
+</entry>
+<entry>
+<ptxt>835 to 1,400 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Hot</ptxt>
+</entry>
+<entry>
+<ptxt>1,060 to 1,645 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>In the chart above, the terms "cold" and "hot" refer to the temperature of the sensor. "Cold" means approximately -10 to 50°C (14 to 122°F). "Hot" means approximately 50 to 100°C (122 to 212°F).</ptxt>
+</atten3>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQA00JX_05_0002" fin="false">OK</down>
+<right ref="RM000000ZQA00JX_05_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0002" proc-id="RM21Q0EV__000009900000">
+<testtitle>CHECK WIRE HARNESS (CAMSHAFT POSITION SENSOR - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034693E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C1 sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C1-1 - E12-26 (G2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C1-2 - E12-34 (NE-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C1-1 or E12-26 (G2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C1-2 or E12-34 (NE-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQA00JX_05_0003" fin="false">OK</down>
+<right ref="RM000000ZQA00JX_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0003" proc-id="RM21Q0EV__000009A00000">
+<testtitle>CHECK CAMSHAFT POSITION SENSOR (INSTALLATION)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="BR03795E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Check that the sensor is installed correctly.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Sensor is installed correctly.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQA00JX_05_0004" fin="false">OK</down>
+<right ref="RM000000ZQA00JX_05_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0004" proc-id="RM21Q0EV__000009B00000">
+<testtitle>CHECK CAMSHAFT</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that the teeth of the camshaft do not have any cracks or deformation.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Teeth do not have cracks or deformation.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQA00JX_05_0009" fin="true">OK</down>
+<right ref="RM000000ZQA00JX_05_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0005">
+<testtitle>REPLACE CAMSHAFT POSITION SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0007">
+<testtitle>SECURELY REINSTALL CAMSHAFT POSITION SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0008">
+<testtitle>REPLACE CAMSHAFT</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQA00JX_05_0009">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

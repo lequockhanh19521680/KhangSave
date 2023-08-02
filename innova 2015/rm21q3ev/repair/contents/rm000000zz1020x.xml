@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1002F_S000H" variety="S000H">
+<name>PROPELLER SHAFT</name>
+<ttl id="1002F_S000H_7ARNQ_T009N" variety="T009N">
+<name>PROPELLER SHAFT ASSEMBLY</name>
+<para id="RM000000ZZ1020X" category="A" type-id="30014" name-id="PR0AB-03" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000ZZ1020X_01" type-id="01" category="01">
+<s-1 id="RM000000ZZ1020X_01_0001" proc-id="RM21Q0EV__000046K00000">
+<ptxt>INSTALL PROPELLER SHAFT WITH CENTER BEARING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove SST from the extension housing.</ptxt>
+<figure>
+<graphic graphicname="C098710E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the propeller shaft into the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the center support bearing with the 2 plates and 2 bolts. Tighten the bolts as much as possible by hand.</ptxt>
+<figure>
+<graphic graphicname="A098693E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the matchmarks on the propeller shaft flange and differential flange.</ptxt>
+<figure>
+<graphic graphicname="C119752E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the propeller shaft with the 4 bolts, 4 washers and 4 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>88</t-value1>
+<t-value2>897</t-value2>
+<t-value4>65</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Unload the vehicle. The center line of the center bearing and center bearing housing (see illustration) must be adjusted to within 0 +/-1 mm (0 +/-0.0394 in.) of each other. Measure the difference along the vehicle front/rear axis.</ptxt>
+<figure>
+<graphic graphicname="A098689E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tighten the 2 bolts of the center support bearing.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>36</t-value1>
+<t-value2>367</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

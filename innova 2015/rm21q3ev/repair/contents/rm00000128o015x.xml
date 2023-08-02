@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82F_T006T" variety="T006T">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM00000128O015X" category="U" type-id="3001G" name-id="DL06H-08" from="201202">
+<name>TERMINALS OF ECU</name>
+<subpara id="RM00000128O015X_z0" proc-id="RM21Q0EV__00002FA00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK DRIVER SIDE JUNCTION BLOCK (INTEGRATION RELAY)</ptxt>
+<figure>
+<graphic graphicname="B088964E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<step2>
+<ptxt>Disconnect the 2A, 2D, 2H and 2L junction block connectors.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage and resistance of the wire harness side connectors.</ptxt>
+<table frame="all">
+<tgroup cols="5">
+<colspec colname="col1" colwidth="1.42in"/>
+<colspec colname="col2" colwidth="1.42in"/>
+<colspec colname="col3" colwidth="1.42in"/>
+<colspec colname="col4" colwidth="1.42in"/>
+<colspec colname="col5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>BECU (2L-12) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>+B (BECU) power supply</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ALTB (2H-4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>LG - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>+B (power system, generator system) power supply</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>GND (2D-9, 18) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>W-B - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Ground</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>L1 (2A-4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch lock input</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>L1 (2A-4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch lock input</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch LOCK</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>UL1 (2D-4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L-W - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch unlock input</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>UL1 (2D-4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L-W - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch unlock input</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch UNLOCK</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, there may be a malfunction on the wire harness side.</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>Reconnect the 2A, 2D, 2H and 2L junction block connectors.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage of the connectors.</ptxt>
+</step2>
+</step1>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>ACT+ (2R-28) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor LOCK drive output (driver door and rear LH door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ACT+ (2R-28) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor LOCK drive output (driver door and rear LH door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder LOCK</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ACT+ (2K-11) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor LOCK drive output (passenger door, rear RH door and back door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ACT+ (2K-11) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor LOCK drive output (passenger door, rear RH door and back door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder LOCK</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ACT- (2R-27) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L-Y - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor UNLOCK drive output (driver door and rear LH door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ACT- (2R-27) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L-Y - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor UNLOCK drive output (driver door and rear LH door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder UNLOCK</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ACT- (2K-10) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L-Y - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor UNLOCK drive output (passenger door, rear RH door and back door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ACT- (2K-10) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L-Y - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock motor UNLOCK drive output (passenger door, rear RH door and back door)</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch or driver door key cylinder UNLOCK</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>DCTY (2O-27) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Driver side courtesy switch input</ptxt>
+</entry>
+<entry>
+<ptxt>Driver side door closed</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>DCTY (2O-27) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Driver side courtesy switch input</ptxt>
+</entry>
+<entry>
+<ptxt>Driver side door open</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, the junction block relay (integration relay) may have a malfunction.</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7Z0_T003E" variety="T003E">
+<name>IGNITION SWITCH</name>
+<para id="RM00000135Z01HX" category="A" type-id="80001" name-id="ST095-03" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000135Z01HX_01" type-id="01" category="01">
+<s-1 id="RM00000135Z01HX_01_0001" proc-id="RM21Q0EV__00000VC00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM00000135Z01HX_01_0002" proc-id="RM21Q0EV__00000VD00000">
+<ptxt>REMOVE STEERING COLUMN COVER LOWER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A118390" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 3 screws and cover lower.</ptxt>
+<atten4>
+<ptxt>Turn the steering wheel to the right and left as necessary to remove the 3 screws and cover lower.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135Z01HX_01_0003" proc-id="RM21Q0EV__00000VE00000">
+<ptxt>DISCONNECT CONNECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G039728E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the 9 connectors and wire harness clamps from the steering column.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135Z01HX_01_0004" proc-id="RM21Q0EV__00000VF00000">
+<ptxt>REMOVE IGNITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099992E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the 2 claws and remove the switch from the steering column bracket upper.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="56">
+<name>Audio / Visual / Telematics</name>
+<section id="12044_S000R" variety="S000R">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="12044_S000R_7AI82_T000L" variety="T000L">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000004V31002X" category="F" type-id="8048W" name-id="PM4WW-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004V31002X_z0" proc-id="NM21Q0EV__000001I00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The TOYOTA parking assist-sensor system uses ultrasonic sensors and is equipped with a beeping alarm. It can detect obstacles at the rear of the vehicle, and provide information to the driver regarding the distance.</ptxt>
+</step2>
+<step2>
+<ptxt>The TOYOTA parking assist-sensor system informs the driver of the approximate distance between the sensors and an obstacle via the No. 1 clearance warning buzzer.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>PRECAUTION</ptxt>
+<step2>
+<ptxt>The detection function of the TOYOTA parking assist-sensor system may not operate properly in the following conditions:</ptxt>
+<step3>
+<ptxt>When ice, snow or mud gets on the sensors. If the material is removed, the system will work properly.</ptxt>
+</step3>
+<step3>
+<ptxt>When a sensor is frozen. If the sensor is no longer frozen, the system will work properly.</ptxt>
+</step3>
+<step3>
+<ptxt>When the sensor is covered with something. If the material is removed, the system will work properly.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Especially in cold weather, a malfunction warning may occur (the buzzer may sound) due to frozen sensors. If the malfunction warning occurs, be sure to check the sensors. If the malfunction warning occurs and there is no mud, ice or snow on the sensors, a sensor may be malfunctioning.</ptxt>
+</step2>
+<step2>
+<ptxt>In the following conditions, the detection range may be affected:</ptxt>
+<step3>
+<ptxt>Foreign matter such as snow or mud gets on the sensor.</ptxt>
+</step3>
+<step3>
+<ptxt>When the vehicle is operated in direct sunlight or in a freezing climate.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>The system may improperly detect obstacles in the following conditions:</ptxt>
+<step3>
+<ptxt>When the vehicle is being driven on bumpy roads, gravel roads, or on grass.</ptxt>
+</step3>
+<step3>
+<ptxt>When the sound of horns from other vehicles, the sound of a motorcycle engine, the sound of the air brakes of a large truck, or an object that generates ultrasonic waves is in the vicinity.</ptxt>
+</step3>
+<step3>
+<ptxt>When there is a downpour, or water is splashing on the vehicle.</ptxt>
+</step3>
+<step3>
+<ptxt>When the vehicle posture tilts significantly.</ptxt>
+</step3>
+<step3>
+<ptxt>When an antenna for a wireless transmitter is mounted on the vehicle.</ptxt>
+</step3>
+<step3>
+<ptxt>When the sensors are covered with mud, ice, or snow.</ptxt>
+</step3>
+<step3>
+<ptxt>When the vehicle travels alongside a tall curb or a square curb.</ptxt>
+</step3>
+<step3>
+<ptxt>When other vehicles with sonar are near.</ptxt>
+</step3>
+<step3>
+<ptxt>When a towing hitch is mounted on the vehicle.</ptxt>
+</step3>
+<step3>
+<ptxt>When the bumper is damaged.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>There are cases in which the objects listed below cannot be detected:</ptxt>
+<step3>
+<ptxt>Thin objects such as wire or rope.</ptxt>
+</step3>
+<step3>
+<ptxt>Objects with surfaces that are too small to reflect ultrasonic waves such as wire gauze or a fence.</ptxt>
+</step3>
+<step3>
+<ptxt>Objects that absorb sound waves such as cotton or snow.</ptxt>
+</step3>
+<step3>
+<ptxt>Objects that have sharp edges.</ptxt>
+</step3>
+<step3>
+<ptxt>Objects that are short in height.</ptxt>
+</step3>
+<step3>
+<ptxt>Objects that are tall and protrude at the top.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Others</ptxt>
+<step3>
+<ptxt>Objects directly underneath the bumpers cannot be detected. Some objects located lower than the sensors, or thin objects, may not be detected as the vehicle comes close to these objects.</ptxt>
+</step3>
+<step3>
+<ptxt>An object might not be detected if the vehicle is too close.</ptxt>
+</step3>
+<step3>
+<ptxt>The sensors might not detect properly if they are exposed to strong shocks such as when being struck or having objects thrown at them.</ptxt>
+</step3>
+<step3>
+<ptxt>Be careful not to let steam or high-pressure water (ex. car washers) get into the sensor. When using car washers, keep them as far from the sensor as possible.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="40">
+<name>SECURITIES</name>
+<section id="1002N_S000U" variety="S000U">
+<name>THEFT DETERRENT</name>
+<ttl id="1002N_S000U_7A81M_T0060" variety="T0060">
+<name>THEFT DETERRENT SYSTEM</name>
+<para id="RM000005OL7007X" category="A" type-id="804QI" name-id="TD925-04" from="201202">
+<name>CUSTOMIZE PARAMETERS</name>
+<subpara id="RM000005OL7007X_01" type-id="01" category="01">
+<s-1 id="RM000005OL7007X_01_0001" proc-id="RM21Q0EV__00005NS00000">
+<ptxt>CUSTOMIZE THEFT DETERRENT SYSTEM</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The following items can be customized.</ptxt>
+</item>
+<item>
+<ptxt>During customize mode, the alarm control functions are disabled.</ptxt>
+</item>
+<item>
+<ptxt>During customize mode, the following wireless control functions are disabled: remote alarm function, automatic locking function, operation stop function and illuminated entry function.</ptxt>
+</item>
+<item>
+<ptxt>During customize mode, the ECU will not output lock/unlock signals.</ptxt>
+</item>
+<item>
+<ptxt>While in customize mode, if the key is inserted into the ignition key cylinder or a door is opened, customize mode will be canceled.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When the customer requests a change in a function, first make sure that the function can be customized.</ptxt>
+</item>
+<item>
+<ptxt>Record the current settings before customizing.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Customizing with manual operation</ptxt>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.20in"/>
+<colspec colname="COL2" colwidth="1.13in"/>
+<colspec colname="COL3" colwidth="2.62in"/>
+<colspec colname="COL4" colwidth="1.13in"/>
+<colspec colname="COLSPEC0" colwidth="1.00in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Default</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Content</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Setting</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Relevant ECU</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Shock sensor function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This function that adjusts sensitivity of the sensor that detects the intrusion.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Standard, Low, Max Low, Sensor off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Theft warning ECU assembly</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000005OL7007X_01_0002" proc-id="RM21Q0EV__00005NT00000">
+<ptxt>CUSTOMIZE SHOCK SENSOR FUNCTION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Customizing shock sensor function:</ptxt>
+<s3>
+<ptxt>Check that the following conditions are met.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>No key is in the ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>The theft deterrent system is in the disarmed state (when either condition below is met): </ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>All the doors are in the unlocked condition and the doors are locked and unlocked using the door control transmitter assembly.</ptxt>
+</item>
+<item>
+<ptxt>The key is inserted into the ignition key cylinder, the ignition switch is turned to ON then off, and then the key is removed.</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>The driver side door is opened (the other doors are closed).</ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>Perform the following operation twice within 5 seconds:</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>Insert the key into the ignition key cylinder, and then pull it out (ending with the key pulled out).  </ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>Wait for 5 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>After completing the above step, press and hold down the lock switch and unlock switch on the door control transmitter assembly at the same time for over 3 seconds within 5 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the hazard warning lights flash once.</ptxt>
+</s3>
+<s3>
+<ptxt>After completing the lock and unlock switch operation, perform the following operation within 5 seconds.</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>Press the lock switch on the door control transmitter assembly 4 times within 2 seconds.</ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>After completing the above step, press the unlock switch on door control transmitter assembly once within 2 seconds.</ptxt>
+<atten4>
+<ptxt>After completing the above step, the present setting can be confirmed by pressing the unlock switch on the door control transmitter assembly once again.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Check that the hazard warning lights flash 4 times.</ptxt>
+</s3>
+<s3>
+<ptxt>After completing the unlock switch operation, perform the following operations (mode select) within 10 seconds:</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly the number of times shown below depending on the desired function behavior to select the shock sensor function setting. Press the unlock switch on door lock transmitter once within 2 seconds of pressing the lock switch on door control transmitter assembly.</ptxt>
+<atten4>
+<ptxt>If the lock switch on the door control transmitter is pressed 7 times or more, customize mode will be canceled.</ptxt>
+</atten4>
+</item>
+<list2 type="unordered">
+<title>Pattern 1</title>
+<item>
+<ptxt>Shock sensor functioning: Sensor off</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly once.</ptxt>
+</item>
+</list3>
+</list2>
+<list2 type="unordered">
+<title>Pattern 2</title>
+<item>
+<ptxt>Shock sensor functioning: Max Low</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly twice.</ptxt>
+</item>
+</list3>
+</list2>
+<list2 type="unordered">
+<title>Pattern 3</title>
+<item>
+<ptxt>Shock sensor functioning: Low</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly 3 times.</ptxt>
+</item>
+</list3>
+</list2>
+<list2 type="unordered">
+<title>Pattern 4</title>
+<item>
+<ptxt>Shock sensor functioning: Standard</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly 4, 5 or 6 times.</ptxt>
+</item>
+</list3>
+</list2>
+</list1>
+</s3>
+<s3>
+<ptxt>Check the response to the select mode.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Response to Mode Select Operation</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Setting</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash once</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Max Low, Low, Standard</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights do not flash</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Sensor off</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The customization setting can be set again within 30 seconds of the hazard warning lights flashing.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Check the response to the customize operation.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Response to Customize Operation</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Setting</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash once</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Sensor off</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash twice</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Max Low</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash 3 times</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Low</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash 4, 5 or 6 times</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Standard</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

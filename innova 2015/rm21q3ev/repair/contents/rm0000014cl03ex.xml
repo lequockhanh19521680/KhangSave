@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7A83G_T007U" variety="T007U">
+<name>INNER REAR VIEW MIRROR</name>
+<para id="RM0000014CL03EX" category="A" type-id="30014" name-id="MI02X-26" from="201202" to="201303">
+<name>INSTALLATION</name>
+<subpara id="RM0000014CL03EX_01" type-id="01" category="01">
+<s-1 id="RM0000014CL03EX_01_0001" proc-id="RM21Q0EV__00002NU00000">
+<ptxt>INSTALL INNER REAR VIEW MIRROR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B113835E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Install the mirror in the direction of the white arrow.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the cover as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

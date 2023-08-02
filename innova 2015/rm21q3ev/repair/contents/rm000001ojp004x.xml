@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81G_T005U" variety="T005U">
+<name>FRONT PASSENGER AIRBAG ASSEMBLY</name>
+<para id="RM000001OJP004X" category="A" type-id="30014" name-id="RSDW5-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001OJP004X_02" type-id="01" category="01">
+<s-1 id="RM000001OJP004X_02_0001" proc-id="RM21Q0EV__000024400000">
+<ptxt>INSTALL INSTRUMENT PANEL PASSENGER AIRBAG ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085366E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the 12 claws to install the instrument panel passenger airbag.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the clamp.</ptxt>
+<figure>
+<graphic graphicname="B085370E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, take care not to damage the airbag wire harness.</ptxt>
+</atten3>
+<figure>
+<graphic graphicname="B085365E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001OJP004X_02_0003" proc-id="RM21Q0EV__00003AN00000">
+<ptxt>INSTALL INSTRUMENT PANEL FINISH PLATE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 6 claws to install the instrument finish plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001OJP004X_02_0005">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000001OJP004X_02_0006" proc-id="RM21Q0EV__000024600000">
+<ptxt>CHECK SRS WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the SRS warning light (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

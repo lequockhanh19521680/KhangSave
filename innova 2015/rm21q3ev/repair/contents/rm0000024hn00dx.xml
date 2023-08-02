@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82T_T0077" variety="T0077">
+<name>ULTRASONIC SENSOR</name>
+<para id="RM0000024HN00DX" category="A" type-id="30014" name-id="PM5FU-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000024HN00DX_01" type-id="01" category="01">
+<s-1 id="RM0000024HN00DX_01_0002" proc-id="RM21Q0EV__000059L00000">
+<ptxt>INSTALL NO. 1 ULTRASONIC SENSOR RETAINER</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure to install the No. 1 ultrasonic sensor retainer on the other side.</ptxt>
+</atten4>
+<s2>
+<ptxt>Align the keyway of the ultrasonic sensor retainer and the protrusion of the rear bumper cover, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E172297" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to install the ultrasonic sensor retainer to the rear bumper cover.</ptxt>
+<figure>
+<graphic graphicname="E173628" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not damage the rear bumper cover with the protrusion of the ultrasonic sensor retainer when installing the retainer.</ptxt>
+</item>
+<item>
+<ptxt>Firmly push in the No. 1 ultrasonic sensor retainer so that there is no gap between the retainer and the surface of the rear bumper cover.</ptxt>
+</item>
+<item>
+<ptxt>If there is a gap between the No. 1 ultrasonic sensor retainer and the rear bumper cover surface, push in the No. 1 ultrasonic sensor retainer. Do not push the No. 1 ultrasonic sensor.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024HN00DX_01_0001" proc-id="RM21Q0EV__000059K00000">
+<ptxt>INSTALL NO. 1 ULTRASONIC SENSOR</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure to install the No. 1 ultrasonic sensor on the other side.</ptxt>
+</atten4>
+<s2>
+<ptxt>Attach the 2 claws to install the No. 1 ultrasonic sensor.</ptxt>
+<figure>
+<graphic graphicname="E172296" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+<atten3>
+<ptxt>If there is a gap between the No. 1 ultrasonic sensor retainer and the rear bumper cover surface, push in the No. 1 ultrasonic sensor retainer. Do not push the No. 1 ultrasonic sensor.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024HN00DX_01_0007" proc-id="RM21Q0EV__000059M00000">
+<ptxt>INSTALL REAR BUMPER COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear bumper cover (See page <xref label="Seep01" href="RM000004S6M00IX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

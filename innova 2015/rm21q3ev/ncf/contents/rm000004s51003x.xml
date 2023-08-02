@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12054_S000V" variety="S000V">
+<name>METER / GAUGE / DISPLAY</name>
+<ttl id="12054_S000V_7AI9E_T000M" variety="T000M">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM000004S51003X" category="F" type-id="8048X" name-id="ME3XW-04" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000004S51003X_z0" proc-id="NM21Q0EV__000001N00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="Y112470E02" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="Y112471E03" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<figure>
+<graphic graphicname="Y110336E05" width="7.106578999in" height="6.791605969in"/>
+</figure>
+<figure>
+<graphic graphicname="Y110309E04" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>ECU</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Input Signal</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Engine speed signal</ptxt>
+</item>
+<item>
+<ptxt>Fuel injection volume signal</ptxt>
+</item>
+<item>
+<ptxt>Engine coolant temperature signal</ptxt>
+</item>
+<item>
+<ptxt>Warning light control signal</ptxt>
+</item>
+<item>
+<ptxt>Indicator light illumination request signal</ptxt>
+</item>
+<item>
+<ptxt>Diagnosis</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Center Airbag Sensor Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Warning light illumination request signal</ptxt>
+</item>
+<item>
+<ptxt>Diagnosis</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Skid Control ECU*</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Warning light illumination request signal</ptxt>
+</item>
+<item>
+<ptxt>Indicator light illumination request signal</ptxt>
+</item>
+<item>
+<ptxt>Diagnosis</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The input signals differ by vehicle specification.</ptxt>
+</atten4>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with ABS</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

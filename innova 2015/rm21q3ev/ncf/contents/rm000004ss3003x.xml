@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12019_S000D" variety="S000D">
+<name>G58 MANUAL TRANSMISSION / TRANSAXLE</name>
+<ttl id="12019_S000D_7AIQP_T000S" variety="T000S">
+<name>MANUAL TRANSMISSION SYSTEM</name>
+<para id="RM000004SS3003X" category="F" type-id="8048W" name-id="MT1AA-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004SS3003X_z0" proc-id="NM21Q0EV__000002D00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The G58 5-speed manual transmission is used.</ptxt>
+</step2>
+<step2>
+<ptxt>A reverse synchromesh mechanism is used for the reverse gear to enhance the ease of operation.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="4.24in"/>
+<tbody>
+<row>
+<entry morerows="5" valign="middle">
+<ptxt>Gear Ratio</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3.928</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2nd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2.142</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3rd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.397</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4th</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.000</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>5th</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0.851</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Reverse</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4.743</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Oil Capacity</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2.2 Liters (2.3 US qts, 1.9 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Oil Viscosity</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>SAE 75W-90, SAE 80W, SAE 80W-90</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Oil Grade</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>API GL-4 or GL-5</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Weight (Reference)*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>38.0 kg (83.8 lb)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: Weight shows the figure with the oil fully filled.</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

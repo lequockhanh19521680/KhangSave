@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7AVOM_T00A6" variety="T00A6">
+<name>REAR NO. 1 SEAT ASSEMBLY (for Captain Seat Type)</name>
+<para id="RM000002PBM00SX" category="A" type-id="30014" name-id="SE7QH-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000002PBM00SX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004PJ00000">
+<content3 releasenbr="1">
+<atten2>
+<ptxt>Wear protective gloves. Sharp areas on the parts may injure your hands.</ptxt>
+</atten2>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the RH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000002PBM00SX_01" type-id="01" category="01">
+<s-1 id="RM000002PBM00SX_01_0009" proc-id="RM21Q0EV__00004PE00000">
+<ptxt>INSTALL REAR NO. 1 SEAT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place the rear No. 1 seat assembly in the cabin.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Temporarily install the rear No. 1 seat assembly with the 4 bolts.</ptxt>
+<figure>
+<graphic graphicname="B280050" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Operate the seat track adjusting handle and move the seat to the rearmost position.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 2 bolts in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B278699E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Operate the seat track adjusting handle and move the seat to the foremost position.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 2 bolts in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B278698E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00SX_01_0013" proc-id="RM21Q0EV__00004PH00000">
+<ptxt>INSTALL REAR OUTER SEAT TRACK BRACKET COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws to install the rear outer seat track bracket cover RH.</ptxt>
+<figure>
+<graphic graphicname="B278693" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00SX_01_0014" proc-id="RM21Q0EV__00004PI00000">
+<ptxt>INSTALL REAR INNER SEAT TRACK BRACKET COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the rear inner seat track bracket cover RH.</ptxt>
+<figure>
+<graphic graphicname="B278691" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00SX_01_0011" proc-id="RM21Q0EV__00004PF00000">
+<ptxt>INSTALL OUTER SEAT TRACK BRACKET COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Operate the seat track adjusting handle and move the seat to the rearmost position.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the claw to install the outer seat track bracket cover RH.</ptxt>
+<figure>
+<graphic graphicname="B278697" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00SX_01_0012" proc-id="RM21Q0EV__00004PG00000">
+<ptxt>INSTALL INNER SEAT TRACK BRACKET COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the inner seat track bracket cover RH.</ptxt>
+<figure>
+<graphic graphicname="B278695" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

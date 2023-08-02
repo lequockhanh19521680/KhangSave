@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A833_T007H" variety="T007H">
+<name>QUARTER WINDOW GLASS</name>
+<para id="RM00000192A03KX" category="A" type-id="80001" name-id="WS6T1-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000192A03KX_01" type-id="11" category="10" proc-id="RM21Q0EV__00002OZ00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the RH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM00000192A03KX_02" type-id="01" category="01">
+<s-1 id="RM00000192A03KX_02_0043" proc-id="RM21Q0EV__00002OT00000">
+<ptxt>REMOVE REAR SEAT FRONT BRACKET COVER RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fully tilt the seatback forward.</ptxt>
+<figure>
+<graphic graphicname="B085728E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the screw.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the bracket cover in the direction indicated by the arrow in the illustration to detach the claw and remove the bracket cover.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0044" proc-id="RM21Q0EV__00002OS00000">
+<ptxt>REMOVE REAR SEAT REAR BRACKET COVER RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the rear seat front bracket cover RH.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0077" proc-id="RM21Q0EV__00002P800000">
+<ptxt>REMOVE REAR NO. 2 SEAT ASSEMBLY RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="B085726E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Unlock the seat legs by horizontally pulling the release band. Then remove the seat.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0045" proc-id="RM21Q0EV__00003DE00000">
+<ptxt>REMOVE BACK DOOR SCUFF PLATE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279272" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Detach the 6 clips and 4 claws and remove the back door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0064" proc-id="RM21Q0EV__00003D500000">
+<ptxt>REMOVE REAR DOOR SCUFF PLATE RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0065">
+<ptxt>REMOVE REAR DOOR OPENING TRIM WEATHERSTRIP RH</ptxt>
+</s-1>
+<s-1 id="RM00000192A03KX_02_0066" proc-id="RM21Q0EV__00002P300000">
+<ptxt>REMOVE REAR NO. 1 SEAT BELT ASSEMBLY OUTER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Partially remove the rear No. 1 seat belt outer RH.</ptxt>
+<atten4>
+<ptxt>Only remove the 2 bolts, floor anchor (See page <xref label="Seep01" href="RM000001G5E03FX_02_0008"/>) and shoulder anchor (See page <xref label="Seep02" href="RM000001G5E03FX_02_0011"/>).</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192A03KX_02_0067" proc-id="RM21Q0EV__00002P400000">
+<ptxt>REMOVE REAR NO. 2 SEAT BELT ASSEMBLY OUTER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Partially remove the rear No. 2 seat belt outer RH.</ptxt>
+<atten4>
+<ptxt>Only remove the 2 bolts, floor anchor (See page <xref label="Seep01" href="RM000001G5E03FX_02_0009"/>) and shoulder anchor (See page <xref label="Seep02" href="RM000001G5E03FX_02_0012"/>).</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192A03KX_02_0068" proc-id="RM21Q0EV__00003DH00000">
+<ptxt>REMOVE QUARTER INSIDE TRIM BOARD RH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279278" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and disconnect the rear No. 1 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279279" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the bolt and disconnect the rear No. 2 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws, 8 clips and 2 guides and remove the quarter inside trim board.</ptxt>
+<figure>
+<graphic graphicname="B279280" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0069" proc-id="RM21Q0EV__00003DJ00000">
+<ptxt>REMOVE QUARTER PILLAR GARNISH RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0070" proc-id="RM21Q0EV__00003DL00000">
+<ptxt>REMOVE ROOF SIDE INNER UPPER GARNISH RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0071" proc-id="RM21Q0EV__00003DP00000">
+<ptxt>REMOVE ASSIST GRIP
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B277629E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for all assist grips.</ptxt>
+</atten4>
+<s2>
+<ptxt>Using a screwdriver, detach the 4 claws and open the 2 covers.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B206336" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 screws and assist grip.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192A03KX_02_0074" proc-id="RM21Q0EV__00002P600000">
+<ptxt>REMOVE ROOF HEADLINING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Partially remove the roof headlining (See page <xref label="Seep01" href="RM00000225T00DX_02_0094"/>).</ptxt>
+<atten4>
+<ptxt>It is not necessary to completely remove the roof headlining. Slightly lower the front section of the roof headlining so that the back window glass can be removed.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192A03KX_02_0075" proc-id="RM21Q0EV__00002P700000">
+<ptxt>REMOVE QUARTER WINDOW MOULDING RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B084699E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a knife, cut off the moulding as shown in the illustration.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the remaining moulding.</ptxt>
+<atten4>
+<ptxt>Make a partial cut in the moulding. Then pull and remove it by hand.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192A03KX_02_0025" proc-id="RM21Q0EV__00002P000000">
+<ptxt>REMOVE QUARTER WINDOW ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B084700E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>Apply protective tape to the outer surface of the vehicle body to prevent scratches.</ptxt>
+</atten4>
+<atten3>
+<ptxt>When separating the quarter window glass from the vehicle, be careful not to damage the vehicle's paint or interior/exterior ornaments.</ptxt>
+</atten3>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>From the interior, insert a piano wire between the vehicle body and the quarter window glass as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Tie objects that can serve as handles (for example, wooden blocks) to both wire ends.</ptxt>
+</s2>
+<s2>
+<ptxt>Cut through the adhesive by pulling the piano wire around the quarter window glass.</ptxt>
+<atten3>
+<ptxt>Leave as much adhesive on the vehicle body as possible when removing the quarter window glass.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using suction cups, remove the quarter window glass.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192A03KX_02_0056" proc-id="RM21Q0EV__00002P200000">
+<ptxt>CLEAN QUARTER WINDOW ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="BO04421E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Clean the outer edges of the glass with white gasoline.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not touch the glass surface after cleaning it.</ptxt>
+</item>
+<item>
+<ptxt>Be careful not to damage the glass.</ptxt>
+</item>
+<item>
+<ptxt>Ever if using new glass, clean the glass with white gasoline.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192A03KX_02_0026" proc-id="RM21Q0EV__00002P100000">
+<ptxt>CLEAN VEHICLE BODY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B106081E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Clean and shape the contact surface of the vehicle body.</ptxt>
+<s3>
+<ptxt>On the contact surface of the vehicle body, use a knife to cut away excess adhesive as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Leave as much adhesive on the vehicle body as possible.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Clean the contact surface of the vehicle body with cleaner.</ptxt>
+<atten4>
+<ptxt>Even if all the adhesive has been removed, clean the vehicle body.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

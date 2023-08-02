@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLO_T0096" variety="T0096">
+<name>ENGINE HOOD MOULDING</name>
+<para id="RM0000046O700EX" category="A" type-id="80002" name-id="ET6SW-03" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000046O700EX_01" type-id="01" category="01">
+<s-1 id="RM0000046O700EX_01_0001" proc-id="RM21Q0EV__00003OM00000">
+<ptxt>REMOVE FRONT HOOD MOULDING PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Upper Side:</ptxt>
+<ptxt>Remove the front hood moulding pad.</ptxt>
+<figure>
+<graphic graphicname="B280274" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>for Lower Side:</ptxt>
+<ptxt>Remove the front hood moulding pad.</ptxt>
+<figure>
+<graphic graphicname="B280276" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000046O700EX_01_0002" proc-id="RM21Q0EV__00003ON00000">
+<ptxt>REMOVE FRONT NO. 1 HOOD MOULDING PAD LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the front No. 1 hood moulding pad.</ptxt>
+<figure>
+<graphic graphicname="B280275" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000046O700EX_01_0003" proc-id="RM21Q0EV__00003OO00000">
+<ptxt>REMOVE FRONT NO. 1 HOOD MOULDING PAD RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

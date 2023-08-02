@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XN_T0021" variety="T0021">
+<name>SUSPENSION</name>
+<para id="RM0000028WC007X" category="F" type-id="30027" name-id="SS2BT-08" from="201202" to="201503">
+<name>SERVICE DATA</name>
+<subpara id="RM0000028WC007X_z0" proc-id="RM21Q0EV__000004M00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Vehicle height (unloaded vehicle)</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry>
+<ptxt>Front A - B</ptxt>
+</entry>
+<entry>
+<ptxt>Rear C - D</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMRKU</ptxt>
+</entry>
+<entry>
+<ptxt>76 mm (2.99 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>45 mm (1.77 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMDKU</ptxt>
+</entry>
+<entry>
+<ptxt>76 mm (2.99 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>46 mm (1.81 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPDKU</ptxt>
+</entry>
+<entry>
+<ptxt>79 mm (3.11 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>47 mm (1.85 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPNKU</ptxt>
+</entry>
+<entry>
+<ptxt>80 mm (3.15 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>48 mm (1.89 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Toe-in (unloaded vehicle)</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry>
+<ptxt>Front A + B</ptxt>
+<ptxt>Rear C - D</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMRKU</ptxt>
+</entry>
+<entry>
+<ptxt>A + B: 0°10' +/-5' (0.17° +/-0.09°)</ptxt>
+<ptxt>C - D: 3.6 +/-1.0 mm (0.14 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMDKU</ptxt>
+</entry>
+<entry>
+<ptxt>A + B: 0°10' +/-5' (0.17° +/-0.09°)</ptxt>
+<ptxt>C - D: 3.5 +/-1.0 mm (0.14 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPDKU</ptxt>
+</entry>
+<entry>
+<ptxt>A + B: 0°9' +/-5' (0.15° +/-0.09°)</ptxt>
+<ptxt>C - D: 3.1 +/-1.0 mm (0.12 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPNKU</ptxt>
+</entry>
+<entry>
+<ptxt>A + B: 0°8' +/-5' (0.14° +/-0.09°)</ptxt>
+<ptxt>C - D: 2.9 +/-1.0 mm (0.11 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Wheel angle</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Inside wheel angle</ptxt>
+</entry>
+<entry>
+<ptxt>Outside wheel angle (reference)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>39°48' (37°48' to 40°48')</ptxt>
+<ptxt>39.8° (37.8° to 40.8°)</ptxt>
+</entry>
+<entry>
+<ptxt>33°30'</ptxt>
+<ptxt>(33.5°)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Camber</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry>
+<ptxt>Camber Inclination</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMRKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>0°13' +/-30' (0.22° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>0°13' +/-30' (0.22° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>0°10' +/-30' (0.17° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPNKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>0°9' +/-30' (0.15° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Caster</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry>
+<ptxt>Caster Inclination</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMRKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>3°27' +/-30' (3.45° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>3°29' +/-30' (3.48° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>3°30' +/-30' (3.50° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPNKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>3°31' +/-30' (3.52° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Steering axis</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry>
+<ptxt>Steering Axis Inclination</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMRKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>10°47' +/-30' (10.78° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKMDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>10°47' +/-30' (10.78° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>10°50' +/-30' (10.83° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TGN40L-GKPNKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry>
+<ptxt>10°50' +/-30' (10.83° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

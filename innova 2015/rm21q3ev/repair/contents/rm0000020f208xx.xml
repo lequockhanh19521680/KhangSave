@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM0000020F208XX" category="C" type-id="8012Q" name-id="AV8Z0-30" from="201403">
+<dtccode>62-46</dtccode>
+<dtcname>Scratched / Reversed Disc</dtcname>
+<subpara id="RM0000020F208XX_01" type-id="60" category="03" proc-id="RM21Q0EV__00005HW00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.34in"/>
+<colspec colname="COL2" colwidth="2.34in"/>
+<colspec colname="COL3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>62-46</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Scratches or dirt is found on the disc surface or the disc is inserted upside down.</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Disc</ptxt>
+</item>
+<item>
+<ptxt>Radio receiver assembly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM0000020F208XX_02" type-id="51" category="05" proc-id="RM21Q0EV__00005HX00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>After the inspection is completed, clear the DTCs.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM0000020F208XX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000020F208XX_04_0001" proc-id="RM21Q0EV__00005HY00000">
+<testtitle>CHECK THAT DISC IS INSERTED PROPERLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check whether or not the disc is inserted upside down.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The disc is properly inserted.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000020F208XX_04_0003" fin="false">OK</down>
+<right ref="RM0000020F208XX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0003" proc-id="RM21Q0EV__00005I000000">
+<testtitle>CHECK DISC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that the disc is not deformed or cracked.</ptxt>
+<figure>
+<graphic graphicname="I100152" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>No deformation or cracks in the disc.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000020F208XX_04_0002" fin="false">OK</down>
+<right ref="RM0000020F208XX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0002" proc-id="RM21Q0EV__00005HZ00000">
+<testtitle>DISC CLEANING</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>If dirt is on the disc surface, wipe it clean with a soft cloth from the inside to the outside in a radial direction.</ptxt>
+<figure>
+<graphic graphicname="I100151" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not use a conventional record cleaner or antistatic preservative.</ptxt>
+</atten3>
+</test1>
+</content6>
+<res>
+<down ref="RM0000020F208XX_04_0010" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0010" proc-id="RM21Q0EV__00005I200000">
+<testtitle>CHECK FOR DTC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep01" href="RM0000014CZ0EBX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs and check if the same trouble occurs again.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Malfunction disappears.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000020F208XX_04_0005" fin="true">OK</down>
+<right ref="RM0000020F208XX_04_0004" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0004" proc-id="RM21Q0EV__00005I100000">
+<testtitle>REINSERT DISC PROPERLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Replace the disc with a normal one.</ptxt>
+</test1>
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep01" href="RM0000014CZ0EBX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs and check if the same trouble occurs again.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Malfunction disappears.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000020F208XX_04_0013" fin="true">OK</down>
+<right ref="RM0000020F208XX_04_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0011">
+<testtitle>INSERT DISC PROPERLY</testtitle>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0007">
+<testtitle>CHANGE DISC</testtitle>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0005">
+<testtitle>USE SIMULATION METHOD TO CHECK<xref label="Seep01" href="RM0000012Q901RX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0013">
+<testtitle>END (DISC IS FAULTY)</testtitle>
+</testgrp>
+<testgrp id="RM0000020F208XX_04_0008">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

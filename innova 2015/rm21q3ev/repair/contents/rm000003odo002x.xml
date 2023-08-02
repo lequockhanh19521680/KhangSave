@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM000003ODO002X" category="D" type-id="303F2" name-id="ME1WS-02" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000003ODO002X_z0" proc-id="RM21Q0EV__00002HK00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>METER GAUGE AND WARNING/INDICATOR LIGHT</ptxt>
+</step1>
+<table pgwide="1">
+<title>Gauge</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Signal Description</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Speedometer</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Calculates vehicle speed based on signal from vehicle speed sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tachometer</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Calculates engine speed based on signal from ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ODO/TRIP Meter</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Calculates distance vehicle is driven or distance since trip meter knob is pressed</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fuel</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Indicates remaining amount of fuel based on signal from fuel sender gauge</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Engine Coolant Temperature</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Indicates engine coolant temperature based on signal from ECM</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Warning/Indicator Lights</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Signal Description</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>TURN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blinks when receiving signal that turn signal light switch or hazard warning signal switch is ON</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>HIGH BEAM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when headlight dimmer switch is set to HIGH or FLASH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>MIL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving malfunction signal from ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>CHARGE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving malfunction signal from generator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>OIL PRESSURE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving oil press is abnormally low (pressure switch is ON) signal</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>BRAKE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving signal that parking brake switch is ON and brake fluid level warning switch is ON</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>FUEL LEVEL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving fuel empty signal from fuel sender gauge</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DOOR*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving each door courtesy switch signal</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>SEAT BELT*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blinks when front seat buckle switch LH is ON (unfastened)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>ABS*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving malfunction signal from skid control ECU with actuator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>SRS*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving malfunction signal from center airbag sensor assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>TAIL*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when light control switch is set to TAIL</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>FR FOG*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates when receiving fog light switch signal</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Buzzer</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Signal Description</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Key Reminder*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Buzzer is ON when ignition switch is off, key is inserted and driver side door is open </ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Light Reminder*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Buzzer is ON when ignition switch is off, light control switch is set to TAIL or HEAD and driver side door is open</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Automatic Transmission Reverse Buzzer*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Buzzer is ON when shift lever moved to R</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>*1: w/ Key Reminder Warning System</ptxt>
+<ptxt>*2: w/ Seat Belt Warning System</ptxt>
+<ptxt>*3: w/ ABS</ptxt>
+<ptxt>*4: w/ Airbag System</ptxt>
+<ptxt>*5: w/ Light Control Rheostat</ptxt>
+<ptxt>*6: w/ Fog Light</ptxt>
+<ptxt>*7: for Automatic Transmission</ptxt>
+<step1>
+<ptxt>COMBINATION METER HAS FOLLOWING FEATURES</ptxt>
+<step2>
+<ptxt>Built-in buzzer for the reminder system (light*1, key*1 and reverse*2)</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>The warning buzzer sounds when: 1) a key is in the ignition key cylinder, the ignition switch is off and the driver side door is open; or 2) the light control switch is set to TAIL or HEAD, the ignition switch is off and the driver side door is open; and 3) the ignition switch ON, and shift lever moved to R.</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>Odometer and trip meter knob</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Press and release the knob to scroll through the trip "A", trip "B" and odometer figures.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Press and hold the knob to reset the trip meter.</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>Multi-display*3</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The multi-display provides the following information: 1) outside temperature*4; 2) average fuel consumption for a certain distance; 3) instantaneous fuel consumption; 4) average speed for a certain distance; 5) runnable distance with the remaining amount of fuel; 6) compass; and 7) elapsed time since the ignition switch was turned ON.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Press INFO to change the display item.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Press RESET to clear the stored data.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Press H to adjust the hour of the clock.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Press M to adjust the minutes of the clock.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Press 00 to set the minutes to 00.</ptxt>
+</item>
+</list1>
+<ptxt>*1: w/ Key Reminder Warning System</ptxt>
+<ptxt>*2: for Automatic Transmission</ptxt>
+<ptxt>*3: w/ Accessory Meter</ptxt>
+<ptxt>*4: for Automatic Air Conditioning System</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

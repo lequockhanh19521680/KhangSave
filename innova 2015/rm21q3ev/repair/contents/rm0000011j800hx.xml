@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM0000011J800HX" category="U" type-id="303FJ" name-id="ME047-10" from="201202">
+<name>DATA LIST / ACTIVE TEST</name>
+<subpara id="RM0000011J800HX_z0" proc-id="RM21Q0EV__00002HN00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>READ DATA LIST</ptxt>
+<atten4>
+<ptxt>Using the intelligent tester's Data List allows switch, actuator and other item values to be read without removing any parts. Reading the Data List early in troubleshooting is one way to save time.</ptxt>
+</atten4>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Read the Data List according to the display on the tester.</ptxt>
+<table pgwide="1">
+<title>Skid control ECU with actuator</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Parking Brake SW</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Parking brake switch/ ON or OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON: Parking brake is applied</ptxt>
+<ptxt>OFF: Parking brake is not applied</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>PERFORM ACTIVE TEST</ptxt>
+<atten4>
+<ptxt>Performing the intelligent tester's Active Test allows relay, VSV, actuator and other items to be operated without removing any parts. Performing the Active Test early in troubleshooting is one way to save time. The Data List can be displayed during the Active Test.</ptxt>
+</atten4>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Perform the Active Test according to the display on the tester.</ptxt>
+<table pgwide="1">
+<title>Skid control ECU with actuator</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COLSPEC0" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Test Part</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Control Range</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>ABS Warning Light</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ABS warning light</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON / OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

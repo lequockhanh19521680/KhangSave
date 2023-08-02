@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12054_S000V" variety="S000V">
+<name>METER / GAUGE / DISPLAY</name>
+<ttl id="12054_S000V_7AI9E_T000M" variety="T000M">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM000004S50004X" category="F" type-id="8048W" name-id="ME3XV-05" from="201403">
+<name>GENERAL</name>
+<subpara id="RM000004S50004X_z0" proc-id="NM21Q0EV__000001M00001">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>An Optitron display type combination meter assembly or an analog display type combination meter assembly is used.</ptxt>
+</step2>
+<step2>
+<ptxt>The Optitron display type combination meter assembly achieves excellent visibility through the use of smoked acrylic in the protective panel, and bright Light Emitting Diodes (LEDs) that have high contrast to illuminate the indicator and the dial.</ptxt>
+</step2>
+<step2>
+<ptxt>A meter ECU and a buzzer are enclosed in the combination meter assembly.</ptxt>
+</step2>
+<step2>
+<ptxt>A front seat belt warning system is provided. If the front seat belt is not buckled, this system blinks the seat belt warning light as a reminder.</ptxt>
+</step2>
+<step2>
+<ptxt>An accessory meter assembly, which can display cruise information, is used.*</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with accessory meter assembly</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="Y147335" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<figure>
+<graphic graphicname="Y147336" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>The diagrams shown above are for describing the new car features. They may differ from the actual design. If the LEDs malfunction, the entire combination meter assembly must be replaced. For details, refer to the Repair Manual.</ptxt>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

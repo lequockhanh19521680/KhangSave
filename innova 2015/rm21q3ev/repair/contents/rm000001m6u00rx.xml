@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7YY_T003C" variety="T003C">
+<name>STARTER</name>
+<para id="RM000001M6U00RX" category="A" type-id="8000E" name-id="ST2MJ-05" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000001M6U00RX_01" type-id="11" category="10" proc-id="RM21Q0EV__00000UT00000">
+<content3 releasenbr="1">
+<atten4>
+<ptxt>Use high temperature-resistant grease to lubricate the bearings and sliding parts when assembling the starter.</ptxt>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001M6U00RX_02" type-id="01" category="01">
+<s-1 id="RM000001M6U00RX_02_0001" proc-id="RM21Q0EV__00000UU00000">
+<ptxt>INSTALL PLANETARY CARRIER SHAFT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122084E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply high-temperature grease to the part of the internal gear that contacts the shock absorber and planetary gears, and the part of the shock absorber that contacts the internal gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Align the hollow of the internal gear with the protrusion inside the shock absorber.</ptxt>
+<figure>
+<graphic graphicname="A122085E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Inset and turn the internal gear so that it interlocks with the shock absorber.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply high-temperature grease to the plate washer, and install it to the planetary shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the planetary shaft to the internal gear with shock absorber.</ptxt>
+<figure>
+<graphic graphicname="A122086E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply high-temperature grease to the center bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the center bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Using snap ring pliers, install the plate washer and snap ring.</ptxt>
+<figure>
+<graphic graphicname="A122087" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001M6U00RX_02_0002" proc-id="RM21Q0EV__00000UV00000">
+<ptxt>INSTALL STARTER CLUTCH SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply high-temperature grease to the spline of the starter clutch and the stop collar.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the starter clutch and stop collar on the planetary shaft.</ptxt>
+<figure>
+<graphic graphicname="A122088" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply high-temperature grease to the snap ring, and install it to the planetary shaft groove.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a vise, compress the snap ring between aluminum plates.</ptxt>
+<figure>
+<graphic graphicname="A122089" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Holding the starter clutch, tap the planetary shaft with a plastic-faced hammer to install the stop collar onto the snap ring.</ptxt>
+<figure>
+<graphic graphicname="A122090" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001M6U00RX_02_0003" proc-id="RM21Q0EV__00000UW00000">
+<ptxt>INSTALL PLANETARY GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply high-temperature grease to the planetary gears and flange pins of the planetary shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the plate washer and 3 planetary gears.</ptxt>
+<figure>
+<graphic graphicname="A122091E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the cutout of the plate with the protrusion inside the shock absorber, and install the plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001M6U00RX_02_0004" proc-id="RM21Q0EV__00000UX00000">
+<ptxt>INSTALL DRIVE LEVER AND STARTER CLUTCH WITH SHOCK ABSORBER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply high-temperature grease to the bearing of the starter drive housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply high-temperature grease to the starter drive lever as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A196838" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the starter drive lever to the starter clutch sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="A122092" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the protrusion of the shock absorber with the cutout of the starter drive housing and install the drive lever and starter clutch with shock absorber.</ptxt>
+<figure>
+<graphic graphicname="A122093E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001M6U00RX_02_0007" proc-id="RM21Q0EV__00000UY00000">
+<ptxt>INSTALL STARTER BRUSH HOLDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the starter armature to the starter yoke.</ptxt>
+</s2>
+<s2>
+<ptxt>Install 2 new O-rings to the starter yoke.</ptxt>
+<figure>
+<graphic graphicname="A122094E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the brush holder to the armature.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 4 starter brushes to the starter brush holder.</ptxt>
+<s3>
+<ptxt>Using a screwdriver, pull back the spring.</ptxt>
+</s3>
+<s3>
+<ptxt>Install the brush to the brush holder.</ptxt>
+<atten3>
+<ptxt>Check that positive (+) lead wires are not grounded.</ptxt>
+</atten3>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001M6U00RX_02_0008" proc-id="RM21Q0EV__00000UZ00000">
+<ptxt>INSTALL STARTER COMMUTATOR END FRAME ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply high-temperature grease to the bearing of the end frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the end frame with the 2 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>1.5</t-value1>
+<t-value2>15</t-value2>
+<t-value3>13</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001M6U00RX_02_0009" proc-id="RM21Q0EV__00000V000000">
+<ptxt>INSTALL STARTER YOKE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122095E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the cutout of the starter yoke with the protrusion of the shock absorber.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the starter yoke with armature with the 2 through bolts.</ptxt>
+<figure>
+<graphic graphicname="A194940" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.9</t-value1>
+<t-value2>60</t-value2>
+<t-value3>52</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001M6U00RX_02_0010" proc-id="RM21Q0EV__00000V100000">
+<ptxt>INSTALL MAGNET STARTER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the plunger cover to the magnet starter switch assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the plunger of the magnet starter switch assembly to the drive lever from the upper side.</ptxt>
+<figure>
+<graphic graphicname="A122096" width="2.775699831in" height="1.771723296in"/>
+</figure>
+
+</s2>
+<s2>
+<ptxt>Install the magnet starter switch assembly with the 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.3</t-value1>
+<t-value2>85</t-value2>
+<t-value3>73</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the lead wire to the terminal, and install the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

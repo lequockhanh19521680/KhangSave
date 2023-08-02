@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002T_S0012" variety="S0012">
+<name>OTHER SYSTEM</name>
+<ttl id="1002T_S0012_7A830_T007E" variety="T007E">
+<name>POWER OUTLET SOCKET</name>
+<para id="RM0000024HE003X" category="A" type-id="30014" name-id="OT0VK-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000024HE003X_01" type-id="01" category="01">
+<s-1 id="RM0000024HE003X_01_0001" proc-id="RM21Q0EV__00002MY00000">
+<ptxt>INSTALL NO. 1 POWER OUTLET SOCKET ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the protrusion on the backside of the socket with the groove of the cover. Then push the socket into the cover.</ptxt>
+<figure>
+<graphic graphicname="B110252" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024HE003X_01_0005" proc-id="RM21Q0EV__00003C200000">
+<ptxt>INSTALL NO. 1 SWITCH HOLE BASE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 4 claws to install the No. 1 switch hole base.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

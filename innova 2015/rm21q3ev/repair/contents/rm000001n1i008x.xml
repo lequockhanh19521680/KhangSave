@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A81A_T005O" variety="T005O">
+<name>AIR CONDITIONING SYSTEM (for Manual Air Conditioning System)</name>
+<para id="RM000001N1I008X" category="L" type-id="3001A" name-id="AC0XB-03" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000001N1I008X_z0" proc-id="RM21Q0EV__000020C00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DO NOT HANDLE REFRIGERANT IN AN ENCLOSED AREA OR NEAR AN OPEN FLAME</ptxt>
+<figure>
+<graphic graphicname="AC02810" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step1>
+<step1>
+<ptxt>ALWAYS WEAR PROTECTIVE GLASSES</ptxt>
+</step1>
+<step1>
+<ptxt>AVOID SKIN OR EYE CONTACT WITH LIQUID REFRIGERANT</ptxt>
+<figure>
+<graphic graphicname="AC02811" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If liquid refrigerant comes in contact with your eyes or skin:</ptxt>
+<step2>
+<ptxt>Rinse the area thoroughly with cold water.</ptxt>
+<atten2>
+<ptxt>Do not rub your eyes or skin.</ptxt>
+</atten2>
+</step2>
+<step2>
+<ptxt>Apply clean petroleum jelly to the skin.</ptxt>
+</step2>
+<step2>
+<ptxt>Go immediately to a hospital or see a physician for professional treatment.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>NEVER HEAT CONTAINER OR EXPOSE IT TO OPEN FLAME</ptxt>
+</step1>
+<step1>
+<ptxt>DO NOT DROP OR STRIKE CONTAINER OF REFRIGERANT</ptxt>
+</step1>
+<step1>
+<ptxt>DO NOT OPERATE COMPRESSOR WITHOUT ENOUGH REFRIGERANT IN REFRIGERANT SYSTEM</ptxt>
+<figure>
+<graphic graphicname="N011084E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If there is not enough refrigerant in the refrigerant system, oil lubrication will be insufficient and the compressor may burn out. Care should be taken to avoid this.</ptxt>
+</step1>
+<step1>
+<ptxt>DO NOT OPEN HIGH PRESSURE MANIFOLD VALVE WHILE COMPRESSOR IS OPERATING</ptxt>
+<ptxt>Open and close only the low pressure valve. If the high pressure valve is opened, refrigerant flows in the reverse direction and causes the charging cylinder to rupture.</ptxt>
+</step1>
+<step1>
+<ptxt>BE CAREFUL NOT TO OVERCHARGE SYSTEM WITH REFRIGERANT</ptxt>
+<ptxt>Overcharged refrigerant will cause problems such as insufficient cooling, poor fuel economy, engine overheating, etc.</ptxt>
+</step1>
+<step1>
+<ptxt>DO NOT OPERATE ENGINE AND COMPRESSOR WITHOUT REFRIGERANT IN REFRIGERANT SYSTEM</ptxt>
+<atten3>
+<ptxt>This may damage the inside of the compressor because the compressor parts move regardless of whether the A/C system is turned on or off.</ptxt>
+</atten3>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

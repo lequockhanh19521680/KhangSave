@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7A80X_T005B" variety="T005B">
+<name>VANE PUMP</name>
+<para id="RM00000163Q01CX" category="A" type-id="8000E" name-id="PS0HS-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM00000163Q01CX_02" type-id="11" category="10" proc-id="RM21Q0EV__00001VP00000">
+<content3 releasenbr="1">
+<atten3>
+<ptxt>When installing the parts indicated by arrows, coat them with power steering fluid (see page <xref label="Seep01" href="RM00000163T019X"/>).</ptxt>
+</atten3>
+</content3>
+</subpara>
+<subpara id="RM00000163Q01CX_01" type-id="01" category="01">
+<s-1 id="RM00000163Q01CX_01_0001" proc-id="RM21Q0EV__00001VE00000">
+<ptxt>INSTALL VANE PUMP HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G036583E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST and a press, press in a new oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-60010</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-00280</s-subnumber>
+<s-subnumber>09951-07100</s-subnumber>
+</sstitem>
+</sst>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure to install the oil seal facing the correct direction.</ptxt>
+</item>
+<item>
+<ptxt>Be careful not to damage the oil seal.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0002" proc-id="RM21Q0EV__00001VF00000">
+<ptxt>INSTALL SHAFT WITH PULLEY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F051464E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the shaft with power steering fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Tape the serrated part of the shaft.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the oil seal.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Gradually insert the vane pump shaft.</ptxt>
+<atten3>
+<ptxt>Do not damage the lip of the vane pump housing oil seal in the vane pump housing front.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0003" proc-id="RM21Q0EV__00001VG00000">
+<ptxt>INSTALL FRONT VANE PUMP SIDE PLATE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C065369E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new No. 2 O-ring with power steering fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 2 O-ring to the front housing.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="C065368E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Coat a new No. 1 O-ring with power steering fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 1 O-ring to the front side plate.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F050370E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the front side plate to the front housing while aligning the semicircle-shaped cuts of both parts.</ptxt>
+<atten3>
+<ptxt>Be sure to install the plate in the correct position and direction.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0004" proc-id="RM21Q0EV__00001VH00000">
+<ptxt>INSTALL VANE PUMP CAM RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050371E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>With the inscribed mark facing upward, install the vane pump cam ring to the vane pump front housing while aligning the semicircle-shaped cuts of both parts.</ptxt>
+<atten3>
+<ptxt>Be sure to install the plate in the correct position and direction.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0005" proc-id="RM21Q0EV__00001VI00000">
+<ptxt>INSTALL VANE PUMP ROTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C095038E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the vane pump rotor to the front vane pump housing.</ptxt>
+<atten4>
+<ptxt>The top and bottom of the vane pump rotor are symmetrical.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F050372E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Coat the 10 vane pump plates with power steering fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 10 vane pump plates.</ptxt>
+<atten3>
+<ptxt>Make sure that the round ends of the vane pump plates are facing outward.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0006" proc-id="RM21Q0EV__00001VJ00000">
+<ptxt>INSTALL VANE PUMP SHAFT SNAP RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F051011E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver and snap ring expander, install a new snap ring to the shaft with pulley.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0007" proc-id="RM21Q0EV__00001VK00000">
+<ptxt>INSTALL REAR VANE PUMP HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050373E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with power steering fluid and install it onto the rear housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Align the straight pin of the rear housing with the hole created by the semicircle-shaped cuts of the cam ring, front side plate and front housing. Then install the rear housing with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>22</t-value1>
+<t-value2>224</t-value2>
+<t-value4>16</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Make sure that the O-ring is not out of position before installing the rear vane pump housing.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0008" proc-id="RM21Q0EV__00001VL00000">
+<ptxt>INSPECT PRELOAD</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C053369E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the pump rotates smoothly without abnormal noise.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the service bolt.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a torque wrench, check the pump rotating torque.</ptxt>
+<spec>
+<title>Recommended service bolt</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Recommendation</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Thread Diameter</ptxt>
+</entry>
+<entry>
+<ptxt>10 mm (0.39 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Thread Pitch</ptxt>
+</entry>
+<entry>
+<ptxt>1.25 mm (0.0492 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Bolt Length</ptxt>
+</entry>
+<entry>
+<ptxt>50 mm (1.97 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard rotating torque</title>
+<specitem>
+<ptxt>0.27 N*m (2.8 kgf*cm, 2.4 in.*lbf) or less</ptxt>
+</specitem>
+</spec>
+<ptxt>If the rotating torque is not as specified, check the installation of the housing oil seal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0009" proc-id="RM21Q0EV__00001VM00000">
+<ptxt>INSTALL POWER STEERING OIL PRESSURE SWITCH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat a new O-ring with power steering fluid and install it to the oil pressure switch.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the oil pressure switch onto the vane pump.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0010" proc-id="RM21Q0EV__00001VN00000">
+<ptxt>INSTALL FLOW CONTROL VALVE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F042475E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the compression spring and flow control valve with power steering fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the compression spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the flow control valve facing in the correct direction.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat a new O-ring with power steering fluid and install it onto the pressure port union.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the pressure port union.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>69</t-value1>
+<t-value2>704</t-value2>
+<t-value4>51</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0011" proc-id="RM21Q0EV__00001VO00000">
+<ptxt>INSTALL VANE PUMP OIL RESERVOIR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat a new O-ring with power steering fluid, and install it to the vane pump reservoir.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the vane pump reservoir to the vane pump with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000163Q01CX_01_0012">
+<ptxt>INSTALL VANE PUMP OIL RESERVOIR CAP SUB-ASSEMBLY</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

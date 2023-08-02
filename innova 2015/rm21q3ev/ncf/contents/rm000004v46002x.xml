@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="54">
+<name>Brake</name>
+<section id="12031_S000K" variety="S000K">
+<name>BRAKE SYSTEM (OTHER)</name>
+<ttl id="12031_S000K_7AKNS_T0014" variety="T0014">
+<name>BRAKE SYSTEM</name>
+<para id="RM000004V46002X" category="F" type-id="8048W" name-id="BR5N7-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004V46002X_z0" proc-id="NM21Q0EV__000003200000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A tandem master cylinder is used.</ptxt>
+</step2>
+<step2>
+<ptxt>A single type brake booster is used.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Master Cylinder</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Tandem</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Diameter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>20.64 mm (0.81 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Manufacturer</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ADVICS</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Brake Booster</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Single</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Size</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 in.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Manufacturer</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ADVICS</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

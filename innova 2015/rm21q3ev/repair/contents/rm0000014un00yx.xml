@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7AX2M_T00AQ" variety="T00AQ">
+<name>RADIO ANTENNA</name>
+<para id="RM0000014UN00YX" category="A" type-id="30014" name-id="AVACV-06" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000014UN00YX_01" type-id="01" category="01">
+<s-1 id="RM0000014UN00YX_01_0001" proc-id="RM21Q0EV__000057U00000">
+<ptxt>INSTALL WITH HOLDER ANTENNA ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the antenna as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B136368" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>Stow the antenna pole before installing the antenna.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000014UN00YX_01_0021" proc-id="RM21Q0EV__000057W00000">
+<ptxt>INSTALL UPPER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEM00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000014UN00YX_01_0003" proc-id="RM21Q0EV__000057V00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000014UN00YX_01_0037" proc-id="RM21Q0EV__000057X00000">
+<ptxt>CHECK SRS WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the SRS warning light (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

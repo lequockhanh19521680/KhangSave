@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7YY_T003C" variety="T003C">
+<name>STARTER</name>
+<para id="RM000001LVQ00RX" category="A" type-id="80002" name-id="ST2MI-05" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000001LVQ00RX_01" type-id="01" category="01">
+<s-1 id="RM000001LVQ00RX_01_0001" proc-id="RM21Q0EV__00000UL00000">
+<ptxt>REMOVE MAGNET STARTER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122057" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the nut, and disconnect the lead wire from the terminal C.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts holding the magnet starter switch assembly to the starter housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the magnet starter switch assembly and while lifting the front part of the magnet starter switch assembly, release the plunger hook from the drive lever and remove the magnet starter switch assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the plunger cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVQ00RX_01_0002" proc-id="RM21Q0EV__00000UM00000">
+<ptxt>REMOVE STARTER YOKE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122058" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 through bolts, and pull out the starter yoke together with the starter armature.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the starter yoke.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVQ00RX_01_0003" proc-id="RM21Q0EV__00000UN00000">
+<ptxt>REMOVE STARTER COMMUTATOR END FRAME ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122059" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 screws and starter commutator end frame while holding down the lead wire.</ptxt>
+<atten3>
+<ptxt>To avoid interference between the brush holder and dust protector, pull the commutator end frame away at an angle.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVQ00RX_01_0004" proc-id="RM21Q0EV__00000UO00000">
+<ptxt>REMOVE STARTER BRUSH HOLDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122060" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the 4 starter brushes from the brush holder.</ptxt>
+<s3>
+<ptxt>Using a screwdriver, pull back the spring.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the brush from the brush holder.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the brush holder from the starter armature assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the starter yoke assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the starter armature assembly from the starter yoke assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVQ00RX_01_0007" proc-id="RM21Q0EV__00000UP00000">
+<ptxt>REMOVE DRIVE LEVER AND STARTER CLUTCH WITH SHOCK ABSORBER FROM STARTER HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122061" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000001LVQ00RX_01_0008" proc-id="RM21Q0EV__00000UQ00000">
+<ptxt>REMOVE PLANETARY GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122062" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 3 planetary gears.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the plate washer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVQ00RX_01_0009" proc-id="RM21Q0EV__00000UR00000">
+<ptxt>REMOVE STARTER CLUTCH SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122063" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, tap in the stop collar towards the starter clutch sub-assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, pry off the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the stop collar and starter clutch sub-assembly from the planetary carrier shaft sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVQ00RX_01_0010" proc-id="RM21Q0EV__00000US00000">
+<ptxt>REMOVE PLANETARY CARRIER SHAFT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A122064" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using snap ring pliers, remove the snap ring and plate washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the planetary shaft and plate washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the center bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the internal gear and remove it from the shock absorber.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A80A_T004O" variety="T004O">
+<name>FRONT UPPER SUSPENSION ARM</name>
+<para id="RM0000010U800BX" category="A" type-id="8000E" name-id="SP3DV-02" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010U800BX_01" type-id="01" category="01">
+<s-1 id="RM0000010U800BX_01_0002" proc-id="RM21Q0EV__000051E00000">
+<ptxt>INSTALL FRONT UPPER BALL JOINT</ptxt>
+<content1 releasenbr="2">
+<s2>
+<ptxt>Using SST and a press, press in a new upper ball joint.</ptxt>
+<figure>
+<graphic graphicname="C237853E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09612-30012</s-number>
+</sstitem>
+<sstitem>
+<s-number>09223-00010</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install a new snap ring.</ptxt>
+<atten3>
+<ptxt>Make sure the snap ring is securely installed in the groove.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010U800BX_01_0003" proc-id="RM21Q0EV__000051F00000">
+<ptxt>INSTALL UPPER BALL JOINT DUST COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pack the upper ball joint with MP grease No. 2.</ptxt>
+<figure>
+<graphic graphicname="C159213E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>MP Grease No. 2</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Grease capacity</title>
+<specitem>
+<ptxt>8.0 g (0.282 oz.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Apply MP grease No. 2 to the locations shown in the illustration.</ptxt>
+<atten3>
+<ptxt>Do not apply MP grease No. 2 to the tapered or threaded parts of the ball joint.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install a new dust cover to the upper arm.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new dust cover set ring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010U800BX_01_0001" proc-id="RM21Q0EV__000051D00000">
+<ptxt>INSTALL FRONT UPPER SUSPENSION ARM BUSH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049921E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST and a press, press in a new upper arm bush.</ptxt>
+<sst>
+<sstitem>
+<s-number>09710-22021</s-number>
+<s-subnumber>09710-01031</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X8_T001M" variety="T001M">
+<name>DIFFERENTIAL</name>
+<para id="RM000001P6I013X" category="F" type-id="30027" name-id="SS10M-33" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM000001P6I013X_z0" proc-id="RM21Q0EV__000057O00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Rear Differential</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Companion flange runout</ptxt>
+</entry>
+<entry>
+<ptxt>Vertical</ptxt>
+</entry>
+<entry>
+<ptxt>0.10 mm (0.00394 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lateral</ptxt>
+</entry>
+<entry>
+<ptxt>0.10 mm (0.00394 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Drive pinion preload (Starting Torque)</ptxt>
+<ptxt>(Rear differential carrier oil seal)</ptxt>
+</entry>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 to 2.1 N*m (16 to 21 kgf*cm, 14 to 18 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.7 to 1.0 N*m (8 to 10 kgf*cm, 7 to 8 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Total preload</ptxt>
+<ptxt>(Rear differential carrier oil seal)</ptxt>
+</entry>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.4 to 0.5 N*m (4 to 6 kgf*cm, 4 to 5 in.*lbf) + drive pinion preload</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.4 to 0.5 N*m (4 to 6 kgf*cm, 4 to 5 in.*lbf) + drive pinion preload</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear differential carrier oil seal</ptxt>
+</entry>
+<entry>
+<ptxt>Oil seal depth</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 +/-0.3mm (0.02 +/-0.0118in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Drive pinion preload (Starting Torque)</ptxt>
+<ptxt>(Rear differential carrier)</ptxt>
+</entry>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>1.4 to 2.0 N*m (15 to 20 kgf*cm, 13 to 17 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.6 to 0.9 N*m (7 to 9 kgf*cm, 6 to 7 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Total preload</ptxt>
+<ptxt>(Rear differential carrier)</ptxt>
+</entry>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 to 2.1 N*m (15 to 21 kgf*cm, 14 to 19 in.*lbf) + ring gear preload</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.7 to 1.0 N*m (7 to 10 kgf*cm, 6 to 9 in.*lbf) + ring gear preload</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Ring gear runout</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum: 0.07 mm (0.00276 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Ring gear backlash</ptxt>
+</entry>
+<entry>
+<ptxt>0.13 to 0.18 mm (0.00512 to 0.00708 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Side gear backlash</ptxt>
+</entry>
+<entry>
+<ptxt>0.05 to 0.20 mm (0.00197 to 0.00787 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Differential case runout</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum: 0.07 mm (0.00276 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" morerows="3">
+<ptxt>Side gear thrust washer thickness</ptxt>
+</entry>
+<entry>
+<ptxt>0.96 to 1.04 mm (0.00378 to 0.0409 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1.06 to 1.14 mm (0.0418 to 0.0448 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1.16 to 1.24 mm (0.0457 to 0.0488 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1.26 to 1.34 mm (0.0496 to 0.0527 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" morerows="16">
+<ptxt>Drive pinion plate washer thickness</ptxt>
+</entry>
+<entry>
+<ptxt>2.23 to 2.25 mm (0.0878 to 0.0885 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.26 to 2.28 mm (0.0890 to 0.0897 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.29 to 2.31 mm (0.0902 to 0.0909 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.32 to 2.34 mm (0.0914 to 0.0921 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.35 to 2.37 mm (0.0926 to 0.0933 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.38 to 2.40 mm (0.0937 to 0.0944 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.41 to 2.43 mm (0.0949 to 0.0956 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.44 to 2.46 mm (0.0961 to 0.0968 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.47 to 2.49 mm (0.0973 to 0.0980 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.50 to 2.52 mm (0.0985 to 0.0992 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.50 to 2.52 mm (0.0985 to 0.0992 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.56 to 2.58 mm (0.1008 to 0.1015 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.59 to 2.61 mm (0.1020 to 0.1027 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.62 to 2.64 mm (0.1032 to 0.1039 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.65 to 2.67 mm (0.1044 to 0.1051 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.68 to 2.70 mm (0.1056 to 0.1062 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2.71 to 2.73 mm (0.1070 to 0.1074 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

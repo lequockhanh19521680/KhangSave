@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM0000011IS01HX" category="L" type-id="3001A" name-id="ME03X-27" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM0000011IS01HX_z0" proc-id="RM21Q0EV__00002G800000">
+<content5 releasenbr="2">
+<figure>
+<graphic graphicname="D033496E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step1>
+<ptxt>DISCONNECT AND RECONNECT CABLE OF NEGATIVE BATTERY TERMINAL</ptxt>
+<step2>
+<ptxt>Before performing electronic work, disconnect the cable from the negative (-) battery terminal in order to prevent it from shorting and burning out.</ptxt>
+</step2>
+<step2>
+<ptxt>When disconnecting and reconnecting the battery cable, turn the ignition switch OFF and headlight dimmer switch OFF. Then loosen the terminal nut completely. Be careful not to damage the cable or terminal.</ptxt>
+</step2>
+<step2>
+<ptxt>When the battery cable is disconnected, the settings of the clock and radio, memory of DTCs, etc. are erased. Before disconnecting the battery cable, take notes of the settings and memory.</ptxt>
+</step2>
+</step1>
+<atten3>
+<ptxt>When disconnecting the cable from the negative (-) battery terminal, initialize the following system(s) after the cable is reconnected.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>System Name</ptxt>
+</entry>
+<entry>
+<ptxt>See procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Meter / gauge system</ptxt>
+</entry>
+<entry>
+<ptxt>
+<xref label="Seep01" href="RM000001126016X"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten3>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

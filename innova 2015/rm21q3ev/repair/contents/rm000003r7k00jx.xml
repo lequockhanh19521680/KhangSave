@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000003R7K00JX" category="U" type-id="303FJ" name-id="AC6N8-14" from="201202">
+<name>DATA LIST / ACTIVE TEST</name>
+<subpara id="RM000003R7K00JX_z0" proc-id="RM21Q0EV__00004PT00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DATA LIST</ptxt>
+<atten4>
+<ptxt>Using the intelligent tester to read the Data List allows the values or states of switches, sensors, actuators and other items to be read without removing any parts. This non-intrusive inspection can be very useful because intermittent conditions or signals may be discovered before parts or wiring is disturbed. Reading the Data List information early in troubleshooting is one way to save diagnostic time.</ptxt>
+</atten4>
+<atten3>
+<ptxt>In the table below, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.</ptxt>
+</atten3>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the intelligent tester on.</ptxt>
+</step2>
+<step2>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List.</ptxt>
+</step2>
+<step2>
+<ptxt>According to the display on the intelligent tester, read the Data List.</ptxt>
+<table pgwide="1">
+<title>ECM</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A/C Signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Magnet clutch on request signal / ON or OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON: A/C switch on</ptxt>
+<ptxt>OFF: A/C switch off</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Check this item with the engine idling and the blower switch on (LO level).</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

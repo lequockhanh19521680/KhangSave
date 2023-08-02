@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AWVR_T00AH" variety="T00AH">
+<name>FRONT WIPER RUBBER</name>
+<para id="RM00000114D01JX" category="A" type-id="30019" name-id="WW54V-01" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM00000114D01JX_01" type-id="01" category="01">
+<s-1 id="RM00000114D01JX_01_0001" proc-id="RM21Q0EV__00004YT00000">
+<ptxt>REMOVE FRONT WIPER BLADE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the claw as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B113197" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the wiper blade as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B113199" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not fold the wiper arm with the wiper blade removed. The arm tip may damage the windshield surface.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114D01JX_01_0002" proc-id="RM21Q0EV__00004YU00000">
+<ptxt>REMOVE WIPER RUBBER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the head part (large side) of the wiper rubber from the wiper blade.</ptxt>
+<figure>
+<graphic graphicname="E226558" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the wiper rubber in the direction indicated by the arrow in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B108991E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Head Part (Large Side)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Do not pull out the wiper rubber forcibly. Doing so will deform the backing plates or damage the blade claw.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the 2 wiper rubber backing plates from the wiper rubber.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114D01JX_01_0003" proc-id="RM21Q0EV__00004YV00000">
+<ptxt>INSTALL WIPER RUBBER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 backing plates to the rubber.</ptxt>
+<figure>
+<graphic graphicname="E178054E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Backing Plate</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Curved</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Install the backing plates facing the proper direction.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the wiper rubber to the claw of the wiper blade in the direction indicated by the arrow in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B108990E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Head Part (Large Side)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>Install the wiper rubber so that the head part (large side) of the wiper rubber faces the arm axle.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Attach the head part (large side) of the rear wiper rubber to the claw on the end of the wiper blade.</ptxt>
+<figure>
+<graphic graphicname="E226560" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Push the wiper blade into the grooves of the wiper rubber to attach the wiper blade completely.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114D01JX_01_0004" proc-id="RM21Q0EV__00004YW00000">
+<ptxt>INSTALL FRONT WIPER BLADE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the front wiper blade.</ptxt>
+<figure>
+<graphic graphicname="B113198" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

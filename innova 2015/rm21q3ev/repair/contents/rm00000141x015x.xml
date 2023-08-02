@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YH_T002V" variety="T002V">
+<name>CANISTER</name>
+<para id="RM00000141X015X" category="G" type-id="3001K" name-id="EC02Y-06" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM00000141X015X_01" type-id="01" category="01">
+<s-1 id="RM00000141X015X_01_0001" proc-id="RM21Q0EV__00000PO00000">
+<ptxt>INSPECT CANISTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099534E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Inspect the operation of the canister.</ptxt>
+<spec>
+<title>Standard operation</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Close port B and C, then apply vacuum to port A</ptxt>
+</entry>
+<entry>
+<ptxt>No leak</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Close port C, then blow air into port A</ptxt>
+</entry>
+<entry>
+<ptxt>Air flows from B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Blow air into port A</ptxt>
+</entry>
+<entry>
+<ptxt>Air flows from both port B and C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the canister assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

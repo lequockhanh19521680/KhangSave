@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A836_T007K" variety="T007K">
+<name>WINDOW DEFOGGER WIRE</name>
+<para id="RM000001L65042X" category="A" type-id="8003M" name-id="WS0BR-03" from="201202">
+<name>REPAIR</name>
+<subpara id="RM000001L65042X_01" type-id="01" category="01">
+<s-1 id="RM000001L65042X_01_0001" proc-id="RM21Q0EV__00002PP00000">
+<ptxt>REPAIR DEFOGGER WIRE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B063722E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Clean the broken wire tips with grease, wax and silicone remover.</ptxt>
+</s2>
+<s2>
+<ptxt>Place masking tape along both sides of the wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Thoroughly mix the repair agent.</ptxt>
+<spec>
+<title>Dupont paste</title>
+<specitem>
+<ptxt>No. 4817 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B063723E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a fine tip brush, apply a small amount of the agent to the wire.</ptxt>
+</s2>
+<s2>
+<ptxt>After a few minutes, remove the masking tape.</ptxt>
+<atten3>
+<ptxt>Do not repair the defogger wire again for at least 24 hours.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

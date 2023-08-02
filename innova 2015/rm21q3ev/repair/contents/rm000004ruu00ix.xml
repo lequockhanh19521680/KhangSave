@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLN_T0095" variety="T0095">
+<name>BACK DOOR SUPPORT</name>
+<para id="RM000004RUU00IX" category="N" type-id="3000N" name-id="DH2B8-13" from="201202">
+<name>DISPOSAL</name>
+<subpara id="RM000004RUU00IX_01" type-id="01" category="01">
+<s-1 id="RM000004RUU00IX_01_0001" proc-id="RM21Q0EV__00003OE00000">
+<ptxt>DISPOSE OF BACK DOOR STAY ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Horizontally secure the back door stay in a vise with the piston-rod pulled out.</ptxt>
+<figure>
+<graphic graphicname="B278675E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a metal saw, gradually cut anywhere in the area labeled A to release the gas.</ptxt>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>80 mm (3.15 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten2>
+<ptxt>As metal debris may be blown outward by the gas, you must:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Wear protective glasses.</ptxt>
+</item>
+<item>
+<ptxt>Cover the area being cut.</ptxt>
+</item>
+</list1>
+</atten2>
+<atten3>
+<ptxt>The gas inside the back door stay is colorless, odorless and harmless. As there is a possibility that metal debris could scatter, cover the back door stay with a piece of cloth or other material.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

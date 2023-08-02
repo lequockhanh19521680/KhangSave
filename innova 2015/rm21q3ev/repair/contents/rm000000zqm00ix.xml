@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQM00IX" category="C" type-id="303BZ" name-id="ES10OK-001" from="201202">
+<dtccode>P0327/52</dtccode>
+<dtcname>Knock Sensor 1 Circuit Low Input (Bank 1 or Single Sensor)</dtcname>
+<dtccode>P0328/52</dtccode>
+<dtcname>Knock Sensor 1 Circuit High Input (Bank 1 or Single Sensor)</dtcname>
+<subpara id="RM000000ZQM00IX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000F600000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The flat type knock sensor (non-resonant type) has a structure that can detect vibration in a wide band of frequency from about 6 to 15 kHz and has the following features:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The knock sensor is fitted on the cylinder block to detect engine knocking.</ptxt>
+</item>
+<item>
+<ptxt>The sensor contains a piezoelectric element which generates voltage when it becomes deformed. This occurs when the cylinder block vibrates due to knocking. If engine knocking occurs, the ignition timing is retarded to suppress it.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0327/52</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Output voltage of the knock sensor is 0.5 V or less</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Short in knock sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Knock sensor</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0328/52</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Output voltage of the knock sensor is 4.5 V or more</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open in knock sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Knock sensor</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara id="RM000000ZQM00IX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000F700000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>If the output signal remains low or high for more than 10 seconds, the ECM interprets this as a fault in the knock sensor and sets a DTC.</ptxt>
+<ptxt>The monitor for DTC P0327/52 and P0328/52 runs after the engine is started and 5 seconds have passed.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQM00IX_03" type-id="32" category="03" proc-id="RM21Q0EV__00000F800000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A123741E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQM00IX_04" type-id="51" category="05" proc-id="RM21Q0EV__00000F900000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQM00IX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQM00IX_05_0001" proc-id="RM21Q0EV__00000FA00000">
+<testtitle>CHECK WIRE HARNESS (ECM - KNOCK SENSOR)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A065159E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-29 (KNK1) - E12-30 (EKNK)</ptxt>
+</entry>
+<entry>
+<ptxt>120 to 280 kΩ at 20°C (68°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQM00IX_05_0002" fin="false">OK</down>
+<right ref="RM000000ZQM00IX_05_0005" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQM00IX_05_0002" proc-id="RM21Q0EV__00000FB00000">
+<testtitle>CHECK ECM (KNK1 VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G037757E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-29 (KNK1) - E12-30 (EKNK)</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>Reference: Inspect using the oscilloscope.</ptxt>
+<ptxt>Check the waveform of the ECM connector.</ptxt>
+</atten4>
+<spec>
+<title>OK</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-29 (KNK1) - E12-30 (EKNK)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>0.01 to 10 V/DIV., 0.01 to 10 msec./DIV.</ptxt>
+</entry>
+<entry>
+<ptxt>After warming up engine, keep engine speed at 4,000 rpm</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Fault may be intermittent. Check the wire harness and connectors carefully.</ptxt>
+</atten3>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQM00IX_05_0004" fin="true">OK</down>
+<right ref="RM000000ZQM00IX_05_0003" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQM00IX_05_0003">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQM00IX_05_0004">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQM00IX_05_0005" proc-id="RM21Q0EV__00000FC00000">
+<testtitle>INSPECT KNOCK SENSOR</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A065174E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Remove the sensor.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the sensor.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>120 to 280 kΩ</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQM00IX_05_0007" fin="true">OK</down>
+<right ref="RM000000ZQM00IX_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQM00IX_05_0006">
+<testtitle>REPLACE KNOCK SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQM00IX_05_0007">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81E_T005S" variety="T005S">
+<name>FRONT AIRBAG SENSOR</name>
+<para id="RM0000010JL039X" category="G" type-id="8000T" name-id="RS0JK-73" from="201403">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010JL039X_01" type-id="01" category="01">
+<s-1 id="RM0000010JL039X_01_0001" proc-id="RM21Q0EV__00004UZ00001">
+<ptxt>INSPECT FRONT AIRBAG SENSOR LH (for Vehicle not Involved in Collision)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform a diagnostic system check (See page <xref label="Seep01" href="RM000000YVY015X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JL039X_01_0002" proc-id="RM21Q0EV__00004V000001">
+<ptxt>INSPECT FRONT AIRBAG SENSOR LH (for Vehicle Involved in Collision and Airbag not Deployed)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform a diagnostic system check (See page <xref label="Seep01" href="RM000000YVY015X"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Visually check the front airbag sensors for defects if the front bumper of the vehicle or the area around the bumper is damaged.</ptxt>
+<s3>
+<ptxt>The defects are as follows:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Cracks on the sensor housing</ptxt>
+</item>
+<item>
+<ptxt>Dents on the sensor housing</ptxt>
+</item>
+<item>
+<ptxt>Chips on the sensor housing</ptxt>
+</item>
+<item>
+<ptxt>Cracks or other damage to the connector</ptxt>
+</item>
+<item>
+<ptxt>Damage to the serial number</ptxt>
+</item>
+</list1>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>No defects are found.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>If any of the defects is found, replace the front airbag sensor LH with a new one.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JL039X_01_0003" proc-id="RM21Q0EV__00004V100001">
+<ptxt>INSPECT FRONT AIRBAG SENSOR LH (for Vehicle Involved in Collision and Airbag has Deployed)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When airbags have deployed as the result of a collision, be sure to replace all front airbag sensors in the damaged areas (anywhere in need of repair).</ptxt>
+</s2>
+<s2>
+<ptxt>Visually check the front airbag sensors in undamaged areas for defects.</ptxt>
+<s3>
+<ptxt>The defects are as follows:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Cracks on the sensor housing</ptxt>
+</item>
+<item>
+<ptxt>Dents on the sensor housing</ptxt>
+</item>
+<item>
+<ptxt>Chips on the sensor housing</ptxt>
+</item>
+<item>
+<ptxt>Cracks or other damage to the connector</ptxt>
+</item>
+<item>
+<ptxt>Damage to the serial number</ptxt>
+</item>
+</list1>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>No defects are found.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>If any of the defects is found or a front airbag sensor LH has detected a major collision, replace the front airbag sensor LH with a new one.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

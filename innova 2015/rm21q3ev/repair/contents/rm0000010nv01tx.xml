@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZC_T003Q" variety="T003Q">
+<name>AUTOMATIC TRANSMISSION ASSEMBLY</name>
+<para id="RM0000010NV01TX" category="A" type-id="80001" name-id="AT44V-02" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010NV01TX_01" type-id="01" category="01">
+<s-1 id="RM0000010NV01TX_01_0001" proc-id="RM21Q0EV__00000ZM00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0011" proc-id="RM21Q0EV__00000ZO00000">
+<ptxt>DRAIN AUTOMATIC TRANSMISSION FLUID</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the drain plug and gasket, and drain the ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>286</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0006" proc-id="RM21Q0EV__00000ZN00000">
+<ptxt>REMOVE NO. 2 FRAME CROSSMEMBER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034583E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 4 nuts, 4 bolts and frame crossmember.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0007" proc-id="RM21Q0EV__00000IQ00000">
+<ptxt>REMOVE FRONT EXHAUST PIPE ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and 2 compression springs.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the front pipe from the outlet pipe and remove the gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the front pipe from the pipe support.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NV01TX_01_0027" proc-id="RM21Q0EV__00000ZX00000">
+<ptxt>REMOVE PROPELLER WITH CENTER BEARING SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the propeller with center bearing shaft (See page <xref label="Seep01" href="RM000000ZZ301ZX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0012" proc-id="RM21Q0EV__00000UJ00000">
+<ptxt>REMOVE TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190098" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the oil level gauge.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and oil filler tube.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the oil filler tube.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0013" proc-id="RM21Q0EV__00000ZP00000">
+<ptxt>DISCONNECT OIL COOLER TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118031E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a union nut wrench, disconnect the tube outlet and tube inlet.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts and 3 clamps.</ptxt>
+<figure>
+<graphic graphicname="C118032" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0014" proc-id="RM21Q0EV__00000ZQ00000">
+<ptxt>DISCONNECT TRANSMISSION CONTROL CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190115" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the nut and clip and disconnect the control cable.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0015" proc-id="RM21Q0EV__00000ZR00000">
+<ptxt>REMOVE TRANSMISSION CONTROL CABLE BRACKET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190116" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and control cable bracket from the transmission.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0030" proc-id="RM21Q0EV__00000UI00000">
+<ptxt>REMOVE FRONT FENDER SEAL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 5 clips and seal.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NV01TX_01_0028" proc-id="RM21Q0EV__000005W00000">
+<ptxt>REMOVE STARTER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the starter connector.</ptxt>
+<figure>
+<graphic graphicname="G039040E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the starter wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and starter.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NV01TX_01_0017" proc-id="RM21Q0EV__00000ZS00000">
+<ptxt>SUPPORT AUTOMATIC TRANSMISSION ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190117" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Support the transmission with a transmission jack.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0018" proc-id="RM21Q0EV__00000ZT00000">
+<ptxt>REMOVE NO. 3 FRAME CROSSMEMBER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034517E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>*1: Remove the 4 set bolts of the No. 1 engine mounting insulator rear.</ptxt>
+</s2>
+<s2>
+<ptxt>*2: Remove the 4 nuts, 4 bolts and frame crossmember.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0019" proc-id="RM21Q0EV__00000ZU00000">
+<ptxt>DISCONNECT CONNECTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191058" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Tilt the transmission downward.</ptxt>
+<atten3>
+<ptxt>Make sure the cooling fan does not contact the fan shroud.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Disconnect the connectors.</ptxt>
+<s3>
+<ptxt>Disconnect the temperature sensor connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the park/neutral position switch connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the 3 speed sensor connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the transmission wire connector.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0020">
+<ptxt>DISCONNECT WIRE HARNESS</ptxt>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0029">
+<ptxt>REMOVE FLYWHEEL HOUSING DUST SEAL</ptxt>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0022" proc-id="RM21Q0EV__00000ZV00000">
+<ptxt>REMOVE AUTOMATIC TRANSMISSION ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118033" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Turn the crankshaft to gain access to the 6 torque converter clutch mounting bolts and remove each bolt while holding the crankshaft pulley bolt with a wrench.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts and exhaust manifold stay.</ptxt>
+<figure>
+<graphic graphicname="C118034" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 7 bolts.</ptxt>
+<figure>
+<graphic graphicname="C118035" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the transmission from the engine.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0023" proc-id="RM21Q0EV__00000ZW00000">
+<ptxt>REMOVE NO. 1 ENGINE MOUNTING INSULATOR REAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034579E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 4 bolts and engine mounting insulator.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NV01TX_01_0025">
+<ptxt>REMOVE TORQUE CONVERTER CLUTCH ASSEMBLY</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

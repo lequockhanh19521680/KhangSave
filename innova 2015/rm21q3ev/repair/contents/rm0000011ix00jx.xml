@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM0000011IX00JX" category="J" type-id="300MW" name-id="ME0KU-04" from="201202">
+<dtccode/>
+<dtcname>Entire Combination Meter does not Operate</dtcname>
+<subpara id="RM0000011IX00JX_01" type-id="32" category="03" proc-id="RM21Q0EV__00002GF00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E115293E12" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000011IX00JX_02" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000011IX00JX_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000011IX00JX_03_0001" proc-id="RM21Q0EV__00002GG00000">
+<testtitle>INSPECT FUSE (DCC, DOME, MET)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the DCC and DOME fuses from the engine room junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Remove the MET fuse from the driver side junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the fuses.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011IX00JX_03_0002" fin="false">OK</down>
+<right ref="RM0000011IX00JX_03_0003" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011IX00JX_03_0002" proc-id="RM21Q0EV__00002GH00000">
+<testtitle>CHECK WIRE HARNESS (METER - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="E114284E13" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-21 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-21 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL3" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-22 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011IX00JX_03_0005" fin="true">OK</down>
+<right ref="RM0000011IX00JX_03_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011IX00JX_03_0003">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM0000011IX00JX_03_0004">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000011IX00JX_03_0005">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY<xref label="Seep01" href="RM000004S68006X"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

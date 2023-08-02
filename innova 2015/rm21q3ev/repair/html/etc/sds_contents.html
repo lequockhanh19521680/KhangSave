@@ -1,0 +1,45 @@
+<!-- $Id: sds_contents.html,v 1.1 2007/11/15 09:35:42 h-suzuki Exp $ -->
+<!--========================================================================-->
+<!-- for Translation                                                        -->
+<!--  title(element)                                                        -->
+<!--========================================================================-->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>SDS Contents Navi</title>
+<link href="../../css/contents.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+//var DELIM   = " > ";
+var BR_TAGS = "<br/><br/><br/><br/><br/><br/><br/><br/><br/>"
+						+ "<br/><br/><br/><br/><br/><br/><br/><br/><br/>"
+						+ "<br/><br/><br/><br/><br/><br/><br/><br/><br/>";
+function init() {
+	if (parent.g_objXml == null) {
+		return;
+	}
+
+	parent.display(parent.g_objXml, parent.g_objXsl, disp, null);
+	var paraNameList = parent.getParagraphNameList(parent.g_paraId, "name", parent.g_objXml);
+	for (var i=0; i<paraNameList.length; i++) {
+		if (i!=0) parent.g_paragraphName += " / ";
+		parent.g_paragraphName += paraNameList[i];
+	}
+	ttl.innerHTML = parent.g_paragraphName;
+	brs.innerHTML = BR_TAGS;
+}
+
+// dummy function for Diagnostics Paragraph
+function changeModeById() {
+	return;
+}
+</script>
+</head>
+<body onLoad="init();">
+	<p id="ttl" class="location"></p>	
+	<div id="disp"></div>
+	<div id="brs"></div>
+</body>
+</html>

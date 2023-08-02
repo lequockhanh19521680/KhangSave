@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81L_T005Z" variety="T005Z">
+<name>SEAT BELT WARNING SYSTEM</name>
+<para id="RM000001205022X" category="T" type-id="3001H" name-id="SB053-62" from="201403">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000001205022X_z0" proc-id="RM21Q0EV__000026S00002">
+<content5 releasenbr="4">
+<atten4>
+<ptxt>Use the table below to help determine the cause of the problem symptom. The potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Seat Belt Warning System</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle">
+<ptxt>Driver seat belt warning light does not blink</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>MET fuse</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000005JBE000X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Front seat inner belt assembly LH (Driver Side Buckle Switch)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011J300SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Combination meter</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011J300SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011J300SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="5" colsep="1" valign="middle">
+<ptxt>Front passenger seat belt warning light does not blink</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>ECU-IG&amp;GAUGE fuse</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000005JBE000X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Front seat inner belt assembly RH (Passenger Side Buckle Switch)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003ODM006X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Front seat cushion (Occupant detection sensor)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003ODM006X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Accessory meter assembly (w/ Multi-display)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004RWB00HX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Telltale light assembly (w/o Multi-display)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000036L700OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003ODM006X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: w/ Multi-display</ptxt>
+</item>
+<item>
+<ptxt>*2: w/o Multi-display</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="10021_S0011" variety="S0011">
+<name>HORN</name>
+<ttl id="10021_S0011_7A82X_T007B" variety="T007B">
+<name>HIGH PITCHED HORN</name>
+<para id="RM000001GJF01TX" category="G" type-id="3001K" name-id="HO02Y-06" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001GJF01TX_02" type-id="01" category="01">
+<s-1 id="RM000001GJF01TX_02_0002" proc-id="RM21Q0EV__00002MI00000">
+<ptxt>INSPECT HIGH PITCHED HORN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B072265E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply battery voltage to the horn and check the operation of the horn.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 1</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Horn sounds</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery negative (-) → Horn bracket</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the horn.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

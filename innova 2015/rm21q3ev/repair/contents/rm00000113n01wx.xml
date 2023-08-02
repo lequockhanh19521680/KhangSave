@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A822_T006G" variety="T006G">
+<name>LICENSE PLATE LIGHT ASSEMBLY</name>
+<para id="RM00000113N01WX" category="A" type-id="80001" name-id="LIBQV-01" from="201403">
+<name>REMOVAL</name>
+<subpara id="RM00000113N01WX_01" type-id="01" category="01">
+<s-1 id="RM00000113N01WX_01_0013" proc-id="RM21Q0EV__00003NF00001">
+<ptxt>REMOVE BACK DOOR TRIM BOARD ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 16 clips and remove the back door trim board.</ptxt>
+<figure>
+<graphic graphicname="B280739" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000113N01WX_01_0014" proc-id="RM21Q0EV__00003NG00001">
+<ptxt>REMOVE BACK DOOR OUTSIDE HANDLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 nuts and back door outside handle.</ptxt>
+<figure>
+<graphic graphicname="B280740" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000113N01WX_01_0015" proc-id="RM21Q0EV__00005F700000">
+<ptxt>REMOVE BACK DOOR FRAME MOULDING LH (except Standard)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the back door frame moulding LH, heat the back door outside garnish and back door frame moulding LH using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Back Door Outside Garnish</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Back Door Frame Moulding LH</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the back door outside garnish or back door frame moulding LH excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Put protective tape around the back door frame moulding LH.</ptxt>
+<figure>
+<graphic graphicname="B349305E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using moulding remover D, remove the double-sided tape together with the back door frame moulding LH from the back door outside garnish.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Double-sided Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000113N01WX_01_0016" proc-id="RM21Q0EV__00005KV00000">
+<ptxt>REMOVE BACK DOOR FRAME MOULDING RH (except Standard)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000113N01WX_01_0017" proc-id="RM21Q0EV__00005KW00000">
+<ptxt>REMOVE BACK DOOR OUTSIDE GARNISH
+</ptxt>
+<content1 releasenbr="2">
+<s2>
+<ptxt>for Standard:</ptxt>
+<ptxt>(See page <xref label="Seep01" href="RM000001FLA01FX_01_0002"/>)</ptxt>
+</s2>
+<s2>
+<ptxt>except Standard:</ptxt>
+<ptxt>(See page <xref label="Seep02" href="RM000005NNI001X_01_0005"/>)</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000113N01WX_01_0011" proc-id="RM21Q0EV__00004Y300001">
+<ptxt>REMOVE LICENSE PLATE LIGHT LENS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 screws and remove the 2 license plate light lenses.</ptxt>
+<figure>
+<graphic graphicname="B117640" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113N01WX_01_0012" proc-id="RM21Q0EV__00004Y400001">
+<ptxt>REMOVE LICENSE PLATE LIGHT LENS GASKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 license plate light lens gaskets.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113N01WX_01_0002" proc-id="RM21Q0EV__00004Y000001">
+<ptxt>REMOVE LICENSE PLATE LIGHT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws.</ptxt>
+<figure>
+<graphic graphicname="E227745" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the license plate light assembly while turning it as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113N01WX_01_0010" proc-id="RM21Q0EV__00004Y200001">
+<ptxt>REMOVE LICENSE PLATE LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 license plate light bulbs from the license plate light assembly.</ptxt>
+<figure>
+<graphic graphicname="B117642" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102Q01KX" category="D" type-id="304JI" name-id="BC070-13" from="201202">
+<name>FREEZE FRAME DATA</name>
+<subpara id="RM00000102Q01KX_z0" proc-id="RM21Q0EV__00001O900000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FREEZE FRAME DATA</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>When a DTC is detected or the ABS operates, the skid control ECU stores the current vehicle (sensor) state as freeze frame data.</ptxt>
+</item>
+<item>
+<ptxt>The skid control ECU stores the number of times (maximum: 31) the ignition switch has been turned from OFF to ON since the last time the ABS was activated. However, if the vehicle is stopped, the vehicle is driven at 7 km/h (4.3 mph) or less, or a DTC is detected, the ECU will not count the next time the ignition switch is turned from OFF to ON.</ptxt>
+</item>
+<item>
+<ptxt>Freeze frame data at the time the ABS operates:</ptxt>
+<ptxt>The skid control ECU stores data or updates stored data when the ABS operates. This data is erased when the ECU stores data at the time a DTC is detected.</ptxt>
+</item>
+<item>
+<ptxt>Freeze frame data at the time a DTC is detected:</ptxt>
+<ptxt>When the skid control ECU stores data at the time a DTC is detected, the data will not be updated until the data is cleared.</ptxt>
+</item>
+</list1>
+</atten4>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>From the display on the tester, select Freeze Frame Data.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Intelligent Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item</ptxt>
+</entry>
+<entry>
+<ptxt>Reference Value</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Freeze DTC</ptxt>
+</entry>
+<entry>
+<ptxt>DTC recorded in freeze frame data</ptxt>
+</entry>
+<entry>
+<ptxt>Min.: 0</ptxt>
+<ptxt>Max.: 255</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Vehicle Speed</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle speed</ptxt>
+</entry>
+<entry>
+<ptxt>Speed indication on meter</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stop Light SW</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch signal</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch ON: ON</ptxt>
+<ptxt>Stop light switch OFF: OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Number of IG ON</ptxt>
+</entry>
+<entry>
+<ptxt>Number of ignition switch OFF to ON operations after memorizing freeze frame data</ptxt>
+</entry>
+<entry>
+<ptxt>0 to 31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Operated System</ptxt>
+</entry>
+<entry>
+<ptxt>Information about system / mode status</ptxt>
+</entry>
+<entry>
+<ptxt>No system activated: NO SYS</ptxt>
+<ptxt>ABS operating: ABS</ptxt>
+<ptxt>Fail-safe mode activated: FAIL SF</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Vehicle Speed Grade</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle Speed</ptxt>
+</entry>
+<entry>
+<ptxt>Min.: -1.869</ptxt>
+<ptxt>Max.: 1.869</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

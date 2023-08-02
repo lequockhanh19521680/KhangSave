@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQS00NX" category="C" type-id="302EX" name-id="ES10OT-001" from="201202">
+<dtccode>P2121/19</dtccode>
+<dtcname>Throttle / Pedal Position Sensor / Switch "D" Circuit Range / Performance</dtcname>
+<subpara id="RM000000ZQS00NX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000BV00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>This DTC is related to the accelerator pedal position sensor.</ptxt>
+</atten4>
+<ptxt>Refer to DTC P2120/19 (see page <xref label="Seep01" href="RM000000ZQR00NX_01"/>). </ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P2121/19</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Either of following conditions 1 or 2 met for 0.5 seconds (1 trip detection logic)</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>1, Difference between VPA and VPA2 is less than 0.4 V, or more than 1.2 V (learned value of accelerator off position).</ptxt>
+</item>
+<item>
+<ptxt>2, Difference between VPA and VPA2 is greater than or equal to the specified value.</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Accelerator pedal position sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Accelerator pedal position sensor</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQS00NX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000BW00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>When the difference between the output voltages of VPA and VPA2 deviates from the standard, the ECM determines that the accelerator pedal position sensor is malfunctioning. The ECM turns on the MIL and stores the DTC.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQS00NX_03" type-id="62" category="03" proc-id="RM21Q0EV__00000BX00000">
+<name>FAIL-SAFE</name>
+<content5 releasenbr="1">
+<ptxt>The accelerator pedal position sensor has a main circuit and associated circuit. When one circuit is malfunctioning, the accelerator pedal position is calculated by the output of the other circuit. When both of the circuits are malfunctioning, it is interpreted that the accelerator pedal is released. As a result, throttle valve is closed and engine idles.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQS00NX_04" type-id="32" category="03" proc-id="RM21Q0EV__00000BY00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P2120/19 (see page <xref label="Seep01" href="RM000000ZQR00NX_04"/>). </ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQS00NX_05" type-id="51" category="05" proc-id="RM21Q0EV__00000BZ00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQS00NX_06" type-id="54" category="05">
+<name>When using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQS00NX_07" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQS00NX_07_0001" proc-id="RM21Q0EV__00000C000000">
+<testtitle>READ VALUE USING INTELLIGENT TESTER (ACCELERATOR PEDAL POSITION&#13;
+SENSOR)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="FI07052E10" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Accel Sensor Out No. 1 and Accel Sensor Out No. 2.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the values.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3" align="left">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Accelerator Pedal</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Accel Sensor Out No. 1</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Accel Sensor Out No. 2</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Released</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 1.1 V</ptxt>
+</entry>
+<entry>
+<ptxt>1.2 to 2.0 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Depressed</ptxt>
+</entry>
+<entry>
+<ptxt>2.6 to 4.5 V</ptxt>
+</entry>
+<entry>
+<ptxt>3.4 to 4.98 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQS00NX_07_0002" fin="false">NG</down>
+<right ref="RM000000ZQS00NX_07_0003" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_07_0002" proc-id="RM21Q0EV__00000C100000">
+<testtitle>CHECK WIRE HARNESS (ACCELERATOR PEDAL POSITION SENSOR - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034948E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A17 accelerator pedal position sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E9 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="3.0878866in"/>
+<colspec colnum="2" colname="c2" colwidth="1.097915in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A17-6 (VPA) - E9-18 (VPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-5 (EPA) - E9-20 (EPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-4 (VCPA) - E9-26 (VCPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-3 (VPA2) - E9-19 (VPA2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-2 (EPA2) - E9-21 (EPA2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-1 (VCP2) - E9-27 (VCP2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-6 (VPA) or E9-18 (VPA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-5 (EPA) or E9-20 (EPA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-4 (VCPA) or E9-26 (VCPA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+
+<ptxt>A17-3 (VPA2) or E9-19 (VPA2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-2 (EPA2) or E9-21 (EPA2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-1 (VCP2) or E9-27 (VCP2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQS00NX_07_0005" fin="true">OK</down>
+<right ref="RM000000ZQS00NX_07_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_07_0003">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_07_0004">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_07_0005">
+<testtitle>REPLACE ACCELERATOR PEDAL ROD</testtitle>
+</testgrp>
+</subpara>
+<subpara id="RM000000ZQS00NX_08" type-id="55" category="05">
+<name>When not using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQS00NX_09" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQS00NX_09_0006" proc-id="RM21Q0EV__00000C200000">
+<testtitle>CHECK ECM (VPA, VPA2 VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E19" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.6397949in"/>
+<colspec colnum="2" colname="c2" colwidth="1.466722in"/>
+<colspec colnum="3" colname="c3" colwidth="1.0792863in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Accelerator Pedal Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-18 (VPA) - E9-20 (EPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Released</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 1.1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-18 (VPA) - E9-20 (EPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Depressed</ptxt>
+</entry>
+<entry>
+<ptxt>2.5 to 4.6 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-19 (VPA2) - E9-21 (EPA2)</ptxt>
+</entry>
+<entry>
+<ptxt>Released</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 to 2.9 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-19 (VPA2) - E9-21 (EPA2)</ptxt>
+</entry>
+<entry>
+<ptxt>Depressed</ptxt>
+</entry>
+<entry>
+<ptxt>3.5 to 5.0 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQS00NX_09_0007" fin="false">NG</down>
+<right ref="RM000000ZQS00NX_09_0008" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_09_0007" proc-id="RM21Q0EV__00000C300000">
+<testtitle>CHECK WIRE HARNESS (ACCELERATOR PEDAL POSITION SENSOR - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034948E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A17 accelerator pedal position sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E9 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.47in"/>
+<colspec colnum="2" colname="c2" colwidth="1.66in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A17-6 (VPA) - E9-18 (VPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-5 (EPA) - E9-20 (EPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-4 (VCPA) - E9-26 (VCPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-3 (VPA2) - E9-19 (VPA2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-2 (EPA2) - E9-21 (EPA2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-1 (VCP2) - E9-27 (VCP2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-6 (VPA) or E9-18 (VPA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-5 (EPA) or E9-20 (EPA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-4 (VCPA) or E9-26 (VCPA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-3 (VPA2) or E9-19 (VPA2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-2 (EPA2) or E9-21 (EPA2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A17-1 (VCP2) or E9-27 (VCP2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQS00NX_09_0010" fin="true">OK</down>
+<right ref="RM000000ZQS00NX_09_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_09_0008">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_09_0009">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQS00NX_09_0010">
+<testtitle>REPLACE ACCELERATOR PEDAL ROD</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="routing">
+	<Code id="IF1" type="w2w" subcode="">
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS039"/></Code>
+	<Code id="IE1" type="w2w" subcode="">
+		<refs type="system" code="SYS031"/></Code>
+	<Code id="IA1" type="w2w" subcode="">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS015"/>
+		<refs type="system" code="SYS016"/>
+		<refs type="system" code="SYS017"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS021"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS038"/></Code>
+	<Code id="ID2" type="w2w" subcode="">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS030"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS033"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="ID1" type="w2w" subcode="">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS003"/>
+		<refs type="system" code="SYS017"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS032"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="IC1" type="w2w" subcode="">
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS026"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="IG2" type="w2w" subcode="">
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="IG1" type="w2w" subcode="">
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="GP"/></Code>
+</CodeList>

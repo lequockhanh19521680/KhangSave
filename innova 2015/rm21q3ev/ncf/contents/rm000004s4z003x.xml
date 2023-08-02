@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12053_S000U" variety="S000U">
+<name>LIGHTING (INT)</name>
+<ttl id="12053_S000U_7AI9G_T000O" variety="T000O">
+<name>LIGHTING SYSTEM</name>
+<para id="RM000004S4Z003X" category="F" type-id="8048Z" name-id="LI94T-04" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004S4Z003X_z0" proc-id="NM21Q0EV__000001X00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION</ptxt>
+<step2>
+<ptxt>When any one of the following conditions is satisfied, the illuminated entry system turns on the key cylinder light assembly, map light assembly*, No. 1 room light assembly* and No. 2 room light assembly*:</ptxt>
+<step3>
+<ptxt>Any door is opened.</ptxt>
+</step3>
+<step3>
+<ptxt>Any door is unlocked using the transmitter.*</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with theft deterrent system</ptxt>
+</item>
+</list1>
+</step3>
+</step2>
+<step2>
+<ptxt>When any one of the following conditions is satisfied, the key cylinder light assembly is turned off:*</ptxt>
+<step3>
+<ptxt>The ignition switch is turned to ON.</ptxt>
+</step3>
+<step3>
+<ptxt>All doors are locked.</ptxt>
+</step3>
+<step3>
+<ptxt>The light has remained on for approximately 7.5 seconds after all doors have been properly closed.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models without theft deterrent system</ptxt>
+</item>
+</list1>
+</step3>
+</step2>
+<step2>
+<ptxt>When any one of the following conditions is satisfied, the key cylinder light assembly, map light assembly, No. 1 room light assembly and No. 2 room light assembly will fade out (within approximately 1 second):*</ptxt>
+<step3>
+<ptxt>All doors are closed and locked using the transmitter.</ptxt>
+</step3>
+<step3>
+<ptxt>All doors are closed and the ignition switch is turned to ON.</ptxt>
+</step3>
+<step3>
+<ptxt>The lights have remained on for approximately 15 seconds after all doors have been properly closed.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with theft deterrent system</ptxt>
+</item>
+</list1>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A80A_T004O" variety="T004O">
+<name>FRONT UPPER SUSPENSION ARM</name>
+<para id="RM0000010OJ018X" category="A" type-id="30014" name-id="SP3EG-02" from="201503">
+<name>INSTALLATION</name>
+<subpara id="RM0000010OJ018X_02" type-id="11" category="10" proc-id="RM21Q0EV__00001K200001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (see page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010OJ018X_01" type-id="01" category="01">
+<s-1 id="RM0000010OJ018X_01_0001" proc-id="RM21Q0EV__00001JX00001">
+<ptxt>TEMPORARILY INSTALL FRONT UPPER SUSPENSION ARM ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049917E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Temporarily install the upper arm with the 2 bolts and 2 nuts.</ptxt>
+<atten4>
+<ptxt>Fix the nuts in place and temporarily install the bolts.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the upper arm to the front axle with the castle nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install a new clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OJ018X_01_0008" proc-id="RM21Q0EV__000052U00001">
+<ptxt>CONNECT FRONT FLEXIBLE HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the front flexible hose with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>29</t-value1>
+<t-value2>296</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OJ018X_01_0003" proc-id="RM21Q0EV__00001JZ00001">
+<ptxt>INSTALL FRONT WHEEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front wheel.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OJ018X_01_0007" proc-id="RM21Q0EV__000051S00001">
+<ptxt>STABILIZE SUSPENSION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the vehicle several times to stabilize the suspension.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010OJ018X_01_0005" proc-id="RM21Q0EV__00001K000001">
+<ptxt>TIGHTEN FRONT UPPER SUSPENSION ARM ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten the upper arm's 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>85</t-value1>
+<t-value2>867</t-value2>
+<t-value4>63</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OJ018X_01_0006" proc-id="RM21Q0EV__00001K100001">
+<ptxt>INSPECT AND ADJUST FRONT WHEEL ALIGNMENT</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000039J4005X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

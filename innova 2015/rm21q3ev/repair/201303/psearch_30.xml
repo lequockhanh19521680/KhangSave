@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db><pub id="RM21Q3EV"><servcat id="30"><name>ENGINE</name><section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name><ttl id="10006_S0004_7A7Y5_T002J" variety="T002J"><name>SFI SYSTEM</name>
+<parts id="M000235"><name>SFI SYSTEM</name></parts>
+<para id="RM000000ZQJ00IX" category="C" type-id="302Z0" from="201202"><name>P0010/39</name>
+
+
+
+
+
+
+
+
+<parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89661"><name>ECM</name></parts><parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000000ZQK00LX" category="C" type-id="302Z1" from="201202"><name>P0011/59</name><name>P0012/59</name>
+
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000795"><name>VVT SYSTEM</name></parts><parts id="11401"><name>CYLINDER BLOCK SUB-ASSEMBLY</name></parts><parts id="15678A"><name>OIL CONTROL VALVE FILTER</name></parts><parts id="B000296"><name>VALVE TIMING</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="13050"><name>CAMSHAFT TIMING GEAR ASSEMBLY</name></parts><parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts></para>
+<para id="RM000000ZQL00IX" category="C" type-id="302Z2" from="201202"><name>P0016/18</name>
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000296"><name>VALVE TIMING</name></parts></para>
+<para id="RM000000ZQ800JX" category="C" type-id="3008I" from="201202"><name>P0100/31</name><name>P0102/31</name><name>P0103/31</name>
+
+
+
+
+
+
+
+
+<parts id="B001346"><name>ECM POWER SOURCE CIRCUIT</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="22204"><name>INTAKE MASS AIR FLOW METER SUB-ASSY</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="B002430"><name>DATA LIST</name></parts></para>
+<para id="RM000000ZQD00JX" category="C" type-id="302C4" from="201202"><name>P0110/24</name><name>P0112/24</name><name>P0113/24</name>
+
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="22204"><name>INTAKE MASS AIR FLOW METER SUB-ASSY</name></parts><parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="89424D"><name>INTAKE AIR TEMPERATURE SENSOR</name></parts><parts id="B002430"><name>DATA LIST</name></parts><parts id="89661A"><name>ECM</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM000000ZQE00JX" category="C" type-id="302C5" from="201202"><name>P0115/22</name><name>P0117/22</name><name>P0118/22</name>
+
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89422"><name>E.F.I.  ENGINE COOLANT TEMPERATURE SENSOR</name></parts><parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B002430"><name>DATA LIST</name></parts><parts id="89661A"><name>ECM</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM000000ZQH00OX" category="C" type-id="302R7" from="201202"><name>P0120/41</name><name>P0122/41</name><name>P0123/41</name><name>P0220/41</name><name>P0222/41</name><name>P0223/41</name><name>P2135/41</name>
+
+
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B800749"><name>SYSTEM IS OK</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B002430"><name>DATA LIST</name></parts></para>
+<para id="RM000000ZQB00LX" category="C" type-id="3008V" from="201202"><name>P0121/41</name>
+
+
+
+
+
+<parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="F0001SJ"><name>DTC CHART</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts></para>
+<para id="RM000000ZQ900VX" category="C" type-id="3008P" from="201202"><name>P0130/21</name>
+
+
+
+
+
+
+
+
+<parts id="89465"><name>OXYGEN SENSOR</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="F0001SJ"><name>DTC CHART</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="B000247"><name>CONFIRMATION DRIVING PATTERN</name></parts><parts id="23250"><name>FUEL INJECTOR ASSEMBLY</name></parts><parts id="M000115"><name>FUEL SYSTEM</name></parts><parts id="B001223"><name>AIR INDUCTION SYSTEM</name></parts><parts id="82641"><name>INTEGRATION NO.1 RELAY</name></parts><parts id="J000041"><name>PCV HOSE</name></parts><parts id="F0001XV"><name>FUEL PRESSURE</name></parts><parts id="B002430"><name>DATA LIST</name></parts></para>
+<para id="RM000000ZQC00VX" category="C" type-id="3011O" from="201202"><name>P0135/21</name>
+
+
+
+
+<parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="82641"><name>INTEGRATION NO.1 RELAY</name></parts><parts id="89465"><name>OXYGEN SENSOR</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000000ZQM00IX" category="C" type-id="303BZ" from="201202"><name>P0327/52</name><name>P0328/52</name>
+
+
+
+
+
+<parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89615"><name>KNOCK CONTROL SENSOR</name></parts><parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000000ZQI00IX" category="C" type-id="302RB" from="201202"><name>P0335/13</name><name>P0339/13</name>
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="19315A"><name>CRANK POSITION SENSOR ROTOR</name></parts><parts id="11301K"><name>CRANK POSITION SENSOR</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000000ZQA00JX" category="C" type-id="3008U" from="201202"><name>P0340/12</name><name>P0341/12</name>
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="13511"><name>CAMSHAFT</name></parts><parts id="11301M"><name>CAM POSITION SENSOR</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000000ZQF00NX" category="C" type-id="302E4" from="201202"><name>P0351/14</name><name>P0352/15</name><name>P0353/14</name><name>P0354/15</name>
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B800749"><name>SYSTEM IS OK</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B000297"><name>SIMULATION TEST</name></parts></para>
+<para id="RM000000ZQ700WX" category="C" type-id="3007P" from="201202"><name>P0500/42</name>
+
+
+
+
+
+<parts id="83181G"><name>SPEEDOMETER SENSOR</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B000239"><name>INTERMITTENT PROBLEMS</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="D1002PZ"><name>METER</name></parts></para>
+<para id="RM000000ZQG00IX" category="C" type-id="302J6" from="201202"><name>P0504/51</name>
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84340"><name>STOP LAMP SWITCH ASSEMBLY</name></parts><parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="B800145"><name>STOP LIGHT SWITCH CIRCUIT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B988404"><name>STOP LIGHT</name></parts><parts id="B002430"><name>DATA LIST</name></parts></para>
+<para id="RM000000ZQT00JX" category="C" type-id="302J7" from="201202"><name>P0604/89</name><name>P0606/89</name><name>P0607/89</name><name>P0657/89</name>
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="F0001SJ"><name>DTC CHART</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts></para>
+<para id="RM000000ZQQ00IX" category="C" type-id="302EQ" from="201202"><name>P2102/41</name><name>P2103/41</name>
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000000ZQU00MX" category="C" type-id="302Z6" from="201202"><name>P2111/41</name><name>P2112/41</name>
+
+
+
+
+
+
+<parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="89661"><name>ECM</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="F0001SJ"><name>DTC CHART</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts></para>
+<para id="RM000000ZQV00IX" category="C" type-id="302Z8" from="201202"><name>P2118/89</name>
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="F0001XQ"><name>INTERMITTENT PROBLEMS</name></parts><parts id="B800009"><name>HARNESS</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B000302"><name>FUSE</name></parts></para>
+<para id="RM000000ZQW00MX" category="C" type-id="302Z9" from="201202"><name>P2119/89</name>
+
+
+
+
+
+
+<parts id="B800749"><name>SYSTEM IS OK</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="F0001SJ"><name>DTC CHART</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts></para>
+<para id="RM000000ZQR00NX" category="C" type-id="302EW" from="201202"><name>P2120/19</name><name>P2122/19</name><name>P2123/19</name><name>P2125/19</name><name>P2127/19</name><name>P2128/19</name><name>P2138/19</name>
+
+
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B800749"><name>SYSTEM IS OK</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="78120G"><name>ACCELERATOR PEDAL ROD ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM000000ZQS00NX" category="C" type-id="302EX" from="201202"><name>P2121/19</name>
+
+
+
+
+
+
+
+
+
+<parts id="78120G"><name>ACCELERATOR PEDAL ROD ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM000000ZQP010X" category="J" type-id="30076" from="201202"><name>ECM Power Source Circuit</name>
+
+
+
+
+<parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="82641"><name>INTEGRATION NO.1 RELAY</name></parts><parts id="B800009"><name>HARNESS</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="84450"><name>IGNITION OR STARTER SWITCH ASSEMBLY</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="69057A"><name>IGNITION SWITCH LOCK CYLINDER &amp; KEY SET</name></parts></para>
+<para id="RM000001EP100VX" category="J" type-id="305BG" from="201202"><name>VC Output Circuit</name>
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B800749"><name>SYSTEM IS OK</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="78120G"><name>ACCELERATOR PEDAL ROD ASSEMBLY</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="B000727"><name>MIL</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM000000ZRL010X" category="J" type-id="300TS" from="201202"><name>ECM Back-up Power Source Circuit</name>
+
+
+
+
+<parts id="82741"><name>ENGINE ROOM RELAY BLOCK</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B800009"><name>HARNESS</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B000302"><name>FUSE</name></parts></para>
+<para id="RM000000ZQO00QX" category="J" type-id="30075" from="201202"><name>Fuel Pump Control Circuit</name>
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="77020A"><name>FUEL SUCTION W/PUMP &amp; GAGE TUBE ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="82641"><name>INTEGRATION NO.1 RELAY</name></parts><parts id="B000813"><name>POWER SOURCE CIRCUIT</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="B001346"><name>ECM POWER SOURCE CIRCUIT</name></parts><parts id="28380A"><name>FUEL PUMP RESISTER</name></parts><parts id="F000236"><name>ACTIVE TEST USING INTELLIGENT TESTER</name></parts></para>
+<para id="RM000000ZRM0DEX" category="J" type-id="302L1" from="201202"><name>Fuel Injector Circuit</name>
+
+
+
+
+<parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="23250"><name>FUEL INJECTOR ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B001346"><name>ECM POWER SOURCE CIRCUIT</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="89661"><name>ECM</name></parts></para>
+<para id="RM000000ZQX012X" category="J" type-id="3009O" from="201202"><name>Starter Signal Circuit</name>
+
+
+
+
+
+
+
+<parts id="89661"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B002430"><name>DATA LIST</name></parts></para>
+<para id="RM000004G8F0BFX" category="J" type-id="8059Z" from="201202" to="201503"><name>Brake Override System</name>
+
+
+
+<parts id="F0001SJ"><name>DTC CHART</name></parts><parts id="84340"><name>STOP LAMP SWITCH ASSEMBLY</name></parts><parts id="B400478"><name>BRAKE PEDAL</name></parts><parts id="78120G"><name>ACCELERATOR PEDAL ROD ASSEMBLY</name></parts><parts id="F00012W"><name>METER / GAUGE SYSTEM</name></parts><parts id="B800324"><name>SPEED SENSOR</name></parts><parts id="B898409"><name>END</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="B000284"><name>DTC OUTPUT</name></parts></para>
+
+<para id="RM000000ZQY019X" category="J" type-id="3018M" from="201202"><name>MIL Circuit</name>
+
+
+
+
+<parts id="F000254"><name>VC OUTPUT CIRCUIT</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B800197"><name>BULB</name></parts><parts id="B800749"><name>SYSTEM IS OK</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="B005008"><name>ENGINE START</name></parts><parts id="B000727"><name>MIL</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM00000123M00NX" category="J" type-id="3037E" from="201202"><name>TC and CG Terminal Circuit</name>
+
+
+
+
+<parts id="B800749"><name>SYSTEM IS OK</name></parts><parts id="89661"><name>ECM</name></parts><parts id="B000727"><name>MIL</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B895019"><name>DLC3</name></parts></para>
+</ttl>
+<ttl id="10006_S0004_7ARJO_T008X" variety="T008X"><name>CAMSHAFT OIL CONTROL VALVE</name>
+<parts id="F0002R1"><name>CAMSHAFT OIL CONTROL VALVE</name></parts>
+<para id="RM000000WU2047X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts></para>
+<para id="RM000000VVZ01NX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000000VVX01YX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts></para>
+<para id="RM000000VVW01RX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10006_S0004_7A7XZ_T002D" variety="T002D"><name>THROTTLE BODY</name>
+<parts id="B191019"><name>THROTTLE BODY</name></parts>
+<para id="RM000000VWP01VX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts></para>
+<para id="RM000000VWO021X" category="A" type-id="80001" from="201202" to="201403"><name>REMOVAL</name>
+
+<parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+
+<para id="RM000000VWM020X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts></para>
+<para id="RM000000VWL028X" category="A" type-id="30014" from="201202" to="201403"><name>INSTALLATION</name>
+
+<parts id="J890003"><name>ENGINE COOLANT TEMPERATURE SENSOR CIRCUIT</name></parts><parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="J003400"><name>CONNECT BATTERY NEGATIVE TERMINAL</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts></para>
+
+</ttl>
+<ttl id="10006_S0004_7A7Y2_T002G" variety="T002G"><name>ECM</name>
+<parts id="B000057"><name>ECM</name></parts>
+<para id="RM000000VW2028X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="89668A"><name>ECM BRACKET NO.2</name></parts><parts id="89667A"><name>ECM BRACKET NO.1</name></parts><parts id="89661"><name>ECM</name></parts><parts id="55510"><name>GLOVE COMPARTMENT DOOR ASSEMBLY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000000VW002DX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="55510"><name>GLOVE COMPARTMENT DOOR ASSEMBLY</name></parts><parts id="89661"><name>ECM</name></parts><parts id="89667A"><name>ECM BRACKET NO.1</name></parts><parts id="89668A"><name>ECM BRACKET NO.2</name></parts></para>
+</ttl>
+<ttl id="10006_S0004_7A7Y3_T002H" variety="T002H"><name>ACCELERATOR PEDAL ROD</name>
+<parts id="B892812"><name>ACCELERATOR PEDAL ROD</name></parts>
+<para id="RM000000WQ8023X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="78120G"><name>ACCELERATOR PEDAL ROD ASSEMBLY</name></parts></para>
+<para id="RM000000VWD021X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="78120G"><name>ACCELERATOR PEDAL ROD ASSEMBLY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000000VWB02AX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="78120G"><name>ACCELERATOR PEDAL ROD ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10006_S0004_7A7Y4_T002I" variety="T002I"><name>MASS AIR FLOW METER</name>
+<parts id="B001325"><name>MASS AIR FLOW METER</name></parts>
+<para id="RM000000Q2D08GX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+
+<parts id="22204"><name>INTAKE MASS AIR FLOW METER SUB-ASSY</name></parts></para>
+<para id="RM000000VW602HX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="22204"><name>INTAKE MASS AIR FLOW METER SUB-ASSY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000000VW302OX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="22204"><name>INTAKE MASS AIR FLOW METER SUB-ASSY</name></parts></para>
+</ttl>
+<ttl id="10006_S0004_7A7XW_T002A" variety="T002A"><name>CAMSHAFT POSITION SENSOR</name>
+<parts id="J909190"><name>CAMSHAFT POSITION SENSOR</name></parts>
+<para id="RM000000VX701NX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="11301M"><name>CAM POSITION SENSOR</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000000VX501NX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="11301M"><name>CAM POSITION SENSOR</name></parts></para>
+<para id="RM000000VX401SX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="11301M"><name>CAM POSITION SENSOR</name></parts></para>
+</ttl>
+<ttl id="10006_S0004_7A7XX_T002B" variety="T002B"><name>CRANKSHAFT POSITION SENSOR</name>
+<parts id="J909191"><name>CRANKSHAFT POSITION SENSOR</name></parts>
+<para id="RM000000VX301MX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="11301K"><name>CRANK POSITION SENSOR</name></parts><parts id="88431"><name>COMPRESSOR MOUNTING BRACKET NO.1</name></parts><parts id="88320"><name>COOLER COMPRESSOR ASSEMBLY</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000000VX101PX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="11301K"><name>CRANK POSITION SENSOR</name></parts></para>
+<para id="RM000000VX001VX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="88320"><name>COOLER COMPRESSOR ASSEMBLY</name></parts><parts id="88431"><name>COMPRESSOR MOUNTING BRACKET NO.1</name></parts><parts id="11301K"><name>CRANK POSITION SENSOR</name></parts></para>
+</ttl>
+<ttl id="10006_S0004_7A7XY_T002C" variety="T002C"><name>ENGINE COOLANT TEMPERATURE SENSOR</name>
+<parts id="J894220"><name>ENGINE COOLANT TEMPERATURE SENSOR</name></parts>
+<para id="RM000000VWA01LX" category="A" type-id="80001" from="201202" to="201403"><name>REMOVAL</name>
+
+<parts id="89422"><name>E.F.I.  ENGINE COOLANT TEMPERATURE SENSOR</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+
+<para id="RM000000VW801EX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="89422"><name>E.F.I.  ENGINE COOLANT TEMPERATURE SENSOR</name></parts></para>
+<para id="RM000000VW701OX" category="A" type-id="30014" from="201202" to="201403"><name>INSTALLATION</name>
+
+<parts id="J890003"><name>ENGINE COOLANT TEMPERATURE SENSOR CIRCUIT</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="89422"><name>E.F.I.  ENGINE COOLANT TEMPERATURE SENSOR</name></parts></para>
+
+</ttl>
+<ttl id="10006_S0004_7A7Y0_T002E" variety="T002E"><name>KNOCK SENSOR</name>
+<parts id="J896150"><name>KNOCK SENSOR</name></parts>
+<para id="RM000000VWH020X" category="A" type-id="80001" from="201202" to="201403"><name>REMOVAL</name>
+
+<parts id="89615"><name>KNOCK CONTROL SENSOR</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+
+<para id="RM000000VWF01UX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="89615"><name>KNOCK CONTROL SENSOR</name></parts></para>
+<para id="RM000000VWE024X" category="A" type-id="30014" from="201202" to="201403"><name>INSTALLATION</name>
+
+<parts id="J890003"><name>ENGINE COOLANT TEMPERATURE SENSOR CIRCUIT</name></parts><parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="89615"><name>KNOCK CONTROL SENSOR</name></parts></para>
+
+</ttl>
+<ttl id="10006_S0004_7A7Y1_T002F" variety="T002F"><name>INTEGRATION RELAY</name>
+<parts id="B009089"><name>INTEGRATION RELAY</name></parts>
+<para id="RM0000014TJ02QX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="82661"><name>RELAY BLOCK COVER NO.1</name></parts><parts id="82641"><name>INTEGRATION NO.1 RELAY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+</ttl>
+</section><section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name><ttl id="1000A_S0005_7A7YA_T002O" variety="T002O"><name>ENGINE</name>
+<parts id="J000025"><name>ENGINE</name></parts>
+<para id="RM000000YN101CX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="B000301"><name>CO/HC</name></parts><parts id="B000034"><name>COMPRESSION</name></parts><parts id="B002058"><name>IDLE SPEED CONTROL SYSTEM</name></parts><parts id="B000059"><name>ENGINE IDLE SPEED</name></parts><parts id="B000084"><name>IGNITION TIMING</name></parts><parts id="13750"><name>VALVE LASH ADJUSTER ASSEMBLY</name></parts><parts id="16603"><name>IDLER PULLEY SUB-ASSEMBLY NO.1</name></parts><parts id="16620D"><name>V-RIBBED BELT TENSIONER ASSEMBLY</name></parts><parts id="17801"><name>AIR CLEANER FILTER ELEMENT SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000A_S0005_7A7Y6_T002K" variety="T002K"><name>DRIVE BELT</name>
+<parts id="B100001"><name>DRIVE BELT</name></parts>
+<para id="RM000000YN601NX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts></para>
+
+<para id="RM000000YMP02MX" category="A" type-id="80001" from="201303"><name>REMOVAL</name>
+
+<parts id="16603B"><name>IDLER PULLEY SUB-ASSEMBLY</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts></para>
+
+<para id="RM000000YMN02MX" category="A" type-id="30014" from="201303"><name>INSTALLATION</name>
+
+<parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="16603B"><name>IDLER PULLEY SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000A_S0005_7A7Y9_T002N" variety="T002N"><name>CAMSHAFT</name>
+<parts id="B000022"><name>CAMSHAFT</name></parts>
+<para id="RM000000YN001HX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="13716"><name>VALVE STEM CAP</name></parts><parts id="13050"><name>CAMSHAFT TIMING GEAR ASSEMBLY</name></parts><parts id="13750"><name>VALVE LASH ADJUSTER ASSEMBLY</name></parts><parts id="13801"><name>VALVE ROCKER ARM SUB-ASSEMBLY NO.1</name></parts><parts id="13511"><name>CAMSHAFT</name></parts><parts id="13523"><name>CAMSHAFT TIMING GEAR OR SPROCKET</name></parts><parts id="13566B"><name>TIMING CHAIN GUIDE</name></parts><parts id="11201"><name>CYLINDER HEAD COVER SUB-ASSEMBLY</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM0000012NU00WX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="13511"><name>CAMSHAFT</name></parts><parts id="13050"><name>CAMSHAFT TIMING GEAR ASSEMBLY</name></parts><parts id="13750"><name>VALVE LASH ADJUSTER ASSEMBLY</name></parts></para>
+<para id="RM000000YMY01KX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B191019"><name>THROTTLE BODY</name></parts><parts id="B000301"><name>CO/HC</name></parts><parts id="B555001"><name>IDLE SPEED</name></parts><parts id="B000084"><name>IGNITION TIMING</name></parts><parts id="B160001"><name>ENGINE COOLANT LEAK</name></parts><parts id="B000403"><name>ENGINE OIL LEAKS</name></parts><parts id="B800806"><name>INITIALIZATION</name></parts><parts id="B002087"><name>CABLE TO NEGATIVE BATTERY TERMINAL</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="11201"><name>CYLINDER HEAD COVER SUB-ASSEMBLY</name></parts><parts id="13566B"><name>TIMING CHAIN GUIDE</name></parts><parts id="13523"><name>CAMSHAFT TIMING GEAR OR SPROCKET</name></parts><parts id="13511"><name>CAMSHAFT</name></parts><parts id="13801"><name>VALVE ROCKER ARM SUB-ASSEMBLY NO.1</name></parts><parts id="13750"><name>VALVE LASH ADJUSTER ASSEMBLY</name></parts><parts id="13716"><name>VALVE STEM CAP</name></parts><parts id="13050"><name>CAMSHAFT TIMING GEAR ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000A_S0005_7A7Y7_T002L" variety="T002L"><name>ENGINE ASSEMBLY</name>
+<parts id="B000055"><name>ENGINE ASSEMBLY</name></parts>
+
+<para id="RM000000YMS02DX" category="A" type-id="80001" from="201303" to="201403"><name>REMOVAL</name>
+
+<parts id="12315"><name>ENGINE MOUNTING BRACKET FRONT NO.1 LH</name></parts><parts id="12311"><name>ENGINE MOUNTING BRACKET FRONT NO.1 RH</name></parts><parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts><parts id="11301K"><name>CRANK POSITION SENSOR</name></parts><parts id="11301M"><name>CAM POSITION SENSOR</name></parts><parts id="89422"><name>E.F.I.  ENGINE COOLANT TEMPERATURE SENSOR</name></parts><parts id="89615"><name>KNOCK CONTROL SENSOR</name></parts><parts id="16268"><name>WATER BY-PASS PIPE NO.1</name></parts><parts id="83530"><name>ENGINE OIL PRESSURE SWITCH ASSEMBLY</name></parts><parts id="16603"><name>IDLER PULLEY SUB-ASSEMBLY NO.1</name></parts><parts id="16331A"><name>THERMOSTAT</name></parts><parts id="16321"><name>WATER INLET</name></parts><parts id="16620D"><name>V-RIBBED BELT TENSIONER ASSEMBLY</name></parts><parts id="88431"><name>COMPRESSOR MOUNTING BRACKET NO.1</name></parts><parts id="88440B"><name>IDLE PULLEY ASSEMBLY</name></parts><parts id="17141"><name>EXHAUST MANIFOLD</name></parts><parts id="17167"><name>EXHAUST MANIFOLD HEAT INSULATOR NO.1</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="B000086"><name>INJECTOR</name></parts><parts id="23807"><name>FUEL DELIVERY PIPE SUB-ASSEMBLY</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="B000065"><name>ENGINE WIRE</name></parts><parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="12229"><name>VENTILATION PIPE</name></parts><parts id="19100P"><name>SPARK PLUG</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="11000"><name>PARTIAL ENGINE ASSEMBLY</name></parts><parts id="11355"><name>REAR END PLATE</name></parts><parts id="32101"><name>DRIVE PLATE &amp; RING GEAR SUB-ASSEMBLY</name></parts><parts id="13405"><name>FLYWHEEL SUB-ASSEMBLY</name></parts><parts id="31250"><name>CLUTCH DISC ASSEMBLY</name></parts><parts id="31210"><name>CLUTCH COVER ASSEMBLY</name></parts><parts id="35000"><name>AUTOMATIC TRANSMISSION ASSEMBLY</name></parts><parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts><parts id="31470"><name>CLUTCH RELEASE CYLINDER ASSEMBLY</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="37110F"><name>PROPELLER SHAFT ASSEMBLY REAR</name></parts><parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts><parts id="55701"><name>COWL PANEL SUB-ASSEMBLY</name></parts><parts id="85160"><name>WINDSHIELD WIPER LINK ASSEMBLY</name></parts><parts id="53301"><name>HOOD SUB-ASSEMBLY</name></parts><parts id="88320"><name>COOLER COMPRESSOR ASSEMBLY</name></parts><parts id="11452"><name>OIL LEVEL GAGE GUIDE</name></parts><parts id="15301"><name>OIL LEVEL GAGE SUB-ASSEMBLY</name></parts><parts id="44320"><name>VANE PUMP ASSEMBLY</name></parts><parts id="23271F"><name>FUEL HOSE</name></parts><parts id="J000042"><name>HOSES</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="32922A"><name>OIL COOLER OUTLET HOSE</name></parts><parts id="32921D"><name>OIL COOLER INLET HOSE</name></parts><parts id="16371"><name>FAN PULLEY</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="53111"><name>RADIATOR GRILLE</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="J300036"><name>MANUAL TRANSMISSION OIL</name></parts><parts id="B000703"><name>ENGINE OIL</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B002076"><name>BATTERY NEGATIVE CABLE</name></parts><parts id="B100050"><name>DISCHARGE FUEL SYSTEM PRESSURE</name></parts></para>
+
+
+<para id="RM000000YMQ02GX" category="A" type-id="30014" from="201303" to="201403"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="B000301"><name>CO/HC</name></parts><parts id="B555001"><name>IDLE SPEED</name></parts><parts id="B000084"><name>IGNITION TIMING</name></parts><parts id="J100022"><name>COOLANT</name></parts><parts id="B000403"><name>ENGINE OIL LEAKS</name></parts><parts id="B000816"><name>FUEL LEAK</name></parts><parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="J300036"><name>MANUAL TRANSMISSION OIL</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B000703"><name>ENGINE OIL</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="53111"><name>RADIATOR GRILLE</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="16371"><name>FAN PULLEY</name></parts><parts id="32922A"><name>OIL COOLER OUTLET HOSE</name></parts><parts id="32921D"><name>OIL COOLER INLET HOSE</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="J000042"><name>HOSES</name></parts><parts id="23271F"><name>FUEL HOSE</name></parts><parts id="B000065"><name>ENGINE WIRE</name></parts><parts id="44320"><name>VANE PUMP ASSEMBLY</name></parts><parts id="15301"><name>OIL LEVEL GAGE SUB-ASSEMBLY</name></parts><parts id="11452"><name>OIL LEVEL GAGE GUIDE</name></parts><parts id="88320"><name>COOLER COMPRESSOR ASSEMBLY</name></parts><parts id="85160"><name>WINDSHIELD WIPER LINK ASSEMBLY</name></parts><parts id="55701"><name>COWL PANEL SUB-ASSEMBLY</name></parts><parts id="53301"><name>HOOD SUB-ASSEMBLY</name></parts><parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts><parts id="37110F"><name>PROPELLER SHAFT ASSEMBLY REAR</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="35000"><name>AUTOMATIC TRANSMISSION ASSEMBLY</name></parts><parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts><parts id="31210"><name>CLUTCH COVER ASSEMBLY</name></parts><parts id="31250"><name>CLUTCH DISC ASSEMBLY</name></parts><parts id="13405"><name>FLYWHEEL SUB-ASSEMBLY</name></parts><parts id="32101"><name>DRIVE PLATE &amp; RING GEAR SUB-ASSEMBLY</name></parts><parts id="11355"><name>REAR END PLATE</name></parts><parts id="11000"><name>PARTIAL ENGINE ASSEMBLY</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="19100P"><name>SPARK PLUG</name></parts><parts id="12229"><name>VENTILATION PIPE</name></parts><parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="23807"><name>FUEL DELIVERY PIPE SUB-ASSEMBLY</name></parts><parts id="B000086"><name>INJECTOR</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="17167"><name>EXHAUST MANIFOLD HEAT INSULATOR NO.1</name></parts><parts id="17141"><name>EXHAUST MANIFOLD</name></parts><parts id="88440B"><name>IDLE PULLEY ASSEMBLY</name></parts><parts id="88431"><name>COMPRESSOR MOUNTING BRACKET NO.1</name></parts><parts id="16620D"><name>V-RIBBED BELT TENSIONER ASSEMBLY</name></parts><parts id="16321"><name>WATER INLET</name></parts><parts id="16331A"><name>THERMOSTAT</name></parts><parts id="16603"><name>IDLER PULLEY SUB-ASSEMBLY NO.1</name></parts><parts id="83530"><name>ENGINE OIL PRESSURE SWITCH ASSEMBLY</name></parts><parts id="16268"><name>WATER BY-PASS PIPE NO.1</name></parts><parts id="89615"><name>KNOCK CONTROL SENSOR</name></parts><parts id="89422"><name>E.F.I.  ENGINE COOLANT TEMPERATURE SENSOR</name></parts><parts id="11301M"><name>CAM POSITION SENSOR</name></parts><parts id="11301K"><name>CRANK POSITION SENSOR</name></parts><parts id="11101J"><name>CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</name></parts><parts id="12311"><name>ENGINE MOUNTING BRACKET FRONT NO.1 RH</name></parts><parts id="12315"><name>ENGINE MOUNTING BRACKET FRONT NO.1 LH</name></parts></para>
+
+</ttl>
+<ttl id="1000A_S0005_7A7Y8_T002M" variety="T002M"><name>ENGINE UNIT</name>
+<parts id="F000044"><name>ENGINE UNIT</name></parts>
+<para id="RM000000YMW018X" category="A" type-id="80002" from="201202" to="201503"><name>DISASSEMBLY</name>
+
+<parts id="15708"><name>OIL NOZZLE SUB-ASSEMBLY NO.1</name></parts><parts id="11415"><name>CYLINDER BLOCK WATER DRAIN COCK SUB-ASSEMBLY</name></parts><parts id="13101"><name>W/PIN PISTON SUB-ASSEMBLY</name></parts><parts id="13411"><name>CRANKSHAFT</name></parts><parts id="13201"><name>CONNECTING ROD SUB-ASSEMBLY</name></parts><parts id="11117F"><name>W/HEAD STRAIGHT SCREW PLUG NO.2</name></parts><parts id="11117A"><name>W/HEAD TAPER SCREW PLUG NO.1</name></parts><parts id="15678A"><name>OIL CONTROL VALVE FILTER</name></parts><parts id="13711A"><name>VALVE STEM OIL O SEAL OR RING</name></parts><parts id="13715"><name>EXHAUST VALVE</name></parts><parts id="13711"><name>INTAKE VALVE</name></parts><parts id="13750"><name>VALVE LASH ADJUSTER ASSEMBLY</name></parts><parts id="13716"><name>VALVE STEM CAP</name></parts><parts id="13801"><name>VALVE ROCKER ARM SUB-ASSEMBLY NO.1</name></parts><parts id="11381"><name>ENGINE REAR OIL SEAL RETAINER</name></parts><parts id="15609"><name>OIL FILTER BRACKET SUB-ASSEMBLY</name></parts><parts id="15600A"><name>OIL FILTER UNION</name></parts><parts id="15601"><name>OIL FILTER SUB-ASSEMBLY</name></parts><parts id="11101"><name>CYLINDER HEAD SUB-ASSEMBLY</name></parts><parts id="13050"><name>CAMSHAFT TIMING GEAR ASSEMBLY</name></parts><parts id="13523"><name>CAMSHAFT TIMING GEAR OR SPROCKET</name></parts><parts id="13511"><name>CAMSHAFT</name></parts><parts id="13516"><name>OIL JET</name></parts><parts id="13471A"><name>CRANKSHAFT PULLEY SET CRANKSHAFT KEY</name></parts><parts id="19315A"><name>CRANK POSITION SENSOR ROTOR</name></parts><parts id="13521"><name>CRANKSHAFT TIMING GEAR OR SPROCKET</name></parts><parts id="13506"><name>CHAIN SUB-ASSEMBLY</name></parts><parts id="13561"><name>CHAIN VIBRATION DAMPER NO.1</name></parts><parts id="13559"><name>CHAIN TENSIONER SLIPPER</name></parts><parts id="13540"><name>CHAIN TENSIONER ASSEMBLY NO.1</name></parts><parts id="13566B"><name>TIMING CHAIN GUIDE</name></parts><parts id="B000802"><name>OIL PUMP RELIEF VALVE</name></parts><parts id="11301C"><name>TIMING GEAR CASE OR TIMING CHAIN CASE OIL SEAL</name></parts><parts id="16100"><name>ENGINE WATER PUMP ASSEMBLY</name></parts><parts id="11302"><name>TIMING CHAIN OR BELT COVER SUB-ASSEMBLY</name></parts><parts id="12101"><name>OIL PAN SUB-ASSEMBLY</name></parts><parts id="15104"><name>OIL STRAINER SUB-ASSEMBLY</name></parts><parts id="12102A"><name>OIL PAN SUB-ASSEMBLY NO.2</name></parts><parts id="13471"><name>CRANKSHAFT PULLEY</name></parts><parts id="11201"><name>CYLINDER HEAD COVER SUB-ASSEMBLY</name></parts><parts id="12204"><name>VENTILATION VALVE SUB-ASSEMBLY</name></parts><parts id="12108"><name>OIL FILLER CAP SUB-ASSEMBLY</name></parts></para>
+
+<para id="RM000000YMU019X" category="G" type-id="3001K" from="201202" to="201503"><name>INSPECTION</name>
+
+<parts id="11416"><name>CRANKSHAFT BEARING CAP SET BOLT</name></parts><parts id="13411"><name>CRANKSHAFT</name></parts><parts id="13265"><name>CONNECTING ROD BOLT</name></parts><parts id="13201"><name>CONNECTING ROD SUB-ASSEMBLY</name></parts><parts id="13011"><name>PISTON RING SET</name></parts><parts id="13101"><name>W/PIN PISTON SUB-ASSEMBLY</name></parts><parts id="11401"><name>CYLINDER BLOCK SUB-ASSEMBLY</name></parts><parts id="11126"><name>EXHAUST VALVE GUIDE BUSH</name></parts><parts id="11122"><name>INTAKE VALVE GUIDE BUSH</name></parts><parts id="13715"><name>EXHAUST VALVE</name></parts><parts id="13711"><name>INTAKE VALVE</name></parts><parts id="13711B"><name>INNER COMPRESSION SPRING</name></parts><parts id="13511"><name>CAMSHAFT</name></parts><parts id="11135"><name>EXHAUST VALVE SEAT</name></parts><parts id="11131"><name>INTAKE VALVE SEAT</name></parts><parts id="11101"><name>CYLINDER HEAD SUB-ASSEMBLY</name></parts><parts id="13750"><name>VALVE LASH ADJUSTER ASSEMBLY</name></parts><parts id="11101A"><name>CYLINDER HEAD SET BOLT</name></parts><parts id="13566B"><name>TIMING CHAIN GUIDE</name></parts><parts id="13561"><name>CHAIN VIBRATION DAMPER NO.1</name></parts><parts id="13559"><name>CHAIN TENSIONER SLIPPER</name></parts><parts id="13597"><name>CRANKSHAFT TIMING SPROCKET NO.2</name></parts><parts id="13050"><name>CAMSHAFT TIMING GEAR ASSEMBLY</name></parts><parts id="13523"><name>CAMSHAFT TIMING GEAR OR SPROCKET</name></parts><parts id="13540"><name>CHAIN TENSIONER ASSEMBLY NO.1</name></parts><parts id="13512"><name>NO.2 CAMSHAFT</name></parts><parts id="13506"><name>CHAIN SUB-ASSEMBLY</name></parts><parts id="15708"><name>OIL NOZZLE SUB-ASSEMBLY NO.1</name></parts></para>
+
+<para id="RM000000YMT01AX" category="A" type-id="30019" from="201202"><name>REPLACEMENT</name>
+
+<parts id="13201A"><name>CONNECTING ROD SMALL END BUSH</name></parts><parts id="11126"><name>EXHAUST VALVE GUIDE BUSH</name></parts><parts id="11122"><name>INTAKE VALVE GUIDE BUSH</name></parts><parts id="11381A"><name>ENGINE REAR OIL SEAL</name></parts><parts id="11301C"><name>TIMING GEAR CASE OR TIMING CHAIN CASE OIL SEAL</name></parts></para>
+<para id="RM000000YMX019X" category="A" type-id="8000E" from="201202" to="201503"><name>REASSEMBLY</name>
+
+<parts id="12108"><name>OIL FILLER CAP SUB-ASSEMBLY</name></parts><parts id="12204"><name>VENTILATION VALVE SUB-ASSEMBLY</name></parts><parts id="11201"><name>CYLINDER HEAD COVER SUB-ASSEMBLY</name></parts><parts id="13471"><name>CRANKSHAFT PULLEY</name></parts><parts id="12102A"><name>OIL PAN SUB-ASSEMBLY NO.2</name></parts><parts id="15104"><name>OIL STRAINER SUB-ASSEMBLY</name></parts><parts id="12101"><name>OIL PAN SUB-ASSEMBLY</name></parts><parts id="11302"><name>TIMING CHAIN OR BELT COVER SUB-ASSEMBLY</name></parts><parts id="16100"><name>ENGINE WATER PUMP ASSEMBLY</name></parts><parts id="11301C"><name>TIMING GEAR CASE OR TIMING CHAIN CASE OIL SEAL</name></parts><parts id="B000446"><name>RELIEF VALVE</name></parts><parts id="13566B"><name>TIMING CHAIN GUIDE</name></parts><parts id="13540"><name>CHAIN TENSIONER ASSEMBLY NO.1</name></parts><parts id="13559"><name>CHAIN TENSIONER SLIPPER</name></parts><parts id="13506"><name>CHAIN SUB-ASSEMBLY</name></parts><parts id="13561"><name>CHAIN VIBRATION DAMPER NO.1</name></parts><parts id="13597"><name>CRANKSHAFT TIMING SPROCKET NO.2</name></parts><parts id="19315A"><name>CRANK POSITION SENSOR ROTOR</name></parts><parts id="13471A"><name>CRANKSHAFT PULLEY SET CRANKSHAFT KEY</name></parts><parts id="13516"><name>OIL JET</name></parts><parts id="13511"><name>CAMSHAFT</name></parts><parts id="13523"><name>CAMSHAFT TIMING GEAR OR SPROCKET</name></parts><parts id="13050"><name>CAMSHAFT TIMING GEAR ASSEMBLY</name></parts><parts id="11101"><name>CYLINDER HEAD SUB-ASSEMBLY</name></parts><parts id="11115"><name>CYLINDER HEAD GASKET</name></parts><parts id="15601"><name>OIL FILTER SUB-ASSEMBLY</name></parts><parts id="15600A"><name>OIL FILTER UNION</name></parts><parts id="15609"><name>OIL FILTER BRACKET SUB-ASSEMBLY</name></parts><parts id="11381"><name>ENGINE REAR OIL SEAL RETAINER</name></parts><parts id="13801"><name>VALVE ROCKER ARM SUB-ASSEMBLY NO.1</name></parts><parts id="13716"><name>VALVE STEM CAP</name></parts><parts id="13750"><name>VALVE LASH ADJUSTER ASSEMBLY</name></parts><parts id="13715"><name>EXHAUST VALVE</name></parts><parts id="13711"><name>INTAKE VALVE</name></parts><parts id="13711A"><name>VALVE STEM OIL O SEAL OR RING</name></parts><parts id="13734"><name>VALVE SPRING SEAT</name></parts><parts id="15678A"><name>OIL CONTROL VALVE FILTER</name></parts><parts id="B000148"><name>STUD BOLT</name></parts><parts id="B100017"><name>TIGHT PLUG</name></parts><parts id="11117F"><name>W/HEAD STRAIGHT SCREW PLUG NO.2</name></parts><parts id="11117E"><name>W/HEAD STRAIGHT SCREW PLUG NO.1</name></parts><parts id="11151A"><name>CAMSHAFT BEARING CAP SETTING RING PIN</name></parts><parts id="13101"><name>W/PIN PISTON SUB-ASSEMBLY</name></parts><parts id="13411"><name>CRANKSHAFT</name></parts><parts id="11711"><name>CRANKSHAFT BEARING</name></parts><parts id="13041"><name>CONNECTING ROD BEARING</name></parts><parts id="11415"><name>CYLINDER BLOCK WATER DRAIN COCK SUB-ASSEMBLY</name></parts><parts id="15708"><name>OIL NOZZLE SUB-ASSEMBLY NO.1</name></parts><parts id="B100016"><name>RING PIN</name></parts><parts id="B000147"><name>STRAIGHT PIN</name></parts><parts id="11116A"><name>TIGHT PLUG NO.1</name></parts></para>
+
+<para id="RM0000014ZO019X" category="A" type-id="8003M" from="201202"><name>REPAIR</name>
+
+<parts id="11401"><name>CYLINDER BLOCK SUB-ASSEMBLY</name></parts><parts id="11135"><name>EXHAUST VALVE SEAT</name></parts><parts id="11131"><name>INTAKE VALVE SEAT</name></parts></para>
+</ttl>
+</section><section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name><ttl id="10007_S0006_7A7YB_T002P" variety="T002P"><name>FUEL SYSTEM</name>
+<parts id="M000115"><name>FUEL SYSTEM</name></parts>
+<para id="RM000000YL703IX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="X010006"><name>FUEL</name></parts><parts id="B000816"><name>FUEL LEAK</name></parts></para>
+</ttl>
+<ttl id="10007_S0006_7A7YC_T002Q" variety="T002Q"><name>FUEL INJECTOR</name>
+<parts id="F000046"><name>FUEL INJECTOR</name></parts>
+<para id="RM000000YLB015X" category="A" type-id="80001" from="201202" to="201403"><name>REMOVAL</name>
+
+<parts id="23670"><name>INJECTOR ASSEMBLY</name></parts><parts id="23807"><name>FUEL DELIVERY PIPE SUB-ASSEMBLY</name></parts><parts id="23271F"><name>FUEL HOSE</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="B100050"><name>DISCHARGE FUEL SYSTEM PRESSURE</name></parts></para>
+
+<para id="RM000000YL9011X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="B000086"><name>INJECTOR</name></parts><parts id="23670"><name>INJECTOR ASSEMBLY</name></parts></para>
+<para id="RM000000YL8018X" category="A" type-id="30014" from="201202" to="201403"><name>INSTALLATION</name>
+
+<parts id="B000816"><name>FUEL LEAK</name></parts><parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="23271F"><name>FUEL HOSE</name></parts><parts id="23807"><name>FUEL DELIVERY PIPE SUB-ASSEMBLY</name></parts><parts id="23670"><name>INJECTOR ASSEMBLY</name></parts></para>
+
+</ttl>
+<ttl id="10007_S0006_7A7YD_T002R" variety="T002R"><name>FUEL PRESSURE REGULATOR</name>
+<parts id="B200044"><name>FUEL PRESSURE REGULATOR</name></parts>
+<para id="RM000000YLE015X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="23280"><name>FUEL PRESSURE REGULATOR ASSEMBLY</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="B100050"><name>DISCHARGE FUEL SYSTEM PRESSURE</name></parts></para>
+<para id="RM000000YLC018X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B000816"><name>FUEL LEAK</name></parts><parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="23280"><name>FUEL PRESSURE REGULATOR ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10007_S0006_7A7YE_T002S" variety="T002S"><name>FUEL FILTER</name>
+<parts id="B000275"><name>FUEL FILTER</name></parts>
+<para id="RM000000YLH01FX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="23300"><name>FUEL FILTER ASSEMBLY</name></parts><parts id="77251B"><name>FUEL MAIN TUBE</name></parts><parts id="23271F"><name>FUEL HOSE</name></parts><parts id="77740"><name>CHARCOAL CANISTER ASSEMBLY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts><parts id="B100050"><name>DISCHARGE FUEL SYSTEM PRESSURE</name></parts></para>
+<para id="RM000000YLF014X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B000816"><name>FUEL LEAK</name></parts><parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="77740"><name>CHARCOAL CANISTER ASSEMBLY</name></parts><parts id="23271F"><name>FUEL HOSE</name></parts><parts id="77251B"><name>FUEL MAIN TUBE</name></parts><parts id="23300"><name>FUEL FILTER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10007_S0006_7A7YF_T002T" variety="T002T"><name>FUEL PUMP</name>
+<parts id="B005009"><name>FUEL PUMP</name></parts>
+<para id="RM00000133601GX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="23221"><name>FUEL PUMP</name></parts></para>
+<para id="RM000000YLL04GX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="77174"><name>FUEL SUCTION SUPPORT NO.1</name></parts><parts id="23221"><name>FUEL PUMP</name></parts><parts id="77100"><name>FUEL TANK ASSEMBLY</name></parts><parts id="83320"><name>FUEL SENDER GAGE ASSEMBLY</name></parts><parts id="77020A"><name>FUEL SUCTION W/PUMP &amp; GAGE TUBE ASSEMBLY</name></parts></para>
+<para id="RM000000YLJ01RX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="23221"><name>FUEL PUMP</name></parts></para>
+<para id="RM000000YLI04EX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="77100"><name>FUEL TANK ASSEMBLY</name></parts><parts id="77020A"><name>FUEL SUCTION W/PUMP &amp; GAGE TUBE ASSEMBLY</name></parts><parts id="83320"><name>FUEL SENDER GAGE ASSEMBLY</name></parts><parts id="23221"><name>FUEL PUMP</name></parts><parts id="77174"><name>FUEL SUCTION SUPPORT NO.1</name></parts></para>
+</ttl>
+<ttl id="10007_S0006_7A7YG_T002U" variety="T002U"><name>FUEL TANK</name>
+<parts id="B800775"><name>FUEL TANK</name></parts>
+<para id="RM000000YLT070X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="77641A"><name>FUEL TANK PROTECTOR NO.1</name></parts><parts id="77380"><name>FUEL CUT OFF VALVE ASSEMBLY</name></parts><parts id="77020A"><name>FUEL SUCTION W/PUMP &amp; GAGE TUBE ASSEMBLY</name></parts><parts id="77651A"><name>FUEL TANK CUSHION NO.1</name></parts><parts id="77100"><name>FUEL TANK ASSEMBLY</name></parts><parts id="77201"><name>FUEL TANK INLET PIPE SUB-ASSEMBLY</name></parts><parts id="77269A"><name>FUEL TANK BREATHER HOSE</name></parts><parts id="77213B"><name>FUEL TANK TO FILLER PIPE HOSE</name></parts><parts id="77251B"><name>FUEL MAIN TUBE</name></parts><parts id="77289B"><name>FUEL TUBE CLAMP NO.3</name></parts><parts id="77310A"><name>FUEL TANK CAP ASSEMBLY</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="B100050"><name>DISCHARGE FUEL SYSTEM PRESSURE</name></parts></para>
+<para id="RM000000YLR071X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B000816"><name>FUEL LEAK</name></parts><parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts><parts id="77310A"><name>FUEL TANK CAP ASSEMBLY</name></parts><parts id="77289B"><name>FUEL TUBE CLAMP NO.3</name></parts><parts id="77251B"><name>FUEL MAIN TUBE</name></parts><parts id="77269A"><name>FUEL TANK BREATHER HOSE</name></parts><parts id="77213B"><name>FUEL TANK TO FILLER PIPE HOSE</name></parts><parts id="77201"><name>FUEL TANK INLET PIPE SUB-ASSEMBLY</name></parts><parts id="77100"><name>FUEL TANK ASSEMBLY</name></parts><parts id="77651A"><name>FUEL TANK CUSHION NO.1</name></parts><parts id="77020A"><name>FUEL SUCTION W/PUMP &amp; GAGE TUBE ASSEMBLY</name></parts><parts id="77380"><name>FUEL CUT OFF VALVE ASSEMBLY</name></parts><parts id="77641A"><name>FUEL TANK PROTECTOR NO.1</name></parts></para>
+</ttl>
+</section><section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name><ttl id="10008_S0007_7A7YL_T002Z" variety="T002Z"><name>EMISSION CONTROL SYSTEM</name>
+<parts id="J100014"><name>EMISSION CONTROL SYSTEM</name></parts>
+<para id="RM00000141J00VX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="17650G"><name>DUTY VACUUM SWITCHING VALVE</name></parts><parts id="B800757"><name>NO LEAK DETECTED</name></parts></para>
+</ttl>
+<ttl id="10008_S0007_7A7YH_T002V" variety="T002V"><name>CANISTER</name>
+<parts id="F00004G"><name>CANISTER</name></parts>
+<para id="RM00000141Z015X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="77740"><name>CHARCOAL CANISTER ASSEMBLY</name></parts></para>
+<para id="RM00000141X015X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="77740"><name>CHARCOAL CANISTER ASSEMBLY</name></parts></para>
+<para id="RM00000141W015X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="77740"><name>CHARCOAL CANISTER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10008_S0007_7A7YK_T002Y" variety="T002Y"><name>FUEL TANK CAP</name>
+<parts id="F00019W"><name>FUEL TANK CAP</name></parts>
+<para id="RM000001TNJ005X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="77310A"><name>FUEL TANK CAP ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10008_S0007_7A7YI_T002W" variety="T002W"><name>VACUUM SWITCHING VALVE</name>
+<parts id="B001051"><name>VACUUM SWITCHING VALVE</name></parts>
+<para id="RM000001428014X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="17650G"><name>DUTY VACUUM SWITCHING VALVE</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+<para id="RM000001426014X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="17650G"><name>DUTY VACUUM SWITCHING VALVE</name></parts></para>
+<para id="RM000001425017X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="17650G"><name>DUTY VACUUM SWITCHING VALVE</name></parts></para>
+</ttl>
+<ttl id="10008_S0007_7AUGX_T00A4" variety="T00A4"><name>PCV VALVE</name>
+<parts id="J002000"><name>PCV VALVE</name></parts>
+<para id="RM00000141N018X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="12204"><name>VENTILATION VALVE SUB-ASSEMBLY</name></parts></para>
+<para id="RM00000141L018X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="12204"><name>VENTILATION VALVE SUB-ASSEMBLY</name></parts></para>
+<para id="RM00000141K019X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="12204"><name>VENTILATION VALVE SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10008_S0007_7A7YJ_T002X" variety="T002X"><name>HEATED OXYGEN SENSOR</name>
+<parts id="J894650"><name>HEATED OXYGEN SENSOR</name></parts>
+<para id="RM000001423014X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="89465"><name>OXYGEN SENSOR</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+<para id="RM000001421015X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="89465"><name>OXYGEN SENSOR</name></parts></para>
+<para id="RM000001420017X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="89465"><name>OXYGEN SENSOR</name></parts></para>
+</ttl>
+</section><section id="1000B_S0008" variety="S0008">
+<name>1TR-FE EXHAUST</name><ttl id="1000B_S0008_7A7YM_T0030" variety="T0030"><name>EXHAUST PIPE</name>
+<parts id="J100016"><name>EXHAUST PIPE</name></parts>
+<para id="RM00000135901LX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+
+<parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts><parts id="89465"><name>OXYGEN SENSOR</name></parts><parts id="17420"><name>EXHAUST PIPE ASSEMBLY CENTER</name></parts><parts id="17430"><name>EXHAUST PIPE ASSEMBLY TAIL</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM00000135701OX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B000812"><name>EXHAUST GAS</name></parts><parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="17430"><name>EXHAUST PIPE ASSEMBLY TAIL</name></parts><parts id="17420"><name>EXHAUST PIPE ASSEMBLY CENTER</name></parts><parts id="89465"><name>OXYGEN SENSOR</name></parts><parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts></para>
+</ttl>
+</section><section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name><ttl id="1000C_S0009_7A7YS_T0036" variety="T0036"><name>COOLING SYSTEM</name>
+<parts id="J100021"><name>COOLING SYSTEM</name></parts>
+<para id="RM000001454018X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="16400"><name>RADIATOR ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000C_S0009_7A7YN_T0031" variety="T0031"><name>COOLANT</name>
+<parts id="J100022"><name>COOLANT</name></parts>
+<para id="RM000001WX5004X" category="A" type-id="30019" from="201202"><name>REPLACEMENT</name>
+
+
+<parts id="B001610"><name>ENGINE COOLANT</name></parts></para>
+</ttl>
+<ttl id="1000C_S0009_7A7YO_T0032" variety="T0032"><name>WATER PUMP</name>
+<parts id="B001342"><name>WATER PUMP</name></parts>
+<para id="RM00000145900VX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="16100"><name>ENGINE WATER PUMP ASSEMBLY</name></parts><parts id="16620"><name>V-RIBBED BELT TENSIONER ASSEMBLY</name></parts><parts id="16603"><name>IDLER PULLEY SUB-ASSEMBLY NO.1</name></parts><parts id="11452"><name>OIL LEVEL GAGE GUIDE</name></parts><parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+<para id="RM00000145700ZX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="16100"><name>ENGINE WATER PUMP ASSEMBLY</name></parts></para>
+<para id="RM00000145600YX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="11452"><name>OIL LEVEL GAGE GUIDE</name></parts><parts id="16603"><name>IDLER PULLEY SUB-ASSEMBLY NO.1</name></parts><parts id="16620D"><name>V-RIBBED BELT TENSIONER ASSEMBLY</name></parts><parts id="16100"><name>ENGINE WATER PUMP ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000C_S0009_7A7YP_T0033" variety="T0033"><name>THERMOSTAT</name>
+<parts id="J100026"><name>THERMOSTAT</name></parts>
+<para id="RM00000145D018X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="16331A"><name>THERMOSTAT</name></parts><parts id="16321"><name>WATER INLET</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+<para id="RM00000145B01MX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="16331A"><name>THERMOSTAT</name></parts></para>
+<para id="RM00000145A01BX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16321"><name>WATER INLET</name></parts><parts id="16331A"><name>THERMOSTAT</name></parts></para>
+</ttl>
+<ttl id="1000C_S0009_7A7YQ_T0034" variety="T0034"><name>FAN</name>
+<parts id="F00004M"><name>FAN</name></parts>
+<para id="RM0000014Y700OX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="16361"><name>FAN</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts></para>
+<para id="RM0000014Y500OX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="16210"><name>FLUID COUPLING ASSEMBLY</name></parts></para>
+<para id="RM0000014Y400OX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="16361"><name>FAN</name></parts></para>
+</ttl>
+<ttl id="1000C_S0009_7A7YR_T0035" variety="T0035"><name>RADIATOR</name>
+<parts id="B000125"><name>RADIATOR</name></parts>
+<para id="RM000000XYW086X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="16401"><name>RADIATOR CAP SUB-ASSEMBLY</name></parts></para>
+<para id="RM00000145G00YX" category="N" type-id="302IZ" from="201202"><name>ON-VEHICLE CLEANING</name>
+
+<parts id="16400"><name>RADIATOR ASSEMBLY</name></parts></para>
+<para id="RM00000145H019X" category="A" type-id="80001" from="201202" to="201403"><name>REMOVAL</name>
+
+<parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="32922A"><name>OIL COOLER OUTLET HOSE</name></parts><parts id="32921D"><name>OIL COOLER INLET HOSE</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="53111"><name>RADIATOR GRILLE</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+
+<para id="RM000001JBS02CX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="16491"><name>ATM OIL COOLER</name></parts><parts id="16441"><name>RADIATOR TANK UPPER</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="16407A"><name>RADIATOR DRAIN COCK SUB-ASSEMBLY</name></parts><parts id="53257B"><name>RADIATOR SUPPORT TO FRONT FENDER BRACKET</name></parts></para>
+<para id="RM000001JBT02CX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="53257B"><name>RADIATOR SUPPORT TO FRONT FENDER BRACKET</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="16407A"><name>RADIATOR DRAIN COCK SUB-ASSEMBLY</name></parts><parts id="16441"><name>RADIATOR TANK UPPER</name></parts><parts id="16491"><name>ATM OIL COOLER</name></parts></para>
+<para id="RM00000145E01AX" category="A" type-id="30014" from="201202" to="201403"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="53111"><name>RADIATOR GRILLE</name></parts><parts id="16400"><name>RADIATOR ASSEMBLY</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="16572"><name>RADIATOR HOSE OUTLET</name></parts><parts id="16571"><name>RADIATOR HOSE INLET</name></parts><parts id="16711"><name>FAN SHROUD</name></parts><parts id="32922A"><name>OIL COOLER OUTLET HOSE</name></parts><parts id="32921D"><name>OIL COOLER INLET HOSE</name></parts></para>
+
+</ttl>
+</section><section id="1000D_S000A" variety="S000A">
+<name>1TR-FE LUBRICATION</name><ttl id="1000D_S000A_7A7YT_T0037" variety="T0037"><name>LUBRICATION SYSTEM</name>
+<parts id="J100017"><name>LUBRICATION SYSTEM</name></parts>
+<para id="RM000000YM401BX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="83530"><name>ENGINE OIL PRESSURE SWITCH ASSEMBLY</name></parts><parts id="B000106"><name>OIL PRESSURE</name></parts><parts id="B000703"><name>ENGINE OIL</name></parts><parts id="B000062"><name>ENGINE OIL LEVEL</name></parts></para>
+</ttl>
+<ttl id="1000D_S000A_7A7YU_T0038" variety="T0038"><name>OIL FILTER</name>
+<parts id="A156010"><name>OIL FILTER</name></parts>
+<para id="RM000000YM501CX" category="A" type-id="30019" from="201202"><name>REPLACEMENT</name>
+
+
+<parts id="B000403"><name>ENGINE OIL LEAKS</name></parts><parts id="B000703"><name>ENGINE OIL</name></parts><parts id="15601"><name>OIL FILTER SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000D_S000A_7A7YV_T0039" variety="T0039"><name>OIL PUMP</name>
+<parts id="B000110"><name>OIL PUMP</name></parts>
+
+<para id="RM000000YMA02WX" category="A" type-id="80001" from="201303" to="201403"><name>REMOVAL</name>
+
+<parts id="16100"><name>ENGINE WATER PUMP ASSEMBLY</name></parts><parts id="11302"><name>TIMING CHAIN OR BELT COVER SUB-ASSEMBLY</name></parts><parts id="11301K"><name>CRANK POSITION SENSOR</name></parts><parts id="12101"><name>OIL PAN SUB-ASSEMBLY</name></parts><parts id="15104"><name>OIL STRAINER SUB-ASSEMBLY</name></parts><parts id="12102A"><name>OIL PAN SUB-ASSEMBLY NO.2</name></parts><parts id="13471"><name>CRANKSHAFT PULLEY</name></parts><parts id="11301M"><name>CAM POSITION SENSOR</name></parts><parts id="11201"><name>CYLINDER HEAD COVER SUB-ASSEMBLY</name></parts><parts id="12108"><name>OIL FILLER CAP SUB-ASSEMBLY</name></parts><parts id="16268"><name>WATER BY-PASS PIPE NO.1</name></parts><parts id="16603"><name>IDLER PULLEY SUB-ASSEMBLY NO.1</name></parts><parts id="16331A"><name>THERMOSTAT</name></parts><parts id="16321"><name>WATER INLET</name></parts><parts id="16620D"><name>V-RIBBED BELT TENSIONER ASSEMBLY</name></parts><parts id="88431"><name>COMPRESSOR MOUNTING BRACKET NO.1</name></parts><parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="19100P"><name>SPARK PLUG</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="B000055"><name>ENGINE ASSEMBLY</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="B100050"><name>DISCHARGE FUEL SYSTEM PRESSURE</name></parts></para>
+
+
+<para id="RM000001K58005X" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="B151020"><name>OIL PUMP ROTOR SET</name></parts><parts id="15115"><name>OIL PUMP COVER</name></parts><parts id="15131"><name>OIL PUMP RELIEF VALVE</name></parts></para>
+<para id="RM000000YM801QX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="B151020"><name>OIL PUMP ROTOR SET</name></parts><parts id="15131"><name>OIL PUMP RELIEF VALVE</name></parts></para>
+<para id="RM000001K59005X" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="15131"><name>OIL PUMP RELIEF VALVE</name></parts><parts id="B000113"><name>OIL PUMP COVER</name></parts><parts id="B151020"><name>OIL PUMP ROTOR SET</name></parts></para>
+
+<para id="RM000000YM702YX" category="A" type-id="30014" from="201303" to="201403"><name>INSTALLATION</name>
+
+<parts id="B000301"><name>CO/HC</name></parts><parts id="B000059"><name>ENGINE IDLE SPEED</name></parts><parts id="B000084"><name>IGNITION TIMING</name></parts><parts id="B191019"><name>THROTTLE BODY</name></parts><parts id="J100022"><name>COOLANT</name></parts><parts id="B000403"><name>ENGINE OIL LEAKS</name></parts><parts id="B000816"><name>FUEL LEAK</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B000703"><name>ENGINE OIL</name></parts><parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="B002076"><name>BATTERY NEGATIVE CABLE</name></parts><parts id="B000055"><name>ENGINE ASSEMBLY</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="19100P"><name>SPARK PLUG</name></parts><parts id="22030"><name>THROTTLE W/MOTOR BODY ASSEMBLY</name></parts><parts id="17111"><name>INTAKE MANIFOLD</name></parts><parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="88431"><name>COMPRESSOR MOUNTING BRACKET NO.1</name></parts><parts id="16321"><name>WATER INLET</name></parts><parts id="16331A"><name>THERMOSTAT</name></parts><parts id="16620D"><name>V-RIBBED BELT TENSIONER ASSEMBLY</name></parts><parts id="16603"><name>IDLER PULLEY SUB-ASSEMBLY NO.1</name></parts><parts id="16268"><name>WATER BY-PASS PIPE NO.1</name></parts><parts id="12108"><name>OIL FILLER CAP SUB-ASSEMBLY</name></parts><parts id="11201"><name>CYLINDER HEAD COVER SUB-ASSEMBLY</name></parts><parts id="11301M"><name>CAM POSITION SENSOR</name></parts><parts id="13471"><name>CRANKSHAFT PULLEY</name></parts><parts id="12102A"><name>OIL PAN SUB-ASSEMBLY NO.2</name></parts><parts id="15104"><name>OIL STRAINER SUB-ASSEMBLY</name></parts><parts id="12101"><name>OIL PAN SUB-ASSEMBLY</name></parts><parts id="11301K"><name>CRANK POSITION SENSOR</name></parts><parts id="11302"><name>TIMING CHAIN OR BELT COVER SUB-ASSEMBLY</name></parts><parts id="16100"><name>ENGINE WATER PUMP ASSEMBLY</name></parts></para>
+
+
+</ttl>
+</section><section id="1000E_S000B" variety="S000B">
+<name>1TR-FE IGNITION</name><ttl id="1000E_S000B_7A7YW_T003A" variety="T003A"><name>IGNITION SYSTEM</name>
+<parts id="M000023"><name>IGNITION SYSTEM</name></parts>
+<para id="RM000000SM6055X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+
+<parts id="19100P"><name>SPARK PLUG</name></parts><parts id="B000144"><name>SPARK PLUG</name></parts></para>
+</ttl>
+<ttl id="1000E_S000B_7ARJQ_T008Z" variety="T008Z"><name>IGNITION COIL AND SPARK PLUG</name>
+<parts id="F0003AK"><name>IGNITION COIL AND SPARK PLUG</name></parts>
+<para id="RM000000SK701HX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="19100P"><name>SPARK PLUG</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts></para>
+<para id="RM000000SK501KX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="17861"><name>INTAKE AIR CONNECTOR</name></parts><parts id="19500"><name>IGNITION COIL ASSEMBLY</name></parts><parts id="19100P"><name>SPARK PLUG</name></parts></para>
+</ttl>
+</section><section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name><ttl id="10024_S000C_7A7YY_T003C" variety="T003C"><name>STARTER</name>
+<parts id="B000145"><name>STARTER</name></parts>
+<para id="RM00000135T01FX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="31470"><name>CLUTCH RELEASE CYLINDER ASSEMBLY</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="53882F"><name>FRONT FENDER SEAL</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000001LVQ00RX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="B200049"><name>PLANETARY CARRIER SHAFT SUB-ASSEMBLY</name></parts><parts id="28011"><name>STARTER CLUTCH SUB-ASSEMBLY</name></parts><parts id="28255"><name>PLANET GEAR</name></parts><parts id="B400301"><name>DRIVE PINION SUB-ASSEMBLY</name></parts><parts id="28140"><name>STARTER BRUSH HOLDER ASSEMBLY</name></parts><parts id="28130"><name>STARTER COMMUTATOR END FRAME ASSEMBLY</name></parts><parts id="28120"><name>STARTER YOKE ASSEMBLY</name></parts><parts id="28150"><name>MAGNET STARTER SWITCH ASSEMBLY</name></parts></para>
+<para id="RM000001LVO00RX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="28150"><name>MAGNET STARTER SWITCH ASSEMBLY</name></parts><parts id="B001295"><name>PLUNGER</name></parts><parts id="28011"><name>STARTER CLUTCH SUB-ASSEMBLY</name></parts><parts id="J000140"><name>GEAR</name></parts><parts id="28140"><name>STARTER BRUSH HOLDER ASSEMBLY</name></parts><parts id="J400072"><name>BRUSH LENGTH</name></parts><parts id="28120"><name>STARTER YOKE ASSEMBLY</name></parts><parts id="28160"><name>STARTER ARMATURE ASSEMBLY</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts></para>
+<para id="RM000001M6U00RX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+
+<parts id="28150"><name>MAGNET STARTER SWITCH ASSEMBLY</name></parts><parts id="28120"><name>STARTER YOKE ASSEMBLY</name></parts><parts id="28130"><name>STARTER COMMUTATOR END FRAME ASSEMBLY</name></parts><parts id="28140"><name>STARTER BRUSH HOLDER ASSEMBLY</name></parts><parts id="B400301"><name>DRIVE PINION SUB-ASSEMBLY</name></parts><parts id="28255"><name>PLANET GEAR</name></parts><parts id="28011"><name>STARTER CLUTCH SUB-ASSEMBLY</name></parts><parts id="B200049"><name>PLANETARY CARRIER SHAFT SUB-ASSEMBLY</name></parts></para>
+<para id="RM00000135R01HX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="53882F"><name>FRONT FENDER SEAL</name></parts><parts id="31470"><name>CLUTCH RELEASE CYLINDER ASSEMBLY</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="10024_S000C_7A7YZ_T003D" variety="T003D"><name>STARTER RELAY</name>
+<parts id="B002547"><name>STARTER RELAY</name></parts>
+<para id="RM000000WPQ05TX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="28300"><name>STARTER RELAY ASSEMBLY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+</ttl>
+<ttl id="10024_S000C_7A7Z0_T003E" variety="T003E"><name>IGNITION SWITCH</name>
+<parts id="M000248"><name>IGNITION SWITCH</name></parts>
+<para id="RM00000135Z01HX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="84450"><name>IGNITION OR STARTER SWITCH ASSEMBLY</name></parts><parts id="B000448"><name>CONNECTORS</name></parts><parts id="45287"><name>STEERING COLUMN COVER LWR</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM00000135X01HX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="84450"><name>IGNITION OR STARTER SWITCH ASSEMBLY</name></parts></para>
+<para id="RM00000135W01KX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B800184"><name>PERFORM YAW RATE SENSOR ZERO POINT CALIBRATION</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="45287"><name>STEERING COLUMN COVER LWR</name></parts><parts id="B000448"><name>CONNECTORS</name></parts><parts id="84450"><name>IGNITION OR STARTER SWITCH ASSEMBLY</name></parts></para>
+</ttl>
+</section><section id="10025_S000D" variety="S000D">
+<name>1TR-FE CHARGING</name><ttl id="10025_S000D_7A7Z1_T003F" variety="T003F"><name>CHARGING SYSTEM</name>
+<parts id="J100007"><name>CHARGING SYSTEM</name></parts>
+<para id="RM000000V4301XX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="B100001"><name>DRIVE BELT</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+</ttl>
+<ttl id="10025_S000D_7A7Z2_T003G" variety="T003G"><name>GENERATOR</name>
+<parts id="J000029"><name>GENERATOR</name></parts>
+
+<para id="RM00000136I02CX" category="A" type-id="80001" from="201303"><name>REMOVAL</name>
+
+<parts id="27020"><name>GENERATOR ASSY</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="17700"><name>AIR CLEANER ASSEMBLY</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM000001ISD02AX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="27310B"><name>GENERATOR DRIVE END FRAME BEARING</name></parts><parts id="27330"><name>GENERATOR ROTOR ASSY</name></parts><parts id="27360"><name>GENERATOR COIL ASSY</name></parts><parts id="27370"><name>GENERATOR BRUSH HOLDER ASSY</name></parts><parts id="27387"><name>TERMINAL INSULATOR</name></parts><parts id="27039"><name>GENERATOR REAR END COVER</name></parts><parts id="27411"><name>GENERATOR PULLEY</name></parts></para>
+<para id="RM000001ISC02AX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="27330"><name>GENERATOR ROTOR ASSY</name></parts><parts id="27370"><name>GENERATOR BRUSH HOLDER ASSY</name></parts></para>
+<para id="RM000001ISE02UX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="27411"><name>GENERATOR PULLEY</name></parts><parts id="27039"><name>GENERATOR REAR END COVER</name></parts><parts id="27387"><name>TERMINAL INSULATOR</name></parts><parts id="27370"><name>GENERATOR BRUSH HOLDER ASSY</name></parts><parts id="27360"><name>GENERATOR COIL ASSY</name></parts><parts id="27330"><name>GENERATOR ROTOR ASSY</name></parts><parts id="27310B"><name>GENERATOR DRIVE END FRAME BEARING</name></parts></para>
+
+<para id="RM00000136G02CX" category="A" type-id="30014" from="201303"><name>INSTALLATION</name>
+
+<parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="17700"><name>AIR CLEANER ASSEMBLY</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="27020"><name>GENERATOR ASSY</name></parts></para>
+</ttl>
+</section></servcat></pub></tmc-service-db>

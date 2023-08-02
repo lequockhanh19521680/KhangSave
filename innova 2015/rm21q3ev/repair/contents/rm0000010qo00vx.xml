@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80M_T0050" variety="T0050">
+<name>REAR BRAKE</name>
+<para id="RM0000010QO00VX" category="G" type-id="3001K" name-id="BR0HV-02" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010QO00VX_01" type-id="01" category="01">
+<s-1 id="RM0000010QO00VX_01_0001" proc-id="RM21Q0EV__00001QU00000">
+<ptxt>CHECK BRAKE DRUM INSIDE DIAMETER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111395" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a drum gauge or equivalent, measure the inside diameter of the drum.</ptxt>
+<spec>
+<title>Standard inside diameter</title>
+<specitem>
+<ptxt>254.0 mm (10.000 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>256.0 mm (10.079 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter of the drum is greater than the maximum, replace the drum.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QO00VX_01_0002" proc-id="RM21Q0EV__00001QV00000">
+<ptxt>CHECK BRAKE SHOE LINING THICKNESS</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111483" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a ruler, measure the thickness of the shoe lining.</ptxt>
+<spec>
+<title>Standard thickness</title>
+<specitem>
+<ptxt>5.1 mm (0.201 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum thickness</title>
+<specitem>
+<ptxt>1.0 mm (0.039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the lining thickness is equal to or less than the minimum, or if severe or uneven wear is present, replace the shoe.</ptxt>
+<atten4>
+<ptxt>If any of the shoes have to be replaced, replace all of the shoes in order to maintain even braking.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QO00VX_01_0003" proc-id="RM21Q0EV__00001QW00000">
+<ptxt>CHECK BRAKE DRUM AND BRAKE SHOE LINING FOR PROPER CONTACT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111484" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply chalk to the inside surface of the drum. Then grind the brake shoe lining on the drum until full contact is achieved.</ptxt>
+<ptxt>If the drum and brake shoe lining do not have full contact, use a brake shoe grinder or replace the brake shoe.</ptxt>
+</s2>
+<s2>
+<ptxt>After the inspection, wipe chalk off of the inside surface of the drum and lining surface.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QO00VX_01_0004" proc-id="RM21Q0EV__00001QX00000">
+<ptxt>CHECK REAR WHEEL BRAKE CYLINDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the cylinder bore and piston for rust or scoring.</ptxt>
+<ptxt>If necessary, replace the cylinder and piston.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

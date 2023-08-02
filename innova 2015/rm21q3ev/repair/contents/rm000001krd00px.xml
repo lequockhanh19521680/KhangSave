@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="40">
+<name>SECURITIES</name>
+<section id="1002N_S000U" variety="S000U">
+<name>THEFT DETERRENT</name>
+<ttl id="1002N_S000U_7A81N_T0061" variety="T0061">
+<name>ENGINE HOOD COURTESY SWITCH</name>
+<para id="RM000001KRD00PX" category="G" type-id="3001K" name-id="TD041-18" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001KRD00PX_02" type-id="01" category="01">
+<s-1 id="RM000001KRD00PX_02_0002" proc-id="RM21Q0EV__000028O00000">
+<ptxt>INSPECT HOOD LOCK ASSEMBLY (ENGINE HOOD COURTESY SWITCH)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<figure>
+<graphic graphicname="E226391E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock position</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Lock position</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the hood lock assembly.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Hood Lock Assembly)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Unlock position</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock position</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

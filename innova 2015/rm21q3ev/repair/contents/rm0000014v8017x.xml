@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AAY8_T008K" variety="T008K">
+<name>DOOR CONTROL RECEIVER</name>
+<para id="RM0000014V8017X" category="A" type-id="30014" name-id="DL80B-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000014V8017X_01" type-id="01" category="01">
+<s-1 id="RM0000014V8017X_01_0001" proc-id="RM21Q0EV__000035P00000">
+<ptxt>INSTALL DOOR CONTROL RECEIVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B206270" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the receiver with the bolt.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000014V8017X_01_0029" proc-id="RM21Q0EV__00003F100000">
+<ptxt>INSTALL INNER UPPER ROOF SIDE GARNISH LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 5 clips to install the inner upper roof side garnish.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 2 seat belt shoulder anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to close the rear No. 2 seat belt shoulder anchor cover.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014V8017X_01_0030" proc-id="RM21Q0EV__00003F300000">
+<ptxt>INSTALL QUARTER PILLAR GARNISH LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 clips to install the quarter pillar garnish.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 1 seat belt shoulder anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to close the rear No. 1 seat belt shoulder anchor cover.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014V8017X_01_0031" proc-id="RM21Q0EV__00003F500000">
+<ptxt>INSTALL QUARTER INSIDE TRIM BOARD LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 4 claws, 8 clips and 2 guides to install the quarter inside trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 1 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 2 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014V8017X_01_0035" proc-id="RM21Q0EV__00003FE00000">
+<ptxt>INSTALL REAR DOOR OPENING TRIM WEATHERSTRIP LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279292E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the paint mark on the rear door opening trim weatherstrip with the mark position on the vehicle and install the rear door opening trim weatherstrip as shown in the illustration.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Paint Mark</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mark Position</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014V8017X_01_0036" proc-id="RM21Q0EV__00003FP00000">
+<ptxt>INSTALL QUARTER TRIM HOOK
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure for both quarter trim hooks.</ptxt>
+</atten4>
+<s2>
+<ptxt>Install the quarter trim hook with the screw.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014V8017X_01_0032" proc-id="RM21Q0EV__00003F700000">
+<ptxt>INSTALL BACK DOOR SCUFF PLATE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 6 clips and 4 claws to install the back door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014V8017X_01_0033" proc-id="RM21Q0EV__00003FG00000">
+<ptxt>INSTALL REAR DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 clips and 7 claws to install the rear door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014V8017X_01_0028" proc-id="RM21Q0EV__000035Q00000">
+<ptxt>INSTALL REAR NO. 2 SEAT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear No. 2 seat assembly (See page <xref label="Seep01" href="RM0000023O8003X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7ARJO_T008X" variety="T008X">
+<name>CAMSHAFT OIL CONTROL VALVE</name>
+<para id="RM000000VVZ01NX" category="A" type-id="80001" name-id="ES45V-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000VVZ01NX_01" type-id="01" category="01">
+<s-1 id="RM000000VVZ01NX_01_0001" proc-id="RM21Q0EV__00003HX00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000VVZ01NX_01_0008" proc-id="RM21Q0EV__00003HY00000">
+<ptxt>REMOVE CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A111695" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the oil control valve connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and oil control valve.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the oil control valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

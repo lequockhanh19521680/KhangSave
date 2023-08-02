@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81Q_T0064" variety="T0064">
+<name>LIGHTING SYSTEM</name>
+<para id="RM0000024CW003X" category="D" type-id="303F2" name-id="LI1U9-03" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM0000024CW003X_z0" proc-id="RM21Q0EV__000028W00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>ILLUMINATION CONTROL SYSTEM (Illuminated Entry System)</ptxt>
+<atten4>
+<ptxt>When inspecting the following functions, make sure that the map light switch*, No. 1 room light switch (for center) and No. 1 room light switch (for rear) are in the door position.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: w/ Theft Deterrent System</ptxt>
+</item>
+</list1>
+</atten4>
+<step2>
+<ptxt>The illuminated entry system has the following control functions:</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Control</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Lighting</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Door Lock/Unlock-linked*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When all doors are unlocked using the transmitter, the items listed to the right turn on.</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition key cylinder light</ptxt>
+</item>
+<item>
+<ptxt>Map light assembly</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for center)</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for rear)</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>When all doors are locked using the transmitter, the items listed to the right turn off.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Ignition Switch-linked*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the ignition switch is turned from off to ON, the items listed to the right turn off.</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition key cylinder light</ptxt>
+</item>
+<item>
+<ptxt>Map light assembly</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for center)</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for rear)</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Door Open/Close-linked*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When any door is opened, the items listed to the right turn on.</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition key cylinder light</ptxt>
+</item>
+<item>
+<ptxt>Map light assembly</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for center)</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for rear)</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>When all doors are closed, the items listed to the right turn off.</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Door Lock/Unlock-linked*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When all doors are unlocked using the transmitter, the items listed to the right turn on.</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Ignition key cylinder light*3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>When all doors are locked using the transmitter, the items listed to the right turn off.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Ignition Switch-linked*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the ignition switch is turned from off to ON, the items listed to the right turn off.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition key cylinder light*3</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" valign="middle" align="center">
+<ptxt>Door Open/Close-linked*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When driver side door is opened, the items listed to the right turn on.</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition key cylinder light*3</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for center)</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for rear)</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>When driver side door is closed, the items listed to the right turn off.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>When any door (except driver side door) is opened, the items listed to the right turn on.</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>No. 1 room light assembly (for center)</ptxt>
+</item>
+<item>
+<ptxt>No. 1 room light assembly (for rear)</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>When all doors (except driver side door) are closed, the items listed to the right turn off.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: w/ Theft Deterrent System</ptxt>
+</item>
+<item>
+<ptxt>*2: w/o Theft Deterrent System</ptxt>
+</item>
+<item>
+<ptxt>*3: w/ Ignition Key Cylinder Light</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

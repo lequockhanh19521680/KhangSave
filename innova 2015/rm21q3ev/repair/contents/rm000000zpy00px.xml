@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZPY00PX" category="D" type-id="303F6" name-id="ES0OB-23" from="201202">
+<name>BASIC INSPECTION</name>
+<subpara id="RM000000ZPY00PX_z0" proc-id="RM21Q0EV__00000FG00000">
+<content5 releasenbr="1">
+<ptxt>When a malfunction is not confirmed in the DTC check, perform troubleshooting on all circuits considered possible causes of the problem. In many cases, by carrying out the basic engine check shown in the following flowchart, the location of the problem can be found quickly and efficiently. This check is essential when troubleshooting the engine.</ptxt>
+<descript-diag>
+<descript-testgroup>
+<testtitle>CHECK BATTERY VOLTAGE</testtitle>
+<atten3>
+<ptxt>Perform the battery check with the engine stopped and ignition switch OFF.</ptxt>
+</atten3>
+<spec>
+<title>Result</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.8452865in"/>
+<colspec colnum="2" colname="c2" colwidth="0.9568156in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>11 V or more</ptxt>
+</entry>
+<entry>
+<ptxt>OK</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Below 11 V</ptxt>
+</entry>
+<entry>
+<ptxt>NG</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<results>
+<result>NG</result>
+<action-ci-right>CHARGE OR REPLACE BATTERY</action-ci-right>
+<result-ci-down>OK</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK IF ENGINE CRANKS</testtitle>
+<results>
+<result>NG</result>
+<action-ci-right>PROCEED TO PROBLEM SYMPTOMS TABLE</action-ci-right>
+<result-ci-down>OK</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK IF ENGINE STARTS</testtitle>
+<results>
+<result>NG</result>
+<action-ci-right>Go to step 6</action-ci-right>
+<result-ci-down>OK</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK AIR FILTER</testtitle>
+<test1>
+<ptxt>Perform a visual check and make sure that the air filter is not contaminated with dirt or oil.</ptxt>
+</test1>
+<results>
+<result>NG</result>
+<action-ci-right>REPLACE AIR FILTER</action-ci-right>
+<result-ci-down>OK</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK IDLING SPEED</testtitle>
+<results>
+<result>NG</result>
+<action-ci-right>TROUBLESHOOT ENGINE MECHANICAL</action-ci-right>
+<result-ci-down>OK</result-ci-down>
+<action-ci-fin>PROCEED TO PROBLEM SYMPTOMS TABLE</action-ci-fin>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK FUEL PRESSURE</testtitle>
+<test1>
+<ptxt>Check the fuel pressure (see page <xref label="Seep01" href="RM000000YL703IX_01_0002"/>).</ptxt>
+</test1>
+<results>
+<result>NG</result>
+<action-ci-right>TROUBLESHOOT FUEL SYSTEM AND PROCEED TO NEXT STEP</action-ci-right>
+<result-ci-down>OK</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK FOR SPARK</testtitle>
+<test1>
+<ptxt>Check for spark (see page <xref label="Seep02" href="RM000000SM6055X_02_0001"/>).</ptxt>
+</test1>
+<results>
+<result>NG</result>
+<action-ci-right>TROUBLESHOOT IGNITION SYSTEM AND PROCEED TO NEXT STEP</action-ci-right>
+<result-ci-down>OK</result-ci-down>
+<action-ci-fin>PROCEED TO TROUBLESHOOTING</action-ci-fin>
+</results>
+</descript-testgroup>
+</descript-diag>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

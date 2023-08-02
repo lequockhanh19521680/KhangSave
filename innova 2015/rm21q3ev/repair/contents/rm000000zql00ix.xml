@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQL00IX" category="C" type-id="302Z2" name-id="ES10OD-001" from="201202">
+<dtccode>P0016/18</dtccode>
+<dtcname>Crankshaft Position - Camshaft Position Correlation (Bank 1 Sensor A)</dtcname>
+<subpara id="RM000000ZQL00IX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000E800000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>In the VVT system, the appropriate intake valve open and close timing is controlled by the ECM. The ECM performs intake valve control by performing the following: 1) controlling the camshaft and camshaft oil control valve, and operating the camshaft timing gear; and 2) changing the relative positions of the gaps between the camshaft and crankshaft.</ptxt>
+<ptxt>Refer to DTCs P0335/13 and P0339/13 (see page <xref label="Seep01" href="RM000000ZQI00IX_01"/>). </ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0016/18</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Deviation in crankshaft position sensor signal and camshaft position signal (2 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Mechanical system (jumped tooth of timing chain or chain stretched)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQL00IX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000E900000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>To monitor the correlation of the intake camshaft position and crankshaft position, the ECM checks the VVT learning value while the engine is idling. The VVT learning value is calibrated based on the camshaft position and crankshaft position. The intake valve timing is set to the most retarded angle while the engine is idling. If the VVT learning value is out of specified range in consecutive driving cycles, the ECM illuminates the MIL and sets the DTC P0016/18.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQL00IX_03" type-id="32" category="03" proc-id="RM21Q0EV__00000EA00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTCs P0335/13 and P0339/13 (see page <xref label="Seep01" href="RM000000ZQI00IX_03"/>). </ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQL00IX_04" type-id="51" category="05" proc-id="RM21Q0EV__00000EB00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQL00IX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQL00IX_05_0001" proc-id="RM21Q0EV__00000EC00000">
+<testtitle>CHECK VALVE TIMING (FOR LOOSENESS AND A JUMPED TOOTH OF TIMING CHAIN)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A099461E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Remove the cylinder head cover.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the crankshaft to align the timing marks of the crankshaft.</ptxt>
+</test1>
+<test1>
+<ptxt>Align the groove of the crankshaft pulley with the "0" position.</ptxt>
+</test1>
+<test1>
+<ptxt>Confirm whether the timing marks of the camshaft pulley and cylinder head cover are facing each other.</ptxt>
+</test1>
+<test1>
+<ptxt>If the timing marks are not facing each other, turn the crankshaft clockwise by 360°. Confirm again if the timing marks are facing each other.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The timing marks of the camshaft pulley and the cylinder head cover face each other when the groove of the crankshaft pulley is in the "0" position.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQL00IX_05_0003" fin="true">OK</down>
+<right ref="RM000000ZQL00IX_05_0002" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQL00IX_05_0002">
+<testtitle>ADJUST VALVE TIMING (REPLACE TIMING CHAIN)</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQL00IX_05_0003">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

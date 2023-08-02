@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YB_T002P" variety="T002P">
+<name>FUEL SYSTEM</name>
+<para id="RM000000YL6019X" category="U" type-id="303FI" name-id="FU0FX-02" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000000YL6019X_z0" proc-id="RM21Q0EV__00000NU00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUEL FLOW DIAGRAM</ptxt>
+<figure>
+<graphic graphicname="G038845E02" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</step1>
+<step1>
+<ptxt>FUEL SYSTEM WIRING DIAGRAM</ptxt>
+<step2>
+<ptxt>The fuel system is controlled by the ECM based on intake air flow amount and signals from various sensors.</ptxt>
+<figure>
+<graphic graphicname="A118172E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

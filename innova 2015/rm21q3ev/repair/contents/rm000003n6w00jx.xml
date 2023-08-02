@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N6W00JX" category="D" type-id="303F2" name-id="ME1SC-03" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000003N6W00JX_z0" proc-id="RM21Q0EV__00002LY00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>GENERAL</ptxt>
+<step2>
+<ptxt>This TOYOTA parking assist-sensor system uses the No. 1 ultrasonic sensors to detect any obstacles to the rear of the vehicle. The system then informs the driver of the distance between the sensors and the obstacles as well as their positions by sounding the No. 1 clearance warning buzzer.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>FUNCTION OF COMPONENTS</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 ultrasonic sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Consists of a sensor portion that transmits and receives ultrasonic waves and a pre-amplifier that amplifies them. The No. 1 ultrasonic sensor outputs the ultrasonic transmission and reception signals to the clearance warning ECU.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Clearance sonar main switch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turns the TOYOTA parking assist-sensor system on and off.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 clearance warning buzzer</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Emits an intermittent sound to inform the driver that the clearance warning ECU has detected an obstacle within the predetermined ranges.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Clearance warning ECU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Judges the approximate distance between the vehicle and the obstacle based on the signals from the No. 1 ultrasonic sensors and sends the buzzer signal to the No. 1 clearance warning buzzer.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Combination meter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Receives the vehicle speed signal from vehicle speed sensor, and then sends the signal to the clearance warning ECU.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Park / neutral position switch*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turns on when the shift lever is moved to P or R.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Back-up light switch*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turns on when the shift lever is moved to R.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: for Automatic Transmission</ptxt>
+</item>
+<item>
+<ptxt>*2: for Manual Transmission</ptxt>
+</item>
+</list1>
+</step1>
+<step1>
+<ptxt>OPERATION EXPLANATION</ptxt>
+<step2>
+<ptxt>The No. 1 ultrasonic sensors operate under the conditions shown in the table below.</ptxt>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Operating Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 Ultrasonic Sensor</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Clearance sonar main switch is on</ptxt>
+</item>
+<item>
+<ptxt>Shift lever moved to R</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>When the system operates, the clearance warning ECU transmits ultrasonic waves from the No. 1 ultrasonic sensors. If these waves encounter an obstacle within one or more of the sensors' ranges, the waves are reflected back to the sensors, which transmit them to the clearance warning ECU. Based on this information, the clearance warning ECU sends signals to the No. 1 clearance warning buzzer. The distance between the obstacle and the vehicle is then indicated by the sounding of the buzzer.</ptxt>
+<atten4>
+<ptxt>Refer to Operation Check for operation details (See page <xref label="Seep01" href="RM000003N6X00JX"/>).</ptxt>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>COMMUNICATION SIGNALS OF COMPONENTS</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Allocation refers to the process of the clearance warning ECU setting aside IDs for the sensors.</ptxt>
+</item>
+<item>
+<ptxt>The sensors are connected in a "daisy chain".</ptxt>
+</item>
+</list1>
+</atten4>
+<step2>
+<ptxt>Initialization mode:</ptxt>
+<ptxt>An ID is allocated to each sensor and sensor diagnosis is performed.</ptxt>
+<figure>
+<graphic graphicname="E168865E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<step3>
+<ptxt>When any of the following conditions are met, the clearance warning ECU provides power to the No. 1 ultrasonic sensor RH:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The ignition switch is turned ON.</ptxt>
+</item>
+<item>
+<ptxt>The sensor operating conditions (described previously) are met and the clearance sonar main switch is turned on.</ptxt>
+</item>
+<item>
+<ptxt>The vehicle speed is below 10 km/h (6.2 mph).</ptxt>
+</item>
+</list1>
+</step3>
+<step3>
+<ptxt>After the power is supplied, the No. 1 ultrasonic sensor RH enters standby mode to receive an ID from the ECU. When a certain amount of time has elapsed, the ECU sends an ID allocation signal to this sensor.</ptxt>
+</step3>
+<step3>
+<ptxt>The No. 1 ultrasonic sensor RH receives the ID allocation signal from the ECU and performs self-diagnosis. When the sensor self-diagnosis is complete, the ECU sends an ID allocation confirmation signal to the sensor.</ptxt>
+</step3>
+<step3>
+<ptxt>After the ID allocation confirmation is performed, the ECU provides power to the No. 1 ultrasonic sensor LH via the No. 1 ultrasonic sensor RH. In the same manner as the No. 1 ultrasonic sensor RH, the No. 1 ultrasonic sensor LH enters standby mode. When a certain amount of time has elapsed, the ECU sends an ID allocation signal to the No. 1 ultrasonic sensor LH.</ptxt>
+</step3>
+<step3>
+<ptxt>Initialization ends when ID allocation to all ultrasonic sensors is complete.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Detection mode:</ptxt>
+<ptxt>After initialization mode is complete, the system switches into detection mode. In detection mode, the clearance warning ECU sends information request signals and sensor activation signals to the No. 1 ultrasonic sensors and receives detection result signals from the sensors.</ptxt>
+<step3>
+<ptxt>The clearance warning ECU regularly sends ID signals, information request signals, and sensor activation signals to each No. 1 ultrasonic sensor according to the communication schedule.</ptxt>
+</step3>
+<step3>
+<ptxt>When a certain amount of time has elapsed (sensor detection operation is complete), the clearance warning ECU sends an ID signal to the sensor to receive a detection result signal.</ptxt>
+</step3>
+<step3>
+<ptxt>The No. 1 ultrasonic sensor sends a detection result signal or detection information signal to the ECU.</ptxt>
+</step3>
+<step3>
+<ptxt>The above operation is performed repeatedly for each ultrasonic sensor.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

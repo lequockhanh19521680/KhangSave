@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z8_T003M" variety="T003M">
+<name>PARK / NEUTRAL POSITION SWITCH</name>
+<para id="RM0000010NA02OX" category="G" type-id="3001K" name-id="AT09U-19" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010NA02OX_01" type-id="01" category="01">
+<s-1 id="RM0000010NA02OX_01_0001" proc-id="RM21Q0EV__00000XN00000">
+<ptxt>INSPECT PARK/NEUTRAL POSITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G026080E33" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4 (B) - 5 (L)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever in P or N</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4 (B) - 5 (L)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever not in P or N</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever in R</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever not in R</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2 (RB) - 7 (DL)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever in D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2 (RB) - 7 (DL)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever not in D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2 (RB) - 3 (2L)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever in 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2 (RB) - 3 (2L)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever not in 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2 (RB) - 8 (LL)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever in L</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2 (RB) - 8 (LL)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Shift lever not in L</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

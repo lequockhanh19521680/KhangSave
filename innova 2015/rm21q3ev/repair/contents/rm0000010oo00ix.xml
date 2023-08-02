@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A80B_T004P" variety="T004P">
+<name>FRONT LOWER SUSPENSION ARM</name>
+<para id="RM0000010OO00IX" category="G" type-id="3001K" name-id="SP07J-14" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010OO00IX_01" type-id="01" category="01">
+<s-1 id="RM0000010OO00IX_01_0001" proc-id="RM21Q0EV__00001KI00000">
+<ptxt>INSPECT FRONT LOWER SUSPENSION ARM SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G021680E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>As shown in the illustration, move the ball joint stud back and forth 5 times before installing the nut.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a torque wrench, turn the nut continuously at a rate of 3 to 5 seconds per turn and take the torque reading on the fifth turn.</ptxt>
+<spec>
+<title>Turning torque</title>
+<specitem>
+<ptxt>0.29 to 4.5 N*m (3 to 46 kgf*cm, 3 to 40 in.*lbf) or less</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Check for any cracks and grease leaks on the ball joint dust cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10025_S000D" variety="S000D">
+<name>1TR-FE CHARGING</name>
+<ttl id="10025_S000D_7A7Z1_T003F" variety="T003F">
+<name>CHARGING SYSTEM</name>
+<para id="RM000000V4301XX" category="G" type-id="8000T" name-id="CH050-03" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000V4301XX_01" type-id="01" category="01">
+<s-1 id="RM000000V4301XX_01_0001" proc-id="RM21Q0EV__00000VJ00000">
+<ptxt>CHECK BATTERY CONDITION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>If the battery is weak or if the engine is difficult to start, perform the following procedures.</ptxt>
+</atten3>
+<s2>
+<ptxt>Check the battery for damage and deformation. If severe damage, deformation or leakage is found, replace the battery.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the electrolyte quantity of each cell.</ptxt>
+<s3>
+<ptxt>For maintenance-free batteries:</ptxt>
+<figure>
+<graphic graphicname="A116910" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<list1 type="unordered">
+<item>
+<ptxt>If the electrolyte quantity is below the lower line, replace the battery.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>If the electrolyte quantity is above the lower line, check the battery voltage when cranking the engine. If the voltage is less than 9.6 V, recharge or replace the battery.</ptxt>
+<figure>
+<graphic graphicname="A116909" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</item>
+</list1>
+<atten4>
+<ptxt>Before checking the battery voltage, turn off all the electrical systems (headlight, blower motor, rear defogger, etc.).</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>For non-maintenance-free batteries:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>If the electrolyte quantity is below the lower line, add distilled water to each cell. Then, recharge the battery and check the electrolyte's specific gravity.</ptxt>
+<figure>
+<graphic graphicname="A116907E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</item>
+</list1>
+<spec>
+<title>Standard specific gravity</title>
+<specitem>
+<ptxt>1.25 to 1.29 at 20°C (68°F)</ptxt>
+</specitem>
+</spec>
+<list1 type="unordered">
+<item>
+<ptxt>If the electrolyte quantity is above the lower line, check the battery voltage when cranking the engine. If the voltage is less than 9.6 V, recharge or replace the battery.</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>Before checking the battery voltage, turn off all the electrical systems (headlight, blower motor, rear defogger, etc.).</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000V4301XX_01_0002" proc-id="RM21Q0EV__00000VK00000">
+<ptxt>CHECK BATTERY TERMINAL AND FUSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the battery terminals are not loose or corroded.</ptxt>
+<ptxt>If the terminals are corroded, clean the terminals.</ptxt>
+</s2>
+<s2>
+<ptxt>Measure the resistance of the H-fuse and fuses.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω </ptxt>
+</specitem>
+</spec>
+<ptxt>If the results are not as specified, replace as necessary.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000V4301XX_01_0003" proc-id="RM21Q0EV__00000VL00000">
+<ptxt>CHECK DRIVE BELT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the belt for wear, cracks and other signs of damage.</ptxt>
+<figure>
+<graphic graphicname="B000543E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If any defect is found, replace the drive belt.</ptxt>
+<atten4>
+<ptxt>Replace the drive belt, if the following defects are found:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The belt is worn out and wire is exposed.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>The cracks reach the wire in more than one place.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>The belt has chunks missing from the ribs.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Check that the belt fits properly in the ribbed grooves.</ptxt>
+<figure>
+<graphic graphicname="B075171E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>With your hand, confirm that the belt has not slipped out of the grooves on the bottom of the pulley.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000V4301XX_01_0004" proc-id="RM21Q0EV__00000VM00000">
+<ptxt>VISUALLY CHECK GENERATOR WIRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the wiring is in good condition.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000V4301XX_01_0005" proc-id="RM21Q0EV__00000VN00000">
+<ptxt>LISTEN FOR ABNORMAL NOISES FROM GENERATOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the generator does not emit any abnormal noise while the engine is running.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000V4301XX_01_0006" proc-id="RM21Q0EV__00000VO00000">
+<ptxt>CHECK CHARGE WARNING LIGHT CIRCUIT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Turn the ignition switch to ON. Check that the charge warning light turns on.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and check that the light turns off.</ptxt>
+<ptxt>If the light does not operate as specified, troubleshoot the charge warning light circuit.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000V4301XX_01_0007" proc-id="RM21Q0EV__00000VP00000">
+<ptxt>CHECK CHARGING CIRCUIT WITHOUT LOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect a voltmeter and ammeter to the charging circuit as follows.</ptxt>
+<figure>
+<graphic graphicname="A112985E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>If a battery/generator tester is available, connect the tester to the charging circuit according to the manufacturer's instructions.</ptxt>
+</atten4>
+<s3>
+<ptxt>Disconnect the wire from terminal B of the generator and connect it to the negative (-) lead of the ammeter.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the ammeter's positive (+) lead to terminal B of the generator.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the voltmeter's positive (+) lead to the positive (+) terminal of the battery.</ptxt>
+</s3>
+<s3>
+<ptxt>Ground the voltmeter's negative (-) lead.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the charging circuit.</ptxt>
+<s3>
+<ptxt>Keep the engine speed at 2000 rpm. Check the reading on the ammeter and voltmeter.</ptxt>
+<spec>
+<title>Standard amperage</title>
+<specitem>
+<ptxt>10 A or less</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard voltage</title>
+<specitem>
+<ptxt>13.2 to 14.8 V</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the generator.</ptxt>
+<atten4>
+<ptxt>If the battery is not fully charged, the ammeter reading will sometimes be higher than the standard amperage.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000V4301XX_01_0008" proc-id="RM21Q0EV__00000VQ00000">
+<ptxt>CHECK CHARGING CIRCUIT WITH LOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>With the engine running at 2000 rpm, turn on the high beam headlights and turn the heater blower switch to the HI position.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the reading on the ammeter.</ptxt>
+<spec>
+<title>Standard amperage</title>
+<specitem>
+<ptxt>30 A or higher</ptxt>
+</specitem>
+</spec>
+<ptxt>If the ammeter reading is less than the standard amperage, replace the generator.</ptxt>
+<atten4>
+<ptxt>If the battery is fully charged, the charging circuit may not operate and the ammeter reading may be less than standard amperage. If this is the case, add more electrical load (operate the wipers, rear window defogger, etc.) and check the reading on the ammeter again.</ptxt>
+</atten4>
+
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

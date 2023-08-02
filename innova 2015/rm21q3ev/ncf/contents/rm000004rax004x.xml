@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12012_S0009" variety="S0009">
+<name>1TR-FE LUBRICATION</name>
+<ttl id="12012_S0009_7AH5W_T0008" variety="T0008">
+<name>LUBRICATION SYSTEM</name>
+<para id="RM000004RAX004X" category="F" type-id="8048Z" name-id="LU36R-04" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004RAX004X_z0" proc-id="NM21Q0EV__000000N00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>Piston Oil Jet</ptxt>
+<step3>
+<ptxt>Piston oil jets for cooling and lubricating the pistons have been provided in the cylinder block.</ptxt>
+</step3>
+<step3>
+<ptxt>These oil jets contain a check valve to prevent oil from being fed when the oil pressure is low. This prevents the overall oil pressure in the engine from dropping.</ptxt>
+<figure>
+<graphic graphicname="W102329E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Piston Oil Jet</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Check Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cylinder Block Back Side View</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Piston Oil Jet Cross Section</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100135" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Oil</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

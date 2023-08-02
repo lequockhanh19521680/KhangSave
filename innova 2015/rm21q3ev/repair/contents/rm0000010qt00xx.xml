@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000O_S000O" variety="S000O">
+<name>PARKING BRAKE</name>
+<ttl id="1000O_S000O_7A80T_T0057" variety="T0057">
+<name>PARKING BRAKE CABLE</name>
+<para id="RM0000010QT00XX" category="A" type-id="30014" name-id="PB2DL-06" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010QT00XX_01" type-id="01" category="01">
+<s-1 id="RM0000010QT00XX_01_0001" proc-id="RM21Q0EV__000057C00000">
+<ptxt>INSTALL NO. 3 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C237699E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 3 Parking Brake Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 3 Clip</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<s2>
+<ptxt>Install the No. 3 parking brake cable with the 4 bolts and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>260</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the No. 3 clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the No. 3 parking brake cable to the parking brake shoe lever LH and backing plate LH.</ptxt>
+<s3>
+<ptxt>Connect the No. 3 parking brake cable to the backing plate with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>Connect the No. 3 parking brake cable to the parking brake shoe lever (See page <xref label="Seep01" href="RM0000010QS00VX"/>).</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QT00XX_01_0002" proc-id="RM21Q0EV__000057D00000">
+<ptxt>INSTALL NO. 2 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C237698E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 2 Parking Brake Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Parking Brake Equalizer</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<s2>
+<ptxt>Install the No. 2 parking brake cable with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>260</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the No. 2 parking brake cable to the parking brake shoe lever RH and backing plate RH.</ptxt>
+<s3>
+<ptxt>Connect the No. 2 parking brake cable to the backing plate with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>Connect the No. 2 parking brake cable to the parking brake shoe lever (See page <xref label="Seep01" href="RM0000010QS00VX"/>).</ptxt>
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Connect the No. 2 parking brake cable to the parking brake equalizer and apply MP grease to the connecting portion.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 2 heat insulator with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>260</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QT00XX_01_0003" proc-id="RM21Q0EV__000057E00000">
+<ptxt>INSTALL NO. 1 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C237697E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Parking Brake Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 3 Parking Brake Cable</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Parking Brake Equalizer</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cable Support Bracket</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<s2>
+<ptxt>Connect the No. 1 parking brake cable to the parking brake lever (See page <xref label="Seep01" href="RM0000010M3016X"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 1 parking brake cable clamp to the No. 1 parking brake cable.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 1 parking brake cable with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the No. 1 parking brake cable to the parking brake equalizer and apply MP grease to the connecting portion.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the No. 1 parking brake cable to the No. 3 parking brake cable.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the pin and No. 1 clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the No. 1 parking brake cable to the cable support bracket.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 1 heat insulator with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>6.0</t-value1>
+<t-value2>61</t-value2>
+<t-value3>53</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QT00XX_01_0031" proc-id="RM21Q0EV__00001RL00000">
+<ptxt>CHECK REAR BRAKE DRUM INSTALLATION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that each part is installed properly.</ptxt>
+<figure>
+<graphic graphicname="F049774E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Measure the inside diameter of the drum and diameter of the brake shoes. Check that the difference between the diameters is the correct shoe clearance.</ptxt>
+<figure>
+<graphic graphicname="C111493" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard shoe clearance</title>
+<specitem>
+<ptxt>0.5 mm (0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>There should be no oil or grease on the contact surfaces of the shoe lining and drum.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010QT00XX_01_0005">
+<ptxt>INSTALL REAR BRAKE DRUM SUB-ASSEMBLY AND NEW GASKET</ptxt>
+</s-1>
+<s-1 id="RM0000010QT00XX_01_0006" proc-id="RM21Q0EV__000057F00000">
+<ptxt>ADJUST PARKING BRAKE</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000010M101BX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010QT00XX_01_0024" proc-id="RM21Q0EV__000057H00000">
+<ptxt>INSTALL CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEA013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010QT00XX_01_0030" proc-id="RM21Q0EV__00001IZ00000">
+<ptxt>INSTALL REAR WHEEL
+</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1,122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</content1></s-1>
+<s-1 id="RM0000010QT00XX_01_0011" proc-id="RM21Q0EV__000057G00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

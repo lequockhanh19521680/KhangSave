@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102N01FX" category="U" type-id="303FI" name-id="BC0EC-12" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM00000102N01FX_z0" proc-id="RM21Q0EV__00001O600000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="F100588E02" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

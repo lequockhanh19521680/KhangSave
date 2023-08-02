@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7AVR5_T00AC" variety="T00AC">
+<name>REAR DOOR SPEAKER</name>
+<para id="RM0000014T901ZX" category="A" type-id="30014" name-id="AVC1H-01" from="201202" to="201403">
+<name>INSTALLATION</name>
+<subpara id="RM0000014T901ZX_03" type-id="11" category="10" proc-id="RM21Q0EV__00004TQ00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000014T901ZX_02" type-id="01" category="01">
+<s-1 id="RM0000014T901ZX_02_0001" proc-id="RM21Q0EV__00004TM00000">
+<ptxt>INSTALL REAR SPEAKER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a nose piece to an air riveter or hand riveter. Then insert the mandrel part of a new φ4 mm waterproof rivet into the nose piece.</ptxt>
+</s2>
+<s2>
+<ptxt>Using an air riveter or hand riveter, install the speaker with 3 new rivets.</ptxt>
+<figure>
+<graphic graphicname="E226359" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not pry the rivet with the riveter, as this will cause damage to the riveter and mandrel.</ptxt>
+<figure>
+<graphic graphicname="B171664E19" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mandrel</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Riveter</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>INCORRECT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CORRECT</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>Confirm that the rivets are seated properly against the speaker.</ptxt>
+<figure>
+<graphic graphicname="B172390E19" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Riveter</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>INCORRECT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CORRECT</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>Do not tilt the riveter when installing the rivet to the speaker.</ptxt>
+</item>
+<item>
+<ptxt>Do not leave any space between the rivet head and speaker.</ptxt>
+</item>
+<item>
+<ptxt>Do not leave any space between the speaker and door. Firmly hold together the 2 items while installing the rivet.</ptxt>
+<figure>
+<graphic graphicname="B172391E17" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Riveter</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>INCORRECT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CORRECT</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000014T901ZX_02_0007" proc-id="RM21Q0EV__00004M600000">
+<ptxt>INSTALL REAR DOOR TRIM BOARD SUB-ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 10 clips to install the rear door trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the screw.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014T901ZX_02_0009" proc-id="RM21Q0EV__00004M700000">
+<ptxt>INSTALL REAR POWER WINDOW REGULATOR SWITCH ASSEMBLY WITH REAR DOOR ARMREST BASE PANEL (w/ Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws and 8 clips to install the rear power window regulator switch assembly with rear door armrest base panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014T901ZX_02_0013" proc-id="RM21Q0EV__00004MH00000">
+<ptxt>INSTALL REAR DOOR UPPER ARMREST BASE PANEL LH (w/o Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws and 8 clips to install the rear door upper armrest base panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014T901ZX_02_0014" proc-id="RM21Q0EV__00004MI00000">
+<ptxt>INSTALL REAR DOOR WINDOW REGULATOR HANDLE ASSEMBLY (w/o Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the front door window regulator handle, fully close the window, and then remove the front door window regulator handle.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the plate and snap ring to the front door window regulator handle.</ptxt>
+<figure>
+<graphic graphicname="B278578E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the front door window regulator handle to the front door window regulator as shown in the illustration.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Snap Ring</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plate</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18 to 42°</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014T901ZX_02_0003" proc-id="RM21Q0EV__00004TN00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

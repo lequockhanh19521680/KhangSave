@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YH_T002V" variety="T002V">
+<name>CANISTER</name>
+<para id="RM00000141Z015X" category="A" type-id="80001" name-id="EC05R-05" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000141Z015X_01" type-id="01" category="01">
+<s-1 id="RM00000141Z015X_01_0001" proc-id="RM21Q0EV__00000OL00000">
+<ptxt>REMOVE CANISTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A112078" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the 3 hoses from the canister.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112079" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the canister from the stay.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

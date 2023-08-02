@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXN01FX" category="J" type-id="3037E" name-id="RS1FY-01" from="201202" to="201303">
+<dtccode/>
+<dtcname>TC and CG Terminal Circuit</dtcname>
+<subpara id="RM000000YXN01FX_01" type-id="60" category="03" proc-id="RM21Q0EV__000020Z00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>DTC output mode is set by connecting terminals TC and CG of the DLC3. The DTCs are communicated through SRS warning light blinking patterns.</ptxt>
+<atten4>
+<ptxt>When one or more of the warning lights blinks continuously, the cause may be a ground short in the wiring of terminal TC of the DLC3 or an internal ground short in each ECU.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000YXN01FX_02" type-id="32" category="03" proc-id="RM21Q0EV__000021000000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="H101256E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000YXN01FX_03" type-id="51" category="05" proc-id="RM21Q0EV__000021100000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten2>
+<ptxt>Be sure to perform the following procedures before troubleshooting to avoid unexpected airbag deployment.</ptxt>
+</atten2>
+<list1 type="ordered">
+<item>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</item>
+<item>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara id="RM000000YXN01FX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000YXN01FX_04_0001" proc-id="RM21Q0EV__000021200000">
+<testtitle>CHECK WIRE HARNESS (DLC3 - CENTER AIRBAG SENSOR AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H102368E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A19 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D3-13 (TC) - A19-15 (TC)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D3-4 (CG) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A19-15 (TC) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXN01FX_04_0003" fin="true">OK</down>
+<right ref="RM000000YXN01FX_04_0002" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXN01FX_04_0002">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000YXN01FX_04_0003">
+<testtitle>REPLACE CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

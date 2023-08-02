@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW3_T00AK" variety="T00AK">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/o Theft Deterrent System)</name>
+<para id="RM0000010UG00SX" category="J" type-id="302P9" name-id="DL6Z1-10" from="201202">
+<dtccode/>
+<dtcname>No Answer-Back</dtcname>
+<subpara id="RM0000010UG00SX_01" type-id="60" category="03" proc-id="RM21Q0EV__000050800000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>In this case, wireless control functions are normal but the hazard warning light and side turn signal light and side turn signal light answer-back is not normal (the driver side junction block assembly's turn signal flasher output may be malfunctioning).</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000010UG00SX_02" type-id="32" category="03" proc-id="RM21Q0EV__000050900000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="B276306E06" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000010UG00SX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000010UG00SX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000010UG00SX_04_0002" proc-id="RM21Q0EV__000050A00000">
+<testtitle>CHECK HAZARD WARNING LIGHT OPERATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that the hazard warning lights and side turn signal lights flash when the hazard warning signal switch is pressed.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Hazard warning lights and side turn signal lights flash when hazard warning signal switch is pressed.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000010UG00SX_04_0003" fin="false">OK</down>
+<right ref="RM0000010UG00SX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000010UG00SX_04_0003" proc-id="RM21Q0EV__000050B00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (DRIVER SIDE JUNCTION BLOCK - TURN SIGNAL FLASHER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the 2O driver side junction block assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the T13 turn signal flasher assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2O-25 - T13-8 (HAZ)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2O-25) or T13-8 (HAZ) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000010UG00SX_04_0004" fin="true">OK</down>
+<right ref="RM0000010UG00SX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000010UG00SX_04_0004">
+<testtitle>REPLACE DRIVER SIDE JUNCTION BLOCK ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM0000010UG00SX_04_0006">
+<testtitle>Go to LIGHTING SYSTEM<xref label="Seep01" href="RM000002CE20AZX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000010UG00SX_04_0007">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLJ_T0091" variety="T0091">
+<name>HOOD LOCK CONTROL CABLE ASSEMBLY</name>
+<para id="RM000004RUJ00FX" category="A" type-id="30014" name-id="DH2KU-02" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000004RUJ00FX_01" type-id="01" category="01">
+<s-1 id="RM000004RUJ00FX_01_0001" proc-id="RM21Q0EV__00003IT00000">
+<ptxt>INSTALL HOOD LOCK CONTROL CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tie the string that was passed through the engine compartment to the end of the hood lock control cable as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B277362E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use a length of string long enough to pass through the engine compartment.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>String</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Pass the hood lock control cable through the vehicle body, and then attach the grommet and each clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Untie the string from the hood lock control cable.</ptxt>
+<figure>
+<graphic graphicname="B280287E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hood Lock Control Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Grommet</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUJ00FX_01_0002" proc-id="RM21Q0EV__00003IU00000">
+<ptxt>INSTALL HOOD LOCK CONTROL LEVER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the hood lock control cable to the hood lock control lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 3 claws to install the hood lock control lever.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUJ00FX_01_0005" proc-id="RM21Q0EV__00003IV00000">
+<ptxt>INSTALL HOOD LOCK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the hood lock control cable to the hood lock.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the hood lock with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUJ00FX_01_0006" proc-id="RM21Q0EV__00003QX00000">
+<ptxt>INSTALL RADIATOR GRILLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

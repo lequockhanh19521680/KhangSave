@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A823_T006H" variety="T006H">
+<name>HIGH MOUNTED STOP LIGHT ASSEMBLY</name>
+<para id="RM0000024E6003X" category="A" type-id="80002" name-id="LI1UZ-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000024E6003X_01" type-id="01" category="01">
+<s-1 id="RM0000024E6003X_01_0001" proc-id="RM21Q0EV__00002CR00000">
+<ptxt>REMOVE CENTER STOP LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B086304E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Turn the bulb/socket unit in the direction indicated by the arrow and pull to remove it.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bulb from the socket.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

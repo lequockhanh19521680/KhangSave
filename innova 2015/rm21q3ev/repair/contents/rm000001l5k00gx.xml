@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80P_T0053" variety="T0053">
+<name>BRAKE BOOSTER</name>
+<para id="RM000001L5K00GX" category="A" type-id="80001" name-id="BR0U5-02" from="201202" to="201303">
+<name>REMOVAL</name>
+<subpara id="RM000001L5K00GX_01" type-id="01" category="01">
+<s-1 id="RM000001L5K00GX_01_0001" proc-id="RM21Q0EV__00001S600000">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wash off brake fluid immediately if it comes in contact with any painted surface.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000001L5K00GX_01_0004" proc-id="RM21Q0EV__00001S000000">
+<ptxt>REMOVE BRAKE MASTER CYLINDER SUB-ASSEMBLY (w/o ABS)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C121398E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>for Manual Transmission:</ptxt>
+<ptxt>Disconnect the clutch reservoir tube labeled A from the master cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the brake fluid level warning switch connector labeled B.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, disconnect the 6 brake lines labeled C from the master cylinder and 4-way.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts and bracket (with 4-way).</ptxt>
+<figure>
+<graphic graphicname="C121399" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pull out the master cylinder from the brake booster.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the master cylinder.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5K00GX_01_0005" proc-id="RM21Q0EV__00001S100000">
+<ptxt>REMOVE BRAKE MASTER CYLINDER SUB-ASSEMBLY (w/ ABS)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C121400E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the clutch reservoir tube labeled A from the master cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the brake fluid level warning switch connector labeled B.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, disconnect the 5 brake lines labeled C from the master cylinder and 3-way.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts and bracket (with 3-way).</ptxt>
+<figure>
+<graphic graphicname="C121401" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pull out the master cylinder from the brake booster.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the master cylinder.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5K00GX_01_0003" proc-id="RM21Q0EV__00001S700000">
+<ptxt>REMOVE BRAKE BOOSTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the check valve and grommet from the booster.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the return spring, clip and clevis pin.</ptxt>
+<figure>
+<graphic graphicname="C226773E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Loosen the push rod clevis lock nut.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts and push rod clevis.</ptxt>
+<figure>
+<graphic graphicname="C111300" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pull out the booster and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

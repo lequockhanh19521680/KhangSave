@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQC00VX" category="C" type-id="3011O" name-id="ES10OJ-001" from="201202">
+<dtccode>P0135/21</dtccode>
+<dtcname>Oxygen Sensor Heater Circuit (Bank 1 Sensor 1)</dtcname>
+<subpara id="RM000000ZQC00VX_01" type-id="60" category="03" proc-id="RM21Q0EV__000009T00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P0130/21 (see page <xref label="Seep01" href="RM000000ZQ900VX_01"/>).</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0135/21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Open or short in heater circuit of oxygen sensor for 0.5 seconds or more</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in heater circuit of oxygen sensor</ptxt>
+</item>
+<item>
+<ptxt>Heated oxygen sensor</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>Sensor 1 refers to the sensor closer to the engine assembly.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQC00VX_02" type-id="32" category="03" proc-id="RM21Q0EV__000009U00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P0130/21 (see page <xref label="Seep01" href="RM000000ZQ900VX_02"/>).</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQC00VX_03" type-id="51" category="05" proc-id="RM21Q0EV__000009V00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQC00VX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQC00VX_04_0001" proc-id="RM21Q0EV__000009W00000">
+<testtitle>INSPECT HEATED OXYGEN SENSOR</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A062378E20" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the H6 sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the sensor.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3" align="left">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition </ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 (HT1A) - 2 (+B)</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>5 to 10 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 (HT1A) - 4 (E2)</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQC00VX_04_0002" fin="false">OK</down>
+<right ref="RM000000ZQC00VX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0002" proc-id="RM21Q0EV__000009X00000">
+<testtitle>CHECK WIRE HARNESS (+B VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G039647E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the H6 heated oxygen sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition </ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>H6-2 (+B) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQC00VX_04_0003" fin="false">NG</down>
+<right ref="RM000000ZQC00VX_04_0004" fin="false">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0003" proc-id="RM21Q0EV__000009Y00000">
+<testtitle>INSPECT INTEGRATION NO.1 RELAY (MAIN RELAY)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G039047E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Remove the integration relay from the engine room junction block (see page <xref label="Seep01" href="RM0000014TJ02QX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the MAIN relay.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3" align="left">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition </ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1J-5 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQC00VX_04_0004" fin="false">OK</down>
+<right ref="RM000000ZQC00VX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0004" proc-id="RM21Q0EV__000009Z00000">
+<testtitle>CHECK WIRE HARNESS (HEATED OXYGEN SENSOR - ECM, INTEGRATION RELAY (MAIN RELAY))</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G038630E05" width="2.775699831in" height="5.787629434in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the H6 sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 1J connector from the engine room junction block (see page <xref label="Seep01" href="RM0000014TJ02QX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition </ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>H6-1 - E12-1 (HA1A)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>H6-2 (+B) - 1J-5</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>H6-1 or E12-1 (HA1A) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>H6-2 (+B) or 1J-5 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQC00VX_04_0005" fin="false">OK</down>
+<right ref="RM000000ZQC00VX_04_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0005" proc-id="RM21Q0EV__00000A000000">
+<testtitle>CHECK IF DTC OUTPUT RECURS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the DTCs.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No output</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Heated oxygen sensor circuit DTCs</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQC00VX_04_0010" fin="true">A</down>
+<right ref="RM000000ZQC00VX_04_0009" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0006">
+<testtitle>REPLACE HEATED OXYGEN SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0007">
+<testtitle>REPLACE INTEGRATION NO.1 RELAY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0008">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0009">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQC00VX_04_0010">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

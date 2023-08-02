@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A807_T004L" variety="T004L">
+<name>SUSPENSION SYSTEM</name>
+<para id="RM0000039J5002X" category="T" type-id="3001H" name-id="SP21W-03" from="201202" to="201503">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM0000039J5002X_z0" proc-id="RM21Q0EV__00001JL00000">
+<content5 releasenbr="6">
+<atten4>
+<ptxt>Use the table below to help determine the cause of the problem symptom. The potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>SUSPENSION SYSTEM</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="4" colsep="1" valign="middle" align="left">
+<ptxt>Bottoming</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Vehicle (overloaded)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Spring for front (weak)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010O500GX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Spring for rear (weak)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001G9300JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>4. Shock absorber for front (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010O300GX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>5. Shock absorber for rear (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001G9100JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle" align="left">
+<ptxt>Sways/pitches</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Tire (worn or improperly inflated)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MW00TX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Stabilizer bar (bent or broken)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010OY011X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Shock absorber for front (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010O300GX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>4. Shock absorber for rear (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001G9100JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="8" colsep="1" valign="middle" align="left">
+<ptxt>Wheel shimmy</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Tire (worn or improperly inflated)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MW00TX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Wheel (out of balance)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MW00TX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Shock absorber for front (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010O300GX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>4. Shock absorber for rear (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001G9100JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>5. Wheel alignment (incorrect)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000039J4004X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>6. Ball joint (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010OO00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>7. Hub bearing for front (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZZM00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>8. Hub bearing for rear (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZZW00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>9. Steering linkage (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="4" colsep="1" valign="middle" align="left">
+<ptxt>Abnormal tire wear</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Tire (worn or improperly inflated)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010MW00TX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Wheel alignment (incorrect)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000039J4004X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Shock absorber for front (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010O300GX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>4. Shock absorber for rear (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001G9100JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>5. Suspension parts (worn)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

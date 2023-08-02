@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZI_T003W" variety="T003W">
+<name>CLUTCH PEDAL</name>
+<para id="RM0000010R501HX" category="A" type-id="80002" name-id="CL0DL-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000010R501HX_01" type-id="01" category="01">
+<s-1 id="RM0000010R501HX_01_0002" proc-id="RM21Q0EV__000018S00000">
+<ptxt>REMOVE CLUTCH PEDAL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, nut and clutch pedal from the clutch pedal support.</ptxt>
+<figure>
+<graphic graphicname="C132682" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010R501HX_01_0004" proc-id="RM21Q0EV__000018T00000">
+<ptxt>REMOVE COLLAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033293E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bushes and collar.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010R501HX_01_0005" proc-id="RM21Q0EV__000018U00000">
+<ptxt>REMOVE NO. 1 CLUTCH PEDAL CUSHION</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033294E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the cushion from the clutch pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

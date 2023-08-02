@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12009_S0006" variety="S0006">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="12009_S0006_7AH5S_T0004" variety="T0004">
+<name>EMISSION CONTROL SYSTEM</name>
+<para id="RM000004QPM002X" category="F" type-id="8048W" name-id="EC42U-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004QPM002X_z0" proc-id="NM21Q0EV__000000A00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>Exhaust Emission Control System</ptxt>
+<step3>
+<ptxt>2 Three-Way Catalysts (TWCs) are used to reduce emissions in the exhaust gas.</ptxt>
+</step3>
+<step3>
+<ptxt>Based on the signals from the oxygen sensor, the ECM controls the fuel injection volume in order to optimize the emissions in the exhaust gas.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Evaporative Emission Control System</ptxt>
+<step3>
+<ptxt>The ECM controls the purge flow of evaporative emissions (HC) in the charcoal canister assembly in accordance with engine conditions.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

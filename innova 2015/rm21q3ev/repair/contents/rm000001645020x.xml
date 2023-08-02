@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7AGEX_T008L" variety="T008L">
+<name>POWER STEERING LINK</name>
+<para id="RM000001645020X" category="A" type-id="8000E" name-id="PS2CC-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000001645020X_01" type-id="01" category="01">
+<s-1 id="RM000001645020X_01_0022" proc-id="RM21Q0EV__000037P00000">
+<ptxt>INSTALL POWER STEERING CYLINDER TUBE OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the spacer to the power steering rack housing.</ptxt>
+<atten3>
+<ptxt>Do not damage the inside of the power steering rack housing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Apply power steering fluid to the lip of a new power steering cylinder tube oil seal.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the power steering cylinder tube oil seal to the rack housing at an angle.</ptxt>
+<figure>
+<graphic graphicname="C238631E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure that the power steering cylinder tube oil seal is installed in the correct direction as shown in the illustration.</ptxt>
+</item>
+<item>
+<ptxt>Install the power steering cylinder tube oil seal at an angle of approximately 20° so that the lowermost part comes to the point, indicated by the arrow in the illustration, to prevent damage to the oil seal when it passes the 2 ports.</ptxt>
+</item>
+<item>
+<ptxt>After passing both ports, proceed by pressing the oil at an angle of 10° and 0° sequentially.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using SST, push in the power steering cylinder tube oil seal by hand until the oil seal passes the 2 ports.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-00200</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07360</s-subnumber>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Do not turn the SST when inserting the oil seal.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install SST (09631-00200) to SST (09951-07360) upside down.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-00200</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07360</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using SST, push the power steering cylinder tube oil seal by hand so that it is level.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-00200</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07360</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using SST and a press, install the power steering cylinder tube oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-00200</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07360</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C238633E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Please press cylinder tube oil seal until it sit on the stopper portion.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0001" proc-id="RM21Q0EV__000037600000">
+<ptxt>INSTALL STEERING RACK PISTON RING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat a new O-ring with power steering fluid and install it on the steering rack.</ptxt>
+<figure>
+<graphic graphicname="C003629E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Stretch a new "teflon" ring with your fingers.</ptxt>
+<atten3>
+<ptxt>Be careful not to overstretch the "teflon" ring.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Coat the "teflon" ring with power steering fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the "teflon" ring to the steering rack's groove. Grip the ring to press it into the groove.</ptxt>
+<figure>
+<graphic graphicname="N000401E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0002" proc-id="RM21Q0EV__000037700000">
+<ptxt>INSTALL CYLINDER END STOPPER OIL SEAL AND POWER STEERING RACK</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply grease to the rack teeth ends.</ptxt>
+<figure>
+<graphic graphicname="W002101E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install SST to the steering rack.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-00350</s-number>
+</sstitem>
+</sst>
+<atten4>
+<ptxt>If necessary, scrape the burrs off the rack teeth end and burnish.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Coat SST with power steering fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the steering rack to the rack housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove SST.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat SST with power steering fluid.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-00350</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F005044E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install SST to the steering rack opposite end.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat the lip of a new oil seal with power steering fluid. Using SST, install the oil seal to the steering rack.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Slide SST and the oil seal straight without tilting them.</ptxt>
+</item>
+<item>
+<ptxt>Make sure to install the oil seal facing in the correct direction.</ptxt>
+</item>
+<item>
+<ptxt>Be careful not to damage the lip of the oil seal.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove SST.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0003" proc-id="RM21Q0EV__000037800000">
+<ptxt>INSTALL CYLINDER END STOPPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply sealant to the stopper.</ptxt>
+<figure>
+<graphic graphicname="ZX00351E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a wooden block and hammer, tap in the stopper until it is tightly installed.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1344, Three Bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using SST, tighten the stopper.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-20120</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F043535E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>82.5</t-value1>
+<t-value2>841</t-value2>
+<t-value4>61</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0004" proc-id="RM21Q0EV__000037900000">
+<ptxt>TEST AIR TIGHTNESS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install SST to the unions of the rack housing.</ptxt>
+<sst>
+<sstitem>
+<s-number>09631-12071</s-number>
+<s-subnumber>09633-00010</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C131750E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply 53.33 kPa (400 mmHg, 15.75 in.Hg) of vacuum for about 30 seconds.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that there is no change in the vacuum.</ptxt>
+<ptxt>If there is a change in the vacuum, check the installation of the oil seals.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0005" proc-id="RM21Q0EV__000037A00000">
+<ptxt>INSTALL POWER STEERING CONTROL VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply molybdenum disulfide base grease to the needle roller bearing inside the rack housing shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G035022E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Volume of grease applied</title>
+<specitem>
+<ptxt>Approximately 2 g (0.07 oz)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using a plastic-faced hammer and a sliding handle, lightly tap in 2 new union seats.</ptxt>
+<figure>
+<graphic graphicname="F043545E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Before installing the union seats, remove any dust sticking to the control valve housing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install a control valve gasket and the control valve with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="C131687" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>18.1</t-value1>
+<t-value2>185</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0006" proc-id="RM21Q0EV__000037B00000">
+<ptxt>INSTALL RACK GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rack guide and spring.</ptxt>
+<figure>
+<graphic graphicname="C131686E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply sealant to 2 or 3 threads of the rack guide spring cap.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1344, Three Bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using a 24 mm hexagon wrench, temporarily install the spring cap.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0007" proc-id="RM21Q0EV__000037C00000">
+<ptxt>ADJUST TOTAL PRELOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>To prevent the steering rack teeth from damaging the lip of the oil seal, temporarily install the RH and LH rack ends.</ptxt>
+<figure>
+<graphic graphicname="C131686E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a 24 mm hexagon wrench, tighten the rack guide spring cap.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Loosen the cap 30°.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, turn the control valve shaft right and left 1 or 2 times. The rack end will move in and out.</ptxt>
+<sst>
+<sstitem>
+<s-number>09616-00011</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C131751E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a 24 mm hexagon wrench, loosen the cap until the rack guide spring does not function.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, a torque wrench and 24 mm hexagon wrench, tighten the cap until the preload is within the specification.</ptxt>
+<sst>
+<sstitem>
+<s-number>09616-00011</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C131752E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard preload (turning)</title>
+<specitem>
+<ptxt>0.8 to 1.6 N*m (8.2 to 16.3 kgf*cm, 7.1 to 14.2 in.*lbf)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Perform adjustments in the tightening direction of the spring cap.</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 345 mm (13.58 in.).</ptxt>
+</item>
+<item>
+<ptxt>This torque value is effective when SST is parallel to the torque wrench.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Apply sealant to 2 or 3 threads of the lock nut.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1344, Three Bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using SST, tighten the lock nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09922-10010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C131753E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>69</t-value1>
+<t-value2>704</t-value2>
+<t-value4>51</t-value4>
+<ptxt>for use without SST</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>51</t-value1>
+<t-value2>516</t-value2>
+<t-value4>37</t-value4>
+<ptxt>for use with SST</ptxt>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using SST, recheck the total preload.</ptxt>
+<sst>
+<sstitem>
+<s-number>09616-00011</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C131754E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard preload (turning)</title>
+<specitem>
+<ptxt>0.8 to 1.6 N*m (8.2 to 16.3 kgf*cm, 7.1 to 14.2 in.*lbf)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Remove the RH and LH rack ends.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0008" proc-id="RM21Q0EV__000037D00000">
+<ptxt>INSPECT POWER STEERING RACK</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Insert a wire 20 mm (0.79 in.) into the vent hole of the steering rack, and ensure that the vent hole is not clogged with grease.</ptxt>
+<figure>
+<graphic graphicname="G038615E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>If the hole is clogged, the pressure inside the boot will change after it is assembled and the steering wheel is turned.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0009" proc-id="RM21Q0EV__000037E00000">
+<ptxt>INSTALL STEERING RACK END SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install 2 new claw washers to the power steering rack while aligning the notch on the steering rack end with the claw.</ptxt>
+<figure>
+<graphic graphicname="C058310E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Temporarily install the 2 steering rack ends to the power steering rack.</ptxt>
+</s2>
+<s2>
+<ptxt>Fill up the ball joint of the steering rack ends with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, install the power steering rack end (RH side) to the power steering rack.</ptxt>
+<sst>
+<sstitem>
+<s-number>09922-10010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="G038605E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>103</t-value1>
+<t-value2>1050</t-value2>
+<t-value4>76</t-value4>
+<ptxt>for use without SST</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>98</t-value1>
+<t-value2>1000</t-value2>
+<t-value4>72</t-value4>
+<ptxt>for use with SST</ptxt>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Rotate SST in the direction shown in the illustration.</ptxt>
+</item>
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 345 mm (13.58 in.).</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using SST and a wrench, install the power steering rack end (LH side) to the power steering rack.</ptxt>
+<sst>
+<sstitem>
+<s-number>09922-10010</s-number>
+</sstitem>
+</sst>
+<torque>
+<torqueitem>
+<t-value1>103</t-value1>
+<t-value2>1050</t-value2>
+<t-value4>76</t-value4>
+<ptxt>for use without SST</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>98</t-value1>
+<t-value2>1000</t-value2>
+<t-value4>72</t-value4>
+<ptxt>for use with SST</ptxt>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Rotate SST in the direction shown in the illustration.</ptxt>
+</item>
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 345 mm (13.58 in.).</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a brass bar and hammer, stake the 2 claw washers (LH and RH side).</ptxt>
+<figure>
+<graphic graphicname="C035928E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not strike the steering rack.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0010" proc-id="RM21Q0EV__000037F00000">
+<ptxt>INSTALL STEERING RACK BOOT LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the boot.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage or twist the boot.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0011" proc-id="RM21Q0EV__000037G00000">
+<ptxt>INSTALL STEERING RACK BOOT RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0012" proc-id="RM21Q0EV__000037H00000">
+<ptxt>INSTALL STEERING RACK BOOT CLAMP LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, tighten the rack boot clamp, as shown in the illustration.</ptxt>
+<sst>
+<sstitem>
+<s-number>09240-00020</s-number>
+</sstitem>
+<sstitem>
+<s-number>09521-24010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="G039372E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>3.0 mm (0.118 in.) or less</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the boot.</ptxt>
+</item>
+<item>
+<ptxt>If the clamp is damaged, replace it with a new one.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>Use the marks placed previously to install the RH and LH clamps to the correct boot.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0013" proc-id="RM21Q0EV__000037I00000">
+<ptxt>INSTALL STEERING RACK BOOT CLAMP RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0014" proc-id="RM21Q0EV__000037J00000">
+<ptxt>INSTALL STEERING RACK BOOT CLIP LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using pliers, install the clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0015" proc-id="RM21Q0EV__000037K00000">
+<ptxt>INSTALL STEERING RACK BOOT CLIP RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0016" proc-id="RM21Q0EV__000037L00000">
+<ptxt>INSTALL POWER STEERING GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, check that the rack boot stretches smoothly when the control valve shaft is being rotated.</ptxt>
+<sst>
+<sstitem>
+<s-number>09616-00011</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="G100924E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply MP grease as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G035024E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0018" proc-id="RM21Q0EV__000037M00000">
+<ptxt>INSTALL STEERING TURN PRESSURE TUBE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply power steering fluid to 2 new O-rings. Using union nut wrench, install the 2 O-rings and the LH turn pressure tube.</ptxt>
+<figure>
+<graphic graphicname="C131755E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>12.5</t-value1>
+<t-value2>127</t-value2>
+<t-value4>9</t-value4>
+<ptxt>for use without union nut wrench</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>11.8</t-value1>
+<t-value2>120</t-value2>
+<t-value4>9</t-value4>
+<ptxt>for use with union nut wrench</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 345 mm (13.58 in.).</ptxt>
+</item>
+<item>
+<ptxt>This torque value is effective when union nut wrench is parallel to the torque wrench.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Apply power steering fluid to a new O-ring. Using union nut wrench, install the O-ring and one side of the RH turn pressure tube.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12.5</t-value1>
+<t-value2>127</t-value2>
+<t-value4>9</t-value4>
+<ptxt>for use without union nut wrench</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>11.8</t-value1>
+<t-value2>120</t-value2>
+<t-value4>9</t-value4>
+<ptxt>for use with union nut wrench</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 345 mm (13.58 in.).</ptxt>
+</item>
+<item>
+<ptxt>This torque value is effective when union nut wrench is parallel to the torque wrench.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0019" proc-id="RM21Q0EV__000037N00000">
+<ptxt>INSTALL TIE ROD END SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Screw the lock nut and tie rod end onto the rack end until the matchmarks are aligned.</ptxt>
+</s2>
+<s2>
+<ptxt>After adjusting the toe-in, torque the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>55.5</t-value1>
+<t-value2>566</t-value2>
+<t-value4>41</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001645020X_01_0020" proc-id="RM21Q0EV__000037O00000">
+<ptxt>INSTALL TIE ROD END SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

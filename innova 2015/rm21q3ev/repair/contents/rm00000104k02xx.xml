@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000104K02XX" category="J" type-id="3037F" name-id="BCA4P-01" from="201202">
+<dtccode/>
+<dtcname>TS and CG Terminal Circuit</dtcname>
+<subpara id="RM00000104K02XX_01" type-id="60" category="03" proc-id="RM21Q0EV__00001NZ00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>If the vehicle is stationary during sensor check mode, speed sensor malfunctions cannot be detected. The vehicle must be driven for speed sensor malfunctions to be detected.</ptxt>
+<atten4>
+<ptxt>Change to sensor check mode by connecting terminals TS and CG of the DLC3 and turning the ignition switch from OFF to ON.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM00000104K02XX_02" type-id="32" category="03" proc-id="RM21Q0EV__00001O000000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C108882E02" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM00000104K02XX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM00000104K02XX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000104K02XX_04_0001" proc-id="RM21Q0EV__00001O100000">
+<testtitle>CHECK WIRE HARNESS (DLC3 - SKID CONTROL ECU AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="C108907E08" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the S2 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D3-4 (CG) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D3-12 (TS) - S2-15 (TS)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>S2-15 (TS) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104K02XX_04_0003" fin="true">OK</down>
+<right ref="RM00000104K02XX_04_0002" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104K02XX_04_0002">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000104K02XX_04_0003">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

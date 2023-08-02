@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZR_T0045" variety="T0045">
+<name>INPUT SHAFT</name>
+<para id="RM0000010UV00RX" category="A" type-id="80001" name-id="MT08B-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010UV00RX_01" type-id="11" category="10"/>
+<subpara id="RM0000010UV00RX_02" type-id="01" category="01">
+<s-1 id="RM0000010UV00RX_02_0001" proc-id="RM21Q0EV__00001DY00000">
+<ptxt>REMOVE NO. 2 SYNCHRONIZER RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C067214E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the synchronizer ring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UV00RX_02_0002" proc-id="RM21Q0EV__00001DZ00000">
+<ptxt>REMOVE INPUT SHAFT BEARING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086536E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 13 input shaft bearings.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UV00RX_02_0003" proc-id="RM21Q0EV__00001E000000">
+<ptxt>REMOVE INPUT SHAFT FRONT BEARING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086532E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a press, press out the front bearing.</ptxt>
+<sst>
+<sstitem>
+<s-number>09527-10011</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C086533E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UV00RX_02_0004" proc-id="RM21Q0EV__00001E100000">
+<ptxt>INSPECT NO. 2 SYNCHRONIZER RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037540E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the input shaft cone with gear oil. Check the braking effect of the No. 2 synchronizer ring. Fit the ring to the shaft cone. Apply pressure to the ring and attempt to turn it in both directions. Check that the ring locks.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>If the braking effect is insufficient, apply a small amount of fine lapping compound between the No. 2 synchronizer ring and the input shaft cone. Lightly rub the No. 2 synchronizer ring and the input shaft cone together.</ptxt>
+</item>
+</list1>
+<atten3>
+<ptxt>Ensure the fine lapping compound is completely washed off after rubbing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Check the braking effect of the No. 2 synchronizer ring again.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a feeler gauge, measure the clearance between the No. 2 synchronizer ring back and the input shaft spline end.</ptxt>
+<figure>
+<graphic graphicname="C067456E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>1.00 to 2.00 mm (0.0394 to 0.0787 in.)</ptxt>
+</specitem>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the clearance is not as specified, replace the No. 2 synchronizer ring and apply a small amount of fine lapping compound on the input shaft cone.</ptxt>
+</item>
+</list1>
+<atten3>
+<ptxt>Ensure the fine lapping compound is completely washed off after rubbing.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

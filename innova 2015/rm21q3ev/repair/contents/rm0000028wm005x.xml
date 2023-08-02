@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XC_T001Q" variety="T001Q">
+<name>CLUTCH</name>
+<para id="RM0000028WM005X" category="F" type-id="30027" name-id="SS23S-03" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000028WM005X_z0" proc-id="RM21Q0EV__000004600000">
+<content5 releasenbr="1">
+<table frame="all">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Pedal height from dash panel</ptxt>
+</entry>
+<entry>
+<ptxt>179.9 to 189.9 mm (7.083 to 7.476 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch pedal free play</ptxt>
+</entry>
+<entry>
+<ptxt>5.0 to 15.0 mm (0.197 to 0.591 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch pedal push rod play at pedal top</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 to 5.0 mm (0.039 to 0.197 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Disc rivet head depth</ptxt>
+</entry>
+<entry>
+<ptxt>Minimum.</ptxt>
+</entry>
+<entry>
+<ptxt>0.3 mm (0.012 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Disc runout</ptxt>
+</entry>
+<entry>
+<ptxt>Minimum.</ptxt>
+</entry>
+<entry>
+<ptxt>0.8 mm (0.031 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Diaphragm spring finger wear</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum. depth</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 mm (0.020 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum. width</ptxt>
+</entry>
+<entry>
+<ptxt>6.0 mm (0.236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Flywheel runout</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum.</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 mm (0.004 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Diaphragm spring finger wear</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum. depth</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 mm (0.020 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch release point from pedal full stroke end position</ptxt>
+</entry>
+<entry>
+<ptxt>30 mm (1.180 in.) or more</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

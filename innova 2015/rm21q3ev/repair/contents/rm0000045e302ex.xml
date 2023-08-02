@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM0000045E302EX" category="T" type-id="3001H" name-id="AC8UO-72" from="201403">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM0000045E302EX_z0" proc-id="RM21Q0EV__00004PP00001">
+<content5 releasenbr="38">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the table below to help determine the cause of problem symptoms. If multiple suspected areas are listed, the potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</item>
+<item>
+<ptxt>Inspect the fuses and relays related to this system before inspecting the suspected areas below.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Front Air Conditioning</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>All functions of the air conditioning system do not operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "IG Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002LLU063X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="4" colsep="1" valign="middle">
+<ptxt>Air Flow Control: No blower operation</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Heater Relay Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTG028X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Blower Motor Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTI02OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>Air Flow Control: No blower control</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Blower Motor Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTI02OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colsep="1" valign="middle">
+<ptxt>Air Flow Control: Insufficient air flow</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Blower Motor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTI02OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="13" colsep="1" valign="middle">
+<ptxt>Temperature Control: No cool air comes out</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Check volume of refrigerant</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000246U003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Check for refrigerant gas leak</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000246T003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Cooler expansion valve</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012JQ024X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Pressure Switch Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTB028X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Air Conditioning Compressor Magnetic Clutch Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTH02DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Front Air Mix Damper Control Servo Motor Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZM01EX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Ambient Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT902AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Evaporator Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTA02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Room Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT8029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Solar Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTK02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Vehicle Speed Signal Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTJ029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="9" colsep="1" valign="middle">
+<ptxt>Temperature Control: No warm air comes out</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Front Air Mix Damper Control Servo Motor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZM01EX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Ambient Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT902AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Evaporator Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTA02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Room Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT8029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Solar Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTK02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Engine Coolant Temperature Communication Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZL01HX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Vehicle Speed Signal Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTJ029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="11" colsep="1" valign="middle">
+<ptxt>Temperature Control: Output air is warmer or cooler than set temperature or response is slow</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Check volume of refrigerant</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000246U003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Check for refrigerant gas leak</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000246T003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Front Air Mix Damper Control Servo Motor Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZM01EX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Ambient Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT902AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Evaporator Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTA02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Room Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT8029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Solar Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTK02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Engine Coolant Temperature Communication Circuit"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZL01HX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Vehicle Speed Signal Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTJ029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="8" colsep="1" valign="middle">
+<ptxt>Temperature Control: No temperature control (only MAX COOL or MAX WARM)</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Front Air Mix Damper Control Servo Motor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZM01EX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Ambient Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT902AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Evaporator Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTA02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Room Temperature Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT8029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Solar Sensor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTK02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Vehicle Speed Signal Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTJ029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>No air inlet control</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Air Inlet Damper Control Servo Motor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTC028X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>No air flow mode control</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Air Outlet Damper Control Servo Motor Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTD028X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>Engine idle up does not occur or is continuous</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Air Conditioning Compressor Magnetic Clutch Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTH02DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "SFI System"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000ZPQ015X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle">
+<ptxt>Diagnostic trouble codes are not stored, and set mode is cleared when ignition switch is off</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Back-up Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002LLV066X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Rear Cooler</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>All functions of rear cooler do not operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Cooler control switch assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000249K00PX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear blower register</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003TOV00RX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Rear blower with fan motor sub-assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001G9X00KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>Air Flow Control: No blower operation</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Cooler control switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000249K00PX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear blower register</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003TOV00RX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear blower with fan motor sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001G9X00KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>Air Flow Control: No blower control</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Cooler control switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000249K00PX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear blower register</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003TOV00RX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear blower with fan motor sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001G9X00KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Temperature Control: No cool air comes out</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Cooler condenser assembly or pipes</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear evaporator sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001JR302GX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A820_T006E" variety="T006E">
+<name>FOG LIGHT ASSEMBLY</name>
+<para id="RM000004TCC006X" category="A" type-id="80002" name-id="LE49T-04" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000004TCC006X_01" type-id="11" category="10" proc-id="RM21Q0EV__00004X600000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004TCC006X_02" type-id="01" category="01">
+<s-1 id="RM000004TCC006X_02_0001" proc-id="RM21Q0EV__00004X700000">
+<ptxt>REMOVE FOG LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Turn the fog light bulb in the direction indicated by the arrow in the illustration and remove the fog light bulb from the fog light unit LH.</ptxt>
+<figure>
+<graphic graphicname="E177460" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

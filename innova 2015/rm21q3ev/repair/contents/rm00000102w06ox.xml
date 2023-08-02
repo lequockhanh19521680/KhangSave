@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM00000102W06OX" category="J" type-id="300CP" name-id="AV5ZL-33" from="201403">
+<dtccode/>
+<dtcname>Radio Broadcast cannot be Received (Bad Reception)</dtcname>
+<subpara id="RM00000102W06OX_01" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM00000102W06OX_02" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000102W06OX_02_0001" proc-id="RM21Q0EV__00005JG00000">
+<testtitle>CHECK IF RADIO AUTO-SEARCH FUNCTIONS PROPERLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Perform the auto-search of the radio and check that it functions normally.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Radio auto-search functions normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000102W06OX_02_0002" fin="true">OK</down>
+<right ref="RM00000102W06OX_02_0004" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0004" proc-id="RM21Q0EV__00005JH00000">
+<testtitle>CHECK OPTIONAL COMPONENTS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check if the telephone antenna or other optional components are installed.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Optional component(s) installed.</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Do not remove any optional components installed by the customer without his or her consent.</ptxt>
+</atten3>
+</test1>
+</content6>
+<res>
+<down ref="RM00000102W06OX_02_0005" fin="true">OK</down>
+<right ref="RM00000102W06OX_02_0007" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0007" proc-id="RM21Q0EV__00005JI00000">
+<testtitle>CHECK ANTENNA FOR NOISE PRODUCTION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>With the ignition switch ACC, turn on the radio and choose the AM mode.</ptxt>
+</test1>
+<test1>
+<ptxt>Place the tip of a screwdriver on the antenna and check that noise is heard from the speakers.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Noise is heard.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000102W06OX_02_0008" fin="true">OK</down>
+<right ref="RM00000102W06OX_02_0010" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0010" proc-id="RM21Q0EV__00005JJ00000">
+<testtitle>CHECK RADIO RECEIVER ASSEMBLY (ANTENNA)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="E159266" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the antenna connector from the radio receiver assembly.</ptxt>
+</test1>
+<test1>
+<ptxt>With the radio receiver assembly connector connected, turn the ignition switch to ACC.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn on the radio and choose the AM mode.</ptxt>
+</test1>
+<test1>
+<ptxt>Place a flat-head screwdriver or a piece of metal, such as a thin wire, on the antenna jack of the radio receiver assembly. Check that noise is heard from the speakers.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Noise is heard.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000102W06OX_02_0014" fin="true">OK</down>
+<right ref="RM00000102W06OX_02_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0002">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0005">
+<testtitle>EFFECT FROM OPTIONAL COMPONENTS</testtitle>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0008">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0014">
+<testtitle>ANTENNA ASSEMBLY IS DEFECTIVE</testtitle>
+</testgrp>
+<testgrp id="RM00000102W06OX_02_0015">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

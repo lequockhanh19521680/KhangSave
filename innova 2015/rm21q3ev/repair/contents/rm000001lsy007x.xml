@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82E_T006S" variety="T006S">
+<name>UNLOCK WARNING SWITCH</name>
+<para id="RM000001LSY007X" category="G" type-id="3001K" name-id="EI093-02" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001LSY007X_01" type-id="01" category="01">
+<s-1 id="RM000001LSY007X_01_0001" proc-id="RM21Q0EV__00002F400000">
+<ptxt>INSPECT UNLOCK WARNING SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B110401E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Measure the resistance of the switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pushed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Not pushed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

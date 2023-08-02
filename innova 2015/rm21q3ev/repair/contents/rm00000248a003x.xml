@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A80Z_T005D" variety="T005D">
+<name>REFRIGERANT LINE</name>
+<para id="RM00000248A003X" category="K" type-id="30193" name-id="AC1T3-03" from="201202">
+<name>COMPONENTS</name>
+<subpara id="RM00000248A003X_03" type-id="02" category="04" proc-id="RM21Q0EV__00004NU00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="E247061E01" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM00000248A003X_04" type-id="02" category="04" proc-id="RM21Q0EV__00004NV00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="E226638E05" width="7.1065789991732in" height="9.80353557226662in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z7_T003L" variety="T003L">
+<name>ATF TEMPERATURE SENSOR</name>
+<para id="RM0000010NJ01TX" category="G" type-id="3001K" name-id="AT0FO-09" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010NJ01TX_01" type-id="01" category="01">
+<s-1 id="RM0000010NJ01TX_01_0001" proc-id="RM21Q0EV__00000XD00000">
+<ptxt>INSPECT ATF TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191471E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>79 Ω to 156 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - Sensor body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2 - Sensor body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the ATF temperature sensor.</ptxt>
+<atten4>
+<ptxt>If the resistance is not within the specified range at either of the ATF temperatures shown in the table below, the driveability of the vehicle may decrease.</ptxt>
+</atten4>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COLSPEC1" colwidth="1.38in"/>
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ATF Temperature</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10.3 to 13.9 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>110°C (230°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.68 to 0.88 kΩ</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7YZ_T003D" variety="T003D">
+<name>STARTER RELAY</name>
+<para id="RM000000WPQ05TX" category="G" type-id="8000T" name-id="ST094-03" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000WPQ05TX_01" type-id="01" category="01">
+<s-1 id="RM000000WPQ05TX_01_0002" proc-id="RM21Q0EV__00000V300000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000WPQ05TX_01_0009" proc-id="RM21Q0EV__00000V500000">
+<ptxt>REMOVE STARTER RELAY (Marking: ST)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the engine room relay block cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the starter relay from the engine room relay block.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000WPQ05TX_01_0001" proc-id="RM21Q0EV__00000V200000">
+<ptxt>INSPECT STARTER RELAY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B060778E26" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Inspect the resistance of the starter relay.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Terminal Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+<ptxt>(when battery voltage is applied to terminals 1 and 2)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the relay.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000WPQ05TX_01_0010">
+<ptxt>INSTALL STARTER RELAY</ptxt>
+</s-1>
+<s-1 id="RM000000WPQ05TX_01_0003">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000WPQ05TX_01_0004" proc-id="RM21Q0EV__00000V400000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

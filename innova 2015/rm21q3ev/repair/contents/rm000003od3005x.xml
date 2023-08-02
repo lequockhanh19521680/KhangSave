@@ -1,0 +1,2018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZG_T003U" variety="T003U">
+<name>AUTOMATIC TRANSMISSION UNIT</name>
+<para id="RM000003OD3005X" category="A" type-id="80002" name-id="AT450-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000003OD3005X_01" type-id="01" category="01">
+<s-1 id="RM000003OD3005X_01_0001">
+<ptxt>REMOVE DRAIN PLUG</ptxt>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0002" proc-id="RM21Q0EV__000011O00000">
+<ptxt>REMOVE TRANSMISSION CONTROL SHAFT LEVER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191070" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the nut, spring washer and control shaft lever.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0003" proc-id="RM21Q0EV__000011P00000">
+<ptxt>REMOVE PARK/NEUTRAL POSITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191071" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, bend the tabs of the lock washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and lock washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and switch.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0004" proc-id="RM21Q0EV__000011Q00000">
+<ptxt>REMOVE ATF TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191072" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0005" proc-id="RM21Q0EV__000011R00000">
+<ptxt>REMOVE OIL COOLER TUBE UNION</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191073" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 tube unions.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from each tube union.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0006" proc-id="RM21Q0EV__000011S00000">
+<ptxt>REMOVE SPEEDOMETER SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191074" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0007" proc-id="RM21Q0EV__000011T00000">
+<ptxt>REMOVE SPEED SENSOR (SP2)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191075" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0008" proc-id="RM21Q0EV__000011U00000">
+<ptxt>REMOVE SPEED SENSOR (NC0)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191076" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0009" proc-id="RM21Q0EV__000011V00000">
+<ptxt>REMOVE OIL PUMP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191077" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 7 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, remove the oil pump.</ptxt>
+<figure>
+<graphic graphicname="C191078E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09610-20012</s-number>
+</sstitem>
+</sst>
+<s3>
+<ptxt>Grasp the front pump stator shaft and pull the pump from the transmission case.</ptxt>
+<atten3>
+<ptxt>Do not damage the stator shaft bushing surface.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the bearing from the oil pump.</ptxt>
+<figure>
+<graphic graphicname="C191079E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the oil pump.</ptxt>
+<figure>
+<graphic graphicname="C191080E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0010" proc-id="RM21Q0EV__000011W00000">
+<ptxt>REMOVE AUTOMATIC TRANSMISSION HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191081" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 6 bolts and transmission housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the overdrive brake.</ptxt>
+<figure>
+<graphic graphicname="C191082E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0011" proc-id="RM21Q0EV__000011X00000">
+<ptxt>REMOVE EXTENSION HOUSING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191083" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 6 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the extension housing and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0012" proc-id="RM21Q0EV__000011Y00000">
+<ptxt>REMOVE EXTENSION HOUSING BUSH APPLY TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191084E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the gasket and tube from the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0013" proc-id="RM21Q0EV__000011Z00000">
+<ptxt>REMOVE AUTOMATIC TRANSMISSION EXTENSION HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191085" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, pry out the retainer and dust seal.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, pry out the oil seal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0014" proc-id="RM21Q0EV__000012000000">
+<ptxt>REMOVE EXTENSION HOUSING DUST DEFLECTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191086" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Mount the extension housing in a vise.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver and hammer, tap off the dust deflector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0138" proc-id="RM21Q0EV__000010I00000">
+<ptxt>INSPECT EXTENSION HOUSING SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191087" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a cylinder gauge, measure the inside diameter of the extension housing bush.</ptxt>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>38.09 mm (1.50 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter is greater than the maximum, replace the extension housing.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0016" proc-id="RM21Q0EV__000012100000">
+<ptxt>REMOVE SENSOR ROTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191088E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the rear side snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the sensor rotor and key.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, remove the front side snap ring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0017" proc-id="RM21Q0EV__000012200000">
+<ptxt>REMOVE TRANSMISSION CASE REAR COVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191089E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the transmission case rear cover and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0018" proc-id="RM21Q0EV__000012300000">
+<ptxt>FIX TRANSMISSION CASE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191090" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the transmission case to an overhaul attachment.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0019" proc-id="RM21Q0EV__000012400000">
+<ptxt>REMOVE AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190099" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not turn the transmission over as foreign matter in the bottom of the pan contaminates the valve body.</ptxt>
+</atten3>
+<s2>
+<ptxt>Remove the 14 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the pan from the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the oil pan gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0139" proc-id="RM21Q0EV__000010J00000">
+<ptxt>INSPECT AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="AT00103E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove all the magnets and use them to collect steel particles. Carefully look at the foreign matter and particles in the pan and on the magnets to determine the type of wear you will find in the transmission. </ptxt>
+<ptxt>Steel (magnetic): bearing, gear and clutch plate wear</ptxt>
+<ptxt>Brass (non-magnetic): bush wear</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0021" proc-id="RM21Q0EV__000012500000">
+<ptxt>REMOVE VALVE BODY OIL STRAINER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191091" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 bolts and oil strainer.</ptxt>
+<atten3>
+<ptxt>Be careful as some fluid will leak out of the oil strainer.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the 3 gaskets from the oil strainer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0022" proc-id="RM21Q0EV__000012600000">
+<ptxt>REMOVE OVERDRIVE BRAKE TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191092" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Pry out both overdrive brake tube ends with a large screwdriver and remove the overdrive brake tube.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0023" proc-id="RM21Q0EV__000012700000">
+<ptxt>REMOVE TRANSMISSION WIRE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191093" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the 4 shift solenoid valve connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt.</ptxt>
+<figure>
+<graphic graphicname="C191094" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pull out the transmission wire from the transmission case to remove it.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0024" proc-id="RM21Q0EV__000012800000">
+<ptxt>REMOVE TRANSMISSION VALVE BODY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191475E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 17 bolts and valve body.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0025" proc-id="RM21Q0EV__000012900000">
+<ptxt>REMOVE ACCUMULATOR PISTON AND SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191095E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Position a cloth to catch each piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply compressed air to the oil holes shown, and remove the 3 pistons and 3 springs.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from each piston.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0026" proc-id="RM21Q0EV__000012A00000">
+<ptxt>REMOVE PARKING LOCK PAWL BRACKET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191096" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts, 2 wave washers and bracket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0027" proc-id="RM21Q0EV__000012B00000">
+<ptxt>REMOVE PARKING LOCK ROD SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191097" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the parking lock rod from the manual valve lever and remove it.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0028" proc-id="RM21Q0EV__000012C00000">
+<ptxt>REMOVE PARKING LOCK PAWL SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191098E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Pull out the parking lock pawl shaft from the front side of the transmission to remove it, then remove the lock pawl and spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the E-ring from the shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0029" proc-id="RM21Q0EV__000012D00000">
+<ptxt>REMOVE MANUAL VALVE LEVER SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191099E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a hammer and screwdriver, cut off the spacer and remove it from the shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a pin punch and hammer, tap out the spring pin.</ptxt>
+<figure>
+<graphic graphicname="C191100" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Slowly tap out the spring pin so that it does not fall into the transmission case.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Pull out the manual valve lever shaft through the case to remove it, and remove the manual valve lever.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0030" proc-id="RM21Q0EV__000012E00000">
+<ptxt>REMOVE MANUAL VALVE LEVER SHAFT OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191101" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, pry out the 2 oil seals.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0140" proc-id="RM21Q0EV__000010L00000">
+<ptxt>INSPECT INSTALLATION DISTANCE OF OVERDRIVE DIRECT CLUTCH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191107E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the transmission case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09370-12010</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the distance between the top of the clutch drum and SST.</ptxt>
+<atten4>
+<ptxt>Make a note of the measurement for reference during reassembly.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0032" proc-id="RM21Q0EV__000012F00000">
+<ptxt>REMOVE OVERDRIVE PLANETARY GEAR ASSEMBLY WITH DIRECT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191103" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the overdrive planetary gear together with the direct clutch from the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the race and thrust washer.</ptxt>
+<figure>
+<graphic graphicname="C191104E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0141" proc-id="RM21Q0EV__000010O00000">
+<ptxt>INSPECT OVERDRIVE 1-WAY CLUTCH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191324E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the overdrive direct clutch drum and be turned the input shaft. Check that the input shaft can be turned clockwise but cannot be turned counterclockwise.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0034" proc-id="RM21Q0EV__000012G00000">
+<ptxt>REMOVE OVERDRIVE DIRECT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191325" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the overdrive direct clutch from the overdrive planetary gear.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0142" proc-id="RM21Q0EV__000010P00000">
+<ptxt>INSPECT OVERDRIVE DIRECT CLUTCH PISTON
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191326" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the overdrive direct clutch onto the oil pump.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the overdrive direct clutch piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C191327" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>1.74 to 2.44 mm (0.0685 to 0.0961 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, inspect the discs.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the overdrive direct clutch from the oil pump.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0036" proc-id="RM21Q0EV__000012H00000">
+<ptxt>REMOVE OVERDRIVE BRAKE HUB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191328" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the overdrive brake hub.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0037" proc-id="RM21Q0EV__000012I00000">
+<ptxt>REMOVE OVERDRIVE CLUTCH DISC</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191329" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0038" proc-id="RM21Q0EV__000012J00000">
+<ptxt>REMOVE OVERDRIVE CLUTCH FLANGE AND CUSHION PLATE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191330E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the flange and cushion plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0143" proc-id="RM21Q0EV__000010Q00000">
+<ptxt>INSPECT OVERDRIVE CLUTCH DISC
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191331E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check whether the sliding surfaces of the disc and flange are worn or burnt.</ptxt>
+<ptxt>If necessary, replace the disc and flange.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the lining of a disc is peeled off or discolored, or if any part of the printed numbers are damaged, replace all the discs.</ptxt>
+</item>
+<item>
+<ptxt>Before assembling new discs, soak them in ATF for at least 15 minutes.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0040" proc-id="RM21Q0EV__000012K00000">
+<ptxt>REMOVE OVERDRIVE CLUTCH RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191332E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the clutch return spring and compress the clutch return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the clutch return spring.</ptxt>
+<figure>
+<graphic graphicname="C191333" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0041" proc-id="RM21Q0EV__000012L00000">
+<ptxt>REMOVE OVERDRIVE DIRECT CLUTCH PISTON SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191334" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the overdrive direct clutch onto the oil pump.</ptxt>
+</s2>
+<s2>
+<ptxt>Hold the overdrive direct clutch piston and apply compressed air to the oil pump to remove the overdrive direct clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the piston.</ptxt>
+<figure>
+<graphic graphicname="C191335" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0144">
+<ptxt>INSPECT OVERDRIVE DIRECT CLUTCH PISTON SUB-ASSEMBLY</ptxt>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0171" proc-id="RM21Q0EV__000010R00000">
+<ptxt>INSPECT OVERDRIVE DIRECT CLUTCH DRUM SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191337" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter of the clutch drum bush.</ptxt>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>23.14 mm (0.911 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter is greater than the maximum, replace the clutch drum.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0044" proc-id="RM21Q0EV__000012M00000">
+<ptxt>REMOVE OVERDRIVE 1-WAY CLUTCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191338" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the No. 4 thrust washer, 1-way clutch assembly, No. 3 thrust washer and thrust bearing.</ptxt>
+<figure>
+<graphic graphicname="C191339E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 retainers.</ptxt>
+<figure>
+<graphic graphicname="C191340E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 1-way clutch from the outer race.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0146" proc-id="RM21Q0EV__000010S00000">
+<ptxt>INSPECT OVERDRIVE PLANETARY GEAR ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="AT08143E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter of the planetary gear bush.</ptxt>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>11.27 mm (0.445 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter is greater than the maximum, replace the planetary gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a feeler gauge, measure the planetary pinion gear thrust clearance.</ptxt>
+<figure>
+<graphic graphicname="C191466" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.20 to 0.50 mm (0.00787 to 0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is not as specified, inspect the planetary gear thrust washer. If necessary, replace the planetary gear.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0147" proc-id="RM21Q0EV__000010T00000">
+<ptxt>INSPECT PACK CLEARANCE OF OVERDRIVE BRAKE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191311" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the overdrive case onto the transmission case, facing the cutout of the overdrive case downward.</ptxt>
+<atten4>
+<ptxt>Make sure that the oil hole of the overdrive case is aligned with the oil hole of the transmission case.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the overdrive brake pack clearance by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C191312" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard pack clearance</title>
+<specitem>
+<ptxt>0.75 to 1.25 mm (0.0295 to 0.0492 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is not as specified, inspect the discs.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the overdrive case from the transmission case.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0047" proc-id="RM21Q0EV__000012N00000">
+<ptxt>REMOVE OVERDRIVE BRAKE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191105" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the overdrive brake from the transmission case.</ptxt>
+<atten4>
+<ptxt>When the overdrive brake is removed, the front clutch may adhere to it.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the race and the No. 1 overdrive planetary gear thrust washer.</ptxt>
+<figure>
+<graphic graphicname="C191106" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0048" proc-id="RM21Q0EV__000012O00000">
+<ptxt>REMOVE OVERDRIVE BRAKE DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191313" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the flange, 3 discs and 3 plates.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0148" proc-id="RM21Q0EV__000010U00000">
+<ptxt>INSPECT OVERDRIVE CLUTCH DISC
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191314" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check whether the sliding surfaces of the discs, plates and flange are worn or burnt.</ptxt>
+<ptxt>If necessary, replace the discs, plates and flange.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the lining of a disc is peeled off or discolored, or if any part of the printed numbers are damaged, replace all the discs.</ptxt>
+</item>
+<item>
+<ptxt>Before assembling new discs, soak them in ATF for at least 15 minutes.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0050" proc-id="RM21Q0EV__000012P00000">
+<ptxt>REMOVE OVERDRIVE PLANETARY RING GEAR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191315" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the overdrive planetary ring gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bearing and 2 races.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0051" proc-id="RM21Q0EV__000012Q00000">
+<ptxt>REMOVE OVERDRIVE BRAKE RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191316" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the overdrive brake return spring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0052" proc-id="RM21Q0EV__000012R00000">
+<ptxt>REMOVE OVERDRIVE BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191317E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the overdrive brake piston by hand and apply compressed air to the passage to remove the overdrive brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the piston.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0053" proc-id="RM21Q0EV__000012S00000">
+<ptxt>REMOVE CLUTCH DRUM OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191318" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 oil seal rings.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0149" proc-id="RM21Q0EV__000010L00000">
+<ptxt>INSPECT INSTALLATION DISTANCE OF FRONT CLUTCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191107E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the transmission case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09370-12010</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the distance between the top of the clutch drum and SST.</ptxt>
+<atten4>
+<ptxt>Make a note of the measurement for reference during reassembly.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0055" proc-id="RM21Q0EV__000012T00000">
+<ptxt>REMOVE FRONT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191125" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the front clutch from the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 thrust bearings and race.</ptxt>
+<figure>
+<graphic graphicname="C191126E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0056" proc-id="RM21Q0EV__000012U00000">
+<ptxt>FIX FRONT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191482" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the front clutch onto the overdrive case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0057" proc-id="RM21Q0EV__000012V00000">
+<ptxt>REMOVE REAR CLUTCH HUB AND FRONT CLUTCH HUB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191346E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the rear clutch hub and front clutch hub.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the thrust bearing and 2 races.</ptxt>
+<figure>
+<graphic graphicname="C191347" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0150" proc-id="RM21Q0EV__000010V00000">
+<ptxt>INSPECT PISTON STROKE OF FRONT CLUTCH PISTON
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191348" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>In order to check the piston stroke, install the rear clutch hub.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a dial indicator, measure the front clutch piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09350-06120</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191349E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>1.40 to 1.60 mm (0.0551 to 0.0630 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the stroke is not as specified, inspect the discs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0059" proc-id="RM21Q0EV__000012W00000">
+<ptxt>REMOVE FRONT CLUTCH DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191350" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the disc.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 plates and 3 discs.</ptxt>
+<figure>
+<graphic graphicname="C191351" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0151" proc-id="RM21Q0EV__000010W00000">
+<ptxt>INSPECT FRONT CLUTCH DISC
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191352" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check whether the sliding surfaces of the discs and plates are worn or burnt.</ptxt>
+<ptxt>If necessary, replace the discs and plates.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the lining of a disc is peeled off or discolored, or if any part of the printed numbers are damaged, replace all the discs.</ptxt>
+</item>
+<item>
+<ptxt>Before assembling new discs, soak them in ATF for at least 15 minutes.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0061" proc-id="RM21Q0EV__000012X00000">
+<ptxt>REMOVE FRONT CLUTCH RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191353E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the spring seat and compress the return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the front clutch return spring.</ptxt>
+<figure>
+<graphic graphicname="C191354" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0062" proc-id="RM21Q0EV__000012Y00000">
+<ptxt>REMOVE FRONT CLUTCH PISTON SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191357" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the front clutch piston by hand, apply compressed air to the overdrive case and remove the front clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the piston.</ptxt>
+<figure>
+<graphic graphicname="C191356" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0152" proc-id="RM21Q0EV__000010X00000">
+<ptxt>INSPECT FRONT CLUTCH PISTON SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191375" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the check ball is free by shaking the piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the valve does not have leaks by applying low pressure compressed air.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0064" proc-id="RM21Q0EV__000012Z00000">
+<ptxt>REMOVE REAR CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191127" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear clutch from the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the race.</ptxt>
+<figure>
+<graphic graphicname="C191128" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0153" proc-id="RM21Q0EV__000010Y00000">
+<ptxt>INSPECT PISTON STROKE OF REAR CLUTCH PISTON
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191365" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the rear clutch onto the center support.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the rear clutch piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C191366" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>0.90 to 1.30 mm (0.0354 to 0.0512 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the stroke is not as specified, inspect the discs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0066" proc-id="RM21Q0EV__000013000000">
+<ptxt>REMOVE REAR CLUTCH FLANGE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191367" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the flange.</ptxt>
+<figure>
+<graphic graphicname="C191368" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0067" proc-id="RM21Q0EV__000013100000">
+<ptxt>REMOVE REAR CLUTCH DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191369" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 discs and 3 plates.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0154" proc-id="RM21Q0EV__000010Z00000">
+<ptxt>INSPECT REAR CLUTCH DISC
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191370" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check whether the sliding surfaces of the discs, plates and flange are worn or burnt.</ptxt>
+<ptxt>If necessary, replace the discs, plates and flange.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the lining of a disc is peeled off or discolored, or if any part of the printed numbers are damaged, replace all the discs.</ptxt>
+</item>
+<item>
+<ptxt>Before assembling new discs, soak them in ATF for at least 15 minutes.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0069" proc-id="RM21Q0EV__000013200000">
+<ptxt>REMOVE REAR CLUTCH RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191371E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the rear clutch return spring and compress the rear clutch return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the rear clutch return spring.</ptxt>
+<figure>
+<graphic graphicname="C191372" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0072" proc-id="RM21Q0EV__000013400000">
+<ptxt>REMOVE CENTER SUPPORT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191129" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and 2 wave washers.</ptxt>
+<atten4>
+<ptxt>After removing one bolt, the other will be loose.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the center support from the transmission case.</ptxt>
+<figure>
+<graphic graphicname="C191130" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0073" proc-id="RM21Q0EV__000013500000">
+<ptxt>REMOVE PLANETARY SUN GEAR SUB-ASSEMBLY WITH NO. 1 1-WAY CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191432" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the planetary sun gear sub-assembly with the No. 1 1-way clutch assembly.</ptxt>
+<figure>
+<graphic graphicname="C191433" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0156" proc-id="RM21Q0EV__000011100000">
+<ptxt>INSPECT PISTON STROKE OF NO. 1 BRAKE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the brake piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C191380" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>0.75 to 1.35 mm (0.0295 to 0.0531 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the stroke is not as specified, inspect the discs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0075" proc-id="RM21Q0EV__000013600000">
+<ptxt>REMOVE NO. 1 BRAKE FLANGE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191381" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the flange.</ptxt>
+<figure>
+<graphic graphicname="C191382" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0076" proc-id="RM21Q0EV__000013700000">
+<ptxt>REMOVE NO. 1 BRAKE DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191383" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 discs and 3 plates.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0157" proc-id="RM21Q0EV__000011200000">
+<ptxt>INSPECT NO. 1 BRAKE DISC
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191384" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check whether the sliding surfaces of the discs, plates and flange are worn or burnt.</ptxt>
+<ptxt>If necessary, replace the discs, plates and flange.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the lining of a disc is peeled off or discolored, or if any part of the printed numbers are damaged, replace all the discs.</ptxt>
+</item>
+<item>
+<ptxt>Before assembling new discs, soak them in ATF for at least 15 minutes.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0078" proc-id="RM21Q0EV__000013800000">
+<ptxt>REMOVE NO. 1 BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191385E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the spring seat and compress the return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the piston return spring.</ptxt>
+<figure>
+<graphic graphicname="C191386" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0079" proc-id="RM21Q0EV__000013900000">
+<ptxt>REMOVE NO. 1 BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191387E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the brake piston by hand, apply compressed air to the center support to remove the brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the piston.</ptxt>
+<figure>
+<graphic graphicname="C191388" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0080" proc-id="RM21Q0EV__000013A00000">
+<ptxt>REMOVE CENTER SUPPORT OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191389" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 oil seal rings.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0158" proc-id="RM21Q0EV__000011300000">
+<ptxt>INSPECT CENTER SUPPORT SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191390" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter of the center support bush.</ptxt>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>36.41 mm (1.43 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter is greater than the maximum, replace the center support.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0159" proc-id="RM21Q0EV__000011400000">
+<ptxt>INSPECT PISTON STROKE OF NO. 2 BRAKE PISTON
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191394" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a dial indicator, measure the No. 2 brake piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>0.98 to 1.71 mm (0.0386 to 0.0673 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the stroke is not as specified, inspect the discs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0083" proc-id="RM21Q0EV__000013B00000">
+<ptxt>REMOVE NO. 2 BRAKE FLANGE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191395" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the flange.</ptxt>
+<figure>
+<graphic graphicname="C191396" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0084" proc-id="RM21Q0EV__000013C00000">
+<ptxt>REMOVE NO. 2 BRAKE DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191397" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 discs and 3 plates.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0160" proc-id="RM21Q0EV__000011500000">
+<ptxt>INSPECT NO. 2 BRAKE DISC
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191398" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check whether the sliding surfaces of the discs, plates and flange are worn or burnt.</ptxt>
+<ptxt>If necessary, replace the discs, plates and flange.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the lining of a disc is peeled off or discolored, or if any part of the printed numbers are damaged, replace all the discs.</ptxt>
+</item>
+<item>
+<ptxt>Before assembling new discs, soak them in ATF for at least 15 minutes.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0086" proc-id="RM21Q0EV__000013D00000">
+<ptxt>REMOVE NO. 2 BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191399E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the spring seat and compress the return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a snap expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the piston return spring.</ptxt>
+<figure>
+<graphic graphicname="C191400" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0087" proc-id="RM21Q0EV__000013E00000">
+<ptxt>REMOVE NO. 2 BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191401" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the brake piston by hand, apply compressed air to the center support and remove the brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-rings from the piston and center support.</ptxt>
+<figure>
+<graphic graphicname="C191402" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0070" proc-id="RM21Q0EV__000013300000">
+<ptxt>REMOVE REAR CLUTCH PISTON SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191373" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the clutch drum onto the center support.</ptxt>
+</s2>
+<s2>
+<ptxt>Hold the clutch piston by hand, apply compressed air to the center support and remove the rear clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 O-rings from the rear clutch piston.</ptxt>
+<figure>
+<graphic graphicname="C191374" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0155" proc-id="RM21Q0EV__000011000000">
+<ptxt>INSPECT REAR CLUTCH PISTON SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191375" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the check ball is free by shaking the piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the valve does not have leaks by applying low-pressure compressed air.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0161" proc-id="RM21Q0EV__000011600000">
+<ptxt>INSPECT NO. 1 1-WAY CLUTCH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191434E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the No. 1 1-way clutch and turn the sun gear. Check that the sun gear can be turned counterclockwise but cannot be turned clockwise.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0089" proc-id="RM21Q0EV__000013F00000">
+<ptxt>REMOVE NO. 1 1-WAY CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191435" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 1-way clutch from the sun gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, loosen the staked parts of the rear side retainer.</ptxt>
+<figure>
+<graphic graphicname="C191436" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the retainer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 1-way clutch and 2 retainers from the outer race.</ptxt>
+<figure>
+<graphic graphicname="C191437E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a pin punch and hammer, tap out the front side retainer.</ptxt>
+<figure>
+<graphic graphicname="C191438" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0091" proc-id="RM21Q0EV__000013G00000">
+<ptxt>REMOVE SUN GEAR SHAFT OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191439" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 oil seal rings.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0162" proc-id="RM21Q0EV__000011700000">
+<ptxt>INSPECT PLANETARY SUN GEAR SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191440" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter of the sun gear bush.</ptxt>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>21.53 mm (0.848 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter is greater than the maximum, replace the sun gear.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0093" proc-id="RM21Q0EV__000013H00000">
+<ptxt>REMOVE FRONT PLANETARY GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191131" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using 2 screwdrivers, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert 2 wires into the planetary gear and remove it.</ptxt>
+<figure>
+<graphic graphicname="C191132" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0094" proc-id="RM21Q0EV__000013I00000">
+<ptxt>REMOVE NO. 1 PLANETARY CARRIER THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191406" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0163" proc-id="RM21Q0EV__000011800000">
+<ptxt>INSPECT NO. 2 1-WAY CLUTCH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191407E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the 1-way clutch and inner race and turned the planetary gear. Check that planetary gear can be turned counterclockwise but cannot be turned clockwise.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0096" proc-id="RM21Q0EV__000013J00000">
+<ptxt>REMOVE NO. 2 1-WAY CLUTCH INNER RACE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191408" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0137" proc-id="RM21Q0EV__000013Z00000">
+<ptxt>REMOVE NO. 2 1-WAY CLUTCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191409" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 1-way clutch and 2 retainers from the planetary gear.</ptxt>
+<figure>
+<graphic graphicname="C191410E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0099" proc-id="RM21Q0EV__000013K00000">
+<ptxt>REMOVE NO. 3 PLANETARY CARRIER THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191411" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0164" proc-id="RM21Q0EV__000011D00000">
+<ptxt>INSPECT FRONT PLANETARY GEAR SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191412" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a feeler gauge, measure the planetary pinion gear thrust clearance.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.20 to 0.50 mm (0.00787 to 0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is not as specified, inspect the planetary gear thrust washer. If necessary, replace the planetary gear assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0165" proc-id="RM21Q0EV__000010M00000">
+<ptxt>INSPECT PACK CLEARANCE OF NO. 3 BRAKE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191133" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a vernier caliper, measure the clearance between the disc and transmission case, as shown in the illustration.</ptxt>
+<spec>
+<title>Standard pack clearance</title>
+<specitem>
+<ptxt>0.52 to 1.27 mm (0.0205 to 0.0500 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is not as specified, inspect the discs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0103" proc-id="RM21Q0EV__000013L00000">
+<ptxt>REMOVE NO. 3 BRAKE DISC SET AND NO. 3 BRAKE PRESSURE PLATE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191134E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 5 discs and 4 plates.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the pressure plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0166" proc-id="RM21Q0EV__000010N00000">
+<ptxt>INSPECT NO. 3 BRAKE DISC
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191135" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check whether the sliding surfaces of the discs and plates are worn or burnt.</ptxt>
+<ptxt>If necessary, replace the discs, and plates.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the lining of a disc is peeled off or discolored, or if any part of the printed numbers are damaged, replace all the discs.</ptxt>
+</item>
+<item>
+<ptxt>Before assembling new discs, soak them in ATF for at least 15 minutes.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0105" proc-id="RM21Q0EV__000013M00000">
+<ptxt>REMOVE REAR PLANETARY GEAR ASSEMBLY WITH INTERMEDIATE SHAFT SUB-ASSEMBLY AND OUTPUT SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191136" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear planetary gear assembly with intermediate shaft sub-assembly and output shaft assembly from the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bearing.</ptxt>
+<figure>
+<graphic graphicname="C191137" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0106" proc-id="RM21Q0EV__000013N00000">
+<ptxt>REMOVE NO. 2 PLANETARY CARRIER THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191415" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0107" proc-id="RM21Q0EV__000013O00000">
+<ptxt>REMOVE FRONT PLANETARY RING GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191416" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the ring gear while compressing the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, remove the snap ring from the ring gear.</ptxt>
+<figure>
+<graphic graphicname="C191417" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0108" proc-id="RM21Q0EV__000013P00000">
+<ptxt>REMOVE REAR PLANETARY GEAR ASSEMBLY WITH INTERMEDIATE SHAFT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191418" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the planetary gear assembly with intermediate shaft sub-assembly from the output shaft assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the thrust bearing and race.</ptxt>
+<figure>
+<graphic graphicname="C191419" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0167" proc-id="RM21Q0EV__000011900000">
+<ptxt>INSPECT OUTPUT SHAFT ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191420" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter of the output shaft bush.</ptxt>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>18.03 mm (0.710 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter is greater than the maximum, replace the output shaft.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0110" proc-id="RM21Q0EV__000013Q00000">
+<ptxt>REMOVE REAR PLANETARY GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191421" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0168" proc-id="RM21Q0EV__000011A00000">
+<ptxt>INSPECT REAR PLANETARY GEAR ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191422" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a feeler gauge, measure the planetary pinion gear thrust clearance.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.20 to 0.50 mm (0.00787 to 0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is not as specified, inspect the planetary gear thrust washer. If necessary, replace the planetary gear assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0112" proc-id="RM21Q0EV__000013R00000">
+<ptxt>REMOVE REAR PLANETARY SUN GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191423" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0113" proc-id="RM21Q0EV__000013S00000">
+<ptxt>REMOVE REAR PLANETARY RING GEAR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191424" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the set ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the ring gear.</ptxt>
+<figure>
+<graphic graphicname="C191425" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the bearing from the ring gear.</ptxt>
+<figure>
+<graphic graphicname="C191426" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0114" proc-id="RM21Q0EV__000013T00000">
+<ptxt>REMOVE INTERMEDIATE SHAFT SLEEVE OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191427" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, remove the oil seal ring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0115" proc-id="RM21Q0EV__000013U00000">
+<ptxt>REMOVE PLANETARY OUTPUT SHAFT OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191428" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the oil seal ring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0116" proc-id="RM21Q0EV__000013V00000">
+<ptxt>REMOVE BRAKE APPLY TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191138" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the brake apply tube.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the race from the transmission case.</ptxt>
+<figure>
+<graphic graphicname="C191139" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0117" proc-id="RM21Q0EV__000013W00000">
+<ptxt>REMOVE SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191140" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0169" proc-id="RM21Q0EV__000011B00000">
+<ptxt>INSPECT NO. 3 BRAKE PISTON MOVEMENT
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191141" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the No. 3 brake pistons move smoothly when applying and releasing compressed air from the transmission case.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD3005X_01_0119" proc-id="RM21Q0EV__000013X00000">
+<ptxt>REMOVE NO. 3 BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191142E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Set SST on the spring seat and compress the return spring.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the brake return spring.</ptxt>
+<figure>
+<graphic graphicname="C191143" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0120" proc-id="RM21Q0EV__000013Y00000">
+<ptxt>REMOVE NO. 3 BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191144" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the outer piston by hand, apply compressed air to the transmission case and remove the outer piston.</ptxt>
+<ptxt>If the piston does not pop out with compressed air, lift the piston out with needle-nose pliers.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the outer piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert SST behind the sleeve and gradually lift it out of the transmission case to remove it.</ptxt>
+<figure>
+<graphic graphicname="C191145E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09350-30020</s-number>
+<s-subnumber>09350-07080</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the sleeve.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert SST behind the inner piston and gradually lift it out of the transmission case to remove it.</ptxt>
+<figure>
+<graphic graphicname="C191146E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09350-30020</s-number>
+<s-subnumber>09350-07090</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the brake piston.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD3005X_01_0170" proc-id="RM21Q0EV__000011C00000">
+<ptxt>INSPECT AUTOMATIC TRANSMISSION CASE SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191147" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a cylinder gauge, measure the inside diameter of the transmission bush.</ptxt>
+<spec>
+<title>Maximum inside diameter</title>
+<specitem>
+<ptxt>38.19 mm (1.50 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the inside diameter is greater than the maximum, replace the transmission case.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

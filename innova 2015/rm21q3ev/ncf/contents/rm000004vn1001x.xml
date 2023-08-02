@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12005_S0003" variety="S0003">
+<name>1TR-FE ENGINE CONTROL</name>
+<ttl id="12005_S0003_7AH5P_T0001" variety="T0001">
+<name>SFI SYSTEM</name>
+<para id="RM000004VN1001X" category="F" type-id="8048Z" name-id="ESY04-02" from="201202" to="201403">
+<name>DETAILS</name>
+<subpara id="RM000004VN1001X_z0" proc-id="NM21Q0EV__000000400000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<step2>
+<ptxt>The main components of the engine control system are as follows:</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.49in"/>
+<colspec colname="COL2" colwidth="1.27in"/>
+<colspec colname="COL3" colwidth="0.99in"/>
+<colspec colname="COL4" colwidth="3.33in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Quantity</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>32-bit CPU</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The ECM optimally controls the SFI, ESA and ISC to suit the operating conditions of the engine in accordance with the signals provided by the sensors.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Intake Mass Air Flow Meter Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Hot-wire Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor has a built-in hot-wire to directly detect the intake air mass.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Intake Air Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Thermistor Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor detects the intake air temperature by means of an internal thermistor.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Engine Coolant Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Thermistor Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor detects the engine coolant temperature by means of an internal thermistor.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Crankshaft Position Sensor [Rotor Teeth]</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pick-up Coil Type (36-2)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor detects the engine speed and performs cylinder identification.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Camshaft Position Sensor [Rotor Teeth]</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pick-up Coil Type (3)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor performs the cylinder identification.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Accelerator Pedal Position Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Linear (Non-contact) Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor detects the amount of pedal effort applied to the accelerator pedal.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Throttle Position Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Linear (Non-contact) Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor detects the throttle valve opening angle.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Knock Control Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Built-in Piezoelectric Type (Non-resonant Type/Flat Type)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor detects an occurrence of engine knocking indirectly from the vibration of the cylinder block caused by the occurrence of engine knocking.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Oxygen Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Heated Type (Cup Type)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This sensor detects the oxygen concentration in the exhaust emissions by measuring the electromotive force which is generated in the sensor itself.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fuel Injector Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>12-hole Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The fuel injector assembly is an electromagnetically-operated nozzle which injects fuel in accordance with signals from the ECM.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>SYSTEM CONTROL</ptxt>
+<step2>
+<ptxt>The engine control system has the following features. The ECM controls these systems:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.11in"/>
+<colspec colname="COL2" colwidth="4.97in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>System</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Sequential Multiport Fuel Injection (SFI)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>An L-type SFI system directly detects the intake air mass with a hot wire type intake mass air flow meter sub-assembly.</ptxt>
+</item>
+<item>
+<ptxt>The fuel injection system is a sequential multiport fuel injection system.</ptxt>
+</item>
+<item>
+<ptxt>Fuel injection takes two forms:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Synchronous injection, which always takes place with the same timing in accordance with the basic injection duration and an additional correction based on the signals provided by the sensors.</ptxt>
+</item>
+<item>
+<ptxt>Non-synchronous injection, which takes place at the time an injection request based on the signals provided by the sensors is detected, regardless of the crankshaft position.</ptxt>
+</item>
+</list2>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Synchronous injection is further divided into group injection during a cold start, and independent injection after the engine is started.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Electronic Spark Advance (ESA)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition timing is determined by the ECM based on signals from various sensors. The ECM corrects ignition timing in response to engine knocking.</ptxt>
+</item>
+<item>
+<ptxt>This system selects the optimal ignition timing in accordance with the signals received from the sensors and sends the (IGT) ignition signal to the igniter.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Electronic Throttle Control System-intelligent (ETCS-i)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Optimally controls the throttle valve opening in accordance with the amount of accelerator pedal effort and the condition of the engine and the vehicle.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Variable Valve Timing-intelligent (VVT-i)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Controls the intake camshaft to an optimal valve timing in accordance with the engine condition.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fuel Pump Control</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Fuel pump operation is controlled by signals from the ECM.</ptxt>
+</item>
+<item>
+<ptxt>The fuel pump is stopped when the Supplemental Restraint System (SRS) airbags are deployed.*</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air Conditioning Cut-off Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>By turning the air conditioning compressor assembly on or off in accordance with the engine condition, driveability is maintained.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Oxygen Sensor Heater Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maintains the temperature of the oxygen sensor at an appropriate level to increase accuracy of detection of the oxygen concentration in the exhaust gas.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Diagnosis</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the ECM detects a malfunction, the ECM diagnoses and memorizes the failed section.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fail-safe</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the ECM detects a malfunction, the ECM stops or controls the engine in accordance with the data already stored in memory.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with SRS airbag system</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+<step1>
+<ptxt>FUNCTION</ptxt>
+<step2>
+<ptxt>VVT-i System</ptxt>
+<step3>
+<ptxt>The VVT-i system is designed to control the intake camshaft within a range of 40° (of crankshaft angle) to provide valve timing that is optimally suited to the engine condition. This improves torque in all the speed ranges as well as increasing fuel economy and reducing exhaust emissions.</ptxt>
+<figure>
+<graphic graphicname="W103638E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Camshaft Position Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Camshaft Timing Oil Control Valve Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Engine Coolant Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Crankshaft Position Sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intake Mass Air Flow Meter Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Throttle Position Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="W105538E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>The VVT-i system delivers excellent benefits in the different operating conditions as shown in the table below:</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.27in"/>
+<colspec colname="COL2" colwidth="2.55in"/>
+<colspec colname="COL3" colwidth="1.68in"/>
+<colspec colname="COL4" colwidth="1.58in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Operation State</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL3" valign="middle" align="center">
+<ptxt>Objective</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Effect</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>During Idling</ptxt>
+</entry>
+<entry>
+<graphic graphicname="W102411E01" width="2.1653543307086616in" height="1.968503937007874in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Eliminating overlap reduces blow back to the intake side.</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Stabilized idling speed</ptxt>
+</item>
+<item>
+<ptxt>Better fuel economy</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>At Light Load</ptxt>
+</entry>
+<entry>
+<graphic graphicname="W102412E01" width="2.1653543307086616in" height="1.968503937007874in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Decreasing overlap to reduce blow back to the intake side.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ensured engine stability</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>At Medium Load</ptxt>
+</entry>
+<entry>
+<graphic graphicname="W102413E01" width="2.1653543307086616in" height="1.968503937007874in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Increasing overlap to increase internal EGR to reduce pumping loss.</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Better fuel economy</ptxt>
+</item>
+<item>
+<ptxt>Improved emission control</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>In Low to Medium Speed Range with Heavy Load</ptxt>
+</entry>
+<entry>
+<graphic graphicname="W102414E01" width="2.1653543307086616in" height="1.968503937007874in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Advancing the intake valve close timing for volumetric efficiency improvement.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Improved torque in low to medium speed range</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>In High Speed Range with Heavy Load</ptxt>
+</entry>
+<entry>
+<graphic graphicname="W102415E01" width="2.1653543307086616in" height="1.968503937007874in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Retarding the intake valve close timing for volumetric efficiency improvement.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Improved output</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>At Low Temperatures</ptxt>
+</entry>
+<entry>
+<graphic graphicname="W102411E01" width="2.1653543307086616in" height="1.968503937007874in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Decreasing overlap to reduce blow back to the intake side leads to the lean burning condition, and stabilizes the idling speed at fast idle.</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Stabilized fast idle speed</ptxt>
+</item>
+<item>
+<ptxt>Better fuel economy</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Starting Engine</ptxt>
+</item>
+<item>
+<ptxt>Stopping Engine</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<graphic graphicname="W102411E01" width="2.1653543307086616in" height="1.968503937007874in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Decreasing overlap to reduce blow back to the intake side.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Improved startability</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Electronic Throttle Control System-intelligent (ETCS-i)</ptxt>
+<step3>
+<ptxt>The ETCS-i is used, providing excellent throttle control in all the operating ranges. The accelerator cable has been discontinued, and an accelerator pedal position sensor has been provided on the accelerator pedal.</ptxt>
+</step3>
+<step3>
+<ptxt>In the conventional throttle body, the throttle valve opening is determined by the amount of the accelerator pedal effort. In contrast, the ETCS-i uses the ECM to calculate the optimal throttle valve opening that is appropriate for the respective driving condition and uses a throttle control motor to control the opening.</ptxt>
+</step3>
+<step3>
+<ptxt>The ETCS-i controls the Idle Speed Control (ISC) system.</ptxt>
+</step3>
+<step3>
+<ptxt>In case of an abnormal condition, this system switches to the limp mode.</ptxt>
+<figure>
+<graphic graphicname="W103632E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Fuel Pump Control</ptxt>
+<step3>
+<ptxt>The fuel pump is controlled by the ECM, using the circuit opening relay.</ptxt>
+</step3>
+<step3>
+<ptxt>The fuel pump control has a fuel cut control. The fuel cut control stops the fuel pump when any of the Supplemental Restraint System (SRS) airbags have deployed.*</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with SRS airbag system</ptxt>
+</item>
+</list1>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>Oxygen Sensor</ptxt>
+<step3>
+<ptxt>A cup type oxygen sensor is used.</ptxt>
+</step3>
+<step3>
+<ptxt>The cup type oxygen sensor contains a sensor element that surrounds the heater.</ptxt>
+<figure>
+<graphic graphicname="W103631E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Platinum Electrode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Heater</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Atmosphere</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sensor Element (Zirconia)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>The output voltage of the oxygen sensor changes in accordance with the oxygen concentration in the exhaust emissions. The ECM uses this output voltage to determine whether the present air fuel ratio is richer or leaner than the stoichiometric air fuel ratio.</ptxt>
+<figure>
+<graphic graphicname="W103710E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Intake Mass Air Flow Meter Sub-assembly</ptxt>
+<step3>
+<ptxt>This engine uses the hot-wire type air flow meter designed for direct electrical measurement of the intake air mass flow.</ptxt>
+</step3>
+<step3>
+<ptxt>This intake mass air flow meter sub-assembly has a built-in intake air temperature sensor.</ptxt>
+<figure>
+<graphic graphicname="W102872E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intake Mass Air Flow Meter Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature Sensing Element</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Platinum Hot-wire Element</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intake Air Temperature Sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100136" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Air Flow</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Crankshaft and Camshaft Position Sensors</ptxt>
+<step3>
+<ptxt>The timing rotor of the crankshaft consists of 36 teeth, with 2 teeth missing. The crankshaft position sensor outputs the crankshaft rotation signals every 10°, and the missing teeth are used to determine the top dead center.</ptxt>
+</step3>
+<step3>
+<ptxt>To detect the camshaft position, a timing rotor on the intake camshaft is used to generate 3 pulses for every 2 revolutions of the crankshaft.</ptxt>
+<figure>
+<graphic graphicname="W102903E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Crankshaft Position Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Timing Rotor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Camshaft Position Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="W102904E02" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Knock Control Sensor (Flat Type)</ptxt>
+<step3>
+<ptxt>In a conventional type knock control sensor (resonant type), a vibration plate is built into the sensor. This plate has the same resonance point as the knocking* frequency of the engine block. This sensor can only detect vibration in this frequency band.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: The term "knock" or "knocking" is used in this case to describe either preignition or detonation of the air fuel mixture in the combustion chamber. This preignition or detonation refers to the air fuel mixture being ignited earlier than is advantageous. This use of "knock" or "knocking" is not primarily used to refer to a loud mechanical noise that may be produced by an engine.</ptxt>
+</item>
+</list1>
+</step3>
+<step3>
+<ptxt>A flat type knock control sensor (non-resonant type) has the ability to detect vibration in a wider frequency band (from approximately 6 kHz to 15 kHz). It has the following features:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The engine knocking frequency will vary slightly depending on the engine speed. The flat type knock control sensor can detect vibration even when the engine knocking frequency changes. Due to the use of the flat type knock control sensor, the vibration detection ability has been increased compared to a conventional type knock control sensor, and more precise ignition timing control is possible.</ptxt>
+<figure>
+<graphic graphicname="W100047E09" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</item>
+</list1>
+</step3>
+<step3>
+<ptxt>A flat type knock control sensor is installed in an engine by placing it over the stud bolt installed on the cylinder block. For this reason, a hole for the stud bolt exists in the center of the sensor.</ptxt>
+</step3>
+<step3>
+<ptxt>In the sensor, a steel weight is located in the upper portion. An insulator is located between the weight and the piezoelectric element.</ptxt>
+</step3>
+<step3>
+<ptxt>An open/short circuit detection resistor is integrated in the sensor. When the ignition switch is ON, the open/short circuit detection resistor in the knock control sensor and the resistor in the ECM keep the voltage at terminal KNK1 constant. An Integrated Circuit (IC) in the ECM constantly monitors the voltage of terminal KNK1. If the open/short circuit occurs between the knock control sensor and the ECM, the voltage of terminal KNK1 will change and the ECM will detect the open/short circuit and store a Diagnostic Trouble Code (DTC).</ptxt>
+<figure>
+<graphic graphicname="W100048E18" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>Vibrations caused by knocking are transmitted to the steel weight. The inertia of this weight applies pressure to the piezoelectric element. This action generates electromotive force.</ptxt>
+<figure>
+<graphic graphicname="W102908E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Steel Weight</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Piezoelectric Element</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100135" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Inertia</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>This sensor is mounted in the specific directions and angles illustrated. To prevent water accumulation in the connector, make sure to install the flat type knock control sensor in the position shown in the following illustration:</ptxt>
+<figure>
+<graphic graphicname="W102301E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Knock Control Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Throttle Position Sensor</ptxt>
+<step3>
+<ptxt>A non-contact type throttle position sensor is used. This sensor uses a Hall IC, which is mounted on the throttle body.</ptxt>
+</step3>
+<step3>
+<ptxt>The Hall IC is surrounded by a magnetic yoke. The Hall IC converts the changes that occur in the magnetic flux into electrical signals and outputs them as throttle valve effort to the ECM.</ptxt>
+</step3>
+<step3>
+<ptxt>The Hall IC contains circuits for the main and sub signals. It converts the throttle valve opening angles into electric signals with two differing characteristics and outputs them to the ECM.</ptxt>
+<figure>
+<graphic graphicname="W102418E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Accelerator Pedal Position Sensor</ptxt>
+<step3>
+<ptxt>This non-contact type accelerator pedal position sensor uses a Hall IC, which is mounted on the accelerator pedal arm.</ptxt>
+</step3>
+<step3>
+<ptxt>A magnetic yoke is mounted at the base of the accelerator pedal arm. This yoke rotates around the Hall IC in accordance with the amount of effort that is applied to the accelerator pedal. The Hall IC converts the changes in the magnetic flux that occur into electrical signals, and outputs them in the form of accelerator pedal position signals to the ECM.</ptxt>
+</step3>
+<step3>
+<ptxt>This accelerator pedal position sensor includes 2 Hall ICs and circuits for the main and sub signals. It converts the accelerator pedal depressed angles into electric signals with two differing characteristics and outputs them to the ECM.</ptxt>
+<figure>
+<graphic graphicname="W100142E04" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Camshaft Timing Oil Control Valve Assembly</ptxt>
+<step3>
+<ptxt>This camshaft timing oil control valve assembly controls the spool valve using duty cycle control from the ECM. This allows hydraulic pressure to be applied to the VVT-i controller advanced or retarded side. When the engine is stopped, the camshaft timing oil control valve assembly is in the most retarded position.</ptxt>
+<figure>
+<graphic graphicname="W102913E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Spool Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sleeve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Spring</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plunger</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Coil</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>To VVT-i Controller (Advance Side)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>To VVT-i Controller (Retard Side)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Drain</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Pressure</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Throttle Control Motor</ptxt>
+<step3>
+<ptxt>A DC motor with excellent response and minimal power consumption is used for the throttle control motor. The ECM performs the duty cycle control of the direction and the amperage of the current that flows to the throttle control motor in order to regulate the opening of the throttle valve.</ptxt>
+<figure>
+<graphic graphicname="W102914E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Throttle Body</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Throttle Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Throttle Control Motor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Ignition Coil Assembly</ptxt>
+<step3>
+<ptxt>The Direct Ignition System (DIS) provides 4 ignition coil assemblies, one for each cylinder. The spark plug caps, which provide contact to spark plugs, are integrated with the ignition coil. Also, an igniter is enclosed to simplify the system.</ptxt>
+<figure>
+<graphic graphicname="W102322E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Igniter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Iron Core</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plug Cap</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Secondary Coil</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Primary Coil</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition Coil Cross Section</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Spark Plug</ptxt>
+<step3>
+<ptxt>Long-reach type spark plugs are used. This type of spark plug allows the area of the cylinder head that receives the spark plugs to be made thick. Thus, the water jacket can be extended near the combustion chamber, which contributes to cooling performance.</ptxt>
+<figure>
+<graphic graphicname="W103639E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Long-reach Type Spark Plug</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Conventional Type Spark Plug</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>VVT-i System</ptxt>
+<step3>
+<ptxt>Using the engine speed, intake air mass, throttle position and engine coolant temperature, the ECM can calculate optimal valve timing for each driving condition and controls the camshaft timing oil control valve assembly. In addition, the ECM uses signals from the camshaft position sensor and the crankshaft position sensor to detect the actual valve timing, thus providing feedback control to achieve the target valve timing.</ptxt>
+<figure>
+<graphic graphicname="W104268E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>When the camshaft timing oil control valve assembly is positioned as illustrated below by the advance signals from the ECM, the resultant oil pressure is applied to the timing advance side vane chamber to rotate the camshaft in the timing advance direction:</ptxt>
+<figure>
+<graphic graphicname="W102423E02" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Advance Side Operation)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vane</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rotation Direction</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>In (Oil Pressure)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Drain (Oil Pressure)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>When the camshaft timing oil control valve assembly is positioned as illustrated below by the retard signals from the ECM, the resultant oil pressure is applied to the timing retard side vane chamber to rotate the camshaft in the timing retard direction:</ptxt>
+<figure>
+<graphic graphicname="W102965E02" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Retard Side Operation)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vane</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rotation Direction</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Drain (Oil Pressure)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>In (Oil Pressure)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>After reaching the target timing, the valve timing is held by keeping the camshaft timing oil control valve assembly in the neutral position unless the traveling state changes. This adjusts the valve timing at the desired target position and prevents the engine oil from running out when it is unnecessary.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Fuel Pump Control</ptxt>
+<step3>
+<ptxt>On the models with SRS airbag system, when the ECM detects the airbag deployment signal from the center airbag sensor assembly, it will turn the circuit opening relay off. After the fuel cut control has been activated, turning the ignition switch from off to ON cancels the fuel cut control, and the engine can be restarted.</ptxt>
+<figure>
+<graphic graphicname="W103634E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>ETCS-i</ptxt>
+<step3>
+<ptxt>The ECM drives the throttle control motor by determining the target throttle valve opening in accordance with the respective operating condition.</ptxt>
+</step3>
+<step3>
+<ptxt>The ECM controls the throttle to an optimal throttle valve opening that is appropriate for the driving conditions such as the amount of accelerator pedal effort and the engine speed in order to achieve excellent throttle control and comfort in all operating ranges.</ptxt>
+<figure>
+<graphic graphicname="W102921E02" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>The ECM controls the throttle valve in order to constantly maintain an ideal idle speed.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

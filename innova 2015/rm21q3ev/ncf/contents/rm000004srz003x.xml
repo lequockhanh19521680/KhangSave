@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12016_S000B" variety="S000B">
+<name>A45DE AUTOMATIC TRANSMISSION / TRANSAXLE</name>
+<ttl id="12016_S000B_7AIQN_T000Q" variety="T000Q">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000004SRZ003X" category="F" type-id="8048X" name-id="AT829-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000004SRZ003X_z0" proc-id="NM21Q0EV__000002B00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="X104689E02" width="7.106578999in" height="7.795582503in"/>
+</figure>
+<figure>
+<graphic graphicname="X104688E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

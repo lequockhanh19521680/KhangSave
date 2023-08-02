@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="59">
+<name>Vehicle Exterior</name>
+<section id="12064_S0010" variety="S0010">
+<name>WINDOW / GLASS</name>
+<ttl id="12064_S0010_7AHYZ_T000E" variety="T000E">
+<name>POWER WINDOW CONTROL SYSTEM</name>
+<para id="RM0000051RK000X" category="F" type-id="8048Z" name-id="WS6V9-01" from="201202">
+<name>DETAILS</name>
+<subpara id="RM0000051RK000X_z0" proc-id="NM21Q0EV__000002500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>SYSTEM CONTROL</ptxt>
+<step2>
+<ptxt>The power window control system has the following functions:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Manual Up-and-down</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The manual up-and-down function causes the window to open or close while the power window regulator master switch assembly or power window regulator switch assembly is being pulled halfway up or pushed halfway down. The window stops as soon as the switch is released.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>One-touch Auto Down</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The one-touch auto down function enables the window to be fully opened by firmly operating the power window regulator master switch assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Remote Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The power window regulator master switch assembly can control the up-and-down operation of all door windows.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Window Lock</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Operation of the passenger windows is disabled when the window lock switch is pressed.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

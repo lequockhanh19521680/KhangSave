@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N6X00JX" category="D" type-id="303FF" name-id="ME1SE-03" from="201202">
+<name>OPERATION CHECK</name>
+<subpara id="RM000003N6X00JX_z0" proc-id="RM21Q0EV__00002LZ00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DETECTION RANGE MEASUREMENT AND INDICATOR CHECK</ptxt>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Move the shift lever to R.</ptxt>
+<atten3>
+<ptxt>Apply the parking brake securely so that the vehicle does not move.</ptxt>
+</atten3>
+</step2>
+<step2>
+<ptxt>Turn the clearance sonar main switch on.</ptxt>
+</step2>
+<step2>
+<ptxt>Move a φ 60 mm (2.36 in.) pole around the sensors to measure the detection ranges of the sensors.</ptxt>
+<figure>
+<graphic graphicname="E171456E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<atten3>
+<ptxt>The measured detection ranges are for a φ 60 mm (2.36 in.) pole. The detection ranges for walls and other obstacles are different.</ptxt>
+</atten3>
+</step2>
+<step2>
+<ptxt>Check the sounding of the buzzer when the No. 1 ultrasonic sensors detect an obstacle.</ptxt>
+<table pgwide="1">
+<title>Operation Condition</title>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Ignition Switch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Clearance Sonar Main Switch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Lever</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<step3>
+<ptxt>Check that the buzzer sounds with the clearance sonar main switch on as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E168773E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<ptxt>*1: A φ 60 mm (2.36 in.) pole is used as an obstacle.</ptxt>
+<ptxt>*2: A wall is used as an obstacle.</ptxt>
+<atten4>
+<ptxt>Since sound waves are used for the detection range measurement, the detection ranges may slightly vary due to the outside air temperature.</ptxt>
+</atten4>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK INITIAL CHECK FUNCTION</ptxt>
+<step2>
+<ptxt>Turn the ignition switch ON and turn the clearance sonar main switch on. After approximately 0.4 seconds, check that the buzzer sounds for approximately 1 +/-0.3 seconds.</ptxt>
+<figure>
+<graphic graphicname="E168775E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</step2>
+<step2>
+<ptxt>Check that the buzzer does not sound as shown in the illustration below.</ptxt>
+<figure>
+<graphic graphicname="E168776E02" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the system detects an open in any sensor circuit, or any sensor does not work (unable to detect because the sensor is wet or frozen), the buzzer operates as shown in the illustration above.</ptxt>
+</item>
+<item>
+<ptxt>If the buzzer sounds due to a sensor or circuit malfunction, turning the ignition switch off and then ON will return the system to normal if the malfunction is no longer present.</ptxt>
+</item>
+</list1>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

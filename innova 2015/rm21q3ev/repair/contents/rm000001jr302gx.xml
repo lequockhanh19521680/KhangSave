@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A810_T005E" variety="T005E">
+<name>REAR COOLING UNIT</name>
+<para id="RM000001JR302GX" category="A" type-id="80002" name-id="ACDFI-05" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000001JR302GX_01" type-id="01" category="01">
+<s-1 id="RM000001JR302GX_01_0009" proc-id="RM21Q0EV__000047300000">
+<ptxt>REMOVE BLOWER (REAR) RESISTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 screws and blower (rear) resistor.</ptxt>
+<figure>
+<graphic graphicname="E225929" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001JR302GX_01_0002" proc-id="RM21Q0EV__00004BL00000">
+<ptxt>REMOVE NO. 2 COOLER UNIT DRAIN HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225555" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the No. 2 cooler unit drain hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR302GX_01_0003" proc-id="RM21Q0EV__00004BM00000">
+<ptxt>REMOVE REAR BLOWER MOTOR WITH FAN SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225823" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 screws and rear blower motor with fan sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR302GX_01_0004" proc-id="RM21Q0EV__00004BN00000">
+<ptxt>REMOVE AIR CONDITIONING TUBE AND ACCESSORY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225556" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 9 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 3 claws and remove the cooling unit case (motor side).</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the evaporator sub-assembly from the cooler unit case (sink side).</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 4 mm socket hexagon wrench, remove the 2 hexagon bolts and air conditioning tube and accessory assembly.</ptxt>
+<figure>
+<graphic graphicname="E225557" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the air conditioning tube and accessory assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR302GX_01_0005" proc-id="RM21Q0EV__00004BO00000">
+<ptxt>REMOVE REAR COOLING UNIT EXPANSION VALVE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225558" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear cooling unit expansion valve from the evaporator sub-assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the evaporator sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

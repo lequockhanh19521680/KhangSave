@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQF00NX" category="C" type-id="302E4" name-id="ES10ON-001" from="201202">
+<dtccode>P0351/14</dtccode>
+<dtcname>Ignition Coil "A" Primary / Secondary Circuit</dtcname>
+<dtccode>P0352/15</dtccode>
+<dtcname>Ignition Coil "B" Primary / Secondary Circuit</dtcname>
+<dtccode>P0353/14</dtccode>
+<dtcname>Ignition Coil "C" Primary / Secondary Circuit</dtcname>
+<dtccode>P0354/15</dtccode>
+<dtcname>Ignition Coil "D" Primary / Secondary Circuit</dtcname>
+<subpara id="RM000000ZQF00NX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000B000000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>These DTCs indicate malfunctions related to the primary circuit.</ptxt>
+</item>
+<item>
+<ptxt>If DTC P0351/14 is displayed, check No. 1 ignition coil with igniter circuit.</ptxt>
+</item>
+<item>
+<ptxt>If DTC P0352/15 is displayed, check No. 2 ignition coil with igniter circuit.</ptxt>
+</item>
+<item>
+<ptxt>If DTC P0353/14 is displayed, check No. 3 ignition coil with igniter circuit.</ptxt>
+</item>
+<item>
+<ptxt>If DTC P0354/15 is displayed, check No. 4 ignition coil with igniter circuit.</ptxt>
+</item>
+</list1>
+</atten4>
+<ptxt>A Direct Ignition System (DIS) is used on this vehicle. </ptxt>
+<ptxt>The DIS is a 1 cylinder ignition system which ignites one cylinder with one ignition coil. In the 1 cylinder ignition system, one spark plug is connected to the end of the secondary winding. High-voltage is generated in the secondary winding and is applied directly to the spark plug. The spark of the spark plug passes from the center electrode to the ground electrode.</ptxt>
+<ptxt>The ECM determines the ignition timing and transmits the ignition (IGT) signals for each cylinder. Using the IGT signal, the ECM turns ON and OFF the power transistor inside the igniter, which switches ON and OFF a current to the primary coil. When the current to the primary coil is cut off, high-voltage is generated in the secondary coil and this voltage is applied to the spark plugs to create sparks inside the cylinders. As the ECM cuts the current to the primary coil, the igniter sends back the ignition confirmation (IGF) signal to the ECM.</ptxt>
+<figure>
+<graphic graphicname="A123742E02" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0351/14</ptxt>
+<ptxt>P0352/15</ptxt>
+<ptxt>P0353/14</ptxt>
+<ptxt>P0354/15</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No IGF signal to ECM while engine is running</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition system</ptxt>
+</item>
+<item>
+<ptxt>Open or short in IGF or IGT1 to 4 circuit from ignition coil with igniter to ECM</ptxt>
+</item>
+<item>
+<ptxt>No. 1 to No. 4 ignition coil with igniter</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQF00NX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000B100000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A082388E09" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<ptxt>If the ECM does not receive an IGF after sending an IGT, it interprets this as a fault in the igniter and sets a DTC. The monitor runs for 1 second (the first second of engine idle) after the engine is started.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQF00NX_03" type-id="32" category="03" proc-id="RM21Q0EV__00000B200000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A303786E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQF00NX_04" type-id="51" category="05" proc-id="RM21Q0EV__00000B300000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQF00NX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQF00NX_05_0001" proc-id="RM21Q0EV__00000B400000">
+<testtitle>PERFORM SIMULATION TEST</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs (see page <xref label="Seep01" href="RM000000ZPW01AX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Change the arrangement of the ignition coils (with igniters).</ptxt>
+<atten3>
+<ptxt>Do not change the location of the connectors.</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>Perform the simulation test.</ptxt>
+<spec>
+<title>Result</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.08in"/>
+<colspec colnum="2" colname="c2" colwidth="2.05in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Cleared DTCs are output again</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Other DTCs</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQF00NX_05_0002" fin="false">A</down>
+<right ref="RM000000ZQF00NX_05_0006" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0002" proc-id="RM21Q0EV__00000B500000">
+<testtitle>CHECK IGNITION COIL ASSEMBLY (POWER SOURCE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A054393E39" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the I1, I2, I3 and I4 ignition coil with igniter connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>I1-4 (GND) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I2-4 (GND) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I3-4 (GND) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I4-4 (GND) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>I1-1 (+B) - I1-4 (GND)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I2-1 (+B) - I2-4 (GND)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I3-1 (+B) - I3-4 (GND)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I4-1 (+B) - I4-4 (GND)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQF00NX_05_0003" fin="false">NG</down>
+<right ref="RM000000ZQF00NX_05_0007" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0003" proc-id="RM21Q0EV__00000B600000">
+<testtitle>CHECK WIRE HARNESS (IGNITION COIL - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034694E04" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the I1, I2, I3 and I4 ignition coil with igniter connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>I1-2 - E12-23 (IGF1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I2-2 - E12-23 (IGF1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I3-2 - E12-23 (IGF1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I4-2 - E12-23 (IGF1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I1-3 - E12-17 (IGT1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I2-3 - E12-16 (IGT2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I3-3 - E12-15 (IGT3)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I4-3 - E12-14 (IGT4)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I1-2 or E12-23 (IGF1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I2-2 or E12-23 (IGF1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I3-2 or E12-23 (IGF1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I4-2 or E12-23 (IGF1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I1-3 or E12-17 (IGT1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I2-3 or E12-16 (IGT2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I3-3 or E12-15 (IGT3) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I4-3 or E12-14 (IGT4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQF00NX_05_0004" fin="false">OK</down>
+<right ref="RM000000ZQF00NX_05_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0004" proc-id="RM21Q0EV__00000B700000">
+<testtitle>CHECK ECM (IGT1, IGT2, IGT3, IGT4, IGF1 SIGNAL)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034695E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>While cranking or idling, check the waveform of the ECM connector using the oscilloscope.</ptxt>
+<spec>
+<title>OK</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-17 (IGT1) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-16 (IGT2) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-15 (IGT3) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-14 (IGT4) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-23 (IGF1) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>2 V/DIV., 20 msec./DIV.</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>The wavelength becomes shorter as engine speed increases.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQF00NX_05_0005" fin="false">OK</down>
+<right ref="RM000000ZQF00NX_05_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0005" proc-id="RM21Q0EV__00000B800000">
+<testtitle>CHECK IF DTC OUTPUT RECURS (IGNITION COIL - INJ FUSE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTC (see page <xref label="Seep01" href="RM000000ZPW01AX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the DTC.</ptxt>
+<spec>
+<title>Result</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="3.8483415in"/>
+<colspec colnum="2" colname="c2" colwidth="3.2985783in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>One or more of P0351/14, P0352/15, P0353/14 and P0354/15</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No output</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQF00NX_05_0011" fin="true">A</down>
+<right ref="RM000000ZQF00NX_05_0010" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0006">
+<testtitle>REPLACE IGNITION COIL ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0007">
+<testtitle>REPLACE IGNITION COIL ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0008">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0009">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0010">
+<testtitle>SYSTEM OK</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQF00NX_05_0011">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

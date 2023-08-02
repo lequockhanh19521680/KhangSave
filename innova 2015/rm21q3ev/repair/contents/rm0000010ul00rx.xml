@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZQ_T0044" variety="T0044">
+<name>MANUAL TRANSMISSION UNIT</name>
+<para id="RM0000010UL00RX" category="A" type-id="30014" name-id="MT1TJ-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010UL00RX_02" type-id="01" category="01">
+<s-1 id="RM0000010UL00RX_02_0001" proc-id="RM21Q0EV__00001B700000">
+<ptxt>INSTALL OUTPUT SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033548E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the output shaft into the intermediate plate by pushing on the output shaft and tapping on the intermediate plate with a plastic-faced hammer.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring to the center bearing.</ptxt>
+<atten4>
+<ptxt>Be sure the shaft snap ring is flush with the intermediate plate surface.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="D033546E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0002" proc-id="RM21Q0EV__00001B800000">
+<ptxt>INSTALL COUNTER GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033550E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the input shaft and No. 2 synchronizer ring with gear oil.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the counter gear, input shaft and a new center bearing to the intermediate plate.</ptxt>
+<atten3>
+<ptxt>Install the bearing (with snap ring) to the counter gear's rear side.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a plastic-faced hammer, install the center bearing to the intermediate plate by tapping the outer race to the counter gear center bearing.</ptxt>
+<atten4>
+<ptxt>Hold the front side of the counter gear by hand.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="D029191E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring to the counter shaft center bearing.</ptxt>
+<figure>
+<graphic graphicname="D029185E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0003" proc-id="RM21Q0EV__00001B900000">
+<ptxt>INSTALL OUTPUT SHAFT REAR BEARING RETAINER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033544E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a T40 "torx" socket, install the rear bearing retainer to the intermediate plate with the 4 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>185</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0004" proc-id="RM21Q0EV__00001BA00000">
+<ptxt>INSTALL REVERSE IDLER GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033543E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the idler gear shaft and idler gear to the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the idler gear shaft stopper to the intermediate plate with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>17</t-value1>
+<t-value2>175</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="D033542E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0005" proc-id="RM21Q0EV__00001BB00000">
+<ptxt>INSTALL REVERSE SHIFT ARM</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033431E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new E-ring and the shift fork to the shift arm.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0006" proc-id="RM21Q0EV__00001BC00000">
+<ptxt>INSTALL REVERSE SHIFT ARM BRACKET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033529E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the arm bracket with the shift arm to the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>185</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0007" proc-id="RM21Q0EV__00001BD00000">
+<ptxt>INSTALL 5TH GEAR THRUST WASHER LOCK BALL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033551E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the lock ball.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0008" proc-id="RM21Q0EV__00001BE00000">
+<ptxt>INSTALL 5TH GEAR THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033540E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0009" proc-id="RM21Q0EV__00001BF00000">
+<ptxt>INSTALL COUNTER SHAFT 5TH GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033552E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 5th gear bearing to the 5th gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 5th gear to the counter gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the No. 3 synchronizer ring on the No. 5 gear spline piece.</ptxt>
+<figure>
+<graphic graphicname="D033553E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Dismount the intermediate plate from the vise.</ptxt>
+<figure>
+<graphic graphicname="D033554E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Stand the transmission as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a press and 22 mm socket wrench, press in the No. 5 gear spline piece with the No. 3 synchronizer ring slots aligned with the shifting keys.</ptxt>
+<figure>
+<graphic graphicname="D033555E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Mount the intermediate plate to the vise.</ptxt>
+</s2>
+<s2>
+<ptxt>Select a snap ring that will allow minimal axial play.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.10 mm (0.0039 in.) or less</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard counter gear rear shaft snap ring thickness</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Mark</ptxt>
+</entry>
+<entry>
+<ptxt>Thickness</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+<entry>
+<ptxt>2.80 to 2.85 mm (0.110 to 0.112 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+<entry>
+<ptxt>2.85 to 2.90 mm (0.112 to 0.114 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+<entry>
+<ptxt>2.90 to 2.95 mm (0.114 to 0.116 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+<entry>
+<ptxt>2.95 to 3.00 mm (0.116 to 0.118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E</ptxt>
+</entry>
+<entry>
+<ptxt>3.00 to 3.05 mm (0.118 to 0.120 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F</ptxt>
+</entry>
+<entry>
+<ptxt>3.05 to 3.10 mm (0.120 to 0.122 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>G</ptxt>
+</entry>
+<entry>
+<ptxt>3.10 to 3.15 mm (0.122 to 0.124 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure>
+<graphic graphicname="D033563E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a brass bar and hammer, tap in the snap ring to the counter gear.</ptxt>
+<figure>
+<graphic graphicname="D033556E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0010" proc-id="RM21Q0EV__00001BG00000">
+<ptxt>INSPECT COUNTER SHAFT 5TH GEAR THRUST CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086399E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a feeler gauge, measure the thrust clearance.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.100 to 0.300 mm (0.0039 to 0.0117 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum clearance</title>
+<specitem>
+<ptxt>0.300 mm (0.0117 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0011" proc-id="RM21Q0EV__00001BH00000">
+<ptxt>INSTALL NO. 2 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033557E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the No. 2 shift fork shaft through the No. 2 gear shift fork, No. 1 gear shift fork and intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a brass bar and hammer, tap in the shaft snap ring to the No. 2 shift fork shaft.</ptxt>
+<figure>
+<graphic graphicname="D029199E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the bolt to the No. 2 gear shift fork.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="D029173E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0012" proc-id="RM21Q0EV__00001BI00000">
+<ptxt>INSTALL NO. 2 SHIFT INTERLOCK PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029200E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the No. 2 shift interlock pin with MP grease, and install it into the No. 1 gear shift fork shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0013" proc-id="RM21Q0EV__00001BJ00000">
+<ptxt>INSTALL NO. 1 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029201E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the No. 1 interlock pin with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, install the No. 1 interlock pin to the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 1 gear shift fork shaft through the No. 2 gear shift fork and intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the bolt to the No. 1 shift fork.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="D029170E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using pliers, install the snap ring to the No. 1 gear shift fork shaft.</ptxt>
+<figure>
+<graphic graphicname="D029202E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0014" proc-id="RM21Q0EV__00001BK00000">
+<ptxt>INSTALL NO. 3 HEAD GEAR SHIFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033530E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the No. 3 head gear shift to the No. 3 shift fork shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 5 mm pin punch and hammer, tap in the slotted spring pin to the No. 3 shift fork shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0015" proc-id="RM21Q0EV__00001BL00000">
+<ptxt>INSTALL NO. 2 SHIFT INTERLOCK PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033613E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the No. 2 interlock pin with MP grease, and install it into the No. 3 shift fork shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0016" proc-id="RM21Q0EV__00001BM00000">
+<ptxt>INSTALL NO. 3 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B087770E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Coat the shift interlock pin with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, install the No. 3 shift interlock pin to the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 3 shift fork shaft through the reverse shift fork and the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat the shift detent ball with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the shift detent ball and the shift detent ball low side compression spring to the reverse shift fork.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 3 shift fork shaft through the reverse shift arm.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0017" proc-id="RM21Q0EV__00001BN00000">
+<ptxt>INSTALL NO. 5 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029161E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the reverse shift head and No. 5 shift fork shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 5 mm pin punch and hammer, tap in the slotted spring pin to the reverse shift head.</ptxt>
+<figure>
+<graphic graphicname="D029160E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0018" proc-id="RM21Q0EV__00001BO00000">
+<ptxt>INSTALL NO. 4 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B087771E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Coat the ball pin shift interlocks with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, install the ball pin shift interlocks to the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 4 shift fork shaft through the reverse shift fork, intermediate plate and reverse shift head.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a brass bar and hammer, tap in the shift fork shaft snap ring and 2 reverse shift head rings.</ptxt>
+<figure>
+<graphic graphicname="D033526E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the bolt to the No. 3 gear shift fork.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="D029157E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0019" proc-id="RM21Q0EV__00001BP00000">
+<ptxt>INSTALL NO. 2 SHIFT DETENT BALL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029208E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the No. 2 detent ball with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 2 detent ball and compression spring to the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat the spring seat with sealant.</ptxt>
+<spec>
+<title>Sealant</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1344, Three Bond 1344 or Equivalent</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="D029155E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a T40 "torx" socket, install the spring seat to the intermediate plate.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>19</t-value1>
+<t-value2>190</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0020" proc-id="RM21Q0EV__00001BQ00000">
+<ptxt>INSTALL SHIFT DETENT BALL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033532E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the 3 shift detent balls with MP grease, and install them and the 3 compression springs to the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat the 3 spring seats with sealant.</ptxt>
+<spec>
+<title>Sealant</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1344, Three Bond 1344 or Equivalent</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="D033558E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a T40 "torx" socket, install the 3 spring seats to the intermediate plate.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>19</t-value1>
+<t-value2>190</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0021" proc-id="RM21Q0EV__00001BR00000">
+<ptxt>INSTALL MANUAL TRANSMISSION CASE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086438E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply seal packing to the transmission case as shown in the illustration.</ptxt>
+<spec>
+<title>Sealant</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1281, Three Bond 1281 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Stand the intermediate plate as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C109840" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a plastic-faced hammer, install the transmission case to the intermediate plate as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0022" proc-id="RM21Q0EV__00001BS00000">
+<ptxt>INSTALL NO. 1 COUNTER GEAR FRONT BEARING SNAP RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029150E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring to the front bearing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0023" proc-id="RM21Q0EV__00001BT00000">
+<ptxt>INSTALL FRONT BEARING SHAFT SNAP RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029149E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring to the input shaft front bearing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0024" proc-id="RM21Q0EV__00001BU00000">
+<ptxt>INSTALL TRANSMISSION FRONT BEARING RETAINER OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086440E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, press in a new oil seal to the front bearing retainer.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-60010</s-number>
+<s-subnumber>09952-06010</s-subnumber>
+<s-subnumber>09951-00440</s-subnumber>
+</sstitem>
+</sst>
+<spec>
+<title>Standard depth</title>
+<specitem>
+<ptxt>12.5 to 13.5 m (0.492 to 0.531 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0044" proc-id="RM21Q0EV__00001CE00000">
+<ptxt>CHECK BEARING RETAINER FRONT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C112666E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that "FIPG" is imprinted on the bearing retainer front.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0025" proc-id="RM21Q0EV__00001BV00000">
+<ptxt>INSTALL BEARING RETAINER FRONT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033614E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>w/o Gasket:</ptxt>
+<ptxt>Apply "FIPG" to the bearing retainer front as shown in the illustration.</ptxt>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1281, Three Bond 1281 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>w/ Gasket:</ptxt>
+<ptxt>Install a new gasket and the bearing retainer front to the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>w/o Gasket:</ptxt>
+<ptxt>Install the bearing retainer front to the transmission case.</ptxt>
+<figure>
+<graphic graphicname="D029148E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply sealant to the bolt threads.</ptxt>
+<spec>
+<title>Sealant</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1344, Three Bond 1344 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the 8 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>17</t-value1>
+<t-value2>175</t-value2>
+<t-value4>12</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0026" proc-id="RM21Q0EV__00001BW00000">
+<ptxt>INSTALL EXTENSION HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034230E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, tap in a new oil seal to the extension housing.</ptxt>
+<sst>
+<sstitem>
+<s-number>09223-00010</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Lightly apply MP grease to the tip of the oil seal.</ptxt>
+<spec>
+<title>Standard depth</title>
+<specitem>
+<ptxt>0 +-0.5 mm (0 +-0.0196 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Be careful no to damage the lip of the oil seal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0027" proc-id="RM21Q0EV__00001BX00000">
+<ptxt>INSTALL REVERSE RESTRICT PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029146E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the restrict pin to the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 5 mm pin punch and hammer, tap in the slotted spring pin to the extension housing.</ptxt>
+<figure>
+<graphic graphicname="D029145E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a T40 "torx" socket, install the plug to the extension housing.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>19</t-value1>
+<t-value2>190</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="D029144E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0028" proc-id="RM21Q0EV__00001BY00000">
+<ptxt>INSTALL OIL RECEIVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the oil receiver with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>11</t-value1>
+<t-value2>112</t-value2>
+<t-value4>8</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0029" proc-id="RM21Q0EV__00001BZ00000">
+<ptxt>INSTALL OIL RECEIVER PIPE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029142E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the oil receiver pipe to the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0030" proc-id="RM21Q0EV__00001C000000">
+<ptxt>INSTALL TRANSMISSION MAGNET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029141E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the magnet to the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0031" proc-id="RM21Q0EV__00001C100000">
+<ptxt>INSTALL EXTENSION HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086443E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply seal packing to the extension housing as shown in the illustration.</ptxt>
+<spec>
+<title>Seal packing</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1281, Three Bond 1281 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the shift and select lever to the extension housing.</ptxt>
+<figure>
+<graphic graphicname="G034242E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the shift and select lever to the shift fork shaft and insert the shift lever housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Align the No. 5 shift fork shaft to the extension housing installation hole and slide it into the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the extension housing to the manual transmission case with the 8 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="G034240E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the bolt to the shift lever housing.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>33</t-value1>
+<t-value2>337</t-value2>
+<t-value4>24</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="G034241E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0032" proc-id="RM21Q0EV__00001C200000">
+<ptxt>INSTALL SHIFT DETENT BALL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029211E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the shift detent ball with MP grease, and install it and the compression spring to the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a T40 "torx" socket, install the spring seat to the extension housing.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>19</t-value1>
+<t-value2>190</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="D029138E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0033" proc-id="RM21Q0EV__00001C300000">
+<ptxt>INSTALL SPEEDOMETER DRIVEN GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new O-ring to the driven gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the driven gear with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>11</t-value1>
+<t-value2>112</t-value2>
+<t-value4>8</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0034" proc-id="RM21Q0EV__00001C400000">
+<ptxt>INSTALL CONTROL SHIFT LEVER RETAINER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034238E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the oil deflector and shift lever retainer to the extension housing with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>185</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0035" proc-id="RM21Q0EV__00001C500000">
+<ptxt>INSTALL RESTRICT PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034239E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 2 restrict pins to the extension housing.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>290</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0036" proc-id="RM21Q0EV__00001C600000">
+<ptxt>INSTALL CLUTCH HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029131E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the clutch housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply liquid sealer to the bolt threads.</ptxt>
+<spec>
+<title>Sealant</title>
+<specitem>
+<ptxt>Toyota Genuine Seal Packing 1344, Three Bond 1344 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the 9 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0037" proc-id="RM21Q0EV__00001C700000">
+<ptxt>INSTALL BACK-UP LIGHT SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029130E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, install the back-up light switch to the transmission case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09817-16011</s-number>
+</sstitem>
+</sst>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0038" proc-id="RM21Q0EV__00001C800000">
+<ptxt>INSTALL CLUTCH RELEASE FORK BOOT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029348E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the release fork boot to the clutch housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0039" proc-id="RM21Q0EV__00001C900000">
+<ptxt>INSTALL RELEASE FORK SUPPORT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086353E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the release fork support to the clutch housing.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>39</t-value1>
+<t-value2>400</t-value2>
+<t-value4>29</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0040" proc-id="RM21Q0EV__00001CA00000">
+<ptxt>INSTALL CLUTCH RELEASE BEARING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029898E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Coat the release bearing with Multemp 8158 Grease or equivalent, and install it to the release fork.</ptxt>
+<spec>
+<title>Grease</title>
+<specitem>
+<ptxt>Multemp 8158 Grease or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0041" proc-id="RM21Q0EV__00001CB00000">
+<ptxt>INSTALL CLUTCH RELEASE FORK</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086352E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the release fork to the input shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply clutch spline grease to the input shaft spline.</ptxt>
+<spec>
+<title>Grease</title>
+<specitem>
+<ptxt>Toyota Genuine Clutch Spline Grease or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0042" proc-id="RM21Q0EV__00001CC00000">
+<ptxt>INSTALL DRAIN PLUG</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029129E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new gasket and the drain plug to the transmission case.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UL00RX_02_0043" proc-id="RM21Q0EV__00001CD00000">
+<ptxt>INSTALL FILLER PLUG</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029128E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new gasket and the filler plug to the transmission case.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

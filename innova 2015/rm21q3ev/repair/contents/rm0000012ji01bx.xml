@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROQ_T009T" variety="T009T">
+<name>FRONT BLOWER MOTOR</name>
+<para id="RM0000012JI01BX" category="A" type-id="30014" name-id="ACFTV-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000012JI01BX_01" type-id="01" category="01">
+<s-1 id="RM0000012JI01BX_01_0019" proc-id="RM21Q0EV__000046Q00000">
+<ptxt>INSTALL BLOWER MOTOR WITH FAN SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the blower motor with fan sub-assembly with the 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the clip and connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

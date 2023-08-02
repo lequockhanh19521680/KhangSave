@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZD_T003R" variety="T003R">
+<name>TORQUE CONVERTER CLUTCH AND DRIVE PLATE</name>
+<para id="RM0000010NN01QX" category="G" type-id="3001K" name-id="AT44X-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010NN01QX_01" type-id="01" category="01">
+<s-1 id="RM0000010NN01QX_01_0001" proc-id="RM21Q0EV__00000ZY00000">
+<ptxt>INSPECT TORQUE CONVERTER CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029376E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Inspect the 1-way clutch.</ptxt>
+<s3>
+<ptxt>Install SST to the inner race of the 1-way clutch.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-32014</s-number>
+<s-subnumber>09351-32010</s-subnumber>
+</sstitem>
+</sst>
+</s3>
+<s3>
+<ptxt>Set SST so that it fits in the notch of the converter hub and in the outer race of the 1-way clutch.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-32014</s-number>
+<s-subnumber>09351-32020</s-subnumber>
+</sstitem>
+</sst>
+</s3>
+<s3>
+<ptxt>With the torque converter standing on its side, check that the clutch locks when SST is turned counterclockwise and rotates freely and smoothly when SST is turned clockwise.</ptxt>
+<figure>
+<graphic graphicname="D029377E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If the results are not as specified, clean the converter and recheck the 1-way clutch.</ptxt>
+<ptxt>If the results still are not as specified even after cleaning the converter, replace the converter.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Determine the condition of the torque converter clutch.</ptxt>
+<figure>
+<graphic graphicname="D025367E04" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s3>
+<ptxt>Check that the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>During the stall test or when the shift lever is on N, metallic sounds are not emitted from the torque converter clutch.</ptxt>
+</item>
+<item>
+<ptxt>The 1-way clutch turns in one direction and locks in the other direction.</ptxt>
+</item>
+<item>
+<ptxt>The amount of powder in the ATF is not greater than the sample shown in the illustration.</ptxt>
+</item>
+</list1>
+<ptxt>If the results are not as specified, replace the torque converter clutch assembly.</ptxt>
+<atten4>
+<ptxt>The sample illustration shows approximately 0.25 liters (0.26 US qts, 0.22 Imp. qts) of the ATF taken from a removed torque converter clutch.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Replace the ATF in the torque converter clutch.</ptxt>
+<s3>
+<ptxt>If the ATF is discolored and/or has a foul odor, stir the ATF in the torque converter clutch thoroughly and drain the ATF with the torque converter facing up.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Clean and check the oil cooler and oil pipe line.</ptxt>
+<s3>
+<ptxt>If the torque converter clutch is inspected or the ATF is replaced, clean the oil cooler and oil pipe line.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Apply 196 kPa (2 kgf/cm<sup>2</sup>, 28 psi) of compressed air to the inlet hose.</ptxt>
+</item>
+<item>
+<ptxt>If a large amount of powder is found in the ATF, add new ATF using a bucket pump and clean the oil cooler and oil pipe line again.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+<s3>
+<ptxt>If the ATF is cloudy, inspect the oil cooler (radiator).</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Prevent deformation of the torque converter clutch and damage to the oil pump gear.</ptxt>
+<figure>
+<graphic graphicname="D025368E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>When any marks due to interference are found on the end of a bolt for the torque converter clutch and on the bottom of the bolt hole, replace the bolt and torque converter clutch.</ptxt>
+</s3>
+<s3>
+<ptxt>Make sure all of the bolts are the same length.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NN01QX_01_0002" proc-id="RM21Q0EV__00000ZZ00000">
+<ptxt>INSPECT DRIVE PLATE AND RING GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191483E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Set up a dial indicator and measure the runout of the 6 portions around the torque converter fitting surfaces.</ptxt>
+<spec>
+<title>Maximum runout</title>
+<specitem>
+<ptxt>0.30 mm (0.0118 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the runout is more than the maximum or if the ring gear is damaged, replace the drive plate (See page <xref label="Seep01" href="RM000000YMQ01LX"/>).</ptxt>
+<torque>
+<torqueitem>
+<t-value1>74</t-value1>
+<t-value2>755</t-value2>
+<t-value4>55</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

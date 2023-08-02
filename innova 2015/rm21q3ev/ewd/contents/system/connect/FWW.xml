@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="conn" code="C14" subcode="B">
+		<pin no="3">
+			<line id="1" color="L-B">
+				<connector type="w2w" code="II3" sex="male">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C14" subcode="B">
+		<pin no="4">
+			<line id="2" color="L-Y">
+				<connector type="w2w" code="II3" sex="male">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C14" subcode="B">
+		<pin no="1">
+			<line id="3" color="W-G">
+				<connector type="w2w" code="II3" sex="male">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C14" subcode="B">
+		<pin no="2">
+			<line id="4" color="L-W">
+				<connector type="jbc" code="2S">
+					<pin no="26"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C13" subcode="A">
+		<pin no="2">
+			<line id="5" color="W-B">
+				<connector type="gp" code="IH">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C13" subcode="A">
+		<pin no="3">
+			<line id="6" color="B-R">
+				<connector type="w2w" code="II3" sex="male">
+					<pin no="13"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II3" sex="female">
+		<pin no="13">
+			<line id="7" color="B-R">
+				<connector type="conn" code="W2">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="W3">
+		<pin no="1">
+			<line id="8" color="L-B">
+				<connector type="w2w" code="II3" sex="female">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="W2">
+		<pin no="1">
+			<line id="9" color="L-W" spec="w/ Rear Wiper and Washer">
+				<connector type="conn" code="J2" subcode="A">
+					<pin no="8"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="W2">
+		<pin no="1">
+			<line id="10" color="L-W" spec="w/o Rear Wiper and Washer">
+				<connector type="jbc" code="2L">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J2" subcode="A">
+		<pin no="7">
+			<line id="11" color="L-W">
+				<connector type="jbc" code="2L">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="W3">
+		<pin no="4">
+			<line id="12" color="L-Y">
+				<connector type="w2w" code="II3" sex="female">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="EA">
+		<pin>
+			<line id="13" color="W-B">
+				<connector type="conn" code="W3">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="W3">
+		<pin no="3">
+			<line id="14" color="W-G">
+				<connector type="w2w" code="II3" sex="female">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="W3">
+		<pin no="2">
+			<line id="15" color="L-W">
+				<connector type="jbc" code="2M">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

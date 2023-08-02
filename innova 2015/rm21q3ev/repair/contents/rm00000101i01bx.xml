@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000101I01BX" category="L" type-id="3001A" name-id="BC071-38" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM00000101I01BX_z0" proc-id="RM21Q0EV__00001LZ00000">
+<content5 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>When there are problems with contact points of the terminals and improper part installation, the installation / removal of the suspected part may return the system to normal or may only temporarily return the system to normal.</ptxt>
+</item>
+<item>
+<ptxt>To determine the malfunctioning area, use DTCs, freeze frame data and other data to help determine conditions at the time of the malfunction. Write down the data before disconnecting connectors or installing / removing parts.</ptxt>
+</item>
+<item>
+<ptxt>The Anti-lock Brake System (ABS) may be affected by malfunctions in other systems. Check for DTCs in other systems and, if present, troubleshoot those DTCs first.</ptxt>
+</item>
+<item>
+<ptxt>Unless specified, the ignition switch must be OFF when installing / removing the brake actuator and the ABS's connectors.</ptxt>
+</item>
+<item>
+<ptxt>After the brake actuator or an ABS connector has been removed and reinstalled, be sure to check for DTCs. Also, perform the test mode inspection to make sure the part is functioning normally.</ptxt>
+</item>
+</list1>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable from the negative (-) battery terminal, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

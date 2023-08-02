@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A838_T007M" variety="T007M">
+<name>WINDOW DEFOGGER SYSTEM</name>
+<para id="RM000004QND00KX" category="U" type-id="303FI" name-id="WS5NT-09" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000004QND00KX_z0" proc-id="RM21Q0EV__00004YB00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<figure>
+<graphic graphicname="B285024E02" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step1>
+<step1>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<figure>
+<graphic graphicname="B294251E06" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQD00JX" category="C" type-id="302C4" name-id="ES10OF-001" from="201202">
+<dtccode>P0110/24</dtccode>
+<dtcname>Intake Air Temperature Circuit</dtcname>
+<dtccode>P0112/24</dtccode>
+<dtcname>Intake Air Temperature Circuit Low Input</dtcname>
+<dtccode>P0113/24</dtccode>
+<dtcname>Intake Air Temperature Circuit High Input</dtcname>
+<subpara id="RM000000ZQD00JX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000AA00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<list1 type="nonmark">
+<figure>
+<graphic graphicname="A056276E07" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<item>
+<ptxt>The Intake Air Temperature (IAT) sensor is built into the mass air flow (MAF) meter, and monitors the intake air temperature. The IAT sensor has a built-in thermistor that varies its resistance depending on the temperature of the intake air. When the air temperature is low, the resistance in the thermistor increases. When the temperature is high, the resistance drops. The variations in resistance are communicated to the ECM as changes in voltage (see figure 1).</ptxt>
+</item>
+<item>
+<ptxt>The IAT sensor is connected to the ECM. The 5 V power source voltage in the ECM is applied to the IAT sensor from terminal THA via resistor R.</ptxt>
+</item>
+<item>
+<ptxt>Resistor R and IAT sensor are connected in series. When the resistance value of the IAT sensor changes in accordance with changes in the intake air temperature, the voltage at terminal THA also changes. Based on this signal, the ECM increases the fuel injection volume to improve driveability during cold engine operation.</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.06in"/>
+<colspec colname="COL3" colwidth="1.78in"/>
+<colspec colname="COL4" colwidth="4.24in"/>
+<thead>
+<row>
+<entry>
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry>
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0110/24</ptxt>
+</entry>
+<entry>
+<ptxt>Open or short in intake air temperature sensor circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in IAT sensor circuit </ptxt>
+</item>
+<item>
+<ptxt>IAT sensor (built into MAF meter)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0112/24</ptxt>
+</entry>
+<entry>
+<ptxt>Short in intake air temperature sensor circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Short in IAT sensor circuit </ptxt>
+</item>
+<item>
+<ptxt>IAT sensor (built into MAF meter)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0113/24</ptxt>
+</entry>
+<entry>
+<ptxt>Open in intake air temperature sensor circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open in IAT sensor circuit </ptxt>
+</item>
+<item>
+<ptxt>IAT sensor (built into MAF meter)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>When DTC P0110/24, P0112/24 or P0113/24 is detected, check the intake air temperature by entering the following menus on the intelligent tester: Powertrain / Engine and ECT / Data List / Intake Air.</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.01in"/>
+<colspec colname="COL2" colwidth="4.07in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Temperature Displayed</ptxt>
+</entry>
+<entry>
+<ptxt>Malfunction</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>-40°C (-40°F)</ptxt>
+</entry>
+<entry>
+<ptxt>Open circuit</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>140°C (284°F) or more</ptxt>
+</entry>
+<entry>
+<ptxt>Short circuit</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQD00JX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000AB00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The ECM monitors the sensor voltage and uses this value to calculate the IAT. When the sensor output voltage deviates from the normal operating range, the ECM interprets this as a fault in the IAT sensor and sets a DTC.</ptxt>
+<ptxt>Example:</ptxt>
+<ptxt>When the sensor voltage output is -40°C (-40°F) (P0113/24) or more than 140°C (284°F) (P0112/24) and if either condition continues for 0.5 seconds or more.</ptxt>
+<ptxt>This monitor runs for 0.5 seconds after the ignition switch is turned ON (1 trip detection logic).</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQD00JX_03" type-id="32" category="03" proc-id="RM21Q0EV__00000AC00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A119255E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQD00JX_04" type-id="51" category="05" proc-id="RM21Q0EV__00000AD00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If DTCs related to different systems that have terminal E2 as the ground terminal are output simultaneously, terminal E2 may have an open circuit.</ptxt>
+</item>
+<item>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQD00JX_05" type-id="54" category="05">
+<name>When using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQD00JX_06" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQD00JX_06_0020" proc-id="RM21Q0EV__00000AJ00000">
+<testtitle>READ OUTPUT DTC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read DTCs.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed To</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0110/24</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0112/24</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0113/24</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_06_0001" fin="false">A</down>
+<right ref="RM000000ZQD00JX_06_0008" fin="false">B</right>
+<right ref="RM000000ZQD00JX_06_0002" fin="false">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0001" proc-id="RM21Q0EV__00000AE00000">
+<testtitle>READ DATA LIST (INTAKE AIR TEMPERATURE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Intake Air.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Temperature value is same as the actual intake air temperature.</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Temperature Displayed</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>-40°C (-40°F)</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>140°C (284°F) or more</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OK (same as actual intake air temperature)</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If there is an open circuit, the intelligent tester indicates -40°C (-40°F).</ptxt>
+</item>
+<item>
+<ptxt>If there is a short circuit, the intelligent tester indicates 140°C (284°F) or more.</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_06_0002" fin="false">A</down>
+<right ref="RM000000ZQD00JX_06_0008" fin="false">B</right>
+<right ref="RM000000ZQD00JX_06_0004" fin="true">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0002" proc-id="RM21Q0EV__00000AF00000">
+<testtitle>READ DATA LIST (CHECK FOR OPEN IN WIRE HARNESS)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A098511E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect terminals THA and E2 of the A4 MAF meter wire harness side connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Intake Air.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Temperature value is 140°C (284°F) or more</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_06_0003" fin="false">NG</down>
+<right ref="RM000000ZQD00JX_06_0005" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0003" proc-id="RM21Q0EV__00000AG00000">
+<testtitle>READ DATA LIST (CHECK FOR OPEN IN ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G039231E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect terminals THA and E2 of the E11and E12 ECM connectors.</ptxt>
+<atten4>
+<ptxt>Before checking, perform a visual and contact pressure check on the ECM connector.</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Intake Air.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Temperature value is 140°C (284°F) or more</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_06_0007" fin="true">NG</down>
+<right ref="RM000000ZQD00JX_06_0006" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0004">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0005">
+<testtitle>CONFIRM GOOD CONNECTION AT SENSOR. IF OK, REPLACE MASS AIR FLOW METER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0007">
+<testtitle>CONFIRM GOOD CONNECTION AT ECM. IF OK, REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0008" proc-id="RM21Q0EV__00000AH00000">
+<testtitle>READ DATA LIST (CHECK FOR SHORT IN WIRE HARNESS)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A096475E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Intake Air.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Temperature value is -40°C (-40°F)</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_06_0009" fin="false">NG</down>
+<right ref="RM000000ZQD00JX_06_0010" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0009" proc-id="RM21Q0EV__00000AI00000">
+<testtitle>READ DATA LIST (CHECK FOR SHORT IN ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G039257E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Intake Air.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Temperature value is -40°C (-40°F)</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_06_0012" fin="true">NG</down>
+<right ref="RM000000ZQD00JX_06_0011" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0010">
+<testtitle>REPLACE MASS AIR FLOW METER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0011">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_06_0012">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+<subpara id="RM000000ZQD00JX_07" type-id="55" category="05">
+<name>When not using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQD00JX_08" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQD00JX_08_0013" proc-id="RM21Q0EV__00000AK00000">
+<testtitle>CHECK ECM (THA VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E15" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage between terminals THA and E2 of the ECM connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Intake Air Temperature</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 3.4 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>60°C (140°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.2 to 1.0 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_08_0014" fin="false">NG</down>
+<right ref="RM000000ZQD00JX_08_0016" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_08_0014" proc-id="RM21Q0EV__00000AL00000">
+<testtitle>INSPECT INTAKE AIR TEMPERATURE SENSOR (MASS AIR FLOW METER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Inspect the intake air temperature sensor (see page <xref label="Seep01" href="RM000000Q2D08GX_01_0001"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_08_0015" fin="false">OK</down>
+<right ref="RM000000ZQD00JX_08_0017" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_08_0015" proc-id="RM21Q0EV__00000AM00000">
+<testtitle>CHECK WIRE HARNESS (ECM - MAF METER)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034687E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E11 and E12 ECM connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.4214754in"/>
+<colspec colnum="2" colname="c2" colwidth="1.7643286in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-29 (THA) - A4-4 (THA)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-28 (E2) - A4-5 (E2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-29 (THA) or A4-4 (THA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQD00JX_08_0019" fin="true">OK</down>
+<right ref="RM000000ZQD00JX_08_0018" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_08_0016">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_08_0017">
+<testtitle>REPLACE MASS AIR FLOW METER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_08_0018">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQD00JX_08_0019">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

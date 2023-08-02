@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7WZ_T001D" variety="T001D">
+<name>1TR-FE EMISSION CONTROL</name>
+<para id="RM0000020QU003X" category="F" type-id="30028" name-id="SS24X-05" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000020QU003X_z0" proc-id="RM21Q0EV__000003I00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Purge VSV</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Purge VSV x Intake manifold</ptxt>
+</entry>
+<entry>
+<ptxt>9.0</ptxt>
+</entry>
+<entry>
+<ptxt>92</ptxt>
+</entry>
+<entry>
+<ptxt>80 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>PCV valve</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Ventilation valve sub-assembly x Cylinder head cover</ptxt>
+</entry>
+<entry>
+<ptxt>5.0</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+<entry>
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Heated oxygen sensor</title>
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Heated oxygen sensor x Front exhaust pipe</ptxt>
+</entry>
+<entry>
+<ptxt>For use with SST</ptxt>
+</entry>
+<entry>
+<ptxt>40</ptxt>
+</entry>
+<entry>
+<ptxt>408</ptxt>
+</entry>
+<entry>
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>For use without SST</ptxt>
+</entry>
+<entry>
+<ptxt>44</ptxt>
+</entry>
+<entry>
+<ptxt>449</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

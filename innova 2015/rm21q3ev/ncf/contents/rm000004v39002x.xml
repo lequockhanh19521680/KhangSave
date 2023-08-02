@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12061_S000Y" variety="S000Y">
+<name>HEATING / AIR CONDITIONING</name>
+<ttl id="12061_S000Y_7AI7Y_T000I" variety="T000I">
+<name>AIR CONDITIONING SYSTEM</name>
+<para id="RM000004V39002X" category="F" type-id="8048W" name-id="ACE29-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004V39002X_z0" proc-id="NM21Q0EV__000001900000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A manual air conditioning system and automatic air conditioning system are used.</ptxt>
+</step2>
+<step2>
+<ptxt>A rear cooler system is used.</ptxt>
+</step2>
+<step2>
+<ptxt>The automatic air conditioning is provided with a partial recirculation system, which improves heating performance.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<step2>
+<ptxt>Performance</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.70in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.98in"/>
+<colspec colname="COL4" colwidth="1.98in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Model</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Front</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Rear</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Heater</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Heater Output</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5000 W</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air Flow Volume</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>320 m<sup>3</sup>/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Power Consumption</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>190 W</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Cooler</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooling Capacity</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4600 W</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3000 W</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air Flow Volume</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>470 m<sup>3</sup>/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>280 m<sup>3</sup>/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Power Consumption</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>220 W</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>180 W</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Ventilation and Heater Radiator</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.70in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.98in"/>
+<colspec colname="COL4" colwidth="1.98in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Model</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Front</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Rear</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Heater Radiator Unit Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Straight Flow Aluminum-II (SFA-II)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Size</ptxt>
+<ptxt>W x H x L</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>201.5 mm x 150 mm x 21 mm</ptxt>
+<ptxt>(7.9 in. x 5.9 in. x 0.8 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fin Pitch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.8 mm (0.07 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Blower with Fan Motor Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Motor Type</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>K62-12.5T</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>K62F-13.5W</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fan Type</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Semi Shroud Fan</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Semi Shroud Fan</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fan Size</ptxt>
+<ptxt>Dia. x H</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>155 mm x 65 mm (6.1 in. x 2.6 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>150 mm x 70 mm (5.9 in. x 2.8 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Air Conditioning</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.70in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.98in"/>
+<colspec colname="COL4" colwidth="1.98in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Model</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Front</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Rear</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Cooler Condenser Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>Multi-Flow-IV (MF-IV) Sub-cool</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Size</ptxt>
+<ptxt>W x H x L</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>620 mm x 485.4 mm x 16 mm</ptxt>
+<ptxt>(24.4 in. x 19.1 in. x 0.6 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fin Pitch</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>3.55 mm (0.13 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>No. 1 Cooler Evaporator Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>Revolutionary Super-slim Structure (RS)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Size</ptxt>
+<ptxt>W x H x L</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>226.1 mm x 241 mm x 38 mm</ptxt>
+<ptxt>(8.9 in. x 9.5 in. x 1.5 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>118.9 mm x 251 mm x 38 mm</ptxt>
+<ptxt>(4.7 in. x 9.9 in. x 1.5 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fin Pitch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.0 mm (0.11 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.0 mm (0.11 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Cooler Compressor Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>10S15C</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Pulley</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>Magnetic Clutch</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Refrigerant</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>R134a</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Charge Volume</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle">
+<ptxt>700 g</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>MAIN FEATURES</ptxt>
+<step2>
+<ptxt>The air conditioning system has the following features:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Feature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Manual and Automatic Common</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The following parts are used to ensure high cooling performance while achieving a compact and lightweight construction:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Semi-center Location Air Conditioning Unit</ptxt>
+</item>
+<item>
+<ptxt>Revolutionary Super-slim Structure (RS) Evaporator</ptxt>
+</item>
+<item>
+<ptxt>Straight Flow Aluminum-II (SFA-II) Heater Radiator</ptxt>
+</item>
+<item>
+<ptxt>Multi-Flow-IV (MF-IV) Sub-cool Condenser</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Defroster control logic is used to improve defroster performance.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROW_T009Y" variety="T009Y">
+<name>AIR CONDITIONING PANEL (for Manual Air Conditioning System)</name>
+<para id="RM0000012K9015X" category="A" type-id="30014" name-id="ACE5E-02" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000012K9015X_01" type-id="01" category="01">
+<s-1 id="RM0000012K9015X_01_0007" proc-id="RM21Q0EV__000049S00000">
+<ptxt>CONNECT HEATER CONTROL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E227819" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the 2 claws to install the heater control cable sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012K9015X_01_0008" proc-id="RM21Q0EV__000049T00000">
+<ptxt>CONNECT AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225081" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the 2 claws to install the air inlet damper control cable sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012K9015X_01_0001" proc-id="RM21Q0EV__000049R00000">
+<ptxt>INSTALL AIR CONDITIONING CONTROL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector and install the air conditioning control assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012K9015X_01_0009" proc-id="RM21Q0EV__000049U00000">
+<ptxt>INSTALL HEATER CONTROL KNOB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225818" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the heater control knob as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012K9015X_01_0010" proc-id="RM21Q0EV__000049V00000">
+<ptxt>INSTALL NO. 2 HEATER CONTROL KNOB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225819" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the No. 2 heater control knob as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012K9015X_01_0023" proc-id="RM21Q0EV__00004F300000">
+<ptxt>INSTALL COOLER SWITCH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to install the cooler switch.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012K9015X_01_0020" proc-id="RM21Q0EV__00003AO00000">
+<ptxt>INSTALL CENTER INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 4 claws to connect the air conditioning control.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012K9015X_01_0021" proc-id="RM21Q0EV__00003AS00000">
+<ptxt>INSTALL CENTER LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws and 2 clips to install the center lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

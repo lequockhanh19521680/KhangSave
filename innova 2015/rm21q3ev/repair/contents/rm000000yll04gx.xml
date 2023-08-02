@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YF_T002T" variety="T002T">
+<name>FUEL PUMP</name>
+<para id="RM000000YLL04GX" category="A" type-id="80001" name-id="FU0QJ-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000YLL04GX_01" type-id="01" category="01">
+<s-1 id="RM000000YLL04GX_01_0001" proc-id="RM21Q0EV__00000OU00000">
+<ptxt>REMOVE FUEL TANK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the fuel tank from the vehicle (see page <xref label="Seep01" href="RM000000YLT070X"/>). </ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLL04GX_01_0008" proc-id="RM21Q0EV__00000OZ00000">
+<ptxt>REMOVE FUEL SUCTION WITH PUMP AND GAUGE ASSEMBLY FROM FUEL TANK
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 tube joint clips and pull out the 2 fuel pump tubes.</ptxt>
+<figure>
+<graphic graphicname="A099141E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Before beginning this procedure, check for foreign matter in the fuel pump and gauge tube. Clean if necessary.</ptxt>
+<figure>
+<graphic graphicname="A060575E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</item>
+<item>
+<ptxt>Keep the O-ring free of foreign matter, as it becomes contaminated easily.</ptxt>
+</item>
+<item>
+<ptxt>Do not use any tools in this procedure.</ptxt>
+</item>
+<item>
+<ptxt>Do not forcefully bend or twist the tube.</ptxt>
+</item>
+<item>
+<ptxt>Put the tube in a plastic bag to prevent damage and contamination.</ptxt>
+</item>
+<item>
+<ptxt>Protect the fuel pump and gauge tube's joint with tape or equivalent to prevent contamination from foreign matter.</ptxt>
+</item>
+<item>
+<ptxt>If the fuel suction tube and tube are stuck together, pinch the tube and turn it carefully to disconnect it.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Press down on the fuel pump and remove the 8 bolts and set plate.</ptxt>
+<figure>
+<graphic graphicname="G038820E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When the retainer is loosened, be careful as the fuel pump will spring upward from the force of the spring.</ptxt>
+</item>
+<item>
+<ptxt>Clean the fuel suction tube before this operation.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the fuel gauge tube from the fuel tank.</ptxt>
+<atten3>
+<ptxt>Be careful not to bend the arm of the fuel sender gauge.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the gasket from the fuel tank.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLL04GX_01_0003" proc-id="RM21Q0EV__00000OV00000">
+<ptxt>REMOVE FUEL SENDER GAUGE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the fuel sender gauge connector.</ptxt>
+<figure>
+<graphic graphicname="A129516E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press down on the sender gauge claw labeled A. Then slide the sender gauge upward.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLL04GX_01_0004" proc-id="RM21Q0EV__00000OW00000">
+<ptxt>REMOVE NO. 1 FUEL SUB-TANK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the fuel pump connector.</ptxt>
+<figure>
+<graphic graphicname="A129517" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a small screwdriver, detach the claw on the end of the tube from the claw hole. Disconnect the tube from the 2 clamps.</ptxt>
+<figure>
+<graphic graphicname="G035043E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the sub-tank cap.</ptxt>
+<figure>
+<graphic graphicname="A129518" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Disconnect the 2 fuel tubes and fuel pump harness.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a screwdriver, detach the 3 claws from the claw holes and remove the sub-tank cap.</ptxt>
+<figure>
+<graphic graphicname="A129519" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Using needle-nose pliers, remove the 2 E-rings.</ptxt>
+<figure>
+<graphic graphicname="A129520E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Slightly lower the sub-tank cap to remove the E-rings.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the 2 springs.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws from the claw holes and remove the fuel sub-tank.</ptxt>
+<figure>
+<graphic graphicname="A099803E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not damage the fuel sub-tank.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLL04GX_01_0005" proc-id="RM21Q0EV__00000OX00000">
+<ptxt>REMOVE FUEL PUMP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver, detach the 3 claws from the claw holes and disconnect the fuel pump and suction filter.</ptxt>
+<figure>
+<graphic graphicname="A099805E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the fuel pump harness.</ptxt>
+<figure>
+<graphic graphicname="A099806E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the fuel pump.</ptxt>
+<figure>
+<graphic graphicname="A129521E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLL04GX_01_0007" proc-id="RM21Q0EV__00000OY00000">
+<ptxt>REMOVE NO. 1 FUEL SUCTION SUPPORT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws from the claw holes and remove the fuel suction support.</ptxt>
+<figure>
+<graphic graphicname="A099807E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

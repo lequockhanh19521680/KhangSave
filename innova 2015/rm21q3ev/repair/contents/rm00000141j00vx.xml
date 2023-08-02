@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YL_T002Z" variety="T002Z">
+<name>EMISSION CONTROL SYSTEM</name>
+<para id="RM00000141J00VX" category="G" type-id="8000T" name-id="EC0GN-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM00000141J00VX_01" type-id="01" category="01">
+<s-1 id="RM00000141J00VX_01_0001" proc-id="RM21Q0EV__00000Q600000">
+<ptxt>CHECK FOR LEAKS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Visually check that the hoses, connections and gaskets have no cracks, leaks or damage.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Detachment or other problems with the engine oil dipstick, filler cap, PCV hose and other components may cause the engine to run improperly.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Air suction caused by disconnections, looseness or cracks in the parts of the air induction system between the throttle body and cylinder head will cause engine failure or engine malfunctions.</ptxt>
+</item>
+</list1>
+</atten3>
+<ptxt>If the result is not as specified, replace parts as necessary.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000141J00VX_01_0002" proc-id="RM21Q0EV__00000Q700000">
+<ptxt>CHECK PURGE VSV</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099569E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check that the vacuum hose is connected correctly.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the vacuum hose from the canister, and connect a vacuum gauge.</ptxt>
+</s2>
+<s2>
+<ptxt>Using the flowchart below, perform a purge VSV operation inspection when the engine coolant temperature is 55°C (131°F) or less (while the engine is cold (purge VSV is closed)).</ptxt>
+<atten4>
+<ptxt>The ECM turns the purge VSV off so that the route between the canister and intake manifold is closed, and fuel vapor in the canister is not purged to the intake manifold.</ptxt>
+</atten4>
+<s3>
+<ptxt>Purge VSV operation flowchart.</ptxt>
+<ptxt>1. When the engine is idling or running at 2,500 rpm, the vacuum gauge indicates 1 kPa (25 mmHg, 0.3 in.Hg) or less.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Yes</ptxt>
+</entry>
+<entry>
+<ptxt>Purge VSV operation normal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No</ptxt>
+</entry>
+<entry>
+<ptxt>Go to next step</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>2. Inspect the purge VSV (see page <xref label="Seep01" href="RM000001426014X"/>).</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>OK</ptxt>
+</entry>
+<entry>
+<ptxt>Check wire harness and ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>NG</ptxt>
+</entry>
+<entry>
+<ptxt>Replace purge VSV</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+<s2>
+<ptxt>Using the flowchart below, perform a purge VSV operation inspection when the engine coolant temperature is 80°C (146°F) or more (while the engine is hot (purge VSV is opened)).</ptxt>
+<atten4>
+<ptxt>The ECM turns the purge VSV on so that a vacuum is created in the intake manifold and the canister's fuel vapors are purged to the intake manifold.</ptxt>
+</atten4>
+<s3>
+<ptxt>Purge VSV operation flowchart.</ptxt>
+<ptxt>1. When the engine is idling, the vacuum gauge indicates 40 kPa (300 mmHg, 11.8 in.Hg) or more.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Yes</ptxt>
+</entry>
+<entry>
+<ptxt>Purge VSV operation normal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No</ptxt>
+</entry>
+<entry>
+<ptxt>Go to next step</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>2. Inspect the purge VSV (see page <xref label="Seep02" href="RM000001426014X"/>).</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>OK</ptxt>
+</entry>
+<entry>
+<ptxt>Check wire harness and ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>NG</ptxt>
+</entry>
+<entry>
+<ptxt>Replace purge VSV</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

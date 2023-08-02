@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db>
+<pub id="NM21Q3EV">
+<servcat id="V0">
+<name>INTRODUCTION</name>
+<shortname>INTRODUCTION</shortname><section id="13101_S0015" variety="S0015" category="TO" volume="1">
+<name>FOREWORD / CAUTION / SECTION</name>
+<seq no="130"/>
+<sub-servcat id="V0" type="2">
+<name>INTRODUCTION</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="13101_S0015_7AHOF_T000A" variety="T000A">
+<name>FOREWORD</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM0000051LW000X" category="F" type-id="32000" name-id="TO044-01" from="201202">
+<name>FOREWORD</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="V1">
+<name>General</name>
+<shortname>General</shortname><section id="12001_S0001" variety="S0001" category="IN" volume="1">
+<name>INTRODUCTION</name>
+<seq no="1"/>
+<sub-servcat id="V1" type="2">
+<name>General</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12001_S0001_7AJVJ_T000W" variety="T000W">
+<name>FEATURES</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S3Y001X" category="F" type-id="80490" name-id="IN0WP-02" from="201202">
+<name>MODEL CODE AND LINE-UP</name>
+</para>
+<para id="RM000004S3Z001X" category="F" type-id="80491" name-id="IN0WQ-01" from="201202">
+<name>EXTERIOR APPEARANCE</name>
+</para>
+<para id="RM000004S40001X" category="F" type-id="80492" name-id="IN0WR-02" from="201202">
+<name>PERFORMANCE</name>
+</para>
+
+<para id="RM000004S41002X" category="F" type-id="80493" name-id="IN0WS-03" from="201403">
+<name>EQUIPMENT</name>
+</para>
+</ttl>
+</section>
+<section id="12003_S0002" variety="S0002" category="SS" volume="1">
+<name>SPECIFICATIONS</name>
+<seq no="4"/>
+<sub-servcat id="V1" type="2">
+<name>General</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12003_S0002_7AJWP_T000Z" variety="T000Z">
+<name>MAJOR TECHNICAL SPECIFICATIONS</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+
+<para id="RM000004VQI003X" category="F" type-id="8048W" name-id="SS51O-02" from="201303">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<shortname>Engine / Hybrid System</shortname><section id="12005_S0003" variety="S0003" category="ES" volume="1">
+<name>1TR-FE ENGINE CONTROL</name>
+<seq no="8"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12005_S0003_7AH5P_T0001" variety="T0001">
+<name>SFI SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004VN0001X" category="F" type-id="8048W" name-id="ESY05-02" from="201202">
+<name>GENERAL</name>
+</para>
+
+<para id="RM000004RAD004X" category="F" type-id="8048X" name-id="ESVT7-04" from="201403">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004RAE002X" category="F" type-id="8048Y" name-id="ESVT6-03" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+
+<para id="RM000004VN1003X" category="F" type-id="8048Z" name-id="ESY04-03" from="201403">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12007_S0004" variety="S0004" category="EM" volume="1">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<seq no="12"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12007_S0004_7AH5Q_T0002" variety="T0002">
+<name>ENGINE UNIT</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RAG002X" category="F" type-id="8048W" name-id="EM9YR-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RAH002X" category="F" type-id="8048Z" name-id="EM9WA-03" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12008_S0005" variety="S0005" category="FU" volume="1">
+<name>1TR-FE FUEL</name>
+<seq no="13"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12008_S0005_7AH5R_T0003" variety="T0003">
+<name>FUEL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RAI002X" category="F" type-id="8048W" name-id="FU7NA-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RAJ002X" category="F" type-id="8048Y" name-id="FU7KV-03" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004RAK002X" category="F" type-id="8048Z" name-id="FU7KW-03" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12009_S0006" variety="S0006" category="EC" volume="1">
+<name>1TR-FE EMISSION CONTROL</name>
+<seq no="14"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12009_S0006_7AH5S_T0004" variety="T0004">
+<name>EMISSION CONTROL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004QPM002X" category="F" type-id="8048W" name-id="EC42U-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004QPN002X" category="F" type-id="8048X" name-id="EC42D-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004RAM002X" category="F" type-id="8048Y" name-id="EC42K-03" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004QPP002X" category="F" type-id="8048Z" name-id="EC42F-03" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12010_S0007" variety="S0007" category="IE" volume="1">
+<name>1TR-FE INTAKE / EXHAUST</name>
+<seq no="15"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12010_S0007_7AH5T_T0005" variety="T0005">
+<name>INTAKE SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RAO002X" category="F" type-id="8048W" name-id="IE1IP-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RAP002X" category="F" type-id="8048Y" name-id="IE1GO-02" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004RAQ002X" category="F" type-id="8048Z" name-id="IE1GP-02" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+<ttl id="12010_S0007_7AH5U_T0006" variety="T0006">
+<name>EXHAUST SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RAR002X" category="F" type-id="8048W" name-id="IE1GQ-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RAS002X" category="F" type-id="8048Y" name-id="IE1GR-03" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+</ttl>
+</section>
+<section id="12011_S0008" variety="S0008" category="CO" volume="1">
+<name>1TR-FE COOLING</name>
+<seq no="18"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12011_S0008_7AH5V_T0007" variety="T0007">
+<name>COOLING SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RAT002X" category="F" type-id="8048W" name-id="CO5C8-02" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RAU002X" category="F" type-id="8048X" name-id="CO590-02" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+</ttl>
+</section>
+<section id="12012_S0009" variety="S0009" category="LU" volume="1">
+<name>1TR-FE LUBRICATION</name>
+<seq no="19"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12012_S0009_7AH5W_T0008" variety="T0008">
+<name>LUBRICATION SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RAV004X" category="F" type-id="8048W" name-id="LU37K-05" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RAW004X" category="F" type-id="8048X" name-id="LU36Q-05" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004RAX004X" category="F" type-id="8048Z" name-id="LU36R-04" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12013_S000A" variety="S000A" category="ST" volume="1">
+<name>1TR-FE STARTING</name>
+<seq no="21"/>
+<sub-servcat id="51" type="2">
+<name>Engine / Hybrid System</name>
+</sub-servcat>
+<ttl id="12013_S000A_7AH5X_T0009" variety="T0009">
+<name>STARTING SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RAY002X" category="F" type-id="8048W" name-id="ST5BR-02" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="52">
+<name>Drivetrain</name>
+<shortname>Drivetrain</shortname><section id="12016_S000B" variety="S000B" category="AT" volume="1">
+<name>A45DE AUTOMATIC TRANSMISSION / TRANSAXLE</name>
+<seq no="28"/>
+<sub-servcat id="52" type="2">
+<name>Drivetrain</name>
+</sub-servcat>
+<ttl id="12016_S000B_7AIQN_T000Q" variety="T000Q">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004SRY003X" category="F" type-id="8048W" name-id="AT828-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004SRZ003X" category="F" type-id="8048X" name-id="AT829-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM00000525I000X" category="F" type-id="8048Y" name-id="AT9CT-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM00000525J000X" category="F" type-id="8048Z" name-id="AT9CU-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12018_S000C" variety="S000C" category="CL" volume="1">
+<name>CLUTCH</name>
+<seq no="31"/>
+<sub-servcat id="52" type="2">
+<name>Drivetrain</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12018_S000C_7AIQO_T000R" variety="T000R">
+<name>CLUTCH SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004SS2003X" category="F" type-id="8048W" name-id="CL1TF-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+<section id="12019_S000D" variety="S000D" category="MT" volume="1">
+<name>G58 MANUAL TRANSMISSION / TRANSAXLE</name>
+<seq no="33"/>
+<sub-servcat id="52" type="2">
+<name>Drivetrain</name>
+</sub-servcat>
+<ttl id="12019_S000D_7AIQP_T000S" variety="T000S">
+<name>MANUAL TRANSMISSION SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004SS3003X" category="F" type-id="8048W" name-id="MT1AA-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004SS4003X" category="F" type-id="8048Z" name-id="MT1AB-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12022_S000E" variety="S000E" category="DP" volume="1">
+<name>DRIVE SHAFT / PROPELLER SHAFT</name>
+<seq no="41"/>
+<sub-servcat id="52" type="2">
+<name>Drivetrain</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12022_S000E_7AIQQ_T000T" variety="T000T">
+<name>PROPELLER SHAFT SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004SS5004X" category="F" type-id="8048W" name-id="DP0PZ-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+<section id="12023_S000F" variety="S000F" category="AD" volume="1">
+<name>AXLE AND DIFFERENTIAL</name>
+<seq no="44"/>
+<sub-servcat id="52" type="2">
+<name>Drivetrain</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12023_S000F_7AIQR_T000U" variety="T000U">
+<name>AXLE SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004SS6004X" category="F" type-id="8048W" name-id="AD1JP-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+<ttl id="12023_S000F_7AIQS_T000V" variety="T000V">
+<name>DIFFERENTIAL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004SS7004X" category="F" type-id="8048W" name-id="AD1JQ-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004SS8005X" category="F" type-id="8048Z" name-id="AD1JR-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="53">
+<name>Suspension</name>
+<shortname>Suspension</shortname><section id="12026_S000G" variety="S000G" category="FP" volume="1">
+<name>FRONT SUSPENSION</name>
+<seq no="47"/>
+<sub-servcat id="53" type="2">
+<name>Suspension</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12026_S000G_7AKNO_T0010" variety="T0010">
+<name>FRONT SUSPENSION SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S15005X" category="F" type-id="8048W" name-id="FP14S-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S16005X" category="F" type-id="8048Y" name-id="FP14O-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+</ttl>
+</section>
+<section id="12027_S000H" variety="S000H" category="RP" volume="1">
+<name>REAR SUSPENSION</name>
+<seq no="49"/>
+<sub-servcat id="53" type="2">
+<name>Suspension</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12027_S000H_7AKNP_T0011" variety="T0011">
+<name>REAR SUSPENSION SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S17005X" category="F" type-id="8048W" name-id="RP15S-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S18005X" category="F" type-id="8048Y" name-id="RP15P-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+</ttl>
+</section>
+<section id="12029_S000I" variety="S000I" category="TW" volume="1">
+<name>TIRE / WHEEL</name>
+<seq no="52"/>
+<sub-servcat id="53" type="2">
+<name>Suspension</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12029_S000I_7AKNQ_T0012" variety="T0012">
+<name>TIRE AND WHEEL TYPE SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM00000529W000X" category="F" type-id="8048W" name-id="TW1M8-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="54">
+<name>Brake</name>
+<shortname>Brake</shortname><section id="12030_S000J" variety="S000J" category="BC" volume="1">
+<name>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</name>
+<seq no="53"/>
+<sub-servcat id="54" type="2">
+<name>Brake</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12030_S000J_7AKNR_T0013" variety="T0013">
+<name>BRAKE CONTROL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S1A004X" category="F" type-id="8048W" name-id="BCCAO-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S1B004X" category="F" type-id="8048X" name-id="BCC9X-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004S1C004X" category="F" type-id="8048Y" name-id="BCC9Y-04" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004S1D004X" category="F" type-id="8048Z" name-id="BCC9Z-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12031_S000K" variety="S000K" category="BR" volume="1">
+<name>BRAKE SYSTEM (OTHER)</name>
+<seq no="54"/>
+<sub-servcat id="54" type="2">
+<name>Brake</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12031_S000K_7AKNS_T0014" variety="T0014">
+<name>BRAKE SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004V46002X" category="F" type-id="8048W" name-id="BR5N7-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+<section id="12032_S000L" variety="S000L" category="FB" volume="1">
+<name>BRAKE (FRONT)</name>
+<seq no="55"/>
+<sub-servcat id="54" type="2">
+<name>Brake</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12032_S000L_7AKNT_T0015" variety="T0015">
+<name>FRONT BRAKE</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004W3G001X" category="F" type-id="8048W" name-id="FB0KJ-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+<section id="12033_S000M" variety="S000M" category="RB" volume="1">
+<name>BRAKE (REAR)</name>
+<seq no="57"/>
+<sub-servcat id="54" type="2">
+<name>Brake</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12033_S000M_7AKNU_T0016" variety="T0016">
+<name>REAR BRAKE</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004W3H001X" category="F" type-id="8048W" name-id="RB0NE-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+<section id="12034_S000N" variety="S000N" category="PB" volume="1">
+<name>PARKING BRAKE</name>
+<seq no="58"/>
+<sub-servcat id="54" type="2">
+<name>Brake</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12034_S000N_7AKNV_T0017" variety="T0017">
+<name>PARKING BRAKE SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S1H004X" category="F" type-id="8048W" name-id="PB2DN-01" from="201202">
+<name>GENERAL</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="55">
+<name>Steering</name>
+<shortname>Steering</shortname><section id="12036_S000O" variety="S000O" category="PA" volume="1">
+<name>POWER ASSIST SYSTEMS</name>
+<seq no="61"/>
+<sub-servcat id="55" type="2">
+<name>Steering</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12036_S000O_7AKNW_T0018" variety="T0018">
+<name>POWER STEERING SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S1I004X" category="F" type-id="8048W" name-id="PA10K-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S1J004X" category="F" type-id="8048Y" name-id="PA13O-03" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004S1K004X" category="F" type-id="8048Z" name-id="PA13P-03" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12038_S000P" variety="S000P" category="SR" volume="1">
+<name>STEERING COLUMN</name>
+<seq no="65"/>
+<sub-servcat id="55" type="2">
+<name>Steering</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12038_S000P_7AKNX_T0019" variety="T0019">
+<name>STEERING COLUMN SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S1L003X" category="F" type-id="8048W" name-id="SR3AU-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S1M003X" category="F" type-id="8048Y" name-id="SR3AR-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004S1N003X" category="F" type-id="8048Z" name-id="SR3AS-02" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="56">
+<name>Audio / Visual / Telematics</name>
+<shortname>Audio / Visual / Telematics</shortname><section id="12040_S000Q" variety="S000Q" category="AV" volume="1">
+<name>AUDIO / VIDEO</name>
+<seq no="68"/>
+<sub-servcat id="56" type="2">
+<name>Audio / Visual / Telematics</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12040_S000Q_7AI7X_T000H" variety="T000H">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+
+<para id="RM000005OJ4000X" category="F" type-id="8048W" name-id="AVFV9-01" from="201403">
+<name>GENERAL</name>
+</para>
+<para id="RM000005OJ5000X" category="F" type-id="8048X" name-id="AVFVA-01" from="201403">
+<name>SYSTEM DIAGRAM</name>
+</para>
+
+<para id="RM000004VSF003X" category="F" type-id="8048Y" name-id="AVB10-04" from="201403">
+<name>PARTS LOCATION</name>
+</para>
+
+<para id="RM000004VSG003X" category="F" type-id="8048Z" name-id="AVFVB-01" from="201403">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12044_S000R" variety="S000R" category="PM" volume="1">
+<name>PARK ASSIST / MONITORING</name>
+<seq no="73"/>
+<sub-servcat id="56" type="2">
+<name>Audio / Visual / Telematics</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12044_S000R_7AI82_T000L" variety="T000L">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004V31002X" category="F" type-id="8048W" name-id="PM4WW-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004V32002X" category="F" type-id="8048X" name-id="PM4WX-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004V33002X" category="F" type-id="8048Y" name-id="PM4WY-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004V34002X" category="F" type-id="8048Z" name-id="PM4WZ-03" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="58">
+<name>Vehicle Interior</name>
+<shortname>Vehicle Interior</shortname><section id="12051_S000S" variety="S000S" category="DL" volume="1">
+<name>DOOR LOCK</name>
+<seq no="83"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12051_S000S_7AHYU_T000C" variety="T000C">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RYB003X" category="F" type-id="8048W" name-id="DL77O-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RYC003X" category="F" type-id="8048X" name-id="DL76Y-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM0000051R8000X" category="F" type-id="8048Y" name-id="DL84Q-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004RYE003X" category="F" type-id="8048Z" name-id="DL770-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+<ttl id="12051_S000S_7AHYT_T000B" variety="T000B">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RYF003X" category="F" type-id="8048W" name-id="DL771-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RYG003X" category="F" type-id="8048X" name-id="DL772-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM0000051R9000X" category="F" type-id="8048Y" name-id="DL84R-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM0000051RA000X" category="F" type-id="8048Z" name-id="DL84S-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12052_S000T" variety="S000T" category="TD" volume="1">
+<name>THEFT DETERRENT / KEYLESS ENTRY</name>
+<seq no="84"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12052_S000T_7AHYY_T000D" variety="T000D">
+<name>THEFT DETERRENT</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RYK003X" category="F" type-id="8048W" name-id="TD5LU-02" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RYL003X" category="F" type-id="8048X" name-id="TD5LV-02" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM0000051RB000X" category="F" type-id="8048Y" name-id="TD6OE-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004RYN003X" category="F" type-id="8048Z" name-id="TD5LX-04" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12053_S000U" variety="S000U" category="LI" volume="1">
+<name>LIGHTING (INT)</name>
+<seq no="85"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12053_S000U_7AI9G_T000O" variety="T000O">
+<name>LIGHTING SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S4W003X" category="F" type-id="8048W" name-id="LI94Q-04" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S4X003X" category="F" type-id="8048X" name-id="LI94R-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004S4Y003X" category="F" type-id="8048Y" name-id="LI94S-04" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004S4Z003X" category="F" type-id="8048Z" name-id="LI94T-04" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12054_S000V" variety="S000V" category="ME" volume="1">
+<name>METER / GAUGE / DISPLAY</name>
+<seq no="86"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12054_S000V_7AI9E_T000M" variety="T000M">
+<name>METER / GAUGE SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+
+<para id="RM000004S50004X" category="F" type-id="8048W" name-id="ME3XV-05" from="201403">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S51003X" category="F" type-id="8048X" name-id="ME3XW-04" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004S52003X" category="F" type-id="8048Y" name-id="ME3XX-04" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004S53003X" category="F" type-id="8048Z" name-id="ME3XY-04" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12056_S000W" variety="S000W" category="RS" volume="1">
+<name>SUPPLEMENTAL RESTRAINT SYSTEMS</name>
+<seq no="89"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12056_S000W_7AI9F_T000N" variety="T000N">
+<name>AIRBAG SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+
+<para id="RM000004RTP005X" category="F" type-id="8048W" name-id="RSCH5-06" from="201403">
+<name>GENERAL</name>
+</para>
+
+<para id="RM000004RTQ005X" category="F" type-id="8048X" name-id="RSCH6-06" from="201403">
+<name>SYSTEM DIAGRAM</name>
+</para>
+
+<para id="RM000004RTR005X" category="F" type-id="8048Y" name-id="RSCH7-06" from="201403">
+<name>PARTS LOCATION</name>
+</para>
+
+<para id="RM000004RTS005X" category="F" type-id="8048Z" name-id="RSCH8-06" from="201403">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12059_S000X" variety="S000X" category="SE" volume="1">
+<name>SEAT</name>
+<seq no="93"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12059_S000X_7AJVK_T000X" variety="T000X">
+<name>SEAT ASSEMBLY</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004S6Z001X" category="F" type-id="8048W" name-id="SE7RS-02" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S70001X" category="F" type-id="8048Z" name-id="SE7RT-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12061_S000Y" variety="S000Y" category="AC" volume="1">
+<name>HEATING / AIR CONDITIONING</name>
+<seq no="97"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12061_S000Y_7AI7Y_T000I" variety="T000I">
+<name>AIR CONDITIONING SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004V39002X" category="F" type-id="8048W" name-id="ACE29-03" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004V3A002X" category="F" type-id="8048X" name-id="ACE2A-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004V3B002X" category="F" type-id="8048Y" name-id="ACE2B-03" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004V3C002X" category="F" type-id="8048Z" name-id="ACE2C-03" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12062_S000Z" variety="S000Z" category="PI" volume="1">
+<name>POWER OUTLETS (INT)</name>
+<seq no="98"/>
+<sub-servcat id="58" type="2">
+<name>Vehicle Interior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12062_S000Z_7AI80_T000K" variety="T000K">
+<name>POWER OUTLET SOCKET SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004V3D002X" category="F" type-id="8048W" name-id="PI0JF-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004V3E002X" category="F" type-id="8048Y" name-id="PI0JG-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="59">
+<name>Vehicle Exterior</name>
+<shortname>Vehicle Exterior</shortname><section id="12064_S0010" variety="S0010" category="WS" volume="1">
+<name>WINDOW / GLASS</name>
+<seq no="100"/>
+<sub-servcat id="59" type="2">
+<name>Vehicle Exterior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12064_S0010_7AHZ0_T000F" variety="T000F">
+<name>WINDSHIELD / WINDOW GLASS SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM0000051RD000X" category="F" type-id="8048W" name-id="WS6V2-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM0000051RE000X" category="F" type-id="8048X" name-id="WS6V3-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM0000051RF000X" category="F" type-id="8048Y" name-id="WS6V4-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM0000051RG000X" category="F" type-id="8048Z" name-id="WS6V5-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+<ttl id="12064_S0010_7AHYZ_T000E" variety="T000E">
+<name>POWER WINDOW CONTROL SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM0000051RH000X" category="F" type-id="8048W" name-id="WS6V6-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM0000051RI000X" category="F" type-id="8048X" name-id="WS6V7-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM0000051RJ000X" category="F" type-id="8048Y" name-id="WS6V8-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM0000051RK000X" category="F" type-id="8048Z" name-id="WS6V9-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12067_S0011" variety="S0011" category="MX" volume="1">
+<name>MIRROR (EXT)</name>
+<seq no="103"/>
+<sub-servcat id="59" type="2">
+<name>Vehicle Exterior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12067_S0011_7AHZ2_T000G" variety="T000G">
+<name>MIRROR SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004RYW003X" category="F" type-id="8048W" name-id="MX2TF-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004RYX003X" category="F" type-id="8048X" name-id="MX2T9-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM0000051RL000X" category="F" type-id="8048Y" name-id="MX37P-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+<para id="RM000004RYZ003X" category="F" type-id="8048Z" name-id="MX2TB-02" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+<section id="12068_S0012" variety="S0012" category="WW" volume="1">
+<name>WIPER / WASHER</name>
+<seq no="104"/>
+<sub-servcat id="59" type="2">
+<name>Vehicle Exterior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12068_S0012_7AI7Z_T000J" variety="T000J">
+<name>WIPER AND WASHER SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<para id="RM000004V3F002X" category="F" type-id="8048W" name-id="WW4OQ-01" from="201202">
+<name>GENERAL</name>
+</para>
+<para id="RM000004V3G002X" category="F" type-id="8048X" name-id="WW4OJ-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+</para>
+<para id="RM000004V3H002X" category="F" type-id="8048Y" name-id="WW4OK-01" from="201202">
+<name>PARTS LOCATION</name>
+</para>
+</ttl>
+</section>
+<section id="12069_S0013" variety="S0013" category="LE" volume="1">
+<name>LIGHTING (EXT)</name>
+<seq no="105"/>
+<sub-servcat id="59" type="2">
+<name>Vehicle Exterior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12069_S0013_7AI9H_T000P" variety="T000P">
+<name>LIGHTING SYSTEM</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+
+<para id="RM000004S58006X" category="F" type-id="8048W" name-id="LE4CP-07" from="201403" to="201503">
+<name>GENERAL</name>
+</para>
+
+</ttl>
+</section>
+<section id="12072_S0014" variety="S0014" category="ET" volume="1">
+<name>EXTERIOR PANELS / TRIM</name>
+<seq no="109"/>
+<sub-servcat id="59" type="2">
+<name>Vehicle Exterior</name>
+</sub-servcat>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+<ttl id="12072_S0014_7AJWO_T000Y" variety="T000Y">
+<name>BODY STRUCTURE</name>
+<bitptn>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0xffffffff"/>
+<bits val="0x0000001f"/>
+</bitptn>
+
+<para id="RM000004S2G006X" category="F" type-id="8048W" name-id="ETABW-01" from="201403">
+<name>GENERAL</name>
+</para>
+<para id="RM000004S2H004X" category="F" type-id="8048Z" name-id="ET82E-01" from="201202">
+<name>DETAILS</name>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-db>

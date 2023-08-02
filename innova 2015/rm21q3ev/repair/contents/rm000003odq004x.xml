@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM000003ODQ004X" category="G" type-id="8000T" name-id="ME4JY-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000003ODQ004X_01" type-id="01" category="01">
+<s-1 id="RM000003ODQ004X_01_0001" proc-id="RM21Q0EV__00002HP00000">
+<ptxt>CHECK SPEEDOMETER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check operation.</ptxt>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the intelligent tester on.</ptxt>
+</s3>
+<s3>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List.</ptxt>
+<table>
+<title>Reference</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Standard Indication</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Allowable Range</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>20 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21 to 25 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>40 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>41.7 to 46.2 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>60 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62.7 to 67.2 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>80 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>83.4 to 88.4 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>100 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>104.3 to 109.3 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>120 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>125.1 to 130.6 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>140 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>145.8 to 151.8 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>160 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>166.2 to 173.2 km/h</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>180 km/h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>186.9 to 194.5 km/h</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Do not use worn, underinflated or overinflated tires, as the speedometer reading will be inaccurate.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Check the deflection width of the speedometer indicator.</ptxt>
+<spec>
+<title>Reference</title>
+<specitem>
+<ptxt>Allowable range +/-0.5 km/h</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the speedometer may have a malfunction.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003ODQ004X_01_0002" proc-id="RM21Q0EV__00002HQ00000">
+<ptxt>CHECK OUTPUT SIGNAL OF VEHICLE SPEED</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the output signal waveform.</ptxt>
+<figure>
+<graphic graphicname="E236123E05" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<s3>
+<ptxt>Remove the combination meter, but do not disconnect the connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Using an oscilloscope, check the waveform of the combination meter.</ptxt>
+<table>
+<title>Reference</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C20-6 - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Condition</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Being driven at approximately 20 km/h (12.4 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Refer to the illustration.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>As vehicle speed increases, the wavelength shortens.</ptxt>
+</atten4>
+<ptxt>If the result is not as specified, the speedometer may have a malfunction.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003ODQ004X_01_0003" proc-id="RM21Q0EV__00002HR00000">
+<ptxt>CHECK TACHOMETER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the tachometer operation.</ptxt>
+<s3>
+<ptxt>Connect a tune-up test tachometer, and start the engine.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not reverse the connections of the tachometer. This will damage its transistors and diodes. </ptxt>
+</item>
+<item>
+<ptxt>When removing or installing the tachometer, be careful not to drop or strike it.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+<s3>
+<ptxt>Compare the test tachometer values and vehicle tachometer values under the following conditions:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Vehicle battery voltage is 13.5 V </ptxt>
+</item>
+<item>
+<ptxt>Ambient temperature is 25°C (77°F)</ptxt>
+</item>
+</list1>
+<table>
+<title>OK</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Standard Tachometer Indication (rpm)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Acceptable Range (rpm)</ptxt>
+<ptxt>Data in ( ) are for reference only</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>700</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>630 to 770</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1000</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>(900 to 1100)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2000</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>(1850 to 2150)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3000</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2800 to 3200</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4000</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>(3800 to 4200)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>5000</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4800 to 5200</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>6000</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>(5750 to 6250)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>7000</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>6700 to 7300</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>If the result is not as specified, the tachometer may have a malfunction.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003ODQ004X_01_0004" proc-id="RM21Q0EV__00002HS00000">
+<ptxt>CHECK FUEL SENDER GAUGE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the F13 gauge connector.</ptxt>
+<figure>
+<graphic graphicname="E169491E05" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch ON, and then check the position of the receiver gauge needle.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Fuel receiver gauge indicates E.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the combination meter may have a malfunction.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect terminals 2 and 3 of the wire harness side connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch ON, and then check the position of the receiver gauge needle.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Fuel receiver gauge indicates F.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the combination meter may have a malfunction.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003ODQ004X_01_0005" proc-id="RM21Q0EV__00002HT00000">
+<ptxt>CHECK FUEL LEVEL WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the F13 gauge connector.</ptxt>
+<figure>
+<graphic graphicname="E169491E05" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch ON, and then check that the fuel receiver gauge indicates E and that the fuel level warning light turns on.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Fuel level warning light turns on.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the combination meter may have a malfunction.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003ODQ004X_01_0006" proc-id="RM21Q0EV__00002HU00000">
+<ptxt>CHECK OIL PRESSURE WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the E4 switch connector. </ptxt>
+<figure>
+<graphic graphicname="E169492E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect terminal 1 of the wire harness side connector to the body ground. </ptxt>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch ON, and then check that the engine oil pressure warning light turns on.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Engine oil pressure warning light turns on.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the combination meter may have a malfunction.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003ODQ004X_01_0007" proc-id="RM21Q0EV__00002HV00000">
+<ptxt>CHECK BRAKE WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the parking brake warning light. </ptxt>
+<s3>
+<ptxt>Disconnect the P3 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E169418E05" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Connect terminal 1 of the wire harness side connector to the body ground.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the ignition switch ON, and then check that the warning light turns on.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>BRAKE warning light turns on.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the combination meter may have a malfunction.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the brake fluid level warning light.</ptxt>
+<s3>
+<ptxt>Disconnect the B2 switch connector. </ptxt>
+<figure>
+<graphic graphicname="E169493E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Connect terminals 1 and 2 of the wire harness side connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the ignition switch ON, and then check that the warning light turns on.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>BRAKE warning light turns on.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the combination meter may have a malfunction.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003ODQ004X_01_0008" proc-id="RM21Q0EV__00002HW00000">
+<ptxt>CHECK FRONT PASSENGER SEAT BELT WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the F14 belt connector.</ptxt>
+<figure>
+<graphic graphicname="E169495E09" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect terminals 1 and 2 of the wire harness side connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch ON, and then check that the warning light blinks.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Front passenger seat belt warning light blinks.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, the multi-display may have a malfunction.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

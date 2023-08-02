@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7AVQZ_T00A9" variety="T00A9">
+<name>COUNTER GEAR</name>
+<para id="RM0000010UX00UX" category="A" type-id="80002" name-id="MT16M-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000010UX00UX_02" type-id="01" category="01">
+<s-1 id="RM0000010UX00UX_02_0009" proc-id="RM21Q0EV__00004SQ00000">
+<ptxt>REMOVE COUNTER GEAR FRONT BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a snap ring expander, remove the No. 2 counter gear front bearing snap ring from the counter gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, a press and a 14 mm socket wrench, remove the counter gear front bearing from the counter gear.</ptxt>
+<figure>
+<graphic graphicname="C086512E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09950-00020</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

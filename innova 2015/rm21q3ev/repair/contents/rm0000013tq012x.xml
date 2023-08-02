@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM0000013TQ012X" category="C" type-id="302NI" name-id="AT3YX-01" from="201202">
+<dtccode>P2716/77</dtccode>
+<dtcname>Pressure Control Solenoid "D" Electrical (Shift Solenoid Valve SLT)</dtcname>
+<subpara id="RM0000013TQ012X_01" type-id="60" category="03" proc-id="RM21Q0EV__000017400000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The throttle pressure that is applied to the primary regulator valve (which modulates the line pressure) causes the solenoid valve SLT, under electronic control, to precisely modulate and generate the line pressure according to the extent that the accelerator pedal is depressed or the output of engine power.</ptxt>
+<ptxt>This controls the line pressure and provides smooth shifting characteristics.</ptxt>
+<ptxt>Upon receiving a signal of the throttle valve opening angle, the ECM controls the line pressure by sending a predetermined duty ratio* to the solenoid valve, modulating the line pressure and generating throttle pressure.</ptxt>
+<atten4>
+<ptxt>*: The duty ratio is the ratio of the current on time (A) to the total of the current on and off time (A + B).</ptxt>
+<figure>
+<graphic graphicname="C170551E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<ptxt>Duty Ratio (%) = A / (A + B) x 100</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="2.83in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P2716/77</ptxt>
+</entry>
+<entry>
+<ptxt>ECM detects shift solenoid valve SLT circuit malfunction for 1 sec. or more (1 trip detection logic)</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in shift solenoid valve SLT circuit</ptxt>
+</item>
+<item>
+<ptxt>Shift solenoid valve SLT</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM0000013TQ012X_02" type-id="32" category="03" proc-id="RM21Q0EV__000017500000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C161203E48" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000013TQ012X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000013TQ012X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000013TQ012X_04_0001" proc-id="RM21Q0EV__000017600000">
+<testtitle>INSPECT TRANSMISSION WIRE (SHIFT SOLENOID VALVE SLT)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the E1 wire connector.</ptxt>
+<figure>
+<graphic graphicname="C170576E05" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the transmission wire.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>2 (SLT+) - 6 (SLT-)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>5.0 to 5.6 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>2 (SLT+) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>6 (SLT-) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TQ012X_04_0002" fin="false">OK</down>
+<right ref="RM0000013TQ012X_04_0005" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TQ012X_04_0002" proc-id="RM21Q0EV__000017700000">
+<testtitle>CHECK WIRE HARNESS (TRANSMISSION WIRE - ECM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+<figure>
+<graphic graphicname="C192332E04" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>E11-12 (SLT+) - E11-13 (SLT-)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>5.0 to 5.6 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>E11-12 (SLT+) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>E11-13 (SLT-) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TQ012X_04_0004" fin="true">OK</down>
+<right ref="RM0000013TQ012X_04_0003" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TQ012X_04_0003">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000013TQ012X_04_0004">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM0000013TQ012X_04_0005" proc-id="RM21Q0EV__000017800000">
+<testtitle>INSPECT SHIFT SOLENOID VALVE SLT</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the shift solenoid valve SLT.</ptxt>
+</test1>
+<figure>
+<graphic graphicname="C162477E06" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>5.0 to 5.6 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Connect the battery's positive (+) lead with a 21 W bulb to terminal 2 and the negative (-) lead to terminal 1 of the solenoid valve connector. Then check that the valve moves and makes an operating noise.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Valve moves and makes an operating noise.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Reference: Inspect using an oscilloscope.</ptxt>
+<figure>
+<graphic graphicname="C192331E04" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Check the waveform of the ECM connector.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C170573E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Refer to illustration</ptxt>
+</specitem>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry align="left">
+<ptxt>E11-12 (SLT+) - E11-13 (SLT-)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry align="left">
+<ptxt>5 V/DIV., 1 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Engine is idling</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TQ012X_04_0007" fin="true">OK</down>
+<right ref="RM0000013TQ012X_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TQ012X_04_0006">
+<testtitle>REPLACE SHIFT SOLENOID VALVE SLT</testtitle>
+</testgrp>
+<testgrp id="RM0000013TQ012X_04_0007">
+<testtitle>REPAIR OR REPLACE TRANSMISSION WIRE</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

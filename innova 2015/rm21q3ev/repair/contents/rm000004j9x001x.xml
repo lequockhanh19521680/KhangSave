@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80P_T0053" variety="T0053">
+<name>BRAKE BOOSTER</name>
+<para id="RM000004J9X001X" category="K" type-id="30193" name-id="BR4LW-02" from="201202" to="201303">
+<name>COMPONENTS</name>
+<subpara id="RM000004J9X001X_01" type-id="02" category="04" proc-id="RM21Q0EV__00001S400000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="C130680E06" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000004J9X001X_02" type-id="02" category="04" proc-id="RM21Q0EV__00001S500000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="C130681E02" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

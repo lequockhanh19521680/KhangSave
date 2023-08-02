@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X5_T001J" variety="T001J">
+<name>1TR-FE STARTING</name>
+<para id="RM0000024YR003X" category="F" type-id="30028" name-id="SS243-01" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000024YR003X_z0" proc-id="RM21Q0EV__000003U00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Starter assembly x Transmission housing</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Starter wire x Starter assembly</ptxt>
+</entry>
+<entry>
+<ptxt>9.8</ptxt>
+</entry>
+<entry>
+<ptxt>100</ptxt>
+</entry>
+<entry>
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Terminal C x Starter assembly</ptxt>
+</entry>
+<entry>
+<ptxt>9.8</ptxt>
+</entry>
+<entry>
+<ptxt>100</ptxt>
+</entry>
+<entry>
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Starter drive housing x Magnet starter switch assembly</ptxt>
+</entry>
+<entry>
+<ptxt>8.3</ptxt>
+</entry>
+<entry>
+<ptxt>85</ptxt>
+</entry>
+<entry>
+<ptxt>73 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Starter commutator end frame cover x starter drive housing</ptxt>
+</entry>
+<entry>
+<ptxt>5.9</ptxt>
+</entry>
+<entry>
+<ptxt>60</ptxt>
+</entry>
+<entry>
+<ptxt>52 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Transmission oil filler tube sub-assembly</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>122</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Clutch release cylinder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>120</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Starter commutator end frame assembly x Starter brush holder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>1.5</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>13 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

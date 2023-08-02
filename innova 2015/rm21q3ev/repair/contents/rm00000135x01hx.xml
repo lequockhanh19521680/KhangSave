@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7Z0_T003E" variety="T003E">
+<name>IGNITION SWITCH</name>
+<para id="RM00000135X01HX" category="G" type-id="3001K" name-id="ST03F-07" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM00000135X01HX_01" type-id="01" category="01">
+<s-1 id="RM00000135X01HX_01_0001" proc-id="RM21Q0EV__00000VA00000">
+<ptxt>INSPECT IGNITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance of the switch.</ptxt>
+<figure>
+<graphic graphicname="A233212E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+<entry>
+<ptxt>LOCK</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (ACC) - 4 (AM1)</ptxt>
+</entry>
+<entry>
+<ptxt>ACC</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 (IG1) - 4 (AM1)</ptxt>
+<ptxt>2 (ACC) - 4 (AM1)</ptxt>
+<ptxt>5 (AM2) - 6 (IG2)</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 (IG1) - 4 (AM1)</ptxt>
+<ptxt>3 (ST1) - 4 (AM1)</ptxt>
+<ptxt>5 (AM2) - 6 (IG2)</ptxt>
+<ptxt>5 (AM2) - 7 (ST2)</ptxt>
+</entry>
+<entry>
+<ptxt>START</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the ignition switch assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

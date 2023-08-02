@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A808_T004M" variety="T004M">
+<name>REAR UPPER CONTROL ARM</name>
+<para id="RM000001G8Q00LX" category="A" type-id="30014" name-id="SP3EO-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001G8Q00LX_02" type-id="11" category="10" proc-id="RM21Q0EV__00001JP00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (see page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001G8Q00LX_01" type-id="01" category="01">
+<s-1 id="RM000001G8Q00LX_01_0001" proc-id="RM21Q0EV__00001JM00000">
+<ptxt>TEMPORARILY INSTALL REAR UPPER CONTROL ARM ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the control arm with the 2 bolts and 2 nuts.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8Q00LX_01_0006" proc-id="RM21Q0EV__000053100000">
+<ptxt>INSTALL FUEL TANK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000YLR071X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000001G8Q00LX_01_0007" proc-id="RM21Q0EV__000053200000">
+<ptxt>INSTALL CENTER EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000135701OX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000001G8Q00LX_01_0002" proc-id="RM21Q0EV__00001JN00000">
+<ptxt>INSTALL REAR WHEEL</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+<s-1 id="RM000001G8Q00LX_01_0005" proc-id="RM21Q0EV__000051S00000">
+<ptxt>STABILIZE SUSPENSION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the vehicle several times to stabilize the suspension.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G8Q00LX_01_0004" proc-id="RM21Q0EV__00001JO00000">
+<ptxt>TIGHTEN REAR UPPER CONTROL ARM ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>145</t-value1>
+<t-value2>1479</t-value2>
+<t-value4>107</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>While fixing the nut in place, tighten the bolts.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

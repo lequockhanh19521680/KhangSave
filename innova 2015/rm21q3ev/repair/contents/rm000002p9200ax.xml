@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7ARJP_T008Y" variety="T008Y">
+<name>REAR NO. 1 SEAT INNER BELT ASSEMBLY (for Captain Seat Type)</name>
+<para id="RM000002P9200AX" category="A" type-id="80001" name-id="SB14E-07" from="201403">
+<name>REMOVAL</name>
+<subpara id="RM000002P9200AX_01" type-id="11" category="10" proc-id="RM21Q0EV__00003I600001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the RH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000002P9200AX_02" type-id="01" category="01">
+<s-1 id="RM000002P9200AX_02_0003" proc-id="RM21Q0EV__00004OC00001">
+<ptxt>REMOVE REAR SEAT INNER CUSHION SHIELD RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B155358E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the rear part of the rear seat inner cushion shield RH in the order shown in the illustration, and then detach the claw and remove the rear seat inner cushion shield RH.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000002P9200AX_02_0001" proc-id="RM21Q0EV__00003I700001">
+<ptxt>REMOVE REAR NO. 1 SEAT INNER BELT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B155348" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the nut and rear No. 1 seat inner belt assembly RH.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the rear seat belt anchor plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

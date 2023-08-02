@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XA_T001O" variety="T001O">
+<name>PARKING BRAKE</name>
+<para id="RM00000196E00UX" category="F" type-id="30027" name-id="SS0FH-26" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM00000196E00UX_z0" proc-id="RM21Q0EV__000057S00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Parking brake lever travel</ptxt>
+</entry>
+<entry>
+<ptxt>Standard parking brake lever travel when pulled with a force of 200 N (20 kgf, 45 lbf)</ptxt>
+</entry>
+<entry>
+<ptxt>6 to 9 clicks</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

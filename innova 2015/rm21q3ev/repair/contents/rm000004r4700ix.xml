@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A816_T005K" variety="T005K">
+<name>HEATER BLOWER MOTOR RELAY</name>
+<para id="RM000004R4700IX" category="A" type-id="80001" name-id="ACFU8-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000004R4700IX_01" type-id="01" category="01">
+<s-1 id="RM000004R4700IX_01_0001" proc-id="RM21Q0EV__00004DR00000">
+<ptxt>PRECAUTION (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000004R4700IX_01_0002" proc-id="RM21Q0EV__00004DS00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000004R4700IX_01_0003" proc-id="RM21Q0EV__00004DT00000">
+<ptxt>REMOVE UPPER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEO00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000004R4700IX_01_0004" proc-id="RM21Q0EV__00004DU00000">
+<ptxt>REMOVE LOWER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NFT00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000004R4700IX_01_0005" proc-id="RM21Q0EV__00004DV00000">
+<ptxt>REMOVE NO. 1 HEATER RELAY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E235159" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 clamps and disconnect the driver side junction block.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the No. 1 heater relay.</ptxt>
+<figure>
+<graphic graphicname="E231910" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

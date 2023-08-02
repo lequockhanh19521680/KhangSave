@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80K_T004Y" variety="T004Y">
+<name>FRONT BRAKE</name>
+<para id="RM0000010KT00SX" category="A" type-id="80001" name-id="BR645-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010KT00SX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001PW00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010KT00SX_02" type-id="01" category="01">
+<s-1 id="RM0000010KT00SX_02_0001">
+<ptxt>REMOVE FRONT WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0002" proc-id="RM21Q0EV__00001PX00000">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wash off brake fluid immediately if it comes in contact with any painted surface.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0003" proc-id="RM21Q0EV__00001PY00000">
+<ptxt>DISCONNECT FRONT FLEXIBLE HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111360" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the union bolt and gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the flexible hose from the disc brake cylinder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0004" proc-id="RM21Q0EV__00001PZ00000">
+<ptxt>REMOVE DISC BRAKE CYLINDER ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111361" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and disc brake cylinder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0005" proc-id="RM21Q0EV__000053N00000">
+<ptxt>REMOVE NO. 1 CYLINDER SLIDE BUSH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No. 1 cylinder slide bush from the disc brake cylinder assembly.</ptxt>
+<figure>
+<graphic graphicname="C238099" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0006" proc-id="RM21Q0EV__000053O00000">
+<ptxt>REMOVE NO. 2  CYLINDER SLIDE BUSH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No. 2 cylinder slide bush from the disc brake cylinder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0007" proc-id="RM21Q0EV__000053P00000">
+<ptxt>REMOVE FRONT DISC BRAKE BUSH DUST BOOT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 boots from the disc brake cylinder assembly.</ptxt>
+<figure>
+<graphic graphicname="C238098" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0008" proc-id="RM21Q0EV__000053Q00000">
+<ptxt>REMOVE NO. 1 COLLAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No. 1 collar from the disc brake cylinder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0009" proc-id="RM21Q0EV__000053R00000">
+<ptxt>REMOVE NO. 2 COLLAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No. 2 collar from the disc brake cylinder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0010" proc-id="RM21Q0EV__000053S00000">
+<ptxt>REMOVE FRONT DISC BRAKE PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 front disc brake pads from the disc brake cylinder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0011" proc-id="RM21Q0EV__000053T00000">
+<ptxt>REMOVE FRONT ANTI-SQUEAL SHIM KIT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No.1 anti-squeal shim and No. 2 anti-squeal shim from each pad.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0012" proc-id="RM21Q0EV__000053U00000">
+<ptxt>REMOVE PAD WEAR INDICATOR PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the pad wear indicator plates from the disc brake pad.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0015" proc-id="RM21Q0EV__000053V00000">
+<ptxt>REMOVE FRONT DISC BRAKE PAD SUPPORT PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 pad support plates from the brake cylinder mounting.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0013" proc-id="RM21Q0EV__000053W00000">
+<ptxt>REMOVE FRONT DISC BRAKE CYLINDER MOUNTING LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and brake cylinder mounting.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0014" proc-id="RM21Q0EV__000053X00000">
+<ptxt>REMOVE FRONT DISC</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Put matchmarks on the disc and axle hub.</ptxt>
+<figure>
+<graphic graphicname="C111369E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the disc.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

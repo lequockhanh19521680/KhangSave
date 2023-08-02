@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLL_T0093" variety="T0093">
+<name>REAR DOOR</name>
+<para id="RM000004RWH02BX" category="A" type-id="8000E" name-id="ED3R0-01" from="201403">
+<name>REASSEMBLY</name>
+<subpara id="RM000004RWH02BX_01" type-id="11" category="10" proc-id="RM21Q0EV__00004LJ00001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (See page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004RWH02BX_02" type-id="01" category="01">
+<s-1 id="RM000004RWH02BX_02_0001" proc-id="RM21Q0EV__00004LK00001">
+<ptxt>INSTALL REAR DOOR CHECK ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to the sliding area of the rear door check.</ptxt>
+</s2>
+<s2>
+<ptxt>When reusing a bolt labeled B:</ptxt>
+<s3>
+<ptxt>Clean the threads of the bolt labeled B with non-residue solvent.</ptxt>
+</s3>
+<s3>
+<ptxt>Apply adhesive to the threads of the bolt labeled B.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or equivalent.</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the rear door check with the 2 bolts labeled A and the bolt labeled B.</ptxt>
+<figure>
+<graphic graphicname="B291564E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<subtitle>Bolt A</subtitle>
+<torqueitem>
+<t-value1>5.5</t-value1>
+<t-value2>56</t-value2>
+<t-value3>49</t-value3>
+</torqueitem>
+<subtitle>Bolt B</subtitle>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bolt A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bolt B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0046" proc-id="RM21Q0EV__00003TM00000">
+<ptxt>INSTALL REAR DOOR OUTSIDE MOULDING LH (w/ Outside Moulding)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When installing the rear door outside moulding, heat the rear door panel and rear door outside moulding using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the rear door panel or rear door outside moulding excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Clean the rear door panel surface.</ptxt>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel surface.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the double-sided tape from the rear door panel.</ptxt>
+</s3>
+<s3>
+<ptxt>Wipe off any tape adhesive residue with cleaner.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Install a new rear door outside moulding.</ptxt>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel and a new rear door outside moulding.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the peeling paper from the face of the rear door outside moulding.</ptxt>
+<atten4>
+<ptxt>After removing the peeling paper, keep the exposed adhesive free from foreign matter.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Install the rear door outside moulding in the position shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B280931E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>Press the rear door outside moulding firmly to install it.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table pgwide="1">
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.12in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="2.12in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Measurement (Reference Value)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Measurement (Reference Value)</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18.8 mm (0.740 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27.9 mm (1.10 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>338.9 to 341.9 mm (13.3 to 13.5 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>D</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>350.3 to 353.3 mm (13.8 to 13.9 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RWH02BX_02_0002" proc-id="RM21Q0EV__00004LL00001">
+<ptxt>INSTALL REAR DOOR WEATHERSTRIP LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 19 clips to install the rear door weatherstrip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0003" proc-id="RM21Q0EV__00004LM00001">
+<ptxt>INSTALL REAR DOOR PANEL CUSHION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new rear door panel cushion.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0004" proc-id="RM21Q0EV__00004LN00001">
+<ptxt>INSTALL REAR DOOR REAR OUTSIDE HANDLE PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the rear door rear outside handle pad.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0005" proc-id="RM21Q0EV__00004LO00001">
+<ptxt>INSTALL REAR DOOR FRONT OUTSIDE HANDLE PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the rear door front outside handle pad.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0006" proc-id="RM21Q0EV__00004LP00001">
+<ptxt>INSTALL REAR DOOR OUTSIDE HANDLE FRAME SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to the sliding area of the rear door outside handle frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, install the rear door outside handle frame with the screw.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.0</t-value1>
+<t-value2>71</t-value2>
+<t-value3>62</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0007" proc-id="RM21Q0EV__00004LQ00001">
+<ptxt>INSTALL REAR DOOR OUTSIDE HANDLE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B291628" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the rear door outside handle by moving it in the direction indicated by the arrow shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0008" proc-id="RM21Q0EV__00004LR00001">
+<ptxt>INSTALL REAR DOOR OUTSIDE HANDLE COVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, install the rear door outside handle cover with the screw.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.0</t-value1>
+<t-value2>71</t-value2>
+<t-value3>62</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0009" proc-id="RM21Q0EV__00004LS00001">
+<ptxt>INSTALL REAR DOOR INSIDE LOCKING CABLE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear door inside locking cable.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 3 claws to close the cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0010" proc-id="RM21Q0EV__00004LT00001">
+<ptxt>INSTALL REAR DOOR LOCK REMOTE CONTROL CABLE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear door lock remote control cable.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0045" proc-id="RM21Q0EV__00004MB00001">
+<ptxt>INSTALL REAR DOOR LOCK ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, install the rear door lock with the 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the rear door inside locking cable and rear door lock remote control cable to the clamps.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0053" proc-id="RM21Q0EV__00004NC00001">
+<ptxt>INSTALL POWER WINDOW REGULATOR MOTOR ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to the sliding and rotating areas of the power window regulator motor.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a T25 "TORX" socket wrench, install the power window regulator motor with the 3 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0014" proc-id="RM21Q0EV__00004LU00001">
+<ptxt>INSTALL REAR DOOR WINDOW REGULATOR SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to the sliding and rotating areas of the rear door power window regulator.</ptxt>
+<figure>
+<graphic graphicname="B291629" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Temporarily install the temporary bolt to the rear door power window regulator.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the rear door power window regulator with the 3 bolts, and then tighten the temporary bolt.</ptxt>
+<figure>
+<graphic graphicname="B291553E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+</torqueitem>
+</torque>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temporary Bolt</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Be careful not to drop the rear door power window regulator as it may become damaged.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0015" proc-id="RM21Q0EV__00004LV00001">
+<ptxt>INSTALL REAR DOOR GLASS CHANNEL FILLER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear door glass channel filler to the rear door glass as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291630E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Dimension</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.1 mm (0.201 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0016" proc-id="RM21Q0EV__00004LW00001">
+<ptxt>INSTALL REAR DOOR GLASS CHANNEL SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply soapy water to the inside of the rear door glass channel.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a plastic-faced hammer, tap the rear door glass channel onto the rear door glass to install the rear door glass channel as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291631E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Dimension</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.1 mm (0.201 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0036" proc-id="RM21Q0EV__00003Y900001">
+<ptxt>REPAIR INSTRUCTION (w/ Black Out Tape)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Clean the vehicle body surface.</ptxt>
+<s3>
+<ptxt>Using a heat light, heat the vehicle body surface.</ptxt>
+</s3>
+<s3>
+<ptxt>Wipe off any tape adhesive residue with cleaner.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Installation temperature.</ptxt>
+<s3>
+<ptxt>When the ambient temperature is below 15°C (59°F), perform the installation procedure after warming the vehicle body surface (installation surface of the door frame) and tape to between 20 and 30°C (68 and 86°F) using a heat light. When the ambient temperature is higher than 35°C (95°F), cool the vehicle body surface (installation surface of the door frame) and tape to between 20 and 30°C (68 and 86°F) prior to installation.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The most appropriate temperature for installing the tape is 25°C (77°F).</ptxt>
+</item>
+<item>
+<ptxt>When the temperature is low, the tape turns stiff and falls off easily. When the temperature is high, the tape loses elasticity.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Before installation.</ptxt>
+<s3>
+<ptxt>Make sure any dirt on and around the vehicle body surface where the tape will be installed (installation surface of the door frame) is removed, and that the surface is smooth. If the surface is rough or dirt remains when pressing the tape onto the surface, air will be trapped under the tape and result in a poor appearance.</ptxt>
+<atten4>
+<ptxt>Spray water on the shop floor to settle any dust.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Key points for handling the tape.</ptxt>
+<s3>
+<ptxt>The tape bends and rolls up easily. Store the tape between flat pieces of cardboard or other similar objects and keep it dry and level.</ptxt>
+<atten3>
+<ptxt>Do not bend the tape or leave it in a place with a high temperature.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Key points for the installation of the tape (how to use a squeegee and the installation procedure for a flat surface).</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Position the tape with a high level of accuracy to achieve a neat finish and to avoid peeling.</ptxt>
+</item>
+<item>
+<ptxt>The tape cannot be reused because it deforms and will not fit after removal.</ptxt>
+</item>
+</list1>
+</atten3>
+<s3>
+<ptxt>To avoid air bubbles, slightly raise the part of the tape that is going to be applied so that its adhesive surface does not touch the vehicle body while applying the tape. Tilt the squeegee 40 to 50° (for pressing forward) or 30 to 45° (for pulling) from the vehicle body surface and press with a force of 20 to 30 N (2 to 3 kgf) while moving the squeegee at a constant slow speed of 3 to 7 cm (1.2 to 2.8 in.) per second.</ptxt>
+<figure>
+<graphic graphicname="B233855E02" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<atten3>
+<ptxt>Be sure to observe the specified pressing speed, force and angle of the squeegee to avoid wrinkles and air bubbles.</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Either angle of the squeegee (for pressing forward or for pulling) is acceptable.</ptxt>
+</item>
+<item>
+<ptxt>Be sure to apply the tape while removing the release paper 10 to 20 mm (0.393 to 0.787 in.) from the edge of the squeegee.</ptxt>
+</item>
+</list1>
+</atten4>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressing</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulling</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Squeegee</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Black Out Tape</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Release Paper</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sectional View</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Non-padded Side</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Padded Side</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B233856E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Key points for the installation of the tape (how to use a squeegee and the installation procedure for hemming surfaces).</ptxt>
+<s3>
+<ptxt>If it is difficult to press the tape, press it in several steps as shown in the illustration. Use your fingers or the padded surface of a squeegee to slowly apply the tape to the hem of the vehicle, especially for a small hem.</ptxt>
+<atten4>
+<ptxt>When applying tape to the backside of a hem, remove the release paper and use your fingers or the padded surface of a squeegee.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Squeegee</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>First</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Second</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Third</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+<s2>
+<ptxt>Key points for the installation of the tape (how to use a squeegee and the installation procedure for corners).</ptxt>
+<s3>
+<ptxt>Remove the release paper and apply the tape carefully with your fingers.</ptxt>
+</s3>
+<s3>
+<ptxt>Before applying the tape to each corner, heat the tape using a heat light and gradually apply it to avoid wrinkles in the tape and achieve a neat finish.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check after installation.</ptxt>
+<s3>
+<ptxt>After completing the application, check if the tape is applied neatly. If the tape is not applied neatly, apply new tape.</ptxt>
+<atten3>
+<ptxt>Do not reuse the tape.</ptxt>
+</atten3>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RWH02BX_02_0047" proc-id="RM21Q0EV__00003WX00001">
+<ptxt>INSTALL REAR OUTER BLACK OUT TAPE LH (w/ Black Out Tape)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When installing the rear outer black out tape, heat the rear door panel and rear outer black out tape using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Outer Black Out Tape</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the rear door panel or rear outer black out tape excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Clean the rear door panel surface.</ptxt>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel surface.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the double-sided tape from the rear door panel.</ptxt>
+</s3>
+<s3>
+<ptxt>Wipe off any tape adhesive residue with cleaner.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Install a new rear outer black out tape.</ptxt>
+<figure>
+<graphic graphicname="B282500E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel and a new rear outer black out tape.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the peeling paper from the face of the rear outer black out tape.</ptxt>
+<atten4>
+<ptxt>After removing the peeling paper, keep the exposed adhesive free from foreign matter.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Install the rear outer black out tape in the position shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Press the rear outer black out tape firmly to install it.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Measurement</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4 to 6 mm (0.157 to 0.236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2 to 4 mm (0.0787 to 0.157 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RWH02BX_02_0048" proc-id="RM21Q0EV__00003X700001">
+<ptxt>INSTALL UPPER OUTER BLACK OUT TAPE LH (w/ Black Out Tape)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When installing the upper outer black out tape, heat the rear door panel and upper outer black out tape using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Upper Outer Black Out Tape</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the rear door panel or upper outer black out tape excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Clean the rear door panel surface.</ptxt>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel surface.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the double-sided tape from the rear door panel.</ptxt>
+</s3>
+<s3>
+<ptxt>Wipe off any tape adhesive residue with cleaner.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Install a new upper outer black out tape.</ptxt>
+<figure>
+<graphic graphicname="B282501E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel and a new upper outer black out tape.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the peeling paper from the face of the upper outer black out tape.</ptxt>
+<atten4>
+<ptxt>After removing the peeling paper, keep the exposed adhesive free from foreign matter.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Install the upper outer black out tape in the position shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Press the upper outer black out tape firmly to install it.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Measurement</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2 to 4 mm (0.0787 to 0.157 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4 to 6 mm (0.157 to 0.236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 to 3 mm (0.0394 to 0.118 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RWH02BX_02_0049" proc-id="RM21Q0EV__00003X800001">
+<ptxt>INSTALL FRONT OUTER BLACK OUT TAPE LH (w/ Black Out Tape)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When installing the front outer black out tape, heat the rear door panel and front outer black out tape using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Outer Black Out Tape</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the rear door panel or front outer black out tape excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Clean the rear door panel surface.</ptxt>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel surface.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the double-sided tape from the rear door panel.</ptxt>
+</s3>
+<s3>
+<ptxt>Wipe off any tape adhesive residue with cleaner.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Install a new front outer black out tape.</ptxt>
+<figure>
+<graphic graphicname="B282502E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Using a heat light, heat the rear door panel and a new front outer black out tape.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the peeling paper from the face of the front outer black out tape.</ptxt>
+<atten4>
+<ptxt>After removing the peeling paper, keep the exposed adhesive free from foreign matter.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Install the front outer black out tape in the position shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Press the front outer black out tape firmly to install it.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Measurement</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 to 3 mm (0.0394 to 0.118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2 to 4 mm (0.0787 to 0.157 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4 to 6 mm (0.157 to 0.236 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RWH02BX_02_0050" proc-id="RM21Q0EV__00003YZ00001">
+<ptxt>INSTALL REAR DOOR BELT MOULDING ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 5 claws to install the rear door belt moulding.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RWH02BX_02_0017" proc-id="RM21Q0EV__00004LX00001">
+<ptxt>INSTALL REAR DOOR GLASS SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the rear power window regulator switch assembly with rear door armrest base panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s2>
+<s2>
+<ptxt>Operate the rear door power window regulator so that the rear door glass can be installed.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the rear power window regulator switch assembly with rear door armrest base panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front side of the rear door glass run.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply MP grease to the sliding area of the rear door glass channel as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B277839E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>MP Grease</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>155 mm (6.10 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>30 mm (1.18 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the rear door glass channel to the rear door power window regulator as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291632" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>Do not damage the door glass.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0018" proc-id="RM21Q0EV__00004LY00001">
+<ptxt>INSTALL REAR DOOR QUARTER WINDOW WEATHERSTRIP LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear door quarter window weatherstrip to the rear door quarter window glass.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0019" proc-id="RM21Q0EV__00004LZ00001">
+<ptxt>INSTALL REAR DOOR QUARTER WINDOW GLASS LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear door quarter window glass.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0022" proc-id="RM21Q0EV__00004M100001">
+<ptxt>INSTALL REAR DOOR WINDOW DIVISION BAR SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the temporary bolt to the rear door window division bar.</ptxt>
+<figure>
+<graphic graphicname="B291545E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temporary Bolt</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Align the rear door glass run with the rear door window division bar.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the rear door window division bar with the bolt and screw, and then tighten the temporary bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0021" proc-id="RM21Q0EV__00004M000001">
+<ptxt>INSTALL REAR DOOR GLASS RUN LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Finish installing the rear door glass run.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0023" proc-id="RM21Q0EV__00004M200001">
+<ptxt>INSTALL REAR DOOR SERVICE HOLE COVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply new butyl tape to the rear door panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Pass the wire harness through a new rear door service hole cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Pass the rear door inside locking cable and rear door lock remote control cable through a new rear door service hole cover, and then attach the rear door service hole cover using the reference points on the rear door panel.</ptxt>
+<figure>
+<graphic graphicname="B281329E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Reference Point</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Securely install the rear door service hole cover to prevent wrinkles and air bubbles.</ptxt>
+</item>
+<item>
+<ptxt>There should be no wrinkles or folds after installing the rear door service hole cover.</ptxt>
+</item>
+<item>
+<ptxt>After installing the rear door service hole cover, check the seal quality.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0024" proc-id="RM21Q0EV__00004M300001">
+<ptxt>INSTALL REAR DOOR NO. 2 TRIM BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear door No. 2 trim bracket with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0025" proc-id="RM21Q0EV__00004M400001">
+<ptxt>INSTALL REAR DOOR INSIDE HANDLE SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the rear door inside locking cable and rear door lock remote control cable to the rear door inside handle.</ptxt>
+<figure>
+<graphic graphicname="B291634" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Attach the 2 guides as indicated by the arrow in the illustration, and then attach the claw to install the rear door inside handle.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0035" proc-id="RM21Q0EV__00004TM00001">
+<ptxt>INSTALL REAR SPEAKER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a nose piece to an air riveter or hand riveter. Then insert the mandrel part of a new φ4 mm waterproof rivet into the nose piece.</ptxt>
+</s2>
+<s2>
+<ptxt>Using an air riveter or hand riveter, install the speaker with 3 new rivets.</ptxt>
+<figure>
+<graphic graphicname="E226359" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not pry the rivet with the riveter, as this will cause damage to the riveter and mandrel.</ptxt>
+<figure>
+<graphic graphicname="B171664E19" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mandrel</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Riveter</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>INCORRECT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CORRECT</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>Confirm that the rivets are seated properly against the speaker.</ptxt>
+<figure>
+<graphic graphicname="B172390E19" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Riveter</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>INCORRECT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CORRECT</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>Do not tilt the riveter when installing the rivet to the speaker.</ptxt>
+</item>
+<item>
+<ptxt>Do not leave any space between the rivet head and speaker.</ptxt>
+</item>
+<item>
+<ptxt>Do not leave any space between the speaker and door. Firmly hold together the 2 items while installing the rivet.</ptxt>
+<figure>
+<graphic graphicname="B172391E17" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Riveter</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>INCORRECT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CORRECT</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RWH02BX_02_0028" proc-id="RM21Q0EV__00004M500001">
+<ptxt>INSTALL REAR DOOR INNER GLASS WEATHERSTRIP LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear door inner glass weatherstrip to the rear door trim board and fold down the 5 claws in the directions indicated by the arrows in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291635" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0029" proc-id="RM21Q0EV__00004M600001">
+<ptxt>INSTALL REAR DOOR TRIM BOARD SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 10 clips to install the rear door trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the screw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0031" proc-id="RM21Q0EV__00004M700001">
+<ptxt>INSTALL REAR POWER WINDOW REGULATOR SWITCH ASSEMBLY WITH REAR DOOR ARMREST BASE PANEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws and 8 clips to install the rear power window regulator switch assembly with rear door armrest base panel.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWH02BX_02_0032" proc-id="RM21Q0EV__00004M800001">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZA_T003O" variety="T003O">
+<name>SHIFT LOCK SYSTEM</name>
+<para id="RM0000014WI01CX" category="G" type-id="3001K" name-id="AT0A5-14" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000014WI01CX_01" type-id="01" category="01">
+<s-1 id="RM0000014WI01CX_01_0001" proc-id="RM21Q0EV__00000YB00000">
+<ptxt>INSPECT KEY INTERLOCK SOLENOID</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034849E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the key interlock solenoid connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the battery's positive (+) lead to terminal 1 (KLS+) and the battery's negative (-) lead to terminal 2 (KLS-).</ptxt>
+<ptxt>Check that the operating noise of the key interlock solenoid can be heard.</ptxt>
+<ptxt>If the result is not as specified, replace the key interlock solenoid.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

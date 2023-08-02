@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZN_T0041" variety="T0041">
+<name>MANUAL TRANSMISSION OIL</name>
+<para id="RM0000010UK00LX" category="G" type-id="8000T" name-id="MT00X-03" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010UK00LX_01" type-id="01" category="01">
+<s-1 id="RM0000010UK00LX_01_0001" proc-id="RM21Q0EV__00001AA00000">
+<ptxt>CHECK TRANSMISSION OIL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D025304E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Stop the vehicle on a level surface.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the filler plug and gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the oil level is between 0 to 5 mm (0 to 0.20 in.) from the bottom lip of the filler plug opening.</ptxt>
+<ptxt>If the result is not as specified, add transmission oil.</ptxt>
+<spec>
+<title>Oil grade</title>
+<specitem>
+<ptxt>GL-4</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Viscosity</title>
+<specitem>
+<ptxt>SAE 75W-90</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard capacity</title>
+<specitem>
+<ptxt>2.2 liters (2.3 US qts, 1.9 Imp. qts)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Too much or too little oil will lead to transmission problems.</ptxt>
+</item>
+<item>
+<ptxt>After adjusting the oil level, drive the vehicle and check the oil level again.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Check for oil leakage when the oil level is low. If leakage is found, repair the area necessary to stop the leak. Replace damaged parts as necessary.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the filler plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7A83K_T007Y" variety="T007Y">
+<name>REAR NO. 2 SEAT ASSEMBLY</name>
+<para id="RM0000023O9003X" category="K" type-id="30193" name-id="SE0PP-01" from="201202">
+<name>COMPONENTS</name>
+<subpara id="RM0000023O9003X_01" type-id="02" category="04" proc-id="RM21Q0EV__00002TU00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B134024E03" width="7.1065789991732in" height="5.78762943422969in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM0000023O9003X_02" type-id="02" category="04" proc-id="RM21Q0EV__00002TV00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B119455E03" width="7.1065789991732in" height="9.80353557226662in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM0000023O9003X_03" type-id="02" category="04" proc-id="RM21Q0EV__00002TW00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B119454E03" width="7.1065789991732in" height="9.80353557226662in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

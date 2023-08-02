@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000001LZL01HX" category="C" type-id="300BZ" name-id="ACFUX-02" from="201403">
+<dtccode>14</dtccode>
+<dtcname>Engine Coolant Temperature Communication Circuit</dtcname>
+<subpara id="RM000001LZL01HX_01" type-id="60" category="03" proc-id="RM21Q0EV__00004QD00001">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The engine coolant temperature sensor connected to the ECM detects the engine coolant temperature, which is used for warm up control when the engine is cold. The engine coolant temperature sensor sends a signal to the air conditioning amplifier assembly via the ECM.</ptxt>
+<table pgwide="1">
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>An open or short in engine coolant temperature communication circuit</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>SFI system</ptxt>
+</item>
+<item>
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</item>
+<item>
+<ptxt>Harness or connector</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000001LZL01HX_02" type-id="32" category="03" proc-id="RM21Q0EV__00004QE00001">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E232895E10" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001LZL01HX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000001LZL01HX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001LZL01HX_05_0001" proc-id="RM21Q0EV__00004QF00001">
+<testtitle>CHECK FOR DTC (ENGINE CONTROL SYSTEM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep05" href="RM000000ZPW01AX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Check the DTCs (See page <xref label="Seep06" href="RM000000ZPW01AX"/>).</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="3.10in"/>
+<colspec colname="COL2" colwidth="1.03in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>DTC is not output.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>DTC (P0115, P0117 or P0118) is output.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001LZL01HX_05_0002" fin="false">A</down>
+<right ref="RM000001LZL01HX_05_0006" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000001LZL01HX_05_0002" proc-id="RM21Q0EV__00004QG00001">
+<testtitle>CHECK HARNESS AND CONNECTOR (AIR CONDITIONING AMPLIFIER - ECM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E10 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A36-8 (TW) - E10-14 (THWO)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A36-8 (TW) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Result</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="3.10in"/>
+<colspec colname="COL2" colwidth="1.03in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to problem symptoms table.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to DTC.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>NG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001LZL01HX_05_0008" fin="true">A</down>
+<right ref="RM000001LZL01HX_05_0005" fin="true">B</right>
+<right ref="RM000001LZL01HX_05_0004" fin="true">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000001LZL01HX_05_0005">
+<testtitle>REPLACE AIR CONDITIONING AMPLIFIER ASSEMBLY<xref label="Seep01" href="RM000001K3A01KX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001LZL01HX_05_0006">
+<testtitle>GO TO SFI SYSTEM<xref label="Seep01" href="RM000000ZPQ015X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001LZL01HX_05_0004">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001LZL01HX_05_0008">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000045E302EX"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

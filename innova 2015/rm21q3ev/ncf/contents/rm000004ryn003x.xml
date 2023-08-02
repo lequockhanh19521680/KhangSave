@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12052_S000T" variety="S000T">
+<name>THEFT DETERRENT / KEYLESS ENTRY</name>
+<ttl id="12052_S000T_7AHYY_T000D" variety="T000D">
+<name>THEFT DETERRENT</name>
+<para id="RM000004RYN003X" category="F" type-id="8048Z" name-id="TD5LX-04" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004RYN003X_z0" proc-id="NM21Q0EV__000000X00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION</ptxt>
+<step2>
+<ptxt>The theft warning ECU assembly controls the theft deterrent system. If the system detects an abnormality in the vehicle based on an activation signal from one of the sensors or switches, it issues a warning by operating the hazard warning lights, security horn assembly and horn assembly.</ptxt>
+</step2>
+<step2>
+<ptxt>The table below describes the operation of the theft deterrent system:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Operation</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Remote Arming/Disarming</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The theft deterrent system activates and deactivates in accordance with operations of the lock/unlock button on the transmitter.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic Arming</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>If the doors are unlocked through the operation of the unlock button on the transmitter while the system is in the armed state and no doors are opened within 30 seconds, the automatic lock function will relock the doors and activate the theft deterrent system automatically.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Shock Sensing</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The theft warning ECU assembly has a built-in shock sensing triggering sensor to detect any abnormal vibrations that are applied to the vehicle, and issues an alarm only if a strong impact is applied to the vehicle. Even if the sensor detects a vibration, the system will not issue an alarm under the following conditions:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Any door or the engine hood is open.</ptxt>
+</item>
+<item>
+<ptxt>Within 3 seconds of the completion of the automatic lock function</ptxt>
+</item>
+<item>
+<ptxt>Within 3 seconds of all doors or the engine hood being closed</ptxt>
+</item>
+<item>
+<ptxt>Within 3 seconds of receiving a signal from the transmitter</ptxt>
+</item>
+<item>
+<ptxt>Ignition switch is ON.</ptxt>
+</item>
+<item>
+<ptxt>Shock sensing function is off.*</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Starter Cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During an alarm, the system stops the power to the starter, thus preventing the terminal from being reconnected.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>History Report</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>If the theft deterrent system enters the alarm state after the doors are locked by the transmitter, this will be memorized. Then, when the doors are unlocked by the transmitter, the hazard warning lights flash three times to inform the driver of this.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: This function can be disabled according to user preference. For details, refer to the corresponding Repair Manual for this model.</ptxt>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>The states of the theft deterrent system are as follows:</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<colspec colname="COL3" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>State</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Description</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Theft Detection</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Disarmed State</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The theft deterrent system has not been set by the user.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Not possible</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Armed Preparation State</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This is the preparation state before the theft deterrent system becomes active (enters the armed state) when the system has been set by the user.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Not possible</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Armed State</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The theft deterrent system is active. (Theft can be detected.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Possible</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Alarm State</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A theft attempt has been detected and the warning operation activates.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Possible</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="Y107387E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="6.02in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the ignition switch is off and the ignition key is not inserted into the ignition key cylinder, the armed preparation state can be switched to via the following operation:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>All doors are locked using the wireless door lock control system while all doors and the engine hood are closed.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The armed state will be switched to 30 seconds after switching to the armed preparation state.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(3)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Disarmed state B will be switched to if any of the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Engine hood is opened.</ptxt>
+</item>
+<item>
+<ptxt>One of the doors is opened.</ptxt>
+</item>
+<item>
+<ptxt>The ignition key is inserted in the ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>The ignition switch has been turned to ON.</ptxt>
+</item>
+<item>
+<ptxt>A terminal is disconnected from the battery and reconnected.</ptxt>
+</item>
+<item>
+<ptxt>All doors are unlocked using the wireless door lock control system.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(4)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The alarm state will be switched to if any of the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Any door or the engine hood is opened.</ptxt>
+</item>
+<item>
+<ptxt>A terminal is disconnected from the battery and reconnected.</ptxt>
+</item>
+<item>
+<ptxt>The shock sensing triggering sensor detects a vibration.*</ptxt>
+</item>
+</list1>
+<ptxt>In addition, at this time, the theft warning ECU assembly sends a starter cut signal to the starter motor.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(5)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Disarmed state B will be switched to if any of the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>All doors are unlocked using the wireless door lock control system.</ptxt>
+</item>
+<item>
+<ptxt>The ignition switch has been turned to ON.</ptxt>
+</item>
+</list1>
+<ptxt>In addition, at this time, the theft warning ECU assembly stops sending a starter cut signal to the starter motor.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(6)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The armed state will be switched to after approximately 27.5 seconds has passed.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(7)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the engine hood is closed, the armed preparation state can be switched.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(8)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Disarmed state B will be switched to if any of the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Any door is opened.</ptxt>
+</item>
+<item>
+<ptxt>The ignition key is inserted into the ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>A terminal is disconnected from the battery and reconnected.</ptxt>
+</item>
+<item>
+<ptxt>The ignition switch is ON.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>(9)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the ignition switch is off and the ignition key is not inserted into the ignition key cylinder, disarmed state A is switched to when all of the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>All doors are locked using the wireless door lock control system.</ptxt>
+</item>
+<item>
+<ptxt>All doors are closed.</ptxt>
+</item>
+<item>
+<ptxt>Engine hood is opened.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: When the shock sensing function is on.</ptxt>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

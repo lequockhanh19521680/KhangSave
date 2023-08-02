@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7ARJO_T008X" variety="T008X">
+<name>CAMSHAFT OIL CONTROL VALVE</name>
+<para id="RM000000WU2047X" category="G" type-id="8000T" name-id="ES0BY-21" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000WU2047X_01" type-id="01" category="01">
+<s-1 id="RM000000WU2047X_01_0001" proc-id="RM21Q0EV__00003HW00000">
+<ptxt>CHECK CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099015E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</s2>
+<s2>
+<ptxt>Start and warm up the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Select VVT from the Active Test menu.</ptxt>
+</s2>
+<s2>
+<ptxt>With the engine idling, check the engine speed when the oil control valve is operated by the intelligent tester.</ptxt>
+<spec>
+<title>OK</title>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>VVT system is OFF (Oil control valve is OFF)</ptxt>
+</entry>
+<entry>
+<ptxt>Normal engine speed</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VVT system is ON (Oil control valve is ON)</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle or engine stalled</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the oil control valve assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

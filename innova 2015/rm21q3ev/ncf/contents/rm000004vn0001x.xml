@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12005_S0003" variety="S0003">
+<name>1TR-FE ENGINE CONTROL</name>
+<ttl id="12005_S0003_7AH5P_T0001" variety="T0001">
+<name>SFI SYSTEM</name>
+<para id="RM000004VN0001X" category="F" type-id="8048W" name-id="ESY05-02" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004VN0001X_z0" proc-id="NM21Q0EV__000000100000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The engine control system performs highly accurate, integrated control of the following systems to achieve high performance, high power, high fuel efficiency and to reduce emissions.</ptxt>
+<step3>
+<ptxt>Sequential Multiport Fuel Injection (SFI)</ptxt>
+</step3>
+<step3>
+<ptxt>Electronic Spark Advance (ESA)</ptxt>
+</step3>
+<step3>
+<ptxt>Electronic Throttle Control System-intelligent (ETCS-i)</ptxt>
+</step3>
+<step3>
+<ptxt>Variable Valve Timing-intelligent (VVT-i)</ptxt>
+</step3>
+<step3>
+<ptxt>Fuel Pump Control</ptxt>
+</step3>
+<step3>
+<ptxt>Air Conditioning Cut-off Control</ptxt>
+</step3>
+<step3>
+<ptxt>Oxygen Sensor Heater Control</ptxt>
+</step3>
+<step3>
+<ptxt>Diagnosis</ptxt>
+</step3>
+<step3>
+<ptxt>Fail-safe</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

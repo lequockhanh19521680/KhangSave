@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROO_T009R" variety="T009R">
+<name>COMPRESSOR</name>
+<para id="RM00000248W00DX" category="A" type-id="30014" name-id="ACFU0-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000248W00DX_z2">
+<content4>
+<table frame="all" colsep="1" rowsep="1">
+<title>SST</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.96in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.18in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.04in" colsep="0"/>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="J002016" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09985-20010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Set,Air Conditioner</ptxt>
+<ptxt>Service Tool</ptxt>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="2">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="J002017" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02010)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Gauge,Refrigerant Charging</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="3">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I104255" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02050)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Hose,Refrigerant Charging</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="4">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I104256" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02060)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Hose,Refrigerant Charging</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="5">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I104257" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02070)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Hose,Refrigerant Charging</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="6">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="J002030" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02090)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Coupler,Quick</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="7">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="J002022" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02110)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Coupler,Quick</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="8">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="J002021" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02130)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Valve,Refrigerant Drum Service</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="9">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="J002023" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09985-02150)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Joint,T</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

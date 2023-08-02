@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7A826_T006K" variety="T006K">
+<name>WIPER AND WASHER SYSTEM</name>
+<para id="RM0000024F6004X" category="D" type-id="303F2" name-id="WW0J4-01" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM0000024F6004X_z0" proc-id="RM21Q0EV__00002CZ00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>WINDSHIELD WASHER OPERATION</ptxt>
+<step2>
+<ptxt>When the front washer switch is ON for 0.3 seconds or more and washer fluid is sprayed, this system immediately activates. The system operates the front wipers at low speed for approximately 2.2 seconds and then stops operation when the washer switch is ON for 1.5 seconds or more.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>INTERMITTENT OPERATION</ptxt>
+<step2>
+<ptxt>The system operates the front wipers according to an adjustable interval time when the front wiper switch is turned to the INT position. The interval can be adjusted between 1.6 to 10.7 seconds using the adjust dial.</ptxt>
+</step2>
+<step2>
+<ptxt>When the wiper switch is turned to the INT position, current flows from the already charged capacitor C1 through terminals INT1 and INT2 of the wiper control switch, to Tr1 (transistor). When Tr1 turns on, current flows as follows: wiper switch terminal +S, terminal +1 (same switch), wiper motor terminal +1, wiper motor, ground. As a result, the wiper motor operates. When the current flow from capacitor C1 ends, Tr1 turns off to stop the relay contact point and halts the wiper motor.</ptxt>
+<ptxt>When the relay contact point turns off, capacitor C1 begins to charge again and Tr1 remains off until charging has been completed. This period of time corresponds to the adjust dial setting. When capacitor C1 is fully charged, Tr1 turns on and then the relay contact point activates, causing the motor to operate.</ptxt>
+<ptxt>The adjust dial (variable resistor) changes the charge time of capacitor C1.</ptxt>
+<figure>
+<graphic graphicname="B112949E03" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step2>
+</step1>
+<step1>
+<ptxt>REAR WASHER OPERATION</ptxt>
+<step2>
+<ptxt>When the rear wiper and washer switch is turned ON, current flows the rear wiper as follows: rear wiper and washer switch terminal +1R, terminal EW (same switch), ground. As a result, the rear wiper activates.</ptxt>
+</step2>
+<step2>
+<ptxt>When the rear wiper and washer switch is turned upward from the ON position:</ptxt>
+<step3>
+<ptxt>Current flows as follows: rear wiper and washer switch terminal +1R, terminal EW (same switch), ground.</ptxt>
+</step3>
+<step3>
+<ptxt>Current also flows from the rear washer motor &amp; pump as follows: rear wiper and washer switch terminal WR, terminal EW (same switch), ground. As a result, the rear wiper and washer operate at the same time.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>When the rear wiper and washer switch is turned downward from the OFF position, current flows as follows: rear wiper and washer switch terminal WR, terminal EW (same switch), ground.</ptxt>
+<figure>
+<graphic graphicname="B087117E10" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

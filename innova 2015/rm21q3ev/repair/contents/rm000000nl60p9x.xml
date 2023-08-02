@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000000NL60P9X" category="J" type-id="300HA" name-id="AV5HF-43" from="201403">
+<dtccode/>
+<dtcname>CD cannot be Inserted / Played or CD is Ejected Right After Insertion</dtcname>
+<subpara id="RM000000NL60P9X_01" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000NL60P9X_02" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000NL60P9X_02_0001" proc-id="RM21Q0EV__00005J800000">
+<testtitle>CHECK IF A PROPER CD IS INSERTED</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Make sure that the CD is an audio CD or a CD with an MP3 or WMA file, and that it is not deformed, flawed, stained, burred, or otherwise defective.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Normal CD.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Translucent or uniquely-shaped CDs cannot be played.</ptxt>
+</item>
+<item>
+<ptxt>CDs with adhesive paper labels should not be played.</ptxt>
+</item>
+<item>
+<ptxt>Commercial audio CDs can be played.</ptxt>
+</item>
+<item>
+<ptxt>CD-DA files on CD-ROMs, CD-Rs, and CD-RWs can be played.</ptxt>
+</item>
+<item>
+<ptxt>MP3 and WMA files on CD-ROMs, CD-Rs, and CD-RWs can be played.</ptxt>
+</item>
+<item>
+<ptxt>For details on playable CDs, refer to the Owner's Manual.</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000NL60P9X_02_0008" fin="false">OK</down>
+<right ref="RM000000NL60P9X_02_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0008" proc-id="RM21Q0EV__00005JB00000">
+<testtitle>CHECK THAT CD IS INSERTED PROPERLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check whether or not the CD is inserted upside down.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>CD is properly inserted.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000NL60P9X_02_0002" fin="false">OK</down>
+<right ref="RM000000NL60P9X_02_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0002" proc-id="RM21Q0EV__00005J900000">
+<testtitle>CHECK CD</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clean the CD by wiping it with a soft cloth from the inside to the outside in a radial direction.</ptxt>
+<figure>
+<graphic graphicname="I100151" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Malfunction disappears.</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Do not use a conventional record cleaner or antistatic preservative.</ptxt>
+</atten3>
+</test1>
+</content6>
+<res>
+<down ref="RM000000NL60P9X_02_0003" fin="true">OK</down>
+<right ref="RM000000NL60P9X_02_0004" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0004" proc-id="RM21Q0EV__00005JA00000">
+<testtitle>REPLACE CD WITH ANOTHER AND RECHECK</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Replace the CD with a normal one and check that the malfunction disappears.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Malfunction disappears.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000NL60P9X_02_0011" fin="true">OK</down>
+<right ref="RM000000NL60P9X_02_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0006">
+<testtitle>CHANGE CD</testtitle>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0007">
+<testtitle>INSERT CD PROPERLY</testtitle>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0003">
+<testtitle>END</testtitle>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0011">
+<testtitle>END (CD IS FAULTY)</testtitle>
+</testgrp>
+<testgrp id="RM000000NL60P9X_02_0009">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

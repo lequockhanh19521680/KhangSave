@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12009_S0006" variety="S0006">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="12009_S0006_7AH5S_T0004" variety="T0004">
+<name>EMISSION CONTROL SYSTEM</name>
+<para id="RM000004QPP002X" category="F" type-id="8048Z" name-id="EC42F-03" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004QPP002X_z0" proc-id="NM21Q0EV__000000D00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<step2>
+<ptxt>The main components of the emission control system are as follows:</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="4.24in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Exhaust Emission System</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Determines an optimal fuel injection volume based on the signals from various sensors.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TWC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Reduces CO, HC and NOx in the exhaust gas.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Oxygen Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the oxygen concentration in the exhaust emissions by measuring the electromotive force generated in the sensor itself. For details, see the 1TR-FE Engine Control.</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Evaporative Emission Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sends signals to the VSV (for EVAP) to control the purge flow.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Charcoal Canister Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Contains activated charcoal to absorb the fuel vapor created in the fuel tank.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VSV (for EVAP)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Opens in accordance with the signals from the ECM when the system is purging, in order to send the fuel vapor that was absorbed by the charcoal canister into the intake manifold.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>Three-Way Catalyst (TWC)</ptxt>
+<step3>
+<ptxt>2 TWCs have been provided in the exhaust pipe.</ptxt>
+</step3>
+<step3>
+<ptxt>This TWC improves exhaust emissions by optimizing the cell density and the wall thickness.</ptxt>
+<figure>
+<graphic graphicname="W104274E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>TWC</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>Evaporative Emission Control System</ptxt>
+<step3>
+<ptxt>Based on the signals from various sensors, the ECM opens and closes the VSV (for EVAP). Thus, it controls the purge flow of evaporative emissions (HC) in the charcoal canister sub-assembly in accordance with the engine conditions.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

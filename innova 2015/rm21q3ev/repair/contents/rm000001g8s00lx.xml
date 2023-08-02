@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A808_T004M" variety="T004M">
+<name>REAR UPPER CONTROL ARM</name>
+<para id="RM000001G8S00LX" category="A" type-id="80001" name-id="SP3EN-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001G8S00LX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001JR00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>Remove the fuel tank before removing the rear upper arm LH, and remove the center exhaust pipe before removing the rear upper arm RH.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001G8S00LX_02" type-id="01" category="01">
+<s-1 id="RM000001G8S00LX_02_0001">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM000001G8S00LX_02_0003" proc-id="RM21Q0EV__000052Z00000">
+<ptxt>REMOVE CENTER EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000135901LX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000001G8S00LX_02_0004" proc-id="RM21Q0EV__000053000000">
+<ptxt>REMOVE FUEL TANK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000YLT070X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000001G8S00LX_02_0002" proc-id="RM21Q0EV__00001JS00000">
+<ptxt>REMOVE REAR UPPER CONTROL ARM ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118723" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts, 2 nuts and control arm from the axle housing.</ptxt>
+<atten4>
+<ptxt>While fixing the nuts in place, loosen and remove the bolts.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

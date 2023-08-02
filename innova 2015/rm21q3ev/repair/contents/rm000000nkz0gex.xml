@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000000NKZ0GEX" category="D" type-id="303F2" name-id="AVA8M-15" from="201403">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000000NKZ0GEX_z0" proc-id="RM21Q0EV__00005GT00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DISC PLAYER OUTLINE</ptxt>
+<step2>
+<ptxt>A CD player uses a laser pickup to read digital signals recorded on CDs. By converting the digital signals to analog, music and other content can be played.</ptxt>
+<atten2>
+<ptxt>Do not look directly at the laser pickup because the CD player uses an invisible laser beam. Be sure to operate the player only as instructed.</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not disassemble any part of the CD player.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply oil to the CD player.</ptxt>
+</item>
+<item>
+<ptxt>Do not insert anything but a CD into the CD player.</ptxt>
+</item>
+</list1>
+</atten3>
+</step2>
+<step2>
+<ptxt>Usable discs</ptxt>
+<step3>
+<ptxt>The CD player can only play audio CDs, CD-Rs (CD-Recordable), and CD-RWs (CD-ReWritable) that have any of the following marks: </ptxt>
+<figure>
+<graphic graphicname="E119759" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Precautions for use of discs</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Copy-protected CDs cannot be played.</ptxt>
+</item>
+<item>
+<ptxt>CD-Rs and CD-RWs may not be played depending on the recording conditions or characteristics of the discs, or due to damage, dirt, or deterioration caused by leaving the discs in the cabin for a long time.</ptxt>
+</item>
+<item>
+<ptxt>Unfinalized CD-Rs and CD-RWs cannot be played.</ptxt>
+</item>
+<item>
+<ptxt>Keep the discs away from dirt. Be careful not to damage the discs or leave your fingerprints on them.</ptxt>
+</item>
+<item>
+<ptxt>Hold discs by the outer edge and center hole with the label side up.</ptxt>
+</item>
+<item>
+<ptxt>Leaving the disc exposed halfway out of the slot for a long time after pressing the disc eject button may cause deformation of the disc, making the disc unusable.</ptxt>
+</item>
+<item>
+<ptxt>If discs have adhesive tape, stickers, CD-R labels, or any traces of such labels attached, the discs may not be ejected or player malfunctions may result.</ptxt>
+</item>
+<item>
+<ptxt>Keep the discs away from direct sunlight (exposure to direct sunlight may cause deformation of the disc, making the disc unusable).</ptxt>
+</item>
+<item>
+<ptxt>Do not use odd-shaped CDs because these may cause player malfunctions.</ptxt>
+</item>
+<item>
+<ptxt>Do not use discs whose recorded portion is transparent or translucent because they may be unable to be properly inserted, ejected, or played.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>When it is cold or raining, if mist forms on the windows, mist and dew may form in the player. In such a case, the CD may skip or the CD may stop playing. Ventilate or dehumidify the cabin for a while before using the player.</ptxt>
+</item>
+<item>
+<ptxt>The CD may skip if the player experiences strong vibrations when the vehicle is driven on rough roads or similar uneven surfaces.</ptxt>
+</item>
+</list1>
+</atten4>
+</step2>
+<step2>
+<ptxt>Cleaning</ptxt>
+<atten3>
+<ptxt>Do not use a lens cleaner because it may cause a malfunction in the pickup portion of the player.</ptxt>
+</atten3>
+<step3>
+<ptxt>If dirt is on the disc surface, wipe it clean with a soft dry cloth, such as an eyeglass cleaner for plastic lenses, from the inside to the outside in a radial direction.</ptxt>
+<figure>
+<graphic graphicname="I100151" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Pressing on the disc by hand or rubbing the disc with a hard cloth may scratch the disc surface.</ptxt>
+</item>
+<item>
+<ptxt>The use of solvents, such as a record spray, antistatic agent, alcohol, benzene, and thinner, or a chemical cloth may cause damage to the disc, making the disc unusable.</ptxt>
+</item>
+</list1>
+</atten3>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>MP3/WMA OUTLINE</ptxt>
+<step2>
+<ptxt>Playable MP3 file standards</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Compatible standard</ptxt>
+</entry>
+<entry>
+<ptxt>MP3 (MPEG1 LAYER3, MPEG2 LSF LAYER3)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Compatible sampling frequency</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>MPEG1 LAYER3: 32, 44.1, 48 (kHz)</ptxt>
+</item>
+<item>
+<ptxt>MPEG2 LSF LAYER3: 16, 22.05, 24 (kHz)</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Compatible bit rate</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>MPEG1 LAYER3: 3 to 320 (kbps)</ptxt>
+</item>
+<item>
+<ptxt>MPEG2 LSF LAYER3: 8 to 160 (kbps)</ptxt>
+</item>
+<item>
+<ptxt>Compatible with VBR</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Compatible channel mode</ptxt>
+</entry>
+<entry>
+<ptxt>Stereo, joint stereo, dual channel, monaural</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Playable WMA file standards</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Compatible standard</ptxt>
+</entry>
+<entry>
+<ptxt>WMA Ver. 7, 8 and 9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Compatible sampling frequency</ptxt>
+</entry>
+<entry>
+<ptxt>32, 44.1, 48 (kHz)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Compatible bit rate</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ver. 7, 8: CBR 48 to 192 (kbps)</ptxt>
+</item>
+<item>
+<ptxt>Ver. 9: CBR 48 to 320 (kbps)</ptxt>
+</item>
+<item>
+<ptxt>Compatible with playback of channel 2 only</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>ID3 tag and WMA tag</ptxt>
+<step3>
+<ptxt>Additional textual information called an ID3 tag can be input to MP3 files. Information such as song titles and artist names can be stored.</ptxt>
+<atten4>
+<ptxt>This player is compatible with the ID3 tags of ID3 Ver. 1.0 and 1.1, and ID3 Ver. 2.2 and 2.3 (the number of characters complies with ID3 Ver. 1.0 and 1.1.).</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Additional textual information called a WMA tag can be input to WMA files. Information such as song titles and artist names can be stored.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Usable media</ptxt>
+<step3>
+<ptxt>Only CD-ROMs, CD-Rs (CD-Recordable), and CD-RWs (CD-ReWritable) can be used to play MP3/WMA files.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>CD-Rs and CD-RWs are more easily affected by a hot and humid environment than discs used for normal audio CDs. For this reason, some CD-Rs and CD-RWs may not be playable.</ptxt>
+</item>
+<item>
+<ptxt>If there are fingerprints or scratches on the disc, the disc may not be playable or the CD may skip.</ptxt>
+</item>
+<item>
+<ptxt>Some CD-Rs and CD-RWs deteriorate if they are left in the cabin for a long time.</ptxt>
+</item>
+<item>
+<ptxt>Keep CD-Rs and CD-RWs in a storage case that is impenetrable to light.</ptxt>
+</item>
+</list1>
+</atten3>
+</step3>
+</step2>
+<step2>
+<ptxt>Usable media format</ptxt>
+<step3>
+<ptxt>Usable media format</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.13in"/>
+<colspec colname="COL2" align="left" colwidth="4.95in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Disc format</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>CD-ROM Mode 1 and Mode 2, CD-ROM XA Mode 2 Form 1 and Form 2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>File format</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ISO 9660 Level 1 and Level 2 (Joliet, Romeo)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>As for MP3/WMA files written in any format other than those above, the contents of the files may not be playable normally or the file names or folder names may not be displayed correctly.</ptxt>
+</item>
+<item>
+<ptxt>This player is compatible with multi-session discs and can play CD-Rs and CD-RWs on which MP3/WMA files are added. However, only the first session can be played.</ptxt>
+</item>
+<item>
+<ptxt>Discs whose first session includes both music data and MP3 or WMA format data cannot be played.</ptxt>
+</item>
+</list1>
+</atten4>
+</step3>
+<step3>
+<ptxt>Standard and restrictions</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" align="left" colwidth="3.54in"/>
+<colspec colname="COL2" align="left" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Maximum directory levels</ptxt>
+</entry>
+<entry>
+<ptxt>8 levels</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Maximum number of characters for a folder name/file name</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>32 characters</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Maximum number of folders</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>192 (Including empty folders, root folders, and folders that do not contain MP3/WMA files)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Maximum number of files on a disc</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>255 (Including non-MP3/WMA files)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>File names</ptxt>
+<step3>
+<ptxt>Only files with an extension of ".mp3" or ".wma" can be recognized and played as MP3 or WMA files.</ptxt>
+</step3>
+<step3>
+<ptxt>Save MP3 or WMA files with an extension of ".mp3" or ".wma".</ptxt>
+<atten3>
+<ptxt>If saving non-MP3 or non-WMA files with an extension of ".mp3" or ".wma", those files are wrongly recognized as MP3 or WMA files and played. A loud noise may occur and damage to the speakers may result.</ptxt>
+</atten3>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>RADIO DESCRIPTION</ptxt>
+<step2>
+<ptxt>Radio frequency band</ptxt>
+<step3>
+<ptxt>Radio broadcasts use the radio frequency bands shown in the table below.</ptxt>
+<figure>
+<graphic graphicname="E177192E02" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Service area</ptxt>
+<figure>
+<graphic graphicname="E177193E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step3>
+<ptxt>The service areas of AM and FM broadcasts are vastly different. Sometimes an AM broadcast can be received very clearly but an FM stereo broadcast cannot. An FM stereo broadcast has the smallest service area, and is prone to pick up static and other types of interference such as noise.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>FM (Stereo)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>FM (Monaural)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>AM</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Radio reception problems</ptxt>
+<atten4>
+<ptxt>In addition to static, other problems such as "phasing", "multipath", and "fade out" exist. These problems are not caused by electrical noise, but by the radio signal propagation method itself.</ptxt>
+</atten4>
+<step3>
+<ptxt>Phasing</ptxt>
+<figure>
+<graphic graphicname="E177194E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>AM broadcasts are susceptible to electrical interference and another kind of interference called phasing. Occurring only at night, phasing is the interference created when a vehicle receives 2 radio wave signals from the same transmitter. One signal is reflected off the ionosphere and the other signal is received directly from the transmitter.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Phasing</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ionosphere</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Multipath</ptxt>
+<figure>
+<graphic graphicname="E177195E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Multipath is a type of interference created when a vehicle receives 2 radio wave signals from the same transmitter. One signal is reflected off buildings or mountains and the other signal is received directly from the transmitter.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Multipath</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Fade out</ptxt>
+<figure>
+<graphic graphicname="E177196E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Fade out is caused by objects (buildings, mountains, and other such large obstacles) that deflect away part of a signal, resulting in a weaker signal when the object is between the transmitter and vehicle. High frequency radio waves, such as FM broadcasts, are easily deflected by obstructions. Low frequency radio waves, such as AM broadcasts, are much more difficult to deflect. </ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fade Out</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Noise problem</ptxt>
+<ptxt>Technicians must have a clear understanding about the noise complaint of each customer. Use the following table to diagnose noise problems.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.34in"/>
+<colspec colname="COL2" colwidth="2.34in"/>
+<colspec colname="COL3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Radio Frequency</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Noise Occurrence Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Presumable Cause</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>AM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Noise occurs in a specified area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Foreign noise</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>AM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Noise occurs when listening to an intermittent broadcast</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>An identical program transmitted from multiple towers can cause noise where the signals overlap</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>AM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Noise occurs only at night</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Music beat from a distant broadcast</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>FM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Noise occurs while driving in a specified area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Multipath or phasing noise resulting from a change in FM frequency</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<atten4>
+<ptxt>If the noise does not match the examples above, refer to the descriptions about phasing and multipath.</ptxt>
+</atten4>
+<step1>
+<ptxt>USB AUDIO SYSTEM FUNCTION OUTLINE</ptxt>
+<step2>
+<ptxt>The No. 1 stereo jack adapter assembly is equipped with a USB terminal. Connecting a USB device or "iPod" to the No. 1 stereo jack adapter assembly allows music files to be played. Not only is it possible to play music from a USB device with audio functions or "iPod", it is also possible to play MP3 or WMA music files that are stored on a USB device or "iPod". In addition, "iPod" control software is installed, allowing file selection from playlists and operation using shuffle mode.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Visual content of a USB device or "iPod" cannot be played.</ptxt>
+</item>
+<item>
+<ptxt>Operation through the controls of a USB device or "iPod" cannot be performed while the USB device or "iPod" is connected.</ptxt>
+</item>
+</list1>
+</atten4>
+</step2>
+<step2>
+<ptxt>USB audio system compatible model</ptxt>
+<step3>
+<ptxt>USB Device</ptxt>
+<ptxt>The following device formats can be used.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.13in"/>
+<colspec colname="COL2" colwidth="4.95in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Compatible USB device formats</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>USB communication format: USB 2.0 FS (12 Mbps)</ptxt>
+</item>
+<item>
+<ptxt>File format: FAT16/32 (Windows)</ptxt>
+</item>
+<item>
+<ptxt>Class: Mass storage class</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>USB devices that do not comply with the specifications listed above may not play correctly, and their file names and folder names may not be displayed correctly.</ptxt>
+<ptxt>Standards and limitations are as follows:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Maximum number of directory levels: 8 levels</ptxt>
+</item>
+<item>
+<ptxt>Maximum number of folders in device: 999 (including the root folder)</ptxt>
+</item>
+<item>
+<ptxt>Maximum number of files in device: 65025</ptxt>
+</item>
+<item>
+<ptxt>Maximum number of files per folder: 255</ptxt>
+</item>
+</list1>
+</step3>
+<step3>
+<ptxt>"iPod"</ptxt>
+<ptxt>"iPod" is a trademark of Apple Inc., registered in the U.S. and other countries.</ptxt>
+<atten4>
+<ptxt>Depending on the "iPod" model and software version, there may be cases in which the system or "iPod" does not respond or operate properly.</ptxt>
+</atten4>
+<table pgwide="1">
+<title>Supported "iPod" Models and Firmware Versions</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Supported "iPod" Model</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Supported Firmware Version or OS Version</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>"iPod" 5G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod nano" 1G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.3.1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod nano" 2G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod nano" 3G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod nano" 4G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.0.4</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod nano" 5G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.0.2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod nano" 6G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.0</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>"iPod touch" 1G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 2.1.0</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>iOS 3.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>"iPod touch" 2G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 3.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>iOS 4.2.1</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>"iPod touch" Late 2009 (8GB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 3.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>iOS 4.2.1</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>"iPod touch" 3G (32GB/64GB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 3.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>iOS 4.2.1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod touch" 4G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 4.2.1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod classic" 1G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 1.1.2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod classic" 2G (120GB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 2.0.1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPod classic" 2009 (160GB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ver. 2.0.4</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>"iPhone" 1G (iPhone)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 2.2.1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>iOS 3.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>"iPhone" 2G (iPhone 3G)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 3.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>iOS 4.2.1</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>"iPhone" 3G (iPhone 3GS)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 3.1.3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>iOS 4.2.1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>"iPhone" iPhone 4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>iOS 4.2.1</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Unsupported "iPod" Models</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.13in"/>
+<colspec colname="COL2" colwidth="4.95in"/>
+<tbody>
+<row>
+<entry morerows="4" valign="middle" align="center">
+<ptxt>Unsupported Models</ptxt>
+</entry>
+<entry>
+<ptxt>"iPod shuffle" 1G, 2G, 3G, 4G</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>"iPod photo"  1G, 2G</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>"iPod" 1G, 2G, 3G, 4G</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>"iPod mini" 1G, 2G</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>"iPad</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>Depending on the generation of "iPod" used, response to commands from the vehicle may be delayed. </ptxt>
+</atten4>
+<ptxt>Standards and limitations are as follows:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Maximum number of playlists in device: 9999</ptxt>
+</item>
+<item>
+<ptxt>Maximum number of songs in device: 65025</ptxt>
+</item>
+<item>
+<ptxt>Maximum number of songs per playlist: No limitation</ptxt>
+</item>
+</list1>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>ASL (AUTOMATIC SOUND LEVELIZER) FUNCTION OUTLINE</ptxt>
+<step2>
+<ptxt>The ASL function automatically adjusts the sound volume in order to enable the listener to hear the sound of the audio system clearly even when vehicle noise increases (as vehicle speed increases, the volume is turned up, etc.).</ptxt>
+<ptxt>Vehicle speed signals are received from the combination meter and used by the ASL.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

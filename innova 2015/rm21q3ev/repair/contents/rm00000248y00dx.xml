@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROO_T009R" variety="T009R">
+<name>COMPRESSOR</name>
+<para id="RM00000248Y00DX" category="A" type-id="80001" name-id="ACFTZ-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000248Y00DX_01" type-id="01" category="01">
+<s-1 id="RM00000248Y00DX_01_0012" proc-id="RM21Q0EV__00001VQ00000">
+<ptxt>RECOVER REFRIGERANT FROM REFRIGERATION SYSTEM
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Start the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Operate the cooler compressor under the conditions shown below:</ptxt>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Engine Speed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Operating Time</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3 minutes or more</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A/C Switch Status</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Blower Switch Status</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>HI</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Set Temperature</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>MAX COOL</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>This causes most of the compressor oil from the various components of the A/C system to collect in the A/C compressor.</ptxt>
+<atten3>
+<ptxt>It is not necessary to operate the cooler compressor if the A/C does not operate because of compressor lock, etc.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Stop the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Recover the refrigerant from the A/C system using a refrigerant recovery unit.</ptxt>
+<atten4>
+<ptxt>Use the refrigerant recovery unit in accordance with the manufacturer's instruction manual.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000248Y00DX_01_0013" proc-id="RM21Q0EV__00004NW00000">
+<ptxt>REMOVE FAN AND GENERATOR V BELT</ptxt>
+<content1 releasenbr="2">
+<ptxt>(See page <xref label="Seep01" href="RM000000YMP01TX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000248Y00DX_01_0004" proc-id="RM21Q0EV__000047K00000">
+<ptxt>DISCONNECT SUCTION HOSE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and disconnect the suction hose sub-assembly from the compressor.</ptxt>
+<figure>
+<graphic graphicname="E172078" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the suction hose sub-assembly.</ptxt>
+<atten3>
+<ptxt>Seal the openings of the disconnected parts using vinyl tape to prevent moisture and foreign matter from entering.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000248Y00DX_01_0005" proc-id="RM21Q0EV__000047L00000">
+<ptxt>DISCONNECT NO. 1 COOLER REFRIGERANT DISCHARGE HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and disconnect the No. 1 cooler refrigerant discharge hose from the compressor.</ptxt>
+<figure>
+<graphic graphicname="E172079" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the No. 1 cooler refrigerant discharge hose.</ptxt>
+<atten3>
+<ptxt>Seal the openings of the disconnected parts using vinyl tape to prevent moisture and foreign matter from entering.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000248Y00DX_01_0006" proc-id="RM21Q0EV__000047M00000">
+<ptxt>REMOVE COOLER COMPRESSOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226336" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts and cooler compressor assembly.</ptxt>
+<figure>
+<graphic graphicname="E226331" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102M015X" category="D" type-id="303FF" name-id="BC0E9-20" from="201202">
+<name>OPERATION CHECK</name>
+<subpara id="RM00000102M015X_z0" proc-id="RM21Q0EV__00001O500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK ABS WARNING LIGHT</ptxt>
+<figure>
+<graphic graphicname="F100589" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step2>
+<ptxt>When the ignition switch is turned ON, check that the ABS warning light illuminates and then turns off in approximately 3 seconds.</ptxt>
+<atten4>
+<ptxt>Troubleshoot the ABS warning light circuit if the warning light remains ON or has other malfunctions.</ptxt>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK SENSOR SIGNAL BY TEST MODE (When not using intelligent tester)</ptxt>
+<step2>
+<figure>
+<graphic graphicname="C108847E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Procedures for test mode:</ptxt>
+<step3>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</step3>
+<step3>
+<ptxt>Using SST, connect terminals 12 (TS) and 4 (CG) of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+</step3>
+<step3>
+<ptxt>Start the engine.</ptxt>
+</step3>
+<step3>
+<ptxt>Check that the ABS warning light blinks as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>If the ABS warning light does not blink, check the ABS warning light circuit.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C108848E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Check the speed sensor.</ptxt>
+<step3>
+<ptxt>Drive the vehicle straight forward at the following speeds. Then check that the ABS warning light is as follows.</ptxt>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Vehicle Speed</ptxt>
+</entry>
+<entry>
+<ptxt>Check</ptxt>
+</entry>
+<entry>
+<ptxt>ABS Warning Light</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>3 to 5 km/h (2 to 3 mph)</ptxt>
+</entry>
+<entry>
+<ptxt>Response of sensors</ptxt>
+</entry>
+<entry>
+<ptxt>Blinking</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>45 km/h (28 mph) or higher</ptxt>
+</entry>
+<entry>
+<ptxt>Deviations of sensor signal</ptxt>
+</entry>
+<entry>
+<ptxt>Turns off</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The sensor signal check may not be completed if the vehicle's wheels slip or the steering wheel is turned during this check.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Stop the vehicle.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Read the DTCs.</ptxt>
+<figure>
+<graphic graphicname="C108847E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step3>
+<ptxt>Using SST, connect terminals 13 (TC) and 4 (CG) of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+</step3>
+<step3>
+<ptxt>Read the number of blinks of the ABS warning light.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>As an example, the blinking patterns for DTCs 72 and 76 are shown below.</ptxt>
+</item>
+<item>
+<ptxt>The conditions are explained in the Diagnostic Trouble Code Chart.</ptxt>
+</item>
+<item>
+<ptxt>For the normal code, the light cycles between ON and OFF at intervals of 0.25 seconds.</ptxt>
+</item>
+<item>
+<ptxt>If more than 1 DTC is detected at the same time, the codes will be displayed in numerical order.</ptxt>
+</item>
+</list1>
+</atten4>
+<figure>
+<graphic graphicname="C108851E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>After the check, disconnect SST from terminals 13 (TC) and 4 (CG) of the DLC3.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK SENSOR SIGNAL BY TEST MODE (When using intelligent tester)</ptxt>
+<step2>
+<figure>
+<graphic graphicname="F100590E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Procedures for test mode:</ptxt>
+<step3>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</step3>
+<step3>
+<ptxt>for Automatic Transmission:</ptxt>
+<ptxt>Check that the shift lever is in P.</ptxt>
+<ptxt>for Manual Transmission:</ptxt>
+<ptxt>Check that the shift lever is in neutral and apply the parking brake.</ptxt>
+</step3>
+<step3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step3>
+<step3>
+<ptxt>Start the engine.</ptxt>
+</step3>
+<step3>
+<ptxt>Select the Test Mode using the intelligent tester.</ptxt>
+<atten4>
+<ptxt>Refer to the intelligent tester operator's manual for further details.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Check that the ABS warning light blinks.</ptxt>
+<atten4>
+<ptxt>If the ABS warning light does not blink, check the ABS warning light circuit.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C108848E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>Start the engine.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Check the speed sensor.</ptxt>
+<step3>
+<ptxt>Drive the vehicle straight forward at the following speeds. Then check that the ABS warning light is as follows.</ptxt>
+<table>
+<tgroup cols="3">
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.38in"/>
+<colspec colname="COLSPEC2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Vehicle Speed</ptxt>
+</entry>
+<entry>
+<ptxt>Check</ptxt>
+</entry>
+<entry>
+<ptxt>ABS Warning Light</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>3 to 5 km/h (2 to 3 mph)</ptxt>
+</entry>
+<entry>
+<ptxt>Response of sensors</ptxt>
+</entry>
+<entry>
+<ptxt>Blinking</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>45 km/h (28 mph) or higher</ptxt>
+</entry>
+<entry>
+<ptxt>Deviations of sensor signal</ptxt>
+</entry>
+<entry>
+<ptxt>Turns off</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The sensor signal check may not be completed if the vehicle's wheels slip or the steering wheel is turned during this check.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Stop the vehicle.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Read the DTC(s).</ptxt>
+<step3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step3>
+<step3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step3>
+<step3>
+<ptxt>Read the DTCs by following the prompts on the tester screen.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

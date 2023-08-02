@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000000NL50ZDX" category="J" type-id="300CZ" name-id="AV012M-396" from="201403">
+<dtccode/>
+<dtcname>Noise Occurs</dtcname>
+<subpara id="RM000000NL50ZDX_01" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000NL50ZDX_02" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000NL50ZDX_02_0009" proc-id="RM21Q0EV__00005J200000">
+<testtitle>NOISE CONDITION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check which direction the noise comes from (front left or right, or rear left or right).</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The location of the noise source can be determined.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000NL50ZDX_02_0004" fin="false">OK</down>
+<right ref="RM000000NL50ZDX_02_0005" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000NL50ZDX_02_0004" proc-id="RM21Q0EV__00005J000000">
+<testtitle>CHECK SPEAKERS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the installation conditions of the speaker units that are located near the noise source and that there are no cracks, scratches, deformation, or other problems.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.89in"/>
+<colspec colname="COL2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>No malfunction is found</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A speaker is installed incorrectly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Foreign objects are in the speaker</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A speaker cone is broken</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000000NL50ZDX_02_0005" fin="false">A</down>
+<right ref="RM000000NL50ZDX_02_0002" fin="true">B</right>
+<right ref="RM000000NL50ZDX_02_0006" fin="true">C</right>
+<right ref="RM000000NL50ZDX_02_0007" fin="true">D</right>
+</res>
+</testgrp>
+<testgrp id="RM000000NL50ZDX_02_0005" proc-id="RM21Q0EV__00005J100000">
+<testtitle>CHECK NOISE CONDITIONS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the noise condition.</ptxt>
+<atten4>
+<ptxt>The radio has a noise prevention function to reduce noise when listening to the radio. If a loud noise occurs, check whether the ground at the antenna mounting base and the noise prevention unit are installed and wired correctly.</ptxt>
+</atten4>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.89in"/>
+<colspec colname="COL2" align="left" colwidth="1.24in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Condition under which Noise Occurs</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Noise Source</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Noise increases when the accelerator pedal is depressed, but stops when the engine is stopped.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Generator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs during A/C or heater operation.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Blower motor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs when the vehicle accelerates rapidly on an unpaved road or after the ignition switch is turned to ON.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Fuel pump</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs when the horn switch is pressed and released or when pressed and held.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Horn</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs synchronously with the blink of the turn signal.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Flasher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs during window washer operation.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Washer</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs while the engine is running, and continues even after the engine is stopped.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Engine coolant temperature sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs during wiper operation.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Wiper</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Noise occurs when the brake pedal is depressed.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Stop light switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Other</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Static electricity</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>In the chart's left column, find the situation that matches the customer complaint. Then, in the right column, find the part that is causing the noise. Check the noise filter on the part.</ptxt>
+</item>
+<item>
+<ptxt>To save time and avoid a misdiagnosis, first make sure that the noise is not coming from outside the vehicle.</ptxt>
+</item>
+<item>
+<ptxt>Noise should be removed in descending order of loudness.</ptxt>
+</item>
+<item>
+<ptxt>Setting the radio to a frequency where no signal is received may make recognition of the noise problem easier.</ptxt>
+</item>
+</list1>
+</atten4>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The noise source cannot be determined.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000NL50ZDX_02_0001" fin="true">OK</down>
+<right ref="RM000000NL50ZDX_02_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000NL50ZDX_02_0001">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000012A80GZX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000000NL50ZDX_02_0002">
+<testtitle>REINSTALL SPEAKER</testtitle>
+</testgrp>
+<testgrp id="RM000000NL50ZDX_02_0006">
+<testtitle>REMOVE FOREIGN OBJECT</testtitle>
+</testgrp>
+<testgrp id="RM000000NL50ZDX_02_0007">
+<testtitle>REPLACE SPEAKER</testtitle>
+</testgrp>
+<testgrp id="RM000000NL50ZDX_02_0008">
+<testtitle>REPAIR OR REPLACE NOISE SOURCE</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

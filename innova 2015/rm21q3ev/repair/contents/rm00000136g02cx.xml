@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10025_S000D" variety="S000D">
+<name>1TR-FE CHARGING</name>
+<ttl id="10025_S000D_7A7Z2_T003G" variety="T003G">
+<name>GENERATOR</name>
+<para id="RM00000136G02CX" category="A" type-id="30014" name-id="CH1Y1-01" from="201303">
+<name>INSTALLATION</name>
+<subpara id="RM00000136G02CX_01" type-id="01" category="01">
+<s-1 id="RM00000136G02CX_01_0001" proc-id="RM21Q0EV__00000GU00001">
+<ptxt>INSTALL GENERATOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099681E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the generator with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>43</t-value1>
+<t-value2>438</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the generator wire with the bolt and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000136G02CX_01_0006" proc-id="RM21Q0EV__000005A00001">
+<ptxt>INSTALL DRIVE BELT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the drive belt to the pulleys except the drive belt tensioner pulley.</ptxt>
+<figure>
+<graphic graphicname="G038623E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and then install the drive belt to the tensioner pulley. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>The backside of the drive belt should face the tensioner pulley.</ptxt>
+</item>
+<item>
+<ptxt>Check that the drive belt is properly set to each pulley.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>After a new belt has been installed, check that the tensioner indicator mark is within range A shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G038479E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000136G02CX_01_0007" proc-id="RM21Q0EV__00000GJ00001">
+<ptxt>INSTALL INTAKE AIR CONNECTOR AND AIR CLEANER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the air cleaner and intake air connector assembly with the 4 bolts, and tighten the hose clamp.</ptxt>
+<figure>
+<graphic graphicname="A099871E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+<ptxt>for air cleaner</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+<ptxt>for intake air connector</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+<ptxt>for hose clamp</ptxt>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the MAF meter connector and harness clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the vacuum hose.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000136G02CX_01_0004">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

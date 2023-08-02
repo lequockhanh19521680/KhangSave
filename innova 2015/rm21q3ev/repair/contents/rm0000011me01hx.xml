@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80E_T004S" variety="T004S">
+<name>FRONT SPEED SENSOR</name>
+<para id="RM0000011ME01HX" category="G" type-id="8000T" name-id="BC0EM-38" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000011ME01HX_01" type-id="01" category="01">
+<s-1 id="RM0000011ME01HX_01_0001" proc-id="RM21Q0EV__00001LM00000">
+<ptxt>INSPECT FRONT SPEED SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C189989E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance of the speed sensor.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>0.65 to 1.8 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the speed sensor.</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>Check the speed sensor signal after speed sensor replacement (See page <xref label="Seep01" href="RM0000010JM02AX_02_0006"/>).</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

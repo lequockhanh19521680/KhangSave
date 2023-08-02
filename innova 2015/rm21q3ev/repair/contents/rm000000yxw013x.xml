@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXW013X" category="C" type-id="304RC" name-id="RS1FS-03" from="201303">
+<dtccode>B1000/31</dtccode>
+<dtcname>Center Airbag Sensor Assembly Malfunction</dtcname>
+<subpara id="RM000000YXW013X_01" type-id="61" category="03" proc-id="RM21Q0EV__000022M00001">
+<name>SYSTEM DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The center airbag sensor consists of the airbag sensor, deceleration sensor, safing sensor, driver side squib circuit, diagnostic circuit, and ignition control.</ptxt>
+<ptxt>The center airbag sensor receives signals from the airbag sensor, and determines whether or not the SRS should be activated.</ptxt>
+<ptxt>B1000/31 is recorded when a malfunction is detected in the center airbag sensor.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry>
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>B1000/31</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly malfunction</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>DTCs other than DTC B1000/31 may be output. If so, troubleshoot those DTCs first.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000YXW013X_02" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000YXW013X_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000YXW013X_03_0001" proc-id="RM21Q0EV__000022N00001">
+<testtitle>CHECK DTC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Turn the ignition switch to ON, and wait for at least 60 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep01" href="RM000000YVY015X"/>).</ptxt>
+</test1>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<title>Result</title>
+</entry>
+<entry valign="middle" align="center">
+<title>Proceed to</title>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<title>DTC B1000/31 is output</title>
+</entry>
+<entry valign="middle" align="center">
+<title>A</title>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<title>DTC B1000/31 and other DTCs are output</title>
+</entry>
+<entry valign="middle" align="center">
+<title>B</title>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>If only DTC B1000/31 is output, do not clear the DTCs. Instead, immediately replace the center airbag sensor assembly.</ptxt>
+</atten3>
+<atten4>
+<ptxt>If any DTCs other than DTC B1000/31 are output, troubleshoot those DTCs first.</ptxt>
+</atten4>
+</content6>
+<res>
+<down ref="RM000000YXW013X_03_0002" fin="true">A</down>
+<right ref="RM000000YXW013X_03_0003" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXW013X_03_0002">
+<testtitle>GO TO DIAGNOSTIC TROUBLE CODE CHART</testtitle>
+</testgrp>
+<testgrp id="RM000000YXW013X_03_0003">
+<testtitle>REPLACE CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

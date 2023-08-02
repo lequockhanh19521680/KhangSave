@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A83D_T007R" variety="T007R">
+<name>POWER WINDOW CONTROL SYSTEM</name>
+<para id="RM0000010ZD03LX" category="T" type-id="3001H" name-id="WS07E-79" from="201202">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM0000010ZD03LX_z0" proc-id="RM21Q0EV__00002Q700000">
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the table below to help determine the cause of the problem symptom. The potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</item>
+<item>
+<ptxt>Inspect the fuses and relays related to the system before inspecting the suspected areas below.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Power window control system</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Remote Up / Down Function does not Operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Power window regulator master switch assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNM00CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010ZI04FX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Driver Side Power Window does not Operate with Power Window Master Switch</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Power window regulator master switch assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNM00CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Power window regulator motor assembly (for driver side)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNQ019X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010ZK02MX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Front Passenger Side Power Window does not Operate with Front Passenger Side Power Window Switch</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Power window regulator switch assembly (for passenger side)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNO00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Power window regulator motor assembly (for passenger side)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNQ019X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010ZL06LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Rear Power Window LH does not Operate with Rear Power Window Switch LH</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Power window regulator switch assembly (for rear LH)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNP00KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Power window regulator motor assembly (for rear LH)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNQ019X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010ZM05OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Rear Power Window RH does not Operate with Rear Power Window Switch RH</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Power window regulator switch assembly (for rear RH)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNP00KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Power window regulator motor assembly (for rear RH)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNQ019X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNQ019X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle" align="left">
+<ptxt>Power Windows do not Operate at All</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. ECU-IG &amp; GAUGE fuse</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. IG1 relay</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Power window regulator master switch assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNM00CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>4. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000010ZJ04EX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>Auto Down Function does not Operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Power window regulator master switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LNM00CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

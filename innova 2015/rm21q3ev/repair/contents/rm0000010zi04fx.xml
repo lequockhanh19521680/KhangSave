@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A83D_T007R" variety="T007R">
+<name>POWER WINDOW CONTROL SYSTEM</name>
+<para id="RM0000010ZI04FX" category="J" type-id="302PE" name-id="WS0H2-01" from="201202">
+<dtccode/>
+<dtcname>Remote Up / Down Function does not Operate</dtcname>
+<subpara id="RM0000010ZI04FX_01" type-id="60" category="03" proc-id="RM21Q0EV__00002QG00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>With the ignition switch ON, the power window regulator master switch transmits remote switch signals to the regulator switches of the passenger door power window and rear door power windows. Then, each regulator switch drives its respective power window regulator motor.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000010ZI04FX_02" type-id="32" category="03" proc-id="RM21Q0EV__00002QH00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="B107966E11" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000010ZI04FX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000010ZI04FX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000010ZI04FX_04_0001" proc-id="RM21Q0EV__00002QI00000">
+<testtitle>CHECK POWER WINDOW REGULATOR MASTER SWITCH ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B066761E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the window lock switch OFF and operate the switches on the master switch. Check that the remote UP / DOWN function operates normally.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Remote UP / DOWN function operates normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000010ZI04FX_04_0004" fin="true">OK</down>
+<right ref="RM0000010ZI04FX_04_0002" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000010ZI04FX_04_0002" proc-id="RM21Q0EV__00002QJ00000">
+<testtitle>CHECK MANUAL UP / DOWN FUNCTION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that the passenger door power window and rear door power window manual UP / DOWN function operates normally.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Manual UP / DOWN function operates normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000010ZI04FX_04_0003" fin="true">OK</down>
+<right ref="RM0000010ZI04FX_04_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000010ZI04FX_04_0003">
+<testtitle>REPLACE POWER WINDOW REGULATOR MASTER SWITCH ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM0000010ZI04FX_04_0004">
+<testtitle>END</testtitle>
+</testgrp>
+<testgrp id="RM0000010ZI04FX_04_0005">
+<testtitle>OTHER PROBLEM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

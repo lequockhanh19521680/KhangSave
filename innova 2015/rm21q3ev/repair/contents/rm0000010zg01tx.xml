@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A83D_T007R" variety="T007R">
+<name>POWER WINDOW CONTROL SYSTEM</name>
+<para id="RM0000010ZG01TX" category="G" type-id="8000T" name-id="WS0H1-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010ZG01TX_01" type-id="01" category="01">
+<s-1 id="RM0000010ZG01TX_01_0001" proc-id="RM21Q0EV__00002QS00000">
+<ptxt>CHECK POWER WINDOW REGULATOR MASTER SWITCH (WINDOW LOCK SWITCH)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B066761E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that operations of the passenger side power window and rear power windows are disabled when the window lock switch of the power window regulator master switch is pressed.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the passenger side power window and rear windows can be operated when the window lock switch is pressed again.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ZG01TX_01_0002" proc-id="RM21Q0EV__00002QT00000">
+<ptxt>CHECK MANUAL UP / DOWN FUNCTION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the driver side power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Master Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>Driver side</ptxt>
+</entry>
+<entry>
+<ptxt>Pulled up</ptxt>
+</entry>
+<entry>
+<ptxt>UP (closes)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>Driver side</ptxt>
+</entry>
+<entry>
+<ptxt>Pushed halfway down</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN (opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Check that the passenger side power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Regulator Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Passenger side</ptxt>
+</entry>
+<entry>
+<ptxt>Pulled up</ptxt>
+</entry>
+<entry>
+<ptxt>UP (closes)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Passenger side</ptxt>
+</entry>
+<entry>
+<ptxt>Pushed down</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN (opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Check that the rear LH power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.81in"/>
+<colspec colname="COL2" colwidth="1.73in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Regulator Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear LH</ptxt>
+</entry>
+<entry>
+<ptxt>Pulled up</ptxt>
+</entry>
+<entry>
+<ptxt>UP (closes)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear LH</ptxt>
+</entry>
+<entry>
+<ptxt>Pushed down</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN (opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Check that the rear RH power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Regulator Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear RH</ptxt>
+</entry>
+<entry>
+<ptxt>Pulled up</ptxt>
+</entry>
+<entry>
+<ptxt>UP (closes)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear RH</ptxt>
+</entry>
+<entry>
+<ptxt>Pushed down</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN (opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ZG01TX_01_0003" proc-id="RM21Q0EV__00002QU00000">
+<ptxt>CHECK AUTO DOWN FUNCTION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the driver side power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Master Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>Driver side</ptxt>
+</entry>
+<entry>
+<ptxt>Fully pushed down</ptxt>
+</entry>
+<entry>
+<ptxt>AUTO DOWN (fully opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ZG01TX_01_0004" proc-id="RM21Q0EV__00002QV00000">
+<ptxt>CHECK REMOTE UP / DOWN FUNCTION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the passenger side power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Master Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Passenger side</ptxt>
+</entry>
+<entry>
+<ptxt>Pulled up</ptxt>
+</entry>
+<entry>
+<ptxt>UP (closes)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Passenger side</ptxt>
+</entry>
+<entry>
+<ptxt>Pushed down</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN (opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Check that the rear LH power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.81in"/>
+<colspec colname="COL2" colwidth="1.73in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Master Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear LH</ptxt>
+</entry>
+<entry>
+<ptxt>Pulled up</ptxt>
+</entry>
+<entry>
+<ptxt>UP (closes)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear LH</ptxt>
+</entry>
+<entry>
+<ptxt>Pushed down</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN (opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Check that the rear RH power window operates as follows:</ptxt>
+<table pgwide="1">
+<title>OK:</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Master Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear RH</ptxt>
+</entry>
+<entry>
+<ptxt>Pulled up</ptxt>
+</entry>
+<entry>
+<ptxt>UP (closes)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Window lock switch OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Rear RH</ptxt>
+</entry>
+<entry>
+<ptxt>Pushed down</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN (opens)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ZG01TX_01_0005" proc-id="RM21Q0EV__00002QW00000">
+<ptxt>CHECK PTC OPERATION</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>PTC operation is a function that prevents overloading of the power window regulator by stopping the motor. PTC operation activates when the power window regulator switch is operated for a predetermined amount of time.</ptxt>
+</atten4>
+<s2>
+<ptxt>Pull up and hold the power window regulator switch for more than 90 seconds. Then release the switch.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that pressing the switch does not move the window.</ptxt>
+</s2>
+<s2>
+<ptxt>Wait until 60 seconds have passed since the switch was released in the first step. Check that pressing the switch results in normal window movement.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

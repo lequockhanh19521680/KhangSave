@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12016_S000B" variety="S000B">
+<name>A45DE AUTOMATIC TRANSMISSION / TRANSAXLE</name>
+<ttl id="12016_S000B_7AIQN_T000Q" variety="T000Q">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000004SRY003X" category="F" type-id="8048W" name-id="AT828-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004SRY003X_z0" proc-id="NM21Q0EV__000002A00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The A45DE 4-speed Electronic Control Transmission (ECT) is used.</ptxt>
+</step2>
+<step2>
+<ptxt>A gate type shift lever is used.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<title>Automatic Transmission Assembly</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Control ECU</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="4" valign="middle">
+<ptxt>Gear Ratio</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2.826</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2nd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.493</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3rd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.000</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4th</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0.730</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Reverse</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2.703</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Fluid Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Toyota Genuine ATF Type T-IV</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Fluid Capacity</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>6.9 Liters (7.3 US qts, 6.1 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Weight (Reference)*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>69.2 kg (152.6 lb)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: Weight shows the figure with the fluid fully filled.</ptxt>
+</atten4>
+<table pgwide="1">
+<title>Planetary Gears</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<tbody>
+<row>
+<entry morerows="8" valign="middle">
+<ptxt>Compound Gear Unit</ptxt>
+</entry>
+<entry morerows="2" valign="middle">
+<ptxt>Front Planetary Gear Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. of Sun Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. of Pinion Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>23</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. of Ring Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>73</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Rear Planetary Gear Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. of Sun Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>36</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. of Pinion Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. of Ring Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>73</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Overdrive Planetary Gear Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. of Sun Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. of Pinion Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>23</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. of Ring Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>73</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Friction Engagement Components and 1-way Clutch</title>
+<tgroup cols="3">
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Overdrive Direct Clutch (C<sub>0</sub>)</ptxt>
+</entry>
+<entry morerows="6" valign="middle">
+<ptxt>No. of Discs</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Forward Clutch (C<sub>1</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Direct Clutch (C<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Overdrive Brake (B<sub>0</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2nd Coast Brake (B<sub>1</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2nd Brake (B<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1st and Reverse Brake (B<sub>3</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>5</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Overdrive 1-way Clutch (F<sub>0</sub>)</ptxt>
+</entry>
+<entry morerows="2" valign="middle">
+<ptxt>No. of Sprags</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>22</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1-way Clutch Assembly (F<sub>1</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 2 1-way Clutch (F<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>26</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Torque Converter Assembly</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Torque Converter Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3-element, 1-step, 2-phase</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Stall Torque Ratio</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.800</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

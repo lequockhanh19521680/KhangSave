@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81I_T005W" variety="T005W">
+<name>FRONT SEAT OUTER BELT ASSEMBLY</name>
+<para id="RM000000U9M07EX" category="N" type-id="3000N" name-id="SB4HG-11" from="201303">
+<name>DISPOSAL</name>
+<subpara id="RM000000U9M07EX_01" type-id="11" category="10" proc-id="RM21Q0EV__00005AH00000">
+<content3 releasenbr="1">
+<atten4>
+<ptxt>When scrapping vehicles equipped with a seat belt pretensioner or disposing of a front seat outer belt (with seat belt pretensioner), always first activate the seat belt pretensioner in accordance with the procedures described below. If any abnormality occurs during activation of the seat belt pretensioner, contact the service department of the distributor.</ptxt>
+</atten4>
+<atten2>
+<list1 type="unordered">
+<figure>
+<graphic graphicname="B106111E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<item>
+<ptxt>Never dispose of a front seat outer belt that has an un-activated pretensioner.</ptxt>
+</item>
+<item>
+<ptxt>The seat belt pretensioner produces a loud, exploding sound when it activates. Perform the operation where it will not be a nuisance to nearby people.</ptxt>
+</item>
+<item>
+<ptxt>When activating a front seat outer belt (with seat belt pretensioner), stand at least 10 m (32.8 ft.) away from the front seat outer belt.</ptxt>
+</item>
+<item>
+<ptxt>Use gloves and safety glasses when handling a front seat outer belt with an activated pretensioner.</ptxt>
+</item>
+<item>
+<ptxt>Always wash your hands with water after completing the disposal.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply water to a front seat outer belt that has an activated pretensioner.</ptxt>
+</item>
+<item>
+<ptxt>Perform the procedure in a place away from electrical interference.</ptxt>
+</item>
+<item>
+<ptxt>When activating the seat belt pretensioner, always use the specified SST (SRS airbag deployment tool).</ptxt>
+</item>
+</list1>
+</atten2>
+</content3>
+</subpara>
+<subpara id="RM000000U9M07EX_02" type-id="01" category="01">
+<s-1 id="RM000000U9M07EX_02_0001" proc-id="RM21Q0EV__00005AI00000">
+<ptxt>DISPOSE OF FRONT SEAT OUTER BELT ASSEMBLY (WHEN INSTALLED IN VEHICLE)</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Prepare a battery to activate the seat belt pretensioner.</ptxt>
+</atten4>
+<s2>
+<figure>
+<graphic graphicname="B106111E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check if SST is functioning properly.</ptxt>
+<sst>
+<sstitem>
+<s-number>09082-00700</s-number>
+</sstitem>
+</sst>
+<atten2>
+<ptxt>When activating the seat belt pretensioner, always use the specified SST.</ptxt>
+</atten2>
+<s3>
+<figure>
+<graphic graphicname="B106112E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the red clip of SST to the positive (+) battery terminal and the black clip to the negative (-) battery terminal.</ptxt>
+<atten4>
+<ptxt>Do not connect the yellow connector. The yellow connector is used to connect the seat belt pretensioner.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Battery</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B106113E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Press SST activation switch and check that the LED of SST activation switch illuminates.</ptxt>
+<atten2>
+<ptxt>If the LED illuminates when the activation switch is not being pressed, SST may be malfunctioning. Replace SST with a new one.</ptxt>
+</atten2>
+</s3>
+</s2>
+<s2>
+<ptxt>Disconnect SST from the battery.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the pretensioner connector.</ptxt>
+<s3>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the front door scuff plate (See page <xref label="Seep01" href="RM00000225T00DX_02_0048"/>).</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the front door opening trim (See page <xref label="Seep02" href="RM00000225T00DX_02_0050"/>).</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the rear door scuff plate (See page <xref label="Seep03" href="RM00000225T00DX_02_0054"/>).</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the rear door opening trim weatherstrip (See page <xref label="Seep04" href="RM00000225T00DX_02_0056"/>).</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the lower center pillar garnish (See page <xref label="Seep05" href="RM00000225T00DX_02_0058"/>).</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B113099" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the pretensioner connector as shown in the illustration.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Prepare SST for activation of the seat belt pretensioner.</ptxt>
+<s3>
+<ptxt>Install the floor anchor of the seat belt.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B180627E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect SST (A) to SST (B). Then connect the connector of SST (B) to the seat belt pretensioner.</ptxt>
+<sst>
+<sstitem>
+<s-number>09082-00700</s-number>
+</sstitem>
+<sstitem>
+<s-number>09082-00770</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>To avoid damaging SST connector and wire harness, do not lock the secondary lock of the twin lock.</ptxt>
+</atten3>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B227093E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Move SST at least 10 m (32.8 ft.) away from the front of the vehicle.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>10 m or more</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>Close all the doors and windows of the vehicle.</ptxt>
+<atten4>
+<ptxt>Leave a gap in one of the windows for inserting SST wire harness.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Take care not to damage SST wire harness.</ptxt>
+</atten3>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B227095E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the red clip of SST to the positive (+) battery terminal and the black clip to the negative (-) battery terminal.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Battery</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+<s2>
+<ptxt>Activate the seat belt pretensioner.</ptxt>
+<s3>
+<ptxt>Confirm that no one is inside the vehicle or within 10 m (32.8 ft.) of the vehicle.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B106113E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Press SST activation switch to activate the seat belt pretensioner.</ptxt>
+<atten4>
+<ptxt>The seat belt pretensioner operates at the same time SST activation switch LED illuminates.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Dispose of the front seat outer belt (with the seat belt pretensioner).</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not touch the front seat outer belt for at least 30 minutes after the seat belt pretensioner has been activated. It is very hot.</ptxt>
+</item>
+<item>
+<ptxt>Use gloves and safety glasses when handling a front seat outer belt whose pretensioner has been activated.</ptxt>
+</item>
+<item>
+<ptxt>Always wash your hands with water after completing the disposal.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply water to a front seat outer belt that has an activated pretensioner.</ptxt>
+</item>
+</list1>
+</atten2>
+<atten4>
+<ptxt>When scrapping a vehicle, activate the seat belt pretensioner, and then scrap the vehicle with the activated front seat outer belt installed.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000U9M07EX_02_0002" proc-id="RM21Q0EV__00005AJ00000">
+<ptxt>DISPOSE OF FRONT SEAT OUTER BELT ASSEMBLY (WHEN NOT INSTALLED IN VEHICLE)</ptxt>
+<content1 releasenbr="1">
+<sst>
+<sstitem>
+<s-number>09082-00770</s-number>
+</sstitem>
+<sstitem>
+<s-number>09082-00700</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Be sure to follow the procedure listed below when activating the seat belt pretensioner.</ptxt>
+</atten3>
+<s2>
+<figure>
+<graphic graphicname="B121580E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the front seat outer belt.</ptxt>
+<s3>
+<ptxt>Wind the seat belt with the retractor.</ptxt>
+</s3>
+<s3>
+<ptxt>When the seat belt is sufficiently wound, cut the seat belt approximately 100 mm (3.94 in.) from the retractor as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>The seat belt is designed so that winding the seat belt before pretensioner activation will decrease the pulling power of the seat belt during pretensioner activation.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Cut Here</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry>
+<ptxt>100 mm</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B106111E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check if SST is functioning properly.</ptxt>
+<sst>
+<sstitem>
+<s-number>09082-00700</s-number>
+</sstitem>
+</sst>
+<atten2>
+<ptxt>When activating the seat belt pretensioner, always use the specified SST.</ptxt>
+</atten2>
+<s3>
+<figure>
+<graphic graphicname="B106112E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the red clip of SST to the positive (+) battery terminal and the black clip to the negative (-) battery terminal.</ptxt>
+<atten4>
+<ptxt>Do not connect the yellow connector. The yellow connector is used to connect the seat belt pretensioner.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Battery</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B106113E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Press SST activation switch and check that the LED of SST activation switch illuminates.</ptxt>
+<atten2>
+<ptxt>If the LED illuminates when the activation switch is not being pressed, SST may be malfunctioning. Replace SST with a new one.</ptxt>
+</atten2>
+</s3>
+</s2>
+<s2>
+<ptxt>Disconnect SST from the battery.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B180627E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Prepare SST for activation of the seat belt pretensioner.</ptxt>
+<s3>
+<ptxt>Connect SST (A) to SST (B). Then connect the connector of SST (B) to the seat belt pretensioner.</ptxt>
+<atten3>
+<ptxt>To avoid damaging SST connector and wire harness, do not lock the secondary lock of the twin lock.</ptxt>
+</atten3>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B180628E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Place the front seat outer belt on the ground and cover it with a tire (with wheel).</ptxt>
+<atten3>
+<ptxt>Set up the front seat outer belt as shown in the illustration.</ptxt>
+</atten3>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B180629E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Move SST at least 10 m (32.8 ft.) away from the wheel.</ptxt>
+<atten3>
+<ptxt>Take care not to damage SST wire harness.</ptxt>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>10 m or more</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+<s2>
+<ptxt>Activate the seat belt pretensioner.</ptxt>
+<s3>
+<ptxt>Connect the red clip of SST to the positive (+) battery terminal and the black clip to the negative (-) battery terminal.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that no one is within 10 m (32.8 ft.) of the tire.</ptxt>
+</s3>
+<s3>
+<ptxt>Press SST activation switch to activate the seat belt pretensioner.</ptxt>
+<atten4>
+<ptxt>The seat belt pretensioner operates at the same time SST activation switch LED illuminates.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Dispose of the front seat outer belt (with the seat belt pretensioner).</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not touch the front seat outer belt for at least 30 minutes after the seat belt pretensioner has been activated. It is very hot.</ptxt>
+</item>
+<item>
+<ptxt>Use gloves and safety glasses when handling a front seat outer belt whose pretensioner has been activated.</ptxt>
+</item>
+<item>
+<ptxt>Always wash your hands with water after completing the disposal.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply water to a front seat outer belt that has an activated pretensioner.</ptxt>
+</item>
+</list1>
+</atten2>
+<s3>
+<ptxt>Remove the tire (with wheel) and SST.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B121579" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Place the front seat outer belt in a plastic bag, tie the end tightly and dispose of it in the same way as other general parts.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

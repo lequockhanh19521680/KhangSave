@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7Z0_T003E" variety="T003E">
+<name>IGNITION SWITCH</name>
+<para id="RM00000135W01KX" category="A" type-id="30014" name-id="ST096-03" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000135W01KX_01" type-id="01" category="01">
+<s-1 id="RM00000135W01KX_01_0001" proc-id="RM21Q0EV__00000V600000">
+<ptxt>INSTALL IGNITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099992E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Attach the 2 claws to install the switch to the steering column bracket upper.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135W01KX_01_0002" proc-id="RM21Q0EV__00000V700000">
+<ptxt>CONNECT CONNECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G039728E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the 9 connectors as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Secure the wire harness with the clamps.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135W01KX_01_0003" proc-id="RM21Q0EV__00000V800000">
+<ptxt>INSTALL STEERING COLUMN COVER LOWER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A118390" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the cover lower with the 3 screws.</ptxt>
+<atten4>
+<ptxt>Turn the steering wheel to the right and left as necessary to install the 3 screws and cover lower.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135W01KX_01_0004">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM00000135W01KX_01_0005" proc-id="RM21Q0EV__00000V900000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000D_S000A" variety="S000A">
+<name>1TR-FE LUBRICATION</name>
+<ttl id="1000D_S000A_7A7YV_T0039" variety="T0039">
+<name>OIL PUMP</name>
+<para id="RM000000YM801QX" category="G" type-id="3001K" name-id="LU0CN-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000000YM801QX_01" type-id="01" category="01">
+<s-1 id="RM000000YM801QX_01_0004" proc-id="RM21Q0EV__00000SY00000">
+<ptxt>INSPECT OIL PUMP RELIEF VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat the relief valve with engine oil and drop it into the relief valve hole.</ptxt>
+<figure>
+<graphic graphicname="A087021E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that the relief valve falls in smoothly by its own weight.</ptxt>
+<ptxt>If it does not, replace the relief valve. If necessary, replace the timing chain cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YM801QX_01_0005" proc-id="RM21Q0EV__00000SZ00000">
+<ptxt>INSPECT OIL PUMP ROTOR SET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rotors to the oil pump body with the rotors' marks facing outward. Check that the rotors revolve smoothly.</ptxt>
+<figure>
+<graphic graphicname="A097981E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check the tip clearance.</ptxt>
+<s3>
+<ptxt>Using a feeler gauge, measure the clearance between the drive and driven rotor tips, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A087023E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard tip clearance</title>
+<specitem>
+<ptxt>0.040 to 0.160 mm (0.0016 to 0.0063 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum tip clearance</title>
+<specitem>
+<ptxt>0.26 mm (0.0102 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the tip clearance is greater than the maximum, replace the oil pump rotor set.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the side clearance.</ptxt>
+<s3>
+<ptxt>Using a feeler gauge and precision straightedge, measure the clearance between the rotors and precision straightedge, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A087025E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard side clearance</title>
+<specitem>
+<ptxt>0.025 to 0.075 mm (0.0010 to 0.0030 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum side clearance</title>
+<specitem>
+<ptxt>0.130 mm (0.0051 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the side clearance is greater than the maximum, replace the oil pump rotor set.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the body clearance.</ptxt>
+<s3>
+<ptxt>Using a feeler gauge, measure the clearance between the oil pump body and driven rotor, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A087024E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard body clearance</title>
+<specitem>
+<ptxt>0.025 to 0.325 mm (0.0010 to 0.0128 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum body clearance</title>
+<specitem>
+<ptxt>0.425 mm (0.0167 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the body clearance is greater than the maximum, replace the oil pump.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM0000018N8018X" category="C" type-id="302TF" name-id="AT3YU-01" from="201202">
+<dtccode>P0717/67</dtccode>
+<dtcname>Input Speed Sensor Circuit No Signal</dtcname>
+<subpara id="RM0000018N8018X_01" type-id="60" category="03" proc-id="RM21Q0EV__000017L00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The speed sensor (NC0) detects the rotation speed of the O/D input shaft from the rotation speed of the O/D direct clutch drum. Its construction is the same as that of the speed sensor (SP2).</ptxt>
+<ptxt>By comparing the speed sensor (NC0) signal with the speed sensor (SP2) signal, the ECM detects the shift timing of the gears and controls the engine torque and hydraulic pressure according to various conditions. As a result, the gears shift smoothly.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="2.83in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0717/67</ptxt>
+</entry>
+<entry>
+<list1 type="nonmark">
+<item>
+<ptxt>All conditions below are detected for 5 sec. or more</ptxt>
+<ptxt>(2 trip detection logic):</ptxt>
+</item>
+<list2 type="ordered">
+<item>
+<ptxt>Gear changes not being performed</ptxt>
+</item>
+<item>
+<ptxt>Gear position: 1st, 2nd or 3rd</ptxt>
+</item>
+<item>
+<ptxt>Transmission input shaft rpm: less than 300 rpm</ptxt>
+</item>
+<item>
+<ptxt>Transmission output shaft rpm: 500 rpm or more</ptxt>
+</item>
+<item>
+<ptxt>Park/neutral position switch: OFF</ptxt>
+</item>
+<item>
+<ptxt>Shift solenoid valve S1, S2, SL and No. 1 vehicle speed sensor are operating normally</ptxt>
+</item>
+</list2>
+</list1>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in speed sensor (NC0) circuit</ptxt>
+</item>
+<item>
+<ptxt>Speed sensor (NC0)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM0000018N8018X_02" type-id="64" category="03" proc-id="RM21Q0EV__000017M00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The input speed sensor (NC0) detects the transmission input shaft speed. The ECM determines the gear shift timing based on a comparison of the input speed sensor (NC0) (input shaft speed) with the output speed sensor (output shaft speed).</ptxt>
+<ptxt>When the output shaft speed is higher than the expected value and the input shaft speed is 300 rpm or less while the vehicle is running with the shift lever on D, the ECM will conclude that there is a malfunction in the input speed sensor (NC0). The ECM will illuminate the MIL and set the DTC.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000018N8018X_03" type-id="32" category="03" proc-id="RM21Q0EV__000017N00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C155187E35" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000018N8018X_04" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000018N8018X_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000018N8018X_05_0001" proc-id="RM21Q0EV__000017O00000">
+<testtitle>CHECK SPEED SENSOR (NC0) (INSTALLATION)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the speed sensor installation.</ptxt>
+<figure>
+<graphic graphicname="C159067E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Installation bolt is tightened properly and there is no clearance between sensor and transmission case.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000018N8018X_05_0002" fin="false">OK</down>
+<right ref="RM0000018N8018X_05_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000018N8018X_05_0002" proc-id="RM21Q0EV__000017P00000">
+<testtitle>INSPECT SPEED SENSOR (NC0)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the T4 sensor connector from the transmission.</ptxt>
+</test1>
+<figure>
+<graphic graphicname="C159420E05" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance of the sensor.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>560 to 680 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>Reference: Inspect using an oscilloscope.</ptxt>
+<figure>
+<graphic graphicname="C192331E09" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Check the waveform of the ECM connector.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C170570E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Refer to illustration</ptxt>
+</specitem>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry align="left">
+<ptxt>E11-34 (NC0+) - E11-26 (NC0-)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry align="left">
+<ptxt>5 V/DIV, 0.5 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Engine is idling (P or N position)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000018N8018X_05_0003" fin="false">OK</down>
+<right ref="RM0000018N8018X_05_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000018N8018X_05_0003" proc-id="RM21Q0EV__000017Q00000">
+<testtitle>CHECK WIRE HARNESS (SPEED SENSOR (NC0) - ECM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+<figure>
+<graphic graphicname="C192332E06" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-34 (NC0+) - E11-26 (NC0-)</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>560 to 680 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-34 (NC0+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-26 (NC0-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000018N8018X_05_0007" fin="true">OK</down>
+<right ref="RM0000018N8018X_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000018N8018X_05_0004">
+<testtitle>SECURELY INSTALL SPEED SENSOR OR REPLACE SPEED SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM0000018N8018X_05_0005">
+<testtitle>REPLACE SPEED SENSOR (NC0)</testtitle>
+</testgrp>
+<testgrp id="RM0000018N8018X_05_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000018N8018X_05_0007">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

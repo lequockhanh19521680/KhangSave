@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7AVQZ_T00A9" variety="T00A9">
+<name>COUNTER GEAR</name>
+<para id="RM000004R2200BX" category="G" type-id="3001K" name-id="MT16N-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000004R2200BX_01" type-id="01" category="01">
+<s-1 id="RM000004R2200BX_01_0001" proc-id="RM21Q0EV__00004SO00000">
+<ptxt>INSPECT COUNTER GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a micrometer, measure the journal diameter.</ptxt>
+<figure>
+<graphic graphicname="C086509E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard diameter</title>
+<specitem>
+<ptxt>25.984 to 26.000 mm (1.0230 to 1.0236 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum diameter</title>
+<specitem>
+<ptxt>25.984 mm (1.0230 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the diameter is less than the minimum, replace the counter gear.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

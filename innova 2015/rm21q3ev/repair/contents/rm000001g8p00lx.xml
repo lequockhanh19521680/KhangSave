@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A806_T004K" variety="T004K">
+<name>REAR COIL SPRING</name>
+<para id="RM000001G8P00LX" category="A" type-id="80001" name-id="SP3EY-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001G8P00LX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001JG00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001G8P00LX_02" type-id="01" category="01">
+<s-1 id="RM000001G8P00LX_02_0001">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM000001G8P00LX_02_0002">
+<ptxt>DISCONNECT SKID CONTROL SENSOR WIRE</ptxt>
+</s-1>
+<s-1 id="RM000001G8P00LX_02_0003" proc-id="RM21Q0EV__00001JH00000">
+<ptxt>REMOVE TAILPIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the tailpipe (see page <xref label="Seep01" href="RM00000135901LX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8P00LX_02_0004" proc-id="RM21Q0EV__00001JI00000">
+<ptxt>DISCONNECT NO. 3 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 3 parking brake cable (see page <xref label="Seep01" href="RM0000010QV00XX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8P00LX_02_0005" proc-id="RM21Q0EV__00001JJ00000">
+<ptxt>DISCONNECT REAR BRAKE TUBE FLEXIBLE HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049944E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using SST, disconnect the brake line from the flexible hose.</ptxt>
+<sst>
+<sstitem>
+<s-number>09023-00101</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, remove the clip.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the flexible hose from the 3 way joint.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8P00LX_02_0008" proc-id="RM21Q0EV__00001J600000">
+<ptxt>DISCONNECT REAR SHOCK ABSORBER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118719" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Support the axle housing.</ptxt>
+<s3>
+<ptxt>Jack up and support the vehicle's frame on stands.</ptxt>
+</s3>
+<s3>
+<ptxt>Lower the axle housing until the coil spring tension is free, and maintain this position.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the nut and 2 retainers.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="C118720" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the shock absorber and 2 bushes from the axle housing and frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the lock nut, bracket, 3 retainers and 2 cushions.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G8P00LX_02_0007" proc-id="RM21Q0EV__00001JK00000">
+<ptxt>REMOVE REAR COIL SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Slowly lower the rear axle housing.</ptxt>
+<atten3>
+<ptxt>Be careful not to snap the brake line or parking brake cable.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>While lowering the axle housing, remove the coil spring and insulator.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

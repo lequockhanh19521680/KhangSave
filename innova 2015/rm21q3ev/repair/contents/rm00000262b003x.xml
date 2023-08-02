@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81R_T0065" variety="T0065">
+<name>HEADLIGHT DIMMER SWITCH</name>
+<para id="RM00000262B003X" category="L" type-id="3001A" name-id="LI1VG-03" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM00000262B003X_z0" proc-id="RM21Q0EV__000029000000">
+<content5 releasenbr="2">
+<step1>
+<ptxt>PRECAUTION FOR VEHICLE WITH SRS</ptxt>
+<step2>
+<ptxt>Some procedures in this section may affect the Supplemental Restraint System (SRS). Prior to performing the procedures, read the SRS section's "Precaution" (see page <xref label="Seep01" href="RM000000YVR013X"/>).</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

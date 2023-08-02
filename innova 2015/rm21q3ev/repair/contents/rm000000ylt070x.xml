@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YG_T002U" variety="T002U">
+<name>FUEL TANK</name>
+<para id="RM000000YLT070X" category="A" type-id="80001" name-id="FUAJ4-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000YLT070X_01" type-id="01" category="01">
+<s-1 id="RM000000YLT070X_01_0013" proc-id="RM21Q0EV__00000IJ00000">
+<ptxt>DISCHARGE FUEL SYSTEM PRESSURE
+</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not disconnect any part of the fuel system until you have discharged the fuel system pressure.</ptxt>
+</item>
+<item>
+<ptxt>Even after discharging the fuel pressure, place a cloth or equivalent over fittings as you separate them to reduce the risk of fuel spray on yourself or in the engine compartment.</ptxt>
+</item>
+</list1>
+</atten2>
+<s2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Remove the front driver side scuff plate.</ptxt>
+<s3>
+<ptxt>Using a screwdriver, detach the 7 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Using a clip remover, detach the 3 clips and remove the scuff plate.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Turn up the floor carpet and disconnect the joining connector, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A116042" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>This connector has the lines of the fuel pump and rear speed sensor.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. After the engine has stopped on its own, turn the ignition switch OFF.</ptxt>
+<atten4>
+<ptxt>DTCs C0210/33 and C0215/34 (rear speed sensor circuit) and DTC P0171/25 (system too lean) may be set.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Crank the engine again, and then check that the engine does not start.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the fuel tank cap, and then discharge the pressure in the fuel tank completely.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the fuel pump connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front driver side scuff plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Clear the DTCs (see page <xref label="Seep01" href="RM000000ZPW01AX"/>).</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLT070X_01_0002" proc-id="RM21Q0EV__00000PD00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0003">
+<ptxt>REMOVE FUEL TANK CAP ASSEMBLY</ptxt>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0004" proc-id="RM21Q0EV__00000PE00000">
+<ptxt>REMOVE NO. 3 FUEL TUBE CLAMP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the tube clamp from the fuel tube.</ptxt>
+<figure>
+<graphic graphicname="G038853E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0005" proc-id="RM21Q0EV__00000PF00000">
+<ptxt>DISCONNECT FUEL MAIN TUBE AND FUEL RETURN TUBE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pinch and pull the main tube connector to disconnect the connector from the pipe. Then pinch and pull the return tube connector to disconnect the connector from the pipe.</ptxt>
+<figure>
+<graphic graphicname="A116077E01" width="2.775699831in" height="5.787629434in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Check for foreign matter in the pipe and around the connector. Clean if necessary. Foreign matter may damage the O-ring or cause leaks in the seal between the pipe and connector.</ptxt>
+</item>
+<item>
+<ptxt>Do not use any tools to separate the pipe and connector.</ptxt>
+</item>
+<item>
+<ptxt>Do not forcefully bend or twist the nylon tube.</ptxt>
+</item>
+<item>
+<ptxt>Check for foreign matter on the pipe seal surface. Clean if necessary.</ptxt>
+</item>
+<item>
+<ptxt>Put the pipe and connector ends in plastic bags to prevent damage and foreign matter contamination.</ptxt>
+</item>
+<item>
+<ptxt>If the pipe and connector are stuck together, pinch the connector between your fingers and turn it carefully to disconnect it.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Disconnect the vent line hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0006" proc-id="RM21Q0EV__00000PG00000">
+<ptxt>DISCONNECT FUEL TANK TO FILLER PIPE HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the filler pipe hose from the fuel tank filler pipe.</ptxt>
+<figure>
+<graphic graphicname="A099140E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0007" proc-id="RM21Q0EV__00000PH00000">
+<ptxt>DISCONNECT FUEL TANK BREATHER HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the breather hose from the fuel tank filler pipe.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0008" proc-id="RM21Q0EV__00000PI00000">
+<ptxt>REMOVE FUEL TANK FILLER PIPE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and filler pipe.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0009" proc-id="RM21Q0EV__00000PJ00000">
+<ptxt>REMOVE FUEL TANK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Set a mission jack underneath the fuel tank.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts, 2 clips, 2 pins and 2 fuel tank bands.</ptxt>
+<figure>
+<graphic graphicname="A099137E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Slightly lower the mission jack and detach the 7 harness clips that are holding the wire harness to the fuel tank. Then disconnect the fuel gauge connector.</ptxt>
+<figure>
+<graphic graphicname="G039127E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to cut the wirings.</ptxt>
+</item>
+<item>
+<ptxt>Before this procedure, check the connector for dirt, mud or other contamination.</ptxt>
+</item>
+<item>
+<ptxt>Do not use any tools in this procedure</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0010" proc-id="RM21Q0EV__00000PK00000">
+<ptxt>REMOVE NO. 1 FUEL TANK CUSHION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 fuel tank cushions from the fuel tank.</ptxt>
+<figure>
+<graphic graphicname="G039128E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0012" proc-id="RM21Q0EV__00000OZ00000">
+<ptxt>REMOVE FUEL SUCTION WITH PUMP AND GAUGE TUBE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 tube joint clips and pull out the 2 fuel pump tubes.</ptxt>
+<figure>
+<graphic graphicname="A099141E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Before beginning this procedure, check for foreign matter in the fuel pump and gauge tube. Clean if necessary.</ptxt>
+<figure>
+<graphic graphicname="A060575E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</item>
+<item>
+<ptxt>Keep the O-ring free of foreign matter, as it becomes contaminated easily.</ptxt>
+</item>
+<item>
+<ptxt>Do not use any tools in this procedure.</ptxt>
+</item>
+<item>
+<ptxt>Do not forcefully bend or twist the tube.</ptxt>
+</item>
+<item>
+<ptxt>Put the tube in a plastic bag to prevent damage and contamination.</ptxt>
+</item>
+<item>
+<ptxt>Protect the fuel pump and gauge tube's joint with tape or equivalent to prevent contamination from foreign matter.</ptxt>
+</item>
+<item>
+<ptxt>If the fuel suction tube and tube are stuck together, pinch the tube and turn it carefully to disconnect it.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Press down on the fuel pump and remove the 8 bolts and set plate.</ptxt>
+<figure>
+<graphic graphicname="G038820E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When the retainer is loosened, be careful as the fuel pump will spring upward from the force of the spring.</ptxt>
+</item>
+<item>
+<ptxt>Clean the fuel suction tube before this operation.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the fuel gauge tube from the fuel tank.</ptxt>
+<atten3>
+<ptxt>Be careful not to bend the arm of the fuel sender gauge.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the gasket from the fuel tank.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0014" proc-id="RM21Q0EV__00000PL00000">
+<ptxt>REMOVE FUEL CUT OFF VALVE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 bolts, fuel tank vent tube, gasket and fuel cut off valve.</ptxt>
+<figure>
+<graphic graphicname="G038821E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the fuel tube from the fuel tank vent tube.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLT070X_01_0015" proc-id="RM21Q0EV__00000PM00000">
+<ptxt>REMOVE NO. 1 FUEL TANK PROTECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 bolts and protector.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

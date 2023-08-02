@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000D_S000A" variety="S000A">
+<name>1TR-FE LUBRICATION</name>
+<ttl id="1000D_S000A_7A7YV_T0039" variety="T0039">
+<name>OIL PUMP</name>
+<para id="RM000001K59005X" category="A" type-id="8000E" name-id="LU06H-02" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000001K59005X_01" type-id="01" category="01">
+<s-1 id="RM000001K59005X_01_0001" proc-id="RM21Q0EV__00000TU00000">
+<ptxt>INSTALL OIL PUMP ROTOR SET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat the oil pump gear set with engine oil and place it into the pump body with the marks facing outward (oil pump cover side). Check that the rotors revolve smoothly.</ptxt>
+<figure>
+<graphic graphicname="A097981E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001K59005X_01_0002" proc-id="RM21Q0EV__00000TV00000">
+<ptxt>INSTALL OIL PUMP COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the oil pump cover with the 7 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="A087020E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001K59005X_01_0003" proc-id="RM21Q0EV__00000MP00000">
+<ptxt>INSTALL OIL PUMP RELIEF VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat the relief valve with engine oil.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert the relief valve and spring into the pump body hole.</ptxt>
+<figure>
+<graphic graphicname="A086864E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install a new gasket to the plug.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 27 mm socket wrench, install the plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

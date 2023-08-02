@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W7I0L0X" category="D" type-id="303HX" name-id="AT002S-179" from="201202">
+<name>DEFINITION OF TERMS</name>
+<subpara id="RM000000W7I0L0X_z0" proc-id="RM21Q0EV__000018E00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="5.31in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Term</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Definition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Monitor description</ptxt>
+</entry>
+<entry>
+<ptxt>Description of what the ECM monitors and how it detects malfunctions (monitoring purpose and its details)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

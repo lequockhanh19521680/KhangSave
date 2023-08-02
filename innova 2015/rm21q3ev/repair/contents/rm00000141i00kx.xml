@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YL_T002Z" variety="T002Z">
+<name>EMISSION CONTROL SYSTEM</name>
+<para id="RM00000141I00KX" category="U" type-id="303FI" name-id="EC05Q-06" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM00000141I00KX_z0" proc-id="RM21Q0EV__00000Q500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>EMISSION CONTROL SYSTEM DIAGRAM</ptxt>
+<step2>
+<ptxt>To reduce HC emissions, the following occurs. First, evaporated fuel in the fuel tank is absorbed by the canister's active carbon. Then, when the vehicle is being driven, the fuel in the canister and air are routed into the intake manifold for combustion.</ptxt>
+</step2>
+</step1>
+<figure>
+<graphic graphicname="A113288E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<step1>
+<ptxt>ELECTRICAL EMISSION CONTROL SYSTEM DIAGRAM</ptxt>
+</step1>
+<figure>
+<graphic graphicname="A132413E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

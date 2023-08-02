@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YE_T002S" variety="T002S">
+<name>FUEL FILTER</name>
+<para id="RM000000YLF014X" category="A" type-id="30014" name-id="FU0QI-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000YLF014X_01" type-id="01" category="01">
+<s-1 id="RM000000YLF014X_01_0001" proc-id="RM21Q0EV__00000OB00000">
+<ptxt>INSTALL FUEL FILTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the fuel filter with the 3 nuts.</ptxt>
+<figure>
+<graphic graphicname="G038575E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLF014X_01_0002" proc-id="RM21Q0EV__00000OC00000">
+<ptxt>CONNECT FUEL MAIN TUBE</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Before installing the fuel main tube's connector to the fuel filter's lower pipe, check the connector for damage and foreign matter.</ptxt>
+</atten3>
+<s2>
+<ptxt>Connect the connector to the lower pipe. Push the two parts together firmly until a "click" sound is heard. Then attach the lock claws to the connector by pushing down on the connector cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the connector and lower pipe are securely connected by trying to pull them apart.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the fuel tube grommet.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLF014X_01_0003" proc-id="RM21Q0EV__00000OD00000">
+<ptxt>CONNECT FUEL HOSE</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Before installing the fuel hose's connector to the fuel filter's upper pipe, check the connector for damage and foreign matter.</ptxt>
+</atten3>
+<s2>
+<ptxt>Connect the connector to the upper pipe. Push the two parts together firmly until a "click" sound is heard.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the connector and upper pipe are securely connected by trying to pull them apart.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the hose to the clamp.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLF014X_01_0007" proc-id="RM21Q0EV__00000OF00000">
+<ptxt>INSTALL CANISTER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A112080" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Attach the canister to the stay.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112078" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the 3 hoses to the canister.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLF014X_01_0004">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000YLF014X_01_0005" proc-id="RM21Q0EV__00000OE00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLF014X_01_0006" proc-id="RM21Q0EV__00000GO00000">
+<ptxt>CHECK FOR FUEL LEAKS
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+<atten3>
+<ptxt>Do not start the engine.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Push the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Select the Active Test and enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Fuel Pump / Speed.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check for fuel leaks.</ptxt>
+<s3>
+<ptxt>Check that there are no fuel leaks after performing maintenance anywhere on the fuel system.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

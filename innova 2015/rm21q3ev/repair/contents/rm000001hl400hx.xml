@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A817_T005L" variety="T005L">
+<name>REAR COOLER RELAY</name>
+<para id="RM000001HL400HX" category="G" type-id="3001K" name-id="ACD02-10" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001HL400HX_01" type-id="01" category="01">
+<s-1 id="RM000001HL400HX_01_0001" proc-id="RM21Q0EV__00004EC00000">
+<ptxt>INSPECT REAR COOLER RELAY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<figure>
+<graphic graphicname="E225561E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2 - 4</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Battery voltage not applied to terminals 3 and 5</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Battery voltage not applied to terminals 3 and 5</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Battery voltage applied to terminals 3 and 5</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the rear cooler relay.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

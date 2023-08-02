@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XV_T0029" variety="T0029">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<para id="RM000001OQI00TX" category="F" type-id="30027" name-id="SS0Z2-03" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM000001OQI00TX_z0" proc-id="RM21Q0EV__000004Y00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Shift Point</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="1.06in"/>
+<colspec colname="COLSPEC0" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Line pressure (Wheel locked)</ptxt>
+<ptxt>Engine Idling</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>D position</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>350 to 410 kPa (3.6 to 4.2 kgf*cm<sup>2</sup>, 51 to 59 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R position</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>500 to 570 kPa (5.1 to 5.8 kgf*cm<sup>2</sup>, 73 to 83 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Line pressure (Wheel locked)</ptxt>
+<ptxt>AT stall (Throttle valve fully opened)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>D position</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1030 to 1200 kPa (10.5 to 12.2 kgf*cm<sup>2</sup>, 149 to 174 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Engine stall revolution</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>D positions</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1950 to 2250 rpm</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Time lag</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N → D position</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Less than 1.2 seconds</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N → R position</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Less than 1.5 seconds</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Engine idle speed</ptxt>
+<ptxt>(A/C OFF)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N position</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>650 to 750rpm</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Drive plate runout</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.20 mm (0.0079 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Torque converter runout</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.30 mm (0.0118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Shift point</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="5" valign="middle">
+<ptxt>D position</ptxt>
+<ptxt>(Throttle valve fully opened)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 → 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>47 to 56 km/h (29 to 35 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2 → 3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>91 to 102 km/h (57 to 63 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 → 4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>126 to 136 km/h (78 to 85 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4 → 3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>119 to 128 km/h (74 to 80 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 → 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>85 to 93 km/h (53 to 58 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2 → 1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 44 km/h (25 to 27 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>D position</ptxt>
+<ptxt>(Throttle valve fully closed)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3 → 4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>33 to 37 km/h (21 to 23 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4 → 3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>29 to 33 km/h (18 to 21 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="4" valign="middle">
+<ptxt>3 position</ptxt>
+<ptxt>(Throttle valve fully opened)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 → 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>47 to 56 km/h (29 to 35 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2 → 3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>91 to 102 km/h (57 to 63 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4 → 3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>127 to 136 km/h (79 to 85 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 → 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>85 to 93 km/h (53 to 58 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2 → 1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 44 km/h (25 to 27 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>2 position</ptxt>
+<ptxt>(Throttle valve fully opened)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 → 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>47 to 56 km/h (29 to 35 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 → 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>89 to 97 km/h (55 to 60 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2 → 1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 44 km/h (25 to 27 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>L position</ptxt>
+<ptxt>(Throttle valve fully opened)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3 → 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>89 to 97 km/h (55 to 60 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2 → 1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>44 to 49 km/h (27 to 30 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Lock-up point</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>D position</ptxt>
+<ptxt>(Throttle valve opening 5 %</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock-up ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>63 to 68 km/h (39 to 42 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Lock-up OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>58 to 63 km/h (36 to 39 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>3 position</ptxt>
+<ptxt>(Throttle valve opening 5 %</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock-up ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>47 to 52 km/h (29 to 32 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Lock-up OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42 to 47 km/h (26 to 29 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Oil Pump</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC3" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Body clearance</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.07 to 0.15 mm (0.00276 to 0.00591 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.2 mm (0.00787 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Tip clearance</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.11 to 0.14 mm (0.00433 to 0.00551 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.3 mm (0.0118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Side clearance</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.02 to 0.05 mm (0.000787 to 0.00197 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.1 mm (0.00394 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Oil pump body bushing inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>38.19 mm (1.50 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="4" valign="middle">
+<ptxt>Drive and driven gear thickness</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mark. 1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>17.235 to 17.244 mm (0.6785 to 0.6789 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark. 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11.700 to 11.709 mm (0.4606 to 0.4610 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark. 3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11.710 to 11.720 mm (0.4610 to 0.4614 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark. 4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11.721 to 11.730 mm (0.4615 to 0.4618 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark. 5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11.731 to 11.740 mm (0.4618 to 0.4622 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Stator shaft bush inside inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21.58 mm (0.8496 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Extension Housing</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COLSPEC0" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Extension housing bush inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>38.09 mm (1.50 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Overdrive Direct Clutch</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="1.06in"/>
+<colspec colname="COL3" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Piston stroke</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>1.74 to 2.44 mm (0.0685 to 0.0961 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Clutch drum inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>23.14 mm (0.911 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Overdrive Planetary Gear</title>
+<tgroup cols="3" align="left">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COLSPEC0" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Planetary gear bush inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11.27 mm (0.445 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>pinion gear thrust clearance</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.20 to 0.50 mm(0.00787 to 0.0197 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Overdrive Brake</title>
+<tgroup cols="3" align="left">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COLSPEC0" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Pack clearance</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.75 to 1.25 mm (0.0295 to 0.0492 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" morerows="1" valign="middle">
+<ptxt>Plate thickness</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.95 to 2.05 mm (0.0768 to 0.0807 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2.25 to 2.35 mm (0.0886 to 0.0925 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Front Clutch</title>
+<tgroup cols="3" align="left">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COLSPEC0" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Piston stroke</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.40 to 1.60 mm (0.0551 to 0.0630 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" morerows="1" valign="middle">
+<ptxt>Front clutch flange thickness</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.75 to 1.85 mm (0.0689 to 0.0728 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1.95 to 2.05 mm (0.0768 to 0.0807 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Rear Clutch</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC0" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Piston stroke</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.90 to 1.30 mm (0.0354 to 0.0512 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" morerows="2" valign="middle">
+<ptxt>Rear clutch flange thickness</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.475 to 3.600 mm (0.137 to 0.142 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3.675 to 3.800 mm (0.145 to 0.150 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3.925 to 4.050 mm (0.155 to 0.159 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>No. 1 Brake</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COLSPEC1" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Piston stroke</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.75 to 1.35 mm (0.0295 to 0.0531 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Center support bush inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>34.46 mm (1.44 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>No. 2 Brake</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC2" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Piston stroke</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.98 to 1.71 mm (0.0386 to 0.0673 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Planetary Sun Gear</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC4" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Sun gear bush inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>24.08 mm (0.948 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Front Planetary Gear</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC5" align="left" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Planetary pinion gear thrust clearance.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.20 to 0.50 mm(0.00787 to 0.0197 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Output Shaft</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC6" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Output shaft bush inside diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18.08 mm (0.712 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Rear Planetary Gear</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC7" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Planetary pinion gear thrust clearance</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.20 to 0.50 mm(0.00787 to 0.0197 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>No. 3 Brake</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC8" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Pack clearance</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.52 to 1.27 mm (0.0205 to 0.0500 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="5" valign="middle">
+<ptxt>Flange thickness</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mark -</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2.95 to 3.05 mm (0.116 to 0.120 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark 325</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.20 to 3.30 mm (0.126 to 0.130 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark 350</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.45 to 3.55 mm (0.136 to 0.140 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark 375</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.70 to 3.80 mm (0.146 to 0.150 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark 400</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.95 to 4.05 mm (0.156 to 0.159 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Mark 425</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4.20 to 4.30 mm (0.165 to 0.169 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Transmission Case</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COLSPEC10" align="left" colwidth="1.06in"/>
+<colspec colname="COL2" align="left" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Transmission case bush</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>38.19 mm (1.50 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accumulator Spring</title>
+<tgroup cols="3">
+<colspec colname="COL1" align="left" colwidth="2.12in"/>
+<colspec colname="COL2" align="left" colwidth="1.06in"/>
+<colspec colname="COLSPEC2" colwidth="3.90in"/>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>C-0 Inner</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Free length</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>51.5 mm (2.028 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Outer diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14.02 mm (0.552 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Red</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>C-0 Outer</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Free length</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>79.9 mm (3.146 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Outer diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20.9 mm (0.823 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Light blue</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>B-0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Free length</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62.0 mm (2.441 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Outer diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>16.0 mm (0.630 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Green</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>C-2 Inner</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Free length</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42.1 mm (1.657 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Outer diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14.7 mm (0.579 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pink</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>C-2 Outer</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Free length</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>68.53 mm (2.698 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Outer diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20.2 mm (0.795 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blue</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>B-2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Free length</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>70.5 mm (2.776 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Outer diameter</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19.9 mm (0.784 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Light Gray</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

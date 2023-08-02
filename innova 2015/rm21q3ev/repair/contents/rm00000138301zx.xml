@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7A80W_T005A" variety="T005A">
+<name>POWER STEERING SYSTEM</name>
+<para id="RM00000138301ZX" category="L" type-id="3001A" name-id="PS04W-47" from="201303">
+<name>PRECAUTION</name>
+<subpara id="RM00000138301ZX_z0" proc-id="RM21Q0EV__00001UI00001">
+<content5 releasenbr="1">
+<step1>
+<ptxt>HANDLING PRECAUTIONS FOR STEERING SYSTEM</ptxt>
+<step2>
+<ptxt>Care must be taken when replacing parts. Incorrect replacement could affect the performance of the steering system and result in a driving hazard.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>HANDLING PRECAUTIONS FOR SRS</ptxt>
+<step2>
+<ptxt>The vehicle is equipped with a Supplemental Restraint System (SRS) which includes a driver side airbag. Failure to carry out service procedures in the correct sequence may unexpectedly deploy the SRS and cause serious injuries. Furthermore, if a mistake is made in servicing the SRS, it may fail to operate when required.</ptxt>
+<ptxt>Before servicing (including installation, removal, inspection or replacement of parts), read the SRS section's "Precaution" (see page <xref label="Seep01" href="RM000000YVR01DX"/>).</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

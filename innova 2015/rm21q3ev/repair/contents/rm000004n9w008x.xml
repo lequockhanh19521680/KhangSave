@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARM3_T009K" variety="T009K">
+<name>CENTER PILLAR BLACK OUT TAPE</name>
+<para id="RM000004N9W008X" category="A" type-id="80001" name-id="ET62E-06" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000004N9W008X_02" type-id="11" category="10" proc-id="RM21Q0EV__00003W400000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004N9W008X_01" type-id="01" category="01">
+<s-1 id="RM000004N9W008X_01_0001" proc-id="RM21Q0EV__00003W300000">
+<ptxt>REMOVE CENTER PILLAR BLACK OUT TAPE LH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the center pillar black out tape, heat the vehicle body and center pillar black out tape using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Center Pillar Black Out Tape</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the vehicle body or center pillar black out tape excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Pull back an edge of the center pillar black out tape and pull it parallel to the vehicle body to remove it.  </ptxt>
+<figure>
+<graphic graphicname="B281426" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

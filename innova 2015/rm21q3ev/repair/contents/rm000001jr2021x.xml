@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A810_T005E" variety="T005E">
+<name>REAR COOLING UNIT</name>
+<para id="RM000001JR2021X" category="A" type-id="80001" name-id="ACE4A-02" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001JR2021X_01" type-id="01" category="01">
+<s-1 id="RM000001JR2021X_01_0024" proc-id="RM21Q0EV__00001VQ00000">
+<ptxt>RECOVER REFRIGERANT FROM REFRIGERATION SYSTEM
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Start the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Operate the cooler compressor under the conditions shown below:</ptxt>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Engine Speed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Operating Time</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3 minutes or more</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A/C Switch Status</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Blower Switch Status</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>HI</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Set Temperature</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>MAX COOL</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>This causes most of the compressor oil from the various components of the A/C system to collect in the A/C compressor.</ptxt>
+<atten3>
+<ptxt>It is not necessary to operate the cooler compressor if the A/C does not operate because of compressor lock, etc.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Stop the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Recover the refrigerant from the A/C system using a refrigerant recovery unit.</ptxt>
+<atten4>
+<ptxt>Use the refrigerant recovery unit in accordance with the manufacturer's instruction manual.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001JR2021X_01_0021" proc-id="RM21Q0EV__00004BJ00000">
+<ptxt>REMOVE ROOF HEADLINING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000225T00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0018" proc-id="RM21Q0EV__00004BI00000">
+<ptxt>REMOVE NO. 3 COOLER AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226882" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 7 clips and No. 3 cooler air duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0017" proc-id="RM21Q0EV__00004BH00000">
+<ptxt>REMOVE NO. 2 COOLER AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226883" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 11 clips and No. 2 cooler air duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0016" proc-id="RM21Q0EV__00004BG00000">
+<ptxt>REMOVE NO. 1 COOLER AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226881" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connectors and detach the 4 clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the screw and rear cooler relay.</ptxt>
+</s2>
+<s2>
+<ptxt>Release the 3 claws fittings, and remove the clip and No. 1 cooler air duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0006" proc-id="RM21Q0EV__00004BB00000">
+<ptxt>REMOVE REAR BUMPER COVER</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000004S6O00IX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0007" proc-id="RM21Q0EV__00004BC00000">
+<ptxt>REMOVE QUARTER VENT DUCT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225550" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 5 claws and remove the quarter vent duct assembly RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0008" proc-id="RM21Q0EV__00004BD00000">
+<ptxt>DISCONNECT NO. 1 COOLER COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the packing.</ptxt>
+<figure>
+<graphic graphicname="E225551" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and disconnect the No. 1 cooler cover.</ptxt>
+<figure>
+<graphic graphicname="E225552" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0009" proc-id="RM21Q0EV__00004BE00000">
+<ptxt>DISCONNECT AIR CONDITIONING TUBE AND ACCESSORY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225553" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the air conditioning tube and accessory assembly.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not use a screwdriver or similar tool to disconnect the air conditioning tube and accessory assembly.</ptxt>
+</item>
+<item>
+<ptxt>Seal the openings of the disconnected parts using vinyl tape to prevent moisture and foreign matter from entering them.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the 2 O-rings from the air conditioning tube and accessory assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JR2021X_01_0010" proc-id="RM21Q0EV__00004BF00000">
+<ptxt>REMOVE COOLING (REAR) UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226884" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 bolts and cooling (rear) unit assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

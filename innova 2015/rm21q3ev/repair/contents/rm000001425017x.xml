@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YI_T002W" variety="T002W">
+<name>VACUUM SWITCHING VALVE</name>
+<para id="RM000001425017X" category="A" type-id="30014" name-id="EC0GP-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001425017X_01" type-id="01" category="01">
+<s-1 id="RM000001425017X_01_0001" proc-id="RM21Q0EV__00000PQ00000">
+<ptxt>INSTALL PURGE VSV</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A112077" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the purge VSV with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the 2 purge line hoses.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the purge VSV connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001425017X_01_0002">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000001425017X_01_0003" proc-id="RM21Q0EV__00000PR00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

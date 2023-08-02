@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM0000013TS018X" category="C" type-id="302NQ" name-id="AT9D5-01" from="201202">
+<dtccode>P0722/61</dtccode>
+<dtcname>Output Speed Sensor Circuit No Signal</dtcname>
+<subpara id="RM0000013TS018X_01" type-id="60" category="03" proc-id="RM21Q0EV__000017900000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The speed sensor (SP2) detects the rotation speed of the transmission output shaft and sends signals to the ECM. The ECM determines the vehicle speed based on these signals. </ptxt>
+<ptxt>AC voltage is generated in the speed sensor (SP2) coil as the rotor mounted on the output shaft rotates, and this voltage is sent to the ECM. </ptxt>
+<ptxt>The gear shift point and lock-up timing are controlled by the ECM based on the signals from the output speed sensor and throttle position sensor.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="2.83in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0722/61</ptxt>
+</entry>
+<entry>
+<list1 type="nonmark">
+<item>
+<ptxt>All conditions below are detected 500 times or more continuously (2 trip detection logic):</ptxt>
+</item>
+<list2 type="ordered">
+<item>
+<ptxt>No signal from speed sensor (SP2) is input to ECM while 4 pulses of No. 1 vehicle speed sensor signal are sent</ptxt>
+</item>
+<item>
+<ptxt>Vehicle speed is 9 km/h (6 mph) or more for at least 4 sec.</ptxt>
+</item>
+<item>
+<ptxt>Park/neutral position switch is off</ptxt>
+</item>
+</list2>
+</list1>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in speed sensor (SP2) circuit</ptxt>
+</item>
+<item>
+<ptxt>Speed sensor (SP2)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM0000013TS018X_02" type-id="64" category="03" proc-id="RM21Q0EV__000017A00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The output speed sensor (SP2) monitors the output shaft speed. The ECM controls the gear shift point and the lock-up timing based on the signals from the output speed sensor (SP2) and throttle position sensor. </ptxt>
+<ptxt>If the ECM detects no signal from the output speed sensor (SP2) even while the vehicle is moving, the ECM will conclude that the output shaft speed sensor (SP2) is malfunctioning. The ECM will illuminate the MIL and set the DTC.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000013TS018X_03" type-id="32" category="03" proc-id="RM21Q0EV__000017B00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C155187E36" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000013TS018X_04" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000013TS018X_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000013TS018X_05_0001" proc-id="RM21Q0EV__000017C00000">
+<testtitle>CHECK SPEED SENSOR (SP2) (INSTALLATION)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the speed sensor installation.</ptxt>
+<figure>
+<graphic graphicname="C159067E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Installation bolt is tightened properly and there is no clearance between sensor and transmission case.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TS018X_05_0002" fin="false">OK</down>
+<right ref="RM0000013TS018X_05_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TS018X_05_0002" proc-id="RM21Q0EV__000017D00000">
+<testtitle>INSPECT SPEED SENSOR (SP2)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the T5 sensor connector from the transmission.</ptxt>
+</test1>
+<figure>
+<graphic graphicname="C159420E06" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance of the sensor.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>560 to 680 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>Reference: Inspect using an oscilloscope.</ptxt>
+<figure>
+<graphic graphicname="C192331E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Check the waveform of the ECM connector.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C170571E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Refer to illustration</ptxt>
+</specitem>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry align="left">
+<ptxt>E11-35 (SP2+) - E11-27 (SP2-)</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2 V/DIV., 2 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Vehicle speed 20 km/h (12 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TS018X_05_0003" fin="false">OK</down>
+<right ref="RM0000013TS018X_05_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TS018X_05_0003" proc-id="RM21Q0EV__000017E00000">
+<testtitle>CHECK WIRE HARNESS (SPEED SENSOR (SP2) - ECM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+<figure>
+<graphic graphicname="C192332E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-35 (SP2+) - E11-27 (SP2-)</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>560 to 680 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-35 (SP2+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-27 (SP2-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TS018X_05_0007" fin="true">OK</down>
+<right ref="RM0000013TS018X_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TS018X_05_0004">
+<testtitle>SECURELY INSTALL SPEED SENSOR OR REPLACE SPEED SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM0000013TS018X_05_0005">
+<testtitle>REPLACE SPEED SENSOR (SP2)</testtitle>
+</testgrp>
+<testgrp id="RM0000013TS018X_05_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000013TS018X_05_0007">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

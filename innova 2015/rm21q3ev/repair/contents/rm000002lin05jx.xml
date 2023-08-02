@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LIN05JX" category="S" type-id="3001E" name-id="AC0339-158" from="201403">
+<name>DIAGNOSTIC TROUBLE CODE CHART</name>
+<subpara id="RM000002LIN05JX_z0" proc-id="RM21Q0EV__00004PU00001">
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If a trouble code is output during the DTC check, inspect the trouble areas listed for that code. For details of the code, refer to the "See page" below.</ptxt>
+</item>
+<item>
+<ptxt>*: The air conditioning amplifier stores the DTC of the respective malfunction that has been detected for the period of time indicated in parentheses.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Air Conditioning System</title>
+<tgroup cols="5" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.42in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.42in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.42in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="1.42in" colsep="0"/>
+<colspec colnum="5" colname="5" colwidth="1.4in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memory*</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>11</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Room Temperature Sensor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memorized</ptxt>
+<ptxt>(8.5 minutes or more)</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle">
+<ptxt>If the room temperature is approximately -18.6°C (1.48°F) or lower, DTC 11 may be output even though the system is normal.</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT8029X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>12</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Ambient Temperature Sensor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DT902AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>13</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Evaporator Temperature Sensor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memorized</ptxt>
+<ptxt>(8.5 minutes or more)</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTA02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>14</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Engine Coolant Temperature Communication Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memorized</ptxt>
+<ptxt>(8.5 minutes or more)</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZL01HX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>21</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Solar Sensor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memorized</ptxt>
+<ptxt>(8.5 minutes or more)</ptxt>
+<ptxt>(Only when circuit is shorted)</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTK02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>23</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Pressure Switch Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTB028X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>41</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Front Air Mix Damper Control Servo Motor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memorized</ptxt>
+<ptxt>(30 seconds or more)</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001LZM01EX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>42</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Air Inlet Damper Control Servo Motor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memorized</ptxt>
+<ptxt>(30 seconds or more)</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTC028X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>43</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Air Outlet Damper Control Servo Motor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Memorized</ptxt>
+<ptxt>(30 seconds or more)</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001DTD028X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

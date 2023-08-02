@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000O_S000O" variety="S000O">
+<name>PARKING BRAKE</name>
+<ttl id="1000O_S000O_7A80T_T0057" variety="T0057">
+<name>PARKING BRAKE CABLE</name>
+<para id="RM0000010QV00XX" category="A" type-id="80001" name-id="PB2DK-06" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010QV00XX_01" type-id="01" category="01">
+<s-1 id="RM0000010QV00XX_01_0020" proc-id="RM21Q0EV__000057B00000">
+<ptxt>PRECAUTION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010QV00XX_01_0001" proc-id="RM21Q0EV__000057600000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010QV00XX_01_0002">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010QV00XX_01_0019">
+<ptxt>REMOVE REAR BRAKE DRUM SUB-ASSEMBLY</ptxt>
+</s-1>
+<s-1 id="RM0000010QV00XX_01_0018" proc-id="RM21Q0EV__000057A00000">
+<ptxt>REMOVE CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEC013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010QV00XX_01_0007" proc-id="RM21Q0EV__000057700000">
+<ptxt>REMOVE NO. 1 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 1 parking brake cable from the parking brake lever (See page <xref label="Seep01" href="RM0000010M5016X"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and No. 1 heat insulator.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the No. 1 clip and pin from the No. 3 parking brake cable.</ptxt>
+<figure>
+<graphic graphicname="C237697E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Parking Brake Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 3 Parking Brake Cable</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Parking Brake Equalizer</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cable Support Bracket</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 1 parking brake cable from the No. 3 parking brake cable.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 1 parking brake cable from the parking brake equalizer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt holding the No. 1 parking brake cable.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the No. 1 parking brake cable clamp from the No. 1 parking brake cable.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 1 parking brake cable from the cable support bracket.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 1 parking brake cable from the cable support bracket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QV00XX_01_0008" proc-id="RM21Q0EV__000057800000">
+<ptxt>REMOVE NO. 2 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 2 parking brake cable from the parking brake shoe lever RH and backing plate RH.</ptxt>
+<s3>
+<ptxt>Disconnect the No. 2 parking brake cable from the parking brake shoe lever (See page <xref label="Seep01" href="RM0000010QR00VX"/>).</ptxt>
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Remove the 2 bolts and disconnect the No. 2 parking brake cable from the backing plate.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and No. 2 heat insulator.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 2 parking brake cable from the parking brake equalizer.</ptxt>
+<figure>
+<graphic graphicname="C237698E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 2 Parking Brake Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Parking Brake Equalizer</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts and No. 2 parking brake cable.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QV00XX_01_0009" proc-id="RM21Q0EV__000057900000">
+<ptxt>REMOVE NO. 3 PARKING BRAKE CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 3 parking brake cable from the parking brake shoe lever LH and backing plate LH.</ptxt>
+<s3>
+<ptxt>Disconnect the No. 3 parking brake cable from the parking brake shoe lever (See page <xref label="Seep01" href="RM0000010QR00VX"/>).</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the 2 bolts and disconnect the No. 3 parking brake cable from the backing plate.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the No. 3 clip.</ptxt>
+<figure>
+<graphic graphicname="C237699E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 3 Parking Brake Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 3 Clip</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts, nut and No. 3 parking brake cable.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

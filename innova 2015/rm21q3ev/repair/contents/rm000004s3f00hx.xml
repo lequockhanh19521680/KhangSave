@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLS_T0099" variety="T0099">
+<name>RADIATOR GRILLE (for Standard)</name>
+<para id="RM000004S3F00HX" category="A" type-id="30014" name-id="ET6KZ-13" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000004S3F00HX_01" type-id="01" category="01">
+<s-1 id="RM000004S3F00HX_01_0001" proc-id="RM21Q0EV__00003QX00000">
+<ptxt>INSTALL RADIATOR GRILLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

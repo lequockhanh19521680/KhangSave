@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81L_T005Z" variety="T005Z">
+<name>SEAT BELT WARNING SYSTEM</name>
+<para id="RM000001208012X" category="U" type-id="303FI" name-id="SB5CA-02" from="201303">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000001208012X_z0" proc-id="RM21Q0EV__000026T00001">
+<content5 releasenbr="1">
+<step1>
+<ptxt>for Driver Side</ptxt>
+</step1>
+<figure>
+<graphic graphicname="C237368E09" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<step1>
+<ptxt>for Front Passenger Side</ptxt>
+</step1>
+<figure>
+<graphic graphicname="C237369E10" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="conn" code="E12" subcode="D">
+		<pin no="17">
+			<line id="1" color="R">
+				<connector type="conn" code="I1">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I1">
+		<pin no="1">
+			<line id="2" color="R">
+				<connector type="sp" code="1261">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1261">
+		<pin>
+			<line id="3" color="R">
+				<connector type="w2w" code="ID1" sex="female">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID1" sex="male">
+		<pin no="5">
+			<line id="4" color="R">
+				<connector type="jbc" code="2D">
+					<pin no="10"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1261">
+		<pin>
+			<line id="5" color="R">
+				<connector type="sp" code="1333">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I1">
+		<pin no="2">
+			<line id="6" color="G-R">
+				<connector type="conn" code="J12" subcode="A">
+					<pin no="8"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I1">
+		<pin no="4">
+			<line id="7" color="W-B">
+				<connector type="sp" code="1633">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="E12" subcode="D">
+		<pin no="16">
+			<line id="8" color="R-L">
+				<connector type="conn" code="I2">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I2">
+		<pin no="1">
+			<line id="9" color="R">
+				<connector type="sp" code="1333">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1333">
+		<pin>
+			<line id="10" color="R">
+				<connector type="sp" code="1393">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I2">
+		<pin no="2">
+			<line id="11" color="G-R">
+				<connector type="conn" code="J12" subcode="A">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1633">
+		<pin>
+			<line id="12" color="W-B">
+				<connector type="conn" code="I2">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1633">
+		<pin>
+			<line id="13" color="W-B">
+				<connector type="sp" code="1573">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="E12" subcode="D">
+		<pin no="15">
+			<line id="14" color="G-B">
+				<connector type="conn" code="I3">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I3">
+		<pin no="1">
+			<line id="15" color="R">
+				<connector type="sp" code="1393">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1393">
+		<pin>
+			<line id="16" color="R">
+				<connector type="sp" code="1453">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J13" subcode="B">
+		<pin no="10">
+			<line id="17" color="G-R">
+				<connector type="conn" code="I3">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J13" subcode="B">
+		<pin no="11">
+			<line id="18" color="G-R">
+				<connector type="conn" code="I4">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1573">
+		<pin>
+			<line id="19" color="W-B">
+				<connector type="conn" code="I3">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1573">
+		<pin>
+			<line id="20" color="W-B">
+				<connector type="sp" code="1513">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="E12" subcode="D">
+		<pin no="23">
+			<line id="21" color="G-R">
+				<connector type="conn" code="J12" subcode="A">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I4">
+		<pin no="1">
+			<line id="22" color="R">
+				<connector type="sp" code="1453">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1453">
+		<pin>
+			<line id="23" color="R" spec="Before Feb. 2012 Production">
+				<connector type="conn" code="N2" subcode="A">
+					<pin no="1" spec="Before Sep. 2008 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1453">
+		<pin>
+			<line id="23" color="R" spec="Before Feb. 2012 Production">
+				<connector type="conn" code="N2" subcode="B">
+					<pin no="1" spec="From Sep. 2008 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="E12" subcode="D">
+		<pin no="14">
+			<line id="24" color="G">
+				<connector type="conn" code="I4">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="EC">
+		<pin>
+			<line id="25" color="W-B">
+				<connector type="sp" code="1513">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1513">
+		<pin>
+			<line id="26" color="W-B">
+				<connector type="conn" code="I4">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZI_T003W" variety="T003W">
+<name>CLUTCH PEDAL</name>
+<para id="RM0000010R601IX" category="A" type-id="8000E" name-id="CL0DM-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010R601IX_01" type-id="01" category="01">
+<s-1 id="RM0000010R601IX_01_0003" proc-id="RM21Q0EV__000018V00000">
+<ptxt>INSTALL NO. 1 CLUTCH PEDAL CUSHION</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033294E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the cushion to the clutch pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010R601IX_01_0004" proc-id="RM21Q0EV__000018W00000">
+<ptxt>INSTALL COLLAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033293E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply MP grease to both sides of a new collar and 2 new bushes.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the collar.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 bushes.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010R601IX_01_0006" proc-id="RM21Q0EV__000018X00000">
+<ptxt>INSTALL CLUTCH PEDAL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C132682" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the clutch pedal to the clutch pedal support with the bolt and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Install the bolt from the right side of the vehicle.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

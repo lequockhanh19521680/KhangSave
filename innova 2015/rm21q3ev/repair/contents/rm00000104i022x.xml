@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000104I022X" category="C" type-id="302ON" name-id="BC0DT-11" from="201202">
+<dtccode>C1337/37</dtccode>
+<dtcname>Diameter of the Tire is not Uniform</dtcname>
+<subpara id="RM00000104I022X_01" type-id="60" category="03" proc-id="RM21Q0EV__00001NU00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry>
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C1337/37</ptxt>
+</entry>
+<entry>
+<ptxt>Both conditions continue for at least 60 seconds:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Vehicle speed is more than 30 km/h (19 mph)</ptxt>
+</item>
+<item>
+<ptxt>Tire of different size is equipped</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Tire size</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM00000104I022X_02" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM00000104I022X_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000104I022X_03_0001" proc-id="RM21Q0EV__00001NV00000">
+<testtitle>CHECK TIRE SIZE</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the diameter of all 4 tires.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Diameter of all 4 tires are equal.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104I022X_03_0003" fin="true">OK</down>
+<right ref="RM00000104I022X_03_0002" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104I022X_03_0002">
+<testtitle>REPLACE TIRES WITH 4 EQUAL SIZE TIRES</testtitle>
+</testgrp>
+<testgrp id="RM00000104I022X_03_0003">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

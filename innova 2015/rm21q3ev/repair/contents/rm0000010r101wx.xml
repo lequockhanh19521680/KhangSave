@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZI_T003W" variety="T003W">
+<name>CLUTCH PEDAL</name>
+<para id="RM0000010R101WX" category="N" type-id="3000G" name-id="CL018-27" from="201202">
+<name>ADJUSTMENT</name>
+<subpara id="RM0000010R101WX_01" type-id="01" category="01">
+<s-1 id="RM0000010R101WX_01_0001" proc-id="RM21Q0EV__000018G00000">
+<ptxt>INSPECT AND ADJUST CLUTCH PEDAL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lift up the floor carpet to expose the asphalt sheet under the pedal.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the pedal height is correct.</ptxt>
+<figure>
+<graphic graphicname="D033508E10" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard pedal height from dash panel</title>
+<specitem>
+<ptxt>179.9 to 189.9 mm (7.083 to 7.476 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Adjust the pedal height. </ptxt>
+<s3>
+<ptxt>Loosen the lock nut and turn the stopper bolt until the pedal height is within the specified range.</ptxt>
+</s3>
+<s3>
+<ptxt>Tighten the lock nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>255</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the pedal free play and push rod play.</ptxt>
+<atten4>
+<ptxt>Pay close attention to the change in resistance to distinguish between pedal free play and push rod play while performing the inspection.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C115511E05" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s3>
+<ptxt>Depress the clutch pedal until resistance is felt.</ptxt>
+</s3>
+<s3>
+<ptxt>Measure the distance between the pedal's released position and the position in the previous step.</ptxt>
+<spec>
+<title>Standard pedal free play</title>
+<specitem>
+<ptxt>5.0 to 15.0 mm (0.197 to 0.591 in.)</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>Release the pedal. Using your finger, gently press the pedal until resistance increases slightly.</ptxt>
+</s3>
+<s3>
+<ptxt>Measure the distance between the pedal's released position and the position in the previous step.</ptxt>
+<spec>
+<title>Standard push rod play at pedal top</title>
+<specitem>
+<ptxt>1.0 to 5.0 mm (0.039 to 0.197 in.)</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+<s2>
+<ptxt>Adjust the pedal free play and push rod play.</ptxt>
+<atten4>
+<ptxt>The push rod play can be adjusted by changing the length of the push rod. Pedal free play changes together with push rod play.</ptxt>
+</atten4>
+<s3>
+<ptxt>Loosen the lock nut and turn the push rod until the pedal free play and push rod play are within the specified ranges.</ptxt>
+<atten3>
+<ptxt>If pedal free play and push rod play are not within the standard range even after adjustment, inspect the related parts.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Tighten the lock nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>After adjusting the pedal free play and push rod play, check the pedal height.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the clutch release point.</ptxt>
+<figure>
+<graphic graphicname="CL00512E11" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Pull the parking brake lever and use wheel chocks to stabilize the vehicle.</ptxt>
+</s3>
+<s3>
+<ptxt>Start the engine and run it at idle.</ptxt>
+</s3>
+<s3>
+<ptxt>Without depressing the clutch pedal, slowly move the shift lever to R until the gears contact.</ptxt>
+</s3>
+<s3>
+<ptxt>Gently depress the clutch pedal and measure the stroke distance from the point that the gear noise stops (release point) up to the full stroke end position.</ptxt>
+<spec>
+<title>Standard distance</title>
+<specitem>
+<ptxt>30 mm (0.984 in.) or more </ptxt>
+</specitem>
+</spec>
+<ptxt>If the distance is not as specified, perform the following operations.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Check pedal height.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Check push rod play and pedal free play.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Bleed air from clutch line.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Check clutch cover and disc.</ptxt>
+</item>
+</list1>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

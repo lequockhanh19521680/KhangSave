@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XB_T001P" variety="T001P">
+<name>G58 MANUAL TRANSMISSION</name>
+<para id="RM0000028X4006X" category="F" type-id="30028" name-id="SS24P-07" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028X4006X_z0" proc-id="RM21Q0EV__000004500000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>MANUAL TRANSMISSION ASSEMBLY</title>
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Filler and drain plugs</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>No. 3 frame crossmember sub-assembly x Frame</ptxt>
+</entry>
+<entry>
+<ptxt>50</ptxt>
+</entry>
+<entry>
+<ptxt>510</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>No. 3 frame crossmember sub-assembly x Rear No. 1 engine mounting insulator</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+<entry>
+<ptxt>275</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Manual transmission unit assembly x Rear No. 1 engine mounting insulator</ptxt>
+</entry>
+<entry>
+<ptxt>44</ptxt>
+</entry>
+<entry>
+<ptxt>449</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Clutch release cylinder x Manual transmission unit assembly</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>122</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Back-up light switch x transmission case</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Speedometer sensor x Extension housing</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>112</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Manual transmission unit assembly x Engine</ptxt>
+</entry>
+<entry>
+<ptxt>for bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>72</ptxt>
+</entry>
+<entry>
+<ptxt>734</ptxt>
+</entry>
+<entry>
+<ptxt>53</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>for bolt B</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>No. 2 frame crossmember frame</ptxt>
+</entry>
+<entry>
+<ptxt>50</ptxt>
+</entry>
+<entry>
+<ptxt>510</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>MANUAL TRANSMISSION UNIT</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Output shaft rear bearing retainer x Intermediate plate</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>185</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reverse idler gear shaft stopper x Intermediate plate</ptxt>
+</entry>
+<entry>
+<ptxt>17</ptxt>
+</entry>
+<entry>
+<ptxt>175</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reverse shift arm bracket x Intermediate plate</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>185</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Gear shaft fork No. 1 x Gear shift fork shaft No. 1</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+<entry>
+<ptxt>204</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Gear shaft fork No. 2 x Gear shift fork shaft No. 2</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+<entry>
+<ptxt>204</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Gear shaft fork No. 3 x Gear shift fork shaft No. 4</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+<entry>
+<ptxt>204</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift detent ball spring seat No. 2 x Intermediate plate</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+<entry>
+<ptxt>190</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift detent ball spring seat x Intermediate plate</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+<entry>
+<ptxt>190</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Bearing retainer front x Manual transmission case</ptxt>
+</entry>
+<entry>
+<ptxt>17</ptxt>
+</entry>
+<entry>
+<ptxt>175</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Extension housing x Manual transmission case</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Clutch housing x Manual transmission case</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Manual transmission case x Clutch release cylinder</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>120</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Back-up lamp switch assembly x Manual transmission case</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Drain plug x Manual transmission case</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Filler plug x Manual transmission case</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+<entry>
+<ptxt>377</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Plug x Extension housing</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+<entry>
+<ptxt>190</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift &amp; Select lever x Shift lever housing</ptxt>
+</entry>
+<entry>
+<ptxt>33</ptxt>
+</entry>
+<entry>
+<ptxt>337</ptxt>
+</entry>
+<entry>
+<ptxt>24</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Control shift lever retainer x Extension housing</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>185</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Restrict pin x Extension housing</ptxt>
+</entry>
+<entry>
+<ptxt>28</ptxt>
+</entry>
+<entry>
+<ptxt>290</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil receiver x Extension housing</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>112</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reverse fork support x Clutch housing</ptxt>
+</entry>
+<entry>
+<ptxt>39</ptxt>
+</entry>
+<entry>
+<ptxt>400</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reverse restrict pin x Extension housing</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+<entry>
+<ptxt>190</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

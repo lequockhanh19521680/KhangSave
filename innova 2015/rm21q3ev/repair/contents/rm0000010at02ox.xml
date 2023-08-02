@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81F_T005T" variety="T005T">
+<name>STEERING PAD</name>
+<para id="RM0000010AT02OX" category="G" type-id="8000T" name-id="RSABT-10" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010AT02OX_01" type-id="01" category="01">
+<s-1 id="RM0000010AT02OX_01_0001" proc-id="RM21Q0EV__00004UH00000">
+<ptxt>CHECK STEERING PAD (VEHICLE NOT INVOLVED IN COLLISION)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform a diagnostic system check (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>With the steering pad installed on the vehicle, perform a visual check. If there are any defects as mentioned below, replace the steering pad with a new one:</ptxt>
+<ptxt>Cuts, minute cracks or marked discoloration on the steering pad top surface or in the grooved portion.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010AT02OX_01_0002" proc-id="RM21Q0EV__00004UI00000">
+<ptxt>CHECK STEERING PAD (VEHICLE INVOLVED IN COLLISION AND AIRBAG HAS NOT DEPLOYED)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform a diagnostic system check (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>With the steering pad removed from the vehicle, perform a visual check. If there are any defects as mentioned below, replace the steering pad or steering wheel with a new one:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Cuts, minute cracks, or marked discoloration on the steering pad.</ptxt>
+</item>
+<item>
+<ptxt>Cracks or other damage to the connectors.</ptxt>
+</item>
+<item>
+<ptxt>Deformation or cracks in the steering pad contact plate.</ptxt>
+</item>
+</list1>
+<atten2>
+<ptxt>For removal and installation of the steering pad assembly, be sure to follow the correct procedure.</ptxt>
+</atten2>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

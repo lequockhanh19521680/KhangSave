@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12061_S000Y" variety="S000Y">
+<name>HEATING / AIR CONDITIONING</name>
+<ttl id="12061_S000Y_7AI7Y_T000I" variety="T000I">
+<name>AIR CONDITIONING SYSTEM</name>
+<para id="RM000004V3B002X" category="F" type-id="8048Y" name-id="ACE2B-03" from="201202">
+<name>PARTS LOCATION</name>
+<subpara id="RM000004V3B002X_z0" proc-id="NM21Q0EV__000001B00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="Y110523E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Models with Automatic Air Conditioning System</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Conditioning Pressure Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Thermistor (Ambient Temperature Sensor)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Condenser Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Compressor Assembly</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="Y113023E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Models with Automatic Air Conditioning System</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Models with Manual Air Conditioning System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Integration Panel Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Conditioning Amplifier Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Thermistor (Solar Sensor)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Thermistor (Room Temperature Sensor)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Conditioning Control Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="Y110073E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Control Switch Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Cooling Unit Assembly</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="Y110611E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Models with Manual Air Conditioning System:)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Expansion Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Heater Radiator Unit Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Cooler Thermistor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Cooler Evaporator Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blower with Fan Motor Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="Y113025E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Models with Automatic Air Conditioning System:)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Damper Servo Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mode Damper Servo Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cooler Expansion Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Heater Radiator Unit Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Cooler Thermistor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Cooler Evaporator Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blower Motor Control</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Mix Damper Servo Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blower with Fan Motor Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

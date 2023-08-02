@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12062_S000Z" variety="S000Z">
+<name>POWER OUTLETS (INT)</name>
+<ttl id="12062_S000Z_7AI80_T000K" variety="T000K">
+<name>POWER OUTLET SOCKET SYSTEM</name>
+<para id="RM000004V3D002X" category="F" type-id="8048W" name-id="PI0JF-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004V3D002X_z0" proc-id="NM21Q0EV__000001G00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>Power Outlet Socket Assembly</ptxt>
+<step3>
+<ptxt>A DC 12 V power outlet socket assembly is located in the switch base.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

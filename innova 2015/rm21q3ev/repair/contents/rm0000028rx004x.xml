@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XL_T001Z" variety="T001Z">
+<name>PROPELLER SHAFT</name>
+<para id="RM0000028RX004X" category="F" type-id="30027" name-id="SS23G-03" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000028RX004X_z0" proc-id="RM21Q0EV__000004I00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Universal joint spider bearing axial play</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum: 0.05 mm (0.00197 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear propeller shaft runout</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum: 0.3 mm (0.0118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Intermediate shaft runout</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum: 0.5 mm (0.0197 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

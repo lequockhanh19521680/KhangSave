@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7A83K_T007Y" variety="T007Y">
+<name>REAR NO. 2 SEAT ASSEMBLY</name>
+<para id="RM0000023O8003X" category="A" type-id="30014" name-id="SE0PT-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000023O8003X_01" type-id="01" category="01">
+<s-1 id="RM0000023O8003X_01_0001" proc-id="RM21Q0EV__00002TR00000">
+<ptxt>INSTALL REAR SEAT LOCK STRIKER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 lock strikers with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the floor carpet.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023O8003X_01_0002" proc-id="RM21Q0EV__000026B00000">
+<ptxt>INSTALL REAR NO. 2 SEAT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fully tilt the seatback forward.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the seat onto the lock striker.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the bolt on the rear side of the seat.</ptxt>
+<figure>
+<graphic graphicname="B085726E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the bolt on the front side of the seat.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Fully lock the seat to the lock striker.</ptxt>
+<atten4>
+<ptxt>Confirm that the seat is firmly locked to the lock striker.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023O8003X_01_0004" proc-id="RM21Q0EV__00002TT00000">
+<ptxt>INSTALL REAR SEAT FRONT BRACKET COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the bracket cover.</ptxt>
+<figure>
+<graphic graphicname="B085728E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the screw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023O8003X_01_0003" proc-id="RM21Q0EV__00002TS00000">
+<ptxt>INSTALL REAR SEAT REAR BRACKET COVER RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the rear seat front bracket cover RH.</ptxt>
+</atten4>
+<s2>
+<ptxt>Return to the seatback to the upright position.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

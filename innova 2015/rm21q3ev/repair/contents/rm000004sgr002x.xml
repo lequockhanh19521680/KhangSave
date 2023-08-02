@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW4_T00AL" variety="T00AL">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/ Theft Deterrent System)</name>
+<para id="RM000004SGR002X" category="A" type-id="804QI" name-id="DL77J-03" from="201202">
+<name>CUSTOMIZE PARAMETERS</name>
+<subpara id="RM000004SGR002X_01" type-id="01" category="01">
+<s-1 id="RM000004SGR002X_01_0001" proc-id="RM21Q0EV__000050M00000">
+<ptxt>CUSTOMIZE WIRELESS DOOR LOCK CONTROL SYSTEM</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The following items can be customized.</ptxt>
+</item>
+<item>
+<ptxt>During customize mode, the alarm control functions are disabled.</ptxt>
+</item>
+<item>
+<ptxt>During customize mode, the following wireless control functions are disabled: remote alarm function, automatic locking function, operation stop function and illuminated entry function.</ptxt>
+</item>
+<item>
+<ptxt>During customize mode, the ECU will not output lock/unlock signals.</ptxt>
+</item>
+<item>
+<ptxt>While in customize mode, if the key is inserted into the ignition key cylinder or a door is opened, customize mode will be canceled.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When the customer requests a change in a function, first make sure that the function can be customized.</ptxt>
+</item>
+<item>
+<ptxt>Record the current settings before customizing.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Customizing with manual operation</ptxt>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.20in"/>
+<colspec colname="COL2" colwidth="1.13in"/>
+<colspec colname="COL3" colwidth="2.62in"/>
+<colspec colname="COL4" colwidth="1.13in"/>
+<colspec colname="COLSPEC0" colwidth="1.00in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Default</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Content</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Setting</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Relevant ECU</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Wireless answer-back function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Only hazard warning lights flash</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Function that makes the hazard warning lights and side turn signal lights flash and security horn assembly sound for answer-back when the door control transmitter assembly lock/unlock switch pressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Only hazard warning lights and side turn signal lights flash, Hazard warning lights and side turn signal lights flash and security horn assembly sounds or OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Theft warning ECU assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Door ajar warning function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON (security horn assembly sounds)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>If door is not completely closed and the lock switch on door control transmitter assembly is pressed, this function sounds security horn assembly for 1 second</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Theft warning ECU assembly</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<s3>
+<ptxt>Check that the following conditions are met.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>No key is in the ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>The theft deterrent system is in the disarmed state (when either condition below is met): </ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>All the doors are in the unlocked condition and the doors are locked and unlocked using the door control transmitter assembly.</ptxt>
+</item>
+<item>
+<ptxt>The key is inserted into the ignition key cylinder, the ignition switch is turned to ON then off, and then the key is removed.</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>The driver side door is opened (the other doors are closed).</ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>Perform the following operation twice within 5 seconds:</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>Insert the key into the ignition key cylinder, and then pull it out (ending with the key pulled out).  </ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>Wait for 5 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>After completing the above step, press and hold down lock switch and unlock switch on the door control transmitter assembly at the same time for over 3 seconds within 5 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the hazard warning lights flash once.</ptxt>
+</s3>
+<s3>
+<ptxt>After completing the lock and unlock switch operation, perform the following operation within 5 seconds.</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly once within 2seconds.</ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>After completing the above step, press the unlock switch on door control transmitter assembly once within 2 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the hazard warning lights flash once.</ptxt>
+</s3>
+<s3>
+<ptxt>After completing the unlock switch operation, perform the following operations (mode select) within 10 seconds:</ptxt>
+<list1 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly the number of times shown below depending on the desired function behavior to select the answer-back pattern and warning function setting. Press the unlock switch on door lock transmitter once within 2 seconds of pressing the lock switch on door control transmitter assembly.</ptxt>
+</item>
+<list2 type="unordered">
+<title>Pattern 1</title>
+<item>
+<ptxt>Wireless Answer-back Function: Only hazard warning lights and side turn signal lights flash</ptxt>
+<ptxt>Door Ajar Warning Function: ON</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly once.</ptxt>
+</item>
+</list3>
+</list2>
+<list2 type="unordered">
+<title>Pattern 2</title>
+<item>
+<ptxt>Wireless Answer-back Function: Hazard warning lights and side turn signal lights flash and security horn assembly sounds</ptxt>
+<ptxt>Door Ajar Warning Function: ON</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly twice.</ptxt>
+</item>
+</list3>
+</list2>
+<list2 type="unordered">
+<title>Pattern 3</title>
+<item>
+<ptxt>Wireless Answer-back Function: OFF</ptxt>
+<ptxt>Door Ajar Warning Function: OFF</ptxt>
+</item>
+<list3 type="ordered">
+<item>
+<ptxt>Press the lock switch on door control transmitter assembly 3 times.</ptxt>
+</item>
+</list3>
+</list2>
+</list1>
+</s3>
+<s3>
+<ptxt>Check the response to the customize operation.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Response to Customize Operation</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL3" valign="middle" align="center">
+<ptxt>Setting</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Wireless Answer-back Function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Door Ajar Warning Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash once</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Only hazard warning lights and side turn signal lights flash</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash twice</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Hazard warning lights and side turn signal lights flash and security horn assembly sounds</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Hazard warning lights flash 3 times</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

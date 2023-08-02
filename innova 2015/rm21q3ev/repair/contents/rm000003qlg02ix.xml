@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002W_S0015" variety="S0015">
+<name>INSTRUMENT PANEL</name>
+<ttl id="1002W_S0015_7ARDN_T008S" variety="T008S">
+<name>UPPER INSTRUMENT PANEL</name>
+<para id="RM000003QLG02IX" category="L" type-id="3001A" name-id="IT0XX-69" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000003QLG02IX_z0" proc-id="RM21Q0EV__000039N00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>PRECAUTION FOR VEHICLE WITH SRS (w/ Airbag System)</ptxt>
+<step2>
+<ptxt>Some operations in this section may affect the airbag. Prior to performing the corresponding operations, read the SRS Precaution (See page <xref label="Seep01" href="RM000000YVR013X"/>).</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7ATP9_T00A2" variety="T00A2">
+<name>PERSONAL LIGHT ASSEMBLY</name>
+<para id="RM000003YO700ZX" category="G" type-id="3001K" name-id="LIA1C-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000003YO700ZX_01" type-id="01" category="01">
+<s-1 id="RM000003YO700ZX_01_0002" proc-id="RM21Q0EV__00004B100000">
+<ptxt>INSPECT MAP LIGHT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<figure>
+<graphic graphicname="E224853E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>7 (B) - 10 (E)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Spot light switch off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Spot light switch on</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>7 (B) - 6 (CTY)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Not door position</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Door position</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the map light assembly.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Map Light Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

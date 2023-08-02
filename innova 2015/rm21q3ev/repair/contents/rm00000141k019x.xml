@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7AUGX_T00A4" variety="T00A4">
+<name>PCV VALVE</name>
+<para id="RM00000141K019X" category="A" type-id="30014" name-id="EC037-06" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000141K019X_01" type-id="01" category="01">
+<s-1 id="RM00000141K019X_01_0001" proc-id="RM21Q0EV__00004NG00000">
+<ptxt>INSTALL VENTILATION VALVE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A092670E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Apply adhesive to 2 or 3 threads of the valve.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112090" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the valve.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the ventilation hose to the valve.</ptxt>
+</s2>
+<s2>
+<ptxt>Secure the hose with the clamp.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

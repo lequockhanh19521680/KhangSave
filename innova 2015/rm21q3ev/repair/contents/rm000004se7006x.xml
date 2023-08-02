@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROX_T009Z" variety="T009Z">
+<name>REAR BLOWER CONTROL SWITCH</name>
+<para id="RM000004SE7006X" category="A" type-id="8000E" name-id="ACD2H-05" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000004SE7006X_01" type-id="01" category="01">
+<s-1 id="RM000004SE7006X_01_0001" proc-id="RM21Q0EV__00004A600000">
+<ptxt>INSTALL COOLER (REAR) SWITCH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the bracket to the cooler (rear) switch with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004SE7006X_01_0002" proc-id="RM21Q0EV__00004A700000">
+<ptxt>INSTALL CONTROL PANEL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the control panel assembly with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004SE7006X_01_0003" proc-id="RM21Q0EV__00004A800000">
+<ptxt>INSTALL COOLER CONTROL SWITCH KNOB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cooler control switch knob.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

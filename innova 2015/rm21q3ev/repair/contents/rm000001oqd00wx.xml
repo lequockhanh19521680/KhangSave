@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XV_T0029" variety="T0029">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<para id="RM000001OQD00WX" category="F" type-id="30028" name-id="SS0Z3-03" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM000001OQD00WX_z0" proc-id="RM21Q0EV__000004Z00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Automatic Transmission Assembly</title>
+<tgroup cols="5">
+<colspec colname="COL1" align="left" colwidth="3.68in"/>
+<colspec colname="COLSPEC1" colwidth="0.85in"/>
+<colspec colname="COL2" align="center" colwidth="0.85in"/>
+<colspec colname="COL3" align="center" colwidth="0.85in"/>
+<colspec colname="COL4" align="center" colwidth="0.85in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Propeller with center bearing shaft x Rear differential</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>88</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>897</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>64</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Center bearing x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>36</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>367</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Speed sensor (NC0) x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Speed sensor (SP2) x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Speed meter sensor x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Transmission wire x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>16</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>160</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>12</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Valve body oil strainer x Valve body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Oil pan x Transmission case</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>45</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>39 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Oil filler tube</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>12</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>122</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>ATF temperature sensor x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>150</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Park/neutral position switch x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Nut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Park/neutral position switch x Automatic transmission </ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bolt</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Valve body x Transmission case</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Transmission wire clamp x Valve body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Shift solenoid valve S1 and S2 x Valve body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Shift solenoid valve SLT lock plate and S3 x Valve body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Floor shift assembly x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt> 143</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Exhaust pipe assembly front x Exhaust pipe</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>489</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>35</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Front Exhaust pipe assembly x Exhaust manifold</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>43</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>438</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>No. 3 frame crossmember sub-assembly x No. 1 Engine mounting insulator</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>275</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>No. 1 engine mounting insulator rear x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>47</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>479</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>35</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>No. 2 frame crossmember x Frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>50</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>510</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>No. 3 frame crossmember x Frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>50</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>510</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Oil cooler tube clamp</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>51</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Oil cooler tube inlet and outlet x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Use without union nut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>34</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>346</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Use with union nut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>316</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>23</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Transmission control cable bracket x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>28</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>286</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Automatic transmission x Engine</ptxt>
+</entry>
+<entry>
+<ptxt>17 mm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>724</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>52</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>14 mm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>34</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Exhaust manifold stay x Automatic transmission</ptxt>
+</entry>
+<entry>
+<ptxt>17 mm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>724</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>52</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>14 mm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>44</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>449</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Exhaust manifold x Exhaust manifold stay</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>306</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>22</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Torque converter clutch x Drive plate</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>41</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>418</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>33</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Starter x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Control shaft lever x Transmission control cable</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>143</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Transmission control cable x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>56</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>43 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Control shaft lever x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>16</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>160</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>12</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Automatic transmission housing x Automatic transmission</ptxt>
+</entry>
+<entry>
+<ptxt>10 mm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>34</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>345</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>12 mm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>57</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>580</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Oil cooler tube union x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>250</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Extension housing x Automatic transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>36</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>370</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Parking lock pawl bracket x Automatic transmission case</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>75</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>65 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Drain plug x Oil pan</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>28</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>286</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Center support x Transmission case</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>260</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

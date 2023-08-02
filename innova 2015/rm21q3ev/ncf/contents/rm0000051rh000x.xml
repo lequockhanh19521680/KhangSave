@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="59">
+<name>Vehicle Exterior</name>
+<section id="12064_S0010" variety="S0010">
+<name>WINDOW / GLASS</name>
+<ttl id="12064_S0010_7AHYZ_T000E" variety="T000E">
+<name>POWER WINDOW CONTROL SYSTEM</name>
+<para id="RM0000051RH000X" category="F" type-id="8048W" name-id="WS6V6-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM0000051RH000X_z0" proc-id="NM21Q0EV__000002300000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>Power Window Control System</ptxt>
+<step3>
+<ptxt>The power window control system controls power window operation using the power window regulator motors.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

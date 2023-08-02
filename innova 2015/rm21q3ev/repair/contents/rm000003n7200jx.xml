@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N7200JX" category="U" type-id="3001G" name-id="ME1U2-02" from="201202">
+<name>TERMINALS OF ECU</name>
+<subpara id="RM000003N7200JX_z0" proc-id="RM21Q0EV__00002L800000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK CLEARANCE WARNING ECU</ptxt>
+<figure>
+<graphic graphicname="E149991E07" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Disconnect the C17 ECU connector.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage and resistance according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbols)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C17-10 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L-R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG power source circuit</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, clearance sonar main switch on</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-10 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L-R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG power source circuit</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, clearance sonar main switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-21 (E) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>W-B - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>If the result is not as specified, there may be a malfunction on the wire harness side.</ptxt>
+</step2>
+<step2>
+<ptxt>Reconnect the C17 ECU connector.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbols)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C17-13 (RL) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-W - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Reverse position signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, shift lever moved to R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7 V or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-13 (RL) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-W - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Reverse position signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, shift lever moved to any position except R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-12 (BBZ) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P-G - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No. 1 clearance warning buzzer signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Sonar detects obstacle (buzzer sounds)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-3 (SPD) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>V-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle speed signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle driven at approximately 20 km/h (12 mph)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-22 (E2) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No. 1 ultrasonic sensor ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-24 (BOR) - C17-22 (E2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BR - L</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No. 1 ultrasonic sensor power source circuit</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, clearance sonar main switch on</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.2 to 8.8 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-24 (BOR) - C17-22 (E2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BR - L</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No. 1 ultrasonic sensor power source circuit</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-6 (SOR) - C17-22 (E2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P - L</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No. 1 ultrasonic sensor communication signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, clearance sonar main switch on</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 3</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>If the result is not as specified, the ECU may have a malfunction.</ptxt>
+<step3>
+<ptxt>Using an oscilloscope, check waveform 1.</ptxt>
+<figure>
+<graphic graphicname="E171458E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbols)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C17-12 (BBZ) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 1 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Sonar detects obstacle (buzzer sounds)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Using an oscilloscope, check waveform 2.</ptxt>
+<figure>
+<graphic graphicname="E169152E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbols)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C17-3 (SPD) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle driven at approximately 20 km/h (12.4 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Using an oscilloscope, check waveform 3.</ptxt>
+<figure>
+<graphic graphicname="E159890E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbols)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C17-6 (SOR) - C17-22 (E2)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2 V/DIV., 200 μsec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, clearance sonar main switch on</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

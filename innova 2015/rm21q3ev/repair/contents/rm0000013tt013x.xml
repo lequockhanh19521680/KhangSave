@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM0000013TT013X" category="C" type-id="302NR" name-id="AT3YW-01" from="201202">
+<dtccode>P0973/62</dtccode>
+<dtcname>Shift Solenoid "A" Control Circuit Low (Shift Solenoid Valve S1)</dtcname>
+<dtccode>P0974/62</dtccode>
+<dtcname>Shift Solenoid "A" Control Circuit High (Shift Solenoid Valve S1)</dtcname>
+<dtccode>P0976/63</dtccode>
+<dtcname>Shift Solenoid "B" Control Circuit Low (Shift Solenoid Valve S2)</dtcname>
+<dtccode>P0977/63</dtccode>
+<dtcname>Shift Solenoid "B" Control Circuit High (Shift Solenoid Valve S2)</dtcname>
+<subpara id="RM0000013TT013X_01" type-id="60" category="03" proc-id="RM21Q0EV__000017F00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>Shifting from 1st to 4th is performed in combination with the on and off operation of the shift solenoid valves S1 and S2 controlled by the ECM. If an open or short circuit occurs in either of the shift solenoid valves, the ECM controls the remaining normal shift solenoid valve to allow the vehicle to be operated safely (fail-safe function).</ptxt>
+<ptxt>Fail-safe function:</ptxt>
+<ptxt>If either of the shift solenoid valve circuits develops an open or short, the ECM turns the other shift solenoid on and off to shift to the gear positions shown in the table below. The ECM also turns the shift solenoid valve SL off at the same time. If both solenoids are malfunctioning, electronic hydraulic control does not operate and must be performed manually. Manual shifting as shown in the following table must be performed.</ptxt>
+<ptxt>In case of an open or short circuit, the ECM stops sending current to the circuit.</ptxt>
+<table pgwide="1">
+<tgroup cols="11" align="center">
+<colspec colname="COL1" colwidth="0.68in"/>
+<colspec colname="COL2" colwidth="0.53in"/>
+<colspec colname="COL3" colwidth="0.53in"/>
+<colspec colname="COL4" colwidth="0.53in"/>
+<colspec colname="COL5" colwidth="0.53in"/>
+<colspec colname="COL6" colwidth="0.53in"/>
+<colspec colname="COL7" colwidth="0.54in"/>
+<colspec colname="COLSPEC3" colwidth="0.54in"/>
+<colspec colname="COLSPEC2" colwidth="0.54in"/>
+<colspec colname="COLSPEC1" colwidth="0.54in"/>
+<colspec colname="COLSPEC0" colwidth="1.59in"/>
+<thead>
+<row>
+<entry morerows="2" valign="top" align="left">
+<ptxt>Position</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL4" valign="top" align="left">
+<ptxt>Normal</ptxt>
+</entry>
+<entry namest="COL5" nameend="COL7" valign="top" align="left">
+<ptxt>Shift Solenoid S1 Malfunctioning</ptxt>
+</entry>
+<entry namest="COLSPEC3" nameend="COLSPEC1" valign="top" align="left">
+<ptxt>Shift Solenoid S2 Malfunctioning</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Both Solenoids Malfunctioning</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COL3" valign="top" align="left">
+<ptxt>Solenoid valve</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Gear</ptxt>
+</entry>
+<entry namest="COL5" nameend="COL6" valign="top" align="left">
+<ptxt>Solenoid valve</ptxt>
+</entry>
+<entry morerows="1" valign="top" align="left">
+<ptxt>Gear</ptxt>
+</entry>
+<entry namest="COLSPEC3" nameend="COLSPEC2" valign="top" align="left">
+<ptxt>Solenoid valve</ptxt>
+</entry>
+<entry morerows="1" valign="top" align="left">
+<ptxt>Gear</ptxt>
+</entry>
+<entry morerows="1" valign="top" align="left">
+<ptxt>Gear when shift selector is manually operated</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">
+<ptxt>S1</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S2</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S1</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S2</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S1</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S2</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="3" align="left">
+<ptxt>D</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" align="left">
+<ptxt>2</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" align="left">
+<ptxt>L</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>X: Malfunction</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="2.83in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0973/62</ptxt>
+</entry>
+<entry>
+<ptxt>ECM detects short in solenoid valve S1 circuit 4 times when solenoid valve S1 is operated (1 trip detection logic)</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Short in shift solenoid valve S1 circuit</ptxt>
+</item>
+<item>
+<ptxt>Shift solenoid valve S1</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0974/62</ptxt>
+</entry>
+<entry>
+<ptxt>ECM detects open in solenoid valve S1 circuit 4 times when solenoid valve S1 is not operated (1 trip detection logic)</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open in shift solenoid valve S1 circuit</ptxt>
+</item>
+<item>
+<ptxt>Shift solenoid valve S1</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0976/63</ptxt>
+</entry>
+<entry>
+<ptxt>ECM detects short in solenoid valve S2 circuit 4 times when solenoid valve S2 is operated (1 trip detection logic)</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Short in shift solenoid valve S2 circuit</ptxt>
+</item>
+<item>
+<ptxt>Shift solenoid valve S2</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0977/63</ptxt>
+</entry>
+<entry>
+<ptxt>ECM detects open in solenoid valve S2 circuit 4 times when solenoid valve S2 is not operated (1 trip detection logic)</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open in shift solenoid valve S2 circuit</ptxt>
+</item>
+<item>
+<ptxt>Shift solenoid valve S2</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM0000013TT013X_02" type-id="64" category="03" proc-id="RM21Q0EV__000017G00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The ECM controls gear shift by turning the shift solenoid valves on/off. When there is an open or short circuit in any shift solenoid valve circuit, the ECM detects the problem, illuminates the MIL and stores a DTC.</ptxt>
+<ptxt>The ECM performs the fail-safe function and turns the normally functioning shift solenoid valve on/off.</ptxt>
+<ptxt>In case of an open or short circuit, the ECM stops sending current to the circuit.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000013TT013X_03" type-id="32" category="03" proc-id="RM21Q0EV__000017H00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C169746E06" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000013TT013X_04" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000013TT013X_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000013TT013X_05_0001" proc-id="RM21Q0EV__000017I00000">
+<testtitle>INSPECT TRANSMISSION WIRE (SHIFT SOLENOID VALVE S1/S2)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the E1 wire connector.</ptxt>
+<figure>
+<graphic graphicname="C170576E04" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the transmission wire.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>4 (S1) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>8 (S2) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TT013X_05_0002" fin="false">OK</down>
+<right ref="RM0000013TT013X_05_0005" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TT013X_05_0002" proc-id="RM21Q0EV__000017J00000">
+<testtitle>CHECK WIRE HARNESS (TRANSMISSION WIRE - ECM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+<figure>
+<graphic graphicname="C192332E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>E11-9 (S1) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>E11-8 (S2) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TT013X_05_0004" fin="true">OK</down>
+<right ref="RM0000013TT013X_05_0003" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TT013X_05_0003">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000013TT013X_05_0004">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM0000013TT013X_05_0005" proc-id="RM21Q0EV__000017K00000">
+<testtitle>INSPECT SHIFT SOLENOID VALVE S1/S2</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the shift solenoid valve S1/S2.</ptxt>
+</test1>
+<figure>
+<graphic graphicname="C192337E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance between the solenoid valve terminal and solenoid valve body.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Shift solenoid valve S1 connector terminal - Shift solenoid valve S1 body</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift solenoid valve S2 connector terminal - Shift solenoid valve S2 body</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Connect the battery's positive (+) lead to the terminal of the solenoid connector, and the negative (-) lead to the solenoid body.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the operating noise of the solenoid valve.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Solenoid makes operating noise.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TT013X_05_0007" fin="true">OK</down>
+<right ref="RM0000013TT013X_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TT013X_05_0006">
+<testtitle>REPLACE SHIFT SOLENOID VALVE S1/S2</testtitle>
+</testgrp>
+<testgrp id="RM0000013TT013X_05_0007">
+<testtitle>REPAIR OR REPLACE TRANSMISSION WIRE</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AQNQ_T008M" variety="T008M">
+<name>DOOR CONTROL TRANSMITTER</name>
+<para id="RM0000010WA00ZX" category="A" type-id="30014" name-id="DL069-19" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010WA00ZX_01" type-id="01" category="01">
+<s-1 id="RM0000010WA00ZX_01_0001" proc-id="RM21Q0EV__000038900000">
+<ptxt>INSTALL DOOR CONTROL TRANSMITTER MODULE</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Take extra care when handling these precision electronic components.</ptxt>
+</atten3>
+<s2>
+<ptxt>Install the door control transmitter module.</ptxt>
+<figure>
+<graphic graphicname="B111166E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>When replacing the transmitter battery, before starting work, remove static electricity that has built up in the body by touching, for example, the vehicle to prevent the door control transmitter module set from being damaged.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010WA00ZX_01_0002" proc-id="RM21Q0EV__000038A00000">
+<ptxt>INSTALL TRANSMITTER HOUSING COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the transmitter housing cover to the transmitter housing case.</ptxt>
+<figure>
+<graphic graphicname="B107831" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that the transmitter's LED illuminates 3 times when the switch is pressed 3 times.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Transmitter's LED illuminates 3 times when switch is pressed 3 times.</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

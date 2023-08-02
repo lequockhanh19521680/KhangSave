@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N7300HX" category="J" type-id="301QR" name-id="ME1U3-02" from="201202">
+<dtccode/>
+<dtcname>Speed Signal Circuit</dtcname>
+<subpara id="RM000003N7300HX_01" type-id="60" category="03" proc-id="RM21Q0EV__00002LT00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The clearance warning ECU receives the vehicle speed signal from the combination meter.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000003N7300HX_02" type-id="32" category="03" proc-id="RM21Q0EV__00002LU00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E168777E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000003N7300HX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000003N7300HX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000003N7300HX_05_0001" proc-id="RM21Q0EV__00002LV00000">
+<testtitle>CHECK COMBINATION METER ASSEMBLY (SPEEDOMETER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Drive the vehicle and check if the function of the speedometer on the combination meter is normal.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Actual vehicle speed and the speed indicated on the speedometer are the same.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N7300HX_05_0002" fin="false">OK</down>
+<right ref="RM000003N7300HX_05_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N7300HX_05_0002" proc-id="RM21Q0EV__00002LW00000">
+<testtitle>CHECK CLEARANCE WARNING ECU ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="E168778E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Using an oscilloscope, check the waveform.</ptxt>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C17-3 (SPD) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle driven at approximately 20 km/h (12.4 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Correct waveform is as shown.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N7300HX_05_0005" fin="true">OK</down>
+<right ref="RM000003N7300HX_05_0003" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N7300HX_05_0003" proc-id="RM21Q0EV__00002LX00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (CLEARANCE WARNING ECU - COMBINATION METER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the C17 ECU connector.</ptxt>
+<figure>
+<graphic graphicname="E149933E20" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C10 meter connector.</ptxt>
+<figure>
+<graphic graphicname="E168859E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition </ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C17-3 (SPD) - C10-6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C17-3 (SPD) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N7300HX_05_0010" fin="true">OK</down>
+<right ref="RM000003N7300HX_05_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N7300HX_05_0008">
+<testtitle>GO TO METER / GAUGE SYSTEM</testtitle>
+</testgrp>
+<testgrp id="RM000003N7300HX_05_0005">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM000003N6S00LX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000003N7300HX_05_0010">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000003N7300HX_05_0007">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

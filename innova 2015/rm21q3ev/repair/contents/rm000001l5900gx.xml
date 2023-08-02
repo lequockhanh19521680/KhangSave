@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80D_T004R" variety="T004R">
+<name>BRAKE ACTUATOR</name>
+<para id="RM000001L5900GX" category="A" type-id="80001" name-id="BC0UJ-04" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001L5900GX_01" type-id="01" category="01">
+<s-1 id="RM000001L5900GX_01_0001" proc-id="RM21Q0EV__00001L400000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY&#13;
+TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000001L5900GX_01_0002" proc-id="RM21Q0EV__00001L500000">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wash off brake fluid immediately if it comes in contact with any painted surface.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000001L5900GX_01_0003" proc-id="RM21Q0EV__00001L600000">
+<ptxt>REMOVE BRAKE ACTUATOR ASSEMBLY WITH BRACKET</ptxt>
+<content1 releasenbr="2">
+<figure>
+<graphic graphicname="C121394E04" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Place tags or marks to identify the installation locations of each brake line.</ptxt>
+</s2>
+<s2>
+<ptxt>Release the latch of the actuator connector and disconnect the connector.</ptxt>
+<figure>
+<graphic graphicname="C121395" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, disconnect the 5 brake lines from the actuator.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts and actuator with bracket.</ptxt>
+<figure>
+<graphic graphicname="C121396" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the brake tubes.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

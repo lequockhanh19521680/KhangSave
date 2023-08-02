@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7ATP9_T00A2" variety="T00A2">
+<name>PERSONAL LIGHT ASSEMBLY</name>
+<para id="RM000003YO600VX" category="A" type-id="30014" name-id="LI8Z2-09" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000003YO600VX_01" type-id="01" category="01">
+<s-1 id="RM000003YO600VX_01_0001" proc-id="RM21Q0EV__00004B200000">
+<ptxt>INSTALL MAP LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 map light bulbs to the map light assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003YO600VX_01_0003" proc-id="RM21Q0EV__00004B400000">
+<ptxt>INSTALL NO. 1 MAP LIGHT LENS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install No. 1 map light lens.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003YO600VX_01_0004" proc-id="RM21Q0EV__00004B500000">
+<ptxt>INSTALL NO. 2 MAP LIGHT LENS</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the No. 1 map light lens.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000003YO600VX_01_0002" proc-id="RM21Q0EV__00004B300000">
+<ptxt>INSTALL MAP LIGHT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 guides and claw.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 screws to install the map light assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

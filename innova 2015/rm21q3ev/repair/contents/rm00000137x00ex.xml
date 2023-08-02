@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000U_S000P" variety="S000P">
+<name>STEERING COLUMN</name>
+<ttl id="1000U_S000P_7A80U_T0058" variety="T0058">
+<name>STEERING SYSTEM</name>
+<para id="RM00000137X00EX" category="A" type-id="8003M" name-id="SR3QT-01" from="201202">
+<name>REPAIR</name>
+<subpara id="RM00000137X00EX_01" type-id="01" category="01">
+<s-1 id="RM00000137X00EX_01_0001" proc-id="RM21Q0EV__00001T200000">
+<ptxt>STEERING POSITION</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F016015E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Apply masking tape on the top center of the steering wheel and steering column upper cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Drive the vehicle in a straight line for 100 m (328 ft.) at a constant speed of 56 km/h (35 mph), and hold the steering wheel to maintain the course.</ptxt>
+</s2>
+<s2>
+<ptxt>Draw a line on the masking tape as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="F016016E04" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Rotate the steering wheel to the center position.</ptxt>
+<figure>
+<graphic graphicname="F016017E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>Locate the center position by looking at: 1) the upper surface of the steering wheel, 2) the upper cover, and 3) the horizontal line of the "SRS Airbag" symbol imprinted on the steering pad.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Draw a new line on the masking tape on the steering wheel as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Measure the distance between the 2 lines on the masking tape on the steering wheel.</ptxt>
+</s2>
+<s2>
+<ptxt>Calculate the measured distance in terms of steering angle.</ptxt>
+<spec>
+<title>Reference</title>
+<specitem>
+<ptxt>1 mm (0.004 in.) = 1°</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Make a note of the steering angle.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000137X00EX_01_0002" proc-id="RM21Q0EV__00001T300000">
+<ptxt>ADJUST STEERING ANGLE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="R000429E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Draw lines on the RH and LH tie rod ends and rack ends where they can be easily seen.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a paper gauge, measure the distance from the RH and LH tie rod ends to the rack end screws.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Measure both the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>Make a note of the measured values.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F051053E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the RH and LH boot clips from the rack boots.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the RH and LH lock nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the RH and LH rack ends equally in different directions according to the steering angle.</ptxt>
+<spec>
+<title>Reference</title>
+<specitem>
+<ptxt>One 360° turn of rack end (1.5 mm (0.059 in.) horizontal movement) is equal to 13° of steering angle.</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Tighten the RH and LH lock nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>56</t-value1>
+<t-value2>571</t-value2>
+<t-value4>41</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Make sure that the difference in length between the RH and LH tie rod ends and rack end screws is within 1.0 mm (0.0394 in.).</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the RH and LH boot clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

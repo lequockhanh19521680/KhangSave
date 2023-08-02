@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROT_T009V" variety="T009V">
+<name>FRONT EVAPORATOR TEMPERATURE SENSOR</name>
+<para id="RM0000012JQ021X" category="A" type-id="80001" name-id="ACD25-05" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000012JQ021X_01" type-id="01" category="01">
+<s-1 id="RM0000012JQ021X_01_0015" proc-id="RM21Q0EV__000048J00000">
+<ptxt>REMOVE AIR CONDITIONING UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000012JP01PX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JQ021X_01_0017" proc-id="RM21Q0EV__00004G500000">
+<ptxt>REMOVE NO. 1 COOLER EVAPORATOR SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 screws.</ptxt>
+<figure>
+<graphic graphicname="E226116" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 3 claws and remove the lower heater case.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the clamp and remove the No. 1 cooler evaporator sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E212974" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JQ021X_01_0007" proc-id="RM21Q0EV__000048I00000">
+<ptxt>REMOVE NO. 1 COOLER THERMISTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the No. 1 cooler thermistor (front evaporator temperature sensor).</ptxt>
+<figure>
+<graphic graphicname="E173254" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81X_T006B" variety="T006B">
+<name>ROOM LIGHT ASSEMBLY</name>
+<para id="RM0000024F1003X" category="G" type-id="3001K" name-id="LI1VB-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000024F1003X_01" type-id="01" category="01">
+<s-1 id="RM0000024F1003X_01_0001" proc-id="RM21Q0EV__00002AD00000">
+<ptxt>INSPECT ROOM NO. 1 LIGHT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B117876E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the light operates properly.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>DOOR</ptxt>
+</entry>
+<entry>
+<ptxt>Light comes on</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Light does not come on</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+<ptxt>→ Switch body (Light grand)</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Light comes on</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the light assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024F1003X_01_0002" proc-id="RM21Q0EV__00002AE00000">
+<ptxt>INSPECT ROOM NO. 2 LIGHT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B117876E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the light operates properly.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>DOOR</ptxt>
+</entry>
+<entry>
+<ptxt>Light comes on</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Light does not come on</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 2</ptxt>
+<ptxt>Battery negative (-) → 1</ptxt>
+<ptxt>→ Switch body (Light grand)</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Light comes on</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the light assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AAY8_T008K" variety="T008K">
+<name>DOOR CONTROL RECEIVER</name>
+<para id="RM0000014VA017X" category="A" type-id="80001" name-id="DL80A-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000014VA017X_01" type-id="01" category="01">
+<s-1 id="RM0000014VA017X_01_0026" proc-id="RM21Q0EV__000035Y00000">
+<ptxt>REMOVE REAR NO. 2 SEAT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the rear No. 2 seat assembly (See page <xref label="Seep01" href="RM0000023OA003X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000014VA017X_01_0027" proc-id="RM21Q0EV__00003D400000">
+<ptxt>REMOVE REAR DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279267E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the rear door scuff plate.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 clips and 7 claws and remove the rear door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014VA017X_01_0028" proc-id="RM21Q0EV__00003DE00000">
+<ptxt>REMOVE BACK DOOR SCUFF PLATE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279272" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Detach the 6 clips and 4 claws and remove the back door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014VA017X_01_0033" proc-id="RM21Q0EV__00003DF00000">
+<ptxt>REMOVE QUARTER TRIM HOOK
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B276937" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for both quarter trim hooks.</ptxt>
+</atten4>
+<s2>
+<ptxt>Remove the screw and quarter trim hook.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014VA017X_01_0032" proc-id="RM21Q0EV__00003D600000">
+<ptxt>REMOVE REAR DOOR OPENING TRIM WEATHERSTRIP LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279291" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear door opening trim weatherstrip.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014VA017X_01_0029" proc-id="RM21Q0EV__00003DG00000">
+<ptxt>REMOVE QUARTER INSIDE TRIM BOARD LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279273" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and disconnect the rear No. 1 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279274" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the bolt and disconnect the rear No. 2 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a clip remover, remove the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws, 8 clips and 2 guides and remove the quarter inside trim board.</ptxt>
+<figure>
+<graphic graphicname="B279275" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014VA017X_01_0030" proc-id="RM21Q0EV__00003DI00000">
+<ptxt>REMOVE QUARTER PILLAR GARNISH LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B280110E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws and open the rear No. 1 seat belt shoulder anchor cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the bolt and disconnect the rear No. 1 seat belt shoulder anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279276" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the 3 clips and remove the quarter pillar garnish.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014VA017X_01_0031" proc-id="RM21Q0EV__00003DK00000">
+<ptxt>REMOVE INNER UPPER ROOF SIDE GARNISH LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B280110E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws and open the rear No. 2 seat belt shoulder anchor cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279277" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the 5 clips and remove the inner upper roof side garnish.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014VA017X_01_0002" proc-id="RM21Q0EV__000035X00000">
+<ptxt>REMOVE DOOR CONTROL RECEIVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B206270" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and receiver.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

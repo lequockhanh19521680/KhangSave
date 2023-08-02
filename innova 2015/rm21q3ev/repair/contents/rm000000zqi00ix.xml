@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQI00IX" category="C" type-id="302RB" name-id="ES10OL-001" from="201202">
+<dtccode>P0335/13</dtccode>
+<dtcname>Crankshaft Position Sensor "A" Circuit</dtcname>
+<dtccode>P0339/13</dtccode>
+<dtcname>Crankshaft Position Sensor "A" Circuit Intermittent</dtcname>
+<subpara id="RM000000ZQI00IX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000D300000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The crankshaft position sensor system consists of a crankshaft position sensor plate and pickup coil. The sensor plate has 34 teeth and is installed on the crankshaft. The pickup coil is made of an iron core and magnet. The sensor plate rotates and as each tooth passes through the pickup coil, a pulse signal is created. The pickup coil generates 34 signals per engine revolution. Based on these signals, the ECM calculates the crankshaft position and engine rpm. Using these calculations, the fuel injection time and ignition timing are controlled.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0335/13</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No crankshaft position sensor signal to ECM at engine speed of 600 rpm or more (1 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in crankshaft position sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Crankshaft position sensor</ptxt>
+</item>
+<item>
+<ptxt>Sensor plate (crankshaft)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0339/13</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>In conditions (a), (b) and (c), when no crankshaft position sensor signal to ECM for 0.05 seconds or more.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>(a) Engine revolution 1,000 rpm or more</ptxt>
+</item>
+<item>
+<ptxt>(b) Starter signal is OFF</ptxt>
+</item>
+<item>
+<ptxt>(c) 3 seconds or more have elapsed after starter signal was switched from ON to OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in crankshaft position sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Crankshaft position sensor</ptxt>
+</item>
+<item>
+<ptxt>Sensor plate (crankshaft)</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQI00IX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000D400000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>If there is no signal from the crankshaft position sensor even though the engine is running, the ECM interprets this as a malfunction of the sensor.</ptxt>
+<ptxt>This monitor runs for 10 seconds (the first 10 seconds of engine idle) after the engine is started.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQI00IX_03" type-id="32" category="03" proc-id="RM21Q0EV__00000D500000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A120222E04" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQI00IX_04" type-id="51" category="05" proc-id="RM21Q0EV__00000D600000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If no problem is found in the diagnostic troubleshooting procedure of DTC P0335/13, troubleshoot the engine mechanical systems.</ptxt>
+</item>
+<item>
+<ptxt>Read the value on the intelligent tester.</ptxt>
+<ptxt>(a) Connect the intelligent tester to the DLC3.</ptxt>
+<ptxt>(b) Start the engine and turn the intelligent tester ON.</ptxt>
+<ptxt>(c) Enter the following menu items: Powertrain / Engine and ECT / Data List / Engine Speed.</ptxt>
+</item>
+<item>
+<ptxt>The engine speed can be confirmed in the Data List using the intelligent tester. If there are no NE signals from the crankshaft position sensor despite the engine running, the engine speed will be indicated as 0. If the voltage output of the crankshaft position sensor is insufficient, the engine speed will be indicated as lower than the actual engine rpm.</ptxt>
+</item>
+<item>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQI00IX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQI00IX_05_0001" proc-id="RM21Q0EV__00000D700000">
+<testtitle>INSPECT CRANKSHAFT POSITION SENSOR (RESISTANCE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A099737E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C5 sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the sensor.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Sensor Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Cold</ptxt>
+</entry>
+<entry>
+<ptxt>1,630 to 2,740 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Hot</ptxt>
+</entry>
+<entry>
+<ptxt>2,065 to 3,225 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>In the chart above, the terms "cold" and "hot" refer to the temperature of the sensor. "Cold" means approximately -10 to 50°C (14 to 122°F). "Hot" means approximately 50 to 100°C (122 to 212°F).</ptxt>
+</atten3>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQI00IX_05_0002" fin="false">OK</down>
+<right ref="RM000000ZQI00IX_05_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0002" proc-id="RM21Q0EV__00000D800000">
+<testtitle>CHECK WIRE HARNESS (CRANKSHAFT POSITION SENSOR - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034692E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C5 sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C5-1 - E12-27 (NE+)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C5-2 - E12-34 (NE-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C5-1 or E12-27 (NE+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C5-2 or E12-34 (NE-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQI00IX_05_0003" fin="false">OK</down>
+<right ref="RM000000ZQI00IX_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0003" proc-id="RM21Q0EV__00000D900000">
+<testtitle>CHECK CRANKSHAFT POSITION SENSOR (INSTALLATION)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="BR03795E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Check that the crankshaft position sensor is installed correctly.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> Sensor is installed correctly.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQI00IX_05_0004" fin="false">OK</down>
+<right ref="RM000000ZQI00IX_05_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0004" proc-id="RM21Q0EV__00000DA00000">
+<testtitle>CHECK CRANKSHAFT POSITION SENSOR PLATE (TEETH)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that the teeth of the sensor plate do not have any cracks or deformation.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Teeth of sensor plate do not have cracks or deformation.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQI00IX_05_0009" fin="true">OK</down>
+<right ref="RM000000ZQI00IX_05_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0005">
+<testtitle>REPLACE CRANKSHAFT POSITION SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0007">
+<testtitle>SECURELY REINSTALL CRANKSHAFT POSITION SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0008">
+<testtitle>REPLACE CRANKSHAFT POSITION SENSOR PLATE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQI00IX_05_0009">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW4_T00AL" variety="T00AL">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/ Theft Deterrent System)</name>
+<para id="RM000004SGL002X" category="J" type-id="300MB" name-id="DL77L-03" from="201202">
+<dtccode/>
+<dtcname>Only Wireless Control Function is Inoperative</dtcname>
+<subpara id="RM000004SGL002X_01" type-id="60" category="03" proc-id="RM21Q0EV__000050P00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The door control receiver receives a signal from the door control transmitter assembly and sends these signals to the driver side junction block assembly via the theft warning ECU assembly. The driver side junction block assembly then controls all doors by sending lock/unlock signals to each door lock assembly.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000004SGL002X_02" type-id="32" category="03" proc-id="RM21Q0EV__000050Q00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="B281238E04" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000004SGL002X_03" type-id="51" category="05" proc-id="RM21Q0EV__000050R00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When replacing the theft warning ECU assembly or door control transmitter sub-assembly, refer to the registration procedures (See page <xref label="Seep01" href="RM000004SGQ002X"/>)</ptxt>
+</item>
+<item>
+<ptxt>Inspect the fuses for circuits related to this system before performing the following inspection procedure.</ptxt>
+</item>
+</list1>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000004SGL002X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000004SGL002X_04_0001" proc-id="RM21Q0EV__000050S00000">
+<testtitle>CHECK POWER DOOR LOCK OPERATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the power door lock operation (See page <xref label="Seep01" href="RM00000128T00TX"/>).</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Each door locks and unlocks normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0002" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0014" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0002" proc-id="RM21Q0EV__000050T00000">
+<testtitle>CHECK DOOR CONTROL TRANSMITTER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check whether the wireless door lock control functions operate normally with another registered door control transmitter assembly.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Wireless door lock control functions operate normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0003" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0005" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0003" proc-id="RM21Q0EV__000050U00000">
+<testtitle>CHECK DOOR CONTROL TRANSMITTER ASSEMBLY (LED)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Press and hold the lock switch of the door control transmitter assembly for 5 seconds and check the number of times that the transmitter LED illuminates.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.89in"/>
+<colspec colname="COL2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Transmitter LED does not illuminate when switch is pressed and held</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Transmitter LED illuminates 3 times or more when switch is pressed and held</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Transmitter LED illuminates once or twice but not third time</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0004" fin="false">A</down>
+<right ref="RM000004SGL002X_04_0015" fin="true">B</right>
+<right ref="RM000004SGL002X_04_0016" fin="true">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0004" proc-id="RM21Q0EV__000050V00000">
+<testtitle>INSPECT TRANSMITTER BATTERY (VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the transmitter battery from the door control transmitter assembly that does not operate (See page <xref label="Seep01" href="RM0000010W901VX"/>).</ptxt>
+<figure>
+<graphic graphicname="B262355" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Attach a lead wire (0.6mm [0.0236 in.] in diameter or less including wire sheath) with tape or equivalent to the negative battery.</ptxt>
+<atten3>
+<ptxt>Do not wrap the lead wire around a terminal, wedge it between the terminals or solder it. A terminal may be deformed or damaged, and the transmitter battery will not be able to be installed correctly.</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>Carefully extend the lead wire out from the position shown in the illustration and install the preciously removed transmitter battery.</ptxt>
+<atten3>
+<ptxt>When replacing the transmitter battery, before staring work, remove any static electricity that has built up by touching, for example, the vehicle to prevent the door control transmitter sub-assembly from being damaged.</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Measure the transmitter battery voltage while pressing the lock or unlock switch on the transmitter.</ptxt>
+</item>
+<item>
+<ptxt>Perform the measurement when the door control transmitter assembly is at room temperature.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) - Battery negative (-)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch off, all doors closed and lock or unlock switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2.2 to 3.2 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0017" fin="true">OK</down>
+<right ref="RM000004SGL002X_04_0018" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0005" proc-id="RM21Q0EV__000050W00000">
+<testtitle>CHECK FOR ELECTRICAL NOISE</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Move the door control transmitter assembly in the vicinity of the door control receiver. </ptxt>
+<atten4>
+<ptxt>Refer to Parts Location for the location of the door control receiver (See page <xref label="Seep01" href="RM000004SGI002X"/>).</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>Press and hold either the lock or unlock transmitter switch for 1 second and check that the doors lock or unlock accordingly.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Wireless door lock control functions operate normally.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Check if electrical noise is the cause by moving the door control transmitter assembly closer to the door control receiver. Moving it closer will decrease the effects of electrical noise.</ptxt>
+</item>
+<item>
+<ptxt>If the operation check can be performed normally, there is a high probability the electrical noise or decrease in output from the door control transmitter assembly is the cause of the malfunction. There is a high probability that electrical noise is the cause if the problem occurs only in a certain location or only during a certain time of day. Also, custom components may be causing electrical noise. If custom components are installed in the vehicle, remove them and perform the operation check again.</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0019" fin="true">OK</down>
+<right ref="RM000004SGL002X_04_0006" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0006" proc-id="RM21Q0EV__000050X00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (DOOR CONTROL RECEIVER - THEFT WARNING ECU)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the D12 door lock control receiver connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the T20 theft warning ECU assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D12-2 (RDA) - T20-20 (BRK-)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D12-3 (PRG) - T20-21 (BRK+)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D12-2 (RDA) or T20-20 (BRK-) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D12-3 (PRG) or T20-21 (BRK+) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0007" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0020" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0007" proc-id="RM21Q0EV__000050Y00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (DOOR CONTROL RECEIVER - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the D12 door control receiver connector.</ptxt>
+<figure>
+<graphic graphicname="B219541E14" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D12-1 (GND) - Body ground)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D12-5 (+B) - Body ground)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to Door Control Receiver)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0008" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0021" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0008" proc-id="RM21Q0EV__000050Z00000">
+<testtitle>CHECK DOOR CONTROL RECEIVER (OUTPUT)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<figure>
+<graphic graphicname="B260824E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>D12-2 (RDA) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch off, all doors closed and transmitter switch not pressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch off, all doors closed and transmitter switch pressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component with harness connected</ptxt>
+<ptxt>(Door Control Receiver)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0009" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0022" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0009" proc-id="RM21Q0EV__000051000000">
+<testtitle>INSPECT UNLOCK WARNING SWITCH ASSEMBLY</testtitle>
+<content6 releasenbr="2">
+<test1>
+<ptxt>Remove the unlock warning switch assembly.</ptxt>
+<figure>
+<graphic graphicname="B274206E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Not pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pushed</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Not pushed</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0010" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0023" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0010" proc-id="RM21Q0EV__000051100000">
+<testtitle>CHECK HARNESS AND CONNECTOR (UNLOCK WARNING SWITCH - THEFT WARNING ECU AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the U1 unlock warning switch assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the T20 theft warning ECU assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>U1-1 - T20-5 (KSW)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>U1-1 or T20-5 (KSW) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>U1-2 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0011" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0024" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0011" proc-id="RM21Q0EV__000051200000">
+<testtitle>CHECK HARNESS AND CONNECTOR (THEFT WARNING ECU - DRIVER SIDE JUNCTION BLOCK)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the T20 theft warning ECU assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 2A and 2D driver side junction block assembly connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>T20-25 (L2) - 2A-4 (L1)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>T20-26 (UL3) - 2D-4 (UL1)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>T20-25 (L2) or 2A-4 (L1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>T20-26 (UL3) or 2D-4 (UL1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0012" fin="false">OK</down>
+<right ref="RM000004SGL002X_04_0025" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0012" proc-id="RM21Q0EV__000051300000">
+<testtitle>CHECK HARNESS AND CONNECTOR (THEFT WARNING ECU- BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the T20 theft warning ECU assembly connector.</ptxt>
+<figure>
+<graphic graphicname="B274165E13" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below. </ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>T20-1 (E) - Body ground)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below. </ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>T20-4 (+B1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>T20-14 (+B2) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to Theft Warning ECU Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content6>
+<res>
+<down ref="RM000004SGL002X_04_0013" fin="true">OK</down>
+<right ref="RM000004SGL002X_04_0026" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0013">
+<testtitle>REPLACE THEFT WARNING ECU ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0014">
+<testtitle>Go to POWER DOOR LOCK CONTROL SYSTEM<xref label="Seep01" href="RM0000014VK01PX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0015">
+<testtitle>REPLACE DOOR CONTROL TRANSMITTER SUB-ASSEMBLY<xref label="Seep01" href="RM0000010WC00YX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0016">
+<testtitle>REPLACE TRANSMITTER BATTERY<xref label="Seep01" href="RM0000010W901VX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0017">
+<testtitle>REPLACE DOOR CONTROL TRANSMITTER SUB-ASSEMBLY<xref label="Seep01" href="RM0000010WC00YX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0018">
+<testtitle>REPLACE TRANSMITTER BATTERY<xref label="Seep01" href="RM0000010W901VX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0019">
+<testtitle>FIND CAUSE OF NOISE AND REMOVE IT</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0020">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0021">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0022">
+<testtitle>REPLACE DOOR CONTROL RECEIVER<xref label="Seep01" href="RM0000014VA017X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0023">
+<testtitle>REPLACE UNLOCK WARNING SWITCH ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0024">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0025">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000004SGL002X_04_0026">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

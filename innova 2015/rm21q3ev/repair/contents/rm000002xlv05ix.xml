@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A814_T005I" variety="T005I">
+<name>CONDENSER</name>
+<para id="RM000002XLV05IX" category="A" type-id="8000E" name-id="ACDFS-05" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000002XLV05IX_01" type-id="01" category="01">
+<s-1 id="RM000002XLV05IX_01_0001" proc-id="RM21Q0EV__00004D400000">
+<ptxt>INSTALL COOLER DRYER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E184466E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using pliers, install a new cooler dryer to the modulator.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Modulator</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Apply sufficient compressor oil to a new O-ring and the cap fitting surface.</ptxt>
+<figure>
+<graphic graphicname="E101932" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Compressor oil</title>
+<specitem>
+<ptxt>ND-OIL 8 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using a 14 mm straight hexagon wrench, install a new cap to the cooler condenser core.</ptxt>
+<figure>
+<graphic graphicname="E184465" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>2.9</t-value1>
+<t-value2>30</t-value2>
+<t-value3>26</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002XLV05IX_01_0003" proc-id="RM21Q0EV__00004D500000">
+<ptxt>INSTALL NO. 3 COOLER CONDENSER BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 3 cooler condenser bracket with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002XLV05IX_01_0004" proc-id="RM21Q0EV__00004D600000">
+<ptxt>INSTALL NO. 2 COOLER CONDENSER BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 2 cooler condenser bracket with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002XLV05IX_01_0005" proc-id="RM21Q0EV__00004D700000">
+<ptxt>INSTALL NO. 1 COOLER CONDENSER BRACKET</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure for both No. 1 cooler condenser brackets.</ptxt>
+</atten4>
+<s2>
+<ptxt>Install the No. 1cooler condenser bracket with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>3.9</t-value1>
+<t-value2>40</t-value2>
+<t-value3>35</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

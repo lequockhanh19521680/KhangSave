@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000104F014X" category="J" type-id="300NF" name-id="BCE10-01" from="201202">
+<dtccode/>
+<dtcname>ABS Warning Light does not Come ON</dtcname>
+<subpara id="RM00000104F014X_01" type-id="60" category="03" proc-id="RM21Q0EV__00001NN00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>If the skid control ECU detects a malfunction, it will prohibit ABS control, illuminate the ABS warning light and store a DTC. Connecting terminals TC and CG of the DLC3 causes the ECU to display DTCs through ABS warning light blinking patterns.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM00000104F014X_02" type-id="32" category="03" proc-id="RM21Q0EV__00001NO00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C121810E02" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM00000104F014X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM00000104F014X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000104F014X_04_0010" proc-id="RM21Q0EV__00001NT00000">
+<testtitle>CHOOSE DIAGNOSIS METHOD</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Choose the diagnosis method.</ptxt>
+<table>
+<title>Method</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Method</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Using intelligent tester</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Not using intelligent tester</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104F014X_04_0001" fin="false">A</down>
+<right ref="RM00000104F014X_04_0002" fin="false">B</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0001" proc-id="RM21Q0EV__00001NP00000">
+<testtitle>PERFORM ACTIVE TEST BY INTELLIGENT TESTER (ABS WARNING LIGHT)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Select the Active Test, generate a control command, and then check that the ABS warning light operates.</ptxt>
+<table pgwide="1">
+<title>Skid control ECU</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle Condition / Test Details</ptxt>
+</entry>
+<entry>
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>ABS Warning Light</ptxt>
+</entry>
+<entry>
+<ptxt>Turn ABS warning light ON / OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Observe combination meter</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>ABS warning light turns on or off.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104F014X_04_0002" fin="false">NG</down>
+<right ref="RM00000104F014X_04_0005" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0002" proc-id="RM21Q0EV__00001NQ00000">
+<testtitle>CHECK ABS WARNING LIGHT</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="C108884E08" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the S2 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Using a service wire, connect terminal WA to GND1 or GND2 of the S2 ECU connector. Check the ABS warning light.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>ABS warning light turns off.</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Remove the service wire.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON. Check the ABS warning light.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>ABS warning light illuminates.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104F014X_04_0003" fin="false">NG</down>
+<right ref="RM00000104F014X_04_0006" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0003" proc-id="RM21Q0EV__00001NR00000">
+<testtitle>CHECK WIRE HARNESS (SKID CONTROL ECU - COMBINATION METER)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="C108898E44" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the S2 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>S2-13 (WA) - C20-38</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>S2-13 (WA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104F014X_04_0004" fin="false">OK</down>
+<right ref="RM00000104F014X_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0004" proc-id="RM21Q0EV__00001NS00000">
+<testtitle>CHECK INDICATOR AND WARNING LIGHT</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check if the indicators and warning lights (SRS, etc.) other than the ABS warning light operate normally.</ptxt>
+</test1>
+<table pgwide="1">
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Indicators and warning lights operate normally</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Indicators and warning lights do not operate normally</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content6>
+<res>
+<down ref="RM00000104F014X_04_0009" fin="true">A</down>
+<right ref="RM00000104F014X_04_0008" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0005">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0006">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0007">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0008">
+<testtitle>CHECK COMBINATION METER ASSEMBLY (COMBINATION METER CIRCUIT)</testtitle>
+</testgrp>
+<testgrp id="RM00000104F014X_04_0009">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

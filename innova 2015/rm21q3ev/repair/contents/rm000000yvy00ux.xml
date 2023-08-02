@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YVY00UX" category="D" type-id="303F4" name-id="RS0GB-06" from="201202" to="201303">
+<name>DTC CHECK / CLEAR</name>
+<subpara id="RM000000YVY00UX_z0" proc-id="RM21Q0EV__000021500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK DTC (USING SST CHECK WIRE)</ptxt>
+<figure>
+<graphic graphicname="H100769E76" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Check the DTCs (present trouble code).</ptxt>
+<step3>
+<ptxt>Turn the ignition switch ON, and wait for approximately 60 seconds.</ptxt>
+</step3>
+<step3>
+<ptxt>Using SST, connect terminals 4 (CG) and 13 (TC) of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Connect the terminals to the correct positions to avoid a malfunction.</ptxt>
+</atten3>
+</step3>
+</step2>
+<step2>
+<ptxt>Check the DTCs (past trouble code).</ptxt>
+<step3>
+<ptxt>Using SST, connect terminals 4 (CG) and 13 (TC) of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Connect the terminals to the correct positions to avoid a malfunction.</ptxt>
+</atten3>
+</step3>
+<step3>
+<ptxt>Turn the ignition switch ON, and wait for approximately 60 seconds.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Read the DTCs.</ptxt>
+<figure>
+<graphic graphicname="H100355E02" width="2.775699831in" height="6.791605969in"/>
+</figure>
+<step3>
+<ptxt>Read the blinking patterns of the DTCs. Examples of the blinking patterns for the normal system code and DTCs 11 and 31 are shown in the illustration.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Normal system code indication (without past trouble code).</ptxt>
+<ptxt>The light blinks twice per second.</ptxt>
+</item>
+<item>
+<ptxt>Normal system code indication (with past trouble code).</ptxt>
+<ptxt>When the past trouble code is stored in the center airbag sensor, the light blinks once per second.</ptxt>
+</item>
+<item>
+<ptxt>DTC indication </ptxt>
+<ptxt>The first blinking pattern indicates the first DTC. If there is more than one DTC, a 2.5 second pause occurs between each blinking pattern. After all blinking patterns are shown, a 4.0 second pause occurs. Then all blinking patterns are repeated.</ptxt>
+</item>
+</list1>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If 2 or more malfunctions are found, the indication begins with the smaller numbered code.</ptxt>
+</item>
+<item>
+<ptxt>If DTCs are indicated without connecting the terminals, check the "TC terminal circuit" (see page <xref label="Seep01" href="RM000000YXN01FX"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CLEAR DTC (USING SST CHECK WIRE)</ptxt>
+<step2>
+<ptxt>When the ignition switch is turned OFF, the DTCs are erased.</ptxt>
+<atten4>
+<ptxt>Depending on the DTC, the code may not be cleared by turning the ignition switch OFF. In this case, proceed to the next procedure.</ptxt>
+</atten4>
+</step2>
+<step2>
+<ptxt>Using SST, connect terminals 13 (TC) and 4 (CG) of the DLC3, and then turn the ignition switch ON.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+</step2>
+<step2>
+<ptxt>After DTCs are output, disconnect terminal 13 (TC) of the DLC3 within 3 to 10 seconds. Check that the SRS warning light illuminates 3 seconds later.</ptxt>
+</step2>
+<step2>
+<ptxt>After the SRS warning light illuminates, connect terminal 13 (TC) of the DLC3 within 2 to 4 seconds. Check that the SRS warning light turns off within 2 to 4 seconds.</ptxt>
+</step2>
+<step2>
+<ptxt>After the SRS warning light turns off, disconnect terminal 13 (TC) of the DLC3 within 2 to 4 seconds. Check that the SRS warning light illuminates within 2 to 4 seconds.</ptxt>
+</step2>
+<step2>
+<ptxt> After the SRS warning light illuminates, connect terminal 13 (TC) of the DLC3 within 2 to 4 seconds. Check that the SRS warning light turns off within 2 to 4 seconds. Also check that the normal system code is output within 1 second.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>If DTCs are not erased, repeat this procedure until the codes are erased.</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="H102166E02" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK FOR DTC (USING INTELLIGENT TESTER)</ptxt>
+<figure>
+<graphic graphicname="A099015E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Check for DTCs by following the prompts on the tester screen.</ptxt>
+<atten4>
+<ptxt>Refer to the intelligent tester operator's manual for further details.</ptxt>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>CLEAR DTC (USING INTELLIGENT TESTER)</ptxt>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Clear the DTCs by following the prompts on the tester screen.</ptxt>
+<atten4>
+<ptxt>Refer to the intelligent tester operator's manual for further details.</ptxt>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002H_S000J" variety="S000J">
+<name>AXLE</name>
+<ttl id="1002H_S000J_7A801_T004F" variety="T004F">
+<name>REAR AXLE HUB BOLT</name>
+<para id="RM000000ZZR00UX" category="A" type-id="30019" name-id="AH069-02" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM000000ZZR00UX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001HH00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000000ZZR00UX_02" type-id="01" category="01">
+<s-1 id="RM000000ZZR00UX_02_0001">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM000000ZZR00UX_02_0002">
+<ptxt>REMOVE BRAKE DRUM</ptxt>
+</s-1>
+<s-1 id="RM000000ZZR00UX_02_0003" proc-id="RM21Q0EV__00001HI00000">
+<ptxt>REMOVE REAR AXLE HUB BOLT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050069E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Temporarily install the 2 nuts to the hub bolts as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a brass bar or equivalent to hold the axle shaft, remove the hub bolt.</ptxt>
+<sst>
+<sstitem>
+<s-number>09650-17011</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZR00UX_02_0004" proc-id="RM21Q0EV__00001HJ00000">
+<ptxt>INSTALL REAR AXLE HUB BOLT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050070E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a plate washer and nut to a new hub bolt, as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a brass bar or equivalent to hold the axle shaft, install the hub bolt by tightening the nut.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts from the hub bolts.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZR00UX_02_0005">
+<ptxt>INSTALL BRAKE DRUM</ptxt>
+</s-1>
+<s-1 id="RM000000ZZR00UX_02_0006" proc-id="RM21Q0EV__00001HK00000">
+<ptxt>INSTALL REAR WHEEL</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1,122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

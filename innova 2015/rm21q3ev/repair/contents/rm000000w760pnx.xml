@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W760PNX" category="D" type-id="303F3" name-id="AT036-97" from="201202">
+<name>DIAGNOSIS SYSTEM</name>
+<subpara id="RM000000W760PNX_z0" proc-id="RM21Q0EV__000018400000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DESCRIPTION</ptxt>
+<ptxt>When troubleshooting Multiplex OBD (M-OBD) vehicles, the vehicle must be connected to the intelligent tester. Various data output from the vehicle's Engine Control Module (ECM) can then be read.</ptxt>
+<figure>
+<graphic graphicname="C190907" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>The Malfunction Indicator Lamp (MIL) illuminates when the vehicle's on-board computer detects a malfunction in the computer itself or in drive system components. In addition, the applicable Diagnostic Trouble Codes (DTCs) are recorded in the ECM memory (see page <xref label="Seep01" href="RM000000W710JOX"/>).</ptxt>
+<ptxt>When the malfunction does not reoccur, the MIL stays illuminated until the ignition switch is turned off, and the MIL turns off when the engine is started. However, the DTCs remain recorded in the ECM memory.</ptxt>
+<figure>
+<graphic graphicname="A107796E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>To check DTCs, connect the tester to the Data Link Connector 3 (DLC3) on the vehicle or connect terminals TC and CG on the DLC3 (DTCs will be displayed on the combination meter).</ptxt>
+</step1>
+<step1>
+<ptxt>NORMAL MODE AND CHECK MODE</ptxt>
+<ptxt>The diagnosis system operates in "normal mode" during normal vehicle use. In normal mode, "2 trip detection logic" is used to ensure accurate detection of malfunctions. "Check mode" is also available to technicians as an option. In check mode, "1 trip detection logic" is used for simulating malfunction symptoms and increasing the system's ability to detect malfunctions, including intermittent malfunctions (see page <xref label="Seep02" href="RM000000W780LPX"/>).</ptxt>
+</step1>
+<step1>
+<ptxt>2 TRIP DETECTION LOGIC</ptxt>
+<ptxt>When a malfunction is first detected, the malfunction is temporarily stored in the ECM memory (1st trip). If the same malfunction is detected during the next subsequent drive cycle, the MIL is illuminated (2nd trip).</ptxt>
+</step1>
+<step1>
+<ptxt>FREEZE FRAME DATA</ptxt>
+<ptxt>Freeze frame data records the engine conditions (fuel system, calculated engine load, engine coolant temperature, fuel trim, engine speed, vehicle speed, etc.) when a malfunction is detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</step1>
+<step1>
+<ptxt>CHECK MIL</ptxt>
+<figure>
+<graphic graphicname="C190907" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>The MIL illuminates when the ignition switch is turned on and the engine is not running.</ptxt>
+<atten4>
+<ptxt>If the MIL does not illuminate, check the MIL circuit (see page <xref label="Seep03" href="RM000000ZQY019X"/>).</ptxt>
+</atten4>
+</step2>
+<step2>
+<ptxt>When the engine is started, check that the MIL turns off.</ptxt>
+<ptxt>If the lamp remains illuminated, the diagnosis system has detected a malfunction or abnormality in the system.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>ALL READINESS</ptxt>
+<step2>
+<ptxt>For this vehicle, using the intelligent tester allows readiness codes corresponding to all DTCs to be read. When diagnosis (normal or malfunctioning) has been completed, readiness codes are set.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

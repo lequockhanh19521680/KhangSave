@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A835_T007J" variety="T007J">
+<name>WINDOW DEFOGGER SWITCH</name>
+<para id="RM000001OES00TX" category="G" type-id="8000T" name-id="WS0NW-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000001OES00TX_01" type-id="01" category="01">
+<s-1 id="RM000001OES00TX_01_0002" proc-id="RM21Q0EV__00002PN00000">
+<ptxt>INSPECT REAR WINDOW DEFOGGER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085675E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Check the illumination area of the switch.</ptxt>
+<spec>
+<title>Standard measurement</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 1 (ILL+)</ptxt>
+<ptxt>Battery negative (-) → 2 (ILL-)</ptxt>
+</entry>
+<entry>
+<ptxt>Illuminates</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+<atten4>
+<ptxt>The ON/OFF indicator of the switch will not illuminate.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B085676E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Check the ON/OFF indicator of the switch.</ptxt>
+<s3>
+<ptxt>Push the switch several times. Check that the ON/OFF indicator illuminates or turns off according to switch operation.</ptxt>
+<spec>
+<title>Standard measurement</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → 5 (IG)</ptxt>
+<ptxt>Battery negative (-) → 3 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>Defogger switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>Illuminates</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+<atten4>
+<ptxt>The illumination area of the switch will not illuminate.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B085677E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the resistance of the switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>4 (D) - 3 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4 (D) - 3 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

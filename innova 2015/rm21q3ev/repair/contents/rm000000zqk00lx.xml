@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQK00LX" category="C" type-id="302Z1" name-id="ES10OC-001" from="201202">
+<dtccode>P0011/59</dtccode>
+<dtcname>Camshaft Position "A" - Timing Over-Advanced or System Performance (Bank 1)</dtcname>
+<dtccode>P0012/59</dtccode>
+<dtcname>Camshaft Position "A" - Timing Over-Retarded (Bank 1)</dtcname>
+<subpara id="RM000000ZQK00LX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000DL00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P0010/39 (see page <xref label="Seep01" href="RM000000ZQJ00IX_01"/>). </ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0011/59</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Advanced cam timing:</ptxt>
+<ptxt>After engine is warmed up, valve timing does not change from current valve timing while driving at engine speed of 500 to 4,000 rpm (1 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Valve timing</ptxt>
+</item>
+<item>
+<ptxt>OCV</ptxt>
+</item>
+<item>
+<ptxt>Camshaft timing gear assembly</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0012/59</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Retarded cam timing:</ptxt>
+<ptxt>After engine is warmed up, valve timing does not change from current valve timing while driving at engine speed of 500 to 4,000 rpm (2 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Valve timing</ptxt>
+</item>
+<item>
+<ptxt>OCV</ptxt>
+</item>
+<item>
+<ptxt>Camshaft timing gear assembly</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQK00LX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000DM00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The ECM optimizes the valve timing using the VVT system to control the intake valve camshaft. The VVT system includes the ECM, OCV and VVT actuator. The ECM sends a target "duty-cycle" control signal to the OCV. This control signal, applied to the OCV, regulates the oil pressure supplied to the VVT controller. The VVT controller can advance or retard the intake valve camshaft.</ptxt>
+<ptxt>Example:</ptxt>
+<ptxt>A DTC will set if: 1) the difference between the target and actual valve timing is more than 5° of the Crankshaft Angle (CA) and the condition continues for more than 4.5 seconds; or 2) the OCV is forcibly activated 63 times or more.</ptxt>
+<ptxt>DTC P0011/59 (advanced cam timing) is subject to 1 trip detection logic.</ptxt>
+<ptxt>DTC P0012/59 (retarded cam timing) is subject to 2 trip detection logic.</ptxt>
+<ptxt>The monitor runs if all the conditions below are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>After warming up engine (engine coolant temperature 80°C (176°F) or more).</ptxt>
+</item>
+<item>
+<ptxt>After driving the vehicle over 40 km/h (25 mph) for 3 minutes.</ptxt>
+</item>
+<item>
+<ptxt>After idling the engine for 3 minutes.</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara id="RM000000ZQK00LX_03" type-id="32" category="03" proc-id="RM21Q0EV__00000DN00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P0010/39 (see page <xref label="Seep01" href="RM000000ZQJ00IX_03"/>). </ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQK00LX_04" type-id="51" category="05" proc-id="RM21Q0EV__00000DO00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Malfunction</ptxt>
+</entry>
+<entry>
+<ptxt>DTC</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Advanced timing over</ptxt>
+<ptxt>(valve timing is out of specified range)</ptxt>
+</entry>
+<entry>
+<ptxt>P0011/59</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Retarded timing over</ptxt>
+<ptxt>(valve timing is out of specified range)</ptxt>
+</entry>
+<entry>
+<ptxt>P0012/59</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="unordered">
+<item>
+<ptxt>If DTC P0011/59 or P0012/59 is present, check the VVT system circuit.</ptxt>
+</item>
+<item>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was running or stopped, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<ptxt>DTC P0011/59 or P0012/59 is output when a foreign object in the engine oil enters the system. These codes will stay even if the system returns to normal after a short time. Foreign objects are filtered out by the oil filter.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000000ZQK00LX_05" type-id="54" category="05">
+<name>When using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQK00LX_06" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQK00LX_06_0001" proc-id="RM21Q0EV__00000DP00000">
+<testtitle>PERFORM ACTIVE TEST (OPERATE OCV)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Start and warm up the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Active Test / Activate the VVT System (Bank 1).</ptxt>
+</test1>
+<test1>
+<ptxt>Using the intelligent tester, operate the OCV and check the engine speed.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Operation</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>OCV is OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Normal engine speed</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OCV is ON</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle or engine stall</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0002" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_06_0003" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0002" proc-id="RM21Q0EV__00000DQ00000">
+<testtitle>CHECK IF DTC OUTPUT RECURS (DTC P0011/59 OR P0012/59)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs using the intelligent tester (see page <xref label="Seep01" href="RM000000ZPW01AX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Start the engine and warm it up.</ptxt>
+</test1>
+<test1>
+<ptxt>Drive the vehicle for 10 minutes or more.</ptxt>
+</test1>
+<test1>
+<ptxt>Read output DTC using the intelligent tester.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> No DTC output.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0003" fin="false">NG</down>
+<right ref="RM000000ZQK00LX_06_0012" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0003" proc-id="RM21Q0EV__00000DR00000">
+<testtitle>CHECK VALVE TIMING (FOR LOOSENESS AND A JUMPED TOOTH OF TIMING CHAIN)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A099461E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Remove the cylinder head cover.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the crankshaft to align the timing marks of the crankshaft.</ptxt>
+</test1>
+<test1>
+<ptxt>Align the groove of the crankshaft pulley with the "0" position.</ptxt>
+</test1>
+<test1>
+<ptxt>Confirm whether the timing marks of the camshaft pulley and cylinder head cover are facing each other.</ptxt>
+</test1>
+<test1>
+<ptxt>If the timing marks are not facing each other, turn the crankshaft clockwise by 360°. Confirm again if the timing marks are facing each other.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The timing marks of the camshaft pulley and the cylinder head cover face each other when the groove of the crankshaft pulley is in the "0" position.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0004" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_06_0013" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0004" proc-id="RM21Q0EV__00000DS00000">
+<testtitle>CHECK ECM (OCV SIGNAL)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034684E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>While idling, check the waveform of the ECM connector using the oscilloscope.</ptxt>
+<spec>
+<title>OK</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-13 (OC1+) - E12-12 (OC1-)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>5 V/DIV., 1 msec./DIV</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerate slowly after engine warm-up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0005" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_06_0014" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0005" proc-id="RM21Q0EV__00000DT00000">
+<testtitle>CHECK OIL CONTROL VALVE FILTER</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A099462E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Remove the OCV filter.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the filter is not clogged.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> The filter is not clogged.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0006" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_06_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0006" proc-id="RM21Q0EV__00000DU00000">
+<testtitle>INSPECT CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY (OCV)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A088857E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance between the terminals of the OCV.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt> 6.9 to 7.9 Ω at 20°C (68°F)</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>Remove the OCV.</ptxt>
+</test1>
+<test1>
+<ptxt>Apply positive (+) battery voltage to terminal 2 and negative (-) battery voltage to terminal 1. Check the valve operation.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> The valve moves quickly.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0007" fin="false">NG</down>
+<right ref="RM000000ZQK00LX_06_0008" fin="false">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0007">
+<testtitle>REPLACE CAMSHAFT TIMING CONTROL VALVE ASSEMBLY (OCV)</testtitle>
+<res>
+<down ref="RM000000ZQK00LX_06_0008" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0008" proc-id="RM21Q0EV__00000DV00000">
+<testtitle>CHECK CAMSHAFT TIMING GEAR ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The camshaft timing gear rotates smoothly when applying pressure.</ptxt>
+</specitem>
+</spec>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0009" fin="false">NG</down>
+<right ref="RM000000ZQK00LX_06_0010" fin="false">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0009">
+<testtitle>REPLACE CAMSHAFT TIMING GEAR ASSEMBLY</testtitle>
+<res>
+<down ref="RM000000ZQK00LX_06_0010" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0010" proc-id="RM21Q0EV__00000DW00000">
+<testtitle>CHECK FOR BLOCKAGE (OCV, OIL CHECK VALVE, OIL HOLE)</testtitle>
+<content6 releasenbr="1">
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> No blockage.</ptxt>
+</specitem>
+</spec>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0011" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_06_0016" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0011" proc-id="RM21Q0EV__00000DX00000">
+<testtitle>CHECK IF DTC OUTPUT RECURS (DTC P0011/59 OR P0012/59)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs using the intelligent tester (see page <xref label="Seep01" href="RM000000ZPW01AX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Start the engine and warm it up.</ptxt>
+</test1>
+<test1>
+<ptxt>Drive the vehicle for 10 minutes or more.</ptxt>
+</test1>
+<test1>
+<ptxt>Read output DTC using the intelligent tester.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> No DTC output.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_06_0018" fin="true">NG</down>
+<right ref="RM000000ZQK00LX_06_0017" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0012">
+<testtitle>VVT SYSTEM OK</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0013">
+<testtitle>ADJUST VALVE TIMING</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0014">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0015">
+<testtitle>REPLACE OIL CONTROL VALVE FILTER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0016">
+<testtitle>REPAIR OR REPLACE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0017">
+<testtitle>VVT SYSTEM OK</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_06_0018">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+<subpara id="RM000000ZQK00LX_07" type-id="55" category="05" proc-id="RM21Q0EV__00000DY00000">
+<name>When not using intelligent tester:</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>DTC P0011/59 or P0012/59 is output when a foreign object in the engine oil enters the system. These codes will stay even if the system returns to normal after a short time. Foreign objects are filtered out by the oil filter.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000000ZQK00LX_08" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQK00LX_08_0019" proc-id="RM21Q0EV__00000DZ00000">
+<testtitle>CHECK VALVE TIMING (FOR LOOSENESS AND A JUMPED TOOTH OF TIMING CHAIN)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A099461E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Remove the cylinder head cover.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the crankshaft to align the timing marks of the crankshaft.</ptxt>
+</test1>
+<test1>
+<ptxt>Align the groove of the crankshaft pulley with the "0" position.</ptxt>
+</test1>
+<test1>
+<ptxt>Confirm whether the timing marks of the camshaft pulley and cylinder head cover are facing each other.</ptxt>
+</test1>
+<test1>
+<ptxt>If the timing marks are not facing each other, turn the crankshaft clockwise by 360°. Confirm again if the timing marks are facing each other.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The timing marks of the camshaft pulley and the cylinder head cover face each other when the groove of the crankshaft pulley is in the "0" position.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0020" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_08_0030" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0020" proc-id="RM21Q0EV__00000E000000">
+<testtitle>CHECK ENGINE SPEED (OPERATION OF OCV)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A076968E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Start the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the engine speed.</ptxt>
+<test2>
+<ptxt>Disconnect the C2 OCV connector. Check the engine speed.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Normal</ptxt>
+</specitem>
+</spec>
+</test2>
+<test2>
+<ptxt>Apply positive (+) battery voltage between the terminals of the OCV. Check the engine speed.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Rough idle or engine stalls</ptxt>
+</specitem>
+</spec>
+<ptxt>If both results above are as specified, proceed to A. If either or both results are not as specified, proceed to B.</ptxt>
+</test2>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0021" fin="false">A</down>
+<right ref="RM000000ZQK00LX_08_0022" fin="false">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0021" proc-id="RM21Q0EV__00000E100000">
+<testtitle>CHECK IF DTC OUTPUT RECURS (DTC P0011/59 OR P0012/59)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs.</ptxt>
+<test2>
+<ptxt>Disconnect the battery terminal or remove the EFI and ETCS fuses for more than 60 seconds.</ptxt>
+</test2>
+</test1>
+<test1>
+<ptxt>Start the engine and warm it up.</ptxt>
+</test1>
+<test1>
+<ptxt>Drive the vehicle for 10 minutes or more.</ptxt>
+</test1>
+<test1>
+<ptxt>Read output DTC.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> No DTC output.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0022" fin="false">NG</down>
+<right ref="RM000000ZQK00LX_08_0031" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0022" proc-id="RM21Q0EV__00000E200000">
+<testtitle>CHECK ECM (OCV SIGNAL)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034684E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>While idling, check the waveform of the ECM connector using the oscilloscope.</ptxt>
+<spec>
+<title>OK</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-13 (OC1+) - E12-12 (OC1-)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>5 V/DIV., 1 msec./DIV.</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerate slowly after engine warm-up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0023" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_08_0032" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0023" proc-id="RM21Q0EV__00000E300000">
+<testtitle>CHECK OIL CONTROL VALVE FILTER</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A099462E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Remove the OCV filter.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the filter is not clogged.</ptxt>
+</test1>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> The filter is not clogged.</ptxt>
+</specitem>
+</spec>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0024" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_08_0033" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0024" proc-id="RM21Q0EV__00000E400000">
+<testtitle>CHECK CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY (OCV)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A088857E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance between the terminals of the OCV.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt> 6.9 to 7.9 Ω at 20°C (68°F)</ptxt>
+</specitem>
+</spec>
+</test1>
+<test1>
+<ptxt>Remove the OCV.</ptxt>
+</test1>
+<test1>
+<ptxt>Apply positive (+) battery voltage to terminal 2 and negative (-) battery voltage to terminal 1. Check the valve operation.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> The valve moves quickly.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0025" fin="false">NG</down>
+<right ref="RM000000ZQK00LX_08_0026" fin="false">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0025">
+<testtitle>REPLACE CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY (OCV)</testtitle>
+<res>
+<down ref="RM000000ZQK00LX_08_0026" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0026" proc-id="RM21Q0EV__00000E500000">
+<testtitle>CHECK CAMSHAFT TIMING GEAR ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The camshaft timing gear rotates smoothly when applying pressure.</ptxt>
+</specitem>
+</spec>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0027" fin="false">NG</down>
+<right ref="RM000000ZQK00LX_08_0028" fin="false">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0027">
+<testtitle>REPLACE CAMSHAFT TIMING GEAR ASSEMBLY</testtitle>
+<res>
+<down ref="RM000000ZQK00LX_08_0028" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0028" proc-id="RM21Q0EV__00000E600000">
+<testtitle>CHECK FOR BLOCKAGE (OCV, OIL CHECK VALVE, OIL HOLE)</testtitle>
+<content6 releasenbr="1">
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> No blockage.</ptxt>
+</specitem>
+</spec>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0029" fin="false">OK</down>
+<right ref="RM000000ZQK00LX_08_0034" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0029" proc-id="RM21Q0EV__00000E700000">
+<testtitle>CHECK IF DTC OUTPUT RECURS (DTC P0011/59 OR P0012/59)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs.</ptxt>
+<test2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal or remove the EFI and ETCS fuses for more than 60 seconds.</ptxt>
+</test2>
+</test1>
+<test1>
+<ptxt>Start and warm up the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Drive the vehicle for 10 minutes or more.</ptxt>
+</test1>
+<test1>
+<ptxt>Read output DTC.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> No DTC output.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQK00LX_08_0036" fin="true">NG</down>
+<right ref="RM000000ZQK00LX_08_0035" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0030">
+<testtitle>ADJUST VALVE TIMING</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0031">
+<testtitle>VVT SYSTEM OK</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0032">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0033">
+<testtitle>REPLACE OIL CONTROL VALVE FILTER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0034">
+<testtitle>REPAIR OR REPLACE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0035">
+<testtitle>VVT SYSTEM OK</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQK00LX_08_0036">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

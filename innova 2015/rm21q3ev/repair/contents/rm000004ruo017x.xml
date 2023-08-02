@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLK_T0092" variety="T0092">
+<name>FRONT DOOR</name>
+<para id="RM000004RUO017X" category="A" type-id="80002" name-id="ED3D6-01" from="201202" to="201403">
+<name>DISASSEMBLY</name>
+<subpara id="RM000004RUO017X_01" type-id="11" category="10" proc-id="RM21Q0EV__00004IE00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004RUO017X_02" type-id="01" category="01">
+<s-1 id="RM000004RUO017X_02_0001" proc-id="RM21Q0EV__00004IF00000">
+<ptxt>PRECAUTION (w/ Power Window)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0002" proc-id="RM21Q0EV__00004IG00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL (w/ Power Window)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0003" proc-id="RM21Q0EV__00004IH00000">
+<ptxt>REMOVE POWER WINDOW REGULATOR MASTER SWITCH ASSEMBLY WITH FRONT DOOR ARMREST BASE PANEL (w/ Power Window)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B291416" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 2 clips and 8 claws.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector and remove the power window regulator master switch assembly with front door armrest base panel.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0051" proc-id="RM21Q0EV__00004JB00000">
+<ptxt>REMOVE FRONT UPPER ARMREST BASE PANEL LH (w/o Power Window)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B311432" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 2 clips and 8 claws and remove the front upper armrest base panel.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0052" proc-id="RM21Q0EV__00004JC00000">
+<ptxt>REMOVE FRONT DOOR WINDOW REGULATOR HANDLE ASSEMBLY (w/o Power Window)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Insert a clip remover between the plate and front door trim board.</ptxt>
+<figure>
+<graphic graphicname="B311433E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the clip remover tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Turn the handle clockwise to remove the snap ring, front door window regulator handle and plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0005" proc-id="RM21Q0EV__00004II00000">
+<ptxt>REMOVE FRONT DOOR LOWER FRAME BRACKET GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 3 clips and remove the front door lower frame bracket garnish.</ptxt>
+<figure>
+<graphic graphicname="B291417E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>w/ Front No. 2 Speaker</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>w/o Front No. 2 Speaker</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0007" proc-id="RM21Q0EV__00004IJ00000">
+<ptxt>REMOVE FRONT DOOR TRIM BOARD SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B291418" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 9 clips and remove the front door trim board.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0008" proc-id="RM21Q0EV__00004IK00000">
+<ptxt>REMOVE FRONT DOOR INNER GLASS WEATHERSTRIP LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Raise the 7 claws of the front door inner glass weatherstrip as shown in the illustration, and then remove the front door inner glass weatherstrip from the front door trim board.</ptxt>
+<figure>
+<graphic graphicname="B291419" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0033" proc-id="RM21Q0EV__00004SY00000">
+<ptxt>REMOVE FRONT NO. 1 SPEAKER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+<figure>
+<graphic graphicname="E234275E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Put a 5 mm (0.197 in.) drill bit into a drill.</ptxt>
+</s2>
+<s2>
+<ptxt>Wind tape around the drill bit approximately 4 mm (0.157 in.) from the tip of the drill as shown in the illustration.</ptxt>
+<atten3>
+<ptxt>Tape the 4 mm (0.157 in.) drill bit to prevent the drill bit from going to deep.</ptxt>
+</atten3>
+<table>
+<title>Standard</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4 mm (0.157 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Lightly press the drill against the 3 rivets, drill off the flanges of the 3 rivets and remove the front No. 1 speaker assembly.</ptxt>
+<atten2>
+<ptxt>Be careful of the drilled rivet as it may become hot.</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Pressing the drill too firmly will cause the rivet to turn and result in the rivet not being drilled through.</ptxt>
+</item>
+<item>
+<ptxt>Do not pry the rivet with the drill because this may cause damage to the installation holes of the rivet or the drill bit.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Continue drilling and push out the remaining rivet fragments.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a vacuum cleaner, remove the rivet fragments and shavings from the inside of the door.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUO017X_02_0034" proc-id="RM21Q0EV__00004T300000">
+<ptxt>REMOVE FRONT NO. 2 SPEAKER ASSEMBLY (w/ Front No. 2 Speaker)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+<figure>
+<graphic graphicname="E226350" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the nut and front No. 2 speaker assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUO017X_02_0046" proc-id="RM21Q0EV__000044W00000">
+<ptxt>REMOVE OUTER REAR VIEW MIRROR ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Front No. 2 Speaker:</ptxt>
+<figure>
+<graphic graphicname="B280850E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Disconnect the connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the 2 nuts.</ptxt>
+</s3>
+<s3>
+<ptxt>Push down the claw and remove the outer rear view mirror assembly LH.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/o Front No. 2 Speaker:</ptxt>
+<figure>
+<graphic graphicname="B360216" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Remove the 3 nuts.</ptxt>
+</s3>
+<s3>
+<ptxt>Push down the claw and remove the outer rear view mirror assembly LH.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUO017X_02_0012" proc-id="RM21Q0EV__00004IL00000">
+<ptxt>REMOVE FRONT DOOR INSIDE HANDLE SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the claw and 2 guides as indicated by the arrows in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291420E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the front door inside locking cable and front door lock remote control cable and remove the front door inside handle.</ptxt>
+<figure>
+<graphic graphicname="B291421" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0013" proc-id="RM21Q0EV__00004IM00000">
+<ptxt>REMOVE FRONT DOOR NO. 1 TRIM BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws and front door No. 1 trim bracket.</ptxt>
+<figure>
+<graphic graphicname="B291422" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0014" proc-id="RM21Q0EV__00004IN00000">
+<ptxt>REMOVE FRONT DOOR SERVICE HOLE COVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pull out the wire harness from the front door service hole cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull out the front door inside locking cable and front door lock remote control cable from the front door service hole cover, and then remove the front door service hole cover.</ptxt>
+<figure>
+<graphic graphicname="B291423" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Remove any remaining butyl tape from the front door panel.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0015" proc-id="RM21Q0EV__00004IO00000">
+<ptxt>REMOVE FRONT DOOR GLASS SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Power Window:</ptxt>
+<s3>
+<ptxt>Temporarily install the power window regulator master switch assembly with front door armrest base panel.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s3>
+<s3>
+<ptxt>Move the front door glass sub-assembly so that the front door glass bolts can be seen.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Remove the power window regulator master switch assembly with front door armrest base panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/o Power Window:</ptxt>
+<s3>
+<ptxt>Temporarily install the door window regulator handle.</ptxt>
+</s3>
+<s3>
+<ptxt>Move the front door glass sub-assembly so that the front door glass bolts can be seen.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the door window regulator handle.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="B291424" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>After the bolts are removed, do not allow the front door glass to fall.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the front door glass as indicated by the arrows in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291425E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not damage the front door glass.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0047" proc-id="RM21Q0EV__00003ZI00000">
+<ptxt>REMOVE FRONT DOOR BELT MOULDING ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Put protective tape around the front door belt moulding.</ptxt>
+<figure>
+<graphic graphicname="B282246E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Detach the 5 claws and remove the front door belt moulding.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUO017X_02_0017" proc-id="RM21Q0EV__00004IP00000">
+<ptxt>REMOVE FRONT DOOR GLASS RUN LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the front door glass run.</ptxt>
+<figure>
+<graphic graphicname="B291426" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0048" proc-id="RM21Q0EV__00003XQ00000">
+<ptxt>REMOVE FRONT DOOR UPPER OUTER BLACK OUT TAPE LH (w/ Black Out Tape)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the front door upper outer black out tape, heat the front door panel and front door upper outer black out tape using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Upper Outer Black Out Tape</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the front door panel or front door upper outer black out tape excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Pull back an edge of the front door upper outer black out tape and pull it parallel to the front door panel to remove it.</ptxt>
+<figure>
+<graphic graphicname="B282248" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUO017X_02_0049" proc-id="RM21Q0EV__00003XS00000">
+<ptxt>REMOVE FRONT DOOR REAR OUTER BLACK OUT TAPE LH (w/ Black Out Tape)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the front door rear outer black out tape, heat the front door panel and front door rear outer black out tape using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Rear Outer Black Out Tape</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the front door panel or front door rear outer black out tape excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Pull back an edge of the front door rear outer black out tape and pull it parallel to the front door panel to remove it.</ptxt>
+<figure>
+<graphic graphicname="B282249" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUO017X_02_0018" proc-id="RM21Q0EV__00004IQ00000">
+<ptxt>REMOVE FRONT DOOR WINDOW REGULATOR SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Power Window:</ptxt>
+<figure>
+<graphic graphicname="B291427E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Disconnect the connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Loosen the temporary bolt.</ptxt>
+<atten3>
+<ptxt>Do not remove the temporary bolt. If the temporary bolt is removed, the front door power window regulator may fall and become damaged.</ptxt>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temporary Bolt</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>Remove the 5 bolts and front door power window regulator.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the temporary bolt from the front door power window regulator.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/o Power Window:</ptxt>
+<figure>
+<graphic graphicname="B311434E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Loosen the temporary bolt.</ptxt>
+<atten3>
+<ptxt>Do not remove the temporary bolt. If the temporary bolt is removed, the front door window regulator may fall and become damaged.</ptxt>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temporary Bolt</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+<s3>
+<ptxt>Remove the 4 bolts and front door window regulator.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the temporary bolt from the front door window regulator.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0053" proc-id="RM21Q0EV__00004MJ00000">
+<ptxt>REMOVE POWER WINDOW REGULATOR MOTOR ASSEMBLY LH (w/ Power Window)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a T25 "TORX" socket wrench, remove the 3 screws and power window regulator motor.</ptxt>
+<figure>
+<graphic graphicname="B288518" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0020" proc-id="RM21Q0EV__00004IR00000">
+<ptxt>REMOVE FRONT DOOR REAR LOWER FRAME SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt.</ptxt>
+<figure>
+<graphic graphicname="B291428" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the guide and remove the front door rear lower frame.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0021" proc-id="RM21Q0EV__00004IS00000">
+<ptxt>REMOVE FRONT DOOR OUTSIDE HANDLE COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the hole plug.</ptxt>
+<figure>
+<graphic graphicname="B291429" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, loosen the screw and remove the front door outside handle cover together with the door key cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 claws and remove the front door outside handle cover from the door key cylinder.</ptxt>
+<figure>
+<graphic graphicname="B291430" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0045" proc-id="RM21Q0EV__00004J500000">
+<ptxt>REMOVE FRONT DOOR LOCK ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Power Door Lock:</ptxt>
+<figure>
+<graphic graphicname="B311610" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Disconnect the connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the front door inside locking cable and front door lock remote control cable from the clamps.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a T30 "TORX" socket wrench, remove the 3 screws and front door lock.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/o Power Door Lock:</ptxt>
+<figure>
+<graphic graphicname="B311435" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Disconnect the front door inside locking cable and front door lock remote control cable from the clamps.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a T30 "TORX" socket wrench, remove the 3 screws and front door lock.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0023" proc-id="RM21Q0EV__00004IT00000">
+<ptxt>REMOVE FRONT DOOR LOCK REMOTE CONTROL CABLE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the front door lock remote control cable.</ptxt>
+<figure>
+<graphic graphicname="B291431" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0024" proc-id="RM21Q0EV__00004IU00000">
+<ptxt>REMOVE FRONT DOOR INSIDE LOCKING CABLE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 3 claws and open the cover.</ptxt>
+<figure>
+<graphic graphicname="B291432" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the front door inside locking cable.</ptxt>
+<figure>
+<graphic graphicname="B291433" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0025" proc-id="RM21Q0EV__00004IV00000">
+<ptxt>REMOVE FRONT DOOR OUTSIDE HANDLE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the front door outside handle by sliding and pulling it in the direction indicated by the arrow in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291434" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0026" proc-id="RM21Q0EV__00004IW00000">
+<ptxt>REMOVE FRONT DOOR OUTSIDE HANDLE FRAME SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, loosen the screw.</ptxt>
+<figure>
+<graphic graphicname="B291435" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the claw and remove the front door outside handle frame.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0027" proc-id="RM21Q0EV__00004IX00000">
+<ptxt>REMOVE FRONT DOOR LOCK OPEN ROD LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Rotate the snap in the direction indicated by the arrow in the illustration to detach the snap from the front door lock open rod.</ptxt>
+<figure>
+<graphic graphicname="B291436E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Snap</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the front door lock open rod from the front door outside handle frame.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0028" proc-id="RM21Q0EV__00004IY00000">
+<ptxt>REMOVE FRONT DOOR FRONT OUTSIDE HANDLE PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws and remove the front door front outside handle pad.</ptxt>
+<figure>
+<graphic graphicname="B291437" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0029" proc-id="RM21Q0EV__00004IZ00000">
+<ptxt>REMOVE FRONT DOOR REAR OUTSIDE HANDLE PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws and remove the front door rear outside handle pad.</ptxt>
+<figure>
+<graphic graphicname="B291438" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0030" proc-id="RM21Q0EV__00004J000000">
+<ptxt>REMOVE FRONT DOOR PANEL CUSHION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 front door panel cushions.</ptxt>
+<figure>
+<graphic graphicname="B291439" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0031" proc-id="RM21Q0EV__00004J100000">
+<ptxt>REMOVE FRONT DOOR WEATHERSTRIP LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the double-sided tape to detach the 17 clips and remove the front door weatherstrip.</ptxt>
+<figure>
+<graphic graphicname="B291440" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO017X_02_0050" proc-id="RM21Q0EV__00003TD00000">
+<ptxt>REMOVE FRONT DOOR OUTSIDE MOULDING LH (w/ Outside Moulding)
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the front door outside moulding, heat the front door panel and front door outside moulding using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the front door panel or front door outside moulding excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Put protective tape around the front door outside moulding.</ptxt>
+<figure>
+<graphic graphicname="B280921E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Insert piano wire between the front door panel and front door outside moulding.</ptxt>
+</s2>
+<s2>
+<ptxt>Tie objects that can serve as handles (for example, wooden blocks) to the piano wire ends.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the piano wire and scrape off the double-sided tape that holds the front door outside moulding to the front door panel.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the front door panel.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the front door outside moulding.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wooden Block</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUO017X_02_0032" proc-id="RM21Q0EV__00004J200000">
+<ptxt>REMOVE FRONT DOOR CHECK ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 bolts and front door check.</ptxt>
+<figure>
+<graphic graphicname="B291441" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

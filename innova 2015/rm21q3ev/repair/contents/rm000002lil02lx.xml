@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LIL02LX" category="L" type-id="3001A" name-id="AC33G-55" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000002LIL02LX_z0" proc-id="RM21Q0EV__00004PL00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>IF ANY OF FOLLOWING CONDITIONS ARE MET, KEEP ENGINE IDLING (ENGINE SPEED AT LESS THAN 2000 RPM) WITH AIR CONDITIONING SWITCH ON FOR AT LEAST 2 MINUTES</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Refrigerant gas has been refilled or parts of the air conditioning system have been replaced.</ptxt>
+</item>
+<item>
+<ptxt>The engine has not been started for a long time.</ptxt>
+</item>
+</list1>
+<atten3>
+<ptxt>If the engine speed is more than 2000 rpm, the cooler compressor assembly may be damaged.</ptxt>
+</atten3>
+</step1>
+<step1>
+<ptxt>DO NOT HANDLE REFRIGERANT IN AN ENCLOSED AREA OR NEAR AN OPEN FLAME</ptxt>
+<figure>
+<graphic graphicname="AC02810E13" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Charging Cylinder</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>ALWAYS WEAR EYE PROTECTION</ptxt>
+</step1>
+<step1>
+<ptxt>BE CAREFUL NOT TO GET LIQUID REFRIGERANT IN YOUR EYES OR ON YOUR SKIN</ptxt>
+<figure>
+<graphic graphicname="AC02811" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If liquid refrigerant gets in your eyes or on your skin:</ptxt>
+<step2>
+<ptxt>Wash the area with lots of cold water.</ptxt>
+<atten2>
+<ptxt>Do not rub your eyes or skin.</ptxt>
+</atten2>
+</step2>
+<step2>
+<ptxt>Apply clean petroleum jelly to the skin.</ptxt>
+</step2>
+<step2>
+<ptxt>Go immediately to a hospital or see a physician for professional treatment.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>NEVER HEAT CONTAINER OR EXPOSE IT TO OPEN FLAME</ptxt>
+</step1>
+<step1>
+<ptxt>BE CAREFUL NOT TO DROP CONTAINER OR APPLY PHYSICAL SHOCKS TO IT</ptxt>
+</step1>
+<step1>
+<ptxt>DO NOT OPERATE COMPRESSOR WITH INSUFFICIENT REFRIGERANT IN REFRIGERANT SYSTEM</ptxt>
+<ptxt>If there is not enough refrigerant in the refrigerant system, oil lubrication will be insufficient and compressor burnout may occur. Necessary care should be taken to avoid this.</ptxt>
+</step1>
+<step1>
+<ptxt>DO NOT OPEN HIGH PRESSURE MANIFOLD VALVE WHILE COMPRESSOR IS OPERATING</ptxt>
+<ptxt>Open and close only the low pressure valve. Opening and closing the high pressure valve could cause the charging cylinder to rupture.</ptxt>
+<figure>
+<graphic graphicname="N011084E19" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Incorrect</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Correct</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>BE CAREFUL NOT TO OVERCHARGE SYSTEM WITH REFRIGERANT</ptxt>
+<ptxt>If the refrigerant is overcharged, it causes problems such as insufficient cooling, poor fuel economy and engine overheating.</ptxt>
+</step1>
+<step1>
+<ptxt>DO NOT OPERATE ENGINE AND COOLER COMPRESSOR ASSEMBLY WITHOUT REFRIGERANT</ptxt>
+<atten3>
+<ptxt>This may damage the inside of the cooler compressor assembly.</ptxt>
+</atten3>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

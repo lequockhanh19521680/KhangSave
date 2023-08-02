@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y8_T002M" variety="T002M">
+<name>ENGINE UNIT</name>
+<para id="RM000000YMU019X" category="G" type-id="3001K" name-id="EM0ZX-01" from="201202" to="201503">
+<name>INSPECTION</name>
+<subpara id="RM000000YMU019X_01" type-id="01" category="01">
+<s-1 id="RM000000YMU019X_01_0076" proc-id="RM21Q0EV__00000K600000">
+<ptxt>INSPECT OIL NOZZLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the oil nozzle for damage or clogging.</ptxt>
+<ptxt>If necessary, replace the oil nozzle.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0001" proc-id="RM21Q0EV__00000JA00000">
+<ptxt>INSPECT CHAIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pull the chain with a force of 147 N (15 kgf, 33 lbf) as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097900E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the length of 16 links.</ptxt>
+<spec>
+<title>Maximum chain elongation</title>
+<specitem>
+<ptxt>147.5 mm (5.807 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the elongation is greater than the maximum, replace the chain. </ptxt>
+<atten3>
+<ptxt>Make the same measurement by pulling at 3 or more places selected at random. Average the measurements.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0059" proc-id="RM21Q0EV__00000K400000">
+<ptxt>INSPECT CAMSHAFT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the camshaft for runout.</ptxt>
+<figure>
+<graphic graphicname="A086996E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Place the camshaft on V-blocks.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a dial indicator, measure the circle runout at the center journal.</ptxt>
+<spec>
+<title>Maximum circle runout</title>
+<specitem>
+<ptxt>0.03 mm (0.0012 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the circle runout is greater than the maximum, replace the camshaft.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Using a micrometer, measure the cam lobe height.</ptxt>
+<figure>
+<graphic graphicname="A034310E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard cam lobe height</title>
+<specitem>
+<ptxt>42.712 to 42.812 mm (1.6816 to 1.6885 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum cam lobe height</title>
+<specitem>
+<ptxt>42.712 mm (1.6816 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the cam lobe height is less than the minimum, replace the camshaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a micrometer, measure the journal diameter.</ptxt>
+<figure>
+<graphic graphicname="A034311E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard journal diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Journal</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 1 journal</ptxt>
+</entry>
+<entry>
+<ptxt>35.949 to 35.965 mm (1.4153 to 1.4159 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Other journal</ptxt>
+</entry>
+<entry>
+<ptxt>26.959 to 26.975 mm (1.0614 to 1.0620 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the journal diameter is not as specified, check the oil clearance.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMU019X_01_0060" proc-id="RM21Q0EV__00000K500000">
+<ptxt>INSPECT NO. 2 CAMSHAFT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the camshaft for runout. </ptxt>
+<figure>
+<graphic graphicname="A086997E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Place the camshaft on V-blocks.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a dial indicator, measure the circle runout at the center journal.</ptxt>
+<spec>
+<title>Maximum circle runout</title>
+<specitem>
+<ptxt>0.03 mm (0.0012 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the circle runout is greater than the maximum, replace the camshaft.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Using a micrometer, measure the cam lobe height.</ptxt>
+<figure>
+<graphic graphicname="A034310E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard cam lobe height</title>
+<specitem>
+<ptxt>42.540 to 42.640 mm (1.6748 to 1.6787 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum cam lobe height</title>
+<specitem>
+<ptxt>42.540 mm (1.6748 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the cam lobe height is less than the minimum, replace the camshaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a micrometer, measure the journal diameter.</ptxt>
+<figure>
+<graphic graphicname="A034311E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard journal diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Journal</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 1 journal</ptxt>
+</entry>
+<entry>
+<ptxt>35.949 to 35.965 mm</ptxt>
+<ptxt>(1.4153 to 1.4159 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Other journal</ptxt>
+</entry>
+<entry>
+<ptxt>26.959 to 26.975 mm </ptxt>
+<ptxt>(1.0614 to 1.0620 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the journal diameter is not as specified, check the oil clearance.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMU019X_01_0002" proc-id="RM21Q0EV__00000JB00000">
+<ptxt>INSPECT CAMSHAFT TIMING GEAR (VVT CONTROLLER OPERATION)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the lock of the camshaft timing gear.</ptxt>
+<figure>
+<graphic graphicname="A062190E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s3>
+<ptxt>Clamp the camshaft in a vise, and confirm that the camshaft timing gear is locked. </ptxt>
+<atten3>
+<ptxt>Be careful not to damage the camshaft.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Release the lock pin. </ptxt>
+<s3>
+<ptxt>Cover the 4 oil paths of the cam journal with vinyl tape as shown in the illustration. </ptxt>
+<atten4>
+<ptxt>2 advance side paths are provided in the groove of the camshaft. Plug one of the paths with a rubber piece.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Break through the tape of the advance side path and the retard side path on the opposite side of the groove.</ptxt>
+</s3>
+<s3>
+<ptxt>Apply approximately 200 kPa (2.0 kgf/cm<sup>2</sup>, 28 psi) of air pressure to the paths whose tape was broken in the procedure above. </ptxt>
+<figure>
+<graphic graphicname="A062191E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten2>
+<ptxt>Some oil spraying will occur. Contain the spray with a shop rag.</ptxt>
+</atten2>
+</s3>
+<s3>
+<ptxt>Check that the camshaft timing gear revolves in the advance direction when weakening the air pressure of the retard side path.</ptxt>
+<figure>
+<graphic graphicname="A062192E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Gear rotates in advance direction.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>This operation releases the lock pin for the extreme retard position.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>When the camshaft timing gear reaches the extreme advance position, remove the air gun from the retard side path and advance side path, in that order. </ptxt>
+<atten3>
+<ptxt>Do not remove the air gun from the advance side path first. The gear may abruptly shift in the retard direction and break the lock pin.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Check for smooth rotation.</ptxt>
+<s3>
+<ptxt>Rotate the camshaft timing gear within its movable range several times, but do not turn it to the extreme retard position. Check that the gear rotates smoothly.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Gear rotates in advance direction.</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Do not use an air gun to perform the smooth operation check.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the lock in the extreme retard position. </ptxt>
+<s3>
+<ptxt>Confirm that the camshaft timing gear is locked at the extreme retard position.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMU019X_01_0003" proc-id="RM21Q0EV__00000JC00000">
+<ptxt>INSPECT CHAIN TENSIONER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Move the stopper plate upward to release the lock. Push the plunger and check that it moves smoothly.</ptxt>
+<figure>
+<graphic graphicname="A097905E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0004" proc-id="RM21Q0EV__00000JD00000">
+<ptxt>INSPECT CAMSHAFT TIMING SPROCKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the distance between the most worn out sprocket tip and the beginning of the worn area below the tip.</ptxt>
+<figure>
+<graphic graphicname="A097906E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Minimum distance</title>
+<specitem>
+<ptxt>1.0 mm (0.039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the distance is less than the minimum, replace the sprocket. </ptxt>
+<atten4>
+<ptxt>If the worn area is too small or difficult to distinguish from a normal area, perform the steps below.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Wrap the chain around the sprocket.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the sprocket diameter with the chain.</ptxt>
+<spec>
+<title>Minimum sprocket diameter (with chain)</title>
+<specitem>
+<ptxt>113.8 mm (4.480 in.)</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>The vernier caliper must contact the chain rollers for the measurement.</ptxt>
+</atten4>
+<ptxt>If the diameter is less than the minimum, replace the chain and sprocket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0005" proc-id="RM21Q0EV__00000JE00000">
+<ptxt>INSPECT CAMSHAFT TIMING GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the distance between the most worn out timing gear tip and the beginning of the worn area below the tip.</ptxt>
+<figure>
+<graphic graphicname="A097907E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Minimum distance</title>
+<specitem>
+<ptxt>1.0 mm (0.039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the distance is less than the minimum, replace the timing gear.</ptxt>
+<atten4>
+<ptxt>If the worn area is too small or difficult to distinguish from a normal area, perform the steps below.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Wrap the chain around the timing gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the sprocket diameter with the chain.</ptxt>
+<spec>
+<title>Minimum sprocket diameter (with chain)</title>
+<specitem>
+<ptxt>113.8 mm (4.480 in.)</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>The vernier caliper must contact the chain rollers for the measurement.</ptxt>
+</atten4>
+<ptxt>If the diameter is less than the minimum, replace the chain and timing gear.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0006" proc-id="RM21Q0EV__00000JF00000">
+<ptxt>INSPECT CRANKSHAFT TIMING SPROCKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the distance between the most worn out sprocket tip and the beginning of the worn area below the tip.</ptxt>
+<figure>
+<graphic graphicname="A097908E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Minimum distance</title>
+<specitem>
+<ptxt>1.0 mm (0.039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the distance is less than the minimum, replace the sprocket.</ptxt>
+<atten4>
+<ptxt>If the worn area is too small or difficult to distinguish from a normal area, perform the steps below.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Wrap the chain around the drive sprocket.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the sprocket diameter with the chain.</ptxt>
+<spec>
+<title>Minimum sprocket diameter (with chain)</title>
+<specitem>
+<ptxt>59.4 mm (2.358 in.)</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>The vernier caliper must contact the chain rollers for the measurement.</ptxt>
+</atten4>
+<ptxt>If the diameter is less than the minimum, replace the chain and sprocket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0007" proc-id="RM21Q0EV__00000JG00000">
+<ptxt>INSPECT CHAIN TENSIONER SLIPPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the tensioner slipper wear.</ptxt>
+<figure>
+<graphic graphicname="A097909E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum wear</title>
+<specitem>
+<ptxt>2.0 mm (0.079 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the wear is greater than the maximum, replace the tensioner slipper.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0008" proc-id="RM21Q0EV__00000JH00000">
+<ptxt>INSPECT CHAIN VIBRATION DAMPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the vibration damper wear.</ptxt>
+<figure>
+<graphic graphicname="A097910E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum wear</title>
+<specitem>
+<ptxt>2.0 mm (0.079 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the wear is greater than the maximum, replace the vibration damper.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0009" proc-id="RM21Q0EV__00000JI00000">
+<ptxt>INSPECT TIMING CHAIN GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the chain guide wear.</ptxt>
+<figure>
+<graphic graphicname="A097911E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum wear</title>
+<specitem>
+<ptxt>0.5 mm (0.020 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the wear is greater than the maximum, replace the timing chain guide.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0010" proc-id="RM21Q0EV__00000JJ00000">
+<ptxt>INSPECT CYLINDER HEAD SET BOLT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the minimum diameter of the elongated thread at the measuring point.</ptxt>
+<figure>
+<graphic graphicname="G035889E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard outside diameter</title>
+<specitem>
+<ptxt>10.76 to 10.97 mm (0.4236 to 0.4319 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum outside diameter</title>
+<specitem>
+<ptxt>10.40 mm (0.4094 in.)</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>If a visual check reveals no excessively thin areas, check the center of the bolt (see illustration) and find the area that has the lowest diameter.</ptxt>
+</atten4>
+<ptxt>If the diameter is less than the minimum, replace the cylinder head bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0040" proc-id="RM21Q0EV__00000K300000">
+<ptxt>INSPECT VALVE LASH ADJUSTER
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A097867E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Keep the lash adjuster free from foreign matter.</ptxt>
+</item>
+<item>
+<ptxt>Only use clean engine oil.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Place the lash adjuster into a container full of engine oil.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert SST's tip into the lash adjuster's plunger and use the tip to press down on the checkball inside the plunger. </ptxt>
+<sst>
+<sstitem>
+<s-number>09276-75010</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Squeeze SST and the lash adjuster together to move the plunger up and down 5 to 6 times.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the movement of the plunger and bleed air.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Plunger moves up and down.</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>When bleeding high-pressure air from the compression chamber, make sure that the tip of SST is actually pressing the checkball as shown in the illustration. If the checkball is not pressed, air will not bleed.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>After bleeding air, remove SST. Then, try to quickly and firmly press the plunger with one finger.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Plunger is difficult to move.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the lash adjuster.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMU019X_01_0012" proc-id="RM21Q0EV__00000JK00000">
+<ptxt>INSPECT CYLINDER HEAD FOR FLATNESS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a precision straightedge and feeler gauge, measure the surface contacting the cylinder block and manifold for warpage.</ptxt>
+<figure>
+<graphic graphicname="A097935E01" width="2.775699831in" height="5.787629434in"/>
+</figure>
+<spec>
+<title>Maximum warpage</title>
+<specitem>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the warpage is greater than the maximum, replace the cylinder head.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0013" proc-id="RM21Q0EV__00000JL00000">
+<ptxt>INSPECT CYLINDER HEAD FOR CRACKS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dye penetrant, check the intake ports, exhaust ports and cylinder surface for cracks.</ptxt>
+<figure>
+<graphic graphicname="A086993E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If cracked, replace the cylinder head.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0014" proc-id="RM21Q0EV__00000JM00000">
+<ptxt>INSPECT INTAKE VALVE SEAT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of Prussian blue to the valve face.</ptxt>
+<figure>
+<graphic graphicname="A099448E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Lightly press the valve face against the valve seat.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the valve face and valve seat according to the following procedure.</ptxt>
+<s3>
+<ptxt>If blue appears 360° around the valve face, the valve face is concentric. If not, replace the valve.</ptxt>
+</s3>
+<s3>
+<ptxt>If blue appears 360° around the valve seat, the guide and valve face are concentric. If not, resurface the valve seat.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the valve seat contact is in the middle of the valve face with the width between 1.0 to 1.4 mm (0.039 to 0.055 in.).</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0016" proc-id="RM21Q0EV__00000JN00000">
+<ptxt>INSPECT EXHAUST VALVE SEAT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of Prussian blue to the valve face.</ptxt>
+<figure>
+<graphic graphicname="A099449E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Lightly press the valve face against the valve seat.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the valve face and valve seat according to the following procedure.</ptxt>
+<s3>
+<ptxt>If blue appears 360° around the valve face, the valve face is concentric. If not, replace the valve.</ptxt>
+</s3>
+<s3>
+<ptxt>If blue appears 360° around the valve seat, the guide and valve face are concentric. If not, resurface the valve seat.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the valve seat contact is in the middle of the valve face with the width between 1.0 to 1.4 mm (0.039 to 0.055 in.).</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0018" proc-id="RM21Q0EV__00000JO00000">
+<ptxt>INSPECT CAMSHAFT THRUST CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the thrust clearance while moving the camshaft back and forth.</ptxt>
+<figure>
+<graphic graphicname="A086998E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard thrust clearance</title>
+<specitem>
+<ptxt>0.10 to 0.24 mm (0.004 to 0.009 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum thrust clearance</title>
+<specitem>
+<ptxt>0.26 mm (0.010 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the thrust clearance is greater than the maximum, replace the cylinder head. If the thrust surface is damaged, replace the camshaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0019" proc-id="RM21Q0EV__00000JP00000">
+<ptxt>INSPECT CAMSHAFT OIL CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Clean the bearing caps and camshaft journals.</ptxt>
+<figure>
+<graphic graphicname="A086999E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Place the camshafts on the cylinder head.</ptxt>
+</s2>
+<s2>
+<ptxt>Lay a strip of Plastigage across each of the camshaft journals.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the bearing caps.</ptxt>
+<s3>
+<ptxt>Set the camshaft and No. 2 camshaft as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G034736E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<ptxt>Before and after setting the camshaft and No. 2 camshaft, firmly set the rocker arm to the lash adjuster.</ptxt>
+</atten3>
+<figure>
+<graphic graphicname="G035211E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Loosely install the No. 1 camshaft bearing cap.</ptxt>
+<figure>
+<graphic graphicname="A113790E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Check the proper location of each No. 2 camshaft bearing cap and install each one.</ptxt>
+</s3>
+<s3>
+<ptxt>Install a new O-ring to the No. 1 camshaft bearing cap.</ptxt>
+</s3>
+<s3>
+<ptxt>Loosely install the oil delivery pipe.</ptxt>
+</s3>
+<s3>
+<ptxt>Tighten the 21 bolts in the order shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+<ptxt>for bolt A</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>15.5</t-value1>
+<t-value2>158</t-value2>
+<t-value4>11</t-value4>
+<ptxt>for except bolt A</ptxt>
+</torqueitem>
+</torque>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the bearing caps.</ptxt>
+<s3>
+<ptxt>Uniformly loosen and remove the 21 bearing cap bolts on the camshafts in the sequence shown in the illustration. Then remove the oil delivery pipe, O-ring and 9 bearing caps. </ptxt>
+<figure>
+<graphic graphicname="A097866E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Place the camshaft on a flat surface and loosen the bolts uniformly.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Remove the 2 camshafts.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Measure the Plastigage at its widest point.</ptxt>
+<figure>
+<graphic graphicname="A087000E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard oil clearance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Journal</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Oil clearance</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 1 journal </ptxt>
+</entry>
+<entry>
+<ptxt>0.035 to 0.072 mm (0.0014 to 0.0029 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Other journal</ptxt>
+</entry>
+<entry>
+<ptxt>0.025 to 0.062 mm (0.0010 to 0.0028 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Maximum oil clearance</title>
+<specitem>
+<ptxt>0.08 mm (0.0031 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the oil clearance is greater than the maximum, replace the camshaft. If necessary, replace the cylinder head.</ptxt>
+</s2>
+<s2>
+<ptxt>Completely remove the Plastigage.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0020" proc-id="RM21Q0EV__00000JQ00000">
+<ptxt>INSPECT COMPRESSION SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the free length of the inner compression spring.</ptxt>
+<figure>
+<graphic graphicname="A051437E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard free length</title>
+<specitem>
+<ptxt>48.89 mm (1.9248 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the free length is not as specified, replace the spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a steel square, measure the deviation of the inner compression spring.</ptxt>
+<figure>
+<graphic graphicname="A062784E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum deviation</title>
+<specitem>
+<ptxt>1.5 mm (0.059 in.) </ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum angle (reference)</title>
+<specitem>
+<ptxt>2°</ptxt>
+</specitem>
+</spec>
+<ptxt>If the deviation is greater than the maximum, replace the spring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0021" proc-id="RM21Q0EV__00000JR00000">
+<ptxt>INSPECT INTAKE VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the valve's overall length.</ptxt>
+<figure>
+<graphic graphicname="EM02534E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard overall length</title>
+<specitem>
+<ptxt>106.56 to 106.96 mm (4.1953 to 4.2110 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum overall length</title>
+<specitem>
+<ptxt>106.46 mm (4.1913 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the overall length is less than the minimum, replace the valve.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a micrometer, measure the diameter of the valve stem.</ptxt>
+<figure>
+<graphic graphicname="A087001E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard valve stem diameter</title>
+<specitem>
+<ptxt>5.470 to 5.485 mm (0.2154 to 0.2159 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the valve head margin thickness.</ptxt>
+<figure>
+<graphic graphicname="A099452E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard margin thickness</title>
+<specitem>
+<ptxt>1.05 to 1.45 mm (0.0413 to 0.0571 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum margin thickness</title>
+<specitem>
+<ptxt>0.50 mm (0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the margin thickness is less than the minimum, replace the valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0022" proc-id="RM21Q0EV__00000JS00000">
+<ptxt>INSPECT EXHAUST VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the valve's overall length.</ptxt>
+<figure>
+<graphic graphicname="EM02534E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard overall length</title>
+<specitem>
+<ptxt>107.04 to 107.44 mm (4.2220 to 4.2299 in.) </ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum overall length</title>
+<specitem>
+<ptxt>106.94 mm (4.2102 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the overall length is less than the minimum, replace the valve.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a micrometer, measure the diameter of the valve stem.</ptxt>
+<figure>
+<graphic graphicname="A087003E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard valve stem diameter</title>
+<specitem>
+<ptxt>5.465 to 5.480 mm (0.2151 to 0.2157 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the valve head margin thickness.</ptxt>
+<figure>
+<graphic graphicname="A099453E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard margin thickness</title>
+<specitem>
+<ptxt>1.2 to 1.6 mm (0.0472 to 0.0630 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum margin thickness</title>
+<specitem>
+<ptxt>0.50 mm (0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the margin thickness is less than the minimum, replace the valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0023" proc-id="RM21Q0EV__00000JT00000">
+<ptxt>INSPECT INTAKE VALVE GUIDE BUSH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter of the guide bush.</ptxt>
+<figure>
+<graphic graphicname="A087005E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard bush inside diameter</title>
+<specitem>
+<ptxt>5.510 to 5.530 mm (0.2169 to 0.2177 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Subtract the valve stem diameter measurement from the guide bush inside diameter measurement.</ptxt>
+<spec>
+<title>Standard oil clearance</title>
+<specitem>
+<ptxt>0.025 to 0.060 mm (0.0010 to 0.0024 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum oil clearance</title>
+<specitem>
+<ptxt>0.08 mm (0.0032 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is greater than the maximum, replace the valve and guide bush.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0024" proc-id="RM21Q0EV__00000JU00000">
+<ptxt>INSPECT EXHAUST VALVE GUIDE BUSH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter of the guide bush.</ptxt>
+<figure>
+<graphic graphicname="G035204E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard bush inside diameter</title>
+<specitem>
+<ptxt>5.510 to 5.530 mm (0.2169 to 0.2177 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Subtract the valve stem diameter measurement from the guide bush inside diameter measurement.</ptxt>
+<spec>
+<title>Standard oil clearance</title>
+<specitem>
+<ptxt>0.030 to 0.065 mm (0.0012 to 0.0026 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum oil clearance</title>
+<specitem>
+<ptxt>0.10 mm (0.0039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is greater than the maximum, replace the valve and guide bush.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0030" proc-id="RM21Q0EV__00000JV00000">
+<ptxt>INSPECT CYLINDER BLOCK</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect for flatness.</ptxt>
+<figure>
+<graphic graphicname="A087191E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s3>
+<ptxt>Using a precision straightedge and feeler gauge, measure the surface contacting the cylinder head gasket for warpage.</ptxt>
+<spec>
+<title>Maximum warpage</title>
+<specitem>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the warpage is greater than the maximum, replace the cylinder block.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Visually check the cylinder for vertical scratches.</ptxt>
+<figure>
+<graphic graphicname="G035190E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If deep scratches are present, rebore all 4 cylinders. If necessary, replace the cylinder block.</ptxt>
+</s2>
+<s2>
+<ptxt>Inspect the cylinder bore diameter. </ptxt>
+<figure>
+<graphic graphicname="A112877E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Using a cylinder gauge, measure the cylinder bore diameter at positions A, B and C in the thrust and axial directions.</ptxt>
+<spec>
+<title>Standard diameter</title>
+<specitem>
+<ptxt>85.990 to 86.003 mm (3.3854 to 3.3859 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the diameter is greater than the maximum, rebore all 4 cylinders. If necessary, replace the cylinder block.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the cylinder ridge.</ptxt>
+<figure>
+<graphic graphicname="G035191E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>If the wear is less than 0.2 mm (0.008 in.), using a ridge reamer, grind the top of the cylinder.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0031" proc-id="RM21Q0EV__00000JW00000">
+<ptxt>INSPECT PISTON WITH PIN</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>There is only 1 type of supply part for piston with pin.</ptxt>
+</atten4>
+<s2>
+<ptxt>Inspect the piston oil clearance.</ptxt>
+<figure>
+<graphic graphicname="A097953E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a micrometer, measure the piston diameter at right angles to the piston center line and at the indicated distance from the piston end.</ptxt>
+<spec>
+<title>Standard distance</title>
+<specitem>
+<ptxt>11.4 mm (0.449 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard piston diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Piston Size</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>85.951 to 85.986 mm (3.3839 to 3.3853 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>O/S 0.50</ptxt>
+</entry>
+<entry>
+<ptxt>86.431 to 86.486 mm (3.4028 to 3.4050 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<s3>
+<ptxt>Measure the cylinder bore diameter in the thrust directions.</ptxt>
+</s3>
+<s3>
+<ptxt>Subtract the piston diameter measurement from the cylinder bore diameter measurement.</ptxt>
+<spec>
+<title>Standard oil clearance</title>
+<specitem>
+<ptxt>0.004 to 0.052 mm (0.0002 to 0.0020 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum oil clearance</title>
+<specitem>
+<ptxt>0.10 mm (0.0039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the oil clearance is greater than the maximum, replace all 4 pistons and rebore all 4 cylinders. If necessary, replace the cylinder block.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the piston pin fit.</ptxt>
+<figure>
+<graphic graphicname="G035195E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>At 60°C (140°F), check that the position pin can be pushed into the piston hole with your thumb.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the piston pin diameter. </ptxt>
+<figure>
+<graphic graphicname="G035891E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>There are 3 piston pin sizes, which are indicated by an A, B or C mark on its surface.</ptxt>
+</atten4>
+<s3>
+<ptxt>Using a micrometer, measure the piston pin diameter.</ptxt>
+<spec>
+<title>Standard piston pin diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Size Mark</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+<entry>
+<ptxt>21.997 to 22.000 mm (0.86602 to 0.86614 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+<entry>
+<ptxt>22.001 to 22.003 mm (0.86615 to 0.86626 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+<entry>
+<ptxt>22.003 to 22.006 mm (0.86627 to 0.86638 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the diameter is not as specified, replace the piston pin and piston as a set.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0032" proc-id="RM21Q0EV__00000JX00000">
+<ptxt>INSPECT PISTON RING SET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a feeler gauge, measure the clearance between a new piston ring and the wall of the ring groove.</ptxt>
+<figure>
+<graphic graphicname="A087192E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard ring groove clearance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Ring</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 1</ptxt>
+</entry>
+<entry>
+<ptxt>0.020 to 0.075 mm (0.0008 to 0.0030 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 2</ptxt>
+</entry>
+<entry>
+<ptxt>0.020 to 0.065 mm (0.0008 to 0.0026 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil</ptxt>
+</entry>
+<entry>
+<ptxt>0.020 to 0.070 mm (0.0008 to 0.0028 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the clearance is not as specified, replace the piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Inspect the piston ring end gap.</ptxt>
+<figure>
+<graphic graphicname="A097954E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Insert the piston ring into the cylinder bore.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a piston, push the piston ring a little beyond the bottom of the ring travel, 110 mm (4.33 in.) from the top of the cylinder block.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a feeler gauge, measure the end gap.</ptxt>
+<figure>
+<graphic graphicname="A050189E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard end gap</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Ring</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 1</ptxt>
+</entry>
+<entry>
+<ptxt>0.22 to 0.34 mm (0.0087 to 0.0134 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 2</ptxt>
+</entry>
+<entry>
+<ptxt>0.45 to 0.57 mm (0.0177 to 0.0224 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil</ptxt>
+</entry>
+<entry>
+<ptxt>0.10 to 0.40 mm (0.0039 to 0.0157 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Maximum end gap</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Ring</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 1</ptxt>
+</entry>
+<entry>
+<ptxt>0.90 mm (0.0354 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 2</ptxt>
+</entry>
+<entry>
+<ptxt>1.36 mm (0.0535 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil</ptxt>
+</entry>
+<entry>
+<ptxt>0.75 mm (0.0295 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the end gap is greater than the maximum, replace the piston ring. If the end gap is greater than the maximum, even with a new piston ring, rebore all 4 cylinders or replace the cylinder block.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0033" proc-id="RM21Q0EV__00000JY00000">
+<ptxt>INSPECT CONNECTING ROD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a rod aligner and feeler gauge, check the connecting rod alignment.</ptxt>
+<figure>
+<graphic graphicname="A054727E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Check for bend.</ptxt>
+<spec>
+<title>Maximum bend</title>
+<specitem>
+<ptxt>0.03 mm (0.0012 in.) per 100 mm (3.94 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the bend is greater than the maximum, replace the connecting rod.</ptxt>
+</s3>
+<s3>
+<ptxt>Check for twist.</ptxt>
+<figure>
+<graphic graphicname="A054728E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum twist</title>
+<specitem>
+<ptxt>0.15 mm (0.0059 in.) per 100 mm (3.94 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the twist is greater than the maximum, replace the connecting rod.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0034" proc-id="RM21Q0EV__00000JZ00000">
+<ptxt>INSPECT PISTON PIN OIL CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect the piston pin oil clearance. </ptxt>
+<figure>
+<graphic graphicname="G035892E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>There are 3 connecting rod bush sizes, which are indicated by an A, B or C mark on its surface.</ptxt>
+</atten4>
+<s3>
+<ptxt>Using a caliper gauge, measure the inside diameter of the connecting rod bush.</ptxt>
+<spec>
+<title>Standard bush inside diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Size Mark</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+<entry>
+<ptxt>22.005 to 22.008 mm (0.86633 to 0.86645 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+<entry>
+<ptxt>22.008 to 22.011 mm (0.86645 to 0.86657 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+<entry>
+<ptxt>22.011 to 22.014 mm (0.86657 to 0.86669 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+<s3>
+<ptxt>Subtract the piston pin diameter measurement from the bush inside diameter measurement.</ptxt>
+<spec>
+<title>Standard oil clearance</title>
+<specitem>
+<ptxt>0.001 to 0.007 mm (0.00004 to 0.00028 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum oil clearance</title>
+<specitem>
+<ptxt>0.01 mm (0.00039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the oil clearance is greater than the maximum, replace the connecting rod. If necessary, replace the piston and piston pin as a set.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0035" proc-id="RM21Q0EV__00000K000000">
+<ptxt>INSPECT CONNECTING ROD BOLT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the tension portion diameter of the bolt.</ptxt>
+<figure>
+<graphic graphicname="A054729E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard diameter</title>
+<specitem>
+<ptxt>7.2 to 7.3 mm (0.283 to 0.287 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum diameter</title>
+<specitem>
+<ptxt>7.0 mm (0.276 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the diameter is less than the minimum, replace the bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0036" proc-id="RM21Q0EV__00000K100000">
+<ptxt>INSPECT CRANKSHAFT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect for circle runout.</ptxt>
+<figure>
+<graphic graphicname="A013859E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Place the crankshaft on V-blocks.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a dial indicator, measure the circle runout at the center journal.</ptxt>
+<spec>
+<title>Maximum circle runout</title>
+<specitem>
+<ptxt>0.03 mm (0.0012 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the circle runout is greater than the maximum, replace the crankshaft.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the main journals.</ptxt>
+<figure>
+<graphic graphicname="A087264E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a micrometer, measure the diameter of each main journal.</ptxt>
+<spec>
+<title>Standard journal diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Journal</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 3</ptxt>
+</entry>
+<entry>
+<ptxt>59.981 to 59.994 mm (2.3615 to 2.3620 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Except No. 3</ptxt>
+</entry>
+<entry>
+<ptxt>59.987 to 60.000 mm (2.3229 to 2.3622 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the diameter is not as specified, check the oil clearance. If necessary, replace the crankshaft.</ptxt>
+</s3>
+<s3>
+<ptxt>Check each main journal for taper and out-of-round as shown in the illustration.</ptxt>
+<spec>
+<title>Maximum taper and out-of-round</title>
+<specitem>
+<ptxt>0.005 mm (0.0002 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the taper and out-of-round is greater than the maximum, replace the crankshaft.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the crank pin.</ptxt>
+<figure>
+<graphic graphicname="A087196E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a micrometer, measure the diameter of each crank pin.</ptxt>
+<spec>
+<title>Standard diameter</title>
+<specitem>
+<ptxt>52.989 to 53.002 mm (2.0862 to 2.0867 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the diameter is not as specified, check the oil clearance (see "INSPECT CONNECTING ROD OIL CLEARANCE" procedure). If necessary, replace the crankshaft.</ptxt>
+</s3>
+<s3>
+<ptxt>Check each crank pin for taper and out-of-round as shown in the illustration.</ptxt>
+<spec>
+<title>Maximum taper and out-of-round</title>
+<specitem>
+<ptxt>0.003 mm (0.0001 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the taper and out-of-round is greater than the maximum, replace the crankshaft.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMU019X_01_0037" proc-id="RM21Q0EV__00000K200000">
+<ptxt>INSPECT CRANKSHAFT BEARING CAP SET BOLT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the minimum diameter of the elongated thread at the measuring point.</ptxt>
+<figure>
+<graphic graphicname="G035889E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard outside diameter</title>
+<specitem>
+<ptxt>10.76 to 10.97 mm (0.4236 to 0.4319 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum outside diameter</title>
+<specitem>
+<ptxt>10.66 mm (0.4197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the diameter is less than the minimum, replace the crankshaft bearing cap bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

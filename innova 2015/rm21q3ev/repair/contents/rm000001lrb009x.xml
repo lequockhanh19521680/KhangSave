@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000001LRB009X" category="T" type-id="3001H" name-id="ES2KU-09" from="201503">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000001LRB009X_z0" proc-id="RM21Q0EV__000007900001">
+<content5 releasenbr="2">
+<atten4>
+<ptxt>Use the table below to help determine the cause of the problem symptom. The potential causes of the symptoms are listed in order of probability in the "Suspected area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace pats as necessary.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>SFI system:</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="4" colsep="1" valign="middle" align="left">
+<ptxt>Engine does not crank (does not start)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Battery</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000V4301XX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Starter signal circuit</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>
+<xref href="RM000000ZQX012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Starter</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001LVO00RX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>ST relay</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>
+<xref href="RM000000WPQ05TX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Theft Deterrent System</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001J8K011X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle" align="left">
+<ptxt>No initial combustion (does not start)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>ECM power source circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQP010X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>VC output circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001EP100VX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>ECM</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZPU00UX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>No complete combustion (does not start)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Engine cranks normally but difficult to start</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Starter signal circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQX012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Compression</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000YN101CX_01_0009" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Difficult to start with cold engine</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Starter signal circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQX012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Difficult to start with hot engine</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Starter signal circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQX012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>High engine idling speed (poor idling)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>A/C signal circuit (for Automatic Air Conditioning System)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000002LIP03LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>A/C Signal Circuit (for Manual Air Conditioning System)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>
+<xref href="RM0000028I5002X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>ECM power source circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQP010X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Low engine idling speed (poor idling)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>A/C signal circuit (for Automatic Air Conditioning System)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000002LIP03LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>A/C Signal Circuit (for Manual Air Conditioning System)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>
+<xref href="RM0000028I5002X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Rough idling (poor idling)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Compression</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000YN101CX_01_0009" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Hunting (poor idling)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>ECM power source circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQP010X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Hesitation / Poor acceleration (poor driveability)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Brake Override System</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>
+<xref href="RM000004G8F0UKX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>Surging (poor driveability)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Engine stalls soon after starting</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Fuel pump control circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQO00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>ECM</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZPU00UX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Engine stalls during A/C operation</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>A/C signal circuit (for Automatic Air Conditioning System)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000002LIP03LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>A/C Signal Circuit (for Manual Air Conditioning System)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>
+<xref href="RM0000028I5002X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>ECM</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZPU00UX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>MIL is not illuminated</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>MIL circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000000ZQY019X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

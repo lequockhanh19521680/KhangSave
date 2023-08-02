@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XF_T001T" variety="T001T">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<para id="RM0000028S2003X" category="F" type-id="30028" name-id="SS29J-01" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028S2003X_z0" proc-id="RM21Q0EV__000004C00000">
+<content5 releasenbr="1">
+<table frame="all">
+<tgroup cols="4">
+<colspec colname="col1" colwidth="1.77in"/>
+<colspec colname="col2" colwidth="1.77in"/>
+<colspec colname="col3" colwidth="1.77in"/>
+<colspec colname="col4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Steering pad x Steering wheel assembly</ptxt>
+</entry>
+<entry>
+<ptxt>8.8</ptxt>
+</entry>
+<entry>
+<ptxt>90</ptxt>
+</entry>
+<entry>
+<ptxt>78 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Instrument panel passenger airbag assembly x Body</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+<entry>
+<ptxt>204</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Center airbag assembly x Body</ptxt>
+</entry>
+<entry>
+<ptxt>17.5</ptxt>
+</entry>
+<entry>
+<ptxt>179</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front airbag assembly x Body</ptxt>
+</entry>
+<entry>
+<ptxt>17.5</ptxt>
+</entry>
+<entry>
+<ptxt>179</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

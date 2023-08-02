@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y6_T002K" variety="T002K">
+<name>DRIVE BELT</name>
+<para id="RM000000YMN02MX" category="A" type-id="30014" name-id="EMDPL-01" from="201303">
+<name>INSTALLATION</name>
+<subpara id="RM000000YMN02MX_01" type-id="01" category="01">
+<s-1 id="RM000000YMN02MX_01_0002" proc-id="RM21Q0EV__00000FT00001">
+<ptxt>INSTALL TENSIONER PULLEY</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Perform the following procedure when it is necessary to replace the tensioner pulley.</ptxt>
+</atten3>
+<atten4>
+<ptxt>The tensioner pulley service kit consists of a bolt, dust seal and tensioner pulley.</ptxt>
+</atten4>
+<s2>
+<ptxt>Install the dust seal and bolt to the tensioner pulley as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A284608E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>The dust seal must be oriented correctly when installed. If the dust seal is installed incorrectly, the bearing may be damaged.</ptxt>
+</item>
+<item>
+<ptxt>Do not touch the seal surface of the bearing.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>Be sure to use the bolt from the service kit.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Tighten the bolt by hand until the flange of the bolt contacts the dust seal and the tensioner pulley is fixed in place.</ptxt>
+<atten3>
+<ptxt>Do not use any tools.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Tighten the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install a new O-ring and the dipstick guide with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the oil dipstick.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMN02MX_01_0001" proc-id="RM21Q0EV__000005A00001">
+<ptxt>INSTALL DRIVE BELT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the drive belt to the pulleys except the drive belt tensioner pulley.</ptxt>
+<figure>
+<graphic graphicname="G038623E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and then install the drive belt to the tensioner pulley. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>The backside of the drive belt should face the tensioner pulley.</ptxt>
+</item>
+<item>
+<ptxt>Check that the drive belt is properly set to each pulley.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>After a new belt has been installed, check that the tensioner indicator mark is within range A shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G038479E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

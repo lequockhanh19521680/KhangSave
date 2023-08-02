@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM0000011IY01DX" category="J" type-id="300N2" name-id="ME4JZ-01" from="201202">
+<dtccode/>
+<dtcname>Speedometer Malfunction</dtcname>
+<subpara id="RM0000011IY01DX_04" type-id="60" category="03" proc-id="RM21Q0EV__00004AP00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The combination meter receives vehicle speed signals from the speedometer sensor via the direct line.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000011IY01DX_01" type-id="32" category="03" proc-id="RM21Q0EV__00002GI00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E236478E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000011IY01DX_02" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000011IY01DX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000011IY01DX_05_0010" proc-id="RM21Q0EV__00004AQ00000">
+<testtitle>CHECK VEHICLE SPEED SENSOR (INPUT SIGNAL)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="E224603E19" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Remove the meter with the connector(s) still connected.</ptxt>
+</test1>
+<test1>
+<ptxt>Using an oscilloscope, check the signal waveform of the meter.</ptxt>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="center">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C20-5 - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>5 V/DIV., 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Vehicle Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Being driven at approximately 20 km/h (12.4 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>As the vehicle speed increases, the wavelength shortens.</ptxt>
+</atten4>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The waveform displayed is as shown in the illustration.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011IY01DX_05_0008" fin="true">OK</down>
+<right ref="RM0000011IY01DX_05_0004" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011IY01DX_05_0004" proc-id="RM21Q0EV__00002GM00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (SENSOR - METER AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the S3 sensor connector.</ptxt>
+<figure>
+<graphic graphicname="E075936E15" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.39in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-5 - S3-3 (SI)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-32 - S3-1 (IG+)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S3-1 (IG+) - S3-2 (SE)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S3-1 (IG+) - S3-3 (SI)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S3-2 (SE) - S3-3 (SI)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S3-2 (SE) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011IY01DX_05_0007" fin="true">OK</down>
+<right ref="RM0000011IY01DX_05_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011IY01DX_05_0008">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY<xref label="Seep01" href="RM000004S68006X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000011IY01DX_05_0009">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000011IY01DX_05_0007">
+<testtitle>REPLACE VEHICLE SPEED SENSOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

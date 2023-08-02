@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YF_T002T" variety="T002T">
+<name>FUEL PUMP</name>
+<para id="RM000000YLI04EX" category="A" type-id="30014" name-id="FU0QK-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000YLI04EX_01" type-id="01" category="01">
+<s-1 id="RM000000YLI04EX_01_0001" proc-id="RM21Q0EV__00000OM00000">
+<ptxt>INSTALL NO. 1 FUEL SUCTION SUPPORT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to the claw holes and install the fuel suction support.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLI04EX_01_0003" proc-id="RM21Q0EV__00000ON00000">
+<ptxt>INSTALL FUEL PUMP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the fuel pump harness.</ptxt>
+<figure>
+<graphic graphicname="A099806E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply a light coat of gasoline to a new O-ring, and install it to the fuel pump.</ptxt>
+<figure>
+<graphic graphicname="A129521E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Attach the 3 claws to the claw holes and install the fuel pump and suction filter.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLI04EX_01_0004" proc-id="RM21Q0EV__00000OO00000">
+<ptxt>INSTALL NO. 1 FUEL SUB-TANK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to the claw holes and install the fuel sub-tank.</ptxt>
+<figure>
+<graphic graphicname="A099803E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the suction plate to the fuel sub-tank.</ptxt>
+<figure>
+<graphic graphicname="A129520E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Install the 2 springs to the 2 shafts of the fuel suction plate.</ptxt>
+</s3>
+<s3>
+<ptxt>Using needle-nose pliers, install 2 new E-rings to the 2 shafts.</ptxt>
+<atten4>
+<ptxt>Slightly lower the sub-tank cap to install the E-rings.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the sub-tank cap.</ptxt>
+<figure>
+<graphic graphicname="A129519" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Attach the 3 claws to the claw holes and install the fuel sub-tank cap.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the 2 fuel tubes and fuel pump harness.</ptxt>
+<figure>
+<graphic graphicname="A129518" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the tube part to the fuel sub-tank.</ptxt>
+<figure>
+<graphic graphicname="G035043E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Attach the claw on the end of the tube to the claw hole. Connect the tube to the 2 clamps on the fuel sub-tank.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Connect the fuel pump connector.</ptxt>
+<figure>
+<graphic graphicname="A129517" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLI04EX_01_0005" proc-id="RM21Q0EV__00000OP00000">
+<ptxt>INSTALL FUEL SENDER GAUGE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Set the sender gauge to the fuel sub-tank. Then slide the sender gauge downward to install it.</ptxt>
+<figure>
+<graphic graphicname="A129524E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the fuel sender gauge connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLI04EX_01_0008" proc-id="RM21Q0EV__00000OR00000">
+<ptxt>INSTALL FUEL SUCTION WITH PUMP AND GAUGE TUBE ASSEMBLY TO FUEL TANK
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of gasoline or grease to a new gasket, and install it to the fuel tank.</ptxt>
+</s2>
+<s2>
+<ptxt>Set the gauge tube on the fuel tank.</ptxt>
+<figure>
+<graphic graphicname="A099813E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to bend the arm of the fuel sender gauge.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Align the protrusion of the set plate with the groove of the fuel pump.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the set plate with the 8 bolts.</ptxt>
+<figure>
+<graphic graphicname="A099144E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>4.0</t-value1>
+<t-value2>41</t-value2>
+<t-value3>35</t-value3>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Adjust the position of the set plate so that all 8 bolts can be installed to the fuel tank.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the 2 fuel tank tubes with the 2 tube joint clips.</ptxt>
+<figure>
+<graphic graphicname="A099141E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<figure>
+<graphic graphicname="A124131E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Check that there are no scratches or foreign objects on the connecting parts.</ptxt>
+</item>
+<item>
+<ptxt>Check that the fuel tube joint is inserted securely.</ptxt>
+</item>
+<item>
+<ptxt>Check that the tube joint clips are on the collars of the fuel tube joints.</ptxt>
+</item>
+<item>
+<ptxt>After installing the tube joint clips, check that the fuel tube joints have not been pulled off.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLI04EX_01_0007" proc-id="RM21Q0EV__00000OQ00000">
+<ptxt>INSTALL FUEL TANK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the fuel tank to the vehicle (see page <xref label="Seep01" href="RM000000YLR071X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

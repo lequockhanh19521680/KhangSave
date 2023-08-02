@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A805_T004J" variety="T004J">
+<name>REAR SHOCK ABSORBER</name>
+<para id="RM000001G9100JX" category="G" type-id="3001K" name-id="SP0J9-03" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001G9100JX_01" type-id="01" category="01">
+<s-1 id="RM000001G9100JX_01_0001" proc-id="RM21Q0EV__00001J300000">
+<ptxt>INSPECT REAR SHOCK ABSORBER ASSEMBLY</ptxt>
+<content1 releasenbr="2">
+<figure>
+<graphic graphicname="C118721" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Compress and extend the shock absorber rod, and check that there is no abnormal resistance or unusual sound during operation.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>If there is any abnormality, replace the shock absorber with a new one.</ptxt>
+<atten3>
+<ptxt>When disposing of the shock absorber, see DISPOSAL (see page <xref label="Seep01" href="RM000001G8Z00JX"/>).</ptxt>
+</atten3>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

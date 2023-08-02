@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80J_T004X" variety="T004X">
+<name>BRAKE PEDAL</name>
+<para id="RM0000010K5016X" category="N" type-id="3000G" name-id="BR63Y-01" from="201202" to="201503">
+<name>ADJUSTMENT</name>
+<subpara id="RM0000010K5016X_01" type-id="01" category="01">
+<s-1 id="RM0000010K5016X_01_0001" proc-id="RM21Q0EV__00001P400000">
+<ptxt>CHECK AND ADJUST BRAKE PEDAL HEIGHT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C130676E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Check the pedal height.</ptxt>
+<spec>
+<title>Standard pedal height from dash panel</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>for Manual Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>152.9 to 162.9 mm (6.020 to 6.413 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>for Automatic Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>154.1 to 164.1 mm (6.067 to 6.461 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Adjust the pedal height.</ptxt>
+<s3>
+<ptxt>Disconnect the connector from the stop light switch.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the switch.</ptxt>
+</s3>
+<s3>
+<ptxt>Loosen the push rod clevis lock nut.</ptxt>
+</s3>
+<s3>
+<ptxt>Adjust the pedal height by turning the push rod.</ptxt>
+</s3>
+<s3>
+<ptxt>Tighten the lock nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>Insert the switch into the adjuster until it slightly touches the pedal.</ptxt>
+<figure>
+<graphic graphicname="C111301E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not depress the pedal.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Turn the switch a quarter turn clockwise.</ptxt>
+<figure>
+<graphic graphicname="C111302E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>1.5</t-value1>
+<t-value2>15</t-value2>
+<t-value3>13</t-value3>
+<ptxt>or less</ptxt>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not depress the pedal.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Connect the connector to the switch.</ptxt>
+</s3>
+<s3>
+<ptxt>Check the switch clearance.</ptxt>
+<spec>
+<title>Standard stop light switch clearance</title>
+<specitem>
+<ptxt>1.5 to 2.5 mm (0.0591 to 0.0984 in.)</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010K5016X_01_0002" proc-id="RM21Q0EV__00001P500000">
+<ptxt>CHECK BRAKE PEDAL FREE PLAY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111306E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Stop the engine. Depress the pedal several times until there is no vacuum in the booster. Then release the pedal.</ptxt>
+</s2>
+<s2>
+<ptxt>Depress the pedal until resistance is felt.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the pedal free play by measuring the distance between the position in the previous step and the pedal's released position.</ptxt>
+<spec>
+<title>Standard pedal free play</title>
+<specitem>
+<ptxt>1.0 to 6.0 mm (0.039 to 0.236 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the free play is not as specified, check the switch clearance in the next step.</ptxt>
+<ptxt>If the free play is as specified, proceed to the "CHECK BRAKE PEDAL RESERVE DISTANCE" procedure.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the switch clearance.</ptxt>
+<spec>
+<title>Standard stop light switch clearance</title>
+<specitem>
+<ptxt>1.5 to 2.5 mm (0.0591 to 0.0984 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is not as specified, adjust the clearance and recheck the pedal's free play.</ptxt>
+<ptxt>If the clearance is as specified, troubleshoot the brake system and proceed to the "CHECK BRAKE PEDAL RESERVE DISTANCE" procedure.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010K5016X_01_0003" proc-id="RM21Q0EV__00001P600000">
+<ptxt>CHECK BRAKE PEDAL RESERVE DISTANCE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111339E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Release the parking brake lever. Start the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Depress the pedal and check the pedal reserve distance.</ptxt>
+<s3>
+<ptxt>Depress the pedal with a force of 490 N (50 kgf, 110 lbf).</ptxt>
+</s3>
+<s3>
+<ptxt>Measure the distance between the pedal and dash panel shown in the illustration.</ptxt>
+<spec>
+<title>Standard pedal reserve distance</title>
+<specitem>
+<ptxt>78.0 mm (3.071 in.) or more</ptxt>
+</specitem>
+</spec>
+<ptxt>If the distance is not as specified, troubleshoot the brake system.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

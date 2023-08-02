@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7W9_T000N" variety="T000N">
+<name>POWER STEERING</name>
+<para id="RM0000029BH003X" category="B" type-id="8000C" name-id="PP3W1-04" from="201202">
+<name>LUBRICANT</name>
+<subpara id="RM0000029BH003X_z1" proc-id="RM21Q0EV__000001W00000">
+<content4 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Capacity</ptxt>
+</entry>
+<entry>
+<ptxt>Classification</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Power steering fluid (Total)</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 liters (1.1 US qts, 0.9 Imp.qts)</ptxt>
+</entry>
+<entry>
+<ptxt>"TEXAMATIC 1888" or equivalent</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

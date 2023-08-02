@@ -1,0 +1,61 @@
+<!-- $Id: sds_frame.html,v 1.1 2008/03/27 07:36:09 k-matsumoto Exp $ -->
+<!--========================================================================-->
+<!-- for Translation                                                        -->
+<!--  title(element)                                                        -->
+<!--  body(element)                                                         -->
+<!--========================================================================-->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>GSIC - Global Service Information Center -SDS-</title>
+<script src="../../js/xml.js"></script>
+<script src="../../js/util.js"></script>
+<script src="../../js/dom.js"></script>
+<script src="../../js/hashtable.js"></script>
+<script src="../../js/memo.js"></script>
+<script language="javascript">
+var g_tocXml = null;
+var g_objXml = null;
+var g_objXsl = null;
+var g_paraId   = null; // paragraph ID
+
+var g_paragraphName = "";
+function init() {
+	var g_filter = findParameterValue("filter");
+	var g_term   = findParameterValue("term");
+
+	g_tocXml = initXml("toc_rpr.xml");
+	g_tocXml.setProperty("SelectionLanguage", "XPath");
+
+	var g_fltXsl = initXsl("../../xsl/utl/filter.xsl");
+	if (g_tocXml!=null && g_filter!=null) {
+		g_tocXml = setFilter(g_tocXml, g_fltXsl, "../../filter/"+g_filter+".xml");
+	}
+
+	paraList = g_tocXml.selectNodes(".//section[starts-with(./@id, '12003_')]//para[@type-id='31000']/@id");
+	if (paraList.length == 0) {
+		return;
+	}
+
+	var paraId = paraList.item(0).nodeTypedValue;
+	g_objXml = initXml(paraId.toLowerCase()+".xml", false, false);
+	g_objXsl = initXsl("../../xsl/toc/contents.xsl");
+	g_paraId = g_objXml.selectSingleNode("//para").getAttribute("id");
+}
+init();
+
+function selectId() {
+	return false;
+}
+</script>
+</head>
+<frameset rows="30, *" frameborder="no" border="0" framespacing="0">
+	<frame name="global" src="sds_global.html" scrolling="no" noresize frameborder="no">
+		<frame name="contents" src="sds_contents.html" frameborder="no">
+	</frameset>
+<noframes>
+	<body>Please see this page with the browser complying with the frame.</body>
+</noframes>
+</html>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000O8L0KSX" category="U" type-id="303FP" name-id="AT000L-209" from="201202">
+<name>FAIL-SAFE CHART</name>
+<subpara id="RM000000O8L0KSX_z0" proc-id="RM21Q0EV__000018D00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FAIL-SAFE CHART</ptxt>
+<ptxt>This function minimizes the loss of the ECT functions when a malfunction occurs in a sensor or solenoid.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.31in"/>
+<colspec colname="COL2" colwidth="3.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Malfunction Part</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>DTC P0710, P0712 and P0713:</ptxt>
+<ptxt>ATF Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During malfunction of ATF temperature sensor, system fixes ATF at 80°C (176°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DTC P0722:</ptxt>
+<ptxt>Speed Sensor (SP2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During speed sensor (SP2) malfunction, shift lever control is effected through input speed sensor signal (NC0) or engine speed signal (NE)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DTC P0973, P0974, P0976 and P0977:</ptxt>
+<ptxt>Shift Solenoid Valve S1, S2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Current to malfunctioning solenoid valve is cut off and control is performed by operating other normal solenoid valves</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DTC P2716:</ptxt>
+<ptxt>Shift Solenoid Valve SLT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During solenoid valve SLT malfunction, current to solenoid valve is stopped.</ptxt>
+<ptxt>Because this stops line pressure control, shift shock increases.</ptxt>
+<ptxt>However, shifting is effected through normal clutch pressure control.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DTC P2769 and P2770:</ptxt>
+<ptxt>Shift Solenoid Valve SL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During solenoid valve SL malfunction, current to solenoid valve is stopped.</ptxt>
+<ptxt>Because this stops lock-up control, fuel economy decreases.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>Fail-safe function:</ptxt>
+<ptxt>If either of the shift solenoid valve circuits develops an open or short, the ECM turns the other shift solenoid on and off to shift to the gear positions shown in the table below. The ECM also turns the shift solenoid valve SL off at the same time. If both solenoids are malfunctioning, electronic hydraulic control does not operate and must be performed manually. Manual shifting as shown in the following table must be performed.</ptxt>
+<ptxt>In case of a short circuit, the ECM stops sending current to the circuit.</ptxt>
+</step1>
+<table pgwide="1">
+<tgroup cols="11" align="center">
+<colspec colname="COL1" colwidth="0.68in"/>
+<colspec colname="COL2" colwidth="0.53in"/>
+<colspec colname="COL3" colwidth="0.53in"/>
+<colspec colname="COL4" colwidth="0.53in"/>
+<colspec colname="COL5" colwidth="0.53in"/>
+<colspec colname="COL6" colwidth="0.53in"/>
+<colspec colname="COL7" colwidth="0.54in"/>
+<colspec colname="COLSPEC3" colwidth="0.54in"/>
+<colspec colname="COLSPEC2" colwidth="0.54in"/>
+<colspec colname="COLSPEC1" colwidth="0.54in"/>
+<colspec colname="COLSPEC0" colwidth="1.59in"/>
+<thead>
+<row>
+<entry morerows="2" valign="top" align="left">
+<ptxt>Position</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL4" valign="top" align="left">
+<ptxt>Normal</ptxt>
+</entry>
+<entry namest="COL5" nameend="COL7" valign="top" align="left">
+<ptxt>Shift Solenoid S1 Malfunctioning</ptxt>
+</entry>
+<entry namest="COLSPEC3" nameend="COLSPEC1" valign="top" align="left">
+<ptxt>Shift Solenoid S2 Malfunctioning</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Both Solenoids Malfunctioning</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COL3" valign="top" align="left">
+<ptxt>Solenoid valve</ptxt>
+</entry>
+<entry morerows="1" valign="top" align="left">
+<ptxt>Gear</ptxt>
+</entry>
+<entry namest="COL5" nameend="COL6" valign="top" align="left">
+<ptxt>Solenoid valve</ptxt>
+</entry>
+<entry morerows="1" valign="top" align="left">
+<ptxt>Gear</ptxt>
+</entry>
+<entry namest="COLSPEC3" nameend="COLSPEC2" valign="top" align="left">
+<ptxt>Solenoid valve</ptxt>
+</entry>
+<entry morerows="1" valign="top" align="left">
+<ptxt>Gear</ptxt>
+</entry>
+<entry morerows="1" valign="top" align="left">
+<ptxt>Gear when shift selector is manually operated</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="top" align="left">
+<ptxt>S1</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S2</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S1</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S2</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S1</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>S2</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="3" align="left">
+<ptxt>D</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" align="left">
+<ptxt>2</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" align="left">
+<ptxt>L</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>OFF</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>2nd</ptxt>
+</entry>
+<entry align="left">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="left">
+<ptxt>X</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>X: Malfunction</ptxt>
+</atten4>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

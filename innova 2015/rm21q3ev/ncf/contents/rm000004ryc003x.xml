@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12051_S000S" variety="S000S">
+<name>DOOR LOCK</name>
+<ttl id="12051_S000S_7AHYU_T000C" variety="T000C">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM000004RYC003X" category="F" type-id="8048X" name-id="DL76Y-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000004RYC003X_z0" proc-id="NM21Q0EV__000000R00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="Y110201E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

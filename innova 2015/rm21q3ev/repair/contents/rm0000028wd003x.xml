@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XN_T0021" variety="T0021">
+<name>SUSPENSION</name>
+<para id="RM0000028WD003X" category="F" type-id="30028" name-id="SS2BU-03" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028WD003X_z0" proc-id="RM21Q0EV__000004N00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Front suspension</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Tie rod end lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>55.5</ptxt>
+</entry>
+<entry>
+<ptxt>566</ptxt>
+</entry>
+<entry>
+<ptxt>41</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Suspension support x Piston rod</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>184</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stabilizer bar link x Lower arm</ptxt>
+</entry>
+<entry>
+<ptxt>78</ptxt>
+</entry>
+<entry>
+<ptxt>795</ptxt>
+</entry>
+<entry>
+<ptxt>58</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stabilizer bracket x Body</ptxt>
+</entry>
+<entry>
+<ptxt>48</ptxt>
+</entry>
+<entry>
+<ptxt>489</ptxt>
+</entry>
+<entry>
+<ptxt>35</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stabilizer bar x Stabilizer link</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+<entry>
+<ptxt>275</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shock absorber with coil spring x Lower arm</ptxt>
+</entry>
+<entry>
+<ptxt>95</ptxt>
+</entry>
+<entry>
+<ptxt>969</ptxt>
+</entry>
+<entry>
+<ptxt>70</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shock absorber with coil spring x Body</ptxt>
+</entry>
+<entry>
+<ptxt>40 (28)</ptxt>
+</entry>
+<entry>
+<ptxt>408 (286)</ptxt>
+</entry>
+<entry>
+<ptxt>30 (21)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Upper arm x Axle</ptxt>
+</entry>
+<entry>
+<ptxt>85</ptxt>
+</entry>
+<entry>
+<ptxt>867</ptxt>
+</entry>
+<entry>
+<ptxt>63</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Upper arm x Lower arm</ptxt>
+</entry>
+<entry>
+<ptxt>110</ptxt>
+</entry>
+<entry>
+<ptxt>1,122</ptxt>
+</entry>
+<entry>
+<ptxt>81</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Skid control sensor wire x Body</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+<entry>
+<ptxt>296</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lower suspension arm set nut</ptxt>
+</entry>
+<entry>
+<ptxt>210</ptxt>
+</entry>
+<entry>
+<ptxt>2,141</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lower ball joint attachment x Lower arm</ptxt>
+</entry>
+<entry>
+<ptxt>140</ptxt>
+</entry>
+<entry>
+<ptxt>1,428</ptxt>
+</entry>
+<entry>
+<ptxt>103</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lower ball joint attachment x Steering knuckle</ptxt>
+</entry>
+<entry>
+<ptxt>160</ptxt>
+</entry>
+<entry>
+<ptxt>1,632</ptxt>
+</entry>
+<entry>
+<ptxt>118</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>(): For use with SST</ptxt>
+<table pgwide="1">
+<title>Rear suspension</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Shock absorber bracket x Frame</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>255</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shock absorber x Axle housing</ptxt>
+</entry>
+<entry>
+<ptxt>82</ptxt>
+</entry>
+<entry>
+<ptxt>816</ptxt>
+</entry>
+<entry>
+<ptxt>60</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shock absorber lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+<entry>
+<ptxt>204</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Upper control arm x Rear axle housing</ptxt>
+</entry>
+<entry>
+<ptxt>145</ptxt>
+</entry>
+<entry>
+<ptxt>1,479</ptxt>
+</entry>
+<entry>
+<ptxt>107</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Upper control arm x Frame</ptxt>
+</entry>
+<entry>
+<ptxt>145</ptxt>
+</entry>
+<entry>
+<ptxt>1,479</ptxt>
+</entry>
+<entry>
+<ptxt>107</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lower control arm x Frame</ptxt>
+</entry>
+<entry>
+<ptxt>145</ptxt>
+</entry>
+<entry>
+<ptxt>1,479</ptxt>
+</entry>
+<entry>
+<ptxt>107</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lower control arm x Parking brake cable</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>127</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lateral control rod x Rear axle housing</ptxt>
+</entry>
+<entry>
+<ptxt>100</ptxt>
+</entry>
+<entry>
+<ptxt>1,020</ptxt>
+</entry>
+<entry>
+<ptxt>74</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lower control rod x Frame</ptxt>
+</entry>
+<entry>
+<ptxt>96</ptxt>
+</entry>
+<entry>
+<ptxt>976</ptxt>
+</entry>
+<entry>
+<ptxt>71</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

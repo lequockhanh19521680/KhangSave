@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM0000011J400UX" category="J" type-id="30280" name-id="ME4K1-01" from="201202">
+<dtccode/>
+<dtcname>Warning Buzzer does not Sound</dtcname>
+<subpara id="RM0000011J400UX_01" type-id="32" category="03" proc-id="RM21Q0EV__00002H700000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E151251E11" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000011J400UX_02" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000011J400UX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000011J400UX_04_0002" proc-id="RM21Q0EV__00002H900000">
+<testtitle>CHECK COMBINATION METER ASSEMBLY (BUZZER OPERATION)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the key reminder warning buzzer operation.</ptxt>
+<test2>
+<ptxt>Turn the ignition switch off with the key inserted into the ignition key cylinder.</ptxt>
+</test2>
+<test2>
+<ptxt>Open the driver side door.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Key reminder warning buzzer sounds.</ptxt>
+</specitem>
+</spec>
+</test2>
+</test1>
+<test1>
+<ptxt>Check the light reminder warning buzzer operation.</ptxt>
+<test2>
+<ptxt>Turn the ignition switch off.</ptxt>
+</test2>
+<test2>
+<ptxt>Set the light control switch to the TAIL or HEAD.</ptxt>
+</test2>
+<test2>
+<ptxt>Open the driver side door.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Light reminder warning buzzer sounds.</ptxt>
+</specitem>
+</spec>
+</test2>
+</test1>
+<test1>
+<ptxt>Check the automatic transmission reverse reminder warning buzzer operation.</ptxt>
+<test2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test2>
+<test2>
+<ptxt>Move the shift lever to the R position.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Automatic transmission reverse buzzer sounds.</ptxt>
+</specitem>
+</spec>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to </ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Key reminder warning buzzer does not sound</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Light reminder warning buzzer does not sound</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic transmission reverse reminder warning buzzer does not sound</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test2>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0003" fin="false">A</down>
+<right ref="RM0000011J400UX_04_0001" fin="false">B</right>
+<right ref="RM0000011J400UX_04_0017" fin="false">C</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0003" proc-id="RM21Q0EV__00002HA00000">
+<testtitle>INSPECT UNLOCK WARNING SWITCH ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the U1 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E171900E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pushed (ON)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Not pushed (OFF)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0004" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0010" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0004" proc-id="RM21Q0EV__00002HB00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (UNLOCK WARNING SWITCH - COMBINATION METER AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the U1 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E139227E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+<figure>
+<graphic graphicname="E169370E09" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>U1-1 - C20-10</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>U1-2 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>U1-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0015" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0015" proc-id="RM21Q0EV__00002HG00000">
+<testtitle>INSPECT FRONT DOOR COURTESY LIGHT SWITCH ASSEMBLY LH</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the D4 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E172204E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Not pushed (ON)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pushed (OFF)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0016" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0013" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0016" proc-id="RM21Q0EV__00002HH00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (FRONT DOOR COURTESY SWITCH LH - COMBINATION METER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the D4 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E169418E06" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+<figure>
+<graphic graphicname="E169370E10" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>D4-1 - C20-16</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>D4-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0014" fin="true">OK</down>
+<right ref="RM0000011J400UX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0001" proc-id="RM21Q0EV__00002H800000">
+<testtitle>INSPECT FUSE (TAIL)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the TAIL fuse from the driver side junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>TAIL fuse</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0005" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0005" proc-id="RM21Q0EV__00002HC00000">
+<testtitle>INSPECT HEADLIGHT DIMMER SWITCH ASSEMBLY (LIGHT CONTROL SWITCH)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the C12 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E171901E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>10 (T1) - 13 (B1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Light control switch HEAD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>10 (T1) - 13 (B1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Light control switch TAIL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>10 (T1) - 13 (B1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Light control switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0006" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0006" proc-id="RM21Q0EV__00002HD00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (HEADLIGHT DIMMER SWITCH - BATTERY AND COMBINATION METER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the C12 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E171902E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+<figure>
+<graphic graphicname="E169370E09" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC2" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C12-13 (B1) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.36in"/>
+<colspec colname="COLSPEC3" colwidth="1.36in"/>
+<colspec colname="COL2" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C12-10 (T1) - C20-8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C12-10 (T1) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0007" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0007" proc-id="RM21Q0EV__00002HE00000">
+<testtitle>INSPECT FRONT DOOR COURTESY LIGHT SWITCH ASSEMBLY LH</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the D4 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E172204E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Not pushed (ON)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pushed (OFF)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0008" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0013" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0008" proc-id="RM21Q0EV__00002HF00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (FRONT DOOR COURTESY SWITCH LH - COMBINATION METER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the D4 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E169418E06" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+<figure>
+<graphic graphicname="E169370E09" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>D4-1 - C20-16</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>D4-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0014" fin="true">OK</down>
+<right ref="RM0000011J400UX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0017" proc-id="RM21Q0EV__00002HI00000">
+<testtitle>INSPECT PARK/NEUTRAL POSITION SWITCH</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A107908E96" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the N1 switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift lever moved to R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift lever except R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0018" fin="false">OK</down>
+<right ref="RM0000011J400UX_04_0019" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0018" proc-id="RM21Q0EV__00002HJ00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (PARK/NEUTRAL POSITION SWITCH - BATTERY AND COMBINATION METER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the N1 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E172037E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C11 meter connector.</ptxt>
+<figure>
+<graphic graphicname="E172039E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC2" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>N1-2 (RB) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N1-2 (RB) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>N1-1 (RL) - C11-14</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N1-1 (RL) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J400UX_04_0014" fin="true">OK</down>
+<right ref="RM0000011J400UX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0009">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0010">
+<testtitle>REPLACE UNLOCK WARNING SWITCH ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0011">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0012">
+<testtitle>REPLACE HEADLIGHT DIMMER SWITCH ASSEMBLY<xref label="Seep01" href="RM0000024EK003X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0013">
+<testtitle>REPLACE FRONT DOOR COURTESY LIGHT SWITCH ASSEMBLY LH<xref label="Seep01" href="RM0000024EO003X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0014">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY<xref label="Seep01" href="RM000004S68006X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000011J400UX_04_0019">
+<testtitle>REPLACE PARK/NEUTRAL POSITION SWITCH<xref label="Seep01" href="RM0000010NC05SX"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

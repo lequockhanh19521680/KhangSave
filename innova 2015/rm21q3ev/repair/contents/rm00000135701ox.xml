@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000B_S0008" variety="S0008">
+<name>1TR-FE EXHAUST</name>
+<ttl id="1000B_S0008_7A7YM_T0030" variety="T0030">
+<name>EXHAUST PIPE</name>
+<para id="RM00000135701OX" category="A" type-id="30014" name-id="EX031-03" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000135701OX_01" type-id="01" category="01">
+<s-1 id="RM00000135701OX_01_0001" proc-id="RM21Q0EV__00000GV00000">
+<ptxt>INSTALL FRONT EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A107610" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a vernier caliper, measure the free length of the compression spring.</ptxt>
+<spec>
+<title>Minimum length</title>
+<specitem>
+<ptxt>40 mm (1.57 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the length is less than the minimum, replace the compression spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front pipe to the pipe support.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099436E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install a new gasket to the outlet pipe.</ptxt>
+<atten4>
+<ptxt>Using a plastic-faced hammer, uniformly strike the gasket so that the gasket and exhaust pipe are properly fit.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful with the installation direction of the gasket.</ptxt>
+</item>
+<item>
+<ptxt>Do not reuse the gasket.</ptxt>
+</item>
+<item>
+<ptxt>To ensure a proper seal, do not use the front pipe to force the gasket onto the outlet pipe.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the front pipe with the 2 compression springs and 2 bolts. Alternately tighten the bolts in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>43</t-value1>
+<t-value2>438</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135701OX_01_0009" proc-id="RM21Q0EV__00000QC00000">
+<ptxt>INSTALL HEATED OXYGEN SENSOR (for Bank 1 Sensor 1)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A112982E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Using SST, install the sensor.</ptxt>
+<sst>
+<sstitem>
+<s-number>09224-00010</s-number>
+</sstitem>
+</sst>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>32</t-value4>
+<ptxt>for use without SST</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>40</t-value1>
+<t-value2>408</t-value2>
+<t-value4>30</t-value4>
+<ptxt>for use with SST</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Use a torque wrench with a fulcrum length of 30 cm (11.81 in.).</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="G039109E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Attach the 3 wire clamps to the vehicle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135701OX_01_0003" proc-id="RM21Q0EV__00000Q800000">
+<ptxt>INSTALL CENTER EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the center pipe to the 3 pipe supports.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the center pipe to the front pipe with the 2 bolts and 2 nuts. Alternately tighten the bolts in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>48</t-value1>
+<t-value2>489</t-value2>
+<t-value4>35</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not reuse the gasket.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135701OX_01_0004" proc-id="RM21Q0EV__00000Q900000">
+<ptxt>INSTALL TAILPIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the tailpipe to the pipe support.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the tailpipe to the center pipe with the 2 bolts and 2 nuts. Alternately tighten the bolts in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>48</t-value1>
+<t-value2>489</t-value2>
+<t-value4>35</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not reuse the gasket.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135701OX_01_0005">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM00000135701OX_01_0006" proc-id="RM21Q0EV__00000QA00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135701OX_01_0007" proc-id="RM21Q0EV__00000QB00000">
+<ptxt>CHECK FOR EXHAUST GAS LEAKS</ptxt>
+<content1 releasenbr="1">
+<ptxt>If gas is leaking, tighten the problem areas to stop the leak. Replace damaged parts as necessary.</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLS_T0099" variety="T0099">
+<name>RADIATOR GRILLE (for Standard)</name>
+<para id="RM000004S3G00HX" category="K" type-id="30193" name-id="ET6KV-13" from="201202">
+<name>COMPONENTS</name>
+<subpara id="RM000004S3G00HX_01" type-id="02" category="04" proc-id="RM21Q0EV__00003QJ00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B280890E01" width="7.1065789991732in" height="6.79160596873893in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000004S3G00HX_02" type-id="02" category="04" proc-id="RM21Q0EV__00003QK00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B280891E01" width="7.1065789991732in" height="3.77967636521123in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000004S3G00HX_03" type-id="02" category="04" proc-id="RM21Q0EV__00003QL00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B280892E01" width="7.1065789991732in" height="5.78762943422969in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

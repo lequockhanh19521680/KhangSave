@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7AVRB_T00AF" variety="T00AF">
+<name>SIDE TURN SIGNAL LIGHT ASSEMBLY (for Front Fender)</name>
+<para id="RM00000113F01AX" category="A" type-id="30014" name-id="LE42V-05" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000113F01AX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004WN00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM00000113F01AX_01" type-id="01" category="01">
+<s-1 id="RM00000113F01AX_01_0007" proc-id="RM21Q0EV__00004WM00000">
+<ptxt>INSTALL SIDE TURN SIGNAL LIGHT LENS GASKET LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Wipe off any tape adhesive residue with cleaner.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a heat light, heat a new side turn signal light lens gasket LH.</ptxt>
+<atten4>
+<ptxt>When installing the side turn signal light lens gasket LH, heat the side turn signal light lens gasket LH with a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Side Turn Signal Light Lens Gasket LH</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Remove the peeling paper from the face of the side turn signal light lens gasket LH.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the a side turn signal light lens gasket LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113F01AX_01_0001" proc-id="RM21Q0EV__00004WJ00000">
+<ptxt>INSTALL SIDE TURN SIGNAL LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the side turn signal light bulb to the side turn signal light socket and wire.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113F01AX_01_0006" proc-id="RM21Q0EV__00004WL00000">
+<ptxt>INSTALL SIDE TURN SIGNAL LIGHT SOCKET AND WIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Turn the side turn signal light socket and wire in the direction indicated by the arrow in the illustration to install it.</ptxt>
+<figure>
+<graphic graphicname="B113208" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113F01AX_01_0002" proc-id="RM21Q0EV__00004WK00000">
+<ptxt>INSTALL SIDE TURN SIGNAL LIGHT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+<figure>
+<graphic graphicname="E229576E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to install the side turn signal light assembly LH as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

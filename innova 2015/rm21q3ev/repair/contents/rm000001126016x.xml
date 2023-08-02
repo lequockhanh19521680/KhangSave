@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T1">
+<name>INTRODUCTION</name>
+<section id="10002_S0001" variety="S0001">
+<name>INTRODUCTION</name>
+<ttl id="10002_S0001_7A7VP_T0003" variety="T0003">
+<name>REPAIR INSTRUCTION</name>
+<para id="RM000001126016X" category="D" type-id="303FL" name-id="IN14I-01" from="201202">
+<name>INITIALIZATION</name>
+<subpara id="RM000001126016X_z0" proc-id="RM21Q0EV__000000500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>PROCEDURES NECESSARY WHEN BATTERY TERMINAL IS DISCONNECTED/RECONNECTED</ptxt>
+<table pgwide="1">
+<title>PROCEDURES NECESSARY WHEN DISCONNECTED/RECONNECTED</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.97in"/>
+<colspec colname="COL2" colwidth="2.97in"/>
+<colspec colname="COL3" colwidth="1.14in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Necessary Procedures</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Effect / Inoperative Function When Necessary Procedures are not Performed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>See Page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Circling calibration</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Compass will not operate properly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref label="Seep01" href="RM0000011J900NX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>PROCEDURES NECESSARY WHEN ECU OR OTHER PARTS ARE REPLACED</ptxt>
+<table pgwide="1">
+<title>PROCEDURES NECESSARY WHEN ECU OR OTHER PARTS ARE REPLACED</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.98in"/>
+<colspec colname="COL2" colwidth="1.98in"/>
+<colspec colname="COL3" colwidth="1.98in"/>
+<colspec colname="COL4" colwidth="1.14in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Replacement Part</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Necessary Procedure</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Effect / Inoperative Function When Necessary Procedures are not Performed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>See Page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>w/ Theft Deterrent System:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Door control receiver assembly</ptxt>
+</item>
+<item>
+<ptxt>Theft warning ECU assembly</ptxt>
+</item>
+<item>
+<ptxt>Key</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Recognition code registration</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wireless door lock control system</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref label="Seep02" href="RM000004SGQ002X"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>w/o Theft Deterrent System:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Door control receiver assembly</ptxt>
+</item>
+<item>
+<ptxt>Key</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Recognition code registration</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wireless door lock control system</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref label="Seep03" href="RM000000Z4Z01ZX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

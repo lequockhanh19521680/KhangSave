@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XP_T0023" variety="T0023">
+<name>AIR CONDITIONING</name>
+<para id="RM000003QB000OX" category="F" type-id="30028" name-id="SS4DV-21" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM000003QB000OX_z0" proc-id="RM21Q0EV__000059D00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>REFRIGERANT LINE</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" align="center" colwidth="1.77in"/>
+<colspec colname="COL3" align="center" colwidth="1.77in"/>
+<colspec colname="COL4" align="center" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Air conditioning tube and accessory assembly x Cooler condenser assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Discharge hose sub-assembly x Cooler condenser assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Discharge hose sub-assembly x Cooler condenser assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Suction hose sub-assembly x Cooler compressor assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Suction hose sub-assembly x Vehicle body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air conditioning tube and accessory assembly x Air conditioning unit assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air conditioning tube and accessory assembly x Vehicle body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air conditioning tube and accessory assembly x Rear cooling unit assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>FRONT AIR CONDITIONING UNIT</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" align="center" colwidth="1.77in"/>
+<colspec colname="COL3" align="center" colwidth="1.77in"/>
+<colspec colname="COL4" align="center" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Instrument panel reinforcement x Vehicle body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>184</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>20</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>204</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Instrument panel reinforcement x Air conditioning unit assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 instrument panel brace sub-assembly x Air conditioning unit assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air conditioning unit assembly x Vehicle body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup cols="4">
+<colspec colname="col1" align="left" colwidth="1.77in"/>
+<colspec colname="col2" align="center" colwidth="1.77in"/>
+<colspec colname="col3" align="center" colwidth="1.77in"/>
+<colspec colname="col4" align="center" colwidth="1.77in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Cooler expansion valve x No. 1 cooler evaporator sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>35</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>REAR AIR CONDITIONING UNIT</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" align="center" colwidth="1.77in"/>
+<colspec colname="COL3" align="center" colwidth="1.77in"/>
+<colspec colname="COL4" align="center" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Air conditioning tube and accessory assembly x Rear cooling unit assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear cooling unit assembly x Vehicle body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Evaporator sub-assembly x Rear cooling unit expansion valve</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>34</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>COMPRESSOR</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" align="center" colwidth="1.77in"/>
+<colspec colname="COL3" align="center" colwidth="1.77in"/>
+<colspec colname="COL4" align="center" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Suction hose sub-assembly x Cooler compressor assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 cooler refrigerant discharge hose x Cooler compressor assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>9.8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>100</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Cooler compressor assembly x Vehicle body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>250</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Magnet clutch assembly x Cooler compressor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>13</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>135</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>CONDENSER</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" align="center" colwidth="1.77in"/>
+<colspec colname="COL3" align="center" colwidth="1.77in"/>
+<colspec colname="COL4" align="center" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Upper radiator support sub-assembly x Vehicle body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>56</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>49 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Upper radiator support sub-assembly x Cooler condenser assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 cooler refrigerant discharge hose x Cooler condenser assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air conditioning tube and accessory assembly x Cooler condenser assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 cooler condenser bracket x Cooler condenser</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>39 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 2 cooler condenser bracket x Cooler condenser</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 3 cooler condenser bracket x Cooler condenser</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>55</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Cooler condenser x Cap</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2.9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>26 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82F_T006T" variety="T006T">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM00000128S033X" category="J" type-id="303PK" name-id="DL0XP-01" from="201202">
+<dtccode/>
+<dtcname>All Doors cannot be Locked / Unlocked Simultaneously</dtcname>
+<subpara id="RM00000128S033X_02" type-id="60" category="03" proc-id="RM21Q0EV__00002FF00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The integration relay drives the door lock motors according to switch signals from the door control switch of the power window regulator master switch and the driver side door key cylinder.</ptxt>
+<ptxt>However, the driver side door key-linked lock / unlock function will not operate when the seat belt is fastened.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM00000128S033X_03" type-id="32" category="03" proc-id="RM21Q0EV__00002FG00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="B118143E04" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="B117230E06" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM00000128S033X_04" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM00000128S033X_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000128S033X_05_0004" proc-id="RM21Q0EV__00002FH00000">
+<testtitle>CHECK DOOR LOCK / UNLOCK OPERATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Proceed to the next step according to the system listed in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Symptom</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>All doors cannot be locked / unlocked at once using door control switch on master switch (switch operation)</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>All doors cannot be locked / unlocked at once using door key cylinder on driver side (key operation)</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Only one door cannot be locked / unlocked</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>All symptoms listed above are present</ptxt>
+</entry>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0005" fin="false">A</down>
+<right ref="RM00000128S033X_05_0007" fin="false">B</right>
+<right ref="RM00000128S033X_05_0010" fin="false">C</right>
+<right ref="RM00000128S033X_05_0012" fin="false">D</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0005" proc-id="RM21Q0EV__00002FI00000">
+<testtitle>INSPECT POWER WINDOW REGULATOR MASTER SWITCH (DOOR CONTROL SWITCH)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B118157E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance of the door control switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>5 - 3</ptxt>
+</entry>
+<entry>
+<ptxt>Lock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 - 3, 8- 3</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>8 - 3</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0006" fin="false">OK</down>
+<right ref="RM00000128S033X_05_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0006" proc-id="RM21Q0EV__00002FJ00000">
+<testtitle>CHECK WIRE HARNESS (MASTER SWITCH - INTEGRATION RELAY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B086801E04" width="2.775699831in" height="5.787629434in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the P5 switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 2A and 2D integration relay connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P5-5 - 2A-4 (L1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-8 - 2D-4 (UL1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-3 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-5 or 2A-4 (L1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-8 or 2D-4 (UL1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0017" fin="true">OK</down>
+<right ref="RM00000128S033X_05_0016" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0007" proc-id="RM21Q0EV__00002FK00000">
+<testtitle>INSPECT FRONT DOOR LOCK (DRIVER SIDE DOOR LOCK MOTOR, DOOR LOCK AND UNLOCK SWITCH)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B065427E12" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Apply battery voltage to the door lock and check the operation of the door lock motor.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 4</ptxt>
+<ptxt>Battery negative (-) → Terminal 1</ptxt>
+</entry>
+<entry>
+<ptxt>Lock </ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 1</ptxt>
+<ptxt>Battery negative (-) → Terminal 4</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<figure>
+<graphic graphicname="B118158E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance of the door lock and unlock switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Door Lock Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>9 - 7</ptxt>
+</entry>
+<entry>
+<ptxt>Lock </ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>9 - 7, 10 - 7</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>10 - 7</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>w/ Theft Deterrent System:</ptxt>
+<ptxt>Measure the resistance of the detection switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>7 - 8</ptxt>
+</entry>
+<entry>
+<ptxt>Lock </ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>7 - 8</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0008" fin="false">OK</down>
+<right ref="RM00000128S033X_05_0018" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0008" proc-id="RM21Q0EV__00002FL00000">
+<testtitle>INSPECT FRONT SEAT INNER BELT (FOR DRIVER SIDE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B085672E10" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance of the buckle switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Seat belt is unfastened</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Seat belt is fastened</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0009" fin="false">OK</down>
+<right ref="RM00000128S033X_05_0019" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0009" proc-id="RM21Q0EV__00002FM00000">
+<testtitle>CHECK WIRE HARNESS (DRIVER SIDE DOOR LOCK - INTEGRATION RELAY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B118172E06" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the D8 door lock connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 2A and 2D integration relay connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D8-10 - 2D-4 (UL1)</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-9 - 2A-4 (L1)</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-7 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Driver seat belt is not fastened</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-8 - 2D-7 (LSWD)*</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-10 or 2D-4 (UL1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-6 or 2A-4 (L1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-8 or 2D-7 (LSWD) - Body ground*</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>*: w/ Theft Deterrent system</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0028" fin="true">OK</down>
+<right ref="RM00000128S033X_05_0020" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0010" proc-id="RM21Q0EV__00002FN00000">
+<testtitle>INSPECT DOOR LOCK (DRIVER SIDE, PASSENGER SIDE, REAR LH, REAR RH AND BACK DOOR)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B086810E02" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<test1>
+<ptxt>Apply battery voltage to the door lock and check the operation of the door lock motor.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<title>Driver side, Passenger side, Rear LH, Rear RH</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 4</ptxt>
+<ptxt>Battery negative (-) → Terminal 1</ptxt>
+</entry>
+<entry>
+<ptxt>Lock </ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 1</ptxt>
+<ptxt>Battery negative (-) → Terminal 4</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all">
+<title>Back door</title>
+<tgroup cols="2">
+<colspec colname="col1" colwidth="2.07in"/>
+<colspec colname="col2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 4</ptxt>
+<ptxt>Battery negative (-) → Terminal 3</ptxt>
+</entry>
+<entry>
+<ptxt>Lock </ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 3</ptxt>
+<ptxt>Battery negative (-) → Terminal 4</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0011" fin="false">OK</down>
+<right ref="RM00000128S033X_05_0021" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0011" proc-id="RM21Q0EV__00002FO00000">
+<testtitle>CHECK WIRE HARNESS (DOOR LOCK - INTEGRATION RELAY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B086802E01" width="2.775699831in" height="7.795582503in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the D8, D9, D10 and D11 door lock connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the B9 back door lock connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 2K and 2R integration relay connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D8-4 - 2R-28 (ACT+)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-1 - 2R-27 (ACT-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D9-4 - 2K-11 (ACT+)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D9-1 - 2K-10 (ACT-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D10-4 - 2R-28 (ACT+)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D10-1 - 2R-27 (ACT-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D11-4 - 2K-11 (ACT+)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D11-1 - 2K-10 (ACT-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B9-4 - 2K-11 (ACT+)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B9-3 - 2K-10 (ACT-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-4 or 2R-28 (ACT+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D8-1 or 2R-27 (ACT-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D9-4 or 2K-11 (ACT+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D9-1 or 2K-10 (ACT-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D10-4 or 2R-28 (ACT+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D10-1 or 2R-27 (ACT-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D11-4 or 2K-11 (ACT+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D11-1 or 2K-10 (ACT-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B9-4 or 2K-11 (ACT+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B9-3 or 2K-10 (ACT-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0023" fin="true">OK</down>
+<right ref="RM00000128S033X_05_0022" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0012" proc-id="RM21Q0EV__00002FP00000">
+<testtitle>INSPECT FUSE (ECU-B, DCC, DOOR)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ECU-B and DCC fuses from the engine room relay block.</ptxt>
+</test1>
+<test1>
+<ptxt>Remove the DOOR fuse from the No. 3 relay block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the fuses.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0013" fin="false">OK</down>
+<right ref="RM00000128S033X_05_0024" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0013" proc-id="RM21Q0EV__00002FQ00000">
+<testtitle>CHECK WIRE HARNESS (INTEGRATION RELAY - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B111994E01" width="2.775699831in" height="6.791605969in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the 2D, 2H and 2L integration relay connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage and resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>2L-12 (BECU) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2H-4 (ALTB) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>2D-9 (GND) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2D-18 (GND) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0014" fin="false">OK</down>
+<right ref="RM00000128S033X_05_0025" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0014" proc-id="RM21Q0EV__00002FR00000">
+<testtitle>CHECK WIRE HARNESS (MASTER SWITCH - INTEGRATION RELAY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="B086801E05" width="2.775699831in" height="5.787629434in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the P5 switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 2A and 2D integration relay connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P5-5 - 2A-4 (L1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-8 - 2D-4 (UL1)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-3 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-5 or 2A-4 (L1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P5-8 or 2D-4 (UL1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000128S033X_05_0027" fin="true">OK</down>
+<right ref="RM00000128S033X_05_0026" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0015">
+<testtitle>REPLACE POWER WINDOW REGULATOR MASTER SWITCH</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0016">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0017">
+<testtitle>REPLACE DRIVER SIDE JUNCTION BLOCK (INTEGRATION RELAY)</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0018">
+<testtitle>REPLACE FRONT DOOR LOCK (DRIVER SIDE)</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0019">
+<testtitle>REPLACE FRONT SEAT INNER BELT (FOR DRIVER SIDE)</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0020">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0028">
+<testtitle>REPLACE DRIVER SIDE JUNCTION BLOCK (INTEGRATION RELAY)</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0021">
+<testtitle>REPLACE DOOR LOCK</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0022">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0023">
+<testtitle>REPLACE DRIVER SIDE JUNCTION BLOCK (INTEGRATION RELAY)</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0024">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0025">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0026">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000128S033X_05_0027">
+<testtitle>REPLACE DRIVER SIDE JUNCTION BLOCK (INTEGRATION RELAY)</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

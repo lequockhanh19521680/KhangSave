@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80M_T0050" variety="T0050">
+<name>REAR BRAKE</name>
+<para id="RM0000010QQ00VX" category="A" type-id="80001" name-id="BR0HT-02" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010QQ00VX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001QZ00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010QQ00VX_02" type-id="01" category="01">
+<s-1 id="RM0000010QQ00VX_02_0004" proc-id="RM21Q0EV__00001R200000">
+<ptxt>CHECK BRAKE SHOE LINING THICKNESS</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F051813" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the hole plug (check), and check the shoe lining thickness through the hole.</ptxt>
+<spec>
+<title>Minimum thickness</title>
+<specitem>
+<ptxt>1.0 mm (0.039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the thickness is less than the minimum, replace the shoe.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QQ00VX_02_0001">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010QQ00VX_02_0002" proc-id="RM21Q0EV__00001R000000">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wash off brake fluid immediately if it comes in contact with any painted surface.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010QQ00VX_02_0003" proc-id="RM21Q0EV__00001R100000">
+<ptxt>REMOVE REAR BRAKE DRUM SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Release the parking brake lever, and remove the drum.</ptxt>
+<atten4>
+<ptxt>If the drum cannot be removed easily, perform the following procedures.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F049744E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the hole plug (adjust) and insert a screwdriver into the hole on the backing plate, and hold the automatic adjust lever away from the adjuster.</ptxt>
+</s2>
+<s2>
+<ptxt>Using another screwdriver, compress the brake shoe adjuster by turning the adjusting wheel.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

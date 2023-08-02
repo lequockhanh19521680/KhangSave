@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T1">
+<name>INTRODUCTION</name>
+<section id="10002_S0001" variety="S0001">
+<name>INTRODUCTION</name>
+<ttl id="10002_S0001_7A7VQ_T0004" variety="T0004">
+<name>HOW TO TROUBLESHOOT ECU CONTROLLED SYSTEMS</name>
+<para id="RM000000UZ20AZX" category="F" type-id="3001Z" name-id="IN00X-05" from="201202">
+<name>GENERAL INFORMATION</name>
+<subpara id="RM000000UZ20AZX_z0" proc-id="RM21Q0EV__000000600000">
+<content5 releasenbr="1">
+<list1 type="nonmark">
+<item>
+<ptxt>A large number of ECU controlled systems are used in the TOYOTA INNOVA. In general, ECU controlled systems are considered to be very intricate, requiring a high level of technical knowledge to troubleshoot. However, most problem checking procedures only involve inspecting the ECU controlled system's circuits one by one. An adequate understanding of the system and a basic knowledge of electricity is enough to perform effective troubleshooting, accurate diagnoses and necessary repairs.</ptxt>
+</item>
+</list1>
+<step1>
+<ptxt>TROUBLESHOOTING PROCEDURES</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The troubleshooting procedures consist of diagnosis procedures for when a DTC is stored and diagnosis procedures for when no DTC is stored. The basic idea is explained in the following table.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Procedure Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Details</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Troubleshooting Method</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>DTC Based Diagnosis</ptxt>
+</entry>
+<entry>
+<ptxt>The diagnosis procedure is based on the DTC that is stored.</ptxt>
+</entry>
+<entry>
+<ptxt>The malfunctioning part is identified based on the DTC detection conditions using a process of elimination.</ptxt>
+<ptxt>The possible trouble areas are eliminated one-by-one by use of the intelligent tester and inspection of related parts.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Symptom Based Diagnosis</ptxt>
+<ptxt>(No DTCs stored)</ptxt>
+</entry>
+<entry>
+<ptxt>The diagnosis procedure is based on problem symptoms.</ptxt>
+</entry>
+<entry>
+<ptxt>The malfunctioning part is identified based on the problem symptoms using a process of elimination.</ptxt>
+<ptxt>The possible trouble areas are eliminated one-by-one by use of the intelligent tester and inspection of related parts.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>Vehicle systems are complex and use many ECUs that are difficult to inspect independently. Therefore, a process of elimination is used, where components that can be inspected individually are inspected, and if no problems are found in these components, the related ECU is identified as the problem and replaced.</ptxt>
+</item>
+<item>
+<ptxt>It is extremely important to ask the customer about the environment and the conditions present when the problem occurred (Customer Problem Analysis). This makes it possible to simulate the conditions and confirm the symptom. If the symptom cannot be confirmed or the DTC does not recur, the malfunctioning part may not be identified using the troubleshooting procedure, and the ECU for the related system may be replaced even though it is not defective. If this happens, the original problem will not be solved.</ptxt>
+</item>
+<item>
+<ptxt>In order to prevent endless expansion of troubleshooting procedures, the troubleshooting procedures are written with the assumption that multiple malfunctions do not occur simultaneously for a single problem symptom. </ptxt>
+</item>
+<item>
+<ptxt>To identify the malfunctioning part, troubleshooting procedures narrow down the target by separating components, ECUs and wire harnesses during the inspection. If the wire harness is identified as the cause of the problem, it is necessary to inspect not only the connections to components and ECUs but also all of the wire harness connectors between the component and the ECU. </ptxt>
+</item>
+</list1>
+</step1>
+<list1 type="nonmark">
+<figure>
+<graphic graphicname="C108852E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<item>
+<ptxt>FOR USING INTELLIGENT TESTER</ptxt>
+</item>
+<list2 type="nonmark">
+<item>
+<ptxt>Connect the cable of the intelligent tester to the DLC3, turn the ignition switch ON and attempt to use the tester. If the display indicates that a communication error has occurred, there is a problem either with the vehicle or with the tester.</ptxt>
+</item>
+<list3 type="unordered">
+<item>
+<ptxt>If communication is normal when the tester is connected to another vehicle, inspect the DLC3 of the original vehicle.</ptxt>
+</item>
+</list3>
+<list3 type="unordered">
+<item>
+<ptxt>If communication is still not possible when the tester is connected to another vehicle, the problem may be in the tester itself. Consult the Service Department listed in the tester's instruction manual.</ptxt>
+</item>
+</list3>
+</list2>
+</list1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

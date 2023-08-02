@@ -1,0 +1,1404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y8_T002M" variety="T002M">
+<name>ENGINE UNIT</name>
+<para id="RM000000YMW018X" category="A" type-id="80002" name-id="EMFIG-01" from="201202" to="201503">
+<name>DISASSEMBLY</name>
+<subpara id="RM000000YMW018X_01" type-id="01" category="01">
+<s-1 id="RM000000YMW018X_01_0001">
+<ptxt>REMOVE OIL FILLER CAP</ptxt>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0002">
+<ptxt>REMOVE VENTILATION VALVE</ptxt>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0003" proc-id="RM21Q0EV__00000KC00000">
+<ptxt>REMOVE CYLINDER HEAD COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 19 bolts, 2 nuts, cover and 2 gaskets.</ptxt>
+<figure>
+<graphic graphicname="G035202E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0004" proc-id="RM21Q0EV__00000KD00000">
+<ptxt>REMOVE CRANKSHAFT PULLEY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A097861E04" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Turn the crankshaft pulley, and align its groove with timing mark 0 of the timing chain cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the timing marks of the camshaft timing gear and sprocket are aligned with the timing marks of the No. 1 bearing cap, as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, hold the crankshaft pulley and remove the pulley set bolt.</ptxt>
+<figure>
+<graphic graphicname="A099211E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09213-54015</s-number>
+<s-subnumber>91651-60855</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using the set bolt and SST, remove the pulley bolt and pulley. </ptxt>
+<figure>
+<graphic graphicname="G035121E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09950-50013</s-number>
+<s-subnumber>09951-05010</s-subnumber>
+<s-subnumber>09952-05010</s-subnumber>
+<s-subnumber>09953-05010</s-subnumber>
+<s-subnumber>09954-05021</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0050" proc-id="RM21Q0EV__00000L900000">
+<ptxt>REMOVE NO. 2 OIL PAN
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the drain plug and gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 20 bolts and 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert the blade of an oil pan seal cutter between the oil pans. Cut through the applied sealer and remove the oil pan.</ptxt>
+<figure>
+<graphic graphicname="A099215E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the contact surfaces of the oil pans.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMW018X_01_0051" proc-id="RM21Q0EV__00000LA00000">
+<ptxt>REMOVE OIL STRAINER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, 2 nuts, oil strainer and gasket.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMW018X_01_0052" proc-id="RM21Q0EV__00000LB00000">
+<ptxt>REMOVE NO. 1 OIL PAN
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 16 bolts and 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the oil pan by prying between the oil pan and cylinder block with a screwdriver.</ptxt>
+<figure>
+<graphic graphicname="G036411E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Be careful not to damage the contact surfaces of the cylinder block and oil pan.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the O-ring.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMW018X_01_0053" proc-id="RM21Q0EV__00000LC00000">
+<ptxt>REMOVE TIMING CHAIN COVER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 19 bolts and 2 nuts shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G036504E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the timing chain cover by prying between the timing chain cover and cylinder head or cylinder block with a screwdriver.</ptxt>
+<figure>
+<graphic graphicname="A097897E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Be careful not to damage the contact surfaces of the cylinder head, cylinder block and timing chain cover.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the 3 O-rings.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 10 mm socket hexagon wrench, remove the timing chain cover plug.</ptxt>
+<figure>
+<graphic graphicname="G036021E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMW018X_01_0054" proc-id="RM21Q0EV__00000LD00000">
+<ptxt>REMOVE WATER PUMP ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 8 bolts, water pump and gasket.</ptxt>
+<figure>
+<graphic graphicname="A087223E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMW018X_01_0049" proc-id="RM21Q0EV__00000J500000">
+<ptxt>REMOVE TIMING CHAIN COVER OIL SEAL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place the timing chain cover on wooden blocks.</ptxt>
+<figure>
+<graphic graphicname="A097898E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver with its tip taped, pry out the oil seal.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in a new oil seal until its surface is flush with the timing chain cover edge.</ptxt>
+<figure>
+<graphic graphicname="A172563E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09223-75010</s-number>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07150</s-subnumber>
+</sstitem>
+</sst>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Keep the lip free from foreign matter.</ptxt>
+</item>
+<item>
+<ptxt>Do not tap the oil seal at an angle.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>When installing the crankshaft pulley, check the shape of the pulley. The correct pulley has a groove (See page <xref label="Seep01" href="RM000000YMX019X_01_0055"/>).</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Apply a light coat of MP grease to the oil seal lip.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMW018X_01_0055" proc-id="RM21Q0EV__00000LE00000">
+<ptxt>REMOVE OIL PUMP RELIEF VALVE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 27 mm socket wrench, remove the plug and gasket.</ptxt>
+<figure>
+<graphic graphicname="A086864E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the valve spring and relief valve.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMW018X_01_0012" proc-id="RM21Q0EV__00000KE00000">
+<ptxt>REMOVE TIMING CHAIN GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts, timing chain guide and O-ring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0013" proc-id="RM21Q0EV__00000KF00000">
+<ptxt>REMOVE TIMING CHAIN TENSIONER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A097899E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When the chain tensioner is removed, do not rotate the crankshaft.</ptxt>
+</item>
+<item>
+<ptxt>When the chain is removed and the camshaft needs to be rotated, rotate the crankshaft 90° to the right.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Move the stopper plate upward to release the lock, and push the plunger deep into the tensioner.</ptxt>
+</s2>
+<s2>
+<ptxt>Move the stopper plate downward to set the lock, and insert a 1.27 mm hexagon wrench into the stopper plate's hole.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt, nut, chain tensioner and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0014" proc-id="RM21Q0EV__00000KG00000">
+<ptxt>REMOVE CHAIN TENSIONER SLIPPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and tensioner slipper.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0015" proc-id="RM21Q0EV__00000KH00000">
+<ptxt>REMOVE VIBRATION DAMPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and vibration damper.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0016">
+<ptxt>REMOVE TIMING CHAIN</ptxt>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0017">
+<ptxt>REMOVE CRANKSHAFT TIMING SPROCKET</ptxt>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0018">
+<ptxt>REMOVE CRANKSHAFT POSITION SENSOR PLATE</ptxt>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0019" proc-id="RM21Q0EV__00000KI00000">
+<ptxt>REMOVE CRANKSHAFT PULLEY SET KEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 pulley set keys from the crankshaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0020" proc-id="RM21Q0EV__00000KJ00000">
+<ptxt>REMOVE OIL JET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, oil jet and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0021" proc-id="RM21Q0EV__00000KK00000">
+<ptxt>REMOVE CAMSHAFT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Uniformly loosen the 21 bearing cap bolts in several passes in the order shown in the illustration. Then remove the oil delivery pipe, O-ring and 9 bearing caps. </ptxt>
+<figure>
+<graphic graphicname="A097866E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 9 bearing caps, oil delivery pipe, O-ring and 2 camshafts.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Place the camshaft on a flat surface, maintain this position and loosen the bolts uniformly.</ptxt>
+</item>
+<item>
+<ptxt>Do not pry the camshaft with a tool by applying excessive force to it.</ptxt>
+</item>
+<item>
+<ptxt>Do not damage the reception part of the camshaft on the cylinder head side.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0022" proc-id="RM21Q0EV__00000KL00000">
+<ptxt>REMOVE CAMSHAFT TIMING SPROCKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fix the camshaft in place with a vise, and then remove the sprocket bolt and camshaft timing sprocket. </ptxt>
+<figure>
+<graphic graphicname="A086867E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the camshaft.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0023" proc-id="RM21Q0EV__00000KM00000">
+<ptxt>REMOVE CAMSHAFT TIMING GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A097871E07" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the flange bolt of the camshaft timing gear. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be sure not to remove the other 3 bolts.</ptxt>
+</item>
+<item>
+<ptxt>If planning to reuse the gear, be sure to release the straight pin lock before installing the gear.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0024" proc-id="RM21Q0EV__00000KN00000">
+<ptxt>REMOVE CYLINDER HEAD</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A097901E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a 10 mm bi-hexagon wrench, uniformly loosen the 10 bolts in the sequence shown in the illustration. Remove the 10 cylinder head bolts and plate washers. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to drop washers into the cylinder head.</ptxt>
+</item>
+<item>
+<ptxt>Head warpage or cracking could result from removing bolts in an incorrect order.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the cylinder head and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0025" proc-id="RM21Q0EV__00000KO00000">
+<ptxt>REMOVE OIL FILTER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, remove the oil filter.</ptxt>
+<figure>
+<graphic graphicname="A097902E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09228-07501</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0026" proc-id="RM21Q0EV__00000KP00000">
+<ptxt>REMOVE OIL FILTER UNION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 27 mm socket wrench, remove the oil filter union.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0027" proc-id="RM21Q0EV__00000KQ00000">
+<ptxt>REMOVE OIL FILTER BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the oil filter bracket union bolt, gasket and oil filter union.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the oil filter bracket and O-ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the oil filter bracket union bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0028" proc-id="RM21Q0EV__00000KR00000">
+<ptxt>REMOVE ENGINE REAR OIL SEAL RETAINER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 6 bolts.</ptxt>
+<figure>
+<graphic graphicname="A097903E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver with its tip taped, pry out the oil seal retainer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0030" proc-id="RM21Q0EV__00000KS00000">
+<ptxt>REMOVE VALVE ROCKER ARM</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Each rocker arm must be reinstalled to its original location.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0031" proc-id="RM21Q0EV__00000KT00000">
+<ptxt>REMOVE VALVE STEM CAP</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Each valve stem cap must be reinstalled to its original location.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0032" proc-id="RM21Q0EV__00000KU00000">
+<ptxt>REMOVE VALVE LASH ADJUSTER</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Each lash adjuster must be reinstalled to its original location.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0033" proc-id="RM21Q0EV__00000KV00000">
+<ptxt>REMOVE INTAKE VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and wooden blocks, compress the compression spring and remove the valve retainer locks.</ptxt>
+<figure>
+<graphic graphicname="A097931E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09202-70020</s-number>
+<s-subnumber>09202-00010</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the retainer, compression spring, valve, valve spring and spring seat.</ptxt>
+<atten4>
+<ptxt>Each intake valve must be reinstalled to its original location.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0034" proc-id="RM21Q0EV__00000KW00000">
+<ptxt>REMOVE EXHAUST VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and wooden blocks, compress the compression spring and remove the valve retainer locks. </ptxt>
+<figure>
+<graphic graphicname="A097932E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09202-70020</s-number>
+<s-subnumber>09202-00010</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the retainer, compression spring, valve, valve spring and spring seat. </ptxt>
+<atten4>
+<ptxt>Each exhaust valve must be reinstalled to its original location.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0035" proc-id="RM21Q0EV__00000KX00000">
+<ptxt>REMOVE VALVE STEM OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using needle-nose pliers, remove the oil seal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0036" proc-id="RM21Q0EV__00000KY00000">
+<ptxt>REMOVE OIL CONTROL VALVE FILTER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using an 8 mm hexagon wrench, remove the screw plug.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the oil control valve filter and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0037" proc-id="RM21Q0EV__00000KZ00000">
+<ptxt>REMOVE NO. 1 HEAD STRAIGHT SCREW PLUG</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A097933E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a 10 mm hexagon wrench, remove the 3 screw plugs.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0038" proc-id="RM21Q0EV__00000L000000">
+<ptxt>REMOVE NO. 2 HEAD STRAIGHT SCREW PLUG</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A097934E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a 9 mm hexagon wrench, remove the screw plug.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0045" proc-id="RM21Q0EV__00000L500000">
+<ptxt>INSPECT CONNECTING ROD THRUST CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the thrust clearance while moving the connecting rod back and forth.</ptxt>
+<figure>
+<graphic graphicname="A087181E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard thrust clearance</title>
+<specitem>
+<ptxt>0.15 to 0.35 mm (0.006 to 0.014 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum thrust clearance</title>
+<specitem>
+<ptxt>0.40 mm (0.016 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the thrust clearance is greater than the maximum, replace the connecting rod assembly(s). If necessary, replace the crankshaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0046" proc-id="RM21Q0EV__00000L600000">
+<ptxt>INSPECT CONNECTING ROD OIL CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the matchmarks on the connecting rod and cap are aligned to ensure the correct reassembly.</ptxt>
+<atten4>
+<ptxt>The matchmarks on the connecting rods and caps are for ensuring the correct reassembly.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the 2 connecting rod cap bolts.</ptxt>
+<figure>
+<graphic graphicname="G036554E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using the 2 removed connecting rod cap bolts, remove the connecting rod cap and lower bearing by wiggling the connecting rod cap right and left.</ptxt>
+<atten4>
+<ptxt>Keep the lower bearing inserted to the connecting rod cap.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Clean the crank pin and bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the crank pin and bearing for pitting and scratches.</ptxt>
+</s2>
+<s2>
+<ptxt>Lay a strip of Plastigage on the crank pin.</ptxt>
+<figure>
+<graphic graphicname="A097948E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the connecting rod cap.</ptxt>
+<figure>
+<graphic graphicname="A097980E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not turn the crankshaft.</ptxt>
+</atten3>
+<s3>
+<ptxt>Match the numbered connecting rod cap with the connecting rod.</ptxt>
+</s3>
+<s3>
+<ptxt>Align the pins of the connecting rod cap with the pin holes of the connecting rod, and install the connecting rod cap.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the front mark of the connecting rod cap is facing forward.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the connecting rod cap bolts.</ptxt>
+<figure>
+<graphic graphicname="G035198E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The connecting rod cap bolts are tightened in 2 progressive steps.</ptxt>
+</item>
+<item>
+<ptxt>If any connecting rod bolt is broken or deformed, replace it.</ptxt>
+</item>
+</list1>
+</atten4>
+<s3>
+<ptxt>Apply a light coat of engine oil on the threads and under the heads of the connecting rod cap bolts.</ptxt>
+</s3>
+<s3>
+<ptxt>Install and alternately tighten the bolts of the connecting rod cap in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>24.5</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+<ptxt>If any one of the connecting rod cap bolts does not meet the torque specification, replace the cap bolts.</ptxt>
+</s3>
+<s3>
+<ptxt>Mark the front of the connecting rod cap bolts with paint.</ptxt>
+<figure>
+<graphic graphicname="A099641E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Retighten the connecting rod cap bolts by 90° as shown.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the painted mark is now at a 90° angle to the front.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and connecting rod cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Measure the Plastigage at its widest point.</ptxt>
+<figure>
+<graphic graphicname="A087186E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard oil clearance</title>
+<specitem>
+<ptxt>0.039 to 0.066 mm (0.0015 to 0.0026 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the crank pin or bearing is damaged, replace the bearings. If necessary, replace the crankshaft.</ptxt>
+<figure>
+<graphic graphicname="A097950E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>If replacing a bearing, replace it with one that has the same number as its respective connecting rod cap. Each bearing's standard thickness is indicated by a 4, 5 or 6 mark on its surface.</ptxt>
+</atten4>
+<spec>
+<title>Standard bearing center wall thickness</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Mark</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>4</ptxt>
+</entry>
+<entry>
+<ptxt>1.484 to 1.487 mm (0.0584 to 0.0585 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5</ptxt>
+</entry>
+<entry>
+<ptxt>1.488 to 1.490 mm (0.0586 to 0.0587 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6</ptxt>
+</entry>
+<entry>
+<ptxt>1.491 to 1.493 mm (0.0587 to 0.0588 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Completely remove the Plastigage.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0044" proc-id="RM21Q0EV__00000L400000">
+<ptxt>REMOVE PISTON WITH CONNECTING ROD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a ridge reamer, remove all the carbon from the top of the cylinder.</ptxt>
+<figure>
+<graphic graphicname="G035191E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Push the piston, connecting rod assembly and upper bearing through the top of the cylinder block.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Keep the bearing, connecting rod and cap together.</ptxt>
+</item>
+<item>
+<ptxt>Arrange the piston and connecting rod assemblies in the correct order.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0047" proc-id="RM21Q0EV__00000L700000">
+<ptxt>INSPECT CRANKSHAFT THRUST CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the thrust clearance while prying the crankshaft back and forth with a screwdriver.</ptxt>
+<figure>
+<graphic graphicname="A087188E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard thrust clearance</title>
+<specitem>
+<ptxt>0.020 to 0.220 mm (0.0008 to 0.0087 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum thrust clearance</title>
+<specitem>
+<ptxt>0.30 mm (0.0118 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the thrust clearance is greater than the maximum, replace the thrust washers as a set.</ptxt>
+<spec>
+<title>Thrust washer thickness</title>
+<specitem>
+<ptxt>2.440 to 2.490 mm (0.0961 to 0.0980 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0048" proc-id="RM21Q0EV__00000L800000">
+<ptxt>INSPECT CRANKSHAFT OIL CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Uniformly loosen the 10 bearing cap bolts in several passes in the sequence shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097951E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 10 bearing caps.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Keep the lower bearings and crankshaft bearing caps together.</ptxt>
+</item>
+<item>
+<ptxt>Arrange the thrust washers in the correct order.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Clean each main journal and bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Check each main journal and bearing for pitting and scratches.</ptxt>
+<ptxt>If the journal or bearing is damaged, replace the bearings. If necessary, grind or replace the crankshaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the crankshaft on the cylinder block.</ptxt>
+</s2>
+<s2>
+<ptxt>Lay a strip of Plastigage across each journal.</ptxt>
+<figure>
+<graphic graphicname="A097962E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the 5 crankshaft bearing caps in their proper locations.</ptxt>
+<figure>
+<graphic graphicname="A097963E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not turn the crankshaft.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the crankshaft bearing cap bolts.</ptxt>
+<figure>
+<graphic graphicname="A097951E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The main bearing cap bolts are tightened in 2 progressive steps.</ptxt>
+</item>
+<item>
+<ptxt>If any of the main bearing cap bolts are broken or deformed, replace them as necessary.</ptxt>
+</item>
+</list1>
+</atten4>
+<s3>
+<ptxt>Install and uniformly tighten the 10 main bearing cap bolts in the sequence shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>39</t-value1>
+<t-value2>398</t-value2>
+<t-value4>29</t-value4>
+</torqueitem>
+</torque>
+<ptxt>If any one of the main bearing cap bolts does not meet the torque specification, replace the main bearing cap bolt.</ptxt>
+</s3>
+<s3>
+<ptxt>Mark the front of the bearing cap bolts with paint.</ptxt>
+<figure>
+<graphic graphicname="A099641E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Retighten the bearing cap bolts by 90° in the numerical order above.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the painted mark is now at a 90°angle to the front.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the 10 bolts and 5 crankshaft bearing caps in the same order in which they were removed above.</ptxt>
+</s2>
+<s2>
+<ptxt>for Type A:</ptxt>
+<ptxt>Measure the Plastigage at its widest point.</ptxt>
+<figure>
+<graphic graphicname="A087199E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard oil clearance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Standard Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 3 journal</ptxt>
+</entry>
+<entry>
+<ptxt>0.030 to 0.055 mm (0.0012 to 0.0022 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Other journal</ptxt>
+</entry>
+<entry>
+<ptxt>0.024 to 0.049 mm (0.0009 to 0.0019 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Maximum oil clearance</title>
+<specitem>
+<ptxt>0.10 mm (0.0039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the oil clearance is greater than the maximum, replace the crankshaft bearings. If necessary, replace the crankshaft.</ptxt>
+<figure>
+<graphic graphicname="A097964E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>If replacing the cylinder block, the bearing standard clearance will be 0.030 to 0.055 mm (0.0012 to 0.0022 in.).</ptxt>
+</atten4>
+<atten4>
+<ptxt>If replacing a bearing, first check the number on the cylinder block for the bearing's respective journal. Then replace the bearing with one that has the same number. Each bearing's standard thickness is indicated by a 1, 2 or 3 mark on its surface.</ptxt>
+</atten4>
+<spec>
+<title>Cylinder Block Main Journal Bore Diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Mark</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1</ptxt>
+</entry>
+<entry>
+<ptxt>64.004 to 64.010 mm (2.5198 to 2.5201 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>64.011 to 64.016 mm (2.5201 to 2.5203 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>64.017 to 64.022 mm (2.5203 to 2.5206 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard Bearing Center Wall Thickness</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Mark</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1</ptxt>
+</entry>
+<entry>
+<ptxt>1.987 to 1.990 mm (0.0782 to 0.0783 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>1.990 to 1.993 mm (0.0783 to 0.0785 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>1.993 to 1.996 mm (0.0785 to 0.0786 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>for Type B:</ptxt>
+<ptxt>Measure the Plastigage at its widest point.</ptxt>
+<figure>
+<graphic graphicname="A337686E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4" align="left">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plastigage</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Journal</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 2 Journal</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 3 Journal</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 4 Journal</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*f</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 5 Journal</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*g</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cylinder Block Journal Code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Crankshaft Bearing Code</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*i</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bearing Code Chart</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard Oil Clearance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>No. 3 Journal</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0.030 to 0.055 mm (0.00118 to 0.00217 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Other Journal</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0.024 to 0.049 mm (0.000945 to 0.00193 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Maximum oil clearance</title>
+<specitem>
+<ptxt>0.10 mm (0.0039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the oil clearance is more than the maximum, replace the crankshaft bearing.</ptxt>
+<ptxt>If replacing the cylinder block, measure the bearing standard clearance.</ptxt>
+<ptxt>Check the cylinder block journal code and refer to the crankshaft bearing selection chart to select a bearing size.</ptxt>
+<ptxt>(Example): When the cylinder block journal code is "D", select crankshaft bearing selection code "2" from the crankshaft bearing selection chart.</ptxt>
+<spec>
+<title>Cylinder Block Main Journal Bore Diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.004 to 64.006 mm (2.51984 to 2.51992 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.007 to 64.008 mm (2.51996 to 2.51999 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.009 to 64.010 mm (2.52003 to 2.52007 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.011 to 64.012 mm (2.52011 to 2.52015 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark E</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.013 to 64.014 mm (2.52019 to 2.52023 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark F</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.015 to 64.016 mm (2.52027 to 2.52031 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark G</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.017 to 64.018 mm (2.52035 to 2.52039 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark H</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.019 to 64.020 mm (2.52043 to 2.52047 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark J</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64.021 to 64.022 mm (2.52051 to 2.52055 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard Bearing Center Wall Thickness</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark 1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.987 to 1.990 mm (0.07823 to 0.07835 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.991 to 1.993 mm (0.07839 to 0.07846 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark 3</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.994 to 1.996 mm (0.07850 to 0.07858 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Completely remove the Plastigage.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0041" proc-id="RM21Q0EV__00000L200000">
+<ptxt>REMOVE CRANKSHAFT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lift out the crankshaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the upper bearings and upper thrust washers from the cylinder block. </ptxt>
+<atten4>
+<ptxt>Arrange the main bearing caps, bearings and thrust washers in the correct order.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0040" proc-id="RM21Q0EV__00000L100000">
+<ptxt>REMOVE PISTON WITH PIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fit between the piston and piston pin. </ptxt>
+<figure>
+<graphic graphicname="G035197E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Try to move the piston back and forth on the piston pin. </ptxt>
+<ptxt>If any movement is felt, replace the piston and pin as a set.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the piston rings. </ptxt>
+<figure>
+<graphic graphicname="A087190E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a piston ring expander, remove the 2 compression rings.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the rail and expander by hand. </ptxt>
+<atten4>
+<ptxt>Arrange the piston rings in the correct order only.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Disconnect the connecting rod from the piston. </ptxt>
+<figure>
+<graphic graphicname="G035729E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a small screwdriver, pry off the snap ring from the piston.</ptxt>
+</s3>
+<s3>
+<ptxt>Gradually heat the piston to approximately 80 to 90°C (176 to 194°F).</ptxt>
+<figure>
+<graphic graphicname="A001178E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Using a brass bar and plastic-faced hammer, lightly tap out the piston pin and remove the connecting rod. </ptxt>
+<figure>
+<graphic graphicname="G036556E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The piston and pin are a matched set.</ptxt>
+</item>
+<item>
+<ptxt>Arrange the pistons, pins, rings, connecting rods and bearings in the correct order.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0042">
+<ptxt>REMOVE CYLINDER BLOCK WATER DRAIN COCK</ptxt>
+</s-1>
+<s-1 id="RM000000YMW018X_01_0043" proc-id="RM21Q0EV__00000L300000">
+<ptxt>REMOVE OIL NOZZLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 5 mm hexagon wrench, remove the oil nozzle.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

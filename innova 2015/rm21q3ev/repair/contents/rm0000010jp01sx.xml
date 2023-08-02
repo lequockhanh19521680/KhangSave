@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80E_T004S" variety="T004S">
+<name>FRONT SPEED SENSOR</name>
+<para id="RM0000010JP01SX" category="A" type-id="80001" name-id="BC5T4-02" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010JP01SX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001LJ00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>Other than areas where instructions are provided, use the same procedures for the LH side and RH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010JP01SX_02" type-id="01" category="01">
+<s-1 id="RM0000010JP01SX_02_0001" proc-id="RM21Q0EV__00001LK00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JP01SX_02_0004">
+<ptxt>REMOVE FRONT WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010JP01SX_02_0002" proc-id="RM21Q0EV__00001LL00000">
+<ptxt>REMOVE FRONT SPEED SENSOR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+<figure>
+<graphic graphicname="C188015E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 2 clamps and the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the clamp and remove the bolt and harness clamp.</ptxt>
+<figure>
+<graphic graphicname="C189975E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the bolt and harness clamp.</ptxt>
+<figure>
+<graphic graphicname="C188000E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts, 2 harness clamps and speed sensor.</ptxt>
+<figure>
+<graphic graphicname="C187999E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>Keep the sensor tip and sensor installation hole free from foreign matter.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

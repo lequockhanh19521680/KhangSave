@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W770P9X" category="D" type-id="303F4" name-id="AT0037-159" from="201202">
+<name>DTC CHECK / CLEAR</name>
+<subpara id="RM000000W770P9X_z0" proc-id="RM21Q0EV__000018500000">
+<content5 releasenbr="1">
+<atten3>
+<ptxt>Intelligent tester only:</ptxt>
+<ptxt>When the diagnosis system is changed from normal mode to check mode, or vice versa, all the DTCs and freeze frame data recorded in normal mode will be erased. Before changing modes, always check and make a note of any DTCs and freeze frame data.</ptxt>
+</atten3>
+<step1>
+<ptxt>CHECK DTC (USING INTELLIGENT TESTER)</ptxt>
+<figure>
+<graphic graphicname="A107796E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch to ON and push the tester main switch on.</ptxt>
+</step2>
+<step2>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+<figure>
+<graphic graphicname="C192335E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</step2>
+<step2>
+<ptxt>Check and make a note of DTCs and freeze frame data.</ptxt>
+<atten4>
+<ptxt>Refer to the intelligent tester's instruction manual for further details.</ptxt>
+</atten4>
+</step2>
+<step2>
+<ptxt>Confirm the details of the DTCs (see page <xref label="Seep01" href="RM000000W710JOX"/>).</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK DTC (NOT USING INTELLIGENT TESTER)</ptxt>
+<figure>
+<graphic graphicname="C169048E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step2>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Using SST, connect terminal 13 (TC) and 4 (CG) of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+</step2>
+<step2>
+<ptxt>Read DTCs by observing the MIL. If a DTC is not detected, the MIL blinks as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C190905E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</step2>
+<step2>
+<ptxt>Example</ptxt>
+<figure>
+<graphic graphicname="C190906E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step3>
+<ptxt>DTCs 12 and 31 are detected and the MIL starts displaying the DTCs as shown in the illustration. The MIL blinking pattern of DTC 12 will be displayed first.</ptxt>
+<atten4>
+<ptxt>If 2 or more DTCs are detected, the MIL will display the smaller number DTC first.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>A 2.5 second pause will occur. This pause will occur between the MIL blinking patterns of each DTC.</ptxt>
+</step3>
+<step3>
+<ptxt>The MIL blinking pattern of DTC 31 will be displayed.</ptxt>
+</step3>
+<step3>
+<ptxt>A 4.5 second pause will occur. This pause will occur when the MIL blinking pattern is the last of a string of multiple DTCs.</ptxt>
+</step3>
+<step3>
+<ptxt>The MIL will repeat the display of the string of DTCs again.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Check and make a note of the DTCs.</ptxt>
+</step2>
+<step2>
+<ptxt>After completing the check, disconnect terminals 13 (TC) and 4 (CG) to turn off the tester.</ptxt>
+</step2>
+<step2>
+<ptxt>Confirm the details of the DTCs (see page <xref label="Seep03" href="RM000000W710JOX"/>).</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>CLEAR DTCS AND FREEZE FRAME DATA (USING INTELLIGENT TESTER)</ptxt>
+<figure>
+<graphic graphicname="C192336E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch to ON (do not start the engine) and push the tester main switch on.</ptxt>
+</step2>
+<step2>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC / Clear.</ptxt>
+</step2>
+<step2>
+<ptxt>Erase DTCs and freeze frame data by pressing YES on the tester.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch off and then turn it on again. Check that the monitor is not displaying any DTCs.</ptxt>
+<atten4>
+<ptxt>If any DTCs are displayed, repeat the above procedures starting from "Enter the following menus".</ptxt>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>CLEAR DTCS AND FREEZE FRAME DATA (NOT USING INTELLIGENT TESTER)</ptxt>
+<figure>
+<graphic graphicname="C190908E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step2>
+<ptxt>Perform either one of the following operations.</ptxt>
+<step3>
+<ptxt>Disconnect the cable from the negative (-) battery terminal for more than 1 minute.</ptxt>
+<atten3>
+<ptxt>If the cable is disconnected from the negative (-) battery terminal, perform the "INITIALIZATION" procedures.</ptxt>
+</atten3>
+</step3>
+<step3>
+<ptxt>Remove the EFI and ETCS fuses from the engine room junction block and relay block.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y1_T002F" variety="T002F">
+<name>INTEGRATION RELAY</name>
+<para id="RM0000014TJ02QX" category="G" type-id="8000T" name-id="ES467-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000014TJ02QX_01" type-id="01" category="01">
+<s-1 id="RM0000014TJ02QX_01_0003" proc-id="RM21Q0EV__000006E00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000014TJ02QX_01_0004">
+<ptxt>REMOVE ENGINE ROOM RELAY BLOCK COVER</ptxt>
+</s-1>
+<s-1 id="RM0000014TJ02QX_01_0001" proc-id="RM21Q0EV__000006D00000">
+<ptxt>CHECK INTEGRATION NO.1 RELAY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G038997E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a screwdriver, detach the 2 claws and disconnect the integration relay from the engine room junction block.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112973E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the voltage of the MAIN relay.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1J-4 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the integration relay.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112973E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the voltage of the C/OPN relay.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1J-4 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the integration relay.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000014TJ02QX_01_0005">
+<ptxt>INSTALL ENGINE ROOM RELAY BLOCK COVER</ptxt>
+</s-1>
+<s-1 id="RM0000014TJ02QX_01_0006">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM0000014TJ02QX_01_0007" proc-id="RM21Q0EV__000006F00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A814_T005I" variety="T005I">
+<name>CONDENSER</name>
+<para id="RM0000012K301WX" category="G" type-id="8000T" name-id="AC06H-43" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000012K301WX_01" type-id="01" category="01">
+<s-1 id="RM0000012K301WX_01_0001" proc-id="RM21Q0EV__00004CR00000">
+<ptxt>CHECK COOLER CONDENSER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>If the fins of the cooler condenser are dirty, clean them with water. Dry the fins with compressed air.</ptxt>
+<atten3>
+<ptxt>Do not damage the fins of the condenser.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>If a fin of the cooler condenser is bent, straighten it using a screwdriver or pliers.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012K301WX_01_0002" proc-id="RM21Q0EV__00004CS00000">
+<ptxt>CHECK CONDENSER FOR LEAKAGE OF REFRIGERANT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a halogen leak detector, check the pipe joints for gas leakage.</ptxt>
+</s2>
+<s2>
+<ptxt>If gas leakage is detected in a joint, check the torque of the joint.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

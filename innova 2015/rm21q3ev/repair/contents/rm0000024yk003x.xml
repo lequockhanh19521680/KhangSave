@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7WX_T001B" variety="T001B">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<para id="RM0000024YK003X" category="F" type-id="30027" name-id="SS246-01" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000024YK003X_z0" proc-id="RM21Q0EV__000003D00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Throttle body</ptxt>
+</entry>
+<entry>
+<ptxt>Standard throttle valve opening percentage</ptxt>
+</entry>
+<entry>
+<ptxt>60 % or more</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Accelerator pedal position sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Standard voltage</ptxt>
+</entry>
+<entry>
+<ptxt>0.6 to 1.0 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Camshaft timing oil control valve assembly</ptxt>
+</entry>
+<entry>
+<ptxt>Resistance</ptxt>
+</entry>
+<entry>
+<ptxt>at 20°C(68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>6.9 to 7.9 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Throttle body assembly</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Resistance at 20°C(68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>2 (M+) - 1(M-)</ptxt>
+</entry>
+<entry>
+<ptxt>0.3 to 100 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (VC)- -3 (E2)</ptxt>
+</entry>
+<entry>
+<ptxt>1.2 to 3.2 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Engine coolant temperature sensor</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Approx. 20°C(68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>2.32 to 2.59 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Approx. 80°C(176°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.310 to 0.326 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Knock sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Resistance</ptxt>
+</entry>
+<entry>
+<ptxt>at 20°C(68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>120 to 280 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Integration relay (C/OPN relay)</ptxt>
+</entry>
+<entry>
+<ptxt>Specified condition</ptxt>
+</entry>
+<entry>
+<ptxt>IJ - 8 Body ground at ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Integration relay (MAIN relay)</ptxt>
+</entry>
+<entry>
+<ptxt>Specified condition</ptxt>
+</entry>
+<entry>
+<ptxt>IJ - 4Body ground at ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Crankshaft position sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Cold: 1,630 to 2,740 Ω</ptxt>
+<ptxt>Hot: 2,065to 3,225 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Camshaft position sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Cold: 835 to 1,400 Ω</ptxt>
+<ptxt>Hot: 1,060 to 1,645 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

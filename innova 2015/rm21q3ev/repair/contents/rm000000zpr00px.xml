@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZPR00PX" category="S" type-id="3001E" name-id="ES0OJ-23" from="201202">
+<name>DIAGNOSTIC TROUBLE CODE CHART</name>
+<subpara id="RM000000ZPR00PX_z0" proc-id="RM21Q0EV__000007600000">
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Parameters listed in the chart may be different than your readings depending on the type of instrument and other factors.</ptxt>
+<ptxt>If a DTC is displayed during the DTC check in check mode, check the circuit for the DTC listed in the table below. For details of each DTC, go to the page number of the DTC in the chart.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<tgroup cols="5" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.42in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.42in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.42in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="1.42in" colsep="0"/>
+<colspec colnum="5" colname="5" colwidth="1.4in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>MIL</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="center">
+<ptxt>Memory</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0010/39</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Camshaft Position "A" Actuator Circuit (Bank 1)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQJ00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0011/59</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Camshaft Position "A" - Timing Over-Advanced or System Performance (Bank 1)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQK00LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0012/59</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Camshaft Position "A" - Timing Over-Retarded (Bank 1)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQK00LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0016/18</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Crankshaft Position - Camshaft Position Correlation (Bank 1 Sensor A)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQL00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0100/31</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Mass Air Flow Circuit Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQ800JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0102/31</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Mass or Volume Air Flow Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQ800JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0103/31</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Mass or Volume Air Flow Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQ800JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0110/24</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Intake Air Temperature Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQD00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0112/24</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Intake Air Temperature Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQD00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0113/24</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Intake Air Temperature Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQD00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0115/22</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Engine Coolant Temperature Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQE00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0117/22</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Engine Coolant Temperature Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQE00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0118/22</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Engine Coolant Temperature Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQE00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0120/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "A" Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQH00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0121/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle Pedal Position Sensor / Switch "A" Circuit Range / Performance Problem</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQB00LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0122/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "A" Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQH00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0123/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "A" Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQH00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0130/21</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Oxygen Sensor Circuit (Bank 1 Sensor 1)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQ900VX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0135/21</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Oxygen Sensor Heater Circuit (Bank 1 Sensor 1)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQC00VX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0220/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "B" Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQH00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0222/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "B" Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQH00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0223/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "B" Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQH00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0327/52</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Knock Sensor 1 Circuit Low Input (Bank 1 or Single Sensor)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQM00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0328/52</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Knock Sensor 1 Circuit High Input (Bank 1 or Single Sensor)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQM00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0335/13</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Crankshaft Position Sensor "A" Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQI00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0339/13</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Crankshaft Position Sensor "A" Circuit Intermittent</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQI00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0340/12</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Camshaft Position Sensor Circuit Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQA00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0341/12</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Camshaft Position Sensor "A" Circuit  Range / Performance (Bank 1 or Single Sensor)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQA00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0351/14</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Ignition Coil "A" Primary / Secondary Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQF00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0352/15</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Ignition Coil "B" Primary / Secondary Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQF00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0353/14</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Ignition Coil "C" Primary / Secondary Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQF00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0354/15</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Ignition Coil "D" Primary / Secondary Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQF00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0500/42</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Vehicle Speed Sensor Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQ700WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0504/51</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Brake Switch "A" / "B" Correlation</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQG00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0604/89</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Internal Control Module Random Access Memory (RAM) Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQT00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0606/89</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>ECM / PCM Processor</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQT00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0607/89</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Control Module Performance</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQT00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0657/89</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Actuator Supply Voltage Circuit / Open</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQT00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2102/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle Actuator Control Motor Circuit Low</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQQ00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2103/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle Actuator Control Motor Circuit High</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQQ00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2111/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle Actuator Control System - Stuck Open</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQU00MX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2112/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle Actuator Control System - Stuck Closed</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQU00MX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2118/89</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle Actuator Control Motor Current Range / Performance</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQV00IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2119/89</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle Actuator Control Throttle Body Range / Performance</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQW00MX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2120/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "D" Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQR00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2121/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "D" Circuit Range / Performance</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQS00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2122/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "D" Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQR00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2123/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "D" Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQR00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2125/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "E" Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQR00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2127/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "E" Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQR00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2128/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "E" Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQR00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2135/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "A" / "B" Voltage Correlation</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQH00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2138/19</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Throttle / Pedal Position Sensor / Switch "D" / "E" Voltage Correlation</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>
+<xref href="RM000000ZQR00NX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

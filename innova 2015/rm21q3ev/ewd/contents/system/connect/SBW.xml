@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="1" color="W-B" spec="w/ Seat Belt Warning (Front Passenger's Side) From Feb. 2012 Production">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="5">
+			<line id="2" color="BR" spec="w/ Seat Belt Warning (Front Passenger's Side) From Feb. 2012 Production">
+				<connector type="conn" code="P13">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="P13">
+		<pin no="3">
+			<line id="3" color="R-L" spec="w/ Seat Belt Warning (Front Passenger's Side) From Feb. 2012 Production">
+				<connector type="jbc" code="2R">
+					<pin no="14"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2P">
+		<pin no="15">
+			<line id="4" color="G-W" spec="w/ Seat Belt Warning (Front Passenger's Side) From Feb. 2012 Production">
+				<connector type="conn" code="P13">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J33">
+		<pin no="3">
+			<line id="5" color="W-B" spec="w/ Seat Belt Warning (Front Passenger's Side)">
+				<connector type="conn" code="F14">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="F14">
+		<pin no="1">
+			<line id="6" color="G-W" spec="w/ Seat Belt Warning (Front Passenger's Side)">
+				<connector type="jbc" code="2I">
+					<pin no="14"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2Q">
+		<pin no="31">
+			<line id="7" color="G-W" spec="w/ Seat Belt Warning (Front Passenger's Side)">
+				<connector type="conn" code="A18">
+					<pin no="8"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A18">
+		<pin no="12">
+			<line id="8" color="R-B" spec="w/ Seat Belt Warning (Front Passenger's Side)">
+				<connector type="jbc" code="2S">
+					<pin no="31"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J33">
+		<pin no="11">
+			<line id="9" color="W-B">
+				<connector type="conn" code="J20">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J20">
+		<pin no="2">
+			<line id="10" color="W-B">
+				<connector type="conn" code="F11">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="F11">
+		<pin no="1">
+			<line id="11" color="R-Y">
+				<connector type="conn" code="J18" subcode="A">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J18" subcode="A">
+		<pin no="4">
+			<line id="12" color="R-Y">
+				<connector type="w2w" code="IA1" sex="male">
+					<pin no="19"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="IA1" sex="female">
+		<pin no="19">
+			<line id="13" color="R-Y">
+				<connector type="conn" code="C10" subcode="A">
+					<pin no="11" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="IA1" sex="female">
+		<pin no="19">
+			<line id="13" color="R-Y">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="11" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="14" color="W-B">
+				<connector type="conn" code="J28" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="10">
+			<line id="15" color="Y">
+				<connector type="conn" code="C10" subcode="A">
+					<pin no="22" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="10">
+			<line id="15" color="Y">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="22" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C10" subcode="A">
+		<pin no="21" spec="Before Feb. 2012 Production">
+			<line id="16" color="B-O">
+				<connector type="jbc" code="2D">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C20" subcode="C">
+		<pin no="21" spec="From Feb. 2012 Production">
+			<line id="16" color="B-O">
+				<connector type="jbc" code="2D">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12023_S000F" variety="S000F">
+<name>AXLE AND DIFFERENTIAL</name>
+<ttl id="12023_S000F_7AIQS_T000V" variety="T000V">
+<name>DIFFERENTIAL SYSTEM</name>
+<para id="RM000004SS7004X" category="F" type-id="8048W" name-id="AD1JQ-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004SS7004X_z0" proc-id="NM21Q0EV__000002H00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A BD19C type rear differential is used.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="2.69in"/>
+<colspec colname="COL3" colwidth="2.62in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Transmission Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A45DE</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>G58</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Differential Gear Ratio</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4.555</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4.300</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ring Gear Size</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>190 mm (7.48 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Drive Pinion No. of Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>9</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ring Gear No. of Gear Teeth</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>41</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>43</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. of Differential Pinion</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Oil Capacity</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3.1 Liters (3.2 US qts, 2.7 Imp. qts)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Oil Viscosity</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>SAE 90</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Oil Grade</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>API GL-5</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Weight (Reference)*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>21.4 kg (47.2 lb)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: The figure shown is the weight of the part without fluid.</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

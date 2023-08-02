@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZPZ00EX" category="U" type-id="303FI" name-id="ES10O8-001" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000000ZPZ00EX_z0" proc-id="RM21Q0EV__00000FH00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A255992E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="A254186E02" width="7.106578999in" height="9.803535572in"/>
+</figure>
+<figure>
+<graphic graphicname="A254184E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

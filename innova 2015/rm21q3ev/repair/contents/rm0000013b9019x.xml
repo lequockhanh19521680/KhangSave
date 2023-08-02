@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZE_T003S" variety="T003S">
+<name>TRANSMISSION CONTROL CABLE</name>
+<para id="RM0000013B9019X" category="A" type-id="30019" name-id="AT9D0-01" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM0000013B9019X_01" type-id="01" category="01">
+<s-1 id="RM0000013B9019X_01_0016" proc-id="RM21Q0EV__000058L00000">
+<ptxt>REMOVE CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEC013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000013B9019X_01_0005" proc-id="RM21Q0EV__000010000000">
+<ptxt>REMOVE TRANSMISSION CONTROL CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034281E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Move the shift lever to L.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the control cable from the shift lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the lock clip and disconnect the control cable from the bracket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts and disconnect the control cable from the vehicle body.</ptxt>
+<figure>
+<graphic graphicname="G034282E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the control cable from the vehicle body.</ptxt>
+<figure>
+<graphic graphicname="G034514E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the nut and clip and disconnect the control cable.</ptxt>
+<figure>
+<graphic graphicname="C190115" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013B9019X_01_0006" proc-id="RM21Q0EV__000010100000">
+<ptxt>INSTALL TRANSMISSION CONTROL CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the control cable with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the control cable to the bracket with the lock clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the control cable to the vehicle body with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.5</t-value1>
+<t-value2>56</t-value2>
+<t-value3>49</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="G034514E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the control cable to the vehicle body with the 2 nuts.</ptxt>
+<figure>
+<graphic graphicname="G034282E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.5</t-value1>
+<t-value2>56</t-value2>
+<t-value3>49</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the control cable to the bracket with the lock clip.</ptxt>
+<figure>
+<graphic graphicname="G034281E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Move the shift lever to L.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the control cable to the shift lever.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013B9019X_01_0017" proc-id="RM21Q0EV__00000XL00000">
+<ptxt>ADJUST SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Move the shift lever to N.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the control cable.</ptxt>
+<figure>
+<graphic graphicname="C193823" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the control shaft lever clockwise until it stops, and then turn it counterclockwise 2 notches to set it to the N position.</ptxt>
+<figure>
+<graphic graphicname="D028682E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>While holding the control shaft lever slightly toward the R position side, connect the cable with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000013B9019X_01_0018" proc-id="RM21Q0EV__00000XK00000">
+<ptxt>INSPECT SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When moving the shift lever from P to R with the ignition switch to ON and the brake pedal depressed, make sure that the shift lever moves smoothly and correctly into position.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and make sure that the vehicle moves forward after moving the shift lever from N to D, and moves in reverse after shifting to R.</ptxt>
+<ptxt>If the results are not as specified, inspect the park/neutral position switch and check the shift lever.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000013B9019X_01_0019" proc-id="RM21Q0EV__000058M00000">
+<ptxt>INSTALL CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEA013X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

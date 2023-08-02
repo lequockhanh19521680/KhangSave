@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80F_T004T" variety="T004T">
+<name>REAR SPEED SENSOR</name>
+<para id="RM0000010JT01PX" category="A" type-id="80001" name-id="BC5T6-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010JT01PX_02" type-id="01" category="01">
+<s-1 id="RM0000010JT01PX_02_0001" proc-id="RM21Q0EV__00001LU00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JT01PX_02_0002">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010JT01PX_02_0006" proc-id="RM21Q0EV__00001LV00000">
+<ptxt>REMOVE REAR SPEED SENSOR LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C189959" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 3 clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and speed sensor.</ptxt>
+<atten3>
+<ptxt>Keep the sensor tip and sensor installation hole free from foreign matter.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JT01PX_02_0007" proc-id="RM21Q0EV__00001LW00000">
+<ptxt>REMOVE REAR SPEED SENSOR RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the connector from the skid control sensor clamp.</ptxt>
+<figure>
+<graphic graphicname="C189958" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 6 clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and speed sensor.</ptxt>
+<atten3>
+<ptxt>Keep the sensor tip and sensor installation hole free from foreign matter.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JT01PX_02_0008" proc-id="RM21Q0EV__00001LX00000">
+<ptxt>REMOVE SKID CONTROL SENSOR CLAMP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and skid control sensor clamp.</ptxt>
+<figure>
+<graphic graphicname="C189957" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

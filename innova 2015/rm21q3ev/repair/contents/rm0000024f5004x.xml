@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7A826_T006K" variety="T006K">
+<name>WIPER AND WASHER SYSTEM</name>
+<para id="RM0000024F5004X" category="T" type-id="3001H" name-id="WW0J5-04" from="201202">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM0000024F5004X_z0" proc-id="RM21Q0EV__00002CY00000">
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Use the table below to help determine the cause of the problem symptom. The potential causes of the symptoms are listed in order of probability in the "Suspected area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>1. Windshield wiper and washer system</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Windshield wipers and washers do not operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. WIP fuse</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Windshield wiper switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Windshield wipers do not operate on LO or HI position</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Windshield wiper switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Windshield wiper motor</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151301AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Windshield wipers do not operate on INT position</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Windshield wiper switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Windshield wiper motor</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000055UD000X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Windshield wipers do not operate on MIST position</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Windshield wiper switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Windshield wiper motor</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151301AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle" align="left">
+<ptxt>Windshield washer motor does not operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Windshield wiper switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Windshield washer motor</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000055UD000X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Windshield washer motor and pump</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000055UD000X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>4. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>Windshield wipers do not operate when washer switch is ON and washer fluid is sprayed</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Windshield wiper switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>Washer fluid does not flow (windshield washer motor is normal)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Washer hose and nozzle</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle" align="left">
+<ptxt>When wiper switch is OFF, wiper blade does not return or return position is wrong</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Windshield wiper motor</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151301AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>2. Windshield wiper switch</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Windshield wiper arm installation position*</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000114A01CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>4. Wire harness</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>2. Rear wiper and washer system</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Rear wiper and washer do not operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. WIP fuse</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Windshield wiper switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM00000151201CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Rear washer motor does not operate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Windshield washer switch</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000055UD000X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Rear washer motor and pump</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM0000055UD000X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>Washer fluid does not flow (windshield washer motor is normal)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Washer hose and nozzle</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>When wiper switch is OFF, rear wiper blade does not return or return position is wrong</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>1. Rear wiper motor</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001GEV00RX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>2. Rear wiper arm installation position*</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref href="RM000001GEU015X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>3. Wire harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

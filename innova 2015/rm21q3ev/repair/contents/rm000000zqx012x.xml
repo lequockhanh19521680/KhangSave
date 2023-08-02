@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQX012X" category="J" type-id="3009O" name-id="ES10OZ-001" from="201202">
+<dtccode/>
+<dtcname>Starter Signal Circuit</dtcname>
+<subpara id="RM000000ZQX012X_01" type-id="60" category="03" proc-id="RM21Q0EV__000009H00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>While the engine is being cranked, current flows from terminal ST2 of the ignition switch through the park/neutral position switch (for A/T) or directly (for M/T) to terminal STA of the ECM (STA signal).</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQX012X_02" type-id="32" category="03" proc-id="RM21Q0EV__000009I00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A121031E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQX012X_03" type-id="51" category="05" proc-id="RM21Q0EV__00004ZJ00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>Inspect the fuses for circuits related to this system before performing the following inspection procedure.</ptxt>
+</atten3>
+<atten4>
+<ptxt>This inspection procedure is based on the premise that the engine can crank normally. If the engine cannot crank normally, proceed to the problem symptoms table (See page <xref label="Seep01" href="RM000001LRB005X"/>).</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQX012X_04" type-id="54" category="05">
+<name>When using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQX012X_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQX012X_05_0001" proc-id="RM21Q0EV__000009J00000">
+<testtitle>READ DATA LIST (STA SIGNAL)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Starter Signal.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the result when the ignition switch is turned to ON and START.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Ignition Switch Position</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Starter Signal</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Close (Starter signal OFF)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>START</ptxt>
+</entry>
+<entry>
+<ptxt>Open (Starter signal ON)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQX012X_05_0002" fin="false">NG</down>
+<right ref="RM000000ZQX012X_05_0003" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQX012X_05_0002" proc-id="RM21Q0EV__000009K00000">
+<testtitle>CHECK WIRE HARNESS (ECM - IGNITION SWITCH)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034713E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E9 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the I9 ignition switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-12 (STA) - I9-7 (ST2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-12 (STA) or I9-7 (ST2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQX012X_05_0005" fin="true">OK</down>
+<right ref="RM000000ZQX012X_05_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQX012X_05_0003">
+<testtitle>PROCEED TO NEXT CIRCUIT INSPECTION SHOWN IN PROBLEM SYMPTOMS TABLE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQX012X_05_0004">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQX012X_05_0005">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+<subpara id="RM000000ZQX012X_06" type-id="55" category="05">
+<name>When not using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQX012X_07" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQX012X_07_0006" proc-id="RM21Q0EV__000009L00000">
+<testtitle>CHECK ECM (STA VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E24" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929012in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-12 (STA) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>0 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connectors when the engine is cranked.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929012in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-12 (STA) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>6 V or more</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQX012X_07_0007" fin="false">NG</down>
+<right ref="RM000000ZQX012X_07_0008" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQX012X_07_0007" proc-id="RM21Q0EV__000009M00000">
+<testtitle>CHECK WIRE HARNESS (ECM - IGNITION SWITCH)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034713E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E9 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the I9 ignition switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-12 (STA) - I9-7 (ST2)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-12 (STA) or I9-7 (ST2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQX012X_07_0010" fin="true">OK</down>
+<right ref="RM000000ZQX012X_07_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQX012X_07_0008">
+<testtitle>PROCEED TO NEXT CIRCUIT INSPECTION SHOWN IN PROBLEM SYMPTOMS TABLE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQX012X_07_0009">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQX012X_07_0010">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

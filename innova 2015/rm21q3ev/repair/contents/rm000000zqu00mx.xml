@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQU00MX" category="C" type-id="302Z6" name-id="ES0OZ-18" from="201202">
+<dtccode>P2111/41</dtccode>
+<dtcname>Throttle Actuator Control System - Stuck Open</dtcname>
+<dtccode>P2112/41</dtccode>
+<dtcname>Throttle Actuator Control System - Stuck Closed</dtcname>
+<subpara id="RM000000ZQU00MX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000ED00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The throttle actuator is operated by the ECM and it opens and closes the throttle valve using gears. The opening angle of the throttle valve is detected by the throttle position sensor which is mounted on the throttle body. The sensor provides feedback to the ECM for controlling the throttle actuator, which adjusts the throttle valve opening in response to the driving conditions.</ptxt>
+<ptxt>If this malfunction is detected, the ECM shuts down the power for the throttle actuator, and the throttle valve is locked at a certain opening angle by the return spring. Also, all electronically controlled throttle operations are canceled until the system returns to normal and the ignition switch is turned OFF.</ptxt>
+<atten4>
+<ptxt>The Electronic Throttle Control System (ETCS) does not use a throttle cable.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P2111/41</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Throttle actuator locked while close command is being transmitted from ECM (1 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Throttle actuator</ptxt>
+</item>
+<item>
+<ptxt>Throttle body</ptxt>
+</item>
+<item>
+<ptxt>Throttle valve</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P2112/41</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Throttle actuator locked while open command is being transmitted from ECM (1 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Throttle actuator</ptxt>
+</item>
+<item>
+<ptxt>Throttle body</ptxt>
+</item>
+<item>
+<ptxt>Throttle valve</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQU00MX_02" type-id="64" category="03" proc-id="RM21Q0EV__00000EE00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The ECM concludes that there is a malfunction of the ETCS when the throttle valve remains at a fixed angle despite high drive current from the ECM. The ECM will illuminate the MIL and set a DTC.</ptxt>
+<ptxt>To activate the monitor: 1) start the engine, 2) fully depress and release the accelerator pedal quickly to fully open and fully close the throttle valve, respectively.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQU00MX_03" type-id="62" category="03" proc-id="RM21Q0EV__00000EF00000">
+<name>FAIL-SAFE</name>
+<content5 releasenbr="1">
+<ptxt>If the ETCS is malfunctioning, the ECM cuts off the current to the throttle actuator. The throttle control valve returns to a predetermined throttle position (approximately 6.5°) by the force of the return spring. </ptxt>
+<ptxt>Then, required engine power is calculated using the ignition timing and accelerator pedal position. The engine is controlled by intermittent fuel-cut.</ptxt>
+<ptxt>If the accelerator pedal is depressed firmly and slowly, the vehicle can be driven at minimum speed. If the accelerator pedal is depressed quickly, the vehicle may speed up and slow down erratically.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQU00MX_04" type-id="32" category="03" proc-id="RM21Q0EV__00000EG00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P2102/41 (see page <xref label="Seep01" href="RM000000ZQQ00IX_04"/>). </ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQU00MX_05" type-id="51" category="05" proc-id="RM21Q0EV__00000EH00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQU00MX_06" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQU00MX_06_0001" proc-id="RM21Q0EV__00000EI00000">
+<testtitle>CHECK OTHER DTC OUTPUT (IN ADDITION TO DTC P2111/41, P2112/41)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read DTCs.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P2111/41 or P2112/41</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P2111/41 or P2112/41 and other DTCs</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>If any other DTCs besides P2111/41 or P2112/41 are output, perform troubleshooting for those DTCs first.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQU00MX_06_0002" fin="false">A</down>
+<right ref="RM000000ZQU00MX_06_0004" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQU00MX_06_0002" proc-id="RM21Q0EV__00000EJ00000">
+<testtitle>CHECK THROTTLE BODY ASSEMBLY (THROTTLE VALVE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Visually check for foreign objects between the throttle valve and housing.</ptxt>
+<ptxt>Also, check that the valve can open and close smoothly.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Throttle valve is not contaminated with foreign objects and can move smoothly.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQU00MX_06_0003" fin="false">OK</down>
+<right ref="RM000000ZQU00MX_06_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQU00MX_06_0003" proc-id="RM21Q0EV__00000EK00000">
+<testtitle>CHECK IF DTC OUTPUT RECURS (DTC P2111/41, P2112/41)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs (see page <xref label="Seep01" href="RM000000ZPW01AX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Start the engine, and fully depress and release the accelerator pedal quickly to fully open and fully the close throttle valve.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read DTCs.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No DTC</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P2111/41 and/or P2112/41</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQU00MX_06_0007" fin="true">A</down>
+<right ref="RM000000ZQU00MX_06_0006" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQU00MX_06_0004">
+<testtitle>GO TO RELEVANT DTC CHART</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQU00MX_06_0005">
+<testtitle>REPLACE THROTTLE BODY ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQU00MX_06_0006">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQU00MX_06_0007">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

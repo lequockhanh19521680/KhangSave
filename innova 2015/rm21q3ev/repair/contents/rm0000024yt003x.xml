@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X6_T001K" variety="T001K">
+<name>1TR-FE CHARGING</name>
+<para id="RM0000024YT003X" category="F" type-id="30028" name-id="SS242-01" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000024YT003X_z0" proc-id="RM21Q0EV__000003W00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Generator coil assembly x Generator drive end frame</ptxt>
+</entry>
+<entry>
+<ptxt>5.8</ptxt>
+</entry>
+<entry>
+<ptxt>59</ptxt>
+</entry>
+<entry>
+<ptxt>51 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Generator rear end cover x Generator coil assembly</ptxt>
+</entry>
+<entry>
+<ptxt>4.6</ptxt>
+</entry>
+<entry>
+<ptxt>47</ptxt>
+</entry>
+<entry>
+<ptxt>41 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Generator pulley x generator rotor assembly</ptxt>
+</entry>
+<entry>
+<ptxt>111</ptxt>
+</entry>
+<entry>
+<ptxt>1127</ptxt>
+</entry>
+<entry>
+<ptxt>81</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Generator brush holder x Generator coil assembly</ptxt>
+</entry>
+<entry>
+<ptxt>1.8</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>16 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Generator wire x Generator assembly</ptxt>
+</entry>
+<entry>
+<ptxt>9.8</ptxt>
+</entry>
+<entry>
+<ptxt>100</ptxt>
+</entry>
+<entry>
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Generator assembly x V-ribbed belt tensioner and cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>43</ptxt>
+</entry>
+<entry>
+<ptxt>438</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Bearing retainer x Generator drive end frame</ptxt>
+</entry>
+<entry>
+<ptxt>2.3</ptxt>
+</entry>
+<entry>
+<ptxt>23</ptxt>
+</entry>
+<entry>
+<ptxt>20 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air cleaner assembly x body</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+<entry>
+<ptxt>143</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Intake air connector x Cylinder head cover</ptxt>
+</entry>
+<entry>
+<ptxt>8.0</ptxt>
+</entry>
+<entry>
+<ptxt>82</ptxt>
+</entry>
+<entry>
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

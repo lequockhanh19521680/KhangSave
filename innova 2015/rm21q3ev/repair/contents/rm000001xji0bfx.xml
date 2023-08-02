@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000001XJI0BFX" category="J" type-id="303DT" name-id="AVFVN-01" from="201403">
+<dtccode/>
+<dtcname>Speaker Circuit</dtcname>
+<subpara id="RM000001XJI0BFX_01" type-id="60" category="03" proc-id="RM21Q0EV__00005K700000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The radio receiver assembly sends sound signals to the speakers.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000001XJI0BFX_02" type-id="32" category="03" proc-id="RM21Q0EV__00005K800000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E293409E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001XJI0BFX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000001XJI0BFX_06" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001XJI0BFX_06_0041" proc-id="RM21Q0EV__00005KA00000">
+<testtitle>CHECK SPEAKER</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the malfunctioning speakers.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.89in"/>
+<colspec colname="COL2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Malfunction in front speaker area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Malfunction in rear speaker area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001XJI0BFX_06_0057" fin="false">A</down>
+<right ref="RM000001XJI0BFX_06_0085" fin="false">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0057" proc-id="RM21Q0EV__00005KD00000">
+<testtitle>INSPECT FRONT NO. 1 SPEAKER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the front No. 1 speaker assembly (See page <xref label="Seep01" href="RM0000014T704AX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Inspect the front No. 1 speaker assembly (See page <xref label="Seep02" href="RM0000011Q101AX"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000001XJI0BFX_06_0094" fin="false">OK</down>
+<right ref="RM000001XJI0BFX_06_0061" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0094" proc-id="RM21Q0EV__00005KH00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (RADIO RECEIVER ASSEMBLY - FRONT NO. 1 SPEAKER ASSEMBLY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the R2 radio receiver assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the S15*1 and/or S14*2 speaker connector.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: for RH</ptxt>
+</item>
+<item>
+<ptxt>*2: for LH</ptxt>
+</item>
+</list1>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<title>for RH Side</title>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>R2-1 (FR+) - S15-1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R2-5 (FR-) - S15-2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R2-1 (FR+) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R2-5 (FR-) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>for LH Side</title>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>R2-2 (FL+) - S14-1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R2-6 (FL-) - S14-2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R2-2 (FL+) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R2-6 (FL-) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001XJI0BFX_06_0092" fin="true">OK</down>
+<right ref="RM000001XJI0BFX_06_0064" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0085" proc-id="RM21Q0EV__00005KF00000">
+<testtitle>INSPECT REAR SPEAKER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the rear speaker assembly (See page <xref label="Seep01" href="RM0000014TB02VX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Inspect the rear speaker assembly (See page <xref label="Seep02" href="RM0000011Q2019X"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000001XJI0BFX_06_0086" fin="false">OK</down>
+<right ref="RM000001XJI0BFX_06_0091" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0086" proc-id="RM21Q0EV__00005KG00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (RADIO RECEIVER ASSEMBLY - REAR SPEAKER ASSEMBLY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the R3 radio receiver assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the S17*1 and/or S16*2 speaker connector.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: for RH</ptxt>
+</item>
+<item>
+<ptxt>*2: for LH</ptxt>
+</item>
+</list1>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<title>for RH Side</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-1 (RR+) - S17-1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-3 (RR-) - S17-2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-1 (RR+) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-3 (RR-) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>for LH Side</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-2 (RL+) - S16-1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-6 (RL-) - S16-2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-2 (RL+) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R3-6 (RL-) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001XJI0BFX_06_0092" fin="true">OK</down>
+<right ref="RM000001XJI0BFX_06_0064" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0092">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0064">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0061">
+<testtitle>REPLACE FRONT NO. 1 SPEAKER ASSEMBLY<xref label="Seep01" href="RM0000014T704AX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001XJI0BFX_06_0091">
+<testtitle>REPLACE REAR SPEAKER ASSEMBLY<xref label="Seep01" href="RM0000014TB02VX"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

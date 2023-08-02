@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLN_T0095" variety="T0095">
+<name>BACK DOOR SUPPORT</name>
+<para id="RM000001J9901HX" category="A" type-id="80001" name-id="ED0DU-18" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001J9901HX_01" type-id="11" category="10" proc-id="RM21Q0EV__00003OH00000">
+<content3 releasenbr="1">
+<atten2>
+<ptxt>Remove the back door stay while holding the back door.</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not touch the extendable portion of the rod to prevent foreign objects from attaching to the back door stay surface.</ptxt>
+</item>
+<item>
+<ptxt>Do not push the back door stay sideways because the back door stay may bend.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001J9901HX_02" type-id="01" category="01">
+<s-1 id="RM000001J9901HX_02_0001" proc-id="RM21Q0EV__00003NN00000">
+<ptxt>REMOVE BACK DOOR STAY ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 bolts and back door stay.</ptxt>
+<figure>
+<graphic graphicname="B280744" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten2>
+<ptxt>Remove the back door stay while holding the back door.</ptxt>
+</atten2>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

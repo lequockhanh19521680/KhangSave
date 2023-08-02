@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db><pub id="RM21Q3EV"><servcat id="36"><name>BRAKE</name><section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name><ttl id="1002J_S000M_7A80G_T004U" variety="T004U"><name>ANTI-LOCK BRAKE SYSTEM</name>
+<parts id="F00014W"><name>ANTI-LOCK BRAKE SYSTEM</name></parts>
+<para id="RM00000102R02AX" category="C" type-id="305O7" from="201202"><name>C0200/31</name><name>C0205/32</name><name>C1235/35</name><name>C1236/36</name><name>C1271/71</name><name>C1272/72</name><name>C1275/75</name><name>C1276/76</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B898409"><name>END</name></parts><parts id="43515"><name>SKID CONTROL ROTOR FRONT</name></parts><parts id="89543"><name>SPEED SENSOR FRONT LH</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM00000104M02BX" category="C" type-id="305OJ" from="201202"><name>C0210/33</name><name>C0215/34</name><name>C1238/38</name><name>C1239/39</name><name>C1273/73</name><name>C1274/74</name><name>C1277/77</name><name>C1278/78</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B898409"><name>END</name></parts><parts id="43517"><name>SKID CONTROL ROTOR REAR</name></parts><parts id="89546"><name>SPEED SENSOR REAR LH</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM00000104A013X" category="C" type-id="3007L" from="201202"><name>C0226/21</name><name>C0236/22</name><name>C0246/23</name>
+
+
+
+
+<parts id="B898409"><name>END</name></parts><parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts></para>
+<para id="RM0000011CE00ZX" category="C" type-id="300A0" from="201202"><name>C0273/13</name><name>C0274/14</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B898409"><name>END</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="B895025"><name>SKID CONTROL ECU CONNECTOR</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM0000011CD013X" category="C" type-id="3007J" from="201202"><name>C0278/11</name><name>C0279/12</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B898409"><name>END</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM0000011CF019X" category="C" type-id="300A6" from="201202"><name>C1241/41</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B898409"><name>END</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B002430"><name>DATA LIST</name></parts></para>
+<para id="RM00000104C013X" category="C" type-id="300AA" from="201202"><name>C1249/49</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B898409"><name>END</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84340"><name>STOP LAMP SWITCH ASSEMBLY</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM00000104D011X" category="C" type-id="300AB" from="201202"><name>C1251/51</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM00000104I022X" category="C" type-id="302ON" from="201202"><name>C1337/37</name>
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="42652"><name>TIRE</name></parts></para>
+<para id="RM00000104E019X" category="J" type-id="300E0" from="201202"><name>ABS Warning Light Remains ON</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="B895025"><name>SKID CONTROL ECU CONNECTOR</name></parts><parts id="B000764"><name>DTC OUTPUT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B002430"><name>DATA LIST</name></parts></para>
+<para id="RM00000104F014X" category="J" type-id="300NF" from="201202"><name>ABS Warning Light does not Come ON</name>
+
+
+
+
+<parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM00000104J01IX" category="J" type-id="3037E" from="201202"><name>TC and CG Terminal Circuit</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM00000104K02XX" category="J" type-id="3037F" from="201202"><name>TS and CG Terminal Circuit</name>
+
+
+
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+</ttl>
+<ttl id="1002J_S000M_7A80D_T004R" variety="T004R"><name>BRAKE ACTUATOR</name>
+<parts id="B400433"><name>BRAKE ACTUATOR</name></parts>
+<para id="RM000001L5C00GX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="B460001"><name>FRONT WHEELS</name></parts><parts id="B400053"><name>FRONT WHEEL RH</name></parts><parts id="B400433"><name>BRAKE ACTUATOR</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+<para id="RM000001L5900GX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+<para id="RM000001L5A00GX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts></para>
+<para id="RM000001L5B00GX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts></para>
+<para id="RM000001L5700GX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="B400433"><name>BRAKE ACTUATOR</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="44510"><name>BRAKE ACTUATOR ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002J_S000M_7A80E_T004S" variety="T004S"><name>FRONT SPEED SENSOR</name>
+<parts id="B800259"><name>FRONT SPEED SENSOR</name></parts>
+<para id="RM0000011ME01HX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="89543"><name>SPEED SENSOR FRONT LH</name></parts></para>
+<para id="RM0000010JP01SX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+
+<parts id="89543"><name>SPEED SENSOR FRONT LH</name></parts><parts id="B001506"><name>FRONT WHEEL</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+<para id="RM0000010JN01NX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="89543"><name>SPEED SENSOR FRONT LH</name></parts></para>
+<para id="RM0000010JM02AX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+
+<parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="B001506"><name>FRONT WHEEL</name></parts><parts id="89543"><name>SPEED SENSOR FRONT LH</name></parts></para>
+</ttl>
+<ttl id="1002J_S000M_7A80F_T004T" variety="T004T"><name>REAR SPEED SENSOR</name>
+<parts id="B800261"><name>REAR SPEED SENSOR</name></parts>
+<para id="RM0000011MF01FX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="89546"><name>SPEED SENSOR REAR LH</name></parts></para>
+<para id="RM0000010JT01PX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="B895083"><name>SKID CONTROL SENSOR</name></parts><parts id="89545"><name>SPEED SENSOR REAR RH</name></parts><parts id="89546"><name>SPEED SENSOR REAR LH</name></parts><parts id="B400054"><name>REAR WHEEL</name></parts><parts id="28800"><name>BATTERY</name></parts></para>
+<para id="RM0000010JR01EX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="89546"><name>SPEED SENSOR REAR LH</name></parts></para>
+<para id="RM0000010JQ021X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="B400054"><name>REAR WHEEL</name></parts><parts id="89546"><name>SPEED SENSOR REAR LH</name></parts><parts id="89545"><name>SPEED SENSOR REAR RH</name></parts><parts id="B895083"><name>SKID CONTROL SENSOR</name></parts></para>
+</ttl>
+</section><section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name><ttl id="1000N_S000N_7A80I_T004W" variety="T004W"><name>BRAKE FLUID</name>
+<parts id="J400009"><name>BRAKE FLUID</name></parts>
+<para id="RM0000010K4011X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts></para>
+<para id="RM0000010K3017X" category="N" type-id="3000P" from="201202"><name>BLEEDING</name>
+
+
+<parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="47910"><name>LOAD SENSING PROPORTIONING VALVE ASSEMBLY</name></parts><parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80J_T004X" variety="T004X"><name>BRAKE PEDAL</name>
+<parts id="B400478"><name>BRAKE PEDAL</name></parts>
+<para id="RM0000010K801KX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="55106"><name>BRAKE PEDAL SUPPORT SUB-ASSEMBLY</name></parts><parts id="47264D"><name>BRAKE MASTER CYLINDER PUSH ROD CLEVIS</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="B002086"><name>CABLE FROM NEGATIVE BATTERY TERMINAL</name></parts></para>
+<para id="RM0000010K901IX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="47121"><name>BRAKE PEDAL PAD</name></parts><parts id="84340"><name>STOP LAMP SWITCH ASSEMBLY</name></parts><parts id="47101"><name>BRAKE PEDAL SUB-ASSEMBLY</name></parts></para>
+<para id="RM0000010K5016X" category="N" type-id="3000G" from="201202" to="201503"><name>ADJUSTMENT</name>
+
+<parts id="B400478"><name>BRAKE PEDAL</name></parts><parts id="B300375"><name>PEDAL FREE PLAY AND PUSH ROD PLAY</name></parts><parts id="B002026"><name>BRAKE PEDAL HEIGHT</name></parts></para>
+<para id="RM0000010K501OX" category="N" type-id="3000G" from="201503"><name>ADJUSTMENT</name>
+
+<parts id="B400478"><name>BRAKE PEDAL</name></parts><parts id="B300375"><name>PEDAL FREE PLAY AND PUSH ROD PLAY</name></parts><parts id="B002026"><name>BRAKE PEDAL HEIGHT</name></parts></para>
+<para id="RM0000010KA01IX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="47101"><name>BRAKE PEDAL SUB-ASSEMBLY</name></parts><parts id="84340"><name>STOP LAMP SWITCH ASSEMBLY</name></parts><parts id="47121"><name>BRAKE PEDAL PAD</name></parts></para>
+<para id="RM0000010K601LX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B002087"><name>CABLE TO NEGATIVE BATTERY TERMINAL</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="B400478"><name>BRAKE PEDAL</name></parts><parts id="B300375"><name>PEDAL FREE PLAY AND PUSH ROD PLAY</name></parts><parts id="B002026"><name>BRAKE PEDAL HEIGHT</name></parts><parts id="47264D"><name>BRAKE MASTER CYLINDER PUSH ROD CLEVIS</name></parts><parts id="55106"><name>BRAKE PEDAL SUPPORT SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80O_T0052" variety="T0052"><name>BRAKE MASTER CYLINDER</name>
+<parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts>
+<para id="RM000001L5P00EX" category="A" type-id="80001" from="201202" to="201303"><name>REMOVAL</name>
+
+<parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts></para>
+<para id="RM000001L5P00FX" category="A" type-id="80001" from="201303"><name>REMOVAL</name>
+
+<parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts></para>
+<para id="RM000005459000X" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="04493"><name>BRAKE MASTER CYLINDER KIT</name></parts><parts id="47299"><name>BRAKE MASTER CYLINDER RESERVOIR STRAINER</name></parts><parts id="47230"><name>BRAKE MASTER CYLINDER RESERVOIR FILLER CAP ASSEMBLY</name></parts><parts id="47287"><name>BRAKE FLUID INFORMATION LABEL</name></parts><parts id="47255"><name>MASTER CYLINDER RESERVOIR GROMMET</name></parts><parts id="47202"><name>BRAKE MASTER CYLINDER RESERVOIR SUB-ASSEMBLY</name></parts></para>
+<para id="RM000001L5N02BX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="B400055"><name>BRAKE BOOSTER PUSH ROD</name></parts></para>
+<para id="RM00000545A000X" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="47202"><name>BRAKE MASTER CYLINDER RESERVOIR SUB-ASSEMBLY</name></parts><parts id="47255"><name>MASTER CYLINDER RESERVOIR GROMMET</name></parts><parts id="47287"><name>BRAKE FLUID INFORMATION LABEL</name></parts><parts id="47230"><name>BRAKE MASTER CYLINDER RESERVOIR FILLER CAP ASSEMBLY</name></parts><parts id="47299"><name>BRAKE MASTER CYLINDER RESERVOIR STRAINER</name></parts><parts id="04493"><name>BRAKE MASTER CYLINDER KIT</name></parts></para>
+<para id="RM000001L5M00FX" category="A" type-id="30014" from="201202" to="201303"><name>INSTALLATION</name>
+
+<parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts></para>
+<para id="RM000001L5M00GX" category="A" type-id="30014" from="201303"><name>INSTALLATION</name>
+
+<parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80P_T0053" variety="T0053"><name>BRAKE BOOSTER</name>
+<parts id="J100102"><name>BRAKE BOOSTER</name></parts>
+<para id="RM000001L5L00CX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="44730"><name>BRAKE VACUUM CHECK VALVE ASSEMBLY</name></parts><parts id="44610"><name>BRAKE BOOSTER ASSEMBLY</name></parts></para>
+<para id="RM000001L5K00GX" category="A" type-id="80001" from="201202" to="201303"><name>REMOVAL</name>
+
+<parts id="44610"><name>BRAKE BOOSTER ASSEMBLY</name></parts><parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts></para>
+<para id="RM000001L5K00HX" category="A" type-id="80001" from="201303"><name>REMOVAL</name>
+
+<parts id="44610"><name>BRAKE BOOSTER ASSEMBLY</name></parts><parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts></para>
+<para id="RM000001L5I00GX" category="A" type-id="30014" from="201202" to="201303"><name>INSTALLATION</name>
+
+<parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="B860056"><name>BRAKE FLUID LEVEL WARNING SWITCH ASSEMBLY</name></parts><parts id="B400478"><name>BRAKE PEDAL</name></parts><parts id="B002026"><name>BRAKE PEDAL HEIGHT</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts><parts id="B400055"><name>BRAKE BOOSTER PUSH ROD</name></parts><parts id="44610"><name>BRAKE BOOSTER ASSEMBLY</name></parts></para>
+<para id="RM000001L5I00HX" category="A" type-id="30014" from="201303"><name>INSTALLATION</name>
+
+<parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="B860056"><name>BRAKE FLUID LEVEL WARNING SWITCH ASSEMBLY</name></parts><parts id="B400478"><name>BRAKE PEDAL</name></parts><parts id="B002026"><name>BRAKE PEDAL HEIGHT</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="47201"><name>BRAKE MASTER CYLINDER SUB-ASSEMBLY</name></parts><parts id="B400055"><name>BRAKE BOOSTER PUSH ROD</name></parts><parts id="44610"><name>BRAKE BOOSTER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80K_T004Y" variety="T004Y"><name>FRONT BRAKE</name>
+<parts id="J400010"><name>FRONT BRAKE</name></parts>
+<para id="RM0000010KT00SX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+
+<parts id="43512"><name>FRONT DISC</name></parts><parts id="47722"><name>FRONT DISC BRAKE CYLINDER MOUNTING LH</name></parts><parts id="B400550"><name>FRONT DISC BRAKE PAD SUPPORT PLATE</name></parts><parts id="B400434"><name>FRONT DISC BRAKE PAD</name></parts><parts id="04945"><name>ANTI SQUEAL SHIM KIT FRONT</name></parts><parts id="04465"><name>DISC BRAKE PAD KIT FRONT</name></parts><parts id="47721B"><name>FRONT DISC BRAKE CYLINDER MOUNTING COLLAR</name></parts><parts id="B400298"><name>FRONT DISC BRAKE BUSH DUST BOOT</name></parts><parts id="47779"><name>FRONT DISC BRAKE CYLINDER SLIDE BUSH</name></parts><parts id="47769"><name>FRONT DISC BRAKE CYLINDER SLIDE BUSH</name></parts><parts id="47750"><name>DISC BRAKE CYLINDER ASSEMBLY LH</name></parts><parts id="47313A"><name>FRONT FLEXIBLE HOSE</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="B001506"><name>FRONT WHEEL</name></parts></para>
+<para id="RM0000010KU00RX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+
+<parts id="47547B"><name>FRONT DISC BRAKE BLEEDER PLUG</name></parts><parts id="31478B"><name>FRONT DISC BRAKE BLEEDER PLUG CAP</name></parts><parts id="B400042"><name>PISTON SEAL</name></parts><parts id="47731"><name>FRONT DISC BRAKE PISTON</name></parts><parts id="B400040"><name>CYLINDER BOOT</name></parts></para>
+<para id="RM0000010KR00WX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="43512"><name>FRONT DISC</name></parts><parts id="B400550"><name>FRONT DISC BRAKE PAD SUPPORT PLATE</name></parts><parts id="04465"><name>DISC BRAKE PAD KIT FRONT</name></parts><parts id="B400044"><name>BRAKE CYLINDER AND PISTON</name></parts></para>
+<para id="RM0000010KV00SX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+
+<parts id="B400040"><name>CYLINDER BOOT</name></parts><parts id="47731"><name>FRONT DISC BRAKE PISTON</name></parts><parts id="B400042"><name>PISTON SEAL</name></parts><parts id="31478B"><name>FRONT DISC BRAKE BLEEDER PLUG CAP</name></parts><parts id="47547B"><name>FRONT DISC BRAKE BLEEDER PLUG</name></parts><parts id="B400050"><name>DISC RUNOUT</name></parts></para>
+<para id="RM0000010KQ013X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+
+<parts id="B001506"><name>FRONT WHEEL</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="47313A"><name>FRONT FLEXIBLE HOSE</name></parts><parts id="47750"><name>DISC BRAKE CYLINDER ASSEMBLY LH</name></parts><parts id="47779"><name>FRONT DISC BRAKE CYLINDER SLIDE BUSH</name></parts><parts id="47769"><name>FRONT DISC BRAKE CYLINDER SLIDE BUSH</name></parts><parts id="B400298"><name>FRONT DISC BRAKE BUSH DUST BOOT</name></parts><parts id="47721B"><name>FRONT DISC BRAKE CYLINDER MOUNTING COLLAR</name></parts><parts id="04465"><name>DISC BRAKE PAD KIT FRONT</name></parts><parts id="04945"><name>ANTI SQUEAL SHIM KIT FRONT</name></parts><parts id="B400434"><name>FRONT DISC BRAKE PAD</name></parts><parts id="B400550"><name>FRONT DISC BRAKE PAD SUPPORT PLATE</name></parts><parts id="47722"><name>FRONT DISC BRAKE CYLINDER MOUNTING LH</name></parts><parts id="43512"><name>FRONT DISC</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80L_T004Z" variety="T004Z"><name>FRONT BRAKE FLEXIBLE HOSE</name>
+<parts id="F00014L"><name>FRONT BRAKE FLEXIBLE HOSE</name></parts>
+<para id="RM000001NUG00SX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+
+<parts id="47313A"><name>FRONT FLEXIBLE HOSE</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="B001506"><name>FRONT WHEEL</name></parts></para>
+<para id="RM000001NUE00UX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+
+<parts id="B001506"><name>FRONT WHEEL</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="47313A"><name>FRONT FLEXIBLE HOSE</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80M_T0050" variety="T0050"><name>REAR BRAKE</name>
+<parts id="J400029"><name>REAR BRAKE</name></parts>
+<para id="RM0000010QQ00VX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+
+<parts id="42403"><name>REAR BRAKE DRUM SUB-ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="B400054"><name>REAR WHEEL</name></parts><parts id="B400188"><name>BRAKE SHOES</name></parts></para>
+<para id="RM0000010QR00VX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+
+<parts id="47547R"><name>DRUM BRAKE, REAR BLEEDER PLUG</name></parts><parts id="47570"><name>LH, FRONT OR UPPER REAR WHEEL BRAKE CYLINDER ASSEMBLY</name></parts><parts id="47602"><name>REAR BRAKE PARKING BRAKE SHOE LEVER SUB-ASSEMBLY</name></parts><parts id="47644A"><name>REAR BRAKE AUTOMATIC ADJUST LEVER LH</name></parts><parts id="B400085"><name>REAR BRAKE SHOE</name></parts><parts id="B400166"><name>PARKING BRAKE SHOE STRUT SET LH</name></parts><parts id="B400084"><name>FRONT BRAKE SHOE</name></parts><parts id="B400167"><name>REAR BRAKE SHOE RETURN SPRING</name></parts></para>
+<para id="RM0000010QO00VX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="47570"><name>LH, FRONT OR UPPER REAR WHEEL BRAKE CYLINDER ASSEMBLY</name></parts><parts id="B300150"><name>BRAKE DRUM</name></parts><parts id="04495"><name>REAR BRAKE SHOE KIT</name></parts><parts id="B400064"><name>BRAKE DRUM INSIDE DIAMETER</name></parts></para>
+<para id="RM0000010QS00VX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+
+<parts id="42403"><name>REAR BRAKE DRUM SUB-ASSEMBLY</name></parts><parts id="B400167"><name>REAR BRAKE SHOE RETURN SPRING</name></parts><parts id="B400084"><name>FRONT BRAKE SHOE</name></parts><parts id="B400166"><name>PARKING BRAKE SHOE STRUT SET LH</name></parts><parts id="04495"><name>REAR BRAKE SHOE KIT</name></parts><parts id="47644A"><name>REAR BRAKE AUTOMATIC ADJUST LEVER LH</name></parts><parts id="47602"><name>REAR BRAKE PARKING BRAKE SHOE LEVER SUB-ASSEMBLY</name></parts><parts id="B400067"><name>HIGH TEMPERATURE GREASE</name></parts><parts id="47570"><name>LH, FRONT OR UPPER REAR WHEEL BRAKE CYLINDER ASSEMBLY</name></parts><parts id="47547R"><name>DRUM BRAKE, REAR BLEEDER PLUG</name></parts></para>
+<para id="RM0000010QN00WX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B400063"><name>PARKING BRAKE LEVER TRAVEL</name></parts><parts id="B400054"><name>REAR WHEEL</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="42403"><name>REAR BRAKE DRUM SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80N_T0051" variety="T0051"><name>REAR BRAKE FLEXIBLE HOSE</name>
+<parts id="F00014M"><name>REAR BRAKE FLEXIBLE HOSE</name></parts>
+<para id="RM0000010L900TX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="47321B"><name>REAR BRAKE TUBE FLEXIBLE HOSE</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts></para>
+<para id="RM0000010L700VX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B330014"><name>CLUTCH LINE</name></parts><parts id="B400198"><name>BRAKE LINE</name></parts><parts id="B400065"><name>BRAKE MASTER CYLINDER</name></parts><parts id="47321B"><name>REAR BRAKE TUBE FLEXIBLE HOSE</name></parts></para>
+</ttl>
+<ttl id="1000N_S000N_7A80Q_T0054" variety="T0054"><name>LOAD SENSING PROPORTIONING VALVE</name>
+<parts id="B400508"><name>LOAD SENSING PROPORTIONING VALVE</name></parts>
+<para id="RM000001HK500MX" category="G" type-id="8000T" from="201202" to="201303"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="47910"><name>LOAD SENSING PROPORTIONING VALVE ASSEMBLY</name></parts></para>
+<para id="RM000001HK500UX" category="G" type-id="8000T" from="201303"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="47910"><name>LOAD SENSING PROPORTIONING VALVE ASSEMBLY</name></parts></para>
+<para id="RM000001X4F00GX" category="A" type-id="30019" from="201202"><name>REPLACEMENT</name>
+
+<parts id="47910"><name>LOAD SENSING PROPORTIONING VALVE ASSEMBLY</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts><parts id="F0000HK"><name>BRAKE FLUID LEVEL</name></parts><parts id="B001515"><name>AIR BLEED</name></parts><parts id="47202"><name>BRAKE MASTER CYLINDER RESERVOIR SUB-ASSEMBLY</name></parts><parts id="47900"><name>LOAD SENSING W/SPRING VALVE ASSEMBLY</name></parts></para>
+</ttl>
+</section><section id="1000O_S000O" variety="S000O">
+<name>PARKING BRAKE</name><ttl id="1000O_S000O_7A80R_T0055" variety="T0055"><name>PARKING BRAKE SYSTEM</name>
+<parts id="J400006"><name>PARKING BRAKE SYSTEM</name></parts>
+<para id="RM0000010M101BX" category="N" type-id="3000G" from="201202"><name>ADJUSTMENT</name>
+
+<parts id="B400054"><name>REAR WHEEL</name></parts><parts id="58804A"><name>CONSOLE PANEL SUB-ASSEMBLY UPPER</name></parts><parts id="B800939"><name>BRAKE WARNING LIGHT</name></parts><parts id="B400358"><name>PARKING BRAKE TURN BUCKLE</name></parts><parts id="B400063"><name>PARKING BRAKE LEVER TRAVEL</name></parts><parts id="04495"><name>REAR BRAKE SHOE KIT</name></parts></para>
+</ttl>
+<ttl id="1000O_S000O_7A80S_T0056" variety="T0056"><name>PARKING BRAKE LEVER</name>
+<parts id="F00009Q"><name>PARKING BRAKE LEVER</name></parts>
+<para id="RM0000010M5016X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="46201E"><name>PARKING BRAKE LEVER SUB-ASSEMBLY</name></parts><parts id="46243"><name>PARKING BRAKE LEVER COVER</name></parts><parts id="58810J"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="B001391"><name>PRECAUTION</name></parts></para>
+<para id="RM0000010M3016X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="28800"><name>BATTERY</name></parts><parts id="B500015"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="46243"><name>PARKING BRAKE LEVER COVER</name></parts><parts id="D1000OZ"><name>PARKING BRAKE</name></parts><parts id="46201E"><name>PARKING BRAKE LEVER SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000O_S000O_7A80T_T0057" variety="T0057"><name>PARKING BRAKE CABLE</name>
+<parts id="B001572"><name>PARKING BRAKE CABLE</name></parts>
+<para id="RM0000010QV00XX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="46430"><name>PARKING BRAKE CABLE ASSEMBLY NO.3</name></parts><parts id="46420"><name>PARKING BRAKE CABLE ASSEMBLY NO.2</name></parts><parts id="46410"><name>PARKING BRAKE CABLE ASSEMBLY NO.1</name></parts><parts id="58810J"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="42403"><name>REAR BRAKE DRUM SUB-ASSEMBLY</name></parts><parts id="B400054"><name>REAR WHEEL</name></parts><parts id="28800"><name>BATTERY</name></parts><parts id="B001391"><name>PRECAUTION</name></parts></para>
+<para id="RM0000010QT00XX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="28800"><name>BATTERY</name></parts><parts id="B400054"><name>REAR WHEEL</name></parts><parts id="B500015"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="D1000OZ"><name>PARKING BRAKE</name></parts><parts id="42403"><name>REAR BRAKE DRUM SUB-ASSEMBLY</name></parts><parts id="46410"><name>PARKING BRAKE CABLE ASSEMBLY NO.1</name></parts><parts id="46420"><name>PARKING BRAKE CABLE ASSEMBLY NO.2</name></parts><parts id="46430"><name>PARKING BRAKE CABLE ASSEMBLY NO.3</name></parts></para>
+</ttl>
+</section></servcat></pub></tmc-service-db>

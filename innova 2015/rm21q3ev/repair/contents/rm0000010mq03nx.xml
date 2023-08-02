@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1000K_S000I" variety="S000I">
+<name>DIFFERENTIAL</name>
+<ttl id="1000K_S000I_7AX2I_T00AP" variety="T00AP">
+<name>DIFFERENTIAL CARRIER ASSEMBLY</name>
+<para id="RM0000010MQ03NX" category="A" type-id="80001" name-id="AD1J8-06" from="201202" to="201303">
+<name>REMOVAL</name>
+<subpara id="RM0000010MQ03NX_01" type-id="01" category="01">
+<s-1 id="RM0000010MQ03NX_01_0001">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010MQ03NX_01_0002" proc-id="RM21Q0EV__000054X00000">
+<ptxt>REMOVE REAR PROPELLER SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000ZZ301ZX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010MQ03NX_01_0023" proc-id="RM21Q0EV__000056K00000">
+<ptxt>DRAIN DIFFERENTIAL OIL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Stop the vehicle on a level surface.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the differential filler plug and gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the drain plug and gasket, and drain the oil.  </ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.  </ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MQ03NX_01_0012" proc-id="RM21Q0EV__000054Y00000">
+<ptxt>REMOVE REAR AXLE SHAFT WITH BACKING PLATE LH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000ZZV01DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010MQ03NX_01_0013" proc-id="RM21Q0EV__000054Z00000">
+<ptxt>REMOVE REAR AXLE SHAFT WITH BACKING PLATE RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM0000010MQ03NX_01_0018" proc-id="RM21Q0EV__000055000000">
+<ptxt>REMOVE REAR DIFFERENTIAL CARRIER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 10 nuts and differential carrier.</ptxt>
+<figure>
+<graphic graphicname="C236646" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the contact surface.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MQ03NX_01_0019">
+<ptxt>REMOVE REAR DIFFERENTIAL CARRIER GASKET</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

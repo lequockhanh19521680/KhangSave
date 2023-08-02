@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80O_T0052" variety="T0052">
+<name>BRAKE MASTER CYLINDER</name>
+<para id="RM000001L5P00FX" category="A" type-id="80001" name-id="BR6X6-01" from="201303">
+<name>REMOVAL</name>
+<subpara id="RM000001L5P00FX_01" type-id="01" category="01">
+<s-1 id="RM000001L5P00FX_01_0001" proc-id="RM21Q0EV__00001RZ00001">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wash off brake fluid immediately if it comes in contact with any painted surface.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000001L5P00FX_01_0003" proc-id="RM21Q0EV__00001S100001">
+<ptxt>REMOVE BRAKE MASTER CYLINDER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C121400E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the clutch reservoir tube labeled A from the master cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the brake fluid level warning switch connector labeled B.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, disconnect the 5 brake lines labeled C from the master cylinder and 3-way.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts and bracket (with 3-way).</ptxt>
+<figure>
+<graphic graphicname="C121401" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pull out the master cylinder from the brake booster.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the master cylinder.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

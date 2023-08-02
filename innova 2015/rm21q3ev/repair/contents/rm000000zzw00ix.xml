@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002H_S000J" variety="S000J">
+<name>AXLE</name>
+<ttl id="1002H_S000J_7A802_T004G" variety="T004G">
+<name>REAR AXLE SHAFT</name>
+<para id="RM000000ZZW00IX" category="G" type-id="8000T" name-id="AH02U-04" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000ZZW00IX_01" type-id="01" category="01">
+<s-1 id="RM000000ZZW00IX_01_0001" proc-id="RM21Q0EV__00001IA00000">
+<ptxt>CHECK REAR AXLE SHAFT BEARING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050086E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear wheel.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the brake drum.</ptxt>
+</s2>
+<s2>
+<ptxt>Inspect the axle shaft backlash.</ptxt>
+<s3>
+<ptxt>Using a dial indicator, check the backlash near the center of the axle shaft.</ptxt>
+<spec>
+<title>Maximum backlash</title>
+<specitem>
+<ptxt>0.5 mm (0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the backlash is greater than the maximum, replace the bearing.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the axle shaft deviation.</ptxt>
+<figure>
+<graphic graphicname="F050085E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a dial indicator, check the deviation at the surface of the axle shaft.</ptxt>
+<spec>
+<title>Maximum deviation</title>
+<specitem>
+<ptxt>0.1 mm (0.0039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the deviation is greater than the maximum, replace the bearing.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

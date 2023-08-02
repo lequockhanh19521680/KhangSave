@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7YY_T003C" variety="T003C">
+<name>STARTER</name>
+<para id="RM00000135T01FX" category="A" type-id="80001" name-id="ST0S9-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000135T01FX_01" type-id="01" category="01">
+<s-1 id="RM00000135T01FX_01_0006">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM00000135T01FX_01_0002" proc-id="RM21Q0EV__00000UI00000">
+<ptxt>REMOVE FRONT FENDER SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 5 clips and seal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135T01FX_01_0004" proc-id="RM21Q0EV__00000UJ00000">
+<ptxt>REMOVE TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY (for Automatic Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190098" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the oil level gauge.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and oil filler tube.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the oil filler tube.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000135T01FX_01_0005" proc-id="RM21Q0EV__00000UK00000">
+<ptxt>DISCONNECT CLUTCH RELEASE CYLINDER ASSEMBLY (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034217E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and disconnect the release cylinder.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000135T01FX_01_0003" proc-id="RM21Q0EV__000005W00000">
+<ptxt>REMOVE STARTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the starter connector.</ptxt>
+<figure>
+<graphic graphicname="G039040E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the starter wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and starter.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

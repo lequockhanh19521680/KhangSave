@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12053_S000U" variety="S000U">
+<name>LIGHTING (INT)</name>
+<ttl id="12053_S000U_7AI9G_T000O" variety="T000O">
+<name>LIGHTING SYSTEM</name>
+<para id="RM000004S4X003X" category="F" type-id="8048X" name-id="LI94R-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000004S4X003X_z0" proc-id="NM21Q0EV__000001V00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="Y112474E02" width="7.106578999in" height="6.791605969in"/>
+</figure>
+<figure>
+<graphic graphicname="Y110377E03" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

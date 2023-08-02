@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81V_T0069" variety="T0069">
+<name>BACK DOOR COURTESY SWITCH</name>
+<para id="RM000001MVH00LX" category="A" type-id="80001" name-id="LIA1J-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001MVH00LX_01" type-id="01" category="01">
+<s-1 id="RM000001MVH00LX_01_0001" proc-id="RM21Q0EV__00002A000000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000001MVH00LX_01_0002" proc-id="RM21Q0EV__00003NF00000">
+<ptxt>REMOVE BACK DOOR TRIM BOARD ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 16 clips and remove the back door trim board.</ptxt>
+<figure>
+<graphic graphicname="B280739" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001MVH00LX_01_0003" proc-id="RM21Q0EV__00004NJ00000">
+<ptxt>REMOVE BACK DOOR LOCK ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector and detach the clamp.</ptxt>
+<figure>
+<graphic graphicname="B277797E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the back door lock cable.</ptxt>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" align="center" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Back Door Lock Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts and back door lock.</ptxt>
+<figure>
+<graphic graphicname="B278860" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

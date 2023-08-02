@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000001DTH02DX" category="J" type-id="800OV" name-id="ACJQN-01" from="201403">
+<dtccode/>
+<dtcname>Air Conditioning Compressor Magnetic Clutch Circuit</dtcname>
+<subpara id="RM000001DTH02DX_01" type-id="60" category="03" proc-id="RM21Q0EV__00004RM00001">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The air conditioning amplifier assembly outputs the magnet clutch on request signal to the ECM. The ECM sends a magnet clutch on permission signal to the air conditioning amplifier assembly. The air conditioning amplifier assembly turn the magnet clutch on based on the signal.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000001DTH02DX_02" type-id="32" category="03" proc-id="RM21Q0EV__00004RN00001">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E234442E06" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001DTH02DX_03" type-id="51" category="05" proc-id="RM21Q0EV__00004YP00001">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>Inspect the fuses for circuits related to this system before performing the following inspection procedure.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000001DTH02DX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001DTH02DX_05_0001" proc-id="RM21Q0EV__00004RO00001">
+<testtitle>READ VALUE USING INTELLIGENT TESTER (A/C SIGNAL)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Use the Data List to check if the magnet clutch on request signal is functioning properly (See page <xref label="Seep01" href="RM000003R7K00JX"/>).</ptxt>
+<table pgwide="1">
+<title>ECM</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A/C Signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Magnet clutch on request signal / ON or OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON: A/C switch on</ptxt>
+<ptxt>OFF: A/C switch off</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Check this item with the engine idling and the blower switch on (LO level).</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Display is as specified in normal condition.</ptxt>
+</specitem>
+</spec>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0002" fin="false">OK</down>
+<right ref="RM000001DTH02DX_05_0009" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0002" proc-id="RM21Q0EV__00004RP00001">
+<testtitle>INSPECT MAGNET CLUTCH RELAY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the magnet clutch relay (See page <xref label="Seep01" href="RM000003ZPW00TX"/>).</ptxt>
+<figure>
+<graphic graphicname="E170970E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Battery voltage is not applied to terminals 1 and 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Battery voltage is applied to terminals 1 and 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0003" fin="false">OK</down>
+<right ref="RM000001DTH02DX_05_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0003" proc-id="RM21Q0EV__00004RQ00001">
+<testtitle>CHECK HARNESS AND CONNECTOR (AIR CONDITIONING AMPLIFIER - BATTERY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+<figure>
+<graphic graphicname="E170963E41" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-13 (MGC) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to Air Conditioning Amplifier Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0004" fin="false">OK</down>
+<right ref="RM000001DTH02DX_05_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0004" proc-id="RM21Q0EV__00004RR00001">
+<testtitle>CHECK AIR CONDITIONING AMPLIFIER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the air conditioning amplifier assembly with its connectors still connected (See page <xref label="Seep01" href="RM000001K3A01KX"/>).</ptxt>
+<figure>
+<graphic graphicname="E225456E51" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-13 (MGC) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>A/C switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>A/C switch off</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component with harness connected</ptxt>
+<ptxt>(Air Conditioning Amplifier Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0010" fin="false">OK</down>
+<right ref="RM000001DTH02DX_05_0021" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0010" proc-id="RM21Q0EV__00004RV00001">
+<testtitle>INSPECT MAGNET CLUTCH ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the cooler compressor assembly (See page <xref label="Seep01" href="RM00000248Y00DX"/>).</ptxt>
+<figure>
+<graphic graphicname="E225413" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Apply battery voltage to the magnet clutch and check operation of the magnet clutch.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Measurement Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Battery positive (+) → Terminal 1</ptxt>
+<ptxt>Battery negative (-) → Ground wire</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Magnet clutch engages</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0005" fin="false">OK</down>
+<right ref="RM000001DTH02DX_05_0013" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0005" proc-id="RM21Q0EV__00004RS00001">
+<testtitle>CHECK HARNESS AND CONNECTOR (COOLER COMPRESSOR ASSEMBLY - MAGNET CLUTCH RELAY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A2 cooler compressor assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Remove the magnet clutch relay (See page <xref label="Seep01" href="RM000003ZPW00TX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>M4-5 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>M4-3 - A2-1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0015" fin="true">OK</down>
+<right ref="RM000001DTH02DX_05_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0021" proc-id="RM21Q0EV__00004RW00001">
+<testtitle>CHECK HARNESS AND CONNECTOR (AIR CONDITIONING AMPLIFIER - ECM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E10 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC2" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A36-7 (ACT) - E10-25 (ACT)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A36-7 (ACT) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0022" fin="false">OK</down>
+<right ref="RM000001DTH02DX_05_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0022" proc-id="RM21Q0EV__00004RX00001">
+<testtitle>CHECK AIR CONDITIONING AMPLIFIER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the air conditioning amplifier assembly with its connectors still connected (See page <xref label="Seep01" href="RM000001K3A01KX"/>).</ptxt>
+<figure>
+<graphic graphicname="E225456E50" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-7 (ACT) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch off</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component with harness connected</ptxt>
+<ptxt>(Air Conditioning Amplifier Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0016" fin="true">OK</down>
+<right ref="RM000001DTH02DX_05_0018" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0009" proc-id="RM21Q0EV__00004RU00001">
+<testtitle>CHECK HARNESS AND CONNECTOR (AIR CONDITIONING AMPLIFIER - ECM)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E10 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC2" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A36-21 (AC1) - E10-24 (AC1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A36-21 (AC1) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0007" fin="false">OK</down>
+<right ref="RM000001DTH02DX_05_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0007" proc-id="RM21Q0EV__00004RT00001">
+<testtitle>CHECK AIR CONDITIONING AMPLIFIER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Replace the air conditioning amplifier assembly new or normally functioning one (See page <xref label="Seep01" href="RM000001K3A01KX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the air conditioning system functioning normally.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The air conditioning system functioning normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTH02DX_05_0026" fin="true">OK</down>
+<right ref="RM000001DTH02DX_05_0018" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0015">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000045E302EX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0011">
+<testtitle>REPLACE MAGNET CLUTCH RELAY<xref label="Seep01" href="RM000003ZPW00TX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0012">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0013">
+<testtitle>REPLACE MAGNET CLUTCH ASSEMBLY<xref label="Seep01" href="RM0000016AL07HX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0016">
+<testtitle>REPLACE AIR CONDITIONING AMPLIFIER ASSEMBLY<xref label="Seep01" href="RM000001K3A01KX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0018">
+<testtitle>REPLACE ECM<xref label="Seep01" href="RM000000VW2028X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTH02DX_05_0026">
+<testtitle>END (AIR CONDITIONING AMPLIFIER ASSEMBLY IS DEFECTIVE)</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

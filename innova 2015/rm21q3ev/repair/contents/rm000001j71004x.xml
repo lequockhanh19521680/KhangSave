@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82F_T006T" variety="T006T">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM000001J71004X" category="U" type-id="303FI" name-id="DL0LT-02" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000001J71004X_z0" proc-id="RM21Q0EV__00002FD00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="B141719E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="B141720E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="B141716E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

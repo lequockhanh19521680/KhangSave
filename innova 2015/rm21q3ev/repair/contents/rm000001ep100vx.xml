@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000001EP100VX" category="J" type-id="305BG" name-id="ES10OV-001" from="201202">
+<dtccode/>
+<dtcname>VC Output Circuit</dtcname>
+<subpara id="RM000001EP100VX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000FM00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The VC voltage (5 V) is generated in the ECM. The voltage is used to supply power to the throttle position sensor, accelerator pedal position sensor, etc.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000001EP100VX_02" type-id="32" category="03" proc-id="RM21Q0EV__00000FN00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A174088E05" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001EP100VX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000001EP100VX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001EP100VX_04_0001" proc-id="RM21Q0EV__00000FO00000">
+<testtitle>CHECK MIL</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that MIL (Malfunction Indicator Lamp) lights up when turning the ignition switch ON.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>MIL lights up</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001EP100VX_04_0008" fin="true">OK</down>
+<right ref="RM000001EP100VX_04_0002" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0002" proc-id="RM21Q0EV__00000FP00000">
+<testtitle>CHECK CONNECTION BETWEEN INTELLIGENT TESTER AND ECM</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the connection between the intelligent tester and ECM.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Communication is not possible</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Communication is possible</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001EP100VX_04_0003" fin="false">A</down>
+<right ref="RM000001EP100VX_04_0009" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0003" proc-id="RM21Q0EV__00000FQ00000">
+<testtitle>INSPECT ECM (VC VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A119979E97" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-18 (VC) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Voltage is not 5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-26 (VCPA) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Voltage is not 5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-27 (VCP2) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>Voltage is not 5 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001EP100VX_04_0004" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0004" proc-id="RM21Q0EV__00000FR00000">
+<testtitle>CHECK MIL (THROTTLE POSITION SENSOR)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the T1 throttle body connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the MIL.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>MIL does not illuminate</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>MIL illuminates</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001EP100VX_04_0013" fin="false">A</down>
+<right ref="RM000001EP100VX_04_0010" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0013" proc-id="RM21Q0EV__00004ZI00000">
+<testtitle>CHECK MIL (ACCELERATOR PEDAL POSITION SENSOR)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A17 accelerator pedal position sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the MIL.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>MIL does not illuminate</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>MIL illuminates</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001EP100VX_04_0006" fin="false">A</down>
+<right ref="RM000001EP100VX_04_0014" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0006" proc-id="RM21Q0EV__00000FS00000">
+<testtitle>CHECK WIRE HARNESS (ECM - BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A079127E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the T1 throttle body connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the A17 accelerator pedal position sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E9 and E12 ECM connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+</test1>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-18 (VC) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-26 (VCPA) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E9-27 (VCP2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content6>
+<res>
+<down ref="RM000001EP100VX_04_0007" fin="true">OK</down>
+<right ref="RM000001EP100VX_04_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0009">
+<testtitle>GO TO MIL CIRCUIT</testtitle>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0010">
+<testtitle>REPLACE THROTTLE BODY WITH MOTOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0014">
+<testtitle>REPLACE ACCELERATOR PEDAL ROD ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0012">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0008">
+<testtitle>SYSTEM OK</testtitle>
+</testgrp>
+<testgrp id="RM000001EP100VX_04_0007">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="gp" code="IH">
+		<pin>
+			<line id="1" color="W-B">
+				<connector type="conn" code="J28" subcode="B">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IH">
+		<pin>
+			<line id="2" color="W-B">
+				<connector type="jbc" code="2D">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="6">
+			<line id="3" color="W-B">
+				<connector type="conn" code="P4">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="P4">
+		<pin no="1">
+			<line id="4" color="P">
+				<connector type="jbc" code="2P">
+					<pin no="23"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="5" color="W-B">
+				<connector type="jbc" code="2D">
+					<pin no="18"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

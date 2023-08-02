@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YC_T002Q" variety="T002Q">
+<name>FUEL INJECTOR</name>
+<para id="RM000000YLB01YX" category="A" type-id="80001" name-id="FUB0H-01" from="201403">
+<name>REMOVAL</name>
+<subpara id="RM000000YLB01YX_01" type-id="01" category="01">
+<s-1 id="RM000000YLB01YX_01_0001" proc-id="RM21Q0EV__00000IJ00001">
+<ptxt>DISCHARGE FUEL SYSTEM PRESSURE</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not disconnect any part of the fuel system until you have discharged the fuel system pressure.</ptxt>
+</item>
+<item>
+<ptxt>Even after discharging the fuel pressure, place a cloth or equivalent over fittings as you separate them to reduce the risk of fuel spray on yourself or in the engine compartment.</ptxt>
+</item>
+</list1>
+</atten2>
+<s2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Remove the front driver side scuff plate.</ptxt>
+<s3>
+<ptxt>Using a screwdriver, detach the 7 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Using a clip remover, detach the 3 clips and remove the scuff plate.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Turn up the floor carpet and disconnect the joining connector, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A116042" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>This connector has the lines of the fuel pump and rear speed sensor.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. After the engine has stopped on its own, turn the ignition switch OFF.</ptxt>
+<atten4>
+<ptxt>DTCs C0210/33 and C0215/34 (rear speed sensor circuit) and DTC P0171/25 (system too lean) may be set.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Crank the engine again, and then check that the engine does not start.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the fuel tank cap, and then discharge the pressure in the fuel tank completely.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the fuel pump connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front driver side scuff plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Clear the DTCs (see page <xref label="Seep01" href="RM000000ZPW01AX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLB01YX_01_0002" proc-id="RM21Q0EV__00000O300001">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLB01YX_01_0007" proc-id="RM21Q0EV__00000O400001">
+<ptxt>REMOVE INTAKE AIR CONNECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the 2 hose clamps and remove the 2 bolts and disconnect the intake air connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLB01YX_01_0009" proc-id="RM21Q0EV__000005X00001">
+<ptxt>REMOVE THROTTLE BODY ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the throttle position sensor and control motor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 2 water by-pass hoses.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A309649" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 4 bolts and throttle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the gasket.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLB01YX_01_0004" proc-id="RM21Q0EV__00000IK00001">
+<ptxt>DISCONNECT FUEL HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 2 fuel hose from the pressure regulator.</ptxt>
+<figure>
+<graphic graphicname="A111732E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 1 fuel hose from the pulsation damper.</ptxt>
+<s3>
+<ptxt>Detach the lock claw by lifting up the cover, as shown in the illustration.</ptxt>
+</s3>
+<s3>
+<ptxt>Check for foreign matter on the pipe and around the connector before disconnecting. Clean if necessary.</ptxt>
+</s3>
+<s3>
+<ptxt>If the connector and the pipe are stuck together, pinch the connector, and push and pull the pipe to disconnect them.</ptxt>
+<figure>
+<graphic graphicname="A088336E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not use any tools in this procedure.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Check for foreign matter on the seal surface of the disconnected pipe. Clean if necessary.</ptxt>
+</s3>
+<s3>
+<ptxt>To protect the disconnected pipe and connector from damage and contamination, cover it with a plastic bag.</ptxt>
+<figure>
+<graphic graphicname="A099427E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLB01YX_01_0005" proc-id="RM21Q0EV__00000IM00001">
+<ptxt>REMOVE FUEL DELIVERY PIPE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Be careful not to drop the injectors when removing the delivery pipe.</ptxt>
+</atten3>
+<s2>
+<ptxt>Disconnect the 4 clamps and wire harness from the delivery pipe.</ptxt>
+<figure>
+<graphic graphicname="G038846E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 4 injector connectors.</ptxt>
+<figure>
+<graphic graphicname="A312422" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and delivery pipe together with the 4 injectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Using 2 screwdrivers, pry out the 4 spacers from the cylinder head.</ptxt>
+<figure>
+<graphic graphicname="A312423" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tips before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLB01YX_01_0006" proc-id="RM21Q0EV__00000IN00001">
+<ptxt>REMOVE INJECTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pull out the 4 injectors from the delivery pipe.</ptxt>
+<figure>
+<graphic graphicname="G034904E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the insulator and O-ring from each injector.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

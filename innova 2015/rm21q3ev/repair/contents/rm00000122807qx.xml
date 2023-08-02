@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81I_T005W" variety="T005W">
+<name>FRONT SEAT OUTER BELT ASSEMBLY</name>
+<para id="RM00000122807QX" category="L" type-id="3001A" name-id="SB0055-188" from="201303">
+<name>PRECAUTION</name>
+<subpara id="RM00000122807QX_z0" proc-id="RM21Q0EV__00005AG00000">
+<content5 releasenbr="1">
+<atten2>
+<ptxt>Replace any faulty parts of the seat belt systems (outer belt, inner belt, bolts, nuts, adjustable shoulder anchor, tether anchor hardware and other related parts). When inspecting a vehicle that was in a collision, be sure to check all of the seat belt systems regardless of whether or not the system was activated in the collision. Replace any damaged or malfunctioning systems.</ptxt>
+</atten2>
+<figure>
+<graphic graphicname="B069710E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step1>
+<ptxt>RUNNING TEST (IN SAFE AREA) </ptxt>
+<atten2>
+<ptxt>Conduct this test in a safe area.</ptxt>
+</atten2>
+<step2>
+<ptxt>Fasten the front seat belt.</ptxt>
+</step2>
+<step2>
+<ptxt>Drive the vehicle at 16 km/h (10 mph) and firmly depress the brakes. Check that the belts lock and cannot be extended at this time. If a belt does not lock, replace the seat belt assembly (See page <xref label="Seep01" href="RM00000120B08PX"/>).</ptxt>
+<atten4>
+<ptxt>Inspect a seat belt assembly before installing it (See page <xref label="Seep02" href="RM000001292048X"/> ).</ptxt>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

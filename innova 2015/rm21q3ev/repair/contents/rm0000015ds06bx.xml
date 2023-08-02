@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7A83H_T007V" variety="T007V">
+<name>OUTER MIRROR SWITCH</name>
+<para id="RM0000015DS06BX" category="G" type-id="3001K" name-id="MI05E-10" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000015DS06BX_01" type-id="01" category="01">
+<s-1 id="RM0000015DS06BX_01_0001" proc-id="RM21Q0EV__00002S600000">
+<ptxt>INSPECT OUTER MIRROR SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B059702E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>The L position of the left/right adjustment switch: Measure the resistance of the mirror switch.</ptxt>
+<spec>
+<title>Standard resistance (for left side)</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.53in"/>
+<colspec colname="COL2" colwidth="1.23in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>4 (MLV) - 8 (B)</ptxt>
+<ptxt>6 (M+) - 7 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4 (MLV) - 7 (E) </ptxt>
+<ptxt>6 (M+) - 8 (B)</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (MLH) - 8 (B) </ptxt>
+<ptxt>6 (M+) - 7 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>LEFT</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (MLH) - 7 (E) </ptxt>
+<ptxt>6 (M+) - 8 (B)</ptxt>
+</entry>
+<entry>
+<ptxt>RIGHT</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>The R position of the left/right adjustment switch: Measure the resistance of the mirror switch.</ptxt>
+<spec>
+<title>Standard resistance (for right side)</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.56in"/>
+<colspec colname="COL2" colwidth="1.20in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>3 (MRV) - 8 (B) </ptxt>
+<ptxt>6 (M+) - 7 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3 (MRV) - 7 (E) </ptxt>
+<ptxt>6 (M+) - 8 (B)</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (MRH) - 8 (B) </ptxt>
+<ptxt>6 (M+) - 7 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>LEFT</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (MRH) - 7 (E) </ptxt>
+<ptxt>6 (M+) - 8 (B)</ptxt>
+</entry>
+<entry>
+<ptxt>RIGHT</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

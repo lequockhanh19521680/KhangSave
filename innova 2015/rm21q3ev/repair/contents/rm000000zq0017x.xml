@@ -1,0 +1,6036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQ0017X" category="U" type-id="303FJ" name-id="ES10OA-001" from="201202">
+<name>DATA LIST / ACTIVE TEST</name>
+<subpara id="RM000000ZQ0017X_z0" proc-id="RM21Q0EV__00000FI00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DATA LIST</ptxt>
+<atten4>
+<ptxt>Using the intelligent tester to read the Data List allows the values or states of switches, sensors, actuators and other items to be read without removing any parts. This non-intrusive inspection can be very useful because intermittent conditions or signals may be discovered before parts or wiring is disturbed. Reading the Data List information early in troubleshooting is one way to save diagnostic time.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>In the table below, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.</ptxt>
+</item>
+<item>
+<ptxt>The actual values may differ from the values listed in the chart under "Results of real-vehicle check" due to climate, weather conditions, etc.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>Normal Condition: If no conditions are specifically stated for "idling", the shift lever should be in N or P, the A/C should be off and all accessory switches should be off.</ptxt>
+</atten4>
+<step2>
+<ptxt>Warm up the engine.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the A/C off.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch off.</ptxt>
+</step2>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the intelligent tester on.</ptxt>
+</step2>
+<step2>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>To display the list box, press the pull down menu button next to Primary. Then select a measurement group.</ptxt>
+</item>
+<item>
+<ptxt>When you select a measurement group, the ECU data belonging to that group is displayed.</ptxt>
+</item>
+<item>
+<ptxt>Measurement Group List / Description</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>All Data / All data</ptxt>
+</item>
+<item>
+<ptxt>Primary / -</ptxt>
+</item>
+<item>
+<ptxt>Engine Control / Engine control system related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl General / -</ptxt>
+</item>
+<item>
+<ptxt>Ptrl AF Control / Air fuel ratio control system related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl AF O2 Sensor / Air fuel ratio sensor and heated oxygen sensor related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl Throttle / Gasoline throttle system related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl Intake Control / Intake control system related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl Valve Control / Valve control system related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl Misfire / "Misfire" related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl Starting / "Difficult to start" related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl Rough Idle / "Rough idle" related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl Evaporative / Evaporative system related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl 2nd Air / Secondary air injection system related data</ptxt>
+</item>
+<item>
+<ptxt>Ptrl CAT Converter / Catalyst converter related data</ptxt>
+</item>
+<item>
+<ptxt>Check Mode / Check mode related data</ptxt>
+</item>
+<item>
+<ptxt>Monitor Status / Monitor status related data</ptxt>
+</item>
+<item>
+<ptxt>Ignition / Ignition system related data</ptxt>
+</item>
+<item>
+<ptxt>Charging Control / Charging control system related data</ptxt>
+</item>
+<item>
+<ptxt>Compression / Data used during "Check the Cylinder Compression" Active Test</ptxt>
+</item>
+<item>
+<ptxt>AT / Automatic transmission system related data</ptxt>
+</item>
+<item>
+<ptxt>Vehicle Information / Vehicle information</ptxt>
+</item>
+</list2>
+</list1>
+</atten4>
+</step2>
+<step2>
+<ptxt>According to the display on the intelligent tester, read the Data List.</ptxt>
+<atten4>
+<ptxt>The title used for each group of Data List items in this repair manual does not appear on the intelligent tester. However, the name in parentheses after the title, which is a Measurement Group, does appear on the intelligent tester. When the name shown in parentheses is selected on the intelligent tester, all the Data List items listed for that group will be displayed.</ptxt>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>Various Vehicle Conditions 1 (All Data)</ptxt>
+<table pgwide="1">
+<title>Vehicle Speed</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Vehicle Speed</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle speed/</ptxt>
+<ptxt>Min.: 0 km/h (0 mph), Max.: 255 km/h (158 mph)</ptxt>
+</entry>
+<entry>
+<ptxt>Actual vehicle speed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>This is the current vehicle speed.</ptxt>
+</item>
+<item>
+<ptxt>The vehicle speed is detected using the speed sensors.</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Vehicle speed data is delayed when it is displayed. Therefore, even if the vehicle speed listed in the freeze frame data is 0 km/h (0 mph), this does not always mean that the malfunction occurred when the vehicle was stopped.</ptxt>
+</item>
+</list2>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Engine Speed</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Engine Speed</ptxt>
+</entry>
+<entry>
+<ptxt>Engine speed/</ptxt>
+<ptxt>Min.: 0 rpm, Max.: 16383 rpm</ptxt>
+</entry>
+<entry>
+<ptxt>650 to 750 rpm: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>When the crankshaft position sensor is malfunctioning, "Engine Speed" is approximately 0 or varies greatly from the actual engine speed.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Calculate Load</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Calculate Load</ptxt>
+</entry>
+<entry>
+<ptxt>Load calculated by ECM/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the engine load calculated based on the estimated intake manifold pressure.</ptxt>
+<ptxt>Calculate Load = Estimated intake manifold pressure / maximum intake manifold pressure x 100 (%)</ptxt>
+<ptxt>(For example, when the estimated intake manifold pressure is the same as atmospheric pressure, Calculate Load is 100%.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>MAF</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>MAF</ptxt>
+</entry>
+<entry>
+<ptxt>Airflow rate from Mass Air Flow (MAF) meter/</ptxt>
+<ptxt>Min.: 0 gm/s, Max.: 655.35 gm/s</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 to 4.0 gm/s: Idling</ptxt>
+<ptxt>4.0 to 15.0 gm/s: 2500 rpm (without load)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the intake air amount from the mass air flow meter.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Atmosphere Pressure</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Atmosphere Pressure</ptxt>
+</entry>
+<entry>
+<ptxt>Atmospheric pressure/</ptxt>
+<ptxt>Min.: 0 kPa, Max.: 255 kPa</ptxt>
+</entry>
+<entry>
+<ptxt>Equivalent to atmospheric pressure (absolute pressure)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>This value is calculated from the intake air amount.</ptxt>
+</item>
+<item>
+<ptxt>Standard atmospheric pressure: 101 kPa</ptxt>
+</item>
+<item>
+<ptxt>For every 100 m increase in altitude, pressure drops by 1 kPa. This varies by weather.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Coolant Temp</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Coolant Temp</ptxt>
+</entry>
+<entry>
+<ptxt>Coolant temperature/</ptxt>
+<ptxt>Min.: -40°C, Max.: 140°C</ptxt>
+</entry>
+<entry>
+<ptxt>80 to 95°C (176 to 203°F): After warming up</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the engine coolant temperature.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>After warming up the engine, the engine coolant temperature is 75 to 100°C .</ptxt>
+</item>
+<item>
+<ptxt>After a long soak, the engine coolant temperature, intake air temperature and ambient air temperature are approximately equal.</ptxt>
+</item>
+<item>
+<ptxt>If the value is -40°C (-40°F) or 140°C (284°F), the sensor circuit is open or shorted.</ptxt>
+</item>
+</list1>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Intake Air</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Intake Air</ptxt>
+</entry>
+<entry>
+<ptxt>Intake air temperature/</ptxt>
+<ptxt>Min.: -40°C, Max.: 140°C</ptxt>
+</entry>
+<entry>
+<ptxt>Equivalent to temperature at location of mass air flow meter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>After a long soak, the engine coolant temperature, intake air temperature and ambient air temperature are approximately equal.</ptxt>
+</item>
+<item>
+<ptxt>If the value is -40°C (-40°F) or 140°C (284°F), the sensor circuit is open or shorted.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Engine Run Time</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Engine Run Time</ptxt>
+</entry>
+<entry>
+<ptxt>Engine run time/</ptxt>
+<ptxt>Min.: 0 s, Max.: 65535 s</ptxt>
+</entry>
+<entry>
+<ptxt>Time after engine start</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the time elapsed since the engine started.</ptxt>
+<atten4>
+<ptxt>The time is counted only while the engine is running.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Initial Engine Coolant Temp</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Initial Engine Coolant Temp</ptxt>
+</entry>
+<entry>
+<ptxt>Initial engine coolant temperature/</ptxt>
+<ptxt>Min.: -40°C, Max.: 215°C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the coolant temperature stored when the ignition switch is turned to ON.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Initial Intake Air Temp</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Initial Intake Air Temp</ptxt>
+</entry>
+<entry>
+<ptxt>Initial intake air temperature/</ptxt>
+<ptxt>Min.: -40°C, Max.: 140°C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the intake air temperature stored when the ignition switch is turned to ON.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Battery Voltage</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Battery Voltage</ptxt>
+</entry>
+<entry>
+<ptxt>Battery voltage/</ptxt>
+<ptxt>Min.: 0 V, Max.: 65.535 V</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>If 11 V or less, characteristics of some electrical components may change.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Throttle Control (Ptrl Throttle)</ptxt>
+<table pgwide="1">
+<title>Accel Sens. No.1 Volt %</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Accel Sens. No.1 Volt %</ptxt>
+</entry>
+<entry>
+<ptxt>Absolute Accelerator Pedal Position (APP) No. 1/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 22%: Accelerator pedal released</ptxt>
+<ptxt>54 to 86%: Accelerator pedal fully depressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>The accelerator pedal position sensor No. 1 output is converted using 5 V = 100%.</ptxt>
+<atten4>
+<ptxt>If there are no accelerator pedal position sensor DTCs stored, it is possible to conclude that the accelerator pedal position sensor system is normal.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accel Sens. No.2 Volt %</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Accel Sens. No.2 Volt %</ptxt>
+</entry>
+<entry>
+<ptxt>Absolute APP No. 2/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry>
+<ptxt>12 to 42%: Accelerator pedal released</ptxt>
+<ptxt>66 to 98%: Accelerator pedal fully depressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>The accelerator pedal position sensor No. 2 output is converted using 5 V = 100%.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accel Sensor Out No.1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Accel Sensor Out No.1</ptxt>
+</entry>
+<entry>
+<ptxt>APP sensor No. 1 voltage/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 1.1 V: Accelerator pedal released</ptxt>
+<ptxt>2.6 to 4.5 V: Accelerator pedal fully depressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the raw voltage from the accelerator pedal position sensor No. 1.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accel Sensor Out No.2</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Accel Sensor Out No.2</ptxt>
+</entry>
+<entry>
+<ptxt>APP sensor No. 2 voltage/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry>
+<ptxt>1.2 to 2.0 V: Accelerator pedal released</ptxt>
+<ptxt>3.4 to 4.98 V: Accelerator pedal fully depressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the raw voltage from the accelerator pedal position sensor No. 2.</ptxt>
+<ptxt>Accelerator pedal position sensor No. 2 is used to monitor accelerator pedal position sensor No. 1. When there is a malfunction in sensor No. 1, the ECM uses sensor No. 2 to control the engine.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accelerator Idle Position</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Accelerator Idle Position</ptxt>
+</entry>
+<entry>
+<ptxt>Whether or not accelerator pedal position sensor detecting released accelerator pedal/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Accelerator pedal released</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is a parameter calculated by the ECM which indicates whether the accelerator pedal is in the learned idle position.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accel Fully Close #1 (AD)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Accel Fully Close #1 (AD)</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerator fully closed value No. 1 (AD)/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.9 V</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accel Fully Close Learn #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Accel Fully Close Learn #1</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerator fully released learned value No. 1/</ptxt>
+<ptxt>Min.: 0 deg, Max.: 124.5 deg</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the value of accelerator pedal position sensor No. 1 learned when the accelerator pedal is released.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Accel Fully Close Learn #2</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Accel Fully Close Learn #2</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerator fully released learned value No. 2/</ptxt>
+<ptxt>Min.: 0 deg, Max.: 124.5 deg</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the value of accelerator pedal position sensor No. 2 learned when the accelerator pedal is released.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Sensor Volt %</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Sensor Volt %</ptxt>
+</entry>
+<entry>
+<ptxt>Absolute throttle position sensor/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>10 to 22%: Throttle fully closed</ptxt>
+</item>
+<item>
+<ptxt>66 to 98%: Throttle fully open</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>The throttle position sensor No. 1 output is converted using 5 V = 100%.</ptxt>
+<atten4>
+<ptxt>If there are no throttle position sensor DTCs stored, it is possible to conclude that the throttle position sensor system is normal.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttl Sensor #2 Volt %</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttl Sensor #2 Volt %</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle sensor position #2/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>42 to 62%: Throttle fully closed</ptxt>
+</item>
+<item>
+<ptxt>92 to 100%: Throttle fully open</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>The throttle position sensor No. 2 output is converted using 5 V = 100%.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>ST1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>ST1</ptxt>
+</entry>
+<entry>
+<ptxt>Brake pedal signal/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Brake pedal depressed</ptxt>
+<ptxt>OFF: Brake pedal released</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the stop light switch signal. </ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>System Guard</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>System Guard</ptxt>
+</entry>
+<entry>
+<ptxt>System guard/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>When there is a difference between the target and actual throttle valve opening angles, system guard turns off and stops the electronic throttle control system function.</ptxt>
+<ptxt>OFF: Electronic throttle control is stopped.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Open Side Malfunction</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Open Side Malfunction</ptxt>
+</entry>
+<entry>
+<ptxt>Open malfunction/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This parameter indicates a malfunction in the electronic throttle when the throttle valve is open.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Idle Position</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Idle Position</ptxt>
+</entry>
+<entry>
+<ptxt>Whether or not throttle position sensor detecting idle/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is a parameter calculated by the ECM.</ptxt>
+<ptxt>The value is ON when the throttle is at the idle position and OFF when the throttle is open.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Require Position</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Require Position</ptxt>
+</entry>
+<entry>
+<ptxt>Required throttle position/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is a value calculated by the ECM showing the voltage for the target throttle valve position. It is almost an exact match of the Throttle Position No. 1 value except during very rapid throttle valve movement, such as that used during wheelspin control.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Sensor Position</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Sensor Position</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle sensor position/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>0%: Throttle fully closed</ptxt>
+</item>
+<item>
+<ptxt>50 to 80%: Throttle fully open</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the throttle valve opening amount used for engine control.</ptxt>
+<ptxt>(100% signifies 125° of throttle valve rotation. This does not include the amount the throttle valve is opened to maintain the idling speed during idling.)</ptxt>
+<ptxt>This value has no meaning when the ignition switch is ON and the engine is stopped.</ptxt>
+<ptxt>The throttle valve opening amount during idling is indicated by 0%. When the throttle valve is fully open, the value is 68%.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Position No. 1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Position No. 1</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor No. 1 output voltage/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry>
+<ptxt>Almost same as "Throttle Require Position"</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>0.5 to 1.1 V: Throttle fully closed</ptxt>
+</item>
+<item>
+<ptxt>3.2 to 4.8 V: Throttle fully open</ptxt>
+</item>
+<item>
+<ptxt>0.6 to 1.4 V: Fail-safe operating</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the throttle position sensor No. 1 output voltage.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Position No. 2</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Position No. 2</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor No. 2 output voltage/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>2.1 to 3.1 V: Throttle fully closed</ptxt>
+</item>
+<item>
+<ptxt>4.6 to 4.98 V: Throttle fully open</ptxt>
+</item>
+<item>
+<ptxt>2.1 to 3.1 V: Fail-safe operating</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the throttle position sensor No. 2 output voltage.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Position Command</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Position Command</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position command value/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Throttle Position Command is the same value as Throttle Require Position.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Sens Open Pos #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Sens Open Pos #1</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor No. 1/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry>
+<ptxt>0.6 to 0.9 V</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the throttle position sensor No. 1 output voltage when there is no current supplied to the electronic throttle actuator. The accelerator pedal is released but the throttle valve is kept open by the throttle valve opener with the ignition switch ON.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Sens Open Pos #2</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Sens Open Pos #2</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor No. 2/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry>
+<ptxt>2.2 to 2.6 V</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the throttle position sensor No. 2 output voltage when there is no current supplied to the electronic throttle actuator. The accelerator pedal is released but the throttle valve is kept open by the throttle valve opener with the ignition switch ON.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Sens Open #1 (AD)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Throttle Sens Open #1 (AD)</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle sensor opener position No. 1 (AD)/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.9 V</ptxt>
+</entry>
+<entry>
+<ptxt>0.6 to 0.9 V</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Motor</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Motor</ptxt>
+</entry>
+<entry>
+<ptxt>Whether or not throttle motor control is permitted/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Idling: ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Read the value with the ignition switch ON (Do not start engine)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Motor Current</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Motor Current</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle actuator current/</ptxt>
+<ptxt>Min.: 0 A, Max.: 19.9 A</ptxt>
+</entry>
+<entry>
+<ptxt>0 to 3.0 A: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>When this value is large but the actual opening angle (Throttle Position No. 1) does not reach the target opening angle (Throttle Require Position), there is an "unable to open" malfunction.</ptxt>
+</item>
+<item>
+<ptxt>This value normally fluctuates around 1 A.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Motor DUTY</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Motor DUTY</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle actuator/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 22%: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the output duty ratio of the throttle actuator drive circuit.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Motor Duty (Open)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Motor Duty (Open)</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle actuator duty ratio (open)/</ptxt>
+<ptxt>Min.: 0%, Max.: 255%</ptxt>
+</entry>
+<entry>
+<ptxt>0 to 40%: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>This is the duty ratio used to drive the throttle actuator and open the throttle valve. It is an ECM command signal.</ptxt>
+</item>
+<item>
+<ptxt>When the throttle valve is being opened, Throttle Motor Duty (Open) is 20 to 30%.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Motor Duty (Close)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Motor Duty (Close)</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle actuator duty ratio (close)/</ptxt>
+<ptxt>Min.: 0%, Max.: 255%</ptxt>
+</entry>
+<entry>
+<ptxt>0 to 40%: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the duty ratio used to drive the throttle actuator and close the throttle valve. It is an ECM command signal.</ptxt>
+<atten4>
+<ptxt>During idling, the throttle valve opening angle is usually controlled using a duty ratio drive signal which closes the throttle valve. However, when carbon deposits build up, it may be necessary to open the throttle valve more than the throttle valve opener does. In that case, the opening angle is controlled using a "Throttle Motor Duty (Open)" signal which opens the throttle valve.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Throttle Fully Close Learn</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Throttle Fully Close Learn</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle valve fully closed position (learned value)/</ptxt>
+<ptxt>Min.: 0 V, Max.: 4.98 V</ptxt>
+</entry>
+<entry>
+<ptxt>0.4 to 1.0 V: Accelerator pedal released</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The ECM uses this learned value to determine the fully closed (and fully open) position of the throttle valve. This learned value is calculated by the ECM with the throttle valve opener angle (approximately 4 to 7°, the position when the ignition switch is ON, the accelerator pedal is released and the throttle actuator is off).</ptxt>
+</item>
+<item>
+<ptxt>Learning is performed immediately after the ignition switch is turned to ON.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>ETCS Actuator Power</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>ETCS Actuator Power</ptxt>
+</entry>
+<entry>
+<ptxt>Whether or not electric throttle control system power is input/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Idling: ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>+BM Voltage</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>+BM Voltage</ptxt>
+</entry>
+<entry>
+<ptxt>+BM voltage/</ptxt>
+<ptxt>Min.: 0 V, Max.: 79.998 V</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 14 V: Ignition switch ON and system normal</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the power supply for the electronic throttle actuator. When the power supply is interrupted for approximately 1 second, DTCs P2118 (open circuit) and P0657 (short circuit, ECU malfunction) are stored and the electronic throttle control system enters fail-safe mode (normal operation is not restored until the ignition switch is turned off).</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Actuator Power Supply</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Actuator Power Supply</ptxt>
+</entry>
+<entry>
+<ptxt>Actuator power supply/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>If +BM power is lost, this item changes to OFF. </ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Fail Safe Drive</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Fail Safe Drive</ptxt>
+</entry>
+<entry>
+<ptxt>Whether or not fail-safe function is executed/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ETCS has failed: ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Fail Safe Drive (Main CPU)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Fail Safe Drive (Main CPU)</ptxt>
+</entry>
+<entry>
+<ptxt>Whether or not fail-safe function is executed/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ETCS has failed: ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Fuel System (Ptrl General)</ptxt>
+<table pgwide="1">
+<title>Injector (Port)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Injector (Port)</ptxt>
+</entry>
+<entry>
+<ptxt>Injection period of the No. 1 cylinder/</ptxt>
+<ptxt>Min.: 0 μs, Max.: 65535 μs</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the injection period of the No. 1 cylinder (the command value from the ECM).</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Injection Volum (Cylinder 1)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Injection Volum (Cylinder 1)</ptxt>
+</entry>
+<entry>
+<ptxt>Injection volume (cylinder 1)/</ptxt>
+<ptxt>Min.: 0 ml, Max.: 2.047 ml</ptxt>
+</entry>
+<entry>
+<ptxt>0 to 0.5 ml</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the fuel injection volume for 10 injections.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Fuel Pump/Speed Status</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Fuel Pump/Speed Status</ptxt>
+</entry>
+<entry>
+<ptxt>Fuel pump status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Starter on or engine running</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>EVAP System (Ptrl Evaporative)</ptxt>
+<table pgwide="1">
+<title>Evap Purge Flow</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Evap Purge Flow</ptxt>
+</entry>
+<entry>
+<ptxt>Purge flow/</ptxt>
+<ptxt>Min.: 0%, Max.: 399.9%</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the percentage of total engine airflow contributed by EVAP purge operation.</ptxt>
+<ptxt>(Evap Purge Flow = Purge flow / Engine airflow x 100 (%))</ptxt>
+<ptxt>It is based on MAF and a stored value for airflow and controlled by adjusting the duty cycle for the purge VSV.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Purge Density Learn Value</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Purge Density Learn Value</ptxt>
+</entry>
+<entry>
+<ptxt>Purge density learned value/</ptxt>
+<ptxt>Min.: -200, Max.: 199.993</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Purge Density Learn Value is the proportion of the decrease in injection volume (based on the change in the air-fuel ratio feedback compensation value) related to a 1% purge flow rate.</ptxt>
+<ptxt>When Purge Density Learn Value is a large negative value, the purge effect is large.</ptxt>
+<ptxt>The purge density is determined from the change in the air-fuel ratio feedback compensation value when purge flow is introduced.</ptxt>
+<ptxt>Purge density learning is performed so that the feedback compensation value is 0 +/-2%.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Usually, the value is approximately +/-1%.</ptxt>
+</item>
+<item>
+<ptxt>1%: The concentration of HC in the purge gas is relatively low.</ptxt>
+</item>
+<item>
+<ptxt>0%: The concentration of HC in the purge gas is approximately equal to the stoichiometric air-fuel ratio.</ptxt>
+</item>
+<item>
+<ptxt>Large negative values indicate that the concentration of HC in the purge gas is relatively high.</ptxt>
+</item>
+</list1>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>EVAP Purge VSV</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>EVAP Purge VSV</ptxt>
+</entry>
+<entry>
+<ptxt>VSV status for EVAP control/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This parameter displays ON when the VSV duty ratio is 30% or more, and displays OFF when the VSV duty ratio is less than 30%.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Air Fuel Ratio Control 1 (All Data)</ptxt>
+<table pgwide="1">
+<title>Target Air-Fuel Ratio</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Target Air-Fuel Ratio</ptxt>
+</entry>
+<entry>
+<ptxt>Target air fuel ratio/</ptxt>
+<ptxt>Min.: 0, Max.: 1.99</ptxt>
+</entry>
+<entry>
+<ptxt>0.8 to 1.2: During idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the target air-fuel ratio used by the ECM.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>1.0 is the stoichiometric air-fuel ratio. Values that are more than 1 indicate the system attempting to make the air-fuel ratio leaner. Values that are less than 1 indicate the system attempting to make the air-fuel ratio richer.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Air Fuel Ratio Control 2 (Ptrl AF O2 Sensor)</ptxt>
+<table pgwide="1">
+<title>O2S B1S1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>O2S B1S1</ptxt>
+</entry>
+<entry>
+<ptxt>Heated oxygen sensor output voltage for Bank 1 Sensor 1/</ptxt>
+<ptxt>Min.: 0 V, Max.: 1.275 V</ptxt>
+</entry>
+<entry>
+<ptxt>0 to 1 V</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the output voltage of the heated oxygen sensor.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>Values close to 0 V indicate an air-fuel ratio leaner than the stoichiometric ratio.</ptxt>
+</item>
+<item>
+<ptxt>Values close to 1 V indicate an air-fuel ratio richer than the stoichiometric ratio.</ptxt>
+</item>
+<item>
+<ptxt>During air-fuel ratio feedback control, the value moves back and forth in the range of 0 to 1 V.</ptxt>
+</item>
+</list1>
+<ptxt>Performing the "Control the Injection Volume" or "Control the Injection Volume for A/F Sensor" function of the Active Test enables the technician to check voltage output of the sensor.</ptxt>
+<ptxt>Results of real-vehicle check when performing the Active Test:</ptxt>
+<ptxt>Injection Volume: -12.5%</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>O2S B1S1: 0.06 V</ptxt>
+</item>
+</list1>
+<ptxt>Injection Volume: +12.5%</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>O2S B1S1: 0.94 V</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Short FT #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Short FT #1</ptxt>
+</entry>
+<entry>
+<ptxt>Short-term fuel trim for bank 1/</ptxt>
+<ptxt>Min.: -100%, Max.: 99.2%</ptxt>
+</entry>
+<entry>
+<ptxt>-20 to 20%</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This item is the "short-term fuel injection volume compensation ratio" used to maintain the air fuel ratio at the stoichiometric ratio using the heated oxygen sensor for feedback.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Long FT #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Long FT #1</ptxt>
+</entry>
+<entry>
+<ptxt>Long-term fuel trim for bank 1/</ptxt>
+<ptxt>Min.: -100%, Max.: 99.2%</ptxt>
+</entry>
+<entry>
+<ptxt>-20 to 20%</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>The ECM will learn the Long FT values based on Short FT. The goal is to keep Short FT at 0% to keep the A/F mixture at the stoichiometric ratio.</ptxt>
+<ptxt>This value is used to determine whether the air-fuel ratio control system is malfunctioning.</ptxt>
+<ptxt>The condition of the system is determined based on the sum of Short FT and Long FT (excluding times when the system is in transition).</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>+15% or more: The air-fuel ratio may be lean.</ptxt>
+</item>
+<item>
+<ptxt>-15 to +15%: The air-fuel ratio can be determined to be normal.</ptxt>
+</item>
+<item>
+<ptxt>-15% or less: The air-fuel ratio may be rich.</ptxt>
+</item>
+</list1>
+<ptxt>The learned value is cleared when the battery cable is disconnected.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Fuel System Status #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Fuel System Status #1</ptxt>
+</entry>
+<entry>
+<ptxt>Fuel system status for bank 1/</ptxt>
+<ptxt>OL, CL, OL Drive, OL Fault or CL Fault</ptxt>
+</entry>
+<entry>
+<ptxt>CL: Idling after warming up</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>OL (Open Loop): Has not yet satisfied conditions to go to closed loop.</ptxt>
+</item>
+<item>
+<ptxt>CL (Closed Loop): Uses feedback to perform fuel control.</ptxt>
+</item>
+<item>
+<ptxt>OL Drive: Open loop due to driving conditions (fuel enrichment).</ptxt>
+</item>
+<item>
+<ptxt>OL Fault: Open loop due to a detected system fault.</ptxt>
+</item>
+<item>
+<ptxt>CL Fault: Closed loop but the heated oxygen sensor, which is used for fuel control, is malfunctioning.</ptxt>
+</item>
+</list1>
+<ptxt>CL (Closed Loop): During air-fuel ratio feedback control, O2S B1S1 is approximately 0.45 V.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>O2FT B1S1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>O2FT B1S1</ptxt>
+</entry>
+<entry>
+<ptxt>Short-term fuel trim associated with bank 1 sensor 1/</ptxt>
+<ptxt>Min.: -100%, Max.: 99.2%</ptxt>
+</entry>
+<entry>
+<ptxt>-20 to 20%</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This item is the "short-term fuel injection volume compensation ratio" used to maintain the air fuel ratio at the stoichiometric ratio using the heated oxygen sensor for feedback.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Ignition System (Ignition)</ptxt>
+<table pgwide="1">
+<title>IGN Advance</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>IGN Advance</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition timing advance for No. 1 cylinder/</ptxt>
+<ptxt>Min.: -64 deg., Max.: 63.5 deg.</ptxt>
+</entry>
+<entry>
+<ptxt>BTDC 0 to 20 deg.: Idling</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Knock Feedback Value</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Knock Feedback Value</ptxt>
+</entry>
+<entry>
+<ptxt>Knocking feedback value/</ptxt>
+<ptxt>Min.: -1024° CA, Max.: 1023.9° CA</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the ignition timing retard compensation amount determined by the presence or absence of knocking.</ptxt>
+<ptxt>Ignition timing = Most retarded timing value*1 + Knock Correct Learn Value*2 + Knock Feedback Value*3 + each compensation amount</ptxt>
+<ptxt>Example: 21°CA = 10° + 14° - 3°</ptxt>
+<ptxt>*1: The most retarded timing value is a constant determined by the engine speed and engine load.</ptxt>
+<ptxt>*2: The knock correction learned value is calculated as shown below in order to keep Knock Feedback Value as close to -3°CA as possible.</ptxt>
+<ptxt>When Knock Feedback Value is less than -4°CA, Knock Correct Learn Value is slowly decreased.</ptxt>
+<ptxt>When Knock Feedback Value is more than -2°CA, Knock Correct Learn Value is slowly increased.</ptxt>
+<ptxt>*3: The base value is -3°CA and is adjusted based on the presence or absence of knocking. When there is no knocking, the value is increased, and when knocking is present, the value is decreased.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>-1°CA: There is no knocking and ignition timing is advanced.</ptxt>
+</item>
+<item>
+<ptxt>-6°CA: Knocking is present and the ignition timing is being retarded.</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>If Knock Feedback Value does not change around the time when knocking occurs even though knocking continues (for example, stays at -3°CA), it can be determined that knocking is not being detected.</ptxt>
+<list1 type="unordered">
+<title>Possible Causes:</title>
+<item>
+<ptxt>There is a problem with the knock sensor sensitivity.</ptxt>
+</item>
+<item>
+<ptxt>The knock sensor is improperly installed.</ptxt>
+</item>
+<item>
+<ptxt>There is a problem with a wire harness.</ptxt>
+</item>
+</list1>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Knock Correct Learn Value</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Knock Correct Learn Value</ptxt>
+</entry>
+<entry>
+<ptxt>Knocking correction learned value/</ptxt>
+<ptxt>Min.: -1024° CA, Max.: 1023.9° CA</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Refer to "Knock Feedback Value".</ptxt>
+<ptxt>When there is knocking or a lack of power, compare the following values to another vehicle of the same model.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Engine speed</ptxt>
+</item>
+<item>
+<ptxt>Calculate Load</ptxt>
+</item>
+<item>
+<ptxt>IGN Advance</ptxt>
+</item>
+<item>
+<ptxt>Knock Feedback Value</ptxt>
+</item>
+<item>
+<ptxt>Knock Correct Learn Value</ptxt>
+</item>
+</list1>
+<ptxt>Knock Correct Learn Value is large: There is no knocking and the ignition timing is advanced.</ptxt>
+<ptxt>Knock Correct Learn Value is small: Knocking is present and the ignition timing is being retarded.</ptxt>
+<atten4>
+<ptxt>When knocking continues even though Knock Correct Learn Value is less than that of the vehicle being used for comparison (in other words, the ignition timing is being retarded but the knocking is not stopping), there may be a buildup of deposits or other such problems due to deterioration over time (oil entering the cylinders, poor quality fuel, etc.).</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>VVT Control (Ptrl Valve Control)</ptxt>
+<table pgwide="1">
+<title>VVT Control Status #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>VVT Control Status #1</ptxt>
+</entry>
+<entry>
+<ptxt>Variable Valve Timing (VVT) control status for bank 1/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>ON: The ECM is sending commands to change the timing (even when the timing is advanced, when the timing is being maintained and not being retarded or advanced any further, the value changes to OFF).</ptxt>
+<ptxt>OFF: The system is commanding the timing to change to the most retarded timing.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>VVT Aim Angle #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>VVT Aim Angle #1</ptxt>
+</entry>
+<entry>
+<ptxt>VVT hold duty learned value for bank 1/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This value represents the duty ratio necessary to operate the camshaft timing oil control valve in order to block the camshaft timing oil control valve path and maintain the advanced state of the camshaft timing gear. This is only available during the Active Test.</ptxt>
+<ptxt>Refer to "VVT OCV Duty #1".</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>VVT Change Angle #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>VVT Change Angle #1</ptxt>
+</entry>
+<entry>
+<ptxt>VVT displacement angle for bank 1/</ptxt>
+<ptxt>Min.: 0 DegFR, Max.: 639.9 DegFR</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the VVT displacement angle during forced operation.</ptxt>
+<ptxt>This is only available during the Active Test.</ptxt>
+<ptxt>By checking VVT Change Angle during the Active Test, it is also possible to determine whether or not the camshaft position sensor signal is being output.</ptxt>
+<ptxt>Refer to "VVT OCV Duty #1".</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>VVT OCV Duty #1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>VVT OCV Duty #1</ptxt>
+</entry>
+<entry>
+<ptxt>VVT camshaft timing oil control valve operation duty for bank 1/</ptxt>
+<ptxt>Min.: 0%, Max.: 100%</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the requested duty value for forced operation.</ptxt>
+<ptxt>This is only available during the Active Test.</ptxt>
+<ptxt>Results of the real-vehicle check when performing the Control the VVT Linear (Bank 1) Active Test:</ptxt>
+<ptxt>VVT OCV Duty #1 = 0%, VVT Change Angle #1 = 0 DegFR</ptxt>
+<ptxt>↓</ptxt>
+<ptxt>VVT OCV Duty #1 = 30%, VVT Change Angle #1 = 0 DegFR</ptxt>
+<ptxt>↓</ptxt>
+<ptxt>VVT OCV Duty #1 = 70%, VVT Change Angle #1 = 39.0 DegFR</ptxt>
+<ptxt>↓</ptxt>
+<ptxt>VVT OCV Duty #1 = 100%, VVT Change Angle #1 = 39.0 DegFR</ptxt>
+<ptxt>↓</ptxt>
+<ptxt>VVT OCV Duty #1 = 32%, VVT Change Angle #1 = 0 DegFR</ptxt>
+<ptxt>After the above test, VVT Aim Angle #1 = 26.6%.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Various Vehicle Conditions 2 (All Data)</ptxt>
+<table pgwide="1">
+<title>Starter Signal</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Starter Signal</ptxt>
+</entry>
+<entry>
+<ptxt>Starter signal/</ptxt>
+<ptxt>Open or Close</ptxt>
+</entry>
+<entry>
+<ptxt>Open: Starter operating</ptxt>
+<ptxt>Close: Starter not operating</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Power Steering Signal</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Power Steering Signal</ptxt>
+</entry>
+<entry>
+<ptxt>Power steering switch signal/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Power steering operating</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Power Steer. Sig. Record</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Power Steer. Sig. Record</ptxt>
+</entry>
+<entry>
+<ptxt>Power steering switch signal/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: When steering wheel is first turned after ignition switch is turned to ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This signal status usually ON until ignition switch turned to OFF</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Neutral Position SW Signal</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Neutral Position SW Signal</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Shift lever in P or N</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Stop Light Switch</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Stop Light Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Brake pedal depressed</ptxt>
+<ptxt>OFF: Brake pedal released</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>A/C Signal</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A/C Signal</ptxt>
+</entry>
+<entry>
+<ptxt>A/C switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: A/C on</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Closed Throttle Position SW</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Closed Throttle Position SW</ptxt>
+</entry>
+<entry>
+<ptxt>Closed throttle position switch/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Throttle fully closed</ptxt>
+</item>
+<item>
+<ptxt>OFF: Throttle open</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Electrical Load Signal</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Electrical Load Signal</ptxt>
+</entry>
+<entry>
+<ptxt>Electrical load signal/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Headlights or defogger is turned ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Check Mode (Check Mode)</ptxt>
+<table pgwide="1">
+<title>Check Mode</title>
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="0.98in"/>
+<colspec colname="COL2" colwidth="1.55in"/>
+<colspec colname="COL3" colwidth="1.52in"/>
+<colspec colname="COL4" colwidth="1.52in"/>
+<colspec colname="COLSPEC0" colwidth="1.51in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Check Mode</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Check mode/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON: Check mode on</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Refer to Check Mode Procedure (See page <xref label="Seep1" href="RM000000ZPX00PX"/>).</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SPD Test Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Check mode result for vehicle speed sensor/</ptxt>
+<ptxt>Compl or Incmpl</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Various Vehicle Conditions 3 (All Data)</ptxt>
+<table pgwide="1">
+<title># Codes (Include History)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt># Codes (Include History)</ptxt>
+</entry>
+<entry>
+<ptxt>Number of codes/</ptxt>
+<ptxt>Min.: 0, Max.: 255</ptxt>
+</entry>
+<entry>
+<ptxt>0</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the number of DTCs stored.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>MIL</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>MIL</ptxt>
+</entry>
+<entry>
+<ptxt>MIL status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Time after DTC Cleared</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Time after DTC Cleared</ptxt>
+</entry>
+<entry>
+<ptxt>Time after DTCs cleared/</ptxt>
+<ptxt>Min.: 0 minutes, Max.: 65535 minutes</ptxt>
+</entry>
+<entry>
+<ptxt>Time after DTCs cleared</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the time elapsed after DTCs were cleared (or after the vehicle left the factory). Time elapsed after the ignition switch is turned off is not counted.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Distance from DTC Cleared</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Distance from DTC Cleared</ptxt>
+</entry>
+<entry>
+<ptxt>Distance driven after DTCs cleared/</ptxt>
+<ptxt>Min.: 0 km, Max.: 65535 km</ptxt>
+</entry>
+<entry>
+<ptxt>Distance driven after DTCs cleared</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the distance driven after DTCs were cleared (or after the vehicle left the factory).</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Warmup Cycle Cleared DTC</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Warmup Cycle Cleared DTC</ptxt>
+</entry>
+<entry>
+<ptxt>Warmup cycles after DTCs cleared/</ptxt>
+<ptxt>Min.: 0, Max.: 255</ptxt>
+</entry>
+
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the number of warmup cycles after the DTCs were cleared.</ptxt>
+<ptxt>This is the number of times the engine was warmed up* after DTCs were cleared (or after the vehicle left the factory).</ptxt>
+<ptxt>*: An engine warmup is defined as the engine coolant temperature rising 20°C (36°F) or more and reaching a temperature of 70°C (158°F) or higher after the engine is started.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>OBD Requirements</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>OBD Requirements</ptxt>
+</entry>
+<entry>
+<ptxt>OBD requirement</ptxt>
+</entry>
+<entry>
+<ptxt>Not OBD compliant</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Number of Emission DTC</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Number of Emission DTC</ptxt>
+</entry>
+<entry>
+<ptxt>Emissions-related DTCs</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the number of emissions-related DTCs.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>TC and TE1</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>TC and TE1</ptxt>
+</entry>
+<entry>
+<ptxt>TC and CG (TE1) terminals of DLC3/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Various Vehicle Conditions 4 (All Data)</ptxt>
+<table pgwide="1">
+<title>ACT VSV</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>ACT VSV</ptxt>
+</entry>
+<entry>
+<ptxt>A/C cut status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Idle Fuel Cut</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Idle Fuel Cut</ptxt>
+</entry>
+<entry>
+<ptxt>Fuel cut at idle/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Fuel cut operating</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Idle Fuel Cut = "ON" when the throttle valve is fully closed and the engine speed is high.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>FC TAU</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>FC TAU</ptxt>
+</entry>
+<entry>
+<ptxt>Fuel cut TAU (fuel cut during very light load)/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>ON: Fuel cut operating</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>This is the fuel cut performed under a very light load to prevent the engine combustion from becoming incomplete.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Various Vehicle Conditions 5 (Vehicle Information)</ptxt>
+<table pgwide="1">
+<title>Model Code</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Model Code</ptxt>
+</entry>
+<entry>
+<ptxt>Model code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Used for identifying the model code: TGN###</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Engine Type</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Engine Type</ptxt>
+</entry>
+<entry>
+<ptxt>Engine type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Used for identifying the engine type: 1TRFE</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Cylinder Number</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Cylinder Number</ptxt>
+</entry>
+<entry>
+<ptxt>Number of cylinders/</ptxt>
+<ptxt>Min.: 0, Max.: 255</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Used for identifying the number of cylinders: 4</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Transmission Type</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Transmission Type</ptxt>
+</entry>
+<entry>
+<ptxt>Transmission type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Used for identifying the transmission type: MT, ECT 4th</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Destination</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Destination</ptxt>
+</entry>
+<entry>
+<ptxt>Destination</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Used for identifying the destination: W</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Model Year</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Model Year</ptxt>
+</entry>
+<entry>
+<ptxt>Model year/</ptxt>
+<ptxt>Min.: 1900, Max.: 2155</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Used for identifying the model year: 20##</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>System Identification</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>System Identification</ptxt>
+</entry>
+<entry>
+<ptxt>System identification</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>Used for identifying the engine system: Gasoline (gasoline engine)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Automatic Transmission 1 (All Data)</ptxt>
+<table pgwide="1">
+<title>SPD (NC0)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>SPD (NC0)</ptxt>
+</entry>
+<entry>
+<ptxt>Input turbine speed/</ptxt>
+<ptxt>Min.: 0 rpm, Max.: 12750 rpm</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Lock-up ON (warmed up engine, other than O/D): Input turbine speed (NC0) is equal to the engine speed</ptxt>
+</item>
+<item>
+<ptxt>Lock-up ON (warmed up engine, O/D): Input turbine speed (NC0) is 0 rpm</ptxt>
+</item>
+<item>
+<ptxt>Lock-up OFF (idling with shift lever on N): Input turbine speed (NC0) is nearly equal to engine speed</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>SPD (SP2)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>SPD (SP2)</ptxt>
+</entry>
+<entry>
+<ptxt>Output shaft speed/</ptxt>
+<ptxt>Min.: 0 km/h (0 mph), Max.: 255 km/h (158 mph)</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle stopped: 0 km/h (0 mph) (output shaft speed is equal to vehicle speed)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>Automatic Transmission 2 (AT)</ptxt>
+<table pgwide="1">
+<title>Shift SW Status (R Range)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Shift SW Status (R Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Shift lever in R</ptxt>
+</item>
+<item>
+<ptxt>OFF: Shift lever not in R</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the park/neutral position switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, refer to Park/Neutral Position Switch Circuit.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Shift SW Status (2 Range)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Shift SW Status (2 Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Shift lever in 2</ptxt>
+</item>
+<item>
+<ptxt>OFF: Shift lever not in 2</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the park/neutral position switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, refer to Park/Neutral Position Switch Circuit.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Shift SW Status (L Range)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Shift SW Status (L Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Shift lever in L</ptxt>
+</item>
+<item>
+<ptxt>OFF: Shift lever not in L</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the park/neutral position switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, refer to Park/Neutral Position Switch Circuit.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Shift SW Status (3 Range)</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Shift SW Status (3 Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Shift lever in 3</ptxt>
+</item>
+<item>
+<ptxt>OFF: Shift lever not in 3</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the park/neutral position switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, refer to Park/Neutral Position Switch Circuit.</ptxt>
+</atten4>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>A/T Oil Temperature 3</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>A/T Oil Temperature 3</ptxt>
+</entry>
+<entry>
+<ptxt>No. 3 ATF temperature sensor value/</ptxt>
+<ptxt>Min.: -40°C, Max.: 215°C</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>After stall test: Approximately 80°C (176°F)</ptxt>
+</item>
+<item>
+<ptxt>Equal to ambient temperature when engine cold</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COLSPEC1" nameend="COL2">
+<ptxt>Diagnostic Note:</ptxt>
+<ptxt>If the value is -40°C (-40°F) or 215°C (419°F), the No. 3 ATF temperature sensor circuit is open or shorted.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Lock Up Solenoid Status</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Lock Up Solenoid Status</ptxt>
+</entry>
+<entry>
+<ptxt>Lock-up solenoid status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Lock-up solenoid is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Operating</ptxt>
+</item>
+<item>
+<ptxt>OFF: Not operating</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Shift Status</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Shift Status</ptxt>
+</entry>
+<entry>
+<ptxt>ECM gear shift command/</ptxt>
+<ptxt>1st, 2nd, 3rd or 4th</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever in D: 1st, 2nd, 3rd or 4th</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>SLT Solenoid Status</title>
+<tgroup cols="4">
+<colspec colname="COLSPEC0" colwidth="1.78in"/>
+<colspec colname="COLSPEC1" colwidth="1.78in"/>
+<colspec colname="COLSPEC2" colwidth="1.78in"/>
+<colspec colname="COL2" colwidth="1.74in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry>
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stored as Freeze Frame Data</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>SLT Solenoid Status</ptxt>
+</entry>
+<entry>
+<ptxt>Shift solenoid SLT status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Accelerator pedal is released</ptxt>
+</item>
+<item>
+<ptxt>OFF: Accelerator pedal is depressed</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Yes</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>ACTIVE TEST</ptxt>
+<atten4>
+<ptxt>Using the intelligent tester to perform Active Tests allows relays, VSVs, actuators and other items to be operated without removing any parts. This non-intrusive functional inspection can be very useful because intermittent operation may be discovered before parts or wiring is disturbed. Performing Active Tests early in troubleshooting is one way to save diagnostic time. Data List information can be displayed while performing Active Tests.</ptxt>
+</atten4>
+<step2>
+<ptxt>Warm up the engine.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch off.</ptxt>
+</step2>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the intelligent tester on.</ptxt>
+</step2>
+<step2>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Active Test.</ptxt>
+</step2>
+<step2>
+<ptxt>According to the display on the intelligent tester, perform the Active Test.</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Test Part</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Control Range</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Control the Injection Volume</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Change injection volume</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Between -12.5% and 24.8%</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>All injectors are tested at the same time.</ptxt>
+</item>
+<item>
+<ptxt>Perform the test at 3000 rpm or less.</ptxt>
+</item>
+<item>
+<ptxt>Injection volume can be changed in fine gradations within the control range.</ptxt>
+</item>
+<item>
+<ptxt>Control the Injection Volume enables the checking and graphing of the heated oxygen sensor voltage output.</ptxt>
+</item>
+<item>
+<ptxt>To conduct the test, enter the following menus: Active Test / Control the Injection Volume / O2S B1S1.</ptxt>
+</item>
+<item>
+<ptxt>During the Active Test, air-fuel ratio feedback control and feedback learning are stopped.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the Injection Volume for A/F Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Change injection volume</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-12.5%, 0% or +12.5%</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>All injectors are tested at the same time.</ptxt>
+</item>
+<item>
+<ptxt>Perform the test at 3000 rpm or less.</ptxt>
+</item>
+<item>
+<ptxt>Control the Injection Volume for A/F Sensor enables the checking and graphing of the heated oxygen sensor voltage output.</ptxt>
+</item>
+<item>
+<ptxt>To conduct the test, enter the following menus: Active Test / Control the Injection Volume for A/F Sensor / O2S B1S1.</ptxt>
+</item>
+<item>
+<ptxt>During the Active Test, air-fuel ratio feedback control and feedback learning are stopped.</ptxt>
+</item>
+<item>
+<ptxt>See waveform*1.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Activate the VSV for Evap Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Activate purge VSV control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>The valve is opened with a 30% duty ratio.</ptxt>
+</item>
+<item>
+<ptxt>See waveform*3.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the A/C Cut Signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A/C compressor cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the Fuel Pump / Speed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Activate fuel pump</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Perform this test with the engine stopped.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Connect the TC and TE1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn on and off TC and TE1 connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>ON: TC and TE1 are connected.</ptxt>
+</item>
+<item>
+<ptxt>OFF: TC and TE1 are disconnected.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the Idle Fuel Cut Prohibit</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Prohibit idling fuel cut control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the ETCS Open/Close Slow Speed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Throttle actuator</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Close/Open</ptxt>
+<ptxt>Open: Throttle valve opens slowly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This test is possible when the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch is ON.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Engine is stopped.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Accelerator pedal is fully depressed (APP: 58 degrees or more).</ptxt>
+</item>
+<item>
+<ptxt>Shift lever is in P.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the ETCS Open/Close Fast Speed </ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Throttle actuator</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Close/Open</ptxt>
+<ptxt>Open: Throttle valve opens quickly</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Same as above.</ptxt>
+</item>
+<item>
+<ptxt>See waveform*2.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the VVT Linear (Bank 1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Control VVT (for intake side of bank 1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-128 to 127% (This value added to present camshaft timing oil control valve control duty)</ptxt>
+<ptxt>100%: Maximum advance </ptxt>
+<ptxt>-100%: Maximum retard </ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Engine stalls or idles roughly when the VVT actuator is operated by 100%.</ptxt>
+</item>
+<item>
+<ptxt>Perform this test when the following conditions are met:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Engine is idling.</ptxt>
+</item>
+<item>
+<ptxt>Shift lever is in P.</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>DTCs related to the VVT system may be stored due to Active Test operation, but this does not indicate a malfunction.</ptxt>
+</item>
+<item>
+<ptxt>See waveform*4.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the VVT System (Bank 1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn camshaft timing oil control valve on and off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+<ptxt>ON: VVT OCV Duty #1 100%</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Engine stalls or idles roughly when the camshaft timing oil control valve is turned on.</ptxt>
+</item>
+<item>
+<ptxt>Engine runs and idles normally when the camshaft timing oil control valve is off.</ptxt>
+</item>
+<item>
+<ptxt>DTCs related to the VVT system may be stored due to Active Test operation, but this does not indicate a malfunction.</ptxt>
+</item>
+<item>
+<ptxt>Perform this test when the following conditions are met:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Engine is idling.</ptxt>
+</item>
+<item>
+<ptxt>Shift lever is in P.</ptxt>
+</item>
+</list2>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the Cylinder #1 Fuel Cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cylinder #1 injector fuel cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Test is possible while the vehicle is stopped and the engine is idling.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the Cylinder #2 Fuel Cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cylinder #2 injector fuel cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Test is possible while the vehicle is stopped and the engine is idling.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the Cylinder #3 Fuel Cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cylinder #3 injector fuel cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Test is possible while the vehicle is stopped and the engine is idling.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the Cylinder #4 Fuel Cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cylinder #4 injector fuel cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Test is possible while the vehicle is stopped and the engine is idling.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Control the All Cylinders Fuel Cut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fuel cut for all cylinders</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ON/OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Test possible while the vehicle is stopped and the engine is idling.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<topic>
+<title>Reference Waveforms for Active Test</title>
+<list1 type="unordered">
+<item>
+<ptxt>*1: Control the Injection Volume for A/F Sensor (Idling after warming up)</ptxt>
+<figure>
+<graphic graphicname="A253288E02" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<atten4>
+<ptxt>During the Active Test, air-fuel ratio feedback control and feedback learning are stopped.</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COLSPEC0" colwidth="1.77in"/>
+<colspec colname="COLSPEC1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry namest="COLSPEC1" nameend="COL2" align="center">
+<ptxt>Normal Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="2">
+<ptxt>Control the Injection Volume for A/F Sensor</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲A</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Active Test operation</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-12.5%</ptxt>
+</entry>
+<entry align="center">
+<ptxt>+12.5%</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>O2S B1S1</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.03 V</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.85 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Usually, the value of O2S changes to 0.55 V or higher when the control value for Control the Injection Volume for A/F Sensor is changed to +12.5%.</ptxt>
+</item>
+<item>
+<ptxt>Usually, the value of O2S drops below 0.4 V when the control value for Control the Injection Volume for A/F Sensor is changed to -12.5%.</ptxt>
+</item>
+<item>
+<ptxt>If the sensor output voltage does not change (almost no reaction) while performing the Active Test, the sensor may be malfunctioning.</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+<item>
+<ptxt>*2: Control the ETCS Open/Close Fast Speed [Active Test for electrical throttle control system] (Ignition switch ON)</ptxt>
+<figure>
+<graphic graphicname="A227143E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Usually, Throttle Position Command (Target Value) and Throttle Position No. 1 (Actual Value) are almost the same.</ptxt>
+</item>
+<item>
+<ptxt>If any DTCs related to the ETCS are stored, this Active Test does not function.</ptxt>
+</item>
+</list1>
+</atten4>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COLSPEC0" colwidth="1.77in"/>
+<colspec colname="COLSPEC1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry namest="COLSPEC1" nameend="COL2" align="center">
+<ptxt>Normal Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="5">
+<ptxt>Control the ETCS Open/Close Fast Speed</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲A</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Active Test operation</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Close</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Open</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Throttle Position Command</ptxt>
+</entry>
+<entry align="center">
+<ptxt>2.597 V</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.742 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Throttle Position No. 1</ptxt>
+</entry>
+<entry align="center">
+<ptxt>2.597 V</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.742 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Throttle Motor Duty (Open)</ptxt>
+</entry>
+<entry align="center">
+<ptxt>14%</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0%</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Throttle Motor Duty (Close)</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0%</ptxt>
+</entry>
+<entry align="center">
+<ptxt>10%</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</item>
+<item>
+<ptxt>*3: Activate the VSV for Evap Control (Idling after warming up)</ptxt>
+<figure>
+<graphic graphicname="A253289E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<atten4>
+<ptxt>Even when the Active Test is turned on (the purge VSV is opened 30%), air-fuel ratio feedback continues and control is performed so that the air-fuel ratio is the stoichiometric ratio. Therefore, by observing the change in "Short FT", it is possible to determine whether the purge VSV is actually open as well as the concentration of HC in the purge gas.</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COLSPEC0" colwidth="1.77in"/>
+<colspec colname="COLSPEC1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry namest="COLSPEC1" nameend="COL2" align="center">
+<ptxt>Normal Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="5">
+<ptxt>Activate the VSV for Evap Control</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲A</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Active Test operation</ptxt>
+</entry>
+<entry align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="center">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>EVAP Purge VSV</ptxt>
+</entry>
+<entry align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry align="center">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Short FT #1</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-1.563%</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.000%</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Injection (Port)</ptxt>
+</entry>
+<entry align="center">
+<ptxt>2288.0 μs</ptxt>
+</entry>
+<entry align="center">
+<ptxt>2430.0 μs</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>O2S B1S1</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.85 V</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.03 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The graphs and values above are for reference only because the fuel injection volume (compensation volume) varies depending on the HC density of the purge air from the canister.</ptxt>
+</atten4>
+</item>
+<item>
+<ptxt>*4: Control the VVT Linear (Bank 1)</ptxt>
+<figure>
+<graphic graphicname="A229971E02" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COLSPEC0" colwidth="1.77in"/>
+<colspec colname="COLSPEC1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry namest="COLSPEC1" nameend="COL2" align="center">
+<ptxt>Normal Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="4">
+<ptxt>Control the VVT Linear (Bank 1)</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲A</ptxt>
+</entry>
+<entry align="center">
+<ptxt>▲B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Active Test operation*</ptxt>
+</entry>
+<entry align="center">
+<ptxt>+20%</ptxt>
+</entry>
+<entry align="center">
+<ptxt>-20%</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VVT Change Angle #1</ptxt>
+</entry>
+<entry align="center">
+<ptxt>54.9 DegFR</ptxt>
+</entry>
+<entry align="center">
+<ptxt>0.0 DegFR</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VVT OCV Duty #1</ptxt>
+</entry>
+<entry align="center">
+<ptxt>53.9%</ptxt>
+</entry>
+<entry align="center">
+<ptxt>13.9%</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VVT Aim Angle #1</ptxt>
+</entry>
+<entry align="center">
+<ptxt>33.9%</ptxt>
+</entry>
+<entry align="center">
+<ptxt>33.9%</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>*: Change the control value for Control the VVT Linear to +20% or -20% in increments of 5%.</ptxt>
+</item>
+<item>
+<ptxt>The Control the VVT Linear Active Test considers the value of VVT Aim Angle to be 0 and raises or lowers the duty ratio with respect to VVT Aim Angle.</ptxt>
+</item>
+<item>
+<ptxt>The sum of the control value for the Control the VVT Linear Active Test and the value of VVT Aim Angle is approximately equal to the value of VVT OCV Duty.</ptxt>
+</item>
+<item>
+<ptxt>When the control value for the Control the VVT Linear Active Test is changed a few times, there should not be a large discrepancy between VVT OCV Duty when the system starts advancing or retarding the timing and the rate of change of VVT Change Angle.</ptxt>
+</item>
+</list1>
+</atten4>
+</item>
+</list1>
+</topic>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

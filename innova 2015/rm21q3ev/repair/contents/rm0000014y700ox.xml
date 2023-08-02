@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name>
+<ttl id="1000C_S0009_7A7YQ_T0034" variety="T0034">
+<name>FAN</name>
+<para id="RM0000014Y700OX" category="A" type-id="80001" name-id="CO0GG-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000014Y700OX_01" type-id="01" category="01">
+<s-1 id="RM0000014Y700OX_01_0010" proc-id="RM21Q0EV__000005U00000">
+<ptxt>DRAIN ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the cylinder block drain cock plug and radiator drain cock plug, and then drain the coolant.</ptxt>
+<atten4>
+<ptxt>Collect the coolant in a container and dispose of it according to the regulations in your area.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="A113302E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014Y700OX_01_0007">
+<ptxt>DISCONNECT RADIATOR HOSE INLET</ptxt>
+</s-1>
+<s-1 id="RM0000014Y700OX_01_0009">
+<ptxt>DISCONNECT RADIATOR HOSE OUTLET</ptxt>
+</s-1>
+<s-1 id="RM0000014Y700OX_01_0008" proc-id="RM21Q0EV__00000IO00000">
+<ptxt>REMOVE FAN SHROUD
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099963E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the reservoir hose from the radiator tank upper.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the 4 nuts holding the fluid coupling fan.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the drive belt (see page <xref label="Seep01" href="RM000000YMP01TX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts holding the fan shroud.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts holding the fluid coupling fan, and then remove the shroud together with the coupling fan.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the radiator core.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the fan pulley from the water pump.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014Y700OX_01_0005" proc-id="RM21Q0EV__00000RG00000">
+<ptxt>REMOVE FAN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A112113" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 4 nuts and fan from the coupling.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

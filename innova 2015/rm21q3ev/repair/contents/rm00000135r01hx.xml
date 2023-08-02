@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7YY_T003C" variety="T003C">
+<name>STARTER</name>
+<para id="RM00000135R01HX" category="A" type-id="30014" name-id="ST0SD-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000135R01HX_01" type-id="01" category="01">
+<s-1 id="RM00000135R01HX_01_0001" proc-id="RM21Q0EV__000005O00000">
+<ptxt>INSTALL STARTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the starter with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="G039040E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the starter wire to terminal 30 with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the starter connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135R01HX_01_0005" proc-id="RM21Q0EV__00000U500000">
+<ptxt>INSTALL TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY (for Automatic Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190098" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF, and install it to the oil filler tube.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the oil filler tube with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the oil level gauge.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000135R01HX_01_0006" proc-id="RM21Q0EV__00000U600000">
+<ptxt>CONNECT CLUTCH RELEASE CYLINDER ASSEMBLY (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034217E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the clutch release cylinder with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000135R01HX_01_0002" proc-id="RM21Q0EV__00000U400000">
+<ptxt>INSTALL FRONT FENDER SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the fender seal with the 5 clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135R01HX_01_0003">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

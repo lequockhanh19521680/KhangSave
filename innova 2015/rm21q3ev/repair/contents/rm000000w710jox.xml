@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W710JOX" category="S" type-id="3001E" name-id="AT003A-198" from="201202">
+<name>DIAGNOSTIC TROUBLE CODE CHART</name>
+<subpara id="RM000000W710JOX_z0" proc-id="RM21Q0EV__000016O00000">
+<content5 releasenbr="1">
+<ptxt>If a DTC is displayed during the DTC check, check the trouble area listed in the table below and proceed to the "See page" given.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>*1: "Comes on" means that the MIL will illuminate.</ptxt>
+</item>
+<item>
+<ptxt>*2: "DTC stored" means that the ECM stores the trouble code if the DTC detection condition(s) are met.</ptxt>
+</item>
+<item>
+<ptxt>These DTCs may be stored when the clutches, brakes, gear components, etc. inside the automatic transmission are damaged.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Automatic transmission system</title>
+<tgroup cols="6" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.06in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.42in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.77in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="0.99in" colsep="0"/>
+<colspec colnum="5" colname="5" colwidth="0.99in" colsep="0"/>
+<colspec colnum="6" colname="6" colwidth="0.85in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="center">
+<ptxt>MIL*1</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="center">
+<ptxt>Memory*2</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0710/38</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Transmission Fluid Temperature Sensor "A" Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in park/neutral position switch circuit</ptxt>
+<ptxt>- Park/neutral position switch</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013US01DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0712/38</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Transmission Fluid Temperature Sensor "A" Circuit Low Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in park/neutral position switch circuit</ptxt>
+<ptxt>- Park/neutral position switch</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013US01DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0713/38</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Transmission Fluid Temperature Sensor "A" Circuit High Input</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in park/neutral position switch circuit</ptxt>
+<ptxt>- Park/neutral position switch</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013US01DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0717/67</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Input Speed Sensor Circuit No Signal</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in speed sensor (NC0) circuit</ptxt>
+<ptxt>- Speed sensor (NC0)</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000018N8018X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0722/61</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Output Speed Sensor Circuit No Signal</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in speed sensor (SP2) circuit</ptxt>
+<ptxt>- Speed sensor (SP2)</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TS018X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0973/62</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Shift Solenoid "A" Control Circuit Low (Shift Solenoid Valve S1)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in shift solenoid valve S1 circuit</ptxt>
+<ptxt>- Shift solenoid valve S1</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TT013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0974/62</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Shift Solenoid "A" Control Circuit High (Shift Solenoid Valve S1)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in shift solenoid valve S1 circuit</ptxt>
+<ptxt>- Shift solenoid valve S1</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TT013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0976/63</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Shift Solenoid "B" Control Circuit Low (Shift Solenoid Valve S2)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in shift solenoid valve S2 circuit</ptxt>
+<ptxt>- Shift solenoid valve S2</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TT013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P0977/63</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Shift Solenoid "B" Control Circuit High (Shift Solenoid Valve S2)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in shift solenoid valve S2 circuit</ptxt>
+<ptxt>- Shift solenoid valve S2</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>Comes on</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TT013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2716/77</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Pressure Control Solenoid "D" Electrical (Shift Solenoid Valve SLT)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in shift solenoid valve SLT circuit</ptxt>
+<ptxt>- Shift solenoid valve SLT</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TQ012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2769/64</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Short in Torque Converter Clutch Solenoid Circuit (Shift Solenoid Valve SL)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in shift solenoid valve SL circuit</ptxt>
+<ptxt>- Shift solenoid valve SL</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TU01XX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>P2770/64</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Open in Torque Converter Clutch Solenoid Circuit (Shift Solenoid Valve SL)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>- Open or short in shift solenoid valve SL circuit</ptxt>
+<ptxt>- Shift solenoid valve SL</ptxt>
+<ptxt>- ECM</ptxt>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="5" colsep="1" align="left">
+<ptxt>DTC stored</ptxt>
+</entry>
+<entry colname="6" colsep="1" align="center">
+<ptxt>
+<xref href="RM0000013TU01XX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

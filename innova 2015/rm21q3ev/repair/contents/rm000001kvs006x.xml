@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="40">
+<name>SECURITIES</name>
+<section id="1002N_S000U" variety="S000U">
+<name>THEFT DETERRENT</name>
+<ttl id="1002N_S000U_7A81M_T0060" variety="T0060">
+<name>THEFT DETERRENT SYSTEM</name>
+<para id="RM000001KVS006X" category="J" type-id="801G9" name-id="TD6OF-02" from="201202">
+<dtccode/>
+<dtcname>Starter Relay Circuit</dtcname>
+<subpara id="RM000001KVS006X_01" type-id="60" category="03" proc-id="RM21Q0EV__000028I00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>When the theft deterrent system operates, the theft warning ECU deactivates the ST relay so that the starter cannot crank the engine.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000001KVS006X_02" type-id="32" category="03" proc-id="RM21Q0EV__000028J00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="B128894E02" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001KVS006X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000001KVS006X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001KVS006X_04_0001" proc-id="RM21Q0EV__000028K00000">
+<testtitle>INSPECT FUSE (ST)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ST fuse from the instrument panel junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the fuse.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001KVS006X_04_0002" fin="false">OK</down>
+<right ref="RM000001KVS006X_04_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0002" proc-id="RM21Q0EV__000028L00000">
+<testtitle>INSPECT STARTER RELAY (Marking: ST)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the starter relay from the engine room relay block.</ptxt>
+<figure>
+<graphic graphicname="B312742E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the relay.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+<ptxt>(when battery voltage is applied to terminals 1 and 2)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001KVS006X_04_0003" fin="false">OK</down>
+<right ref="RM000001KVS006X_04_0010" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0003" proc-id="RM21Q0EV__000028M00000">
+<testtitle>INSPECT IGNITION SWITCH ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ignition switch.</ptxt>
+<figure>
+<graphic graphicname="B119736E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the ignition switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>5 (AM2) - 7 (ST2)</ptxt>
+</entry>
+<entry>
+<ptxt>OFF, ACC, ON</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (AM2) - 7 (ST2)</ptxt>
+</entry>
+<entry>
+<ptxt>START</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001KVS006X_04_0018" fin="false">OK</down>
+<right ref="RM000001KVS006X_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0018" proc-id="RM21Q0EV__000058F00000">
+<testtitle>INSPECT PARK/NEUTRAL POSITION SWITCH ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the park/neutral switch.</ptxt>
+<figure>
+<graphic graphicname="B276452" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the park/neutral switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>4 - 5</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever in P or N</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4 - 5</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever not in P and N</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001KVS006X_04_0005" fin="false">OK</down>
+<right ref="RM000001KVS006X_04_0020" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0005" proc-id="RM21Q0EV__000028N00000">
+<testtitle>CHECK WIRE HARNESS (ENGINE ROOM RELAY BLOCK - THEFT WARNING ECU AND IGNITION SWITCH)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ST relay from the engine room relay block.</ptxt>
+<figure>
+<graphic graphicname="B276697E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Relay block ST relay terminal 3 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001KVS006X_04_0019" fin="false">OK</down>
+<right ref="RM000001KVS006X_04_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0019" proc-id="RM21Q0EV__000058G00000">
+<testtitle>CHECK WIRE HARNESS (THEFT WARNING ECU - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the T20 ECU connector.</ptxt>
+<figure>
+<graphic graphicname="B274165E14" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>T20-12 (SRLY) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>T20-1 (E) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001KVS006X_04_0013" fin="true">OK</down>
+<right ref="RM000001KVS006X_04_0021" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0013">
+<testtitle>REPLACE THEFT WARNING ECU</testtitle>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0009">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0010">
+<testtitle>REPLACE STARTER RELAY</testtitle>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0011">
+<testtitle>REPLACE IGNITION SWITCH ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0020">
+<testtitle>REPLACE PARK/NEUTRAL POSITION SWITCH ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0012">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001KVS006X_04_0021">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

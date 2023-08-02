@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7AVR0_T00AA" variety="T00AA">
+<name>SPEEDOMETER SENSOR</name>
+<para id="RM000004R1L009X" category="A" type-id="30014" name-id="MT169-02" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000004R1L009X_01" type-id="01" category="01">
+<s-1 id="RM000004R1L009X_01_0001" proc-id="RM21Q0EV__00004SS00000">
+<ptxt>INSTALL SPEEDOMETER SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat a new O-ring with gear oil and install it to the speedometer sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the speedometer sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>11</t-value1>
+<t-value2>112</t-value2>
+<t-value3>8</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

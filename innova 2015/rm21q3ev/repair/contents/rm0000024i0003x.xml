@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81X_T006B" variety="T006B">
+<name>ROOM LIGHT ASSEMBLY</name>
+<para id="RM0000024I0003X" category="A" type-id="8000E" name-id="LI1VC-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000024I0003X_01" type-id="01" category="01">
+<s-1 id="RM0000024I0003X_01_0001" proc-id="RM21Q0EV__00002AN00000">
+<ptxt>INSTALL ROOM NO. 2 LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the bulb to the room light.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024I0003X_01_0003" proc-id="RM21Q0EV__00002AO00000">
+<ptxt>INSTALL ROOM NO. 1 LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the bulb to the room light.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

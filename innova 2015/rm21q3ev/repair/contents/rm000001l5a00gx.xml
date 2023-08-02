@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80D_T004R" variety="T004R">
+<name>BRAKE ACTUATOR</name>
+<para id="RM000001L5A00GX" category="A" type-id="80002" name-id="BC0UK-02" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000001L5A00GX_01" type-id="01" category="01">
+<s-1 id="RM000001L5A00GX_01_0001" proc-id="RM21Q0EV__00001L700000">
+<ptxt>REMOVE BRAKE ACTUATOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C121397" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 nuts and actuator from the bracket.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

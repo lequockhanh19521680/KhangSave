@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81I_T005W" variety="T005W">
+<name>FRONT SEAT OUTER BELT ASSEMBLY</name>
+<para id="RM00000120B08PX" category="A" type-id="80001" name-id="SB59J-01" from="201303">
+<name>REMOVAL</name>
+<subpara id="RM00000120B08PX_01" type-id="11" category="10" proc-id="RM21Q0EV__000025100001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM00000120B08PX_02" type-id="01" category="01">
+<s-1 id="RM00000120B08PX_02_0027" proc-id="RM21Q0EV__00005D900000">
+<ptxt>PRECAUTION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM00000120B08PX_02_0001" proc-id="RM21Q0EV__000025200001">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM00000120B08PX_02_0021" proc-id="RM21Q0EV__000025800000">
+<ptxt>REMOVE FRONT SEAT ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B108471" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Lift up the seat track adjusting handle and move the seat to the rearmost position.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts on the front side of the seat.</ptxt>
+</s2>
+<s2>
+<ptxt>Lift up the seat track adjusting handle and move the seat to the foremost position.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts on the rear side of the seat.</ptxt>
+</s2>
+<s2>
+<ptxt>Lift up the seat track adjusting handle and move the seat to the center position. Also, operate the reclining adjuster release handle and move the seatback to the upright position.</ptxt>
+</s2>
+<s2>
+<ptxt>w/ Seat belt warning system:</ptxt>
+<ptxt>Disconnect the connector under the seat.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the seat.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120B08PX_02_0022" proc-id="RM21Q0EV__00003D000000">
+<ptxt>REMOVE FRONT DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279266E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the front door scuff plate.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 clips and 7 claws and remove the front door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120B08PX_02_0025" proc-id="RM21Q0EV__00003D200000">
+<ptxt>REMOVE FRONT DOOR OPENING TRIM WEATHERSTRIP LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279289" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the front door opening trim.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120B08PX_02_0023" proc-id="RM21Q0EV__00003D400000">
+<ptxt>REMOVE REAR DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279267E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the rear door scuff plate.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 clips and 7 claws and remove the rear door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120B08PX_02_0026" proc-id="RM21Q0EV__00003D600000">
+<ptxt>REMOVE REAR DOOR OPENING TRIM WEATHERSTRIP LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279291" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear door opening trim weatherstrip.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120B08PX_02_0018" proc-id="RM21Q0EV__000025500001">
+<ptxt>REMOVE CENTER PILLAR GARNISH LOWER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B089694E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the 2 claws and remove the lap belt outer anchor cover.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B113106" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the anchor's built-in bolt from the pillar and disconnect the outer belt.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B085563E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a screwdriver, detach the 2 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using a clip remover, detach the 2 clips and remove the garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120B08PX_02_0006" proc-id="RM21Q0EV__000025300001">
+<ptxt>REMOVE FRONT SEAT OUTER BELT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B086294E05" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 4 claws and remove the seat belt anchor cover cap.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the shoulder anchor's bolt and disconnect the outer belt.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B113099" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the pretensioner connector as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and seat belt.</ptxt>
+<figure>
+<graphic graphicname="B123966E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120B08PX_02_0019" proc-id="RM21Q0EV__000025600001">
+<ptxt>REMOVE CENTER PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085561E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a clip remover, detach the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the garnish in the direction indicated by the arrow in the illustration to detach the claw. Then remove the garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120B08PX_02_0020" proc-id="RM21Q0EV__000025700001">
+<ptxt>REMOVE SHOULDER BELT ANCHORAGE PLATE COVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B087816E07" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Slide the plate cover upward and remove it from the garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120B08PX_02_0007" proc-id="RM21Q0EV__000025400001">
+<ptxt>REMOVE FRONT SHOULDER BELT ANCHOR ADJUSTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B084923E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt.</ptxt>
+</s2>
+<s2>
+<ptxt>Rotate the adjuster approximately 90°, and then pull and remove it.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

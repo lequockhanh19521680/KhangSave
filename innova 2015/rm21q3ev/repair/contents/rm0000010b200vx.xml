@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81C_T005Q" variety="T005Q">
+<name>SPIRAL CABLE</name>
+<para id="RM0000010B200VX" category="A" type-id="80001" name-id="RSDW3-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010B200VX_01" type-id="11" category="10" proc-id="RM21Q0EV__000022W00000">
+<content3 releasenbr="1">
+<atten2>
+<ptxt>Be sure to read the precautionary notices concerning the SRS airbag system before servicing it (see page <xref label="Seep01" href="RM000000YVR013X"/>). </ptxt>
+</atten2>
+</content3>
+</subpara>
+<subpara id="RM0000010B200VX_02" type-id="01" category="01">
+<s-1 id="RM0000010B200VX_02_0001" proc-id="RM21Q0EV__000022X00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000010B200VX_02_0008" proc-id="RM21Q0EV__00004UK00000">
+<ptxt>REMOVE STEERING PAD ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, loosen the 2 screws until the groove along the screw circumference catches on the screw case.</ptxt>
+<figure>
+<graphic graphicname="E247930E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw Case</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Pull out the steering pad from the steering wheel as shown in the illustration. Then support the steering pad with one hand.</ptxt>
+<figure>
+<graphic graphicname="B277210" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>When removing the steering pad, do not pull the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Disconnect the horn connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector and remove the steering pad .</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, take care not to damage the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010B200VX_02_0010">
+<ptxt>PLACE FRONT WHEELS FACING STRAIGHT AHEAD</ptxt>
+</s-1>
+<s-1 id="RM0000010B200VX_02_0011" proc-id="RM21Q0EV__00001TL00000">
+<ptxt>REMOVE STEERING WHEEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C129231E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the steering wheel set nut.</ptxt>
+</s2>
+<s2>
+<ptxt>Place matchmarks on the steering wheel and main shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, remove the steering wheel.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-50013</s-number>
+<s-subnumber>09951-05010</s-subnumber>
+<s-subnumber>09952-05010</s-subnumber>
+<s-subnumber>09953-05020</s-subnumber>
+<s-subnumber>09954-05021</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010B200VX_02_0005" proc-id="RM21Q0EV__000022Y00000">
+<ptxt>REMOVE STEERING COLUMN COVER LOWER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="H046241E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 screws and cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010B200VX_02_0006">
+<ptxt>REMOVE STEERING COLUMN COVER UPPER</ptxt>
+</s-1>
+<s-1 id="RM0000010B200VX_02_0007" proc-id="RM21Q0EV__00001TS00000">
+<ptxt>REMOVE SPIRAL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="H046242E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connectors from the spiral cable.</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, do not damage the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Detach the 3 claws and remove the spiral cable.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

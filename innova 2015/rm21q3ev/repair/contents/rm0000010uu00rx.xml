@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZR_T0045" variety="T0045">
+<name>INPUT SHAFT</name>
+<para id="RM0000010UU00RX" category="A" type-id="30014" name-id="MT08C-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010UU00RX_01" type-id="01" category="01">
+<s-1 id="RM0000010UU00RX_01_0001" proc-id="RM21Q0EV__00001DU00000">
+<ptxt>INSTALL INPUT SHAFT FRONT BEARING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086534E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST and a press, press in a new front bearing.</ptxt>
+<sst>
+<sstitem>
+<s-number>09316-60011</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Select a snap ring that will allow minimal axial play.</ptxt>
+<figure>
+<graphic graphicname="D033850E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.10 mm (0.0039 in.) or less</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard front bearing shaft snap ring thickness</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Mark</ptxt>
+</entry>
+<entry>
+<ptxt>Thickness</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>0</ptxt>
+</entry>
+<entry>
+<ptxt>2.05 to 2.10 mm (0.0807 to 0.0827 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1</ptxt>
+</entry>
+<entry>
+<ptxt>2.10 to 2.15 mm (0.0827 to 0.0847 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>2.15 to 2.20 mm (0.0847 to 0.0866 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>2.20 to 2.25 mm (0.0866 to 0.0886 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4</ptxt>
+</entry>
+<entry>
+<ptxt>2.25 to 2.30 mm (0.0886 to 0.0906 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5</ptxt>
+</entry>
+<entry>
+<ptxt>2.30 to 2.35 mm (0.0906 to 0.0925 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring.</ptxt>
+<figure>
+<graphic graphicname="D033851E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UU00RX_01_0002" proc-id="RM21Q0EV__00001DV00000">
+<ptxt>INSTALL INPUT SHAFT BEARING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086536E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the 13 input shaft bearings with MP grease, and install them to the input shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UU00RX_01_0003" proc-id="RM21Q0EV__00001DW00000">
+<ptxt>INSTALL NO. 2 SYNCHRONIZER RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C067214E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the No. 2 synchronizer ring with gear oil, and install it to the input shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

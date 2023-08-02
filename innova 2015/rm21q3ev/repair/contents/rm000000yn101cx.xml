@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7YA_T002O" variety="T002O">
+<name>ENGINE</name>
+<para id="RM000000YN101CX" category="G" type-id="8000T" name-id="EM0CJ-04" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000YN101CX_01" type-id="01" category="01">
+<s-1 id="RM000000YN101CX_01_0001" proc-id="RM21Q0EV__00000NM00000">
+<ptxt>INSPECT AIR CLEANER FILTER ELEMENT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the air filter.</ptxt>
+</s2>
+<s2>
+<ptxt>Visually check that the air filter is not excessively damaged or oily.</ptxt>
+<ptxt> If necessary, replace the air filter.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0003" proc-id="RM21Q0EV__00000NN00000">
+<ptxt>INSPECT V-RIBBED BELT TENSIONER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Idle the engine and then stop the engine. Check that the drive belt is between the edges of the tensioner pulley.</ptxt>
+<figure>
+<graphic graphicname="G035187E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the drive belt from the tensioner pulley.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the pulley, and check that the tensioner bearing moves smoothly and quietly.</ptxt>
+<ptxt>If necessary, replace the tensioner pulley.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the drive belt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0004" proc-id="RM21Q0EV__00000NO00000">
+<ptxt>INSPECT NO. 1 IDLER PULLEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Idle the engine and then stop the engine. Check that the drive belt is between the edges of the idler pulley.</ptxt>
+<figure>
+<graphic graphicname="G035186E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the drive belt from the idler pulley.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the pulley, and check that the idler bearing moves smoothly and quietly.</ptxt>
+<ptxt>If necessary, replace the idler pulley.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the drive belt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0005" proc-id="RM21Q0EV__00000NP00000">
+<ptxt>CHECK VALVE LASH ADJUSTER NOISE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Rev up the engine several times. Check that the engine does not emit unusual noises.</ptxt>
+</s2>
+<s2>
+<ptxt>If unusual noises occur, warm up the engine and idle it for over 30 minutes. Then repeat the step above.</ptxt>
+<atten4>
+<ptxt>If any defects or problems are found during the inspection above, perform a lash adjuster inspection (see page <xref label="Seep01" href="RM0000012NU00WX_01_0001"/>).</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0006" proc-id="RM21Q0EV__00000GP00000">
+<ptxt>INSPECT IGNITION TIMING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up the engine and stop the engine.</ptxt>
+<atten3>
+<ptxt>A warmed up engine should have an engine coolant temperature of over 80°C (176°F), have an engine oil temperature of 60°C (140°F), and the engine rpm should be stabilized.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>When using the intelligent tester:</ptxt>
+<ptxt>Check the ignition timing.</ptxt>
+<figure>
+<graphic graphicname="A120720E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</s3>
+<s3>
+<ptxt>Start the engine and allow it to idle.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Enter the following items: Powertrain / Engine and ECT / Data List / IGN Advance.</ptxt>
+<spec>
+<title>Standard ignition timing</title>
+<specitem>
+<ptxt>0 to 20° BTDC @ idle</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Refer to the intelligent tester operator's manual for further details.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>When not using the intelligent tester:</ptxt>
+<ptxt>Check the ignition timing.</ptxt>
+<figure>
+<graphic graphicname="H100769E32" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using SST, connect a tachometer probe to terminal 9 (TAC) of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18030</s-number>
+</sstitem>
+</sst>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Confirm the terminal numbers before connecting them. Connection with a wrong terminal can damage the engine.</ptxt>
+</item>
+<item>
+<ptxt>Turn off all electrical systems before connecting the terminals.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+<s3>
+<ptxt>Clamp the tester probe of a timing light to the 4 lead wires or green-red lead wire of the ignition coil connector of the No. 1 cylinder.</ptxt>
+<figure>
+<graphic graphicname="A099874E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Start the engine.</ptxt>
+</s3>
+<s3>
+<ptxt>Using SST, connect terminals 13 (TC) and 4 (CG) of the DLC3.</ptxt>
+<figure>
+<graphic graphicname="H100769E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>When checking the ignition timing, the transmission should be in the neutral position.</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<figure>
+<graphic graphicname="A099876E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<item>
+<ptxt>After connecting the terminals (TC and CG), the engine rpm changes to approximately 1,000 to 1,500 rpm for 5 seconds, then returns to the idle speed. This occurs because the ECM checks that the ISC (idle speed control system) is operating properly.</ptxt>
+</item>
+<item>
+<ptxt>Perform the inspection of the ignition timing after the engine rpm is returned to idle speed.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+<s3>
+<ptxt>Using a timing light, measure the ignition timing.</ptxt>
+<figure>
+<graphic graphicname="A099880E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard ignition timing</title>
+<specitem>
+<ptxt>3 to 7° BTDC @ idle</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>Remove SST from terminals 13 (TC) and 4 (CG) of the DLC3. </ptxt>
+</s3>
+<s3>
+<ptxt>Check the ignition timing.</ptxt>
+<spec>
+<title>Standard ignition timing</title>
+<specitem>
+<ptxt>0 to 20° BTDC @ idle</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>Confirm that the ignition timing moves to the advanced angle side when the engine speed is increased.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the timing light.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0007" proc-id="RM21Q0EV__00000H300000">
+<ptxt>INSPECT ENGINE IDLE SPEED</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up and stop the engine.</ptxt>
+<atten3>
+<ptxt>A warmed up engine should have an engine coolant temperature of over 80°C (176°F), have an engine oil temperature of 60°C (140°F), and the engine rpm should be stabilized.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>When using the intelligent tester:</ptxt>
+<ptxt>Check the idle speed.</ptxt>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3. </ptxt>
+<figure>
+<graphic graphicname="A120720E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>Refer to the intelligent tester II operator's manual for further details.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Start the engine and allow it to idle.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Enter the following items: Powertrain / Engine and ECT / Data List / Engine SPD.</ptxt>
+<spec>
+<title>Standard idle speed</title>
+<specitem>
+<ptxt>650 to 750 rpm</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When checking the idle speed, the transmission should be in the neutral position.</ptxt>
+</item>
+<item>
+<ptxt>Switch off all accessories and air conditioning before connecting the intelligent tester.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>When not using the intelligent tester:</ptxt>
+<ptxt>Check the idle speed.</ptxt>
+<figure>
+<graphic graphicname="H100769E32" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using SST, connect a tachometer tester probe to terminal 9 (TAC) of the DLC3. </ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18030</s-number>
+</sstitem>
+</sst>
+</s3>
+<s3>
+<ptxt>Start the engine and allow it to idle.</ptxt>
+</s3>
+<s3>
+<ptxt>Check the idle speed.</ptxt>
+<spec>
+<title>Standard idle speed</title>
+<specitem>
+<ptxt>650 to 750 rpm</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0008" proc-id="RM21Q0EV__00000NQ00000">
+<ptxt>INSPECT IDLE SPEED CONTROL SYSTEM</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up and stop the engine. </ptxt>
+<atten3>
+<ptxt>A warmed up engine should have an engine coolant temperature of over 80°C (176°F), have an engine oil temperature of 60°C (140°F), and the engine rpm should be stabilized.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Check the idle speed control system.</ptxt>
+<s3>
+<ptxt>Using SST, connect terminals 13 (TC) and 4 (CG) of the DLC3.</ptxt>
+<figure>
+<graphic graphicname="H100769E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+</s3>
+<s3>
+<ptxt>Start the engine and allow it to idle.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Confirm the terminal numbers before connecting them. Connection with a wrong terminal can damage the engine.</ptxt>
+</item>
+<item>
+<ptxt>Turn off all electrical systems before connecting the terminals.</ptxt>
+</item>
+<item>
+<ptxt>When checking the ISC function, the transmission should be in the neutral position.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+<s3>
+<ptxt>After connecting the terminals (TC and CG), check that the engine speed changes to approximately 1,000 to 1,500 rpm for 5 seconds, and then returns to idle speed.</ptxt>
+<figure>
+<graphic graphicname="A099876E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If the result is not as specified, check the throttle body, DTC (see page <xref label="Seep01" href="RM000000ZPR00PX"/>) and wire harness.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0009" proc-id="RM21Q0EV__00000NR00000">
+<ptxt>INSPECT COMPRESSION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up and stop the engine. </ptxt>
+<atten3>
+<ptxt>A warmed up engine should have an engine coolant temperature of over 80°C (176°F), have an engine oil temperature of 60°C (140°F), and the engine speed should be stabilized.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Disconnect the injector connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the ignition coils.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the spark plugs.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the cylinder compression pressure.</ptxt>
+<figure>
+<graphic graphicname="A099130E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Insert a compression gauge into the spark plug hole.</ptxt>
+</s3>
+<s3>
+<ptxt>Fully open the throttle.</ptxt>
+</s3>
+<s3>
+<ptxt>While cranking the engine, measure the compression pressure.</ptxt>
+<spec>
+<title>Standard compression pressure</title>
+<specitem>
+<ptxt>1,230 kPa (12.5 kgf/cm<sup>2</sup>, 178 psi) </ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum pressure</title>
+<specitem>
+<ptxt>880 kPa (9 kgf/cm<sup>2</sup>, 128 psi)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Difference between each cylinder</title>
+<specitem>
+<ptxt>98 kPa (1.0 kgf/cm<sup>2</sup>, 14 psi) </ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Always use a fully charged battery to obtain an engine speed of 250 rpm or more.</ptxt>
+</item>
+<item>
+<ptxt>Check each cylinder's compression pressure in the same way.</ptxt>
+</item>
+<item>
+<ptxt>This measurement must be done as quickly as possible.</ptxt>
+</item>
+</list1>
+</atten3>
+<ptxt>If the cylinder compression is low, pour a small amount of engine oil into the cylinder through the spark plug hole and inspect again. </ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If adding oil increases the compression, the piston rings and/or cylinder bore may be worn or damaged.</ptxt>
+</item>
+<item>
+<ptxt>If pressure stays low, a valve may be stuck or seated improperly, or there may be leakage in the gasket.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN101CX_01_0011" proc-id="RM21Q0EV__00000GQ00000">
+<ptxt>CHECK CO/HC</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Start and warm up the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Run the engine at 2,500 rpm for approximately 180 seconds and idle the engine.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="G038823E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Insert CO/HC meter testing probe at least 40 cm (1.3 ft.) into the tailpipe.</ptxt>
+</s2>
+<s2>
+<ptxt>Check CO/HC concentration at idle.</ptxt>
+<spec>
+<title>Idle CO concentration</title>
+<specitem>
+<ptxt>0 to 0.5%</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Idle HC concentration</title>
+<specitem>
+<ptxt>Applicable local regulation</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>If the CO/HC concentration is not as specified, perform troubleshooting in the order given below.</ptxt>
+<s3>
+<ptxt>Check the heated oxygen sensor operation (see page <xref label="Seep01" href="RM000000ZQ900VX"/>).</ptxt>
+</s3>
+<s3>
+<ptxt>See the table below for possible causes, and then inspect and repair the applicable causes if necessary.</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.88in"/>
+<colspec colname="COL2" colwidth="0.79in"/>
+<colspec colname="COL3" colwidth="1.14in"/>
+<colspec colname="COL4" colwidth="4.27in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>CO</ptxt>
+</entry>
+<entry align="center">
+<ptxt>HC</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Problems</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Causes</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Normal</ptxt>
+</entry>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle</ptxt>
+</entry>
+<entry>
+<list1 type="ordered">
+<item>
+<ptxt>Faulty ignitions:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Incorrect timing</ptxt>
+</item>
+<item>
+<ptxt>Plugs are contaminated, shorted or gaps are defective</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>Incorrect valve clearance</ptxt>
+</item>
+<item>
+<ptxt>Leaks in intake and exhaust valves</ptxt>
+</item>
+<item>
+<ptxt>Leaks in cylinders</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Low</ptxt>
+</entry>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle</ptxt>
+<ptxt>(Fluctuating HC reading)</ptxt>
+</entry>
+<entry>
+<list1 type="ordered">
+<item>
+<ptxt>Vacuum leaks:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Ventilation hoses</ptxt>
+</item>
+<item>
+<ptxt>Intake manifold</ptxt>
+</item>
+<item>
+<ptxt>Throttle body</ptxt>
+</item>
+<item>
+<ptxt>Brake booster line</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>Lean mixture causing misfire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle</ptxt>
+<ptxt>(Black smoke from exhaust)</ptxt>
+</entry>
+<entry>
+<list1 type="ordered">
+<item>
+<ptxt>Restricted air filter</ptxt>
+</item>
+<item>
+<ptxt>Plugged ventilation valve</ptxt>
+</item>
+<item>
+<ptxt>Faulty SFI system:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Faulty pressure regulator</ptxt>
+</item>
+<item>
+<ptxt>Defective ECT sensor</ptxt>
+</item>
+<item>
+<ptxt>Defective Mass Air Flow (MAF) meter</ptxt>
+</item>
+<item>
+<ptxt>Faulty ECM</ptxt>
+</item>
+<item>
+<ptxt>Faulty injectors</ptxt>
+</item>
+<item>
+<ptxt>Faulty throttle position sensor</ptxt>
+</item>
+</list2>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

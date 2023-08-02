@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X3_T001H" variety="T001H">
+<name>1TR-FE LUBRICATION</name>
+<para id="RM00000290X003X" category="F" type-id="30027" name-id="SS249-01" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM00000290X003X_z0" proc-id="RM21Q0EV__000003P00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Oil pressure</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL3">
+<ptxt>at idle</ptxt>
+</entry>
+<entry>
+<ptxt>29 kPa (0.3 kgf/cm<sup>2</sup>, 4.2 psi) or more</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COL3">
+<ptxt>at 3,000 rpm</ptxt>
+</entry>
+<entry>
+<ptxt>160 to 490 kPa (1.6 to 5.0 kgf/cm<sup>2</sup>, 23 to 71 psi) or more</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="5">
+<ptxt>Oil pump</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Tip clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>0.040 to 0.160 mm (0.0016 to 0.0063 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.26 mm (0.0102 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Side clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt> 0.025 to 0.075 mm (0.0010 to 0.0030 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.130 mm (0.0051 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Body clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>0.025 to 0.325 mm (0.0010 to 0.0128 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.425 mm (0.0167 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

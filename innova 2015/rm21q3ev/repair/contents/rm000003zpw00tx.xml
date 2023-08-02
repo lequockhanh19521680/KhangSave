@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROZ_T00A1" variety="T00A1">
+<name>MAGNETIC CLUTCH RELAY</name>
+<para id="RM000003ZPW00TX" category="A" type-id="80001" name-id="ACFUA-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000003ZPW00TX_02" type-id="01" category="01">
+<s-1 id="RM000003ZPW00TX_02_0010" proc-id="RM21Q0EV__000048Z00000">
+<ptxt>REMOVE HEADLIGHT DIMMER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000024EK003X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000003ZPW00TX_02_0008" proc-id="RM21Q0EV__000039T00000">
+<ptxt>REMOVE NO. 1 INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B291273" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Remove the clip &lt;B&gt;.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 9 claws and remove the No. 1 instrument cluster finish panel.</ptxt>
+</s2>
+<s2>
+<ptxt>w/ Light Control Rheostat:</ptxt>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003ZPW00TX_02_0009" proc-id="RM21Q0EV__000038E00000">
+<ptxt>REMOVE COMBINATION METER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279079" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connectors, detach the clamp and remove the combination meter.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003ZPW00TX_02_0007" proc-id="RM21Q0EV__000048W00000">
+<ptxt>REMOVE MAGNET CLUTCH RELAY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231908" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the magnet clutch relay.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

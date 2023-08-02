@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A839_T007N" variety="T007N">
+<name>POWER WINDOW MASTER SWITCH</name>
+<para id="RM000001LNM00CX" category="G" type-id="3001K" name-id="WS0EH-03" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001LNM00CX_01" type-id="01" category="01">
+<s-1 id="RM000001LNM00CX_01_0001" proc-id="RM21Q0EV__00002PV00000">
+<ptxt>INSPECT POWER WINDOW REGULATOR MASTER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance of the master switch.</ptxt>
+<figure>
+<graphic graphicname="B112777E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<subtitle>Driver switch</subtitle>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Window Lock Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Power Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Always</ptxt>
+<ptxt>(ON / OFF)</ptxt>
+</entry>
+<entry>
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 9 (DD)</ptxt>
+<ptxt>4 (DU) - 6 (B)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Always</ptxt>
+<ptxt>(ON / OFF)</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 4 (DU)</ptxt>
+<ptxt>3 (E) - 9 (DD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Always</ptxt>
+<ptxt>(ON / OFF)</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 4 (DU)</ptxt>
+<ptxt>6 (B) - 9 (DD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Always</ptxt>
+<ptxt>(ON / OFF)</ptxt>
+</entry>
+<entry>
+<ptxt>AUTO DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 4 (DU)</ptxt>
+<ptxt>6 (B) - 9 (DD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<subtitle>Front passenger switch</subtitle>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Window Lock Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Power Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 15 (PD)</ptxt>
+<ptxt>6 (B) - 18 (PU)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 18 (PU)</ptxt>
+<ptxt>3 (E) - 15 (PD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 18 (PU)</ptxt>
+<ptxt>6 (B) - 15 (PD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>ON</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 15 (PD)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩor higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6 (B) - 18 (PU)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>18 (PU) - 15 (PD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>ON</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 18 (PU)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩor higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6 (B) - 15 (PD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<subtitle>Rear LH switch</subtitle>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Window Lock Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Power Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 13 (RLD)</ptxt>
+<ptxt>6 (B) - 12 (RLU)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 12 (RLU)</ptxt>
+<ptxt>3 (E) - 13 (RLD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 12 (RLU)</ptxt>
+<ptxt>6 (B) - 13 (RRD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>ON</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 13 (RLD)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩor higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6 (B) - 12 (RLU)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>12 (RLU) - 13 (RLD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>ON</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 12 (RLU)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩor higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6 (B) - 13 (RLD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<subtitle>Rear RH switch</subtitle>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Window Lock Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Power Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 16 (RRD)</ptxt>
+<ptxt>6 (B) - 10 (RRU)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 10 (RRU)</ptxt>
+<ptxt>3 (E) - 16 (RRD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 10 (RRU)</ptxt>
+<ptxt>6 (B) - 16 (RRD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>ON</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 16 (RRD)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩor higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6 (B) - 10 (RRU)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 (RRU) - 16 (RRD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>ON</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>3 (E) - 10 (RRU)</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩor higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6 (B) - 16 (RRD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</item>
+</list1>
+</s2>
+<s2>
+<ptxt>Apply battery voltage to the master switch and check that the AUTO light illuminates.</ptxt>
+<figure>
+<graphic graphicname="B079808E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 6 (B)</ptxt>
+<ptxt>Battery negative (-) → Terminal 3 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>AUTO light illuminates</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

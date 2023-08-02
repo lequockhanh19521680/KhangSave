@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81F_T005T" variety="T005T">
+<name>STEERING PAD</name>
+<para id="RM0000010AS01FX" category="A" type-id="80001" name-id="RSCH9-03" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010AS01FX_02" type-id="01" category="01">
+<s-1 id="RM0000010AS01FX_02_0005" proc-id="RM21Q0EV__00004UN00000">
+<ptxt>PRECAUTION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010AS01FX_02_0001" proc-id="RM21Q0EV__00004UJ00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010AS01FX_02_0004" proc-id="RM21Q0EV__00004UM00000">
+<ptxt>REMOVE LOWER NO. 3 STEERING WHEEL COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver wrapped with protective tape, detach the 2 claws and remove the lower No. 3 steering wheel cover.</ptxt>
+<figure>
+<graphic graphicname="B277147E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>Protective tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010AS01FX_02_0003" proc-id="RM21Q0EV__00004UL00000">
+<ptxt>REMOVE LOWER NO. 2 STEERING WHEEL COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver wrapped with protective tape, detach the 2 claws and remove the lower No. 2 steering wheel cover.</ptxt>
+<figure>
+<graphic graphicname="B278834E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>Protective tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010AS01FX_02_0002" proc-id="RM21Q0EV__00004UK00000">
+<ptxt>REMOVE STEERING PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a T30 "TORX" socket wrench, loosen the 2 screws until the groove along the screw circumference catches on the screw case.</ptxt>
+<figure>
+<graphic graphicname="E247930E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw Case</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Pull out the steering pad from the steering wheel as shown in the illustration. Then support the steering pad with one hand.</ptxt>
+<figure>
+<graphic graphicname="B277210" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>When removing the steering pad, do not pull the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Disconnect the horn connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector and remove the steering pad .</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, take care not to damage the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

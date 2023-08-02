@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7WY_T001C" variety="T001C">
+<name>1TR-FE FUEL</name>
+<para id="RM00000290V003X" category="F" type-id="30027" name-id="SS247-03" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM00000290V003X_z0" proc-id="RM21Q0EV__000003F00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Fuel pressure</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+<entry>
+<ptxt>281 to 287 kPa (2.87 to 2.93 kgf/cm<sup>2</sup>, 41 to 42 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Remains as specified for 5 minutes after the engine has stopped</ptxt>
+</entry>
+<entry>
+<ptxt>147 kPa (1.5 kgf/cm<sup>2</sup>, 21 psi) or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3">
+<ptxt>Fuel injector</ptxt>
+</entry>
+<entry>
+<ptxt>Resistance</ptxt>
+</entry>
+<entry>
+<ptxt>11.6 to 12.4 Ω at 20°C (68°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Injection volume</ptxt>
+</entry>
+<entry>
+<ptxt>76 to 91 cc (4.6 to 5.6 cu. in.) in 15 seconds</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Difference between each injector</ptxt>
+</entry>
+<entry>
+<ptxt>15 cc (0.9 cu. in.) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>fuel drop</ptxt>
+</entry>
+<entry>
+<ptxt>1 drop or less per 12 minutes</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Fuel pump</ptxt>
+</entry>
+<entry>
+<ptxt>Resistance</ptxt>
+</entry>
+<entry>
+<ptxt>0.2 to 3.0 Ω at 20°C (68°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

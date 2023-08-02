@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YVW00TX" category="D" type-id="303F2" name-id="RS0G6-06" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000000YVW00TX_z0" proc-id="RM21Q0EV__000021300000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DESCRIPTION OF SUPPLEMENTAL RESTRAINT SYSTEM</ptxt>
+<step2>
+<ptxt>General description</ptxt>
+<step3>
+<ptxt>The center airbag sensor uses collision signals received from each sensor to determine whether or not to activate the driver airbag, passenger airbag, and front seat outer belt (front pretensioner squib (driver side and front passenger side)). When there is trouble in the system, the center airbag sensor turns on the SRS warning light on the combination meter to inform the driver.</ptxt>
+</step3>
+<step3>
+<ptxt>The center airbag sensor is installed on the floor under the A/C unit.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Description of check mode (signal check)</ptxt>
+<step3>
+<ptxt>The center airbag sensor has a check mode that can be activated through the intelligent tester. In check mode, DTCs can be detected and output.</ptxt>
+<ptxt>If the malfunction cannot be reproduced or is intermittent during troubleshooting, perform the following simulation to help determine what is causing the malfunction. Change the airbag sensor to check mode. Then wiggle each connector, or drive on various types of roads.</ptxt>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>IGNITION JUDGMENT AND CONDITIONS</ptxt>
+<step2>
+<ptxt>Operation in case of front collision</ptxt>
+<step3>
+<ptxt>When an impact that is larger than a predetermined level occurs in the highlighted area in Fig. 1, the airbag is deployed automatically.</ptxt>
+</step3>
+<step3>
+<ptxt>The center airbag sensor's deceleration sensor uses the front airbag sensor's deceleration sensor signal to determine whether or not to activate the airbag.</ptxt>
+</step3>
+<step3>
+<ptxt>The center airbag sensor's safing sensor is designed to activate at a deceleration rate that is lower than that of the center airbag sensor's deceleration sensor. When the safing sensor and deceleration sensor turn on simultaneously, current flows to the squib and the airbag deploys.</ptxt>
+</step3>
+</step2>
+</step1>
+<figure>
+<graphic graphicname="H100348E06" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

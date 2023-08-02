@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81E_T005S" variety="T005S">
+<name>FRONT AIRBAG SENSOR</name>
+<para id="RM0000010IH02GX" category="A" type-id="80001" name-id="RSHAA-01" from="201403">
+<name>REMOVAL</name>
+<subpara id="RM0000010IH02GX_01" type-id="11" category="10" proc-id="RM21Q0EV__00004V200001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010IH02GX_02" type-id="01" category="01">
+<s-1 id="RM0000010IH02GX_02_0013" proc-id="RM21Q0EV__00004V800001">
+<ptxt>PRECAUTION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010IH02GX_02_0002" proc-id="RM21Q0EV__00004V300001">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010IH02GX_02_0009" proc-id="RM21Q0EV__00005L100000">
+<ptxt>REMOVE RADIATOR GRILLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Standard:</ptxt>
+<ptxt>(See page <xref label="Seep01" href="RM000004S3H00HX_01_0001"/>)</ptxt>
+</s2>
+<s2>
+<ptxt>except Standard:</ptxt>
+<ptxt>(See page <xref label="Seep02" href="RM000005NND001X_01_0001"/>)</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010IH02GX_02_0012" proc-id="RM21Q0EV__00004VG00001">
+<ptxt>REMOVE BATTERY CLAMP SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, nut and battery clamp.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010IH02GX_02_0004" proc-id="RM21Q0EV__00004V400001">
+<ptxt>REMOVE BATTERY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the cable from positive (+) battery terminal.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the battery.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010IH02GX_02_0006" proc-id="RM21Q0EV__00004V500001">
+<ptxt>REMOVE FRONT AIRBAG SENSOR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the nut and front airbag sensor LH.</ptxt>
+<figure>
+<graphic graphicname="B277574" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102K01JX" category="D" type-id="303F3" name-id="BC0E6-10" from="201202">
+<name>DIAGNOSIS SYSTEM</name>
+<subpara id="RM00000102K01JX_z0" proc-id="RM21Q0EV__00001O300000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DESCRIPTION</ptxt>
+<step2>
+<ptxt>The Anti-lock Brake System (ABS) data can be read through the Data Link Connector 3 (DLC3) of the vehicle. When the system seems to be malfunctioning, use the intelligent tester to check for malfunctions and perform repairs.</ptxt>
+</step2>
+<step2>
+<ptxt>If the skid control ECU detects a malfunction, the ABS warning light will illuminate to warn the driver.</ptxt>
+<figure>
+<graphic graphicname="F100589" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</step2>
+<step2>
+<ptxt>DTCs can be read by connecting the intelligent tester to the DLC3, or connecting SST between the 13 (TC) and 4 (CG) terminals of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+</step2>
+<step2>
+<ptxt>Several DTCs can be stored in memory at one time.</ptxt>
+</step2>
+<step2>
+<ptxt>The ABS has a sensor signal check function (TEST MODE).</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK DLC3</ptxt>
+<figure>
+<graphic graphicname="C108847E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>The vehicle's ECM uses ISO 14230 (M-OBD) communication protocol. The terminal arrangement of the DLC3 complies with ISO 15031-03 and matches the ISO 14230 format.</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>SIL (7) - SG (5)</ptxt>
+</entry>
+<entry>
+<ptxt>Bus "+" line</ptxt>
+</entry>
+<entry>
+<ptxt>During transmission</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>CG (4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Chassis ground</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SG (5) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Signal ground</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>BAT (16) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Battery positive</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, the DLC3 may have a malfunction. Repair or replace the harness and connector.</ptxt>
+</item>
+</list1>
+<atten4>
+<figure>
+<graphic graphicname="F100590E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Connect the cable of the intelligent tester to the DLC3, turn the ignition switch ON and attempt to use the tester. If the display indicates that a communication error has occurred, there is a problem either with the vehicle or with the tester.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>If communication is normal when the tester is connected to another vehicle, inspect the DLC3 of the original vehicle.</ptxt>
+</item>
+<item>
+<ptxt>If communication is still not possible when the tester is connected to another vehicle, the problem may be in the tester itself. Consult the Service Department listed in the tester's instruction manual.</ptxt>
+</item>
+</list1>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

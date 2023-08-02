@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROP_T009S" variety="T009S">
+<name>ROOM TEMPERATURE SENSOR (for Automatic Air Conditioning System)</name>
+<para id="RM000001G9C01PX" category="A" type-id="30014" name-id="ACFU4-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001G9C01PX_01" type-id="01" category="01">
+<s-1 id="RM000001G9C01PX_01_0001" proc-id="RM21Q0EV__000048800000">
+<ptxt>INSTALL COOLER THERMISTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the cooler thermistor (room temperature sensor).</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector and hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G9C01PX_01_0004" proc-id="RM21Q0EV__00003AU00000">
+<ptxt>INSTALL LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 7 claws to install the lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

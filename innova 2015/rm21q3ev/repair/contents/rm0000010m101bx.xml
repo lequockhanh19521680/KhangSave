@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000O_S000O" variety="S000O">
+<name>PARKING BRAKE</name>
+<ttl id="1000O_S000O_7A80R_T0055" variety="T0055">
+<name>PARKING BRAKE SYSTEM</name>
+<para id="RM0000010M101BX" category="N" type-id="3000G" name-id="PB2OS-01" from="201202">
+<name>ADJUSTMENT</name>
+<subpara id="RM0000010M101BX_01" type-id="01" category="01">
+<s-1 id="RM0000010M101BX_01_0013" proc-id="RM21Q0EV__000056S00000">
+<ptxt>CHECK PARKING BRAKE LEVER TRAVEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pull the parking brake lever to fully engage the parking brake.</ptxt>
+</s2>
+<s2>
+<ptxt>Release the lever to disengage the parking brake.</ptxt>
+</s2>
+<s2>
+<ptxt>Slowly pull the parking brake lever all the way, and count the number of clicks.</ptxt>
+<spec>
+<title>Standard parking brake lever travel when pulled with a force of 200 N (20 kgf, 45 lbf)</title>
+<specitem>
+<ptxt>6 to 9 clicks</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010M101BX_01_0009" proc-id="RM21Q0EV__000056R00000">
+<ptxt>REMOVE UPPER CONSOLE PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEC013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010M101BX_01_0014">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010M101BX_01_0020" proc-id="RM21Q0EV__00001RL00000">
+<ptxt>ADJUST BRAKE SHOE CLEARANCE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that each part is installed properly.</ptxt>
+<figure>
+<graphic graphicname="F049774E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Measure the inside diameter of the drum and diameter of the brake shoes. Check that the difference between the diameters is the correct shoe clearance.</ptxt>
+<figure>
+<graphic graphicname="C111493" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard shoe clearance</title>
+<specitem>
+<ptxt>0.5 mm (0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>There should be no oil or grease on the contact surfaces of the shoe lining and drum.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010M101BX_01_0006" proc-id="RM21Q0EV__000056P00000">
+<ptxt>ADJUST PARKING BRAKE LEVER TRAVEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Completely release the parking brake lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the lock nut.</ptxt>
+<figure>
+<graphic graphicname="C237675E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock Nut</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Parking Brake Cable Adjusting Nut</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Turn the No. 1 parking brake cable adjusting nut until the lever travel is correct.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the lock nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.2</t-value1>
+<t-value2>53</t-value2>
+<t-value3>46</t-value3>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>If the lever travel cannot be fully adjusted with this procedure, proceed to the Adjust Parking Brake Turn Buckle procedure.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010M101BX_01_0007" proc-id="RM21Q0EV__000056Q00000">
+<ptxt>ADJUST PARKING BRAKE TURN BUCKLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Loosen the lock nut and turn the buckle until the lever travel is correct.</ptxt>
+<figure>
+<graphic graphicname="C237676E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock Nut</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn Buckle</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Tighten the lock nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010M101BX_01_0016" proc-id="RM21Q0EV__000056T00000">
+<ptxt>INSPECT BRAKE WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Operate the parking brake lever and check the illumination condition of the brake warning light.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The brake warning light always illuminates at the first click.</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010M101BX_01_0017" proc-id="RM21Q0EV__000056U00000">
+<ptxt>INSTALL UPPER CONSOLE PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEA013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010M101BX_01_0019" proc-id="RM21Q0EV__00001IZ00000">
+<ptxt>INSTALL REAR WHEEL
+</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1,122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

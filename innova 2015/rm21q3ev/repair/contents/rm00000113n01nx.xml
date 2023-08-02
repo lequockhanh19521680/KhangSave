@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A822_T006G" variety="T006G">
+<name>LICENSE PLATE LIGHT ASSEMBLY</name>
+<para id="RM00000113N01NX" category="A" type-id="80001" name-id="LE4AY-02" from="201202" to="201403">
+<name>REMOVAL</name>
+<subpara id="RM00000113N01NX_01" type-id="01" category="01">
+<s-1 id="RM00000113N01NX_01_0009" proc-id="RM21Q0EV__00004Y100000">
+<ptxt>REMOVE BACK DOOR OUTSIDE GARNISH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000001FLA01DX"/>).</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000113N01NX_01_0011" proc-id="RM21Q0EV__00004Y300000">
+<ptxt>REMOVE LICENSE PLATE LIGHT LENS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 screws and remove the 2 license plate light lenses.</ptxt>
+<figure>
+<graphic graphicname="B117640" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113N01NX_01_0012" proc-id="RM21Q0EV__00004Y400000">
+<ptxt>REMOVE LICENSE PLATE LIGHT LENS GASKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 license plate light lens gaskets.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113N01NX_01_0002" proc-id="RM21Q0EV__00004Y000000">
+<ptxt>REMOVE LICENSE PLATE LIGHT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws.</ptxt>
+<figure>
+<graphic graphicname="E227745" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the license plate light assembly while turning it as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113N01NX_01_0010" proc-id="RM21Q0EV__00004Y200000">
+<ptxt>REMOVE LICENSE PLATE LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 license plate light bulbs from the license plate light assembly.</ptxt>
+<figure>
+<graphic graphicname="B117642" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

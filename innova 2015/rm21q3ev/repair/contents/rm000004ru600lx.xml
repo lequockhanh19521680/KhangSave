@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLI_T0090" variety="T0090">
+<name>HOOD</name>
+<para id="RM000004RU600LX" category="N" type-id="3000G" name-id="DH2AP-12" from="201202">
+<name>ADJUSTMENT</name>
+<subpara id="RM000004RU600LX_01" type-id="11" category="10" proc-id="RM21Q0EV__00003IG00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Centering bolts are used to mount the hood hinge to the vehicle body and hood. The hood cannot be adjusted with the centering bolts on. Substitute the centering bolts for standard bolts (with washers) when making adjustments.</ptxt>
+<figure>
+<graphic graphicname="B286201E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (See page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Centering Bolt</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard Bolt</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content3>
+</subpara>
+<subpara id="RM000004RU600LX_02" type-id="01" category="01">
+<s-1 id="RM000004RU600LX_02_0001" proc-id="RM21Q0EV__00003IH00000">
+<ptxt>ADJUST HOOD SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Adjust the hood position.</ptxt>
+<figure>
+<graphic graphicname="B276672" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Loosen the 4 hinge bolts on the hood and adjust the hood position.</ptxt>
+</s3>
+<s3>
+<ptxt>Move the hood and adjust the clearance between the hood and front fender.</ptxt>
+</s3>
+<s3>
+<ptxt>Tighten the 4 hinge bolts on the hood after the adjustment.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>117</t-value2>
+<t-value4>8.5</t-value4>
+</torqueitem>
+</torque>
+</s3>
+</s2>
+<s2>
+<ptxt>Adjust the cushion rubbers so that the hood and fender are aligned.</ptxt>
+<figure>
+<graphic graphicname="B280269" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>Raise or lower the front end of the hood by turning the cushion rubber.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Adjust the hood lock.</ptxt>
+<figure>
+<graphic graphicname="B286137" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Loosen the 3 bolts.</ptxt>
+</s3>
+<s3>
+<ptxt>Adjust the hood lock position so that the striker can enter it smoothly.</ptxt>
+</s3>
+<s3>
+<ptxt>Tighten the 3 bolts after the adjustment.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

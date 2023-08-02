@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002W_S0015" variety="S0015">
+<name>INSTRUMENT PANEL</name>
+<ttl id="1002W_S0015_7ARDO_T008T" variety="T008T">
+<name>LOWER INSTRUMENT PANEL</name>
+<para id="RM000003NFV00DX" category="A" type-id="8000E" name-id="IP19J-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000003NFV00DX_01" type-id="01" category="01">
+<s-1 id="RM000003NFV00DX_01_0002" proc-id="RM21Q0EV__00003BU00000">
+<ptxt>INSTALL CENTER INSTRUMENT PANEL BRACKET SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the center instrument panel bracket with the 3 screws &lt;F&gt;.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NFV00DX_01_0004" proc-id="RM21Q0EV__00003BV00000">
+<ptxt>INSTALL NO. 2 INSTRUMENT PANEL REGISTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 2 instrument panel register with the 3 screws &lt;F&gt;.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NFV00DX_01_0005" proc-id="RM21Q0EV__00003BW00000">
+<ptxt>INSTALL FRONT ASH RECEPTACLE BOX SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front ash receptacle box.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

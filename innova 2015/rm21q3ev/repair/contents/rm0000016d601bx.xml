@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7A80X_T005B" variety="T005B">
+<name>VANE PUMP</name>
+<para id="RM0000016D601BX" category="G" type-id="3001K" name-id="PS2IO-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000016D601BX_01" type-id="01" category="01">
+<s-1 id="RM0000016D601BX_01_0001" proc-id="RM21Q0EV__00001UU00000">
+<ptxt>INSPECT VANE PUMP SHAFT AND BUSHING IN VANE PUMP FRONT HOUSING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a micrometer, measure the diameter (a) of the shaft with pulley.</ptxt>
+<figure>
+<graphic graphicname="F047395E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a caliper gauge, measure the inside diameter (b) of the front vane pump housing.</ptxt>
+<atten3>
+<ptxt>Do not damage the bushing in the front vane pump housing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Subtract (a) from (b) to calculate the oil clearance.</ptxt>
+<spec>
+<title>Maximum clearance</title>
+<specitem>
+<ptxt>0.07 mm (0.0028 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If it is greater than the maximum, replace the shaft with pulley.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000016D601BX_01_0002" proc-id="RM21Q0EV__00001UV00000">
+<ptxt>INSPECT VANE PUMP ROTOR AND VANE PUMP PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a feeler gauge, measure the clearance between the side face of the vane pump rotor groove and the vane pump plates.</ptxt>
+<figure>
+<graphic graphicname="ZX00285E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum clearance</title>
+<specitem>
+<ptxt>0.03 mm (0.0012 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the clearance is more than the maximum, replace the vane pump plates, vane pump rotor and vane pump cam ring.</ptxt>
+</item>
+<item>
+<ptxt>Refer to the following table to select an appropriate combination of vane pump rotor, vane pump cam ring and vane pump plates.</ptxt>
+<spec>
+<title>Combination of vane pump rotor, vane pump cam ring and vane pump plates</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COLSPEC0" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Vane Pump Rotor Part No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Vane Pump Cam Ring Part No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Vane Pump Plate Part No.</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>44313-06110</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44325-0K010</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44345-06110</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>44313-06120</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44325-0K020</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44345-06120</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>44313-06130</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44325-0K030</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44345-06130</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>44313-06140</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44325-0K040</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44345-06140</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>44313-06150</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44325-0K050</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44345-06150</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000016D601BX_01_0003" proc-id="RM21Q0EV__00001UW00000">
+<ptxt>INSPECT FLOW CONTROL VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the flow control valve for leakage. Close one of the holes and apply compressed air of 392 to 490 kPa (4 to 5 kgf/cm<sup>2</sup>, 57 to 71 psi) to the hole on the opposite side. Confirm that the air does not flow out of the end holes.</ptxt>
+<figure>
+<graphic graphicname="F052069E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Make sure to use clean and dry air.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>If there is leakage, replace the flow control valve.</ptxt>
+<figure>
+<graphic graphicname="C220817E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Check the mark on the front vane pump housing and replace the flow control valve with one having the same mark as that of the front vane pump housing.</ptxt>
+</item>
+<item>
+<ptxt>Refer to the following table to select an appropriate combination of front vane pump housing and flow control valve.</ptxt>
+<spec>
+<title>Combination of front vane pump housing and flow control valve</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COLSPEC0" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Front Vane Pump Housing Mark</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Flow Control Valve Mark</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Flow Control Valve Part No.</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44330-0K130</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44330-0K140</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44330-0K150</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44330-0K160</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>E</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>E</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44330-0K170</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>F</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>F</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44330-0K180</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Coat the flow control valve with power steering fluid.</ptxt>
+<atten3>
+<ptxt>Make sure to use new power steering fluid.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Insert the flow control valve into the flow control valve installation hole of the front vane pump housing, and check that the flow control valve enters smoothly under its own weight.</ptxt>
+</s2>
+<s2>
+<ptxt>If the flow control valve does not enter the front vane pump housing smoothly, replace the flow control valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000016D601BX_01_0004" proc-id="RM21Q0EV__00001UX00000">
+<ptxt>INSPECT FLOW CONTROL VALVE COMPRESSION SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the free length of the flow control valve compression spring.</ptxt>
+<figure>
+<graphic graphicname="R008702E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Minimum free length</title>
+<specitem>
+<ptxt>29.2 mm (1.150 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the length is less than the minimum, replace the flow control valve compression spring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000016D601BX_01_0005" proc-id="RM21Q0EV__00001UY00000">
+<ptxt>INSPECT PRESSURE PORT UNION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>If the union seat in the pressure port union is severely damaged, replace the pressure port union.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

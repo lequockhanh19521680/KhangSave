@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002Y_S0019" variety="S0019">
+<name>INTERIOR</name>
+<ttl id="1002Y_S0019_7A841_T008F" variety="T008F">
+<name>FUEL LID LOCK CONTROL</name>
+<para id="RM00000225O00BX" category="A" type-id="30014" name-id="IR1EB-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000225O00BX_01" type-id="01" category="01">
+<s-1 id="RM00000225O00BX_01_0001" proc-id="RM21Q0EV__00003HC00000">
+<ptxt>INSTALL FUEL FILLER OPENING LID LOCK RETAINER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B277117" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the fuel filler opening lid lock retainer and turn it counterclockwise as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0002" proc-id="RM21Q0EV__00003HD00000">
+<ptxt>INSTALL FUEL LID LOCK CONTROL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B277115" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the fuel lid lock control cable and turn the fuel filler opening lid lock retainer clockwise as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the cable to each of the clamps shown in the illustration and install new tape.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the fuel lid lock open lever.</ptxt>
+<figure>
+<graphic graphicname="B279300E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fuel Lid Lock Open Lever</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0032" proc-id="RM21Q0EV__00003HR00000">
+<ptxt>INSTALL FRONT FLOOR CARPET ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front floor carpet.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0011" proc-id="RM21Q0EV__00003HE00000">
+<ptxt>INSTALL QUARTER INSIDE TRIM BOARD LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 4 claws, 8 clips and 2 guides to install the quarter inside trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the rear door opening trim.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 1 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 2 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0023" proc-id="RM21Q0EV__00003FP00000">
+<ptxt>INSTALL QUARTER TRIM HOOK
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure for both quarter trim hooks.</ptxt>
+</atten4>
+<s2>
+<ptxt>Install the quarter trim hook with the screw.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225O00BX_01_0024" proc-id="RM21Q0EV__00003F700000">
+<ptxt>INSTALL BACK DOOR SCUFF PLATE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 6 clips and 4 claws to install the back door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225O00BX_01_0012" proc-id="RM21Q0EV__00003HF00000">
+<ptxt>INSTALL LOWER CENTER PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the lower center pillar garnish.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front door opening trim and rear door opening trim.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the front seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0013" proc-id="RM21Q0EV__00003FG00000">
+<ptxt>INSTALL REAR DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 clips and 7 claws to install the rear door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225O00BX_01_0034" proc-id="RM21Q0EV__00003HT00000">
+<ptxt>INSTALL COWL SIDE TRIM BOARD LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 clips to install the cowl side trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front door opening trim.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0025" proc-id="RM21Q0EV__00003FK00000">
+<ptxt>INSTALL FRONT DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 clips and 7 claws to install the front door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225O00BX_01_0026" proc-id="RM21Q0EV__00003HL00000">
+<ptxt>INSTALL CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEA013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0027" proc-id="RM21Q0EV__00003HM00000">
+<ptxt>INSTALL REAR NO. 2 SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000023O8003X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0029" proc-id="RM21Q0EV__00003HO00000">
+<ptxt>INSTALL REAR NO. 1 SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000024WT00BX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0028" proc-id="RM21Q0EV__00003HN00000">
+<ptxt>INSTALL REAR NO. 1 SEAT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000024WO00BX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0031" proc-id="RM21Q0EV__00003HQ00000">
+<ptxt>INSTALL FRONT SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000Z8T0B4X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225O00BX_01_0030" proc-id="RM21Q0EV__00003HP00000">
+<ptxt>INSTALL FRONT SEAT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the RH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

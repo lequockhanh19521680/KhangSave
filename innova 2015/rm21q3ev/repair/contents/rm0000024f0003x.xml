@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81W_T006A" variety="T006A">
+<name>IGNITION KEY CYLINDER LIGHT</name>
+<para id="RM0000024F0003X" category="G" type-id="3001K" name-id="LI1VF-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000024F0003X_01" type-id="01" category="01">
+<s-1 id="RM0000024F0003X_01_0001" proc-id="RM21Q0EV__00002A500000">
+<ptxt>INSPECT IGNITION KEY CYLINDER LIGHT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E074601E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Inspect operation of the ignition key cylinder light.</ptxt>
+<s3>
+<ptxt>Connect the battery's positive (+) lead to terminal 2 and negative (-) lead to terminal 6. Then check that the LED illuminates.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>LED illuminates.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the transponder key amplifier.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

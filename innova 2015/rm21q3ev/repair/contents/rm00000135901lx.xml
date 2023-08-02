@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000B_S0008" variety="S0008">
+<name>1TR-FE EXHAUST</name>
+<ttl id="1000B_S0008_7A7YM_T0030" variety="T0030">
+<name>EXHAUST PIPE</name>
+<para id="RM00000135901LX" category="A" type-id="80001" name-id="EX030-03" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000135901LX_02" type-id="11" category="10" proc-id="RM21Q0EV__00000QI00000">
+<content3 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Wear protective gloves when removing the exhaust pipe assembly.</ptxt>
+</item>
+<item>
+<ptxt>The exhaust pipe assembly is extremely hot immediately after the engine has stopped.</ptxt>
+</item>
+<item>
+<ptxt>Confirm that the exhaust pipe assembly has cooled down before removing it.</ptxt>
+</item>
+</list1>
+</atten2>
+</content3>
+</subpara>
+<subpara id="RM00000135901LX_01" type-id="01" category="01">
+<s-1 id="RM00000135901LX_01_0001" proc-id="RM21Q0EV__00000QE00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM00000135901LX_01_0002" proc-id="RM21Q0EV__00000QF00000">
+<ptxt>REMOVE TAILPIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the tailpipe from the center pipe and remove the gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the tailpipe from the pipe support.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135901LX_01_0003" proc-id="RM21Q0EV__00000QG00000">
+<ptxt>REMOVE CENTER EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the center pipe from the front pipe and remove the gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the center pipe from the 3 pipe supports.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135901LX_01_0008" proc-id="RM21Q0EV__00000QH00000">
+<ptxt>REMOVE HEATED OXYGEN SENSOR (for Bank 1 Sensor 1)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G039109E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 3 wire clamps.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112981E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using SST, remove the sensor.</ptxt>
+<sst>
+<sstitem>
+<s-number>09224-00010</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000135901LX_01_0006" proc-id="RM21Q0EV__00000IQ00000">
+<ptxt>REMOVE FRONT EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and 2 compression springs.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the front pipe from the outlet pipe and remove the gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the front pipe from the pipe support.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

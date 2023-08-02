@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZRM0DEX" category="J" type-id="302L1" name-id="ES10OY-001" from="201202">
+<dtccode/>
+<dtcname>Fuel Injector Circuit</dtcname>
+<subpara id="RM000000ZRM0DEX_01" type-id="60" category="03" proc-id="RM21Q0EV__00000CI00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The fuel injectors are located on the intake manifold. They inject fuel into the cylinders based on the signals from the ECM.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZRM0DEX_02" type-id="32" category="03" proc-id="RM21Q0EV__00000CJ00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A120229E01" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZRM0DEX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000ZRM0DEX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZRM0DEX_04_0001" proc-id="RM21Q0EV__00000CK00000">
+<testtitle>CHECK ECM (#10, #20, #30, #40 VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E26" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-6 (#10) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-5 (#20) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-2 (#30) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-1 (#40) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<figure>
+<graphic graphicname="A078423E07" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>Reference: Inspect using the oscilloscope.</ptxt>
+<ptxt>Check the waveform of the ECM connectors.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-6 (#10) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-5 (#20) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-2 (#30) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E11-1 (#40) - E12-7 (E01)</ptxt>
+</entry>
+<entry>
+<ptxt>Correct waveform is as shown</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.65in"/>
+<colspec colnum="2" colname="c2" colwidth="1.48in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>20 V/DIV., 100 or 1 msec./DIV.</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZRM0DEX_04_0002" fin="false">NG</down>
+<right ref="RM000000ZRM0DEX_04_0011" fin="false">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0002" proc-id="RM21Q0EV__00000CL00000">
+<testtitle>INSPECT FUEL INJECTOR ASSEMBLY (RESISTANCE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Inspect the fuel injector assembly (see page <xref label="Seep01" href="RM000000YL9011X_01_0001"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZRM0DEX_04_0003" fin="false">OK</down>
+<right ref="RM000000ZRM0DEX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0003" proc-id="RM21Q0EV__00000CM00000">
+<testtitle>INSPECT FUSE (INJ)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034710E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Remove the INJ fuse from the instrument panel junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the fuse.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt> Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZRM0DEX_04_0004" fin="false">OK</down>
+<right ref="RM000000ZRM0DEX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0004" proc-id="RM21Q0EV__00000CN00000">
+<testtitle>CHECK WIRE HARNESS OF MISFIRING CYLINDER (INJECTOR - ECM, INJECTOR - INJ FUSE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034950E04" width="2.775699831in" height="5.787629434in"/>
+</figure>
+<test1>
+<ptxt>Check the wire harness between the injector and ECM.</ptxt>
+<test2>
+<ptxt>Disconnect the F4, F5, F6 and/or F7 injector connectors.</ptxt>
+</test2>
+<test2>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+</test2>
+<test2>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.53in"/>
+<colspec colnum="2" colname="c2" colwidth="1.60in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>F4-2 - E11-6 (#10)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F5-2 - E11-5 (#20)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F6-2 - E11-2 (#30)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F7-2 - E11-1 (#40)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F4-2 or E11-6 (#10) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F5-2 or E11-5 (#20) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F6-2 or E11-2 (#30) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F7-2 or E11-1 (#40) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test2>
+</test1>
+<test1>
+<ptxt>Check the wire harness between the injector and INJ fuse.</ptxt>
+<test2>
+<ptxt>Disconnect the F4, F5, F6 and F7 injector connectors.</ptxt>
+</test2>
+<test2>
+<ptxt>Remove the INJ fuse from the instrument panel junction block.</ptxt>
+</test2>
+<test2>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.50in"/>
+<colspec colnum="2" colname="c2" colwidth="1.63in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>F4-1 - J/B INJ fuse terminal 2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F5-1 - J/B INJ fuse terminal 2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F6-1 - J/B INJ fuse terminal 2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F7-1 - J/B INJ fuse terminal 2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F4-1 or J/B INJ fuse terminal 2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F5-1 or J/B INJ fuse terminal 2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F6-1 or J/B INJ fuse terminal 2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F7-1 or J/B INJ fuse terminal 2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test2>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZRM0DEX_04_0005" fin="false">OK</down>
+<right ref="RM000000ZRM0DEX_04_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0005" proc-id="RM21Q0EV__00000CO00000">
+<testtitle>CHECK WIRE HARNESS (IGNITION SWITCH - INJ FUSE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034709E04" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the I9 ignition switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Remove the INJ fuse from the instrument panel junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="3.0878866in"/>
+<colspec colnum="2" colname="c2" colwidth="1.097915in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>I9-6 (IG2) - J/B INJ fuse terminal 1</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>I9-6 (IG2) or J/B INJ fuse terminal 1 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZRM0DEX_04_0010" fin="true">OK</down>
+<right ref="RM000000ZRM0DEX_04_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0006">
+<testtitle>REPLACE FUEL INJECTOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0007">
+<testtitle>CHECK FOR SHORT IN ALL HARNESSES AND COMPONENTS CONNECTED TO FUSE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0008">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0009">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0010">
+<testtitle>CHECK FOR ECM POWER SOURCE CIRCUIT</testtitle>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0011" proc-id="RM21Q0EV__00000CP00000">
+<testtitle>CHECK WIRE HARNESS (ECM - BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A065159E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-7 (E01) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E12-6 (E02) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZRM0DEX_04_0012" fin="false">OK</down>
+<right ref="RM000000ZRM0DEX_04_0013" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0012" proc-id="RM21Q0EV__00000CQ00000">
+<testtitle>INSPECT FUEL INJECTOR ASSEMBLY (FUEL INJECTION VOLUME)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Inspect the fuel injector assembly (see page <xref label="Seep01" href="RM000000YL9011X_01_0001"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZRM0DEX_04_0015" fin="true">OK</down>
+<right ref="RM000000ZRM0DEX_04_0014" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0013">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0014">
+<testtitle>REPLACE FUEL INJECTOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZRM0DEX_04_0015">
+<testtitle>PROCEED TO NEXT CIRCUIT INSPECTION SHOWN IN PROBLEM SYMPTOMS TABLE</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

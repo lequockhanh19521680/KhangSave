@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7AVOM_T00A6" variety="T00A6">
+<name>REAR NO. 1 SEAT ASSEMBLY (for Captain Seat Type)</name>
+<para id="RM000002PBM00TX" category="A" type-id="8000E" name-id="SE7QG-06" from="201403">
+<name>REASSEMBLY</name>
+<subpara id="RM000002PBM00TX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004PD00001">
+<content3 releasenbr="1">
+<atten2>
+<ptxt>Wear protective gloves. Sharp areas on the parts may injure your hands.</ptxt>
+</atten2>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the RH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000002PBM00TX_01" type-id="01" category="01">
+<s-1 id="RM000002PBM00TX_01_0001" proc-id="RM21Q0EV__00004OU00001">
+<ptxt>INSTALL RECLINING ADJUSTER LOWER ARM SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the reclining adjuster lower arm sub-assembly LH to the rear seat inner track assembly RH with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>199</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0002" proc-id="RM21Q0EV__00004OV00001">
+<ptxt>INSTALL RECLINING ADJUSTER LOWER ARM SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0012" proc-id="RM21Q0EV__00004P200001">
+<ptxt>INSTALL SEAT TRACK ADJUSTING HANDLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to the locations of the seat track adjusting handle shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B278641" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100135" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>MP Grease</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Apply MP grease to the locations of the rear seat outer track assembly RH and rear seat inner track assembly RH shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B280051" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100135" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>MP Grease</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Attach the 2 springs to install the seat track adjusting handle to the rear seat outer track assembly RH and rear seat inner track assembly RH.</ptxt>
+<figure>
+<graphic graphicname="B278714" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<figure>
+<graphic graphicname="B278715" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>The seat track adjusting handle will get caught on the springs when installing it. Detach the springs to install the seat track adjusting handle.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0003" proc-id="RM21Q0EV__00004OW00001">
+<ptxt>INSTALL NO. 1 SEAT CUSHION FRAME SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 1 seat cushion frame sub-assembly RH with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>199</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0024" proc-id="RM21Q0EV__00004PA00001">
+<ptxt>INSTALL REAR SEAT CUSHION EDGE PROTECTOR RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B278712" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the rear seat cushion edge protector RH to the reclining adjuster lower arm sub-assembly RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0004" proc-id="RM21Q0EV__00004OX00001">
+<ptxt>INSTALL REAR NO. 1 SEAT CUSHION COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using hog ring pliers, install the rear No. 1 seat cushion cover to the rear No. 1 seat cushion pad with new hog rings.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hog Ring Pliers</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B207448E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0026" proc-id="RM21Q0EV__00004PC00001">
+<ptxt>INSTALL SEAT CUSHION COVER WITH PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Set the seat cushion cover with pad in place.</ptxt>
+</s2>
+<s2>
+<ptxt>Using hog ring pliers, install the seat cushion cover with pad to the rear No. 1 seat cushion frame with new hog rings.</ptxt>
+<figure>
+<graphic graphicname="B278710E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear No. 1 Seat Cushion Cover Lower Part</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hog Ring Pliers</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Return the lower part of the rear No. 1 seat cushion cover to its original position, and then, using hog ring pliers, install new hog rings.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the hook.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0011" proc-id="RM21Q0EV__00004P100001">
+<ptxt>INSTALL REAR SEAT CUSHION EDGE PROTECTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B278708E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Install the 2 cushion edge protectors to the 2 cushion edge tabs.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cushion Edge Tab</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Return the 2 cushion edge tabs to their original positions.</ptxt>
+<atten3>
+<ptxt>Be careful not to break the cushion edge tabs.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0022" proc-id="RM21Q0EV__00004P800001">
+<ptxt>INSTALL NO. 1 SEATBACK PAD RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 1 seatback pad RH to the rear No. 1 seatback frame.</ptxt>
+<figure>
+<graphic graphicname="B207459" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0005" proc-id="RM21Q0EV__00004OY00001">
+<ptxt>INSTALL REAR NO. 1 SEATBACK COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using hog ring pliers, attach the 2 straps of the rear No. 1 seatback cover to the No. 1 seatback pad RH with new hog rings.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hog Ring Pliers</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B207460E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Attach the 4 claws to install the 2 headrest supports.</ptxt>
+<figure>
+<graphic graphicname="B207457" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using hog ring pliers, install the upper part of the rear No. 1 seatback cover to the rear No. 1 seatback frame with new hog rings.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hog Ring Pliers</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B207582E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using hog ring pliers, install the center of the rear No. 1 seatback cover to the No. 1 seatback pad with new hog rings.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hog Ring Pliers</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B278844E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Attach the 2 hooks.</ptxt>
+<figure>
+<graphic graphicname="B278706" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pass the 2 straps of the rear No. 1 seatback cover through the 2 holes of the No. 1 seatback pad RH to the backside.</ptxt>
+<figure>
+<graphic graphicname="B276726" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using hog ring pliers, attach the 2 straps of the rear No. 1 seatback cover to the rear No. 1 seatback frame with new hog rings.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hog Ring Pliers</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B209095E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using hog ring pliers, attach the 2 wires at the bottom of the rear No. 1 seatback cover with new hog rings.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hog Ring Pliers</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="B207798E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Attach the 2 hooks.</ptxt>
+<figure>
+<graphic graphicname="B278716" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0006" proc-id="RM21Q0EV__00004OZ00001">
+<ptxt>INSTALL REAR NO. 1 SEATBACK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear No. 1 seatback assembly to the rear No. 1 seat cushion assembly with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>40</t-value1>
+<t-value2>408</t-value2>
+<t-value4>30</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0013" proc-id="RM21Q0EV__00004P300001">
+<ptxt>INSTALL SEATBACK SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using needle nose pliers, install the seatback spring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0025" proc-id="RM21Q0EV__00004PB00001">
+<ptxt>INSTALL CENTER SEAT HINGE SPACER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the center seat hinge spacer to the rear seat armrest assembly RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0007" proc-id="RM21Q0EV__00004P000001">
+<ptxt>INSTALL REAR SEAT ARMREST ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear seat armrest assembly, No. 1 armrest plate and armrest lock plate with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>200</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the fastener to close the rear seat armrest cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0014" proc-id="RM21Q0EV__00004P400001">
+<ptxt>INSTALL REAR SEAT CUSHION SHIELD RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B186792E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the claw, and then attach the rear part of the rear seat cushion shield RH in the order shown in the illustration to install the rear seat cushion shield RH.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0015" proc-id="RM21Q0EV__00004P500001">
+<ptxt>INSTALL RECLINING ADJUSTER RELEASE HANDLE RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the reclining adjuster release handle RH.</ptxt>
+<figure>
+<graphic graphicname="B277632" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0023" proc-id="RM21Q0EV__00003I200001">
+<ptxt>INSTALL REAR NO. 1 SEAT INNER BELT ASSEMBLY RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear seat belt anchor plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the rear No. 1 seat inner belt assembly RH with the nut.</ptxt>
+<figure>
+<graphic graphicname="B155353E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not allow the anchor part of the seat belt to overlap the protruding part of the seat.</ptxt>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Protruding Part</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM000002PBM00TX_01_0016" proc-id="RM21Q0EV__00004P600001">
+<ptxt>INSTALL REAR SEAT INNER CUSHION SHIELD RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B257934E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the claw, and then attach the rear part of the rear seat inner cushion shield RH in the order shown in the illustration to install the rear seat inner cushion shield RH.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002PBM00TX_01_0017" proc-id="RM21Q0EV__00004P700001">
+<ptxt>INSTALL REAR SEAT HEADREST ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear seat headrest assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

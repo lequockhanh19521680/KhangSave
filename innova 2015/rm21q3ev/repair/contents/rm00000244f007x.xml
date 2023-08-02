@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7W4_T000I" variety="T000I">
+<name>BRAKE</name>
+<para id="RM00000244F007X" category="B" type-id="80003" name-id="PPKB7-01" from="201202">
+<name>SST</name>
+<subpara id="RM00000244F007X_z1" proc-id="RM21Q0EV__000001C00000">
+<content4 releasenbr="1">
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.85in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.12in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.93in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="2.18in" colsep="0"/>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I037879" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09703-30011</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Brake Shoe Return Spring</ptxt>
+<ptxt>Tool Set</ptxt>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="2">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002886" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09709-29018</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>LSPV Gauge Set</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="3">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000345" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09718-00010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Shoe Hold Down Spring Driver</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="4">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I032827" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09737-00013</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Brake Booster Push Rod Gauge</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="5">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I010016" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09737-00020</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Brake Booster Push Rod Wrench</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

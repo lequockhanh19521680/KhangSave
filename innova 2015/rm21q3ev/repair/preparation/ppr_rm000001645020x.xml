@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7AGEX_T008L" variety="T008L">
+<name>POWER STEERING LINK</name>
+<para id="RM000001645020X" category="A" type-id="8000E" name-id="PS2CC-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000001645020X_z2">
+<content4>
+<table frame="all" colsep="1" rowsep="1">
+<title>SST</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.96in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.18in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.04in" colsep="0"/>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000009" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09240-00020</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Wire Gauge Set</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="2">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I001826" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09521-24010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Drive Shaft Boot Clamping Tool</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="3">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000078" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09616-00011</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Steering Worm Bearing Adjusting</ptxt>
+<ptxt>Socket</ptxt>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="4">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I032943" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09631-00200</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Rack Seal Guide No.2</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="5">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="J002390" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09631-00350</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Steering Rack Cover 35</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="6">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000343" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09631-12071</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Steering Rack Oil Seal Test Tool</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="7">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000987" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09633-00010)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Packing</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="8">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000095" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09631-20120</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Cylinder End Stopper Nut Wrench</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="9">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I001825" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09922-10010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Variable Open Wrench</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="10">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002307" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09950-70010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Handle Set</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="11">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002368" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09951-07360)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Handle 360</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

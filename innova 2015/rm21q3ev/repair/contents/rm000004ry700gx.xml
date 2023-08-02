@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A812_T005G" variety="T005G">
+<name>BLOWER UNIT</name>
+<para id="RM000004RY700GX" category="A" type-id="8000E" name-id="ACFTS-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000004RY700GX_01" type-id="01" category="01">
+<s-1 id="RM000004RY700GX_01_0001" proc-id="RM21Q0EV__000046Q00000">
+<ptxt>INSTALL BLOWER MOTOR WITH FAN SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the blower motor with fan sub-assembly with the 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the clip and connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RY700GX_01_0002" proc-id="RM21Q0EV__000047000000">
+<ptxt>INSTALL BLOWER RESISTOR (for Manual Air Conditioning System)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the blower resistor with the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RY700GX_01_0006" proc-id="RM21Q0EV__000046V00000">
+<ptxt>INSTALL BLOWER MOTOR CONTROL (for Automatic Air Conditioning System)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the blower motor control with the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RY700GX_01_0005" proc-id="RM21Q0EV__00004I000000">
+<ptxt>INSTALL CLEAN AIR FILTER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the clean air filter.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the claw to install the air filter case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RY700GX_01_0003" proc-id="RM21Q0EV__00004HY00000">
+<ptxt>INSTALL AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY (for Manual Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws to install the air inlet damper control cable sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RY700GX_01_0004" proc-id="RM21Q0EV__00004HZ00000">
+<ptxt>INSTALL RECIRCULATION DAMPER SERVO SUB-ASSEMBLY (for Automatic Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the recirculation damper servo sub-assembly with 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the claw to install the lever.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

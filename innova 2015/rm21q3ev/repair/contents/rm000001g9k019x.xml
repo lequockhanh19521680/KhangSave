@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROU_T009W" variety="T009W">
+<name>SOLAR SENSOR (for Automatic Air Conditioning System)</name>
+<para id="RM000001G9K019X" category="A" type-id="30014" name-id="ACFU6-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001G9K019X_01" type-id="01" category="01">
+<s-1 id="RM000001G9K019X_01_0001" proc-id="RM21Q0EV__000048T00000">
+<ptxt>INSTALL COOLER (SOLAR SENSOR) THERMISTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to install the cooler (solar sensor) thermistor.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

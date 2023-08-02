@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80D_T004R" variety="T004R">
+<name>BRAKE ACTUATOR</name>
+<para id="RM000001L5B00GX" category="A" type-id="8000E" name-id="BC0UL-02" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000001L5B00GX_01" type-id="01" category="01">
+<s-1 id="RM000001L5B00GX_01_0001" proc-id="RM21Q0EV__00001L800000">
+<ptxt>INSTALL BRAKE ACTUATOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C121397" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the actuator to the bracket with the 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

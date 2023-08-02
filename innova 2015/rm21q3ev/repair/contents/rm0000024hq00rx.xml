@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7ARDK_T008P" variety="T008P">
+<name>LIGHT CONTROL RHEOSTAT</name>
+<para id="RM0000024HQ00RX" category="A" type-id="30014" name-id="ME4JV-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000024HQ00RX_01" type-id="01" category="01">
+<s-1 id="RM0000024HQ00RX_01_0001" proc-id="RM21Q0EV__000039400000">
+<ptxt>INSTALL LIGHT CONTROL RHEOSTAT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the light control rheostat with the nut.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024HQ00RX_01_0002" proc-id="RM21Q0EV__000039500000">
+<ptxt>INSTALL LIGHT CONTROL RHEOSTAT KNOB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the light control rheostat knob.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024HQ00RX_01_0017" proc-id="RM21Q0EV__00003AP00000">
+<ptxt>INSTALL NO. 1 INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Light Control Rheostat:</ptxt>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 9 claws to install the No. 1 instrument cluster finish panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip &lt;B&gt;.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024HQ00RX_01_0018" proc-id="RM21Q0EV__000039700000">
+<ptxt>INSTALL HEADLIGHT DIMMER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000024EH003X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

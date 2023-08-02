@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM0000011CD013X" category="C" type-id="3007J" name-id="BC1GZ-01" from="201202">
+<dtccode>C0278/11</dtccode>
+<dtcname>Open in ABS Solenoid Relay Circuit</dtcname>
+<dtccode>C0279/12</dtccode>
+<dtcname>Short to B+ in ABS Solenoid Relay Circuit</dtcname>
+<subpara id="RM0000011CD013X_01" type-id="60" category="03" proc-id="RM21Q0EV__00001M700000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>This relay supplies power to each ABS solenoid. After the ignition switch is turned ON, if the ABS initial check completes, the skid control ECU turns the ABS solenoid relay on.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry>
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C0278/11</ptxt>
+</entry>
+<entry>
+<ptxt>When either of following is detected:</ptxt>
+<ptxt>1. Both conditions continue for at least 0.2 seconds</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>IG voltage is between 10 and 16 V</ptxt>
+</item>
+<item>
+<ptxt>Relay contact is open when relay is ON</ptxt>
+</item>
+</list1>
+<ptxt>2. Both conditions continue for at least 0.2 seconds</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>IG voltage is less than 10 V </ptxt>
+</item>
+<item>
+<ptxt>Relay contact remains open when relay is ON</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Brake actuator assembly (ABS solenoid relay)</ptxt>
+</item>
+<item>
+<ptxt>ABS solenoid relay circuit</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C0279/12</ptxt>
+</entry>
+<entry>
+<ptxt>When relay is OFF, turning ignition switch ON closes relay contact immediately and continues for at least 0.2 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Brake actuator assembly (ABS solenoid relay)</ptxt>
+</item>
+<item>
+<ptxt>ABS solenoid relay circuit</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM0000011CD013X_02" type-id="32" category="03" proc-id="RM21Q0EV__00001M800000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C108862E20" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000011CD013X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000011CD013X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000011CD013X_04_0001" proc-id="RM21Q0EV__00001M900000">
+<testtitle>INSPECT FUSE (ALT, ABS NO. 2)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ALT and ABS NO. 2 H-fuses from the engine room junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the H-fuses.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011CD013X_04_0002" fin="false">OK</down>
+<right ref="RM0000011CD013X_04_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011CD013X_04_0002" proc-id="RM21Q0EV__00001MA00000">
+<testtitle>CHECK WIRE HARNESS (SKID CONTROL ECU - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="C108884E26" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the S2 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>S2-1 (+BS) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>S2-2 (GND1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>S2-24 (GND2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011CD013X_04_0003" fin="false">OK</down>
+<right ref="RM0000011CD013X_04_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011CD013X_04_0003" proc-id="RM21Q0EV__00001MB00000">
+<testtitle>RECONFIRM DTC</testtitle>
+<content6 releasenbr="1">
+<ptxt>These codes are output when a problem is detected in the brake actuator assembly.</ptxt>
+<ptxt>As the ABS motor relay is built into the brake actuator assembly, ABS motor relay and solenoid unit inspection cannot be performed.</ptxt>
+<ptxt>Be sure to check if the DTC is output before replacing the brake actuator assembly.</ptxt>
+<test1>
+<ptxt>Clear the DTCs.</ptxt>
+</test1>
+<test1>
+<ptxt>Drive the vehicle at 6 km/h (4 mph) or more.</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>DTC is output</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>DTC is not output</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011CD013X_04_0007" fin="true">A</down>
+<right ref="RM0000011CD013X_04_0006" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011CD013X_04_0004">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM0000011CD013X_04_0005">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000011CD013X_04_0006">
+<testtitle>END</testtitle>
+</testgrp>
+<testgrp id="RM0000011CD013X_04_0007">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

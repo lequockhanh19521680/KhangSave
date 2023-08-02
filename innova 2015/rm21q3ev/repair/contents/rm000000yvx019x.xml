@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YVX019X" category="D" type-id="303F3" name-id="RS0GA-23" from="201303">
+<name>DIAGNOSIS SYSTEM</name>
+<subpara id="RM000000YVX019X_z0" proc-id="RM21Q0EV__000021400001">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DESCRIPTION</ptxt>
+<step2>
+<ptxt>The center airbag sensor controls the functions of the Supplemental Restraint System (SRS) on the vehicle. Data of the SRS can be read through the Data Link Connector 3 (DLC3) of the vehicle. When the system seems to be malfunctioning, use the intelligent tester to check for a malfunction and perform repairs.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK DLC3</ptxt>
+<step2>
+<figure>
+<graphic graphicname="H100769E75" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>The vehicle's ECM uses ISO 14230 (M-OBD) communication protocol. The terminal arrangement of the DLC3 complies with ISO 15031-03 and matches the ISO 14230 format.</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry>
+<ptxt>Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>SIL (7) - SG (5)</ptxt>
+</entry>
+<entry>
+<ptxt>Bus "+" line</ptxt>
+</entry>
+<entry>
+<ptxt>During transmission</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>CG (4) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Chassis ground</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SG (5) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Signal ground</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>BAT (16) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Battery positive</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, the DLC3 may have a malfunction. Repair or replace the harness and connector.</ptxt>
+</item>
+</list1>
+<figure>
+<graphic graphicname="A099015E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Connect the cable of the intelligent tester to the DLC3, turn the ignition switch ON and attempt to use the tester. If the display indicates that a communication error has occurred, there is a problem either with the vehicle or with the tester.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>If communication is normal when the tester is connected to another vehicle, inspect the DLC3 on the original vehicle.</ptxt>
+</item>
+<item>
+<ptxt>If communication is still not possible when the tester is connected to another vehicle, the problem is probably in the tester itself. Consult the Service Department listed in the tester's instruction manual.</ptxt>
+</item>
+</list1>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>SYMPTOM SIMULATION</ptxt>
+<atten4>
+<ptxt>The most difficult case in troubleshooting is when no symptoms occur. In such cases, a thorough customer problem analysis must be carried out. Then the same or similar conditions and environment in which the problem occurred should be simulated. No matter how much skill or experience a technician has, troubleshooting without confirming the problem symptoms will lead to important repairs being overlooked, mistakes and delays.</ptxt>
+</atten4>
+<step2>
+<ptxt>Vibration method: When vibration seems to be the major cause.</ptxt>
+<step3>
+<ptxt>Apply slight vibration with a finger to the part of the sensor considered to be the cause of the problem and check whether or not the malfunction occurs.</ptxt>
+<figure>
+<graphic graphicname="H100350E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<atten3>
+<ptxt>Applying strong vibration to relays may open relays.</ptxt>
+</atten3>
+</step3>
+<step3>
+<ptxt>Slightly shake the connector vertically and horizontally.</ptxt>
+</step3>
+<step3>
+<ptxt>Slightly shake the wire harness vertically and horizontally.</ptxt>
+<atten4>
+<ptxt>The connector joint and fulcrum of the vibration are the major areas that should be checked thoroughly.</ptxt>
+</atten4>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>FUNCTION OF SRS WARNING LIGHT</ptxt>
+<step2>
+<ptxt>Primary check</ptxt>
+<step3>
+<ptxt>Turn the ignition switch off. Wait at least 2 seconds and then turn the ignition switch ON. The SRS warning light illuminates for approximately 6 seconds and the SRS diagnosis is performed.</ptxt>
+<atten4>
+<ptxt>If trouble is detected during the primary check, the SRS warning light remains on even after the primary check period (approximately 6 seconds) has elapsed.</ptxt>
+</atten4>
+</step3>
+</step2>
+<step2>
+<ptxt>Constant check</ptxt>
+<step3>
+<ptxt>After the primary check, the center airbag sensor constantly monitors the SRS for malfunctions.</ptxt>
+<atten4>
+<ptxt>If malfunctions are detected during the constant check, the center airbag sensor functions as follows:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The SRS warning light illuminates.</ptxt>
+</item>
+<item>
+<ptxt>The SRS warning light turns off, and then illuminates. This blinking pattern indicates the source voltage drop. After the source voltage returns to normal for 10 seconds, the SRS warning light turns off.</ptxt>
+</item>
+</list1>
+</atten4>
+</step3>
+</step2>
+<step2>
+<ptxt>Review</ptxt>
+<step3>
+<ptxt>When the SRS is normal:</ptxt>
+<ptxt>The SRS warning light illuminates only during the primary check period (approximately 6 seconds after the ignition switch is turned ON).</ptxt>
+</step3>
+<step3>
+<ptxt>When the SRS is malfunctioning, one of the following may occur:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The SRS warning light remains on even after the primary check period has elapsed.</ptxt>
+</item>
+<item>
+<ptxt>The SRS warning light turns off after the primary check, but illuminates again during the constant check.</ptxt>
+</item>
+<item>
+<ptxt>The SRS warning light does not illuminate when turning the ignition switch from OFF to ON.</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>The center airbag sensor keeps the SRS warning light illuminated after an airbag has been deployed.</ptxt>
+</atten4>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt> SRS WARNING LIGHT CHECK</ptxt>
+<figure>
+<graphic graphicname="H100351" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Turn the ignition switch ON, and check that the SRS warning light illuminates for approximately 6 seconds (primary check).</ptxt>
+</step2>
+<step2>
+<ptxt>Check that the SRS warning light turns off approximately 6 seconds after the ignition switch is turned ON (constant check).</ptxt>
+<atten4>
+<ptxt>When any of the following symptoms occur, refer to the Problem Symptoms Table (See page <xref label="Seep01" href="RM000000YVV019X"/>).</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The SRS warning light illuminates occasionally after the primary check period has elapsed.</ptxt>
+</item>
+<item>
+<ptxt>The SRS warning light illuminates but a DTC is not output.</ptxt>
+</item>
+<item>
+<ptxt>The ignition switch is turned from OFF to ON but the SRS warning light does not illuminate.</ptxt>
+</item>
+</list1>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>RELEASE METHOD OF ACTIVATION PREVENTION MECHANISM</ptxt>
+<step2>
+<ptxt>The activation prevention mechanism is built into the connector for the squib circuit of the SRS. As explained in the troubleshooting section, insert a piece of paper that is the same thickness as the male terminal between the terminal and short spring to release the mechanism (refer to the illustrations below).</ptxt>
+<atten2>
+<ptxt>Never release the mechanism on the squib side connector.</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not release the mechanism unless instructed to do so in the troubleshooting procedure.</ptxt>
+</item>
+<item>
+<ptxt>To prevent the terminal and short spring from being damaged, always use a piece of paper that is the same thickness as the male terminal.</ptxt>
+</item>
+</list1>
+</atten3>
+<figure>
+<graphic graphicname="C247556E06" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<figure>
+<graphic graphicname="C274727E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="9">
+			<line id="1" color="R" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J26" subcode="B">
+		<pin no="6">
+			<line id="2" color="W-B" spec="w/ Air Conditioner Unit">
+				<connector type="gp" code="IG">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="6">
+			<line id="3" color="L" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A36" subcode="B">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="16">
+			<line id="4" color="G-O" spec="w/ Air Conditioner Unit">
+				<connector type="jbc" code="2N">
+					<pin no="25"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IH">
+		<pin>
+			<line id="5" color="W-B">
+				<connector type="conn" code="J28" subcode="B">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="4">
+			<line id="6" color="R" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="H5">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="H5">
+		<pin no="4">
+			<line id="7" color="G-O" spec="w/o Air Conditioner Unit">
+				<connector type="jbc" code="2N">
+					<pin no="25"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2O">
+		<pin no="25">
+			<line id="8" color="G-O">
+				<connector type="conn" code="T13">
+					<pin no="8"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T13">
+		<pin no="1">
+			<line id="9" color="R-L">
+				<connector type="jbc" code="2S">
+					<pin no="20"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J28" subcode="B">
+		<pin no="6">
+			<line id="10" color="LG">
+				<connector type="conn" code="T13">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T13">
+		<pin no="4">
+			<line id="11" color="B-Y">
+				<connector type="w2w" code="II4" sex="male">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="female">
+		<pin no="2">
+			<line id="12" color="B-Y">
+				<connector type="rb" code="1">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C12">
+		<pin no="5">
+			<line id="13" color="G-B">
+				<connector type="conn" code="T13">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="14" color="W-B">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="15" color="W-B">
+				<connector type="conn" code="J28" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="2">
+			<line id="16" color="W">
+				<connector type="conn" code="C12">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C12">
+		<pin no="6">
+			<line id="17" color="G-Y">
+				<connector type="conn" code="T13">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T13">
+		<pin no="3">
+			<line id="18" color="G-B">
+				<connector type="jbc" code="2S">
+					<pin no="19"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="10">
+			<line id="19" color="Y">
+				<connector type="conn" code="C10" subcode="A">
+					<pin no="22" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="10">
+			<line id="19" color="Y">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="22" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T13">
+		<pin no="2">
+			<line id="20" color="G-Y">
+				<connector type="jbc" code="2S">
+					<pin no="18"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C10" subcode="A">
+		<pin no="24" spec="Before Feb. 2012 Production">
+			<line id="21" color="G-B">
+				<connector type="jbc" code="2S">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C20" subcode="C">
+		<pin no="24" spec="From Feb. 2012 Production">
+			<line id="21" color="G-B">
+				<connector type="jbc" code="2S">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C10" subcode="A">
+		<pin no="25" spec="Before Feb. 2012 Production">
+			<line id="22" color="G-Y">
+				<connector type="jbc" code="2S">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C20" subcode="C">
+		<pin no="25" spec="From Feb. 2012 Production">
+			<line id="22" color="G-Y">
+				<connector type="jbc" code="2S">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T7" subcode="A">
+		<pin no="1" spec="Before Feb. 2012 Production">
+			<line id="23" color="W-B">
+				<connector type="conn" code="J1">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T19" subcode="B">
+		<pin no="1" spec="From Feb. 2012 Production">
+			<line id="23" color="W-B">
+				<connector type="conn" code="J1">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T7" subcode="A">
+		<pin no="2" spec="Before Feb. 2012 Production">
+			<line id="24" color="G-B">
+				<connector type="jbc" code="2L">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T19" subcode="B">
+		<pin no="2" spec="From Feb. 2012 Production">
+			<line id="24" color="G-B">
+				<connector type="jbc" code="2L">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J1">
+		<pin no="10">
+			<line id="25" color="W-B" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="conn" code="T16" subcode="A">
+					<pin no="1" spec="Before Jun. 2005 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J1">
+		<pin no="10">
+			<line id="25" color="W-B" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="conn" code="T22" subcode="B">
+					<pin no="1" spec="From Feb. 2012 Production w/ ABS"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T16" subcode="A">
+		<pin no="2" spec="Before Jun. 2005 Production">
+			<line id="26" color="G-B" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="jbc" code="2M">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T22" subcode="B">
+		<pin no="2" spec="From Feb. 2012 Production w/ ABS">
+			<line id="26" color="G-B" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="jbc" code="2M">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="EB">
+		<pin>
+			<line id="27" color="W-B">
+				<connector type="conn" code="J1">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J1">
+		<pin no="12">
+			<line id="28" color="W-B">
+				<connector type="sp" code="1909">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1909">
+		<pin>
+			<line id="29" color="W-B" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="conn" code="T17" subcode="A">
+					<pin no="1" spec="Before Jun. 2005 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1909">
+		<pin>
+			<line id="29" color="W-B" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="conn" code="T21" subcode="B">
+					<pin no="1" spec="From Feb. 2012 Production w/ ABS"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T17" subcode="A">
+		<pin no="2" spec="Before Jun. 2005 Production">
+			<line id="30" color="G-Y" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="jbc" code="2M">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T21" subcode="B">
+		<pin no="2" spec="From Feb. 2012 Production w/ ABS">
+			<line id="30" color="G-Y" spec="w/ Front Fender Side Turn Signal Lamp">
+				<connector type="jbc" code="2M">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1909">
+		<pin>
+			<line id="31" color="W-B">
+				<connector type="sp" code="1369">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="EA">
+		<pin>
+			<line id="32" color="W-B">
+				<connector type="sp" code="1369">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1369">
+		<pin>
+			<line id="33" color="W-B">
+				<connector type="conn" code="T8" subcode="A">
+					<pin no="1" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1369">
+		<pin>
+			<line id="33" color="W-B">
+				<connector type="conn" code="T18" subcode="B">
+					<pin no="1" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T8" subcode="A">
+		<pin no="2" spec="Before Feb. 2012 Production">
+			<line id="34" color="G-Y">
+				<connector type="jbc" code="2L">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="T18" subcode="B">
+		<pin no="2" spec="From Feb. 2012 Production">
+			<line id="34" color="G-Y">
+				<connector type="jbc" code="2L">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R6">
+		<pin no="6">
+			<line id="35" color="W-B">
+				<connector type="gp" code="BJ">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R6">
+		<pin no="4">
+			<line id="36" color="G-B">
+				<connector type="jbc" code="2K">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2R">
+		<pin no="3">
+			<line id="37" color="G-B" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="conn" code="J29" subcode="A">
+					<pin no="11"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="BJ">
+		<pin>
+			<line id="38" color="W-B">
+				<connector type="conn" code="R7">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R7">
+		<pin no="4">
+			<line id="39" color="G-Y">
+				<connector type="jbc" code="2K">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2R">
+		<pin no="2">
+			<line id="40" color="G-Y" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="w2w" code="IM1" sex="male">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="41" color="W-B" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="7">
+			<line id="42" color="W-B" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="w2w" code="IM1" sex="male">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="IM1" sex="female">
+		<pin no="7">
+			<line id="43" color="W-B" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="conn" code="O3">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="O3">
+		<pin no="4">
+			<line id="44" color="G-Y" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="w2w" code="IM1" sex="female">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="8">
+			<line id="45" color="W-B" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="conn" code="J29" subcode="A">
+					<pin no="9"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J30" subcode="B">
+		<pin no="3">
+			<line id="46" color="W-B" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="conn" code="O2">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="O2">
+		<pin no="4">
+			<line id="47" color="G-B" spec="w/ Outer Rear View Mirror Side Turn Signal Lamp">
+				<connector type="conn" code="J30" subcode="B">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

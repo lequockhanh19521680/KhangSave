@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name>
+<ttl id="1000C_S0009_7A7YS_T0036" variety="T0036">
+<name>COOLING SYSTEM</name>
+<para id="RM000001454018X" category="G" type-id="8000T" name-id="CO0GB-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000001454018X_01" type-id="01" category="01">
+<s-1 id="RM000001454018X_01_0001" proc-id="RM21Q0EV__00000SC00000">
+<ptxt>CHECK COOLING SYSTEM FOR LEAKS</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Do not remove the radiator cap while the engine and radiator are still hot. Pressurized, hot engine coolant and steam may be released and cause serious burns.</ptxt>
+</atten2>
+<s2>
+<figure>
+<graphic graphicname="A099675E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Fill the radiator with coolant and attach a radiator cap tester.</ptxt>
+</s2>
+<s2>
+<ptxt>Warm up the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Using the radiator cap tester, increase the pressure inside the radiator to 118 kPa (1.2 kgf/cm<sup>2</sup>, 17.1 psi), and check that the pressure does not drop.</ptxt>
+<ptxt>If the pressure drops, check the hoses, radiator and water pump for leaks. If no external leaks are found, check the cylinder block and head.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001454018X_01_0002" proc-id="RM21Q0EV__00000SD00000">
+<ptxt>CHECK ENGINE COOLANT LEVEL IN RESERVOIR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>The engine coolant should be between the L and F lines when the engine is cold.</ptxt>
+<ptxt>If the coolant is below the L line, check for leaks and add TOYOTA Super Long Life Coolant (SLLC) or similar high quality ethylene glycol based non-silicate, non-amine, non-nitrite, non-borate coolant with long-life hybrid organic acid technology up to the F line.</ptxt>
+<atten3>
+<ptxt>Never use water as a substitute for engine coolant.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001454018X_01_0003" proc-id="RM21Q0EV__00000SE00000">
+<ptxt>CHECK ENGINE COOLANT QUALITY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the radiator cap.</ptxt>
+<atten2>
+<ptxt>Do not remove the radiator cap while the engine and radiator are still hot. Pressurized, hot engine coolant and steam may be released and cause serious burns.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Check if there are excessive deposits of rust or scale around the radiator cap and radiator filler hole. Also, the coolant should be free of oil.</ptxt>
+<ptxt>If excessively dirty, replace the coolant.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the radiator cap.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

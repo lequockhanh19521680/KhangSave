@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A815_T005J" variety="T005J">
+<name>PRESSURE SWITCH</name>
+<para id="RM00000202W04SX" category="G" type-id="3001K" name-id="ACFU7-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM00000202W04SX_01" type-id="01" category="01">
+<s-1 id="RM00000202W04SX_01_0003" proc-id="RM21Q0EV__00004DK00000">
+<ptxt>INSPECT NO. 1 PRESSURE SWITCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225692E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Install a manifold gauge set.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the positive (+) lead from an ohmmeter to terminal 1 and the negative (-) lead to terminal 2.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the resistance between terminals when refrigerant pressure is charged as shown in the illustration.</ptxt>
+<ptxt>If the operation is not as specified, replace the No. 1 pressure switch.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(No. 1 Pressure Switch)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Low Pressure</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On (Below 1.0 Ω)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>High Pressure</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Off (10 kΩ or higher)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

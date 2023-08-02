@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X0_T001E" variety="T001E">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<para id="RM0000024RQ006X" category="F" type-id="30028" name-id="SS1ZU-06" from="201303" to="201503">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000024RQ006X_z0" proc-id="RM21Q0EV__000003K00001">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="4.07in"/>
+<colspec colname="COL2" colwidth="0.90in"/>
+<colspec colname="COL3" colwidth="0.90in"/>
+<colspec colname="COL4" colwidth="1.21in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry align="center">
+<ptxt>N*m</ptxt>
+</entry>
+<entry align="center">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry align="center">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>No. 1 camshaft bearing cap x Cylinder head</ptxt>
+<ptxt>: for bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>122</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 camshaft bearing cap x Cylinder head</ptxt>
+<ptxt>: for except bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>15.5</ptxt>
+</entry>
+<entry>
+<ptxt>158</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Timing gear case plug x Timing chain cover</ptxt>
+</entry>
+<entry>
+<ptxt>16.6</ptxt>
+</entry>
+<entry>
+<ptxt>169</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Timing chain guide x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+<entry>
+<ptxt>102</ptxt>
+</entry>
+<entry>
+<ptxt>7</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Cylinder head cover x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>9.0</ptxt>
+</entry>
+<entry>
+<ptxt>92</ptxt>
+</entry>
+<entry>
+<ptxt>80 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Engine mounting bracket front LH x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+<entry>
+<ptxt>520</ptxt>
+</entry>
+<entry>
+<ptxt>38</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Engine mounting bracket front RH x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+<entry>
+<ptxt>520</ptxt>
+</entry>
+<entry>
+<ptxt>38</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Camshaft position sensor x Timing chain cover</ptxt>
+</entry>
+<entry>
+<ptxt>8.5</ptxt>
+</entry>
+<entry>
+<ptxt>87</ptxt>
+</entry>
+<entry>
+<ptxt>75 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 water by-pass pipe x Timing chain cover</ptxt>
+</entry>
+<entry>
+<ptxt>17.5</ptxt>
+</entry>
+<entry>
+<ptxt>178</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 water by-pass pipe x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>17.5</ptxt>
+</entry>
+<entry>
+<ptxt>178</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>V-ribbed belt tensioner x Timing chain cover</ptxt>
+<ptxt>: for bolt 1</ptxt>
+</entry>
+<entry>
+<ptxt>40</ptxt>
+</entry>
+<entry>
+<ptxt>408</ptxt>
+</entry>
+<entry>
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>V-ribbed belt tensioner x Timing chain cover</ptxt>
+<ptxt>: for bolt 2</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+<entry>
+<ptxt>214</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>V-ribbed belt tensioner x Timing chain cover</ptxt>
+<ptxt>: for bolt 3</ptxt>
+</entry>
+<entry>
+<ptxt>43</ptxt>
+</entry>
+<entry>
+<ptxt>438</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Compressor mounting bracket x Cylinder block</ptxt>
+<ptxt>: for bolt A and B</ptxt>
+</entry>
+<entry>
+<ptxt>45</ptxt>
+</entry>
+<entry>
+<ptxt>459</ptxt>
+</entry>
+<entry>
+<ptxt>33</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Compressor mounting bracket x Cylinder block</ptxt>
+<ptxt>: for bolt C</ptxt>
+</entry>
+<entry>
+<ptxt>24.5</ptxt>
+</entry>
+<entry>
+<ptxt>250</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Idle pulley assembly x Compressor mounting bracket</ptxt>
+</entry>
+<entry>
+<ptxt>44</ptxt>
+</entry>
+<entry>
+<ptxt>449</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Exhaust manifold x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>36</ptxt>
+</entry>
+<entry>
+<ptxt>367</ptxt>
+</entry>
+<entry>
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Exhaust manifold heat insulator x Exhaust manifold</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>122</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Intake manifold x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>255</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ground wire x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+<entry>
+<ptxt>316</ptxt>
+</entry>
+<entry>
+<ptxt>23</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ventilation pipe x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>184</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ignition coil x Cylinder head cover </ptxt>
+</entry>
+<entry>
+<ptxt>9.0</ptxt>
+</entry>
+<entry>
+<ptxt>92</ptxt>
+</entry>
+<entry>
+<ptxt>80 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Engine mounting bracket x Body</ptxt>
+</entry>
+<entry>
+<ptxt>38</ptxt>
+</entry>
+<entry>
+<ptxt>388</ptxt>
+</entry>
+<entry>
+<ptxt>28</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear end plate x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>184</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Flywheel x Crankshaft</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>26.5</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>270</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>20</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Drive plate and ring gear x Crankshaft</ptxt>
+</entry>
+<entry>
+<ptxt>74</ptxt>
+</entry>
+<entry>
+<ptxt>755</ptxt>
+</entry>
+<entry>
+<ptxt>55</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Cooler compressor x Compressor bracket</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>250</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Suction hose x Timing chain cover</ptxt>
+</entry>
+<entry>
+<ptxt>5.4</ptxt>
+</entry>
+<entry>
+<ptxt>55</ptxt>
+</entry>
+<entry>
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil dipstick gauge x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>8.0</ptxt>
+</entry>
+<entry>
+<ptxt>82</ptxt>
+</entry>
+<entry>
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Vane pump x Timing chain cover</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+<entry>
+<ptxt>214</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Engine wire x Engine relay block</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>133</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ground wire x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+<entry>
+<ptxt>316</ptxt>
+</entry>
+<entry>
+<ptxt>23</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ground wire x Body</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>133</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Engine wire x Body</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>133</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Air cleaner x Body</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+<entry>
+<ptxt>143</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Intake air connector x Cylinder head cover</ptxt>
+</entry>
+<entry>
+<ptxt>8.0</ptxt>
+</entry>
+<entry>
+<ptxt>82</ptxt>
+</entry>
+<entry>
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Intake air connector x Hose clamp</ptxt>
+</entry>
+<entry>
+<ptxt>5.0</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+<entry>
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 engine under cover x Body</ptxt>
+</entry>
+<entry>
+<ptxt>28</ptxt>
+</entry>
+<entry>
+<ptxt>286</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil delivery pipe x No. 1 camshaft bearing cap</ptxt>
+<ptxt>: for bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>122</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil delivery pipe x No. 1 camshaft bearing cap</ptxt>
+<ptxt>: for except bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>15.5</ptxt>
+</entry>
+<entry>
+<ptxt>158</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stud bolt x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>7.5</ptxt>
+</entry>
+<entry>
+<ptxt>76</ptxt>
+</entry>
+<entry>
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil nozzle x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>7.0</ptxt>
+</entry>
+<entry>
+<ptxt>71</ptxt>
+</entry>
+<entry>
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Cylinder block water drain cock x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>24.5</ptxt>
+</entry>
+<entry>
+<ptxt>250</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Crankshaft bearing cap x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>39</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>398</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>29</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Connecting rod cap x Connecting rod</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>24.5</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>250</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>18</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 head straight screw plug x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>44</ptxt>
+</entry>
+<entry>
+<ptxt>449</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 2 head straight screw plug x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>140</ptxt>
+</entry>
+<entry>
+<ptxt>1428</ptxt>
+</entry>
+<entry>
+<ptxt>103</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stud bolt x Cylinder head</ptxt>
+<ptxt>: for stud bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>3.0</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+<entry>
+<ptxt>27 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stud bolt x Cylinder head</ptxt>
+<ptxt>: for stud bolt B and C</ptxt>
+</entry>
+<entry>
+<ptxt>7.5</ptxt>
+</entry>
+<entry>
+<ptxt>76</ptxt>
+</entry>
+<entry>
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil control valve filter x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>30</ptxt>
+</entry>
+<entry>
+<ptxt>306</ptxt>
+</entry>
+<entry>
+<ptxt>22</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Engine rear oil seal retainer x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>133</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil filter bracket x Cylinder block</ptxt>
+<ptxt>: for union bolt</ptxt>
+</entry>
+<entry>
+<ptxt>68.5</ptxt>
+</entry>
+<entry>
+<ptxt>699</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil filter bracket x Cylinder block</ptxt>
+<ptxt>: for nut</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>255</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil filter union x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>43</ptxt>
+</entry>
+<entry>
+<ptxt>438</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil filter bracket x Oil filter</ptxt>
+</entry>
+<entry>
+<ptxt>17.2</ptxt>
+</entry>
+<entry>
+<ptxt>175</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Cylinder head x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>39</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+<ptxt>3rd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>398</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+<ptxt>3rd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+<entry>
+<ptxt>1st:</ptxt>
+<ptxt>29</ptxt>
+<ptxt>2nd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+<ptxt>3rd:</ptxt>
+<ptxt>Turn 90°</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Camshaft timing gear x Camshaft</ptxt>
+</entry>
+<entry>
+<ptxt>78</ptxt>
+</entry>
+<entry>
+<ptxt>795</ptxt>
+</entry>
+<entry>
+<ptxt>58</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Camshaft timing sprocket x Camshaft</ptxt>
+</entry>
+<entry>
+<ptxt>78</ptxt>
+</entry>
+<entry>
+<ptxt>795</ptxt>
+</entry>
+<entry>
+<ptxt>58</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil jet x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+<entry>
+<ptxt>214</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Chain vibration damper x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+<entry>
+<ptxt>214</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Chain tensioner slipper x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+<entry>
+<ptxt>214</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Chain tensioner x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+<entry>
+<ptxt>102</ptxt>
+</entry>
+<entry>
+<ptxt>7</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Timing chain guide x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+<entry>
+<ptxt>102</ptxt>
+</entry>
+<entry>
+<ptxt>7</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stud bolt x No. 1 oil pan</ptxt>
+<ptxt>: for stud bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>7.5</ptxt>
+</entry>
+<entry>
+<ptxt>76</ptxt>
+</entry>
+<entry>
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stud bolt x No. 1 oil pan</ptxt>
+<ptxt>: for stud bolt B</ptxt>
+</entry>
+<entry>
+<ptxt>3.0</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+<entry>
+<ptxt>27 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 1 oil pan x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+<entry>
+<ptxt>265</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Crankshaft pulley x Crankshaft</ptxt>
+</entry>
+<entry>
+<ptxt>260</ptxt>
+</entry>
+<entry>
+<ptxt>2651</ptxt>
+</entry>
+<entry>
+<ptxt>192</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Cylinder head cover x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>9.0</ptxt>
+</entry>
+<entry>
+<ptxt>92</ptxt>
+</entry>
+<entry>
+<ptxt>80 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ventilation valve x Cylinder head cover</ptxt>
+</entry>
+<entry>
+<ptxt>5.0</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+<entry>
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tensioner pulley x Belt tensioner</ptxt>
+</entry>
+<entry>
+<ptxt>50</ptxt>
+</entry>
+<entry>
+<ptxt>510</ptxt>
+</entry>
+<entry>
+<ptxt>37</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

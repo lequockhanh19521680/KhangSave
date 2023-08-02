@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12061_S000Y" variety="S000Y">
+<name>HEATING / AIR CONDITIONING</name>
+<ttl id="12061_S000Y_7AI7Y_T000I" variety="T000I">
+<name>AIR CONDITIONING SYSTEM</name>
+<para id="RM000004V3A002X" category="F" type-id="8048X" name-id="ACE2A-03" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000004V3A002X_z0" proc-id="NM21Q0EV__000001A00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="Y113030E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<figure>
+<graphic graphicname="Y113031E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="Y113969E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

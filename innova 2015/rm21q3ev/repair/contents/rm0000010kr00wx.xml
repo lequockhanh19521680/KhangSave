@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80K_T004Y" variety="T004Y">
+<name>FRONT BRAKE</name>
+<para id="RM0000010KR00WX" category="G" type-id="3001K" name-id="BR0UA-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010KR00WX_01" type-id="01" category="01">
+<s-1 id="RM0000010KR00WX_01_0001" proc-id="RM21Q0EV__00001PQ00000">
+<ptxt>CHECK BRAKE CYLINDER AND PISTON</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the cylinder bore and piston for rust or scoring.</ptxt>
+<ptxt>If necessary, replace the cylinder and piston.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KR00WX_01_0002" proc-id="RM21Q0EV__00001PR00000">
+<ptxt>CHECK PAD LINING THICKNESS</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C133733" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a ruler, measure the pad lining thickness.</ptxt>
+<spec>
+<title>Standard thickness</title>
+<specitem>
+<ptxt>10.0 mm (0.394 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum thickness</title>
+<specitem>
+<ptxt>1.0 mm (0.039 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the pad lining thickness is equal to or less than the minimum, replace the pad.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KR00WX_01_0003" proc-id="RM21Q0EV__00001PS00000">
+<ptxt>CHECK FRONT DISC BRAKE PAD SUPPORT PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the 4 plates.</ptxt>
+<atten4>
+<ptxt>Make sure that the plates have sufficient rebound and are free from deformation, cracks wear, rust and dirt.</ptxt>
+</atten4>
+<ptxt>If necessary, replace the plates.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KR00WX_01_0004" proc-id="RM21Q0EV__00001PT00000">
+<ptxt>CHECK DISC THICKNESS</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111368" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a micrometer, measure the disc thickness.</ptxt>
+<spec>
+<title>Standard thickness</title>
+<specitem>
+<ptxt>28.0 mm (1.102 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum thickness</title>
+<specitem>
+<ptxt>26.0 mm (1.024 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the disc thickness is less than the minimum, replace the disc.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

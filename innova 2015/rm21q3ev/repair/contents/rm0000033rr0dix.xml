@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2Y5_T00B3" variety="T00B3">
+<name>STEERING PAD SWITCH</name>
+<para id="RM0000033RR0DIX" category="A" type-id="30014" name-id="SR3GI-02" from="201403">
+<name>INSTALLATION</name>
+<subpara id="RM0000033RR0DIX_01" type-id="01" category="01">
+<s-1 id="RM0000033RR0DIX_01_0023" proc-id="RM21Q0EV__00005M300000">
+<ptxt>INSTALL STEERING PAD SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 4 pins to install the steering pad switch.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connectors and attach the 2 clamps.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000033RR0DIX_01_0026" proc-id="RM21Q0EV__00005M400000">
+<ptxt>INSTALL STEERING PAD ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000010AQ01FX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000033RR0DIX_01_0030" proc-id="RM21Q0EV__00005M500000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000033RR0DIX_01_0010" proc-id="RM21Q0EV__00005M200000">
+<ptxt>CHECK SRS WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000YVX019X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

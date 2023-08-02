@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1002F_S000H" variety="S000H">
+<name>PROPELLER SHAFT</name>
+<ttl id="1002F_S000H_7ARNQ_T009N" variety="T009N">
+<name>PROPELLER SHAFT ASSEMBLY</name>
+<para id="RM000000ZZ301ZX" category="A" type-id="80001" name-id="PR0AA-03" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000ZZ301ZX_01" type-id="01" category="01">
+<s-1 id="RM000000ZZ301ZX_01_0001" proc-id="RM21Q0EV__000046A00000">
+<ptxt>REMOVE PROPELLER SHAFT WITH CENTER BEARING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place matchmarks on the propeller shaft flange and differential flange.</ptxt>
+<figure>
+<graphic graphicname="C119752E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts, 4 bolts and 4 washers, and disconnect the propeller shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and 2 plates from the frame crossmember.</ptxt>
+<figure>
+<graphic graphicname="A098693E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pull out the propeller shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install SST to the extension housing to prevent oil leakage.</ptxt>
+<sst>
+<sstitem>
+<s-number>09325-40010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C098710E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

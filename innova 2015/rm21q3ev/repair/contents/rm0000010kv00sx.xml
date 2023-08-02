@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80K_T004Y" variety="T004Y">
+<name>FRONT BRAKE</name>
+<para id="RM0000010KV00SX" category="A" type-id="8000E" name-id="BR647-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010KV00SX_02" type-id="11" category="10" proc-id="RM21Q0EV__00001QK00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010KV00SX_01" type-id="01" category="01">
+<s-1 id="RM0000010KV00SX_01_0002" proc-id="RM21Q0EV__00001QB00000">
+<ptxt>CHECK DISC RUNOUT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C226750" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check the bearing play in the axial direction and check the axle hub runout (See page <xref label="Seep01" href="RM000000ZZM00IX_01_0001"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Install the disc with the 5 hub nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the disc runout 10.0 mm (0.394 in.) from the outer edge of the disc.</ptxt>
+<spec>
+<title>Maximum disc runout</title>
+<specitem>
+<ptxt>0.05 mm (0.00197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the runout is greater than the maximum, change the installation positions of the disc and axle so that the runout will become minimal. If the runout is greater than the maximum even when the installation positions are changed, grind the disc. If the disc thickness is less than the minimum, replace the disc.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 5 nuts.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0003" proc-id="RM21Q0EV__00001QC00000">
+<ptxt>TEMPORARILY TIGHTEN FRONT DISC BRAKE BLEEDER PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the bleeder plug to the cylinder.</ptxt>
+<atten4>
+<ptxt>The bleeder plug will be tightened to a torque specification in the Bleed Air from Brake Line procedures.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0011">
+<ptxt>INSTALL FRONT DISC BRAKE BLEEDER PLUG CAP</ptxt>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0004" proc-id="RM21Q0EV__00001QD00000">
+<ptxt>INSTALL PISTON SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of lithium soap base glycol grease to the entire inner and outer circumference of a new piston seal.</ptxt>
+<figure>
+<graphic graphicname="C191865E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the piston seal to the disc brake cylinder assembly.</ptxt>
+<atten3>
+<ptxt>Make sure the piston seal is securely installed to the groove of the disc brake cylinder assembly.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0005" proc-id="RM21Q0EV__00001QE00000">
+<ptxt>INSTALL FRONT DISC BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of lithium soap base glycol grease to the inner and outer circumference of a new cylinder boot, and the entire circumference of the top and bottom of the outer edge as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C238097E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply a light coat of lithium soap base glycol grease to the entire outer circumference of the front disc brake piston where it contacts the cylinder boot and front disc brake cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the cylinder boot to the front disc brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front disc brake piston to the front disc brake cylinder.</ptxt>
+<atten3>
+<ptxt>Do not forcibly install the disc brake piston to the disc brake cylinder.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0006" proc-id="RM21Q0EV__00001QF00000">
+<ptxt>INSTALL CYLINDER BOOT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cylinder boot to the disc brake cylinder.</ptxt>
+<figure>
+<graphic graphicname="C111372E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Securely install the cylinder boot to the groove of the disc brake cylinder.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install a new set ring.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Do not damage the cylinder boot.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

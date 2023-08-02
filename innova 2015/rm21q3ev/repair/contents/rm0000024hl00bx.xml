@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82S_T0076" variety="T0076">
+<name>CLEARANCE WARNING BUZZER</name>
+<para id="RM0000024HL00BX" category="K" type-id="30193" name-id="PM0AR-01" from="201202">
+<name>COMPONENTS</name>
+<subpara id="RM0000024HL00BX_01" type-id="02" category="04" proc-id="RM21Q0EV__00002KS00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B136339E02" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XB_T001P" variety="T001P">
+<name>G58 MANUAL TRANSMISSION</name>
+<para id="RM0000028X3003X" category="F" type-id="30027" name-id="SS24Q-01" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000028X3003X_z0" proc-id="RM21Q0EV__000004400000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Manual transmission extension housing oil seal</ptxt>
+</entry>
+<entry>
+<ptxt>0+-0.5 mm (0+-0.020 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>MANUAL TRANSMISSION UNIT</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Counter shaft 5th gear thrust clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>0.100 to 0.300 mm (0.0039 to 0.0117 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.300 mm (0.0117 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="6">
+<ptxt>Counter gear rear shaft snap ring thickness</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+<entry>
+<ptxt>2.80 to 2.85 mm (0.110 to 0.112 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+<entry>
+<ptxt>2.85 to 2.90 mm (0.112 to 0.114 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+<entry>
+<ptxt>2.90 to 2.95 mm (0.114 to 0.116 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+<entry>
+<ptxt>2.95 to 3.00 mm (0.116 to 0.118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E</ptxt>
+</entry>
+<entry>
+<ptxt>3.00 to 3.05 mm (0.118 to 0.120 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F</ptxt>
+</entry>
+<entry>
+<ptxt>3.05 to 3.10 mm (0.120 to 0.122 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>G</ptxt>
+</entry>
+<entry>
+<ptxt>3.10 to 3.15 mm (0.122 to 0.124 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Reverse idler gear radial clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>0.04 to 0.08 mm (0.0016 to 0.0031 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.08 mm (0.031 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Reverse idler gear clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>0.05 to 0.35 mm (0.0020 to 0.0138 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.35 mm (0.0138 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Transmission front bearing retainer oil seal depth</ptxt>
+</entry>
+<entry>
+<ptxt>12.2 to 13.2 mm (0.480 to 0.520 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Extension housing oil seal depth</ptxt>
+</entry>
+<entry>
+<ptxt>0+-0.5 mm (0 to 0.0196 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>INPUT SHAFT</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Synchronizer ring No. 1 clearance</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 to 2.0 mm (0.0394 to 0.0787 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Input shaft shim clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 mm (0.0039 in.) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="5">
+<ptxt>Front bearing shaft snap ring thickness</ptxt>
+</entry>
+<entry>
+<ptxt>0</ptxt>
+</entry>
+<entry>
+<ptxt>2.05 to 2.10 mm (0.0807 to 0.0827 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1</ptxt>
+</entry>
+<entry>
+<ptxt>2.10 to 2.15 mm (0.0827 to 0.0847 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>2.15 to 2.20 mm (0.0847 to 0.0866 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>2.20 to 2.25 mm (0.0866 to 0.0886 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4</ptxt>
+</entry>
+<entry>
+<ptxt>2.25 to 2.30 mm (0.0886 to 0.0906 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5</ptxt>
+</entry>
+<entry>
+<ptxt>2.30 to 2.35 mm (0.0906 to 0.0925 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>OUTPUT SHAFT</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>1st gear thrust clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 to 0.25 mm (0.0039 to 0.0098 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>2nd gear thrust clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 to 0.25 mm (0.0039 to 0.0098 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>3rd gear thrust clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 to 0.25 mm (0.0039 to 0.0098 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>1st gear radial clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.009 to 0.056 mm (0.0004 to 0.0022 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>2nd gear radial clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.008 to 0.034 mm (0.0003 to 0.00134 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>3rd gear radial clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.008 to 0.034 mm (0.0003 to 0.00134 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="7">
+<ptxt>Output shaft outer diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard: Part A</ptxt>
+</entry>
+<entry>
+<ptxt>34.984 to 35.000 mm (1.3773 to 1.3780 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Standard: Part B</ptxt>
+</entry>
+<entry>
+<ptxt>37.984 to 38.000 mm (1.4954 to 1.4960 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Standard: Part C</ptxt>
+</entry>
+<entry>
+<ptxt>30.384 to 30.400 mm (1.1962 to 1.1968 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Standard: Part D</ptxt>
+</entry>
+<entry>
+<ptxt>30.002 to 30.018 mm (1.1812 to 1.1818 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum: Part A</ptxt>
+</entry>
+<entry>
+<ptxt>30.384 mm (1.1962 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum: Part B</ptxt>
+</entry>
+<entry>
+<ptxt>37.984 mm (1.4954 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum: Part C</ptxt>
+</entry>
+<entry>
+<ptxt>34.984 mm (1.3773 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum: Part D</ptxt>
+</entry>
+<entry>
+<ptxt>30.002 mm (1.1812 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Output shaft flange thickness</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>4.80 to 5.20 mm (0.1890 to 0.2047 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>4.80 mm (0.1890 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>1st gear bearing inner race thickness</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>4.00 to 4.20 mm (0.1575 to 0.1654 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>4.00 mm (0.1575 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>1st gear bearing inner race outer diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>38.985 to 39.000 mm (1.5348 to 1.5354 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>38.985 mm (1.5348 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Synchronizer ring No. 1 (for 1st gear) clearance</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 to 2.0 mm (0.0394 to 0.0787 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Synchronizer ring No. 1 (for 2nd gear) clearance</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 to 2.0 mm (0.0394 to 0.0787 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Synchronizer ring No. 2 clearance</ptxt>
+</entry>
+<entry>
+<ptxt>1.0 to 2.0 mm (0.0394 to 0.0787 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Reverse gear clearance</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>0.15 to 0.35 mm (0.0059 to 0.0138 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.35 mm (0.0138 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Transmission hub sleeve no. 2 clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.15 to 0.35 mm (0.0059 to 0.0138 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>1st gear inside diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>44.015 to 44.040 mm (1.7329 to 1.7339 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>44.040 mm (1.7339 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>2nd gear inside diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>44.015 to 44.040 mm (1.7329 to 1.7339 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>44.040 mm (1.7339 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>3rd gear inside diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>44.015 to 44.040 mm (1.7329 to 1.7339 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>44.040 mm (1.7339 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Transmission clutch hub No. 2 clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 mm (0.0039 in.) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="6">
+<ptxt>Clutch hub shaft snap ring thickness</ptxt>
+</entry>
+<entry>
+<ptxt>C to 1</ptxt>
+</entry>
+<entry>
+<ptxt>1.75 to 1.80 mm (0.0689 to 0.0709 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+<entry>
+<ptxt>1.80 to 1.85 mm (0.0709 to 0.0728 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D to 1</ptxt>
+</entry>
+<entry>
+<ptxt>1.85 to 1.90 mm (0.0728 to 0.0748 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E</ptxt>
+</entry>
+<entry>
+<ptxt>1.90 to 1.95 mm (0.0748 to 0.0768 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E to 1</ptxt>
+</entry>
+<entry>
+<ptxt>1.95 to 2.00 mm (0.0768 to 0.0787 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F</ptxt>
+</entry>
+<entry>
+<ptxt>2.00 to 2.05 mm (0.0787 to 0.0807 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F to 1</ptxt>
+</entry>
+<entry>
+<ptxt>2.05 to 2.10 mm (0.0807 to 0.0827 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>5th gear clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 mm (0.0039 in.) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="10">
+<ptxt>Output shaft bearing shaft snap ring</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+<entry>
+<ptxt>2.67 to 2.72 mm (0.1051 to 0.1071 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+<entry>
+<ptxt>2.73 to 2.78 mm (0.1075 to 0.1094 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+<entry>
+<ptxt>2.79 to 2.84 mm (0.1098 to 0.1118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+<entry>
+<ptxt>2.85 to 2.90 mm (0.1122 to 0.1141 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E</ptxt>
+</entry>
+<entry>
+<ptxt>2.91 to 2.96 mm (0.1146 to 0.1165 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F</ptxt>
+</entry>
+<entry>
+<ptxt>2.97 to 3.02 mm (0.1169 to 0.1189 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>G</ptxt>
+</entry>
+<entry>
+<ptxt>3.03 to 3.08 mm (0.1193 to 0.1213 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>H</ptxt>
+</entry>
+<entry>
+<ptxt>3.09 to 3.14 mm (0.1217 to 0.1236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>J</ptxt>
+</entry>
+<entry>
+<ptxt>3.15 to 3.20 mm (0.1240 to 0.1260 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>K</ptxt>
+</entry>
+<entry>
+<ptxt>3.21 to 3.26 mm (0.1264 to 0.1283 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>L</ptxt>
+</entry>
+<entry>
+<ptxt>3.27 to 3.32 mm (0.1287 to 0.1307 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>COUNTER GEAR AND REVERSE IDLER GEAR</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Counter shaft 5th gear radial clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.008 to 0.034 mm (0.0003 to 0.00134 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Synchronizer ring No. 3 clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.65 to 1.35 mm (0.0256 to 0.0531 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Transmission hub sleeve No. 3 clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.25 to 0.45 mm (0.0098 to 0.0177 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Counter shaft 5th gear inside diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>33.015 to 33.040 mm (1.2998 to 1.3008 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>33.040 mm (1.3008 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Counter gear journal outer diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard</ptxt>
+</entry>
+<entry>
+<ptxt>25.984 to 26.000 mm (1.0230 to 1.0236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>26.000 mm (1.0236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Counter gear clearance</ptxt>
+</entry>
+<entry>
+<ptxt>0.1 mm (0.0039 in.) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="5">
+<ptxt>Counter gear front bearing snap ring No. 2 thickness</ptxt>
+</entry>
+<entry>
+<ptxt>1</ptxt>
+</entry>
+<entry>
+<ptxt>2.05 to 2.10 mm (0.0807 to 0.0827 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>2.10 to 2.15 mm (0.0827 to 0.0847 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>2.15 to 2.20 mm (0.0847 to 0.0866 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4</ptxt>
+</entry>
+<entry>
+<ptxt>2.20 to 2.25 mm (0.0866 to 0.0886 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5</ptxt>
+</entry>
+<entry>
+<ptxt>2.25 to 2.30 mm (0.0886 to 0.0906 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>6</ptxt>
+</entry>
+<entry>
+<ptxt>2.30 to 2.35 mm (0.0906 to 0.0925 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

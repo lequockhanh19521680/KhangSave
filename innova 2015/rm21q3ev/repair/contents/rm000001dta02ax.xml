@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000001DTA02AX" category="C" type-id="300BY" name-id="ACD60-12" from="201403">
+<dtccode>13</dtccode>
+<dtcname>Evaporator Temperature Sensor Circuit</dtcname>
+<subpara id="RM000001DTA02AX_01" type-id="60" category="03" proc-id="RM21Q0EV__00004Q800001">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The No. 1 cooler thermistor is installed on the evaporator in the air conditioning unit. It detects the temperature of the cooled air that has passed through the evaporator which is then used in air conditioning control. The resistance of the No. 1 cooler thermistor changes in accordance with the temperature of the cooled air that has passed through the evaporator. As the temperature decreases, the resistance increases. As the temperature increases, the resistance decreases.</ptxt>
+<ptxt>The air conditioning amplifier assembly applies voltage (5 V) to the No. 1 cooler thermistor and reads voltage changes as the resistance of the No. 1 cooler thermistor changes. This thermistor is used for frost prevention.</ptxt>
+<table pgwide="1">
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>13</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>An open or short in evaporator temperature sensor circuit</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>No. 1 cooler thermistor</ptxt>
+</item>
+<item>
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</item>
+<item>
+<ptxt>Harness or connector</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000001DTA02AX_02" type-id="32" category="03" proc-id="RM21Q0EV__00004Q900001">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E227735E07" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001DTA02AX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000001DTA02AX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001DTA02AX_04_0001" proc-id="RM21Q0EV__00004QA00001">
+<testtitle>CHECK AIR CONDITIONING AMPLIFIER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the air conditioning amplifier assembly with its connectors still connected (See page <xref label="Seep01" href="RM000001K3A01KX"/>).</ptxt>
+<figure>
+<graphic graphicname="E225456E47" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A38-1 (TE) - A38-14 (SG-4)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Evaporator temperature 0°C (32°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>2.0 to 2.4 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Evaporator temperature 15°C (59°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>1.4 to 1.8 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component with harness connected</ptxt>
+<ptxt>(Air Conditioning Amplifier Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>As the temperature increases, the voltage decreases.</ptxt>
+</atten4>
+<table>
+<title>Result</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="3.10in"/>
+<colspec colname="COL2" colwidth="1.03in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to problem symptoms table.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to DTC.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>NG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTA02AX_04_0004" fin="true">A</down>
+<right ref="RM000001DTA02AX_04_0008" fin="true">B</right>
+<right ref="RM000001DTA02AX_04_0002" fin="false">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTA02AX_04_0002" proc-id="RM21Q0EV__00004QB00001">
+<testtitle>INSPECT NO. 1 COOLER THERMISTOR</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the No. 1 cooler thermistor (See page <xref label="Seep01" href="RM0000012JQ021X"/>).</ptxt>
+<figure>
+<graphic graphicname="E170948E02" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="8" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-10°C (14°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.30 to 9.10 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>-5°C (23°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.65 to 6.95 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>0°C (32°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4.40 to 5.35 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>5°C (41°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.40 to 4.15 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>10°C (50°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2.70 to 3.25 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>15°C (59°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2.14 to 2.58 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.71 to 2.05 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>25°C (77°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.38 to 1.64 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>30°C (86°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.11 to 1.32 kΩ</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Resistance (kΩ)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Even slightly touching the No. 1 cooler thermistor may change the resistance value. Be sure to hold the connector of the No. 1 cooler thermistor.</ptxt>
+</item>
+<item>
+<ptxt>When measuring the resistance, the No. 1 cooler thermistor temperature must be the same as the ambient temperature.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>As the temperature increases, the resistance decreases (Refer to the graph).</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTA02AX_04_0003" fin="false">OK</down>
+<right ref="RM000001DTA02AX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTA02AX_04_0003" proc-id="RM21Q0EV__00004QC00001">
+<testtitle>CHECK HARNESS AND CONNECTOR (NO. 1 COOLER THERMISTOR - AIR CONDITIONING AMPLIFIER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A14 No. 1 cooler thermistor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the A38 air conditioning amplifier assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A38-1 (TE) - A14-1</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-14 (SG-4) - A14-2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-1 (TE) - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-14 (SG-4) - Body ground</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTA02AX_04_0008" fin="true">OK</down>
+<right ref="RM000001DTA02AX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTA02AX_04_0008">
+<testtitle>REPLACE AIR CONDITIONING AMPLIFIER ASSEMBLY<xref label="Seep01" href="RM000001K3A01KX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTA02AX_04_0004">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000045E302EX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTA02AX_04_0006">
+<testtitle>REPLACE NO. 1 COOLER THERMISTOR<xref label="Seep01" href="RM0000012JQ021X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTA02AX_04_0007">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

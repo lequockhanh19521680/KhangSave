@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z9_T003N" variety="T003N">
+<name>VALVE BODY ASSEMBLY</name>
+<para id="RM000003OH5005X" category="A" type-id="8000E" name-id="AT44M-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000003OH5005X_01" type-id="01" category="01">
+<s-1 id="RM000003OH5005X_01_0001" proc-id="RM21Q0EV__00000Y600000">
+<ptxt>INSTALL SHIFT SOLENOID VALVE S2</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to shift solenoid valve S2.</ptxt>
+</s2>
+<s2>
+<ptxt>Install shift solenoid valve S2 with the bolt.</ptxt>
+<figure>
+<graphic graphicname="C190113E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OH5005X_01_0002" proc-id="RM21Q0EV__00000Y700000">
+<ptxt>INSTALL SHIFT SOLENOID VALVE S1</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to shift solenoid valve S1.</ptxt>
+</s2>
+<s2>
+<ptxt>Install shift solenoid valve S1 with the bolt.</ptxt>
+<figure>
+<graphic graphicname="C190112E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OH5005X_01_0003" proc-id="RM21Q0EV__00000Y800000">
+<ptxt>INSTALL LOCK UP CONTROL SOLENOID SLEEVE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190111" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the lock up control solenoid sleeve with the valve sleeve stopper.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OH5005X_01_0004" proc-id="RM21Q0EV__00000Y900000">
+<ptxt>INSTALL SHIFT SOLENOID VALVE SLT AND SL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to shift solenoid valve SL.</ptxt>
+</s2>
+<s2>
+<ptxt>Install shift solenoid valves SL and SLT with the lock plate and bolt.</ptxt>
+<figure>
+<graphic graphicname="C190110E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

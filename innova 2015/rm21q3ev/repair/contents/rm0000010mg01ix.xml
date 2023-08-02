@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1000K_S000I" variety="S000I">
+<name>DIFFERENTIAL</name>
+<ttl id="1000K_S000I_7AX2H_T00AO" variety="T00AO">
+<name>DIFFERENTIAL CARRIER OIL SEAL</name>
+<para id="RM0000010MG01IX" category="A" type-id="30019" name-id="AD1JE-05" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM0000010MG01IX_01" type-id="01" category="01">
+<s-1 id="RM0000010MG01IX_01_0022" proc-id="RM21Q0EV__000056K00000">
+<ptxt>DRAIN DIFFERENTIAL OIL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Stop the vehicle on a level surface.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the differential filler plug and gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the drain plug and gasket, and drain the oil.  </ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.  </ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010MG01IX_01_0001" proc-id="RM21Q0EV__000054C00000">
+<ptxt>REMOVE REAR PROPELLER SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000ZZ301ZX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0002" proc-id="RM21Q0EV__000054D00000">
+<ptxt>REMOVE REAR DRIVE PINION NUT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and a hammer, loosen the staked part of the nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09930-00010</s-number>
+<s-subnumber>09931-00010</s-subnumber>
+<s-subnumber>09931-00020</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236628E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using SST to hold the companion flange in place, remove the nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09330-00021</s-number>
+<s-subnumber>09330-00030</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236629E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hold</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0003" proc-id="RM21Q0EV__000054E00000">
+<ptxt>REMOVE REAR DRIVE PINION COMPANION FLANGE SUB-ASSEMBLY WITH DUST DEFLECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, remove the companion flange with dust deflector.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-30012</s-number>
+<s-subnumber>09951-03010</s-subnumber>
+<s-subnumber>09953-03010</s-subnumber>
+<s-subnumber>09954-03010</s-subnumber>
+<s-subnumber>09955-03030</s-subnumber>
+<s-subnumber>09956-03040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C238731E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Before using SST (center bolt), apply hypoid gear oil to its threads and tip.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0004" proc-id="RM21Q0EV__000054F00000">
+<ptxt>REMOVE REAR DIFFERENTIAL CARRIER OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, remove the oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09308-10010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236631E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Seal</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Slinger</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0005" proc-id="RM21Q0EV__000054G00000">
+<ptxt>REMOVE REAR DIFFERENTIAL DRIVE PINION OIL SLINGER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the oil slinger from the drive pinion.</ptxt>
+<figure>
+<graphic graphicname="C237315" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0006" proc-id="RM21Q0EV__000054H00000">
+<ptxt>REMOVE REAR DRIVE PINION FRONT TAPERED ROLLER BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, remove the roller bearing (inner).</ptxt>
+<sst>
+<sstitem>
+<s-number>09556-22010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236632E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using SST, tap out the roller bearing (outer).</ptxt>
+<sst>
+<sstitem>
+<s-number>09308-00010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236633E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0008" proc-id="RM21Q0EV__000054I00000">
+<ptxt>REMOVE REAR DIFFERENTIAL DRIVE PINION BEARING SPACER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bearing spacer from the drive pinion.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0009" proc-id="RM21Q0EV__000054J00000">
+<ptxt>INSTALL REAR DIFFERENTIAL DRIVE PINION BEARING SPACER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new bearing spacer.</ptxt>
+<figure>
+<graphic graphicname="C237515" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Make sure the spacer is installed correctly.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0011" proc-id="RM21Q0EV__000054K00000">
+<ptxt>INSTALL REAR DRIVE PINION FRONT TAPERED ROLLER BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and a hammer, tap in the roller bearing (outer).</ptxt>
+<sst>
+<sstitem>
+<s-number>09316-60011</s-number>
+<s-subnumber>09316-00011</s-subnumber>
+<s-subnumber>09316-00021</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C237516E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the roller bearing (inner).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0012" proc-id="RM21Q0EV__000054L00000">
+<ptxt>INSTALL REAR DIFFERENTIAL DRIVE PINION OIL SLINGER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the oil slinger to the drive pinion.</ptxt>
+<figure>
+<graphic graphicname="C237315" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0013" proc-id="RM21Q0EV__000054M00000">
+<ptxt>INSTALL REAR DIFFERENTIAL CARRIER OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to the lip of the oil seal.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in a new oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09554-30011</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C236636E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Seal Depth</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard oil seal depth</title>
+<specitem>
+<ptxt>0.5 +/-0.3mm (0.02 +/-0.0118in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0014" proc-id="RM21Q0EV__000054N00000">
+<ptxt>INSTALL REAR DRIVE PINION COMPANION FLANGE SUB-ASSEMBLY WITH DUST DEFLECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, install the companion flange with dust deflector.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-30012</s-number>
+<s-subnumber>09951-03010</s-subnumber>
+<s-subnumber>09953-03010</s-subnumber>
+<s-subnumber>09954-03010</s-subnumber>
+<s-subnumber>09955-03030</s-subnumber>
+<s-subnumber>09956-03040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C238732E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Before using SST (center bolt), apply hypoid gear oil to its threads and tip.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Apply hypoid gear oil LSD to drive pinion thread and nut seat face.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST to hold the companion flange in place, install a new nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09330-00021</s-number>
+<s-subnumber>09330-00030</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C237316E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turn</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hold</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<torque>
+<torqueitem>
+<t-value1>230</t-value1>
+<t-value2>2345</t-value2>
+<t-value4>170</t-value4>
+<ptxt>or less</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0015" proc-id="RM21Q0EV__000054O00000">
+<ptxt>INSPECT DIFFERENTIAL DRIVE PINION PRELOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a torque wrench, measure the preload.</ptxt>
+<figure>
+<graphic graphicname="C236639" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Preload (Starting Torque)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Bearing</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 to 2.1 N*m (16 to 21 kgf*cm, 14 to 18 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.7 to 1.0 N*m (8 to 10 kgf*cm, 7 to 8 in.*lbf)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, adjust the preload (See page <xref label="Seep01" href="RM0000010MS03VX_01_0010"/>).</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0023" proc-id="RM21Q0EV__000054T00000">
+<ptxt>INSPECT TOTAL PRELOAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a torque wrench, measure the preload with the teeth of the drive pinion and ring gear in contact.</ptxt>
+<figure>
+<graphic graphicname="C236639" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard Total Preload</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Bearing</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>New bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.4 to 0.5 N*m (4 to 6 kgf*cm, 4 to 5 in.*lbf) + drive pinion preload</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Reused bearing</ptxt>
+</entry>
+<entry>
+<ptxt>0.4 to 0.5 N*m (4 to 6 kgf*cm, 4 to 5 in.*lbf) + drive pinion preload</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, adjust the preload.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0016" proc-id="RM21Q0EV__000054P00000">
+<ptxt>STAKE DRIVE PINION NUT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a chisel and hammer, stake the nut.</ptxt>
+<figure>
+<graphic graphicname="C236640" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0017" proc-id="RM21Q0EV__000054Q00000">
+<ptxt>INSTALL REAR PROPELLER SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000ZZ1020X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010MG01IX_01_0020" proc-id="RM21Q0EV__000056L00000">
+<ptxt>ADD DIFFERENTIAL OIL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Add differential oil so that the oil level is within 5 mm (0 to 0.196 in.) from the bottom lip of the differential filler plug hole.</ptxt>
+<figure>
+<graphic graphicname="D025304E51" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0 to 5 mm (0 to 0.196 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>After changing the oil, drive the vehicle, and then check the oil level again.</ptxt>
+</item>
+<item>
+<ptxt>Too much or too little oil will lead to differential problems.</ptxt>
+</item>
+</list1>
+</atten3>
+<ptxt>If necessary, fill the differential carrier with hypoid gear oil.</ptxt>
+<spec>
+<title>Differential oil type</title>
+<specitem>
+<ptxt>Hypoid gear oil API GL-5</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Recommended Viscosity</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Temperature</ptxt>
+</entry>
+<entry>
+<ptxt>Viscosity</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Above -18°C (0°F)</ptxt>
+</entry>
+<entry>
+<ptxt>SAE 90</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Below -18°C (0°F)</ptxt>
+</entry>
+<entry>
+<ptxt>SAE 80W-90 or SAE 80W</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard Rear Differential Oil Capacity</title>
+<specitem>
+<ptxt>3.00 to 3.10 liters (2.84 to 2.93 US qts., 2.64 to 2.73 Imp. qts.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Check for oil leakage when the oil level is low.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the differential filler plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

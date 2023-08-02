@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z3_T003H" variety="T003H">
+<name>AUTOMATIC TRANSMISSION FLUID</name>
+<para id="RM0000014P801SX" category="G" type-id="8000T" name-id="AT0FE-09" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000014P801SX_01" type-id="01" category="01">
+<s-1 id="RM0000014P801SX_01_0001" proc-id="RM21Q0EV__00000WA00000">
+<ptxt>CHECK AUTOMATIC TRANSMISSION FLUID LEVEL</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Drive the vehicle so that the engine and transmission are at the normal operating temperature.</ptxt>
+<spec>
+<title>ATF temperature</title>
+<specitem>
+<ptxt>70 to 80°C (158 to 176°F)</ptxt>
+</specitem>
+</spec>
+</item>
+<item>
+<ptxt>The ATF temperature can be checked with the intelligent tester.</ptxt>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / A/T Oil Temperature 3.</ptxt>
+</item>
+</list1>
+</atten4>
+<s2>
+<ptxt>Park the vehicle on a level surface and set the parking brake.</ptxt>
+<figure>
+<graphic graphicname="C191481E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>With the engine idling and the brake pedal depressed, move the shift lever into all positions from P to L, and then return it to P.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull out the dipstick and wipe it clean.</ptxt>
+</s2>
+<s2>
+<ptxt>Fully push the dipstick back into the pipe.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the dipstick out and check that the fluid level is in the HOT range.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

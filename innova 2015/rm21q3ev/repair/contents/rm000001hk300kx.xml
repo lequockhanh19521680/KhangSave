@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80Q_T0054" variety="T0054">
+<name>LOAD SENSING PROPORTIONING VALVE</name>
+<para id="RM000001HK300KX" category="K" type-id="30193" name-id="BR0IS-18" from="201202">
+<name>COMPONENTS</name>
+<subpara id="RM000001HK300KX_01" type-id="02" category="04" proc-id="RM21Q0EV__00001SE00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="C117809E09" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

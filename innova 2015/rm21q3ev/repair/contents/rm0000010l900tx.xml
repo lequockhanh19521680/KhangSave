@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80N_T0051" variety="T0051">
+<name>REAR BRAKE FLEXIBLE HOSE</name>
+<para id="RM0000010L900TX" category="A" type-id="80001" name-id="BR0UG-06" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010L900TX_01" type-id="01" category="01">
+<s-1 id="RM0000010L900TX_01_0001" proc-id="RM21Q0EV__00001RR00000">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wash off brake fluid immediately if it comes in contact with any painted surface.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010L900TX_01_0002" proc-id="RM21Q0EV__00001RS00000">
+<ptxt>REMOVE REAR BRAKE TUBE FLEXIBLE HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the brake tube and 3-way from the flexible hose with a union nut wrench while holding the flexible hose with a wrench.</ptxt>
+<figure>
+<graphic graphicname="C239759" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not bend or damage the brake tube.</ptxt>
+</item>
+<item>
+<ptxt>Do not allow any foreign matter such as dirt and dust to enter the brake tube and 3-way from the connecting points.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the clip and flexible hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7C7H4_T00AW" variety="T00AW">
+<name>FRONT PASSENGER SEAT BELT WARNING LIGHT (w/o Multi-display)</name>
+<para id="RM00000129307LX" category="G" type-id="3001K" name-id="SB27X-10" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM00000129307LX_02" type-id="01" category="01">
+<s-1 id="RM00000129307LX_02_0006" proc-id="RM21Q0EV__00005CC00000">
+<ptxt>INSPECT TELLTALE LIGHT ASSEMBLY (FRONT PASSENGER SEAT BELT WARNING LIGHT)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E142375E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check the illumination area of the front passenger seat belt warning light.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Battery positive (+) → Terminal 3 (IG)</ptxt>
+<ptxt>Battery negative (-) → Terminal 2 (SW 1), 1 (GND)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blinks</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the front passenger seat belt warning light.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Telltale Light Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

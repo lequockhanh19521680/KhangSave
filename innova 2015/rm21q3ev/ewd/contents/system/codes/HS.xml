@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="system">
+	<Code id="H3" type="conn" subcode="">
+		<refs type="routing" code="WR001"/>
+	</Code>
+	<Code id="H4" type="conn" subcode="">
+		<refs type="routing" code="WR001"/>
+	</Code>
+	<Code id="S12" type="conn" subcode="A">
+		<refs type="routing" code="WR006"/>
+	</Code>
+	<Code id="S22" type="conn" subcode="B">
+		<refs type="routing" code="WR006"/>
+	</Code>
+	<Code id="1I" type="jbc" subcode="">
+		<refs type="relay" code="RL004"/>
+	</Code>
+	<Code id="2N" type="jbc" subcode="">
+		<refs type="relay" code="RL005"/>
+	</Code>
+	<Code id="2O" type="jbc" subcode="">
+		<refs type="relay" code="RL005"/>
+	</Code>
+	<Code id="II4" type="w2w" subcode="">
+		<refs type="routing" code="WR013"/>
+	</Code>
+	<Code id="1" type="jb" subcode="">
+		<refs type="relay" code="RL004"/>
+	</Code>
+	<Code id="2-JB" type="jb" subcode="">
+		<refs type="relay" code="RL005"/>
+	</Code>
+</CodeList>

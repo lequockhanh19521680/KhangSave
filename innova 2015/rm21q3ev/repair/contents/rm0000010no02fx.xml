@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZB_T003P" variety="T003P">
+<name>FLOOR SHIFT ASSEMBLY</name>
+<para id="RM0000010NO02FX" category="A" type-id="30014" name-id="AT9CZ-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010NO02FX_01" type-id="01" category="01">
+<s-1 id="RM0000010NO02FX_01_0001" proc-id="RM21Q0EV__00000YH00000">
+<ptxt>INSTALL FLOOR SHIFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037855E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the floor shift with the 4 bolts. Tighten the bolts in the order shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the clamp and 2 connectors.</ptxt>
+<figure>
+<graphic graphicname="G037854E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Move the shift lever to L.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the transmission control cable.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NO02FX_01_0002" proc-id="RM21Q0EV__00000YI00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable to the negative (-) battery terminal.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010NO02FX_01_0003" proc-id="RM21Q0EV__00000YJ00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000001126016X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010NO02FX_01_0010" proc-id="RM21Q0EV__00000XL00000">
+<ptxt>ADJUST SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Move the shift lever to N.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the control cable.</ptxt>
+<figure>
+<graphic graphicname="C193823" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the control shaft lever clockwise until it stops, and then turn it counterclockwise 2 notches to set it to the N position.</ptxt>
+<figure>
+<graphic graphicname="D028682E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>While holding the control shaft lever slightly toward the R position side, connect the cable with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NO02FX_01_0011" proc-id="RM21Q0EV__00000XK00000">
+<ptxt>INSPECT SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When moving the shift lever from P to R with the ignition switch to ON and the brake pedal depressed, make sure that the shift lever moves smoothly and correctly into position.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and make sure that the vehicle moves forward after moving the shift lever from N to D, and moves in reverse after shifting to R.</ptxt>
+<ptxt>If the results are not as specified, inspect the park/neutral position switch and check the shift lever.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NO02FX_01_0012" proc-id="RM21Q0EV__000058K00000">
+<ptxt>INSTALL CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="2">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEA013X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

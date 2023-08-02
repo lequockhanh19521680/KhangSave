@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YD_T002R" variety="T002R">
+<name>FUEL PRESSURE REGULATOR</name>
+<para id="RM000000YLC018X" category="A" type-id="30014" name-id="FU0QG-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000YLC018X_01" type-id="01" category="01">
+<s-1 id="RM000000YLC018X_01_0001" proc-id="RM21Q0EV__00000O500000">
+<ptxt>INSTALL FUEL PRESSURE REGULATOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply a light coat of spindle oil or gasoline to a new O-ring and install it to the fuel pressure regulator.</ptxt>
+<figure>
+<graphic graphicname="A111065E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the fuel pressure regulator with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the No. 2 fuel hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the vacuum hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLC018X_01_0007" proc-id="RM21Q0EV__00000NY00000">
+<ptxt>INSTALL INTAKE AIR CONNECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the intake air connector with the 2 bolts, and tighten the 2 hose clamps.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+<ptxt> for intake air connector</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+<ptxt> for hose clamp</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLC018X_01_0003">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000YLC018X_01_0004" proc-id="RM21Q0EV__00000O600000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLC018X_01_0005" proc-id="RM21Q0EV__00000GO00000">
+<ptxt>CHECK FOR FUEL LEAKS
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+<atten3>
+<ptxt>Do not start the engine.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Push the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Select the Active Test and enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Fuel Pump / Speed.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check for fuel leaks.</ptxt>
+<s3>
+<ptxt>Check that there are no fuel leaks after performing maintenance anywhere on the fuel system.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

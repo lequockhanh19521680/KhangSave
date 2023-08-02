@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7WZ_T001D" variety="T001D">
+<name>1TR-FE EMISSION CONTROL</name>
+<para id="RM0000020QT003X" category="F" type-id="30027" name-id="SS24W-01" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000020QT003X_z0" proc-id="RM21Q0EV__000003H00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Purge VSV</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>26 to 30 Ω at 20°C (68°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - Body ground</ptxt>
+<ptxt>2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Heated oxygen sensor</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 (HT1A) - 2 (+B)</ptxt>
+</entry>
+<entry>
+<ptxt>5 to 10 Ω at 20°C (68°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7C7H4_T00AW" variety="T00AW">
+<name>FRONT PASSENGER SEAT BELT WARNING LIGHT (w/o Multi-display)</name>
+<para id="RM0000036L700OX" category="A" type-id="30014" name-id="SB4ET-04" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000036L700OX_01" type-id="01" category="01">
+<s-1 id="RM0000036L700OX_01_0001" proc-id="RM21Q0EV__00005CD00000">
+<ptxt>INSTALL TELLTALE LIGHT ASSEMBLY (FRONT PASSENGER SEAT BELT WARNING LIGHT)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the telltale light assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000036L700OX_01_0007" proc-id="RM21Q0EV__00005CE00000">
+<ptxt>INSTALL INSTRUMENT PANEL HOLE COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the 2 connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the instrument panel hole cover with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000036L700OX_01_0015" proc-id="RM21Q0EV__00003AO00000">
+<ptxt>INSTALL CENTER INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 4 claws to connect the air conditioning control.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000036L700OX_01_0016" proc-id="RM21Q0EV__00003AS00000">
+<ptxt>INSTALL CENTER LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws and 2 clips to install the center lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

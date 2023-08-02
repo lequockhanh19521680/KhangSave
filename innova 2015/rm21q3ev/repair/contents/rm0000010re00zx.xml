@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZK_T003Y" variety="T003Y">
+<name>CLUTCH RELEASE CYLINDER</name>
+<para id="RM0000010RE00ZX" category="A" type-id="80001" name-id="CL23P-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010RE00ZX_01" type-id="01" category="01">
+<s-1 id="RM0000010RE00ZX_01_0003">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+</s-1>
+<s-1 id="RM0000010RE00ZX_01_0001" proc-id="RM21Q0EV__000019F00000">
+<ptxt>DISCONNECT CLUTCH RELEASE CYLINDER TO ACCUMULATOR TUBE</ptxt>
+<content1 releasenbr="2">
+<figure>
+<graphic graphicname="D029785E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a union nut wrench, disconnect the flexible tube.</ptxt>
+<atten4>
+<ptxt>Use a container to catch the fluid.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010RE00ZX_01_0002" proc-id="RM21Q0EV__00000IS00000">
+<ptxt>REMOVE CLUTCH RELEASE CYLINDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C113783" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and clutch release cylinder.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

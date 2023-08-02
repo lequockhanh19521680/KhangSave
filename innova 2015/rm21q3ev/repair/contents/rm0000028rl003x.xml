@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XG_T001U" variety="T001U">
+<name>SEAT BELT</name>
+<para id="RM0000028RL003X" category="F" type-id="30028" name-id="SS29L-01" from="201202" to="201303">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028RL003X_z0" proc-id="RM21Q0EV__000004D00000">
+<content5 releasenbr="1">
+<spec>
+<title>FRONT SEAT BELT</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.78in"/>
+<colspec colname="COL4" colwidth="1.76in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Front seat inner belt assembly x Front seat</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front seat outer belt assembly retractor) x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front seat outer belt assembly (shoulder anchor) x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front seat outer belt assembly (floor anchor) x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front shoulder belt anchor adjuster assembly x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>REAR SEAT BELT</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.74in"/>
+<colspec colname="COL2" colwidth="1.80in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Rear NO. 2 seat inner belt Assembly x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear seat NO. 2 seat inner belt Assembly x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear NO. 1 seat belt Assembly inner LH x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear seat lap type belt assembly LH x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear seat lap type belt assembly center x Body</ptxt>
+</entry>
+<entry>
+<ptxt>42</ptxt>
+</entry>
+<entry>
+<ptxt>428</ptxt>
+</entry>
+<entry>
+<ptxt>31</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12053_S000U" variety="S000U">
+<name>LIGHTING (INT)</name>
+<ttl id="12053_S000U_7AI9G_T000O" variety="T000O">
+<name>LIGHTING SYSTEM</name>
+<para id="RM000004S4W003X" category="F" type-id="8048W" name-id="LI94Q-04" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004S4W003X_z0" proc-id="NM21Q0EV__000001U00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>Interior Light</ptxt>
+<step3>
+<ptxt>Several different kinds of lights are used to enhance convenience and comfort.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Illuminated Entry System</ptxt>
+<step3>
+<ptxt>An illuminated entry system is used, which turns on in response to the opening and closing of each door, to enhance usability at night and produce a pleasing cabin space.</ptxt>
+</step3>
+<step3>
+<ptxt>The illuminated entry system is controlled by the No. 1 integration relay*1 or theft warning ECU assembly*2.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: Models without theft deterrent system</ptxt>
+</item>
+<item>
+<ptxt>*2: Models with theft deterrent system</ptxt>
+</item>
+</list1>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<step2>
+<ptxt>Interior Light</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Light</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specification</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Key Cylinder Light Assembly*1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.4 W</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Map Light Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>8 W</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 Room Light Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>8 W</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 2 Room Light Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>8 W</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ash Tray Light*2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.4 W</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: Models with illuminated entry system</ptxt>
+</item>
+<item>
+<ptxt>*2: Models with ash tray light</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

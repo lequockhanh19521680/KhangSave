@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80D_T004R" variety="T004R">
+<name>BRAKE ACTUATOR</name>
+<para id="RM000001L5C00GX" category="G" type-id="8000T" name-id="BC0UI-02" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000001L5C00GX_01" type-id="01" category="01">
+<s-1 id="RM000001L5C00GX_01_0001" proc-id="RM21Q0EV__00001L900000">
+<ptxt>CONNECT INTELLIGENT TESTER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C122663E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and idle it.</ptxt>
+</s2>
+<s2>
+<ptxt>Select the Active Test mode on the intelligent tester.</ptxt>
+<atten4>
+<ptxt>Please refer to the intelligent tester operator's manual for further details.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001L5C00GX_01_0002" proc-id="RM21Q0EV__00001LA00000">
+<ptxt>CHECK ACTUATOR MOTOR OPERATION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Do not keep a motor relay on for more than 5 seconds. When operating it consecutively, wait 20 seconds between each operation.</ptxt>
+</atten3>
+<s2>
+<ptxt>Turn the motor relay on and check the actuator motor operation noise.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the motor relay off.</ptxt>
+</s2>
+<s2>
+<ptxt>Fully depress the brake pedal and hold it for approximately 15 seconds. Check that the pedal's initial depth is maintained for the entire 15 seconds.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the motor relay on and check that the pedal does not pulsate.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the motor relay off and release the pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001L5C00GX_01_0003" proc-id="RM21Q0EV__00001LB00000">
+<ptxt>CHECK FRONT RIGHT WHEEL OPERATION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be sure to follow the procedures below when turning on a solenoid.</ptxt>
+</item>
+<item>
+<ptxt>Do not keep a solenoid on for more than 5 seconds. When operating it consecutively, wait 20 seconds between each operation.</ptxt>
+</item>
+<item>
+<ptxt>The pedal must not be depressed if only the reduction solenoid SFRR, SFLR or SRRR is turned on.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>With the pedal depressed as much as possible, perform the following operations.</ptxt>
+<s3>
+<ptxt>Turn the SFRH and SFRR solenoids on simultaneously, and check that the pedal cannot be depressed further.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the SFRH and SFRR solenoids off simultaneously, and check that the pedal can be depressed further.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the motor relay on. Check that the pedal returns to the "depressed as much as possible" position.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the motor relay off and release the pedal.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001L5C00GX_01_0004" proc-id="RM21Q0EV__00001LC00000">
+<ptxt>CHECK OTHER WHEEL OPERATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using the same procedures described for the front right wheel, check the solenoids of the other wheels.</ptxt>
+<atten4>
+<ptxt>Front left wheel: SFLH, SFLR</ptxt>
+<ptxt>Rear wheel: SRRH, SRRR</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

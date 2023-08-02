@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AWVS_T00AI" variety="T00AI">
+<name>REAR WIPER RUBBER</name>
+<para id="RM000002XJZ01AX" category="A" type-id="30019" name-id="WW48T-03" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM000002XJZ01AX_01" type-id="01" category="01">
+<s-1 id="RM000002XJZ01AX_01_0003" proc-id="RM21Q0EV__00004Z000000">
+<ptxt>REMOVE REAR WIPER BLADE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Raise the wiper arm, and then detach the claw by rotating the wiper blade to the position where a "click" sound" is heard as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E226563" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the claw.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Pull the wiper blade straight toward the left side of the vehicle to remove it from the wiper arm.</ptxt>
+<figure>
+<graphic graphicname="E226564" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not fold the wiper arm with the wiper blade removed. The arm tip may damage the back door glass surface.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002XJZ01AX_01_0004" proc-id="RM21Q0EV__00004Z100000">
+<ptxt>REMOVE REAR WIPER RUBBER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lift and pull the end of the wiper rubber protruding from the blade stopper as shown in the illustration to remove the wiper rubber.</ptxt>
+<figure>
+<graphic graphicname="E178053E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stopper (Rear End of Blade)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lightly Push (Grip)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lift</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pull</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Do not forcibly pull out the wiper rubber. The backing plates will be deformed or the blade claws will be damaged.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Lightly pushing the rubber between the end and middle allows it to be removed more easily.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the 2 wiper rubber backing plates from the wiper rubber.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002XJZ01AX_01_0001" proc-id="RM21Q0EV__00004YY00000">
+<ptxt>INSTALL REAR WIPER RUBBER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 backing plates as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E178054E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Backing Plate</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Curved</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Install the backing plates so that they are facing in the correct direction.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Insert the wiper rubber into the front end of the wiper blade and slide it towards the rear end through the second claw.</ptxt>
+<figure>
+<graphic graphicname="E178055E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Second Claw</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear End Claw</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear End Stopper</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>After pushing the wiper rubber through the rear end claw, allow it to pass over the rear end stopper.</ptxt>
+</s2>
+<s2>
+<ptxt>Slide the wiper rubber through the front end claw.</ptxt>
+<figure>
+<graphic graphicname="E178056E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front End Claw</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002XJZ01AX_01_0002" proc-id="RM21Q0EV__00004YZ00000">
+<ptxt>INSTALL REAR WIPER BLADE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Push the wiper blade straight toward the right side of the vehicle to attach the claw and install the wiper blade to the wiper arm.</ptxt>
+<figure>
+<graphic graphicname="E226565" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the claw.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Close the wiper blade holder.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

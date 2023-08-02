@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZK_T003Y" variety="T003Y">
+<name>CLUTCH RELEASE CYLINDER</name>
+<para id="RM0000010RG00ZX" category="A" type-id="8000E" name-id="CL0DR-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010RG00ZX_01" type-id="01" category="01">
+<s-1 id="RM0000010RG00ZX_01_0001" proc-id="RM21Q0EV__000019H00000">
+<ptxt>INSTALL RELEASE CYLINDER BLEEDER PLUG</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>11</t-value1>
+<t-value2>112</t-value2>
+<t-value4>8</t-value4>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+<s-1 id="RM0000010RG00ZX_01_0002" proc-id="RM21Q0EV__000019I00000">
+<ptxt>INSTALL CLUTCH RELEASE CYLINDER KIT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the bleeder plug cap to the bleeder plug.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new spring to the bleeder plug.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="CL00672E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Apply lithium soap base glycol grease to areas indicated by the arrows in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new piston to the cylinder body.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the inside of the cylinder body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the push rod to the boot.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the boot (with push rod) to the cylinder body.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W7C0O8X" category="D" type-id="303FD" name-id="AT0031-231" from="201202">
+<name>MANUAL SHIFTING TEST</name>
+<subpara id="RM000000W7C0O8X_z0" proc-id="RM21Q0EV__000018A00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>MANUAL SHIFTING TEST</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Through this test, it can be determined whether the trouble occurs in an electrical circuit or if it is a mechanical problem in the transmission.</ptxt>
+</item>
+<item>
+<ptxt>If any abnormalities are found in the following test, the problem is in the transmission itself.</ptxt>
+</item>
+</list1>
+</atten4>
+<step2>
+<ptxt>Disconnect the connector of the transmission wire.</ptxt>
+<figure>
+<graphic graphicname="C192333" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>It is possible to deactivate the electrical shift control by disconnecting the transmission wire. The gear positions can then be changed mechanically with the shift lever.</ptxt>
+</atten4>
+</step2>
+<step2>
+<ptxt>Drive with the transmission wire disconnected. Move the shift lever to each position to check whether the gear position changes as shown in the table below.</ptxt>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Shift Lever Position</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Gear Position</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>D</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>3</ptxt>
+</entry>
+<entry align="left">
+<ptxt>4th</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>2</ptxt>
+</entry>
+<entry align="left">
+<ptxt>3rd</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>L</ptxt>
+</entry>
+<entry align="left">
+<ptxt>1st</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>R</ptxt>
+</entry>
+<entry align="left">
+<ptxt>R</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>P</ptxt>
+</entry>
+<entry align="left">
+<ptxt>P</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Connect the connector of the transmission wire.</ptxt>
+</step2>
+<step2>
+<ptxt>Clear the DTC (see page <xref label="Seep01" href="RM000000W770P9X"/>).</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

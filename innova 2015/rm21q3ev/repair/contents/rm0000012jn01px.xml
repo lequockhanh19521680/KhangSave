@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A811_T005F" variety="T005F">
+<name>AIR CONDITIONING UNIT</name>
+<para id="RM0000012JN01PX" category="A" type-id="30014" name-id="ACFTP-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000012JN01PX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004HJ00000">
+<content3 releasenbr="1">
+<atten4>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (See page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000012JN01PX_01" type-id="01" category="01">
+<s-1 id="RM0000012JN01PX_01_0049" proc-id="RM21Q0EV__00004H500000">
+<ptxt>INSTALL NO. 3 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 3 air duct with the 3 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0001" proc-id="RM21Q0EV__00004GP00000">
+<ptxt>TEMPORARILY INSTALL AIR CONDITIONING UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the air conditioning unit assembly with the bolt and nut.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be sure to support the air conditioning unit assembly when installing it, because failure to do so may cause the bracket of the air conditioning unit assembly to break.</ptxt>
+</item>
+<item>
+<ptxt>When installing the air conditioning unit assembly, eliminate static electricity by touching the vehicle body to prevent the components from being damaged.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0048" proc-id="RM21Q0EV__00004H400000">
+<ptxt>INSTALL NO. 1 COOLER UNIT DRAIN HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 1 cooler unit drain hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0002" proc-id="RM21Q0EV__00004GQ00000">
+<ptxt>INSTALL INSTRUMENT PANEL REINFORCEMENT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Manual Transmission:</ptxt>
+<ptxt>Install the instrument panel reinforcement with the 9 bolts.</ptxt>
+<torque>
+<subtitle>for bolt A</subtitle>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+<subtitle>for bolt B</subtitle>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>for Automatic Transmission:</ptxt>
+<ptxt>Install the instrument panel reinforcement with the 8 bolts.</ptxt>
+<torque>
+<subtitle>for bolt A</subtitle>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+<subtitle>for bolt B</subtitle>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="E231889E03" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>for Manual Transmission</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bolt A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bolt B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Temporarily install the 3 bolts.</ptxt>
+<figure>
+<graphic graphicname="E231888" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 12 clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the grommet to the vehicle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the ground wires to the instrument panel reinforcement with the 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<ptxt>Attach the clip and connect the connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<ptxt>Attach the clip and connect the connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the clamp and connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0037" proc-id="RM21Q0EV__00004H000000">
+<ptxt>INSTALL ECM</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000VW002DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0058" proc-id="RM21Q0EV__00004H700000">
+<ptxt>INSTALL AIR CONDITIONING DUCT SUB-ASSEMBLY (for Automatic Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the air conditioning duct sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0051" proc-id="RM21Q0EV__00004H600000">
+<ptxt>INSTALL AIR CONDITIONING UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten the 3 bolts in the order shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="E233030E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Temporarily install the screw.</ptxt>
+<figure>
+<graphic graphicname="E233031" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tighten the bolt and nut in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E231891E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0010" proc-id="RM21Q0EV__00004GR00000">
+<ptxt>INSTALL NO. 1 INSTRUMENT PANEL BRACE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the driver side junction block with the 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 1 instrument panel brace sub-assembly with the nut and bolt.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the screw.</ptxt>
+<figure>
+<graphic graphicname="E233031" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0073" proc-id="RM21Q0EV__00004HC00000">
+<ptxt>INSTALL NO. 4 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the No. 4 air duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0074" proc-id="RM21Q0EV__00004HD00000">
+<ptxt>INSTALL NO. 2 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the No. 2 air duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0075" proc-id="RM21Q0EV__00004HE00000">
+<ptxt>INSTALL NO. 1 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the No. 1 air duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0032" proc-id="RM21Q0EV__00004GZ00000">
+<ptxt>INSTALL STEERING COLUMN ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000138001BX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0014" proc-id="RM21Q0EV__00004GV00000">
+<ptxt>INSTALL LOWER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NFQ00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0046" proc-id="RM21Q0EV__00004H200000">
+<ptxt>INSTALL DEFROSTER NOZZLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws to install the defroster nozzle assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0072" proc-id="RM21Q0EV__00004HB00000">
+<ptxt>INSTALL NO. 5 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the No. 5 heater to register duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0013" proc-id="RM21Q0EV__00004GU00000">
+<ptxt>INSTALL NO. 2 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the No. 2 heater to register duct.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0012" proc-id="RM21Q0EV__00004GT00000">
+<ptxt>INSTALL NO. 1 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the No. 1 heater to register duct.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0011" proc-id="RM21Q0EV__00004GS00000">
+<ptxt>INSTALL NO. 3 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 4 claws to install the No. 3 heater to register duct.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0015" proc-id="RM21Q0EV__00004GW00000">
+<ptxt>INSTALL UPPER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEM00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0076" proc-id="RM21Q0EV__00004HF00000">
+<ptxt>CONNECT HEATER WATER OUTLET HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225470E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Connect the heater water outlet hose and attach the clip.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Acceptable Range</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2 to 40°</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0077" proc-id="RM21Q0EV__00004HG00000">
+<ptxt>CONNECT HEATER WATER INLET HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225471E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Connect the heater water inlet hose and attach the clip.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Acceptable Range</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2 to 40°</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0018" proc-id="RM21Q0EV__00004GX00000">
+<ptxt>CONNECT AIR CONDITIONING TUBE AND ACCESSORY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the vinyl tape attached to the air conditioning tube and accessory assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Sufficiently apply compressor oil to a new O-ring and the fitting surface of the air conditioning tube and accessory assembly.</ptxt>
+<spec>
+<title>Compressor oil</title>
+<specitem>
+<ptxt>ND-OIL 8 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the O-ring to the air conditioning tube and accessory assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the air conditioning tube and accessory assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0019" proc-id="RM21Q0EV__00004GY00000">
+<ptxt>CONNECT SUCTION HOSE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the vinyl tape attached to the suction hose sub-assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Sufficiently apply compressor oil to a new O-ring and the fitting surface of the suction hose sub-assembly.</ptxt>
+<spec>
+<title>Compressor oil</title>
+<specitem>
+<ptxt>ND-OIL 8 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the O-ring to the suction hose sub-assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the suction hose sub-assembly and attach the piping clamp.</ptxt>
+<atten4>
+<ptxt>After the connection, check that the claw of the piping clamp is attached.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0043" proc-id="RM21Q0EV__00004H100000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000012JN01PX_01_0078" proc-id="RM21Q0EV__000005L00000">
+<ptxt>ADD ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten all the plugs and fill the radiator with TOYOTA Super Long Life Coolant (SLLC).</ptxt>
+<torque>
+<torqueitem>
+<t-value1>130</t-value1>
+<t-value2>1326</t-value2>
+<t-value4>96</t-value4>
+<ptxt> for cylinder block drain cock plug</ptxt>
+</torqueitem>
+</torque>
+<spec>
+<title>Standard Capacity</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Manual Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.8 liters (8.2 US qts, 6.9 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.1 liters (8.6 US qts, 7.1 Imp. qts)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>TOYOTA vehicles are filled with TOYOTA SLLC at the factory. In order to avoid damage to the engine cooling system and other technical problems, only use TOYOTA SLLC or similar high quality ethylene glycol based non-silicate, non-amine, non-nitrite, non-borate coolant with long-life hybrid organic acid technology (coolant with long-life hybrid organic acid technology is a combination of low phosphates and organic acids).</ptxt>
+</item>
+<item>
+<ptxt>Please contact your TOYOTA dealer for further details.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<ptxt>Never use water as a substitute for engine coolant.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Fill the radiator reservoir with TOYOTA SLLC to the F line.</ptxt>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand, and then check the level of the coolant.</ptxt>
+<ptxt>If the coolant level drops below the F line, add TOYOTA SLLC to the F line.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Bleed air from the cooling system.</ptxt>
+<s3>
+<ptxt>Warm up the engine until the thermostat opens.</ptxt>
+<ptxt>While the thermostat is open, circulate the coolant for several minutes.</ptxt>
+</s3>
+<s3>
+<ptxt>Maintain the engine speed at 2,500 to 3,000 rpm.</ptxt>
+</s3>
+<s3>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand to bleed air.</ptxt>
+<atten2>
+<title>When pressing the radiator hoses:</title>
+<list1 type="unordered">
+<item>
+<ptxt>Wear protective gloves.</ptxt>
+</item>
+<item>
+<ptxt>Be careful as the radiator hoses are hot.</ptxt>
+</item>
+<item>
+<ptxt>Keep your hands away from the radiator fan.</ptxt>
+</item>
+</list1>
+</atten2>
+</s3>
+</s2>
+<s2>
+<ptxt>Stop the engine and wait until the coolant cools down to ambient temperature.</ptxt>
+<atten2>
+<ptxt>Do not remove the radiator cap while the engine and radiator are still hot. Pressurized, hot engine coolant and steam may be released and cause serious burns.</ptxt>
+</atten2>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the coolant level in the radiator reservoir.</ptxt>
+<ptxt>If the coolant level is below the L line, add SLLC up to the reservoir F line.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JN01PX_01_0068" proc-id="RM21Q0EV__00001VR00000">
+<ptxt>CHARGE REFRIGERANT
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="I100449E03" width="7.106578999in" height="7.795582503in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09985-20010</s-number>
+<s-subnumber>09985-02130</s-subnumber>
+<s-subnumber>09985-02150</s-subnumber>
+<s-subnumber>09985-02090</s-subnumber>
+<s-subnumber>09985-02110</s-subnumber>
+<s-subnumber>09985-02010</s-subnumber>
+<s-subnumber>09985-02050</s-subnumber>
+<s-subnumber>09985-02060</s-subnumber>
+<s-subnumber>09985-02070</s-subnumber>
+</sstitem>
+</sst>
+<s2>
+<ptxt>Perform vacuum purging using a vacuum pump.</ptxt>
+</s2>
+<s2>
+<ptxt>Charge refrigerant HFC-134a (R134a).</ptxt>
+<spec>
+<title>Standard</title>
+<specitem>
+<ptxt>750 +/-30 g (26.45 +/-1.05 oz.)</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="E209507E03" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Amount to be charged</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Charge 100 g (3.53 oz)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mean value in proper range</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Point where bubbles disappear</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overcharged</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*f</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*g</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sub-cool system</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*h</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Refrigerant amount</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not operate the cooler compressor before charging refrigerant as the cooler compressor will not work properly without any refrigerant, and will overheat.</ptxt>
+</item>
+<item>
+<ptxt>The system may need to be charged with approximately 100 g (3.53 oz) of refrigerant after bubbles disappear. The refrigerant amount should be checked by measuring its quantity, and not with the sight glass.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JN01PX_01_0069" proc-id="RM21Q0EV__00001VS00000">
+<ptxt>WARM UP ENGINE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up the engine at less than 1850 rpm for 2 minutes or more after charging the refrigerant.</ptxt>
+<atten3>
+<ptxt>Be sure to warm up the compressor when turning the A/C switch is on after removing and installing the cooler refrigerant lines (including the compressor), to prevent damage to the compressor.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JN01PX_01_0079" proc-id="RM21Q0EV__00000GZ00000">
+<ptxt>CHECK FOR ENGINE COOLANT LEAKS
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check for engine coolant leaks (see page <xref label="Seep01" href="RM000001454018X_01_0001"/>).</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JN01PX_01_0070" proc-id="RM21Q0EV__00001VT00000">
+<ptxt>CHECK FOR REFRIGERANT GAS LEAK
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>After recharging the refrigerant gas, check for refrigerant gas leakage using a halogen leak detector.</ptxt>
+</s2>
+<s2>
+<ptxt>Perform the operation under these conditions:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Stop the engine.</ptxt>
+</item>
+<item>
+<ptxt>Secure good ventilation (the halogen leak detector may react to volatile gases other than refrigerant, such as evaporated gasoline or exhaust gas).</ptxt>
+</item>
+<item>
+<ptxt>Repeat the test 2 or 3 times.</ptxt>
+</item>
+<item>
+<ptxt>Make sure that some refrigerant remains in the refrigeration system. When compressor is off: approximately 392 to 588 kPa (4.0 to 6.0 kgf/cm<sup>2</sup>, 57 to 85 psi).</ptxt>
+</item>
+</list1>
+</s2>
+<s2>
+<ptxt>Using a halogen leak detector, check the refrigerant line for leakage.</ptxt>
+<figure>
+<graphic graphicname="E225096E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>If a gas leak is not detected from the drain hose, remove the blower motor control (blower resistor) from the cooling unit. Insert the halogen leak detector sensor into the unit and check for gas leakage.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the pressure switch connector and wait for approximately 20 minutes. Bring the halogen leak detector close to the pressure switch and check for gas leakage.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Halogen Leak Detector</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Check for Leakage</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JN01PX_01_0047" proc-id="RM21Q0EV__00004H300000">
+<ptxt>CHECK SRS WARNING LIGHT (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000YVX010X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

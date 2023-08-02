@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YC_T002Q" variety="T002Q">
+<name>FUEL INJECTOR</name>
+<para id="RM000000YL9011X" category="G" type-id="3001K" name-id="FU8SC-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000000YL9011X_01" type-id="01" category="01">
+<s-1 id="RM000000YL9011X_01_0001" proc-id="RM21Q0EV__00000NZ00000">
+<ptxt>INSPECT INJECTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance between the terminals.</ptxt>
+<figure>
+<graphic graphicname="G037919E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>11.6 to 12.4 Ω at 20°C (68°F)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the injector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YL9011X_01_0002" proc-id="RM21Q0EV__00000O000000">
+<ptxt>INSPECT INJECTION VOLUME AND LEAKAGE</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>This test involves high-pressure fuel and electricity.</ptxt>
+</item>
+<item>
+<ptxt>Take every precaution regarding safe handling of both the fuel and the electrical parts.</ptxt>
+</item>
+<item>
+<ptxt>Perform this test in a safe area, and avoid any sparks or flame.</ptxt>
+</item>
+<item>
+<ptxt>Do not smoke.</ptxt>
+</item>
+</list1>
+</atten2>
+<s2>
+<ptxt>Assemble SST as shown in the illustration.</ptxt>
+<sst>
+<sstitem>
+<s-number>09268-31014</s-number>
+<s-subnumber>09268-41091</s-subnumber>
+<s-subnumber>09268-41120</s-subnumber>
+<s-subnumber>09268-41500</s-subnumber>
+<s-subnumber>09268-41700</s-subnumber>
+<s-subnumber>95336-08070</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A269129E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Discharge the fuel system pressure (see page <xref label="Seep02" href="RM000000YLB015X_01_0001"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 1 fuel hose from the fuel filter (See page <xref label="Seep03" href="RM000000YL401EX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the fuel pressure regulator from the fuel delivery pipe (See page <xref label="Seep04" href="RM000000YLE015X"/>).</ptxt>
+<atten3>
+<ptxt>Do not disconnect the No. 2 fuel hose from the fuel pressure regulator.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect SST to the fuel filter.</ptxt>
+<sst>
+<sstitem>
+<s-number>09268-31014</s-number>
+<s-subnumber>09268-41500</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A264461E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect SST (union) to the fuel pressure regulator with the 2 bolts.</ptxt>
+<sst>
+<sstitem>
+<s-number>09268-31014</s-number>
+<s-subnumber>09268-41091</s-subnumber>
+<s-subnumber>09268-41700</s-subnumber>
+<s-subnumber>95336-08070</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A264462E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the O-ring to the injector.</ptxt>
+</s2>
+<s2>
+<ptxt>Assemble SST as shown in the illustration.</ptxt>
+<sst>
+<sstitem>
+<s-number>09268-31014</s-number>
+<s-subnumber>09268-41110</s-subnumber>
+<s-subnumber>09268-41310</s-subnumber>
+<s-subnumber>09268-41700</s-subnumber>
+<s-subnumber>95336-08070</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A264463E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Make sure that SST (adapter) and SST (clamp) are not loose and do not rattle.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Pass SST (tie band) through the loop on the handle of SST (clamp) to secure SST (clamp) to SSE (adapter).</ptxt>
+<sst>
+<sstitem>
+<s-number>09268-31014</s-number>
+<s-subnumber>09268-41800</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A264464E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>As SST (tie band) does not completely prevent SST (clamp) from becoming loose, do not subject the parts to any impacts while using them.</ptxt>
+</item>
+<item>
+<ptxt>Before using SST (tie band), make sure that there is no deterioration, damage or cracks. If there are any abnormalities, replace SST.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>When removing SST (tie band), disengage the lock.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Check that SST (clamp) and SST (adapter) cannot be easily separated.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a vinyl tube to the injector.</ptxt>
+<atten2>
+<ptxt>Install a suitable vinyl tube to the injector to contain any gasoline spray.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Put the injector into a graduated cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Operate the fuel pump.</ptxt>
+<s3>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+<atten3>
+<ptxt>Do not start the engine.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Push the intelligent tester on.</ptxt>
+</s3>
+<s3>
+<ptxt>Select the Active Test and enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Fuel Pump / Speed.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Connect SST (wire) to the injector and battery for 15 seconds and measure the injection volume with the graduated cylinder. Test each injector 2 or 3 times.</ptxt>
+<sst>
+<sstitem>
+<s-number>09842-30080</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A264465E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard injection volume</title>
+<specitem>
+<ptxt>76 to 91 cc (4.6 to 5.6 cu. in.) per 15 seconds</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard difference between each injector</title>
+<specitem>
+<ptxt>15 cc (0.9 cu. in.) or less</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure that SST (EFI inspection wire H) is securely connected.</ptxt>
+</item>
+<item>
+<ptxt>Always do the switching at the battery side.</ptxt>
+</item>
+</list1>
+</atten3>
+<ptxt>If the result is not as specified, replace the injector.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the fuel leakage.</ptxt>
+<s3>
+<ptxt>In the condition above, disconnect the test probes of SST (wire) from the battery and check the fuel leakage rate from the injector.</ptxt>
+<figure>
+<graphic graphicname="A087750E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard fuel drop</title>
+<specitem>
+<ptxt>1 drop or less per 12 minutes</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

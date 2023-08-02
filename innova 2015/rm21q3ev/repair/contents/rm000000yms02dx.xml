@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y7_T002L" variety="T002L">
+<name>ENGINE ASSEMBLY</name>
+<para id="RM000000YMS02DX" category="A" type-id="80001" name-id="EMBF0-02" from="201303" to="201403">
+<name>REMOVAL</name>
+<subpara id="RM000000YMS02DX_01" type-id="01" category="01">
+<s-1 id="RM000000YMS02DX_01_0059" proc-id="RM21Q0EV__00000IJ00000">
+<ptxt>DISCHARGE FUEL SYSTEM PRESSURE
+</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not disconnect any part of the fuel system until you have discharged the fuel system pressure.</ptxt>
+</item>
+<item>
+<ptxt>Even after discharging the fuel pressure, place a cloth or equivalent over fittings as you separate them to reduce the risk of fuel spray on yourself or in the engine compartment.</ptxt>
+</item>
+</list1>
+</atten2>
+<s2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Remove the front driver side scuff plate.</ptxt>
+<s3>
+<ptxt>Using a screwdriver, detach the 7 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Using a clip remover, detach the 3 clips and remove the scuff plate.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Turn up the floor carpet and disconnect the joining connector, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A116042" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>This connector has the lines of the fuel pump and rear speed sensor.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. After the engine has stopped on its own, turn the ignition switch OFF.</ptxt>
+<atten4>
+<ptxt>DTCs C0210/33 and C0215/34 (rear speed sensor circuit) and DTC P0171/25 (system too lean) may be set.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Crank the engine again, and then check that the engine does not start.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the fuel tank cap, and then discharge the pressure in the fuel tank completely.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the fuel pump connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front driver side scuff plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Clear the DTCs (see page <xref label="Seep01" href="RM000000ZPW01AX"/>).</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0002" proc-id="RM21Q0EV__00000HQ00001">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0071" proc-id="RM21Q0EV__000005U00000">
+<ptxt>DRAIN ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the cylinder block drain cock plug and radiator drain cock plug, and then drain the coolant.</ptxt>
+<atten4>
+<ptxt>Collect the coolant in a container and dispose of it according to the regulations in your area.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="A113302E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0109" proc-id="RM21Q0EV__00000J100000">
+<ptxt>DRAIN ENGINE OIL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the oil filler cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the oil drain plug and drain the oil into a container.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0114" proc-id="RM21Q0EV__00000J400000">
+<ptxt>DRAIN MANUAL TRANSMISSION OIL (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the drain plug and gasket to drain the oil.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0116" proc-id="RM21Q0EV__00000ZO00000">
+<ptxt>DRAIN AUTOMATIC TRANSMISSION FLUID (for Automatic Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the drain plug and gasket, and drain the ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>286</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0006" proc-id="RM21Q0EV__00000HR00001">
+<ptxt>REMOVE INTAKE AIR CONNECTOR AND AIR CLEANER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099871E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the MAF meter connector and wire harness clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the hose clamp and remove the 4 bolts, air cleaner and intake air connector assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0105" proc-id="RM21Q0EV__00003QM00000">
+<ptxt>REMOVE RADIATOR GRILLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 clips.</ptxt>
+<figure>
+<graphic graphicname="B280893" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Put protective tape around the radiator grille.</ptxt>
+<figure>
+<graphic graphicname="B280907E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Detach the 8 claws and remove the radiator grille.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0008">
+<ptxt>DISCONNECT RADIATOR INLET HOSE</ptxt>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0009">
+<ptxt>DISCONNECT RADIATOR OUTLET HOSE</ptxt>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0061" proc-id="RM21Q0EV__000005F00001">
+<ptxt>REMOVE DRIVE BELT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and decrease the tension in the drive belt. Then remove the drive belt.</ptxt>
+<figure>
+<graphic graphicname="A099194E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>When removing the drive belt, do not use the idle pulley's bolt.</ptxt>
+</atten3>
+<atten4>
+<ptxt>After removing the drive belt, move the tensioner upward to the maximum position.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0073" proc-id="RM21Q0EV__00000IO00000">
+<ptxt>REMOVE FAN SHROUD
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099963E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the reservoir hose from the radiator tank upper.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the 4 nuts holding the fluid coupling fan.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the drive belt (see page <xref label="Seep01" href="RM000000YMP01TX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts holding the fan shroud.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts holding the fluid coupling fan, and then remove the shroud together with the coupling fan.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the radiator core.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the fan pulley from the water pump.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0012">
+<ptxt>REMOVE FAN PULLEY</ptxt>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0117" proc-id="RM21Q0EV__00000RV00000">
+<ptxt>DISCONNECT OIL COOLER INLET HOSE (for Automatic Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the oil cooler inlet hose from the radiator.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0118" proc-id="RM21Q0EV__00000RW00000">
+<ptxt>DISCONNECT OIL COOLER OUTLET HOSE (for Automatic Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the oil cooler outlet hose from the radiator.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0074" proc-id="RM21Q0EV__00000IP00000">
+<ptxt>REMOVE RADIATOR ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A110375" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Disconnect the 2 front airbag sensor connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a clip remover, detach the 4 clamps from the radiator side as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Tape the clip remover tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099640E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 4 bolts and radiator.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0014" proc-id="RM21Q0EV__00000HS00001">
+<ptxt>DISCONNECT HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the vacuum hose from the intake manifold.</ptxt>
+<figure>
+<graphic graphicname="G039232E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the hose from the purge VSV.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0063" proc-id="RM21Q0EV__00000IK00000">
+<ptxt>DISCONNECT FUEL HOSE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 2 fuel hose from the pressure regulator.</ptxt>
+<figure>
+<graphic graphicname="A111732E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 1 fuel hose from the pulsation damper.</ptxt>
+<s3>
+<ptxt>Detach the lock claw by lifting up the cover, as shown in the illustration.</ptxt>
+</s3>
+<s3>
+<ptxt>Check for foreign matter on the pipe and around the connector before disconnecting. Clean if necessary.</ptxt>
+</s3>
+<s3>
+<ptxt>If the connector and the pipe are stuck together, pinch the connector, and push and pull the pipe to disconnect them.</ptxt>
+<figure>
+<graphic graphicname="A088336E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not use any tools in this procedure.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Check for foreign matter on the seal surface of the disconnected pipe. Clean if necessary.</ptxt>
+</s3>
+<s3>
+<ptxt>To protect the disconnected pipe and connector from damage and contamination, cover it with a plastic bag.</ptxt>
+<figure>
+<graphic graphicname="A099427E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0017" proc-id="RM21Q0EV__00000HT00001">
+<ptxt>DISCONNECT ENGINE WIRE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A111959" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the ECM connectors from the cabin.</ptxt>
+<s3>
+<ptxt>Remove the glove compartment door.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the 4 ECM connectors.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the bolt and clamp, and disconnect the ground wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and disconnect the ground wire from the frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull out the engine wire from the cabin.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the engine room relay block cover (upper).</ptxt>
+<figure>
+<graphic graphicname="G038830E06" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the engine room relay block cover (side).</ptxt>
+<s3>
+<ptxt>Using a screwdriver, detach the 4 claws and remove the relay block cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the cable from the engine room junction block.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 2 engine room junction block connectors and disconnect the wire clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and disconnect the wire clamp from the front engine mounting bracket LH.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and disconnect the sensor clamp.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0018" proc-id="RM21Q0EV__00000HU00001">
+<ptxt>DISCONNECT VANE PUMP</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099199E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the oil pressure switch connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and disconnect the vane pump from the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Support the vane pump securely.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0104">
+<ptxt>REMOVE OIL DIPSTICK</ptxt>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0064" proc-id="RM21Q0EV__00000IL00001">
+<ptxt>REMOVE OIL DIPSTICK GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, dipstick guide and O-ring.</ptxt>
+<atten4>
+<ptxt>Cover the dipstick guide hole to prevent foreign matter from entering it.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0021" proc-id="RM21Q0EV__00000HV00001">
+<ptxt>DISCONNECT COOLER COMPRESSOR FROM ENGINE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the compressor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and disconnect the suction hose from the engine.</ptxt>
+<figure>
+<graphic graphicname="A099198E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts and disconnect the compressor from the engine.</ptxt>
+<figure>
+<graphic graphicname="A099200E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Support the cooler compressor securely.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0022" proc-id="RM21Q0EV__00000HW00001">
+<ptxt>REMOVE HOOD ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099870E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the washer nozzle hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts and hood.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0097" proc-id="RM21Q0EV__00000IU00001">
+<ptxt>REMOVE WINDSHIELD WIPER MOTOR AND LINK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the wiper motor and link assembly from the vehicle (see page <xref label="Seep01" href="RM00000114B01AX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0098" proc-id="RM21Q0EV__00000IV00001">
+<ptxt>REMOVE COWL PANEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 9 bolts and cowl panel.</ptxt>
+<figure>
+<graphic graphicname="A099201E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0075" proc-id="RM21Q0EV__00000IQ00000">
+<ptxt>REMOVE FRONT EXHAUST PIPE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and 2 compression springs.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the front pipe from the outlet pipe and remove the gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the front pipe from the pipe support.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0106" proc-id="RM21Q0EV__000046A00000">
+<ptxt>REMOVE PROPELLER SHAFT WITH CENTER BEARING ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place matchmarks on the propeller shaft flange and differential flange.</ptxt>
+<figure>
+<graphic graphicname="C119752E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts, 4 bolts and 4 washers, and disconnect the propeller shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and 2 plates from the frame crossmember.</ptxt>
+<figure>
+<graphic graphicname="A098693E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Pull out the propeller shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install SST to the extension housing to prevent oil leakage.</ptxt>
+<sst>
+<sstitem>
+<s-number>09325-40010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C098710E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0079" proc-id="RM21Q0EV__000005W00000">
+<ptxt>REMOVE STARTER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the starter connector.</ptxt>
+<figure>
+<graphic graphicname="G039040E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the starter wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and starter.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0091" proc-id="RM21Q0EV__00000IS00000">
+<ptxt>REMOVE CLUTCH RELEASE CYLINDER (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C113783" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and clutch release cylinder.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0099" proc-id="RM21Q0EV__00000IW00000">
+<ptxt>REMOVE MANUAL TRANSMISSION UNIT (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C168651" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a transmission jack, support the transmission.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the support stand from the rear side.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts and transmission.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0112" proc-id="RM21Q0EV__00000J200001">
+<ptxt>REMOVE AUTOMATIC TRANSMISSION ASSEMBLY (for Automatic Transmission)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the automatic transmission (See page <xref label="Seep01" href="RM0000010NV01TX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0107" proc-id="RM21Q0EV__00000IZ00000">
+<ptxt>REMOVE CLUTCH COVER (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029616E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place matchmarks on the clutch cover and flywheel.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen each set bolt one turn at a time until spring tension is released.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 6 set bolts and pull off the clutch cover.</ptxt>
+<atten3>
+<ptxt>Do not drop the clutch disc.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0108" proc-id="RM21Q0EV__00000J000000">
+<ptxt>REMOVE CLUTCH DISC (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Keep the lining part of the clutch disc, pressure plate and surface of the flywheel away from oil and foreign matter.</ptxt>
+</atten3>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0096" proc-id="RM21Q0EV__00000IT00001">
+<ptxt>REMOVE FLYWHEEL (for Manual Transmission)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fix the crankshaft in place with SST.</ptxt>
+<figure>
+<graphic graphicname="A099210E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09213-54015</s-number>
+<s-subnumber>91651-60855</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the 10 bolts and flywheel.</ptxt>
+<figure>
+<graphic graphicname="G035062E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0113" proc-id="RM21Q0EV__00000J300001">
+<ptxt>REMOVE DRIVE PLATE AND RING GEAR SUB-ASSEMBLY (for Automatic Transmission)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fix the crankshaft in place with SST.</ptxt>
+<figure>
+<graphic graphicname="A099210E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09213-54015</s-number>
+<s-subnumber>91651-60855</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the 10 bolts, rear spacer, drive plate and front spacer.</ptxt>
+<figure>
+<graphic graphicname="A099868E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0032" proc-id="RM21Q0EV__00000HY00001">
+<ptxt>REMOVE REAR END PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and rear end plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0028" proc-id="RM21Q0EV__00000HX00001">
+<ptxt>REMOVE ENGINE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 engine hangers as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099202E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Part No.</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Engine hanger</ptxt>
+</entry>
+<entry align="center">
+<ptxt>12281-0C010</ptxt>
+</entry>
+</row>
+<row>
+<entry align="center">
+<ptxt>Bolt</ptxt>
+</entry>
+<entry align="center">
+<ptxt>90105-T0129</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the engine sling device and chain block to the engine hangers.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts and 4 nuts holding the engine mounting bracket and frame.</ptxt>
+<figure>
+<graphic graphicname="G036026E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Lift the engine out of the vehicle slowly and carefully.</ptxt>
+<figure>
+<graphic graphicname="A099869E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Make sure to disconnect all the wires, hoses and cables from the engine. Keep the disconnected wires, hoses and cables off of the engine.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0033" proc-id="RM21Q0EV__00000HZ00001">
+<ptxt>INSTALL ENGINE TO ENGINE STAND</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place the engine assembly onto the stand.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0034" proc-id="RM21Q0EV__00000I000001">
+<ptxt>REMOVE IGNITION COIL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the 4 ignition coil connectors, and remove the 4 bolts and 4 ignition coils.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0119" proc-id="RM21Q0EV__00003IC00000">
+<ptxt>REMOVE SPARK PLUG
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 16 mm spark plug wrench, remove the 4 spark plugs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0036" proc-id="RM21Q0EV__00000I100001">
+<ptxt>REMOVE VENTILATION PIPE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and ventilation pipe.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0085" proc-id="RM21Q0EV__00000IR00001">
+<ptxt>REMOVE GENERATOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099681E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut, bolt and generator wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the generator connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and generator.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0038" proc-id="RM21Q0EV__00000I200001">
+<ptxt>REMOVE ENGINE WIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the oil pressure sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the noise filter connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the camshaft position sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 4 injector connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the crankshaft position sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the oil control valve connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the throttle body connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the engine coolant temperature sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the knock sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the wire harness from the clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and wire harness from the engine.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0086" proc-id="RM21Q0EV__000005X00000">
+<ptxt>REMOVE THROTTLE BODY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the throttle position sensor and control motor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 2 water by-pass hoses.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A086829E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 bolts, 2 nuts and throttle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the gasket.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0065" proc-id="RM21Q0EV__00000IM00000">
+<ptxt>REMOVE FUEL DELIVERY PIPE
+</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Be careful not to drop the injectors when removing the delivery pipe.</ptxt>
+</atten3>
+<s2>
+<ptxt>Disconnect the 4 clamps and wire harness from the delivery pipe.</ptxt>
+<figure>
+<graphic graphicname="G038846E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 4 injector connectors.</ptxt>
+<figure>
+<graphic graphicname="G036024E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and delivery pipe together with the 4 injectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Using 2 screwdrivers, pry out the 4 spacers from the cylinder head.</ptxt>
+<figure>
+<graphic graphicname="G038847E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tips before use.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0066" proc-id="RM21Q0EV__00000IN00000">
+<ptxt>REMOVE INJECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pull out the 4 injectors from the delivery pipe.</ptxt>
+<figure>
+<graphic graphicname="G034904E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the insulator and O-ring from each injector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0042" proc-id="RM21Q0EV__00000I300001">
+<ptxt>REMOVE INTAKE MANIFOLD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the crankshaft position sensor from the clamp.</ptxt>
+<figure>
+<graphic graphicname="G036020E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 5 bolts, 2 nuts, intake manifold and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0043" proc-id="RM21Q0EV__00000I400001">
+<ptxt>REMOVE EXHAUST MANIFOLD HEAT INSULATOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 5 bolts and heat insulator.</ptxt>
+<figure>
+<graphic graphicname="A099875E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0044" proc-id="RM21Q0EV__00000I500001">
+<ptxt>REMOVE EXHAUST MANIFOLD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 6 nuts, exhaust manifold and gasket.</ptxt>
+<figure>
+<graphic graphicname="A099195E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0120" proc-id="RM21Q0EV__00005P500000">
+<ptxt>REMOVE IDLE PULLEY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Loosen the bolt, and then remove the idle pulley assembly.</ptxt>
+<figure>
+<graphic graphicname="A329590" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>The bolt in the illustration cannot be removed from the idle pulley assembly.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0045" proc-id="RM21Q0EV__00000I600001">
+<ptxt>REMOVE NO. 1 COMPRESSOR MOUNTING BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 5 bolts and No. 1 compressor mounting bracket.</ptxt>
+<figure>
+<graphic graphicname="A099203E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0046" proc-id="RM21Q0EV__00000I700001">
+<ptxt>REMOVE V-RIBBED BELT TENSIONER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 bolts and belt tensioner.</ptxt>
+<figure>
+<graphic graphicname="G035081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0047" proc-id="RM21Q0EV__00000I800001">
+<ptxt>REMOVE WATER INLET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, 2 nuts, water inlet and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0048" proc-id="RM21Q0EV__00000I900001">
+<ptxt>REMOVE THERMOSTAT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the thermostat and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0049" proc-id="RM21Q0EV__00000IA00001">
+<ptxt>REMOVE NO. 1 IDLER PULLEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, pulley plate, idler pulley and spacer.</ptxt>
+<figure>
+<graphic graphicname="G035185E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0050" proc-id="RM21Q0EV__00000IB00001">
+<ptxt>REMOVE OIL PRESSURE SWITCH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 24 mm deep socket wrench, remove the oil pressure switch.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0051" proc-id="RM21Q0EV__00000IC00001">
+<ptxt>REMOVE NO. 1 WATER BY-PASS PIPE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 nuts, bolt, No. 1 water by-pass pipe and gasket.</ptxt>
+<figure>
+<graphic graphicname="A289213" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0052" proc-id="RM21Q0EV__00000ID00001">
+<ptxt>REMOVE KNOCK SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0053" proc-id="RM21Q0EV__00000IE00001">
+<ptxt>REMOVE ENGINE COOLANT TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 19 mm deep socket wrench, remove the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0054" proc-id="RM21Q0EV__00000IF00001">
+<ptxt>REMOVE CAMSHAFT POSITION SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, sensor and O-ring.</ptxt>
+<figure>
+<graphic graphicname="G035088E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0087" proc-id="RM21Q0EV__000005E00000">
+<ptxt>REMOVE CRANKSHAFT POSITION SENSOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099147E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector from the connector bracket.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the harness clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and sensor.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMS02DX_01_0056" proc-id="RM21Q0EV__00000IG00001">
+<ptxt>REMOVE CAMSHAFT TIMING OIL CONTROL VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, oil control valve and O-ring.</ptxt>
+<figure>
+<graphic graphicname="A099883E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0057" proc-id="RM21Q0EV__00000IH00001">
+<ptxt>REMOVE FRONT ENGINE MOUNTING BRACKET RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 bolts and mounting bracket.</ptxt>
+<figure>
+<graphic graphicname="A099873E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMS02DX_01_0058" proc-id="RM21Q0EV__00000II00001">
+<ptxt>REMOVE FRONT ENGINE MOUNTING BRACKET LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 bolts and mounting bracket.</ptxt>
+<figure>
+<graphic graphicname="A099872E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

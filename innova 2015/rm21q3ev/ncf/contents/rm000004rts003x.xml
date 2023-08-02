@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12056_S000W" variety="S000W">
+<name>SUPPLEMENTAL RESTRAINT SYSTEMS</name>
+<ttl id="12056_S000W_7AI9F_T000N" variety="T000N">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000004RTS003X" category="F" type-id="8048Z" name-id="RSCH8-04" from="201202" to="201403">
+<name>DETAILS</name>
+<subpara id="RM000004RTS003X_z0" proc-id="NM21Q0EV__000001T00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<step2>
+<ptxt>The main components in the airbag system have the following functions:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Center Airbag Sensor Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The center airbag sensor assembly receives signals from the deceleration sensor, the safing sensor built into the center airbag sensor assembly and one of the front airbag sensors, determines whether the driver airbag and front passenger airbag* should be activated, and diagnoses system malfunctions.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Horn Button Assembly (Driver Side Squib)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>These consist of an inflator, a bag, and so on. The inflator deploys gas in accordance with an expansion signal from the center airbag sensor assembly and deploys the bag.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Instrument Panel Passenger Airbag Assembly*</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Airbag Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The front airbag sensor uses an electrical type deceleration sensor. Based on the deceleration of the vehicle during a frontal collision, a distortion is created in the sensor and converted into an electrical signal. Accordingly, the extent of the initial collision can be detected in detail.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Combination Meter Assembly</ptxt>
+<ptxt>- SRS Warning Light</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The SRS warning light turns on to alert the driver when the center airbag sensor assembly detects a malfunction in the airbag system.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with SRS front passenger airbag</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATING CONDITION</ptxt>
+<step2>
+<ptxt>If the impact of a collision is greater than the specified value, the SRS is activated automatically. The center airbag sensor assembly includes the safing sensor and deceleration sensor. The safing sensor is designed to turn on at a lower deceleration rate than the deceleration sensor.</ptxt>
+<step3>
+<ptxt>In case of a frontal collision, the center airbag sensor assembly determines whether airbag deployment is necessary based on signals from the deceleration sensor and the front airbag sensor. If the safing sensor turns on simultaneously, current flows to the squibs to deploy the SRS components as shown in the illustration below. However, a deployment ignition signal may be output with the deceleration sensor on signal even without a signal from a front airbag sensor.</ptxt>
+<figure>
+<graphic graphicname="Y114393E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>Horn Button Assembly (Driver Side Squib)</ptxt>
+<step3>
+<ptxt>The inflator and bag are built into the horn button assembly.</ptxt>
+<figure>
+<graphic graphicname="Y110272E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bag</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Inflator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A - A Cross Section</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Instrument Panel Passenger Airbag Assembly</ptxt>
+<step3>
+<ptxt>The instrument panel passenger airbag assembly is located in the upper section of the instrument panel of the front passenger seat.</ptxt>
+</step3>
+<step3>
+<ptxt>The instrument panel passenger airbag assembly consists of an inflator and a bag.</ptxt>
+<figure>
+<graphic graphicname="Y112473E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bag</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Inflator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A - A Cross Section</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>SYSTEM CONTROL</ptxt>
+<step2>
+<ptxt>Airbag for Frontal Collision</ptxt>
+<step3>
+<ptxt>There are 2 types of airbags for frontal collisions: horn button assembly (driver side squib) and instrument panel passenger airbag assembly. These airbags deploy simultaneously.</ptxt>
+<figure>
+<graphic graphicname="Y114394E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>DIAGNOSIS</ptxt>
+<step2>
+<ptxt>Summary</ptxt>
+<step3>
+<ptxt>If the center airbag sensor assembly detects a malfunction in the SRS airbag system, the center airbag sensor assembly stores the malfunction data in memory, in addition to illuminating the SRS warning light.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The center airbag sensor assembly outputs the malfunction data as 5-digit Diagnostic Trouble Codes (DTCs) to an intelligent tester II or the SRS warning light.</ptxt>
+<figure>
+<graphic graphicname="Y110280E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</item>
+</list1>
+</step3>
+</step2>
+<step2>
+<ptxt>SRS Airbag System DTCs</ptxt>
+<step3>
+<ptxt>The 5-digit DTCs can be read after connecting an intelligent tester II to the DLC3.</ptxt>
+</step3>
+<step3>
+<ptxt>If the SRS airbag deploys, the center airbag sensor assembly will turn on the SRS warning light. However, in contrast to the ordinary diagnosis function, a DTC will not be stored. The SRS warning light cannot be turned off. It is necessary to replace the center airbag sensor assembly with a new one.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

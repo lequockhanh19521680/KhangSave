@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXQ00VX" category="C" type-id="303MA" name-id="RSDUQ-01" from="201202" to="201303">
+<dtccode>B1800/51</dtccode>
+<dtcname>Short in Driver Side Squib Circuit</dtcname>
+<dtccode>B1801/51</dtccode>
+<dtcname>Open in Driver Side Squib Circuit</dtcname>
+<dtccode>B1802/51</dtccode>
+<dtcname>Short to GND in Driver Side Squib Circuit</dtcname>
+<dtccode>B1803/51</dtccode>
+<dtcname>Short to B+ in Driver Side Squib Circuit</dtcname>
+<subpara id="RM000000YXQ00VX_01" type-id="61" category="03" proc-id="RM21Q0EV__000021K00000">
+<name>SYSTEM DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The driver side squib circuit consists of the center airbag sensor, spiral cable and steering pad. The circuit instructs the SRS to deploy when deployment conditions are met. These DTCs are recorded when a malfunction is detected in the driver side squib circuit.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry>
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>B1800/51</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives line short circuit signal 5 times in driver side squib circuit during primary check</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt> Steering pad (driver squib)</ptxt>
+</item>
+<item>
+<ptxt>Spiral cable</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B1801/51</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives open circuit signal in driver side squib circuit for 2 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt> Steering pad (driver squib)</ptxt>
+</item>
+<item>
+<ptxt>Spiral cable</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B1802/51</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives short circuit to ground signal in driver side squib circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt> Steering pad (driver squib)</ptxt>
+</item>
+<item>
+<ptxt>Spiral cable</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>B1803/51</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives B+ short circuit signal in driver side squib circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt> Steering pad (driver squib)</ptxt>
+</item>
+<item>
+<ptxt>Spiral cable</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000YXQ00VX_02" type-id="32" category="03" proc-id="RM21Q0EV__000021L00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="H101253E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000YXQ00VX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000YXQ00VX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000YXQ00VX_04_0001" proc-id="RM21Q0EV__000021M00000">
+<testtitle>CHECK STEERING PAD</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H101445E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the connectors from the steering pad.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the white wire side of SST (resistance 2.1 Ω) to the spiral cable connector E.</ptxt>
+</test1>
+<sst>
+<sstitem>
+<s-number>09843-18060</s-number>
+</sstitem>
+</sst>
+<atten2>
+<ptxt>Never connect a tester to the steering pad (driver squib) for measurement, as this may lead to a serious injury due to airbag deployment.</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not forcibly insert SST into the terminals of the connector when connecting.</ptxt>
+</item>
+<item>
+<ptxt>Insert SST straight into the terminal of the connector.</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>Connect the cable to the negative (-) battery terminal, and wait for at least 2 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON, and wait for at least 60 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Clear the DTCs stored in memory (see page <xref label="Seep01" href="RM000000YVY00UX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON, and wait for at least 60 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs (see page <xref label="Seep02" href="RM000000YVY00UX"/>).</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>DTC B1800, B1801, B1802, B1803 or 51 is not output.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>DTCs other than DTC B1800, B1801, B1802 or B1803 may be output at this time, but they are not related to this check.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXQ00VX_04_0002" fin="false">NG</down>
+<right ref="RM000000YXQ00VX_04_0035" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXQ00VX_04_0002" proc-id="RM21Q0EV__000021N00000">
+<testtitle>CHECK CONNECTOR</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect SST (resistance 2.1 Ω) from the spiral cable.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the spiral cable connector (on the steering pad side) is not damaged.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Lock button is not disengaged, and claw of lock is not deformed or damaged.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXQ00VX_04_0004" fin="false">OK</down>
+<right ref="RM000000YXQ00VX_04_0029" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXQ00VX_04_0004" proc-id="RM21Q0EV__000021O00000">
+<testtitle>CHECK DRIVER SIDE SQUIB CIRCUIT</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100367E04" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the connectors from the center airbag sensor and steering pad.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the cable to the negative (-) battery terminal, and wait for at least 2 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D+ - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D- - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D+ - D-</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Release the activation prevention mechanism built into connector B (see page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D+ - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D- - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>D+ - D-</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXQ00VX_04_0016" fin="false">NG</down>
+<right ref="RM000000YXQ00VX_04_0031" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXQ00VX_04_0016" proc-id="RM21Q0EV__000021P00000">
+<testtitle>CHECK INSTRUMENT PANEL WIRE</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100372E07" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the instrument panel wire connector from the spiral cable.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the cable to the negative (-) battery terminal, and wait for at least 2 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COLSPEC0" colwidth="2.07in"/>
+<colspec colname="COLSPEC1" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A21-1 (D+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A21-2 (D-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COLSPEC0" colwidth="2.07in"/>
+<colspec colname="COLSPEC1" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A21-1 (D+) - A21-2 (D-)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Release the activation prevention mechanism built into connector B (see page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A21-1 (D+) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A21-2 (D-) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A21-1 (D+) - A21-2 (D-)</ptxt>
+</entry>
+<entry>
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXQ00VX_04_0029" fin="true">OK</down>
+<right ref="RM000000YXQ00VX_04_0037" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXQ00VX_04_0029">
+<testtitle>REPLACE SPIRAL CABLE</testtitle>
+</testgrp>
+<testgrp id="RM000000YXQ00VX_04_0031">
+<testtitle>REPLACE CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXQ00VX_04_0035">
+<testtitle>REPLACE STEERING PAD</testtitle>
+</testgrp>
+<testgrp id="RM000000YXQ00VX_04_0037">
+<testtitle>REPAIR OR REPLACE INSTRUMENT PANEL WIRE</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

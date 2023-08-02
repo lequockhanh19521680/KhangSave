@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AQNQ_T008M" variety="T008M">
+<name>DOOR CONTROL TRANSMITTER</name>
+<para id="RM0000010DZ021X" category="G" type-id="3001K" name-id="DL05P-19" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010DZ021X_01" type-id="01" category="01">
+<s-1 id="RM0000010DZ021X_01_0001" proc-id="RM21Q0EV__000038800000">
+<ptxt>INSPECT DOOR CONTROL TRANSMITTER MODULE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect operation of the transmitter.</ptxt>
+<atten3>
+<ptxt>When replacing the transmitter battery, before starting work, remove static electricity that has built up in the body by touching, for example, the vehicle to prevent the door control transmitter module set from being damaged.</ptxt>
+</atten3>
+<s3>
+<ptxt>Remove the battery (lithium battery) from the transmitter.</ptxt>
+</s3>
+<s3>
+<ptxt>Install a new or non-depleted battery (lithium battery).</ptxt>
+<atten4>
+<ptxt>When a new or non-depleted battery is not available, first connect 2 new 1.5 V batteries in series. Then connect leads to the batteries and use the leads to apply 3 V to the transmitter, as shown in the illustration.</ptxt>
+</atten4>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B084603E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>From outside the vehicle, approximately 1 m (3.28 ft.) from the driver side outside door handle, test the transmitter by pointing its key plate at the vehicle and pressing a transmitter switch.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Door lock can be operated via the transmitter. LED illuminates more than once.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The operating range differs depending on the user, the way the transmitter is held and the location.</ptxt>
+</item>
+<item>
+<ptxt>The transmitter's faint electric waves may be affected if the area has strong electric waves or noise. The transmitter's operating range may be shortened or the transmitter may not function.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the battery capacity.</ptxt>
+<atten3>
+<ptxt>When replacing the transmitter battery, before starting work, remove static electricity that has built up in the body by touching, for example, the vehicle to prevent the door control transmitter module set from being damaged.</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>When checking the amount of energy left in the battery (lithium battery: CR2016), the battery must be checked while it is installed in the transmitter (a resistance of 1.2 kΩ is applied to the battery). When the battery energy is checked by itself (uninstalled), the voltage reading will be more than 2.5 V until the energy is depleted.</ptxt>
+</item>
+<item>
+<ptxt>If the transmitter is malfunctioning, the voltage reading of the energy left in the battery will be inaccurate.</ptxt>
+</item>
+</list1>
+</atten4>
+<s3>
+<ptxt>Remove the battery (lithium battery: CR2016) from the transmitter.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B084604E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect a wire to the negative (-) terminal of the transmitter and install the battery.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the tester's positive (+) lead to the battery (lithium battery: CR2016) and the negative (-) lead to the wire.</ptxt>
+</s3>
+<s3>
+<ptxt>Press one of the transmission switches on the transmitter for approximately 1 second.</ptxt>
+</s3>
+<s3>
+<ptxt>Press the transmission switch on the transmitter again to check the voltage.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<specitem>
+<ptxt>2.2 V or higher</ptxt>
+</specitem>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>When the temperature of the battery is low, the inspection result will not be accurate. When the inspection result is less than 2.2 V, conduct the test again after leaving the battery in a place with a temperature of 18°C (64°F) for more than 30 minutes. </ptxt>
+</item>
+<item>
+<ptxt>Read the voltage immediately after the switch is pressed. When 0.8 seconds have passed after the switch is pressed, the automatic power off function starts and resistance applied to the battery will cease. The voltage of the battery will be 2.5 V or more.</ptxt>
+</item>
+<item>
+<ptxt>Press the switch at least 3 times before reading the voltage. If the battery temperature has just returned to 18°C (64°F), the voltage may be unusually high for the first or second voltage reading.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

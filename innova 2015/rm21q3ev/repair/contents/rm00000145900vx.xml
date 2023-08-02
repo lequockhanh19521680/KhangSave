@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name>
+<ttl id="1000C_S0009_7A7YO_T0032" variety="T0032">
+<name>WATER PUMP</name>
+<para id="RM00000145900VX" category="A" type-id="80001" name-id="CO0GC-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000145900VX_01" type-id="01" category="01">
+<s-1 id="RM00000145900VX_01_0001" proc-id="RM21Q0EV__00000QW00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM00000145900VX_01_0013" proc-id="RM21Q0EV__000005U00000">
+<ptxt>DRAIN ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the cylinder block drain cock plug and radiator drain cock plug, and then drain the coolant.</ptxt>
+<atten4>
+<ptxt>Collect the coolant in a container and dispose of it according to the regulations in your area.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="A113302E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000145900VX_01_0003" proc-id="RM21Q0EV__00000QX00000">
+<ptxt>REMOVE RADIATOR HOSE INLET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the hose from the radiator tank upper and engine.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145900VX_01_0015" proc-id="RM21Q0EV__00000R300000">
+<ptxt>DISCONNECT RADIATOR HOSE OUTLET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the hose from the radiator tank lower.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145900VX_01_0006" proc-id="RM21Q0EV__00000QY00000">
+<ptxt>REMOVE FAN SHROUD</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099963E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the reservoir hose from the radiator tank upper.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the 4 nuts holding the fluid coupling fan.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the drive belt (see page <xref label="Seep01" href="RM000000YMP01TX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts holding the fan shroud.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts of the fluid coupling fan, and then remove the shroud together with the coupling fan.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the radiator core.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the fan pulley from the water pump.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145900VX_01_0014" proc-id="RM21Q0EV__00000IR00000">
+<ptxt>REMOVE GENERATOR ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099681E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut, bolt and generator wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the generator connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and generator.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000145900VX_01_0008" proc-id="RM21Q0EV__00000QZ00000">
+<ptxt>REMOVE OIL DIPSTICK GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and guide.</ptxt>
+<atten4>
+<ptxt>Cover the guide hole to prevent foreign matter from entering it.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145900VX_01_0009" proc-id="RM21Q0EV__00000R000000">
+<ptxt>REMOVE NO. 1 IDLER PULLEY SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099635E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt, pulley plate, pulley and spacer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145900VX_01_0010" proc-id="RM21Q0EV__00000R100000">
+<ptxt>REMOVE V-RIBBED BELT TENSIONER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099636E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 3 bolts and tensioner.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145900VX_01_0011" proc-id="RM21Q0EV__00000R200000">
+<ptxt>REMOVE WATER PUMP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099639E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 10 bolts, water pump and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

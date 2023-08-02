@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A820_T006E" variety="T006E">
+<name>FOG LIGHT ASSEMBLY</name>
+<para id="RM000001GEG01SX" category="N" type-id="3000G" name-id="LE5L9-02" from="201202">
+<name>ADJUSTMENT</name>
+<subpara id="RM000001GEG01SX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004XC00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>If there is a problem with the fog light aim, the cause of the problem may be an incorrectly installed bulb. Therefore, bulb installation should be checked prior to performing the adjustment procedure.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001GEG01SX_01" type-id="01" category="01">
+<s-1 id="RM000001GEG01SX_01_0001" proc-id="RM21Q0EV__00004X800000">
+<ptxt>VEHICLE PREPARATION FOR FOG LIGHT AIMING ADJUSTMENT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Prepare the vehicle:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure that there is no damage or deformation of the body around the fog lights.</ptxt>
+</item>
+<item>
+<ptxt>Fill the fuel tank.</ptxt>
+</item>
+<item>
+<ptxt>Make sure that the oil is filled to the specified level.</ptxt>
+</item>
+<item>
+<ptxt>Make sure that the coolant is filled to the specified level.</ptxt>
+</item>
+<item>
+<ptxt>Inflate the tires to the appropriate pressure.</ptxt>
+</item>
+<item>
+<ptxt>Unload the trunk and vehicle, making sure that the spare tire, tools and jack are also removed.</ptxt>
+</item>
+<item>
+<ptxt>Have a person of average weight (75 kg, 165 lb) sit in the driver seat.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001GEG01SX_01_0002" proc-id="RM21Q0EV__00004X900000">
+<ptxt>PREPARATION FOR FOG LIGHT AIMING (Using a screen)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Prepare the vehicle:</ptxt>
+<figure>
+<graphic graphicname="E227301E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25 m or 3 m (82 ft. or 9.84 ft.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="unordered">
+<item>
+<ptxt>Place the vehicle in a location that is dark enough to clearly observe the cutoff line. The cutoff line is a distinct line, below which light from the fog lights can be observed and above which it cannot.</ptxt>
+</item>
+<item>
+<ptxt>Place the vehicle at a 90° angle to the wall.</ptxt>
+</item>
+<item>
+<ptxt>Create a 25 m (82 ft.) distance between the vehicle (fog light bulb center) and the wall.</ptxt>
+</item>
+<item>
+<ptxt>Make sure that the vehicle is on a level surface.</ptxt>
+</item>
+<item>
+<ptxt>Bounce the vehicle up and down to settle the suspension.</ptxt>
+<atten3>
+<ptxt>A distance of 25 m (82 ft.) between the vehicle and the wall is necessary for proper aim adjustment. If unavailable, secure a distance of exactly 3 m (9.84 ft.). View the part of the illustration below applicable to the distance from the vehicle to the wall.</ptxt>
+</atten3>
+</item>
+</list1>
+</s2>
+<s2>
+<ptxt>Prepare a piece of thick white paper that is approximately 2 m (6.56 ft.) (height) x 4 m (13.1 ft.) (width) to use as a screen.</ptxt>
+</s2>
+<s2>
+<ptxt>Draw a vertical line down the center of the screen (V line).</ptxt>
+</s2>
+<s2>
+<ptxt>Set the screen as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E227302E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Stand the screen perpendicular to the ground.</ptxt>
+</item>
+<item>
+<ptxt>Align the V line on the screen with the center of the vehicle.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Draw base lines (H, V LH and V RH lines) on the screen as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="I033423E22" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>V LH Line</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>V Line</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>V RH Line</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>H Line</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>Mark the fog light bulb center marks on the screen. If the center mark cannot be observed on the fog light, use the center of the fog light bulb or the manufacturer's name marked on the fog light as the center mark.</ptxt>
+</atten4>
+<s3>
+<ptxt>H Line (fog light height):</ptxt>
+<ptxt>Draw a horizontal line across the screen so that it passes through the center marks. The H line should be at the same height as the fog light bulb center marks of the fog lights.</ptxt>
+</s3>
+<s3>
+<ptxt>V LH Line, V RH Line (center mark position of left-hand (LH) and right-hand (RH) fog lights): </ptxt>
+<ptxt>Draw two vertical lines so that they intersect the H line at each center mark.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001GEG01SX_01_0003" proc-id="RM21Q0EV__00004XA00000">
+<ptxt>INSPECT FOG LIGHT AIMING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Cover the fog light or disconnect the connector of the fog light on the opposite side to prevent light from the fog light that is not being inspected from affecting the fog light aiming inspection.</ptxt>
+<atten3>
+<ptxt>Do not keep the fog light covered for more than 3 minutes. The fog light lens is made of synthetic resin, which may melt or be damaged due to excessive heat.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Start the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn on the fog lights and make sure that the cutoff line is within the specified area shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B117629E20" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the alignment distance is 25 m (82 ft.):</ptxt>
+<ptxt>The upper edge of the hot zone for the fog light should be 375 mm (14.8 in.) below the H line.</ptxt>
+</item>
+<item>
+<ptxt>If the alignment distance is 3 m (9.84 ft.):</ptxt>
+<ptxt>The upper edge of the hot zone for the fog light should be 45 mm (1.77 in.) below the H line.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001GEG01SX_01_0004" proc-id="RM21Q0EV__00004XB00000">
+<ptxt>ADJUST FOG LIGHT AIMING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Adjust the fog light aim so that it is within the specified range by turning the aiming screw with a screwdriver.</ptxt>
+<figure>
+<graphic graphicname="E227831E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Aiming Screw</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>The final turn of the aiming screw should be made in the clockwise direction. If the screw is tightened excessively, loosen it, and then retighten it so that the final turn of the screw is in the clockwise direction.</ptxt>
+</atten3>
+<atten4>
+<ptxt>If it is not possible to correctly adjust fog light aim, check the bulb, fog light unit and fog light unit reflector installation.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

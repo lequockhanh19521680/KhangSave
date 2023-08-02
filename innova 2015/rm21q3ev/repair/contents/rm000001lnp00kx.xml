@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A83B_T007P" variety="T007P">
+<name>REAR POWER WINDOW SWITCH</name>
+<para id="RM000001LNP00KX" category="G" type-id="3001K" name-id="WS0E6-03" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001LNP00KX_01" type-id="01" category="01">
+<s-1 id="RM000001LNP00KX_01_0001" proc-id="RM21Q0EV__00002PX00000">
+<ptxt>INSPECT POWER WINDOW REGULATOR SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B063163" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance of the switch when the switch is operated.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>5 - 4</ptxt>
+<ptxt>2 - 3</ptxt>
+</entry>
+<entry>
+<ptxt>UP</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 - 4</ptxt>
+<ptxt>2 - 1</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 - 3</ptxt>
+<ptxt>2 - 1</ptxt>
+</entry>
+<entry>
+<ptxt>DOWN</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the regulator switch assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

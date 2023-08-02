@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1002F_S000H" variety="S000H">
+<name>PROPELLER SHAFT</name>
+<ttl id="1002F_S000H_7ARNQ_T009N" variety="T009N">
+<name>PROPELLER SHAFT ASSEMBLY</name>
+<para id="RM000001MGV019X" category="G" type-id="3001K" name-id="PR01Y-11" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001MGV019X_01" type-id="01" category="01">
+<s-1 id="RM000001MGV019X_01_0001" proc-id="RM21Q0EV__000046D00000">
+<ptxt>INSPECT PROPELLER SHAFT AND INTERMEDIATE SHAFT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the propeller shaft and intermediate shaft runout.</ptxt>
+<figure>
+<graphic graphicname="C061260E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum Runout</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Propeller shaft</ptxt>
+</entry>
+<entry>
+<ptxt>0.3 mm (0.0118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Intermediate shaft</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 mm (0.0197 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the shaft runout is more than the maximum, replace the shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001MGV019X_01_0002" proc-id="RM21Q0EV__000046E00000">
+<ptxt>INSPECT UNIVERSAL JOINT SPIDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the spider bearings for wear or damage.</ptxt>
+</s2>
+<s2>
+<ptxt>Check each spider bearing's axial play by turning the yoke while holding the shaft tightly.</ptxt>
+<spec>
+<title>Maximum bearing axial play</title>
+<specitem>
+<ptxt>0 to 0.05 mm (0 to 0.00197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the bearing axial play is more than the maximum, replace the spider bearing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001MGV019X_01_0003" proc-id="RM21Q0EV__000046F00000">
+<ptxt>INSPECT CENTER NO. 1 SUPPORT BEARING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When turning the center bearing with your hand, check that it turns smoothly without catching, and that there are no cracks or damage.</ptxt>
+<figure>
+<graphic graphicname="F049879E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If there are any defects, replace the center bearing.</ptxt>
+<ptxt>If there is any damage to the lip of the center bearing case, replace it.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

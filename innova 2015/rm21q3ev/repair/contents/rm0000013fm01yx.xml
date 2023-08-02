@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z5_T003J" variety="T003J">
+<name>SPEED SENSOR</name>
+<para id="RM0000013FM01YX" category="A" type-id="30014" name-id="AT0SQ-06" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000013FM01YX_01" type-id="01" category="01">
+<s-1 id="RM0000013FM01YX_01_0003" proc-id="RM21Q0EV__00000WL00000">
+<ptxt>INSTALL SPEEDOMETER SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190096E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the speedometer driven gear to the sensor.</ptxt>
+<figure>
+<graphic graphicname="C190095E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Insert the gear so that the gear's grooves align with the protrusions inside the sensor.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the sensor assembly with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="C190094" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013FM01YX_01_0002" proc-id="RM21Q0EV__00000WK00000">
+<ptxt>INSTALL SPEED SENSOR (SP2)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034531E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<figure>
+<graphic graphicname="C190093" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000013FM01YX_01_0001" proc-id="RM21Q0EV__00000WJ00000">
+<ptxt>INSTALL SPEED SENSOR (NC0)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034531E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<figure>
+<graphic graphicname="C190092" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

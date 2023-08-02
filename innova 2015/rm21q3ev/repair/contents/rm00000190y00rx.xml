@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XP_T0023" variety="T0023">
+<name>AIR CONDITIONING</name>
+<para id="RM00000190Y00RX" category="F" type-id="30027" name-id="SS0AX-19" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM00000190Y00RX_z0" proc-id="RM21Q0EV__000059C00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>REFRIGERANT</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Refrigerant charge volume</ptxt>
+</entry>
+<entry>
+<ptxt>Standard: 700 +/- 30 g (24.7 +/- 1.1 oz.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XO_T0022" variety="T0022">
+<name>BRAKE CONTROL</name>
+<para id="RM00000244A007X" category="F" type-id="30028" name-id="SS23N-08" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM00000244A007X_z0" proc-id="RM21Q0EV__000004O00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Brake Actuator</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Brake actuator assembly x Brake actuator bracket</ptxt>
+</entry>
+<entry>
+<ptxt>5.4</ptxt>
+</entry>
+<entry>
+<ptxt>55</ptxt>
+</entry>
+<entry>
+<ptxt>48 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake actuator assembly with bracket x Body</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+<entry>
+<ptxt>194</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake actuator assembly x Brake tube</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Front Speed Sensor</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Front speed sensor</ptxt>
+</entry>
+<entry>
+<ptxt>8.5</ptxt>
+</entry>
+<entry>
+<ptxt>87</ptxt>
+</entry>
+<entry>
+<ptxt>75 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front speed sensor harness clamp</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+<entry>
+<ptxt>326</ptxt>
+</entry>
+<entry>
+<ptxt>24</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Rear Speed Sensor</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Rear speed sensor</ptxt>
+</entry>
+<entry>
+<ptxt>8.5</ptxt>
+</entry>
+<entry>
+<ptxt>87</ptxt>
+</entry>
+<entry>
+<ptxt>75 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Skid control sensor clamp</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+<entry>
+<ptxt>326</ptxt>
+</entry>
+<entry>
+<ptxt>24</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002W_S0015" variety="S0015">
+<name>INSTRUMENT PANEL</name>
+<ttl id="1002W_S0015_7ARDN_T008S" variety="T008S">
+<name>UPPER INSTRUMENT PANEL</name>
+<para id="RM000003NGM00DX" category="A" type-id="8000E" name-id="IP19E-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000003NGM00DX_01" type-id="01" category="01">
+<s-1 id="RM000003NGM00DX_01_0009" proc-id="RM21Q0EV__000048T00000">
+<ptxt>INSTALL COOLER (SOLAR SENSOR) THERMISTOR (for Automatic Air Conditioning System)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to install the cooler (solar sensor) thermistor.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003NGM00DX_01_0007" proc-id="RM21Q0EV__00003AH00000">
+<ptxt>INSTALL NOISE SHUTTER SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B291280" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Clean the instrument panel surface.</ptxt>
+</s2>
+<s2>
+<ptxt>Align 2 new noise shutter seals with the markings on the upper instrument panel and install the noise shutter seals to the positions shown in the illustration using a double-sided tape.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NGM00DX_01_0002" proc-id="RM21Q0EV__00003AE00000">
+<ptxt>INSTALL INSTRUMENT PANEL BOX</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the instrument panel box with the 3 screws &lt;A&gt;.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NGM00DX_01_0003" proc-id="RM21Q0EV__00003AF00000">
+<ptxt>INSTALL INNER NO. 1 INSTRUMENT PANEL REINFORCEMENT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the inner No. 1 instrument panel reinforcement with the 8 screws &lt;A&gt;.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NGM00DX_01_0005" proc-id="RM21Q0EV__00003AG00000">
+<ptxt>INSTALL METER MOUNTING BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the meter mounting bracket with the screw &lt;A&gt;.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

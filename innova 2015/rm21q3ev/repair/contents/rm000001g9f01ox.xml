@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROP_T009S" variety="T009S">
+<name>ROOM TEMPERATURE SENSOR (for Automatic Air Conditioning System)</name>
+<para id="RM000001G9F01OX" category="A" type-id="80001" name-id="ACFU3-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001G9F01OX_01" type-id="01" category="01">
+<s-1 id="RM000001G9F01OX_01_0004" proc-id="RM21Q0EV__00003A100000">
+<ptxt>REMOVE LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B291270" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Detach the 7 claws and remove the lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G9F01OX_01_0002" proc-id="RM21Q0EV__000048400000">
+<ptxt>REMOVE COOLER THERMISTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225927" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector and hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 claws and remove the cooler thermistor (room temperature sensor).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

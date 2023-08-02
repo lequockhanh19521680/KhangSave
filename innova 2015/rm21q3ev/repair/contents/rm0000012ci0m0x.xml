@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM0000012CI0M0X" category="J" type-id="302YN" name-id="AV5HQ-47" from="201403">
+<dtccode/>
+<dtcname>Radio Receiver Power Source Circuit</dtcname>
+<subpara id="RM0000012CI0M0X_01" type-id="60" category="03" proc-id="RM21Q0EV__00005KL00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>This circuit provides power to the radio receiver assembly.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000012CI0M0X_02" type-id="32" category="03" proc-id="RM21Q0EV__00005KM00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C240172E41" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000012CI0M0X_03" type-id="51" category="05" proc-id="RM21Q0EV__00005KN00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>Inspect the fuses for circuits related to this system before performing the following inspection procedure.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM0000012CI0M0X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000012CI0M0X_04_0001" proc-id="RM21Q0EV__00005KO00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (RADIO RECEIVER ASSEMBLY - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the radio receiver assembly connector.</ptxt>
+<figure>
+<graphic graphicname="E178447E83" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>R2-7 (GND) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>R2-4 (B) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R2-3 (ACC) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ACC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry>
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to Radio Receiver Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content6>
+<res>
+<down ref="RM0000012CI0M0X_04_0003" fin="true">OK</down>
+<right ref="RM0000012CI0M0X_04_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000012CI0M0X_04_0003">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000012A80GZX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000012CI0M0X_04_0004">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

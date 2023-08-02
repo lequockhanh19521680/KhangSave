@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W790P0X" category="D" type-id="303FA" name-id="AT002Y-588" from="201303">
+<name>ROAD TEST</name>
+<subpara id="RM000000W790P0X_z0" proc-id="RM21Q0EV__000018700001">
+<content5 releasenbr="1">
+<step1>
+<ptxt>PROBLEM SYMPTOM CONFIRMATION</ptxt>
+<step2>
+<ptxt>Based on the result of the customer problem analysis, try to reproduce the symptoms. If the problem is that the transmission does not shift up or down, or that the shift point is too high or too low, conduct the following road test referring to the automatic shift schedule and attempt to duplicate the problem symptoms.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>ROAD TEST</ptxt>
+<step2>
+<ptxt>Perform a road test.</ptxt>
+<atten2>
+<ptxt>Check for safety before performing any tests.</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be sure to inspect and adjust the engine before performing these tests.</ptxt>
+</item>
+<item>
+<ptxt>Perform the road test with the engine coolant temperature between 60 and 100°C (140 and 212°F) and the ATF temperature between 50 and 100°C (122 and 212°F).</ptxt>
+</item>
+<item>
+<ptxt>Perform these tests with the air conditioning off.</ptxt>
+</item>
+</list1>
+</atten3>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Inspection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Transmission Control Switch Test</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>With the vehicle stationary and the shift lever in D, move the shift lever to 3 and return it to D. Check that the meter display changes from D to the appropriate 3 range and then back again.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D Position Shift Test</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>While driving the vehicle normally, check that the transmission shifts up and down through each gear properly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Lock-up Function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>While driving on a level surface at a constant speed in the lock-up range (80 km/h (50 mph) or more) with the shift lever in D, lightly depress the accelerator pedal and check that the engine speed does not change abruptly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P Position Test</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stop the vehicle on an incline (approximately 5° or more). Then move the shift lever to P and release the parking brake. Check that the parking lock pawl holds the vehicle in place.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Abnormal Noise and Vibration</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Check for abnormal noise and vibration while driving the vehicle forward and backward, and during shift operations.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Fluid Leakage</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>After performing all other road test inspections, check for fluid leakage.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

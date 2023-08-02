@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7ARJP_T008Y" variety="T008Y">
+<name>REAR NO. 1 SEAT INNER BELT ASSEMBLY (for Captain Seat Type)</name>
+<para id="RM000002P9000AX" category="A" type-id="30014" name-id="SB4J7-07" from="201403">
+<name>INSTALLATION</name>
+<subpara id="RM000002P9000AX_02" type-id="11" category="10" proc-id="RM21Q0EV__00003I400001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the RH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000002P9000AX_01" type-id="01" category="01">
+<s-1 id="RM000002P9000AX_01_0001" proc-id="RM21Q0EV__00003I200001">
+<ptxt>INSTALL REAR NO. 1 SEAT INNER BELT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear seat belt anchor plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the rear No. 1 seat inner belt assembly RH with the nut.</ptxt>
+<figure>
+<graphic graphicname="B155353E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not allow the anchor part of the seat belt to overlap the protruding part of the seat.</ptxt>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Protruding Part</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002P9000AX_01_0003" proc-id="RM21Q0EV__00004P600001">
+<ptxt>INSTALL REAR SEAT INNER CUSHION SHIELD RH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B257934E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the claw, and then attach the rear part of the rear seat inner cushion shield RH in the order shown in the illustration to install the rear seat inner cushion shield RH.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 screws.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

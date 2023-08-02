@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X4_T001I" variety="T001I">
+<name>1TR-FE IGNITION</name>
+<para id="RM0000024YO003X" category="F" type-id="30027" name-id="SS23Z-03" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000024YO003X_z0" proc-id="RM21Q0EV__000003R00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="2" valign="middle" align="center">
+<ptxt>Spark plug</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Recommended spark plug</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DENSO made: K20HR-U11</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Electrode gap for new spark plug</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.0 to 1.1 mm (0.039 to 0.043 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Maximum electrode gap for used spark plug</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.3 mm (0.051 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

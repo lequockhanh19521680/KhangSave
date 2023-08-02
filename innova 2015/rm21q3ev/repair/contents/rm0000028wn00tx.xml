@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XC_T001Q" variety="T001Q">
+<name>CLUTCH</name>
+<para id="RM0000028WN00TX" category="F" type-id="30028" name-id="SS24R-22" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028WN00TX_z0" proc-id="RM21Q0EV__000004700000">
+<content5 releasenbr="1">
+<table frame="all">
+<tgroup cols="5">
+<colspec colname="col1" colwidth="1.42in"/>
+<colspec colname="col2" colwidth="1.42in"/>
+<colspec colname="col3" colwidth="1.42in"/>
+<colspec colname="col4" colwidth="1.42in"/>
+<colspec colname="col5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch pedal sub-assembly x Clutch pedal support</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+<entry>
+<ptxt>265</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch pedal support x Clutch master cylinder</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+<entry>
+<ptxt>143</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch pedal support x Instrument panel reinforcement</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>184</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Cylinder push rod clevis lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>120</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Pedal height adjust nut</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>255</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch master cylinder assembly x Clutch master cylinder to flexible hose</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Release cylinder bleeder plug</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>112</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch release cylinder x Manual transmission unit assembly</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>122</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch release cylinder assembly x Clutch release cylinder flexible tube</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>153</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch cover assembly x Flywheel</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+<entry>
+<ptxt>195</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Release fork support x Manual transmission unit assembly</ptxt>
+</entry>
+<entry>
+<ptxt>39</ptxt>
+</entry>
+<entry>
+<ptxt>398</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="col1" nameend="col2">
+<ptxt>Clutch master cylinder x Body</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+<entry>
+<ptxt>145</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

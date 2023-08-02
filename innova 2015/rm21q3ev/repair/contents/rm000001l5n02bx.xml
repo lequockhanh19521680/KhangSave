@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80O_T0052" variety="T0052">
+<name>BRAKE MASTER CYLINDER</name>
+<para id="RM000001L5N02BX" category="G" type-id="3001K" name-id="BR641-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001L5N02BX_01" type-id="01" category="01">
+<s-1 id="RM000001L5N02BX_01_0001" proc-id="RM21Q0EV__00001RW00000">
+<ptxt>CHECK AND ADJUST BRAKE BOOSTER PUSH ROD</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Adjust the booster push rod when the master cylinder is replaced with a new one. Adjustment is not necessary when the master cylinder is reinstalled and the booster is replaced with a new one.</ptxt>
+</atten4>
+<s2>
+<ptxt>Set SST on the master cylinder and lower the rod of SST until it just touches the piston.</ptxt>
+<sst>
+<sstitem>
+<s-number>09737-00013</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="G028332E05" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>SST 09737-00012 can also be used.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Apply chalk to the flat tip of the SST. Turn SST upside down and measure the clearance between the brake booster push rod and SST.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0 mm (0 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If there is clearance between the main body of SST and the shell of the brake booster, the push rod is protruding too far. If the chalk does not stick to the tip of the brake booster push rod, the push rod protrusion is insufficient.</ptxt>
+</s2>
+<s2>
+<ptxt>If the clearance is not as specified, adjust the length by holding the rod using SST and turning the tip of the rod using a 7 mm socket driver.</ptxt>
+<sst>
+<sstitem>
+<s-number>09737-00020</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F040006E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Check the push rod clearance again after adjusting.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X9_T001N" variety="T001N">
+<name>BRAKE</name>
+<para id="RM00000244C00BX" category="F" type-id="30028" name-id="SS23K-12" from="201202" to="201303">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM00000244C00BX_z0" proc-id="RM21Q0EV__000004100000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Brake Fluid</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Brake line x Brake master cylinder sub-assembly</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Load sensing proportioning valve bleeder plug</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>107</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front disc brake bleeder plug</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>110</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear bleeder plug</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>107</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Brake Pedal</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Push rod clevis lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+<entry>
+<ptxt>265</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake pedal shaft</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+<entry>
+<ptxt>265</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stop light switch x Stop light switch mounting adjuster</ptxt>
+</entry>
+<entry>
+<ptxt>1.5</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>13 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake pedal support sub-assembly x Brake booster assembly</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+<entry>
+<ptxt>145</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake pedal support sub-assembly x Instrument panel reinforcement</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+<entry>
+<ptxt>184</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Brake Master Cylinder</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Brake master cylinder sub-assembly x Brake booster</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>127</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake line x Brake master cylinder sub-assembly</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Piston stopper bolt</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+<entry>
+<ptxt>102</ptxt>
+</entry>
+<entry>
+<ptxt>7</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake line x 3-way (w/ ABS)</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake line x 4-way (w/o ABS)</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Brake Booster</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Brake booster assembly x Brake pedal support sub-assembly</ptxt>
+</entry>
+<entry>
+<ptxt>14</ptxt>
+</entry>
+<entry>
+<ptxt>145</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Front Brake</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Front disc brake cylinder mounting x Steering knuckle</ptxt>
+</entry>
+<entry>
+<ptxt>117</ptxt>
+</entry>
+<entry>
+<ptxt>1191</ptxt>
+</entry>
+<entry>
+<ptxt>86</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Disc brake cylinder assembly x Front disc brake cylinder slide pin</ptxt>
+</entry>
+<entry>
+<ptxt>39</ptxt>
+</entry>
+<entry>
+<ptxt>400</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Union bolt x Disc brake cylinder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+<entry>
+<ptxt>296</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front disc brake bleeder plug x Disc brake cylinder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>110</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Front Brake Flexible Hose</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Union bolt x Disc brake cylinder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+<entry>
+<ptxt>296</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front flexible hose x Brake tube</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front flexible hose x Absorber bracket</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+<entry>
+<ptxt>296</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Rear Brake</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Rear wheel brake cylinder assembly x Backing plate</ptxt>
+</entry>
+<entry>
+<ptxt>9.8</ptxt>
+</entry>
+<entry>
+<ptxt>100</ptxt>
+</entry>
+<entry>
+<ptxt>87 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake tube x Rear wheel brake cylinder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear brake drum bleeder plug x Rear wheel brake cylinder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+<entry>
+<ptxt>107</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Rear Brake Flexible Hose</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Rear brake tube flexible hose x brake tube</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rear brake tube flexible hose x 3-way</ptxt>
+</entry>
+<entry>
+<ptxt>23</ptxt>
+</entry>
+<entry>
+<ptxt>235</ptxt>
+</entry>
+<entry>
+<ptxt>17</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Load Sensing Proportioning Valve</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>130</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Load sensing with spring valve assembly set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>29</ptxt>
+</entry>
+<entry>
+<ptxt>300</ptxt>
+</entry>
+<entry>
+<ptxt>22</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake tube x Valve body</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+<entry>
+<ptxt>155</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

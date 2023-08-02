@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A821_T006F" variety="T006F">
+<name>REAR COMBINATION LIGHT ASSEMBLY</name>
+<para id="RM00000113K02DX" category="A" type-id="30014" name-id="LE4AX-02" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000113K02DX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004XY00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM00000113K02DX_01" type-id="01" category="01">
+<s-1 id="RM00000113K02DX_01_0013" proc-id="RM21Q0EV__00004XT00000">
+<ptxt>INSTALL REAR COMBINATION LIGHT SOCKET AND WIRE SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the guide.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the connector clamp to install the rear combination light socket and wire sub-assembly LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113K02DX_01_0014" proc-id="RM21Q0EV__00004XU00000">
+<ptxt>INSTALL TAIL AND STOP LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the tail and stop light bulb to the rear combination light socket and wire sub-assembly LH.</ptxt>
+<figure>
+<graphic graphicname="E227312" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the rear combination light socket and wire sub-assembly LH in the direction indicated by the arrow in the illustration to install the socket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113K02DX_01_0015" proc-id="RM21Q0EV__00004XV00000">
+<ptxt>INSTALL BACK UP LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the back up light bulb to the rear combination light socket and wire sub-assembly LH.</ptxt>
+<figure>
+<graphic graphicname="E227313" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the rear combination light socket and wire sub-assembly LH in the direction indicated by the arrow in the illustration to install the socket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113K02DX_01_0016" proc-id="RM21Q0EV__00004XW00000">
+<ptxt>INSTALL REAR TURN SIGNAL LIGHT BULB</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear turn signal light bulb to the rear combination light socket and wire sub-assembly LH.</ptxt>
+<figure>
+<graphic graphicname="E227314" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the rear combination light socket and wire sub-assembly LH in the direction indicated by the arrow in the illustration to install the socket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113K02DX_01_0017" proc-id="RM21Q0EV__00004XX00000">
+<ptxt>INSTALL REAR COMBINATION LIGHT GASKET LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new rear combination light gasket LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000113K02DX_01_0002" proc-id="RM21Q0EV__00004XS00000">
+<ptxt>INSTALL REAR COMBINATION LIGHT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 pin.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 bolts to install the rear combination light assembly LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

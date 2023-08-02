@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A805_T004J" variety="T004J">
+<name>REAR SHOCK ABSORBER</name>
+<para id="RM000001G8Z00JX" category="N" type-id="3000N" name-id="SP0JB-03" from="201202">
+<name>DISPOSAL</name>
+<subpara id="RM000001G8Z00JX_01" type-id="01" category="01">
+<s-1 id="RM000001G8Z00JX_01_0001" proc-id="RM21Q0EV__00001IW00000">
+<ptxt>DISPOSE OF REAR SHOCK ABSORBER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F052451E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Fully extend the shock absorber rod, and clamp it in a vise at an angle.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a drill or similar tool, gradually make a hole in area A to discharge the gas inside of the absorber.</ptxt>
+<atten2>
+<ptxt>As metal debris may be blown outward by the gas, you must:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Wear protective glasses.</ptxt>
+</item>
+<item>
+<ptxt>Cover the area being cut.</ptxt>
+</item>
+</list1>
+</atten2>
+<atten3>
+<ptxt>The gas is colorless, odorless and harmless.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

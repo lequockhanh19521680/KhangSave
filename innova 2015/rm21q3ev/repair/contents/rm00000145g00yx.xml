@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name>
+<ttl id="1000C_S0009_7A7YR_T0035" variety="T0035">
+<name>RADIATOR</name>
+<para id="RM00000145G00YX" category="N" type-id="302IZ" name-id="CO04C-08" from="201202">
+<name>ON-VEHICLE CLEANING</name>
+<subpara id="RM00000145G00YX_01" type-id="01" category="01">
+<s-1 id="RM00000145G00YX_01_0001" proc-id="RM21Q0EV__00000RR00000">
+<ptxt>CHECK FINS FOR BLOCKAGE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099252E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the radiator and condenser are not blocked with leaves, dirt, or insects. Clean the hose connections.</ptxt>
+<ptxt>If the fins are blocked, wash them with water or a steam cleaner.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the distance between the steam cleaner and core is too close, the fins may be damaged.</ptxt>
+</item>
+<item>
+<ptxt>Keep the following injection distance.</ptxt>
+<spec>
+<title>Standard injection distance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Injection Pressure Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>2,942 to 4,903 kPa</ptxt>
+<ptxt>(30 to 50 kgf/cm<sup>2</sup>, 427 to 711 psi)</ptxt>
+</entry>
+<entry>
+<ptxt>300 mm (11.81 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4,903 to 7,845 kPa</ptxt>
+<ptxt>(50 to 80 kgf/cm<sup>2</sup>, 711 to 1,138 psi)</ptxt>
+</entry>
+<entry>
+<ptxt>500 mm (19.69 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</item>
+<item>
+<ptxt>If the fins are bent, straighten them with a screwdriver or pliers.</ptxt>
+</item>
+<item>
+<ptxt>Never apply water directly onto the electronic components.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Dry the fins with compressed air.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

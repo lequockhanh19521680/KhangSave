@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7W7_T000L" variety="T000L">
+<name>CLUTCH</name>
+<para id="RM0000028WJ003X" category="B" type-id="80003" name-id="PPKB0-01" from="201202">
+<name>SST</name>
+<subpara id="RM0000028WJ003X_z1" proc-id="RM21Q0EV__000001M00000">
+<content4 releasenbr="1">
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.85in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.12in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.93in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="2.18in" colsep="0"/>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I001834" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09301-00110</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Clutch Guide Tool</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="2">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000657" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09303-35011</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Input Shaft Front Bearing Puller</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="3">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000469" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09304-12012</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Input Shaft Front Bearing</ptxt>
+<ptxt>Replacer</ptxt>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="4">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000324" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09333-00013</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Clutch Diaphragm Spring Aligner</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+<entry colname="4" colsep="1" align="left">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

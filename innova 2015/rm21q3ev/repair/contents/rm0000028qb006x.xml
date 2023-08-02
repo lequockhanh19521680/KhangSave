@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XI_T001W" variety="T001W">
+<name>SEAT</name>
+<para id="RM0000028QB006X" category="F" type-id="30028" name-id="SS234-05" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028QB006X_z0" proc-id="RM21Q0EV__000004F00000">
+<content5 releasenbr="1">
+<spec>
+<title>FRONT SEAT ASSEMBLY </title>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COLSPEC0" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.4in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Front seatback spring x Reclining adjuster lower arm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>407</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Front seat inner belt x Front inner seat track</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Front seat cushion frame x Reclining adjuster lower arm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>199</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Front seat adjuster rod x Reclining adjuster lower arm</ptxt>
+<ptxt>w/ Vertical adjuster</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>199</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Reclining adjuster lower arm x Front inner seat track</ptxt>
+<ptxt>w/ Vertical adjuster</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>"TORX" bolt</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>255</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Reclining adjuster lower arm x Front outer seat track</ptxt>
+<ptxt>w/ Vertical adjuster</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>"TORX" bolt</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>255</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Front seat No. 2 adjuster pin x Reclining adjuster lower arm</ptxt>
+<ptxt>w/ Vertical adjuster</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>82</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Reclining adjuster lower arm x Front inner seat track</ptxt>
+<ptxt>w/o Vertical adjuster</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>199</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Reclining adjuster lower arm x Front outer seat track</ptxt>
+<ptxt>w/o Vertical adjuster</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>199</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Front seat x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>REAR NO. 1 SEAT ASSEMBLY (for LH side)</title>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COLSPEC1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.4in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seatback frame x Seat cushion frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>50</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>510</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Inner belt x Seat cushion frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seat cushion x Seat track</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>408</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seat hinge x Seat track</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seat lock x Seat track</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>408</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Rear No. 1 seat x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Nut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Bolt</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>REAR NO. 1 SEAT ASSEMBLY (for RH side)</title>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COLSPEC1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.4in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seatback frame x Seat cushion frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>50</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>510</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Inner belt x Seat cushion frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seat cushion x Seat track</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>408</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seat hinge x Seat track</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Seat lock x Seat track bracket</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>408</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Lap type belt RH x Seat cushion frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC1" valign="middle">
+<ptxt>Lap type belt center x Seat cushion frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Rear No. 1 seat x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Nut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Bolt</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>REAR NO. 2 SEAT ASSEMBLY</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL2" colwidth="1.98in"/>
+<colspec colname="COLSPEC2" colwidth="1.98in"/>
+<colspec colname="COL3" colwidth="1.58in"/>
+<colspec colname="COL4" colwidth="1.54in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Seatback frame x Seat cushion frame</ptxt>
+<ptxt>(RH side)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Seatback frame x Seat leg plate</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>214</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Seat leg plate x Seat cushion frame</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Inner belt RHx No. 2 seat leg</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Lap type center belt x No. 2 seat leg</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Seat cushion frame x No. 2 seat leg</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>214</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Seat cushion frame x No. 3 seat outer rear leg</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>214</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Seat cushion frame x No. 3 seat outer front leg</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>214</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Seat lock striker x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear No. 2 seat x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>377</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XH_T001V" variety="T001V">
+<name>WIPER AND WASHER</name>
+<para id="RM0000029B6003X" category="F" type-id="30028" name-id="SS297-03" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000029B6003X_z0" proc-id="RM21Q0EV__000004E00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Wiper motor x Wiper link</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Wiper link x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>56</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>49 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Wiper arm x Wiper link</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>209</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear wiper motor x body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>85</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>73 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear wiper motor x Rear wiper arm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>56</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>49 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

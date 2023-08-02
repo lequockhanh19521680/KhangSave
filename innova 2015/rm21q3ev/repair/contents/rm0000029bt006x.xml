@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XE_T001S" variety="T001S">
+<name>POWER STEERING</name>
+<para id="RM0000029BT006X" category="F" type-id="30028" name-id="SS259-06" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000029BT006X_z0" proc-id="RM21Q0EV__000004B00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL4">
+<ptxt>Power steering vane pump</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Vane pump housing rear x Vane pump housing front</ptxt>
+</entry>
+<entry>
+<ptxt>22</ptxt>
+</entry>
+<entry>
+<ptxt>224</ptxt>
+</entry>
+<entry>
+<ptxt>16</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Pressure port union</ptxt>
+</entry>
+<entry>
+<ptxt>69</ptxt>
+</entry>
+<entry>
+<ptxt>704</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Suction port union set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>22</ptxt>
+</entry>
+<entry>
+<ptxt>224</ptxt>
+</entry>
+<entry>
+<ptxt>16</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Vane pump assembly x Engine</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+<entry>
+<ptxt>214</ptxt>
+</entry>
+<entry>
+<ptxt>16</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Pressure feed tube assembly x Vane pump assembly</ptxt>
+</entry>
+<entry>
+<ptxt>49</ptxt>
+</entry>
+<entry>
+<ptxt>500</ptxt>
+</entry>
+<entry>
+<ptxt>36</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL4">
+<ptxt>Power steering link assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Control valve housing set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>18.1</ptxt>
+</entry>
+<entry>
+<ptxt>185</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rack guide spring cap</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>250</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Rack guide spring cap lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>69 (65)</ptxt>
+</entry>
+<entry>
+<ptxt>700 (660)</ptxt>
+</entry>
+<entry>
+<ptxt>51 (48)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Power steering rack x Rack end</ptxt>
+</entry>
+<entry>
+<ptxt>103 (98)</ptxt>
+</entry>
+<entry>
+<ptxt>1,050 (1,000)</ptxt>
+</entry>
+<entry>
+<ptxt>76 (72)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tie rod assembly lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>55.5</ptxt>
+</entry>
+<entry>
+<ptxt>566</ptxt>
+</entry>
+<entry>
+<ptxt>41</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Turn pressure tube union nut</ptxt>
+</entry>
+<entry>
+<ptxt>12.6 (11.9)</ptxt>
+</entry>
+<entry>
+<ptxt>128 (121)</ptxt>
+</entry>
+<entry>
+<ptxt>9 (9)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Power steering link assembly set bolt and nut</ptxt>
+</entry>
+<entry>
+<ptxt>95</ptxt>
+</entry>
+<entry>
+<ptxt>969</ptxt>
+</entry>
+<entry>
+<ptxt>70</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Pressure feed and return tubes x Control valve housing</ptxt>
+</entry>
+<entry>
+<ptxt>12.5</ptxt>
+</entry>
+<entry>
+<ptxt>127</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Pressure feed tube clamp set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>28</ptxt>
+</entry>
+<entry>
+<ptxt>286</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Outlet return tube</ptxt>
+</entry>
+<entry>
+<ptxt>44</ptxt>
+</entry>
+<entry>
+<ptxt>499</ptxt>
+</entry>
+<entry>
+<ptxt>33</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tie rod end x steering knuckle</ptxt>
+</entry>
+<entry>
+<ptxt>49</ptxt>
+</entry>
+<entry>
+<ptxt>500</ptxt>
+</entry>
+<entry>
+<ptxt>36</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stabilizer bar front bracket set bolt</ptxt>
+</entry>
+<entry>
+<ptxt>48</ptxt>
+</entry>
+<entry>
+<ptxt>489</ptxt>
+</entry>
+<entry>
+<ptxt>35</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Steering sliding yoke x No. 2 intermediate shaft</ptxt>
+</entry>
+<entry>
+<ptxt>35</ptxt>
+</entry>
+<entry>
+<ptxt>357</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>No. 2 intermediate shaft x Steering link assembly</ptxt>
+</entry>
+<entry>
+<ptxt>35</ptxt>
+</entry>
+<entry>
+<ptxt>357</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>( ): For use without SST</ptxt>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

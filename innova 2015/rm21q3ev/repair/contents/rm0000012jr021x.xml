@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROT_T009V" variety="T009V">
+<name>FRONT EVAPORATOR TEMPERATURE SENSOR</name>
+<para id="RM0000012JR021X" category="A" type-id="30014" name-id="ACE50-02" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000012JR021X_01" type-id="01" category="01">
+<s-1 id="RM0000012JR021X_01_0001" proc-id="RM21Q0EV__000048M00000">
+<ptxt>INSTALL NO. 1 COOLER THERMISTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E173257E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>If reusing the evaporator, do not insert the sensor at a location where the sensor was previously inserted. Insert the sensor within range C shown in the illustration.</ptxt>
+</atten3>
+<s2>
+<ptxt>Insert the No. 1 cooler thermistor (front evaporator temperature sensor) as shown in the illustration to install it.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JR021X_01_0016" proc-id="RM21Q0EV__00004GE00000">
+<ptxt>INSTALL NO. 1 COOLER EVAPORATOR SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the clamp to install the No. 1 cooler evaporator sub-assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 3 claws to install the lower heater case.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 4 screws.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JR021X_01_0014" proc-id="RM21Q0EV__000048N00000">
+<ptxt>INSTALL AIR CONDITIONING UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000012JN01PX"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

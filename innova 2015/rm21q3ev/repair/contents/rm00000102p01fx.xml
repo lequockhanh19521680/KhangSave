@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102P01FX" category="U" type-id="303FP" name-id="BC0E4-10" from="201202">
+<name>FAIL-SAFE CHART</name>
+<subpara id="RM00000102P01FX_z0" proc-id="RM21Q0EV__00001O800000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FAIL-SAFE OPERATION</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Malfunction</ptxt>
+</entry>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>ABS</ptxt>
+</entry>
+<entry>
+<ptxt>Prohibits ABS control</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>If the ABS has a malfunction, the brake system will operate normally without ABS control.</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

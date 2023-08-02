@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="1" color="W-B">
+				<connector type="jbc" code="2D">
+					<pin no="18"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="2" color="W-B">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2D">
+		<pin no="9">
+			<line id="3" color="W-B">
+				<connector type="gp" code="IH">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2A">
+		<pin no="3">
+			<line id="4" color="L-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="B13">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B5">
+		<pin no="1">
+			<line id="5" color="B-W" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="J23" subcode="A">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B5">
+		<pin no="1">
+			<line id="6" color="B-W" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="B13">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B5">
+		<pin no="2">
+			<line id="7" color="B">
+				<connector type="jbc" code="2A">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2F">
+		<pin no="1">
+			<line id="8" color="B">
+				<connector type="jbc" code="1C">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2R">
+		<pin no="30">
+			<line id="9" color="R-L">
+				<connector type="conn" code="A9" subcode="A">
+					<pin no="10" spec="w/o Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2R">
+		<pin no="30">
+			<line id="9" color="R-L">
+				<connector type="conn" code="A36" subcode="B">
+					<pin no="6" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2D">
+		<pin no="16">
+			<line id="10" color="L-W" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="B8">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2D">
+		<pin no="16">
+			<line id="11" color="L-W" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A36" subcode="B">
+					<pin no="14" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2S">
+		<pin no="9">
+			<line id="12" color="L-O" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="M4">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="NON" code="">
+		<pin>
+			<line id="13" color="G" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="A32">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2P">
+		<pin no="18">
+			<line id="14" color="L-O" spec="w/o Air Conditioner Unit">
+				<connector type="w2w" code="II4" sex="male">
+					<pin no="17"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A32">
+		<pin no="6">
+			<line id="15" color="L-O" spec="w/o Air Conditioner Unit">
+				<connector type="jbc" code="2P">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A32">
+		<pin no="4">
+			<line id="16" color="R-L" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="A9" subcode="A">
+					<pin no="13" spec="w/o Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A32">
+		<pin no="5">
+			<line id="17" color="R-G" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="A9" subcode="A">
+					<pin no="4" spec="w/o Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="M4">
+		<pin no="3">
+			<line id="18" color="L-W" spec="w/ Air Conditioner Unit">
+				<connector type="w2w" code="ID1" sex="male">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="M4">
+		<pin no="5">
+			<line id="19" color="L-O" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="M4">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="M4">
+		<pin no="1">
+			<line id="20" color="B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A36" subcode="B">
+					<pin no="13" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J24" subcode="B">
+		<pin no="2">
+			<line id="21" color="B-W" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="B8">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J23" subcode="A">
+		<pin no="2">
+			<line id="22" color="B-W" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="B7">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B8">
+		<pin no="1">
+			<line id="23" color="R-B" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="B7">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B8">
+		<pin no="2">
+			<line id="24" color="R" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="B7">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IH">
+		<pin>
+			<line id="25" color="W-B" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="B8">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IH">
+		<pin>
+			<line id="26" color="W-B">
+				<connector type="conn" code="J28" subcode="B">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IH">
+		<pin>
+			<line id="27" color="W-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="B13">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="1">
+			<line id="28" color="W" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="B7">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="4">
+			<line id="29" color="L-O" spec="w/ Air Conditioner Unit">
+				<connector type="w2w" code="II4" sex="male">
+					<pin no="17"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="P2">
+		<pin no="2">
+			<line id="30" color="Y-B">
+				<connector type="w2w" code="II4" sex="female">
+					<pin no="16"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="P2">
+		<pin no="1">
+			<line id="31" color="L-O">
+				<connector type="w2w" code="II4" sex="female">
+					<pin no="17"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A9" subcode="A">
+		<pin no="3" spec="w/o Air Conditioner Unit">
+			<line id="32" color="Y-B">
+				<connector type="w2w" code="II4" sex="male">
+					<pin no="16"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="5" spec="w/ Air Conditioner Unit">
+			<line id="32" color="Y-B">
+				<connector type="w2w" code="II4" sex="male">
+					<pin no="16"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A2">
+		<pin no="1">
+			<line id="33" color="L-W">
+				<connector type="w2w" code="ID1" sex="female">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID1" sex="male">
+		<pin no="1">
+			<line id="34" color="L-W" spec="w/o Air Conditioner Unit">
+				<connector type="conn" code="A9" subcode="A">
+					<pin no="1" spec="w/o Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="5" spec="w/ Air Conditioner Unit">
+			<line id="35" color="L-Y" spec="w/ Air Conditioner Unit">
+				<connector type="w2w" code="II4" sex="male">
+					<pin no="20"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="female">
+		<pin no="20">
+			<line id="36" color="L-Y" spec="w/ Air Conditioner Unit">
+				<connector type="rb" code="1">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B13">
+		<pin no="3">
+			<line id="37" color="L-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A36" subcode="B">
+					<pin no="2" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="11" spec="w/ Air Conditioner Unit">
+			<line id="38" color="L-Y" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="M3">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="26" spec="w/ Air Conditioner Unit">
+			<line id="39" color="L-O" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="M3">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="25" spec="w/ Air Conditioner Unit">
+			<line id="40" color="LG" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="M3">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="9" spec="w/ Air Conditioner Unit">
+			<line id="41" color="R" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="4" spec="w/ Air Conditioner Unit">
+			<line id="42" color="R-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="M3">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="6">
+			<line id="43" color="L">
+				<connector type="conn" code="A9" subcode="A">
+					<pin no="18" spec="w/o Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="6">
+			<line id="43" color="L">
+				<connector type="conn" code="A36" subcode="B">
+					<pin no="1" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="3" spec="w/ Air Conditioner Unit">
+			<line id="44" color="Y-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="M3">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="21" spec="w/ Air Conditioner Unit">
+			<line id="45" color="LG-R" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="R14">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A9" subcode="A">
+		<pin no="7" spec="w/o Air Conditioner Unit">
+			<line id="46" color="G">
+				<connector type="conn" code="A14">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="1" spec="w/ Air Conditioner Unit">
+			<line id="46" color="G">
+				<connector type="conn" code="A14">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="17" spec="w/ Air Conditioner Unit">
+			<line id="47" color="P-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="R14">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A14">
+		<pin no="2">
+			<line id="48" color="P">
+				<connector type="conn" code="A9" subcode="A">
+					<pin no="8" spec="w/o Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A14">
+		<pin no="2">
+			<line id="48" color="P">
+				<connector type="conn" code="A38" subcode="C">
+					<pin no="14" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="16" spec="w/ Air Conditioner Unit">
+			<line id="49" color="R-L" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="R14">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="22" spec="w/ Air Conditioner Unit">
+			<line id="50" color="L-W" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="R14">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I10">
+		<pin no="2">
+			<line id="51" color="GR" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A38" subcode="C">
+					<pin no="18" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I10">
+		<pin no="1">
+			<line id="52" color="BR-Y" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A38" subcode="C">
+					<pin no="13" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="23" spec="w/ Air Conditioner Unit">
+			<line id="53" color="G-Y" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="R14">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="20" spec="w/ Air Conditioner Unit">
+			<line id="54" color="BR-Y" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A35">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S23">
+		<pin no="2">
+			<line id="55" color="L-W" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A38" subcode="C">
+					<pin no="7" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S23">
+		<pin no="1">
+			<line id="56" color="W-R" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A38" subcode="C">
+					<pin no="2" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="24" spec="w/ Air Conditioner Unit">
+			<line id="57" color="W-R" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A35">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A38" subcode="C">
+		<pin no="23" spec="w/ Air Conditioner Unit">
+			<line id="58" color="W-L" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A35">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="19" spec="w/ Air Conditioner Unit">
+			<line id="59" color="R-W" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A35">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="female">
+		<pin no="6">
+			<line id="60" color="W-G" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A1">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="male">
+		<pin no="6">
+			<line id="61" color="W-G" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A18">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A18">
+		<pin no="9">
+			<line id="62" color="P" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A36" subcode="B">
+					<pin no="18" spec="w/ Air Conditioner Unit"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="17" spec="w/ Air Conditioner Unit">
+			<line id="63" color="L" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A35">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A1">
+		<pin no="1">
+			<line id="64" color="BR-Y" spec="w/ Air Conditioner Unit">
+				<connector type="w2w" code="II4" sex="female">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="male">
+		<pin no="3">
+			<line id="65" color="BR-Y" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="A18">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="12" spec="w/ Air Conditioner Unit">
+			<line id="66" color="R-L" spec="w/ Air Conditioner Unit">
+				<connector type="NON" code="">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A9" subcode="A">
+		<pin no="14" spec="w/o Air Conditioner Unit">
+			<line id="67" color="Y">
+				<connector type="conn" code="E10" subcode="B">
+					<pin no="24"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="21" spec="w/ Air Conditioner Unit">
+			<line id="67" color="Y">
+				<connector type="conn" code="E10" subcode="B">
+					<pin no="24"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="9" spec="w/ Air Conditioner Unit">
+			<line id="68" color="V-W" spec="w/ Air Conditioner Unit">
+				<connector type="jbc" code="2P">
+					<pin no="10"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A9" subcode="A">
+		<pin no="2" spec="w/o Air Conditioner Unit">
+			<line id="69" color="R-L">
+				<connector type="conn" code="E10" subcode="B">
+					<pin no="25"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="7" spec="w/ Air Conditioner Unit">
+			<line id="69" color="R-L">
+				<connector type="conn" code="E10" subcode="B">
+					<pin no="25"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="ED">
+		<pin>
+			<line id="70" color="BR">
+				<connector type="conn" code="J7">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="A36" subcode="B">
+		<pin no="8" spec="w/ Air Conditioner Unit">
+			<line id="71" color="P" spec="w/ Air Conditioner Unit">
+				<connector type="jbc" code="2P">
+					<pin no="32"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2Q">
+		<pin no="16">
+			<line id="72" color="P" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="E10" subcode="B">
+					<pin no="14"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="sp" code="1681">
+		<pin>
+			<line id="73" color="W-B">
+				<connector type="conn" code="C5">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C5">
+		<pin no="2">
+			<line id="74" color="Y">
+				<connector type="conn" code="J12" subcode="A">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J13" subcode="B">
+		<pin no="6">
+			<line id="75" color="G">
+				<connector type="conn" code="E12" subcode="D">
+					<pin no="34"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C5">
+		<pin no="1">
+			<line id="76" color="L">
+				<connector type="conn" code="E12" subcode="D">
+					<pin no="27"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2Q">
+		<pin no="26">
+			<line id="77" color="V-R" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C20" subcode="C">
+		<pin no="1">
+			<line id="78" color="R" spec="w/ Air Conditioner Unit">
+				<connector type="jbc" code="2Q">
+					<pin no="25"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2J">
+		<pin no="8">
+			<line id="79" color="R" spec="w/ Air Conditioner Unit">
+				<connector type="rb" code="1">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="80" color="W-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="J28" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="10">
+			<line id="81" color="Y" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="22"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C20" subcode="C">
+		<pin no="21">
+			<line id="82" color="B-O" spec="w/ Air Conditioner Unit">
+				<connector type="jbc" code="2D">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="ED">
+		<pin>
+			<line id="83" color="BR" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="J7">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J7">
+		<pin no="6">
+			<line id="84" color="BR" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="S3">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S3">
+		<pin no="3">
+			<line id="85" color="P-L" spec="w/ Air Conditioner Unit">
+				<connector type="w2w" code="ID2" sex="female">
+					<pin no="16"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID2" sex="male">
+		<pin no="16">
+			<line id="86" color="P-L" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S3">
+		<pin no="1">
+			<line id="87" color="R-B" spec="w/ Air Conditioner Unit">
+				<connector type="w2w" code="ID2" sex="female">
+					<pin no="15"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID2" sex="male">
+		<pin no="15">
+			<line id="88" color="R-B" spec="w/ Air Conditioner Unit">
+				<connector type="conn" code="C20" subcode="C">
+					<pin no="32"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J7">
+		<pin no="1">
+			<line id="10089" color="">
+				<connector type="NON" code="">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

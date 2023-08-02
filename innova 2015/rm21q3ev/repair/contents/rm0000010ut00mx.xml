@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZP_T0043" variety="T0043">
+<name>MANUAL TRANSMISSION ASSEMBLY</name>
+<para id="RM0000010UT00MX" category="A" type-id="80001" name-id="MT1TG-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010UT00MX_01" type-id="01" category="01">
+<s-1 id="RM0000010UT00MX_01_0001" proc-id="RM21Q0EV__00001AV00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0021" proc-id="RM21Q0EV__000053L00000">
+<ptxt>REMOVE CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEC013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0005" proc-id="RM21Q0EV__00001AW00000">
+<ptxt>REMOVE SHIFT LEVER BOOT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034215E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 4 screws, 2 clips and shift lever boot.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0006" proc-id="RM21Q0EV__00001AX00000">
+<ptxt>REMOVE FLOOR SHIFT SHIFT LEVER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G021695E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Cover the shift lever cap with a cloth.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the shift lever cap and rotate it counterclockwise to remove it.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull out the shift lever.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0007" proc-id="RM21Q0EV__00000J400000">
+<ptxt>DRAIN MANUAL TRANSMISSION OIL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the drain plug and gasket to drain the oil.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0008" proc-id="RM21Q0EV__00001AY00000">
+<ptxt>REMOVE NO. 2 FRAME CROSSMEMBER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033401E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 4 bolts, 4 nuts and frame crossmember.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0009" proc-id="RM21Q0EV__00001AZ00000">
+<ptxt>REMOVE REAR PROPELLER SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000ZZ301ZX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0010" proc-id="RM21Q0EV__00001B000000">
+<ptxt>REMOVE FRONT EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000135901LX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0011" proc-id="RM21Q0EV__00001B100000">
+<ptxt>DISCONNECT WIRE HARNESS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the back-up light switch connector and speedometer sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0012" proc-id="RM21Q0EV__00000UK00000">
+<ptxt>DISCONNECT CLUTCH RELEASE CYLINDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034217E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and disconnect the release cylinder.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0013" proc-id="RM21Q0EV__00001B200000">
+<ptxt>REMOVE STARTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000135T01FX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0014" proc-id="RM21Q0EV__00001B300000">
+<ptxt>REMOVE NO. 3 FRAME CROSSMEMBER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085193E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Support the transmission rear side with a support stand.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 set bolts of the rear No. 1 engine mounting insulator.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts, 4 nuts and frame crossmember.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0015" proc-id="RM21Q0EV__00001B400000">
+<ptxt>REMOVE REAR NO. 1 ENGINE MOUNTING INSULATOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034219E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 4 bolts and rear No. 1 engine mounting insulator.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0022" proc-id="RM21Q0EV__000053M00000">
+<ptxt>REMOVE MANIFOLD STAY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 bolts and manifold stay.</ptxt>
+<figure>
+<graphic graphicname="A252720" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UT00MX_01_0018" proc-id="RM21Q0EV__00000IW00000">
+<ptxt>REMOVE MANUAL TRANSMISSION UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C168651" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a transmission jack, support the transmission.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the support stand from the rear side.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 4 bolts and transmission.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLU_T009B" variety="T009B">
+<name>FRONT DOOR BELT MOULDING</name>
+<para id="RM000004RUP011X" category="A" type-id="30014" name-id="ET818-01" from="201202" to="201403">
+<name>INSTALLATION</name>
+<subpara id="RM000004RUP011X_01" type-id="11" category="10" proc-id="RM21Q0EV__00003ZU00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004RUP011X_02" type-id="01" category="01">
+<s-1 id="RM000004RUP011X_02_0017" proc-id="RM21Q0EV__00003ZV00000">
+<ptxt>INSTALL FRONT DOOR BELT MOULDING ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 5 claws to install the front door belt moulding.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUP011X_02_0047" proc-id="RM21Q0EV__00004JS00000">
+<ptxt>INSTALL FRONT DOOR GLASS SUB-ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Power Window:</ptxt>
+<s3>
+<ptxt>Temporarily install the power window regulator master switch assembly with front door armrest base panel.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s3>
+<s3>
+<ptxt>Operate the front door window regulator so that the front door glass can be installed.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Remove the power window regulator master switch assembly with front door armrest base panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/o Power Window:</ptxt>
+<s3>
+<ptxt>Temporarily install the front door window regulator handle.</ptxt>
+</s3>
+<s3>
+<ptxt>Operate the front door window regulator so that the front door glass can be installed.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the front door window regulator handle.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Insert the front door glass into the front door panel along the front door glass run as indicated by the arrows in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B291512E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the front door glass with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.0</t-value1>
+<t-value2>71</t-value2>
+<t-value3>62</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0048" proc-id="RM21Q0EV__00004JT00000">
+<ptxt>INSTALL FRONT DOOR SERVICE HOLE COVER LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply new butyl tape to the front door panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Pass the wire harness through a new front door service hole cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Pass the front door inside locking cable and front door lock remote control cable through a new front door service hole cover, and then install the front door service hole cover using the reference points on the front door panel.</ptxt>
+<figure>
+<graphic graphicname="B291513E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Reference Point</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0049" proc-id="RM21Q0EV__00004JU00000">
+<ptxt>INSTALL FRONT DOOR NO. 1 TRIM BRACKET
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front door No. 1 trim bracket with the 2 screws.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0050" proc-id="RM21Q0EV__00004JV00000">
+<ptxt>INSTALL FRONT DOOR INSIDE HANDLE SUB-ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the front door inside locking cable and front door lock remote control cable to the front door inside handle.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 guides as indicated by the arrow in the illustration, and then attach the claw to install the front door inside handle.</ptxt>
+<figure>
+<graphic graphicname="B291514" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0051" proc-id="RM21Q0EV__000045600000">
+<ptxt>INSTALL OUTER REAR VIEW MIRROR ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Front No. 2 Speaker:</ptxt>
+<s3>
+<ptxt>Install the mirror so that the claw attaches, and install the 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value4>71</t-value4>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>Connect the connector.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/o Front No. 2 Speaker:</ptxt>
+<s3>
+<ptxt>Install the mirror so that the claw attaches, and install the 3 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value4>71</t-value4>
+</torqueitem>
+</torque>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0057" proc-id="RM21Q0EV__00004TC00000">
+<ptxt>INSTALL FRONT NO. 2 SPEAKER ASSEMBLY (w/ Front No. 2 Speaker)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front No. 2 speaker assembly with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0052" proc-id="RM21Q0EV__00004JX00000">
+<ptxt>INSTALL FRONT DOOR TRIM BOARD SUB-ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 9 clips to install the front door trim board.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0053" proc-id="RM21Q0EV__00004JY00000">
+<ptxt>INSTALL FRONT DOOR LOWER FRAME BRACKET GARNISH LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 clips to install the front door lower frame bracket garnish.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0054" proc-id="RM21Q0EV__00004JZ00000">
+<ptxt>INSTALL POWER WINDOW REGULATOR MASTER SWITCH ASSEMBLY WITH FRONT DOOR ARMREST BASE PANEL (w/ Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 8 claws and 2 clips to install the power window regulator master switch assembly with front door armrest base panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the screw.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0055" proc-id="RM21Q0EV__00004KB00000">
+<ptxt>INSTALL FRONT UPPER ARMREST BASE PANEL LH (w/o Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws and 2 clips to install the front upper armrest base panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the screw.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0056" proc-id="RM21Q0EV__00004KC00000">
+<ptxt>INSTALL FRONT DOOR WINDOW REGULATOR HANDLE ASSEMBLY (w/o Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the front door window regulator handle, fully close the window, and then remove the front door window regulator handle.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the plate and snap ring to the front door window regulator handle.</ptxt>
+<figure>
+<graphic graphicname="B278578E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Snap Ring</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plate</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18 to 42°</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUP011X_02_0031" proc-id="RM21Q0EV__00003ZW00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL (w/ Power Window)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

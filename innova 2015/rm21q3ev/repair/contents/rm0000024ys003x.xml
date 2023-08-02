@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X6_T001K" variety="T001K">
+<name>1TR-FE CHARGING</name>
+<para id="RM0000024YS003X" category="F" type-id="30027" name-id="SS241-01" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000024YS003X_z0" proc-id="RM21Q0EV__000003V00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery</ptxt>
+</entry>
+<entry/>
+<entry>
+<ptxt>Standard specific gravity</ptxt>
+</entry>
+<entry>
+<ptxt>1.25 to 1.29 at 20°C (68°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Generator rotor assembly resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Slip ring</ptxt>
+</entry>
+<entry>
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry>
+<ptxt>1.85 to 2.25 Ω at 20°C (68°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Slip ring and Rotor</ptxt>
+</entry>
+<entry>
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" morerows="1">
+<ptxt>Generator rotor assembly slip ring diameter</ptxt>
+</entry>
+<entry>
+<ptxt>Standard diameter</ptxt>
+</entry>
+<entry>
+<ptxt>14.2 to 14.4 mm (0.559 to 0.567 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum diameter</ptxt>
+</entry>
+<entry>
+<ptxt>14.0 mm (0.551 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Generator brush holder assembly</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Brush length</ptxt>
+</entry>
+<entry>
+<ptxt>Standard length</ptxt>
+</entry>
+<entry>
+<ptxt>10.5 mm (0.413 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum length</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 mm (0.177 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" morerows="1">
+<ptxt>Charging circuit without load</ptxt>
+</entry>
+<entry>
+<ptxt>Standard amperage</ptxt>
+</entry>
+<entry>
+<ptxt>10 A or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Standard voltage</ptxt>
+</entry>
+<entry>
+<ptxt>13.2 to 14.8 V</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Charging circuit with load</ptxt>
+</entry>
+<entry>
+<ptxt>Standard amperage</ptxt>
+</entry>
+<entry>
+<ptxt>30 A or more</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

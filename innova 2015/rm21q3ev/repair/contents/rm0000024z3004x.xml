@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7VX_T000B" variety="T000B">
+<name>1TR-FE IGNITION</name>
+<para id="RM0000024Z3004X" category="B" type-id="8000B" name-id="PP3TR-01" from="201202">
+<name>EQUIPMENT</name>
+<subpara id="RM0000024Z3004X_z1" proc-id="RM21Q0EV__000000U00000">
+<content4 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Spark plug cleaner</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Torque wrench</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

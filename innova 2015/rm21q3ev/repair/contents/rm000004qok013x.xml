@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000004QOK013X" category="S" type-id="3001E" name-id="AVAB8-28" from="201403">
+<name>DIAGNOSTIC TROUBLE CODE CHART</name>
+<subpara id="RM000004QOK013X_z0" proc-id="RM21Q0EV__00005GY00000">
+<content5 releasenbr="1">
+<atten4>
+<ptxt>If a trouble code is output during the DTC check, inspect the trouble area.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Communication Diagnosis</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.36in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="2.36in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.36in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-21</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>ROM Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000183S0ACX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-22</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>RAM Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000183S0ACX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-23</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Bus Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000183S0ACX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-2A</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Internal Power Supply</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000183S0ACX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-2B</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Internal Hardware</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000183S0ACX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-2E</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>EEPROM Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000183S0ACX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-E0</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Registration Complete Indication Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001WQS08LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-E2</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>ON / OFF Indication Parameter Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000183Z0A6X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-E3</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Registration Demand Transmission</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001WQS08LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>01-E4</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Multiple Frame Incomplete</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001WQS08LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Radio Unit</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.36in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="2.36in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.36in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>60-10</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>AM Tuner PLL does not Lock</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000200N0B1X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>60-11</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>FM Tuner PLL does not Lock</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000200N0B1X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>60-12</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>FM/AM Tuner Communication Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000200Q0B9X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>60-42</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Tuner Power Source Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000200Q0B9X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>60-43</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>AM Tuner Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000200Q0B9X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>60-44</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>FM Tuner Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000200Q0B9X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>60-50</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Malfunction in Internal IC</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000200Q0B9X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>CD Player</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.36in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="2.36in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.36in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-10</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>CD Player Mechanical Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020EW08WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-11</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>CD Insertion and Ejection Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020EW08WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-12</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>CD Reading Abnormal</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020EW08WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-14</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Mechanical Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020EW08WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-41</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Wrong Disc</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020EY08YX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-42</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Disc cannot be Read</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020EY08YX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-43</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>CD-ROM Abnormal</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020EZ08XX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-44</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>CD Abnormal</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F008YX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-45</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Eject Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F108VX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-46</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Scratched / Reversed Disc</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F208XX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-47</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>High Temperature</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F308VX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-48</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Excess Current</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F008YX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-50</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Tray Insertion / Ejection Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F008YX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-51</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Elevator Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F108VX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-52</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clamp Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020F108VX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-78</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>DSP Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020FB08MX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-7D</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Disc cannot be Played</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020S408LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-7E</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>No Playable Files</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020S408LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>62-7F</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Copyright Protection Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000020S408LX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>USB Audio System</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.36in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="2.36in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.36in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-10</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>System Microcomputer Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYR068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-11</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Media Interface Microcomputer Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYR068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-12</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>CD-LSI Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYR068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-13</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>USB Over Current Detection</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYS06AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-43</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>USB Device Class/Protocol Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYT068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-44</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>USB File System Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYT068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-45</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>USB Communication Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYU06BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-46</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>iPod Control Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYU06BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-47</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>iPod Communication Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYU06BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-50</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>iPod Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYT068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-51</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>iPod Protocol Error</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYT068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-52</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>No Playable iPod File Exists</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYV068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-7D</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>iPod Protocol Unsupported</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYT068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>CB-7E</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>No Playable USB File Exists</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003XYV068X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

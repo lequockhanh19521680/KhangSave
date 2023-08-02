@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XZ_T002D" variety="T002D">
+<name>THROTTLE BODY</name>
+<para id="RM000000VWM020X" category="G" type-id="3001K" name-id="ES0AF-12" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000000VWM020X_01" type-id="01" category="01">
+<s-1 id="RM000000VWM020X_01_0001" proc-id="RM21Q0EV__000006100000">
+<ptxt>INSPECT THROTTLE BODY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A075258E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the resistance of the throttle position sensor and control motor.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>2 (M+) - 1 (M-)</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.3 to 100 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (VC) - 3 (E2)</ptxt>
+</entry>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>1.2 to 3.2 kΩ</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the throttle body.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

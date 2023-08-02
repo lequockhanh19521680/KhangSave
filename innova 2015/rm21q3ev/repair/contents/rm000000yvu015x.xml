@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YVU015X" category="U" type-id="3001G" name-id="RS0G9-32" from="201303">
+<name>TERMINALS OF ECU</name>
+<subpara id="RM000000YVU015X_z0" proc-id="RM21Q0EV__000020Q00001">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CENTER AIRBAG SENSOR</ptxt>
+</step1>
+<figure>
+<graphic graphicname="C123353E81" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Symbol</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Destination</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-3</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>P-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Instrument panel passenger airbag (front passenger side squib)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-4</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>P+</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Instrument panel passenger airbag (front passenger side squib)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-5</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>D+</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Steering pad (driver side squib)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-6</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>D-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Steering pad (driver side squib)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-14</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>LA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Combination meter (SRS warning light)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-15</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>TC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-16</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>SIL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-21</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>IG2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IGN fuse</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-22</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>GSW2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-25</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>E1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-26</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>E2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-27</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-SR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front airbag sensor RH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-28</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-SL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front airbag sensor LH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-29</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>+SR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front airbag sensor RH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A19-30</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>+SL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front airbag sensor LH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A39-1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>PD-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front seat outer belt LH (front pretensioner squib LH)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A39-2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>PD+</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front seat outer belt LH (front pretensioner squib LH)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A40-4</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>PP+</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front seat outer belt RH (front pretensioner squib RH)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A40-5</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>PP-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front seat outer belt RH (front pretensioner squib RH)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

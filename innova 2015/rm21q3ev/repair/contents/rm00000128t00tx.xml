@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82F_T006T" variety="T006T">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM00000128T00TX" category="G" type-id="8000T" name-id="DL06I-09" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM00000128T00TX_01" type-id="01" category="01">
+<s-1 id="RM00000128T00TX_01_0001" proc-id="RM21Q0EV__00002FS00000">
+<ptxt>CHECK POWER DOOR LOCK OPERATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the basic function.</ptxt>
+<s3>
+<ptxt>Check that all doors lock when the door control switch (for manual operation) LOCK side is pressed, and that all doors unlock when the UNLOCK side is pressed.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that all doors lock when the driver side door lock key cylinder is turned to LOCK using the key. However, the driver side door key-linked lock and unlock function will not operate when the seat belt is fastened.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/ Theft deterrent system:</ptxt>
+<ptxt>Check the speed-sensitive automatic door lock function and ignition switch-linked automatic door unlock function.</ptxt>
+<s3>
+<ptxt>When all doors are closed and the vehicle is driven at approximately 25 km/h (16 mph) or more for the first time, check that all doors automatically lock.</ptxt>
+<atten4>
+<ptxt>The automatic door lock function described above will not operate again until a door has been opened and closed.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>After a speed-sensitive automatic door lock function operates, check that turning the ignition switch OFF causes the doors to automatically unlock.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

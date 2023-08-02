@@ -1,0 +1,2244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM000003ODK002X" category="U" type-id="3001G" name-id="ME1WV-02" from="201202">
+<name>TERMINALS OF ECU</name>
+<subpara id="RM000003ODK002X_z0" proc-id="RM21Q0EV__00002GD00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK COMBINATION METER ASSEMBLY</ptxt>
+<figure>
+<graphic graphicname="E236806E02" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Disconnect the C20 and C21 meter connectors.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage and resistance according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C20-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Battery </ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-21 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-O - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG2 signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-21 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-O - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG2 signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-11 - Body ground*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-11 - Body ground*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-22 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Y - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-19 - Body ground*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>W-B - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-38 - Body ground*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-G - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-9 - Body ground*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>W-G - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rheostat signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Rheostat knob fully turned to left</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>702 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-9 - Body ground*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>W-G - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rheostat signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Rheostat knob fully turned to right</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>*1: w/ Accessory Meter</ptxt>
+<ptxt>*2: w/o Airbag System</ptxt>
+<ptxt>*3: w/o ABS</ptxt>
+<ptxt>*4: w/ Light Control Rheostat</ptxt>
+<ptxt>If the result is not as specified, there may be a malfunction on the wire harness side.</ptxt>
+</step2>
+<step2>
+<ptxt>Reconnect the C20 and C21 meter connectors.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.41in"/>
+<colspec colname="COL3" colwidth="1.43in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C20-2 - C20-3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BR - BR-Y</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Fuel level signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, fuel level F</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-2 - C20-3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BR - BR-Y</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Fuel level signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, fuel level E</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4 to 7 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-5 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P-L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle speed signal (input)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Being driven at approximately 20 km/h (12.4 mph)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-6 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>V-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle speed signal (output)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Being driven at approximately 20 km/h (12.4 mph)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-7 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-W - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Tachometer signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine idling</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-8 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Light control switch signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Light control switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-8 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Light control switch signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Light control switch TAIL or HEAD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-10 - Body ground*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Unlock warning switch signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No key in ignition key cylinder</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-10 - Body ground*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Unlock warning switch signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch off, key in ignition key cylinder</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-11 - Body ground*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side seat belt warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, driver side seat belt unfastened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-11 - Body ground*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side seat belt warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, driver side seat belt fastened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-12 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (P)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission P indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-12 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (P)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission P indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-15 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door signal (output)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door closed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-15 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door signal (output)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door open</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-16 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door signal (input)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door closed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-16 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door signal (input)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driver side door open</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-17 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Door signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Doors closed (Disregarding driver side door)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-17 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Door signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Doors open (Disregarding driver side door)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-20 - Body ground*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>SRS warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, SRS warning light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-20 - Body ground*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>SRS warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, SRS warning light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Waveform 4</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-24 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Turn signal indicator LH light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, turn signal indicator LH light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-24 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Turn signal indicator LH light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, turn signal indicator LH light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-25 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Turn signal indicator RH light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, turn signal indicator RH light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-25 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+
+<ptxt>G-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Turn signal indicator RH light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, turn signal indicator RH light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-27 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>HIGH BEAM indicator light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, HIGH BEAM indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-27 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>HIGH BEAM indicator light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, HIGH BEAM indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-30 - Body ground*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>FR FOG indicator light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Light control switch TAIL or HEAD, fog light switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-30 - Body ground*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>FR FOG indicator light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Light control switch TAIL or HEAD, fog light switch on</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-32 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>IG signal (for speedometer sensor)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-32 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>IG signal (for speedometer sensor)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-35 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>LG-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>OIL PRESSURE warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, OIL PRESSURE warning light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-35 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>LG-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>OIL PRESSURE warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, OIL PRESSURE warning light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-36 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>LG - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>BRAKE warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, BRAKE warning light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-36 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>LG - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>BRAKE warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, BRAKE warning light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-37 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>GR - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>CHARGE warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, CHARGE warning light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-37 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>GR - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>CHARGE warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, CHARGE warning light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-38 - Body ground*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-G - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ABS warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, ABS warning light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-38 - Body ground*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-G - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ABS warning light signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, ABS warning light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-39 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>MIL signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, MIL OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C20-39 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>MIL signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, MIL ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-2 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (L)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission L indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-2 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (L)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission L indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-3 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (2)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission 2 indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-3 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (2)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission 2 indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-4 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-O - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (3)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission 3 indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-4 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-O - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (3)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission 3 indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-5 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (D)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission D indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-5 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (D)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission D indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-6 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-W - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (N)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission N indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-6 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-W - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (N)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission N indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-10 - Body ground*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Injector signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine idling</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-11 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Signal for amount of fuel consumption</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine idling</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-11 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Signal for amount of fuel consumption</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine idling</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-14 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (R)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission R indicator light ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C21-14 - Body ground*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Automatic transmission shift position signal (R)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch ON, automatic transmission R indicator light OFF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>*1: w/ Seat Belt Warning System</ptxt>
+<ptxt>*2: w/ Airbag System</ptxt>
+<ptxt>*3: w/ Fog Light</ptxt>
+<ptxt>*4: w/ ABS</ptxt>
+<ptxt>*5: w/ Accessory Meter</ptxt>
+<ptxt>*6: for Automatic Transmission</ptxt>
+<ptxt>If the result is not as specified, the combination meter may be malfunctioning.</ptxt>
+<step3>
+<ptxt>Using an oscilloscope, check waveform 1.</ptxt>
+<figure>
+<graphic graphicname="E169152E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>C20-5 - Body ground</ptxt>
+</item>
+<item>
+<ptxt>C20-6 - Body ground</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>5 V/DIV., 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Vehicle Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Being driven at approximately 20 km/h (12.4 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>As the vehicle speed increases, the wavelength shortens.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Using an oscilloscope, check waveform 2.</ptxt>
+<figure>
+<graphic graphicname="E169153E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C20-7 - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>5 V/DIV., 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Vehicle Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Engine idling</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>As the engine speed increases, the wavelength shortens.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Using an oscilloscope, check waveform 3.</ptxt>
+<figure>
+<graphic graphicname="E215015E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C20-20 - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 50 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, SRS warning light ON</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Using an oscilloscope, check waveform 4.</ptxt>
+<figure>
+<graphic graphicname="E215013E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Measurement Condition</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C20-20 - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 50 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, SRS warning light OFF</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK ACCESSORY METER ASSEMBLY</ptxt>
+<figure>
+<graphic graphicname="E171440E02" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Disconnect the A18 accessory meter connector.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage and resistance according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbols)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A18-14 (+B) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>+B power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-12 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-12 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-B - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-13 (ACC) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ACC power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ACC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-13 (ACC) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G-R - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ACC power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-1 (GND) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>LG - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-10 (SGND) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BR - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>If the result is not as specified, there may be a malfunction on the wire harness side.</ptxt>
+</step2>
+<step2>
+<ptxt>Reconnect the A18 accessory meter connector.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<table frame="all">
+<tgroup cols="5">
+<colspec colname="col1" colwidth="1.42in"/>
+<colspec colname="col2" colwidth="1.42in"/>
+<colspec colname="col3" colwidth="1.42in"/>
+<colspec colname="col4" colwidth="1.42in"/>
+<colspec colname="col5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Terminal No. (Symbols)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A18-2 (SG) - A18-3 (TH+)*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>BR-Y - W-G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic air Conditioning ambient temperature sensor signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, ambient temperature 25°C (77°F)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.35 to 1.75 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A18-2 (SG) - A18-3 (TH+)*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>BR-Y - W-G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic air Conditioning ambient temperature sensor signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, ambient temperature 40°C (104°F)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0.85 to 2.34 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A18-6 (TAIL) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>G - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illumination signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, light control switch TAIL or HEAD</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A18-6 (TAIL) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>G - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illumination signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, light control switch off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>*: for Automatic Air Conditioning System</ptxt>
+<ptxt>If the result is not as specified, the multi-display may be malfunctioning.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>COMBINATION METER INNER CIRCUIT</ptxt>
+<figure>
+<graphic graphicname="E239287E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="E239288E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<ptxt>*1: w/ Accessory Meter</ptxt>
+<ptxt>*2: for Automatic Transmission</ptxt>
+<ptxt>*3: w/ Seat Belt Warning System</ptxt>
+<ptxt>*4: w/ Airbag System</ptxt>
+<ptxt>*5: w/o Airbag System</ptxt>
+<ptxt>*6: w/ Light Control Rheostat</ptxt>
+<ptxt>*7: w/ ABS</ptxt>
+<ptxt>*8: w/ Fog Light</ptxt>
+<ptxt>*9: w/o Light Control Rheostat</ptxt>
+</step1>
+<step1>
+<ptxt>TABLE OF TERMINAL CONNECTION</ptxt>
+<table pgwide="1">
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Terminal No.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wire Harness Side</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="39" valign="middle">
+<ptxt>C20</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>DOME fuse</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Fuel sender gauge</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Fuel sender gauge</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>5</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle speed sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>6</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>4-pulse output</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>7</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>8</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Headlight dimmer switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>9</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Light control rheostat*1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>10</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Unlock warning switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>11</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Front seat inner belt LH (Front seat buckle switch LH)*2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>12</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Park/neutral position switch*9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>13</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Integration relay</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>16</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Front door courtesy switch LH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>17</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Front door courtesy switch RH</ptxt>
+</item>
+<item>
+<ptxt>Rear door courtesy switch RH</ptxt>
+</item>
+<item>
+<ptxt>Rear door courtesy switch LH</ptxt>
+</item>
+<item>
+<ptxt>Back door courtesy switch</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>18</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>19</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Body ground*4</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>20</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Center airbag sensor assembly*3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>MET fuse</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>22</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>23</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>24</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Turn signal flasher relay</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>25</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Turn signal flasher relay</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>26</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>27</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Headlight dimmer switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>28</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>29</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>30</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Headlight dimmer switch (Fog light switch)*5</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>32</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle speed sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>33</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>34</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>35</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine oil pressure switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>36</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Parking brake switch</ptxt>
+</item>
+<item>
+<ptxt>Brake fluid level switch</ptxt>
+</item>
+<item>
+<ptxt>Skid control ECU with actuator*6</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>37</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Generator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>38</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Skid control ECU with actuator*6</ptxt>
+</item>
+<item>
+<ptxt>Body ground*7</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>39</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>40</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="15" valign="middle">
+<ptxt>C21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Park/neutral position switch*9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Park/neutral position switch*9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Shift lock control ECU*9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>5</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Shift lock control ECU*9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>6</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Park/neutral position switch*9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>10</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>No. 1 fuel injector*8</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>11</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>INJ fuse*8</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>12</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Accessory meter assembly*8</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>13</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Accessory meter assembly*8</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>14</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Park/neutral position switch*9</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>16</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>*1: w/ Light Control Rheostat</ptxt>
+<ptxt>*2: w/ Seat Belt Warning System</ptxt>
+<ptxt>*3: w/ Airbag System</ptxt>
+<ptxt>*4: w/o Airbag System</ptxt>
+<ptxt>*5: w/ Fog Light</ptxt>
+<ptxt>*6: w/ ABS</ptxt>
+<ptxt>*7: w/o ABS</ptxt>
+<ptxt>*8: w/ Accessory Meter</ptxt>
+<ptxt>*9: for Automatic Transmission</ptxt>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="10021_S0011" variety="S0011">
+<name>HORN</name>
+<ttl id="10021_S0011_7A82X_T007B" variety="T007B">
+<name>HIGH PITCHED HORN</name>
+<para id="RM000001B2A01FX" category="A" type-id="80001" name-id="HO02X-05" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001B2A01FX_01" type-id="01" category="01">
+<s-1 id="RM000001B2A01FX_01_0001" proc-id="RM21Q0EV__00002MK00000">
+<ptxt>REMOVE HIGH PITCHED HORN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B112705E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the horn connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and horn.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

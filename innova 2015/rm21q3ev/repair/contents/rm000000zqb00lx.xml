@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQB00LX" category="C" type-id="3008V" name-id="ES0OQ-17" from="201202">
+<dtccode>P0121/41</dtccode>
+<dtcname>Throttle Pedal Position Sensor / Switch "A" Circuit Range / Performance Problem</dtcname>
+<subpara id="RM000000ZQB00LX_01" type-id="60" category="03" proc-id="RM21Q0EV__000009C00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>Refer to DTC P0120/41 (see page <xref label="Seep01" href="RM000000ZQH00OX_01"/>). </ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0121/41</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Difference between VTA and VTA2 voltage deviates from the malfunction criteria (1 trip detection logic)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Throttle position sensor (built into throttle body)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>This DTC is related to the throttle position sensor.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQB00LX_02" type-id="64" category="03" proc-id="RM21Q0EV__000009D00000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The ECM uses the throttle position sensor to monitor the throttle valve opening angle.</ptxt>
+<ptxt>This sensor includes 2 signals: VTA1 and VTA2. VTA1 is used to detect the throttle opening angle and VTA2 is used to detect malfunctions in VTA1. The ECM performs several checks to confirm proper operation of the throttle position sensor and VTA1. </ptxt>
+<ptxt>There is a specific voltage difference expected between VTA1 and VTA2 for each throttle opening angle.</ptxt>
+<ptxt>If the voltage output difference of the VTA1 and VTA2 deviates from the normal operating range, the ECM interprets this as a malfunction of the throttle position sensor. The ECM will illuminate the MIL and set a DTC.</ptxt>
+<ptxt>This monitor runs for 2 seconds (the first 2 seconds of engine idle) after the engine is started (1 trip detection logic).</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQB00LX_03" type-id="62" category="03" proc-id="RM21Q0EV__000009E00000">
+<name>FAIL-SAFE</name>
+<content5 releasenbr="1">
+<ptxt>If the Electronic Throttle Control System (ETCS) is malfunctioning, the ECM cuts off the current to the throttle actuator. The throttle control valve returns to a predetermined throttle position (approximately 6.5°) by the force of the return spring. </ptxt>
+<ptxt>Then, required engine power is calculated by using the ignition timing and accelerator pedal position. The engine is controlled by intermittent fuel-cut.</ptxt>
+<ptxt>If the accelerator pedal is depressed firmly and slowly, the vehicle can be driven at minimum speed. If the accelerator pedal is depressed quickly, the vehicle may speed up and slow down erratically.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQB00LX_04" type-id="51" category="05" proc-id="RM21Q0EV__000009F00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQB00LX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQB00LX_05_0001" proc-id="RM21Q0EV__000009G00000">
+<testtitle>CHECK OTHER DTC OUTPUT (IN ADDITION TO DTC P0121/41)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / DTC.</ptxt>
+</test1>
+<test1>
+<ptxt>Read DTCs.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Display (DTC Output)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>P0121/41</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>P0121/41 and other DTCs</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQB00LX_05_0003" fin="true">A</down>
+<right ref="RM000000ZQB00LX_05_0002" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQB00LX_05_0002">
+<testtitle>GO TO RELEVANT DTC CHART</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQB00LX_05_0003">
+<testtitle>REPLACE THROTTLE BODY ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

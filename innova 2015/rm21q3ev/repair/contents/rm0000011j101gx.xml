@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM0000011J101GX" category="J" type-id="300N7" name-id="ME0KY-04" from="201202">
+<dtccode/>
+<dtcname>Engine Coolant Temperature Gauge Malfunction</dtcname>
+<subpara id="RM0000011J101GX_01" type-id="32" category="03" proc-id="RM21Q0EV__00002GU00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E115290E11" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000011J101GX_02" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000011J101GX_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000011J101GX_03_0001" proc-id="RM21Q0EV__00002GV00000">
+<testtitle>CHECK FOR DTC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check for DTCs of the SFI system (See page <xref label="Seep01" href="RM000000ZPW01AX"/>).</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC is not output</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC is output</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J101GX_03_0002" fin="false">A</down>
+<right ref="RM0000011J101GX_03_0003" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J101GX_03_0002" proc-id="RM21Q0EV__00002GW00000">
+<testtitle>CHECK WIRE HARNESS (METER - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="E128801E06" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E10 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-4 - E10-14 (THWO)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000011J101GX_03_0005" fin="true">OK</down>
+<right ref="RM0000011J101GX_03_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000011J101GX_03_0003">
+<testtitle>GO TO SFI SYSTEM<xref label="Seep01" href="RM000000ZPQ015X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000011J101GX_03_0004">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000011J101GX_03_0005">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY<xref label="Seep01" href="RM000004S68006X"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

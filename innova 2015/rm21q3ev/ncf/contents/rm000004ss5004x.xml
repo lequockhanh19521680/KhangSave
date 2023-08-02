@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12022_S000E" variety="S000E">
+<name>DRIVE SHAFT / PROPELLER SHAFT</name>
+<ttl id="12022_S000E_7AIQQ_T000T" variety="T000T">
+<name>PROPELLER SHAFT SYSTEM</name>
+<para id="RM000004SS5004X" category="F" type-id="8048W" name-id="DP0PZ-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004SS5004X_z0" proc-id="NM21Q0EV__000002F00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A 3-joint type propeller shaft is used.</ptxt>
+<figure>
+<graphic graphicname="X104661E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hook's Joint</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100135" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Transmission Side</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="V100136" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Differential Side</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LIR03BX" category="D" type-id="303F2" name-id="ACCUY-08" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000002LIR03BX_z0" proc-id="RM21Q0EV__00004PN00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>GENERAL</ptxt>
+<step2>
+<ptxt>The air conditioning system has the following features:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The air conditioning amplifier assembly is equipped with a self-diagnosis function. If there is a malfunction in the system, it stores DTCs in its memory and the air conditioning switch indicator blinks.</ptxt>
+</item>
+<item>
+<ptxt>The air conditioning amplifier assembly receives the vehicle speed signal from the combination meter.</ptxt>
+</item>
+<item>
+<ptxt>The recirculation damper servo sub-assembly, air mix damper servo sub-assembly and mode damper servo sub-assembly rely on their built-in pulse sensors to detect their respective motor rotation angles.</ptxt>
+</item>
+<item>
+<ptxt>The servo motor rotation angle zero point calibration is necessary in the following situations: 1) the servo motor deviates from the calibrated position, 2) the air conditioning amplifier assembly backup power source is cut, or 3) the air conditioning amplifier assembly or servo motor is replaced.</ptxt>
+<ptxt>For 1, when the ignition switch is turned off, zero point calibration of the air conditioning amplifier assembly is automatically performed. For 2 and 3, when the backup power source returns and the ignition switch is turned to ON, zero point calibration of the air conditioning amplifier assembly is automatically performed.</ptxt>
+<ptxt>While zero point calibration is being performed, the following occurs: 1) the DEF indicator blinks at 1 second intervals, but the air conditioning amplifier assembly other outputs are disabled; and 2) the air conditioning system switches do not function.</ptxt>
+</item>
+<item>
+<ptxt>When the front air conditioning is not operating, the rear cooler can only blow out air.</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+<step1>
+<ptxt>MODE POSITION AND DAMPER OPERATION</ptxt>
+<figure>
+<graphic graphicname="E225507E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4" align="left">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COLSPEC3" colwidth="0.71in"/>
+<colspec colname="COLSPEC2" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blower with Fan Motor Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Heater Radiator Unit Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Evaporator Sub-assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Defroster</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Side Register</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Center Register</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Footwell Register Duct</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fresh Air</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Recirculated Air</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>This Illustration is damper operation image. The number and location of the dampers is different to the actual unit.</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="0.82in"/>
+<colspec colname="COL2" colwidth="1.63in"/>
+<colspec colname="COLSPEC0" colwidth="1.63in"/>
+<colspec colname="COL3" colwidth="0.82in"/>
+<colspec colname="COL4" colwidth="2.18in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Control Damper</ptxt>
+</entry>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle" align="center">
+<ptxt>Operation Position</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Damper Position</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Operation</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Air Inlet Control Damper</ptxt>
+</entry>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle">
+<ptxt>FRESH</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Brings in fresh air.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle">
+<ptxt>RECIRC</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Recirculates internal air.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Air Mix Control Damper</ptxt>
+</entry>
+<entry namest="COL2" nameend="COLSPEC0" valign="middle">
+<ptxt>MAX COLD - MAX HOT</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C, D, E</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Varies mixture ratio of cool air and warm air in order to regulate temperature continuously from HOT to COLD.</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="4" valign="middle" align="center">
+<ptxt>Mode Damper</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>FACE </ptxt>
+</entry>
+<entry valign="middle">
+<graphic graphicname="Y100673" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>F, K</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air blows out of the center registers and side register.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BI-LEVEL</ptxt>
+</entry>
+<entry valign="middle">
+<graphic graphicname="Y100674" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>F, J</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air blows our of the center registers, side registers and foot well register ducts.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FOOT</ptxt>
+</entry>
+<entry valign="middle">
+<graphic graphicname="Y100675" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>G, I</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air blows out of the foot well register ducts and side register. In addition, air blows out slightly from the front defroster.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FOOT/DEF</ptxt>
+</entry>
+<entry valign="middle">
+<graphic graphicname="Y100676" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>H, I</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Defrosts the windshield through the front defroster and side register, while air is also blown out from the foot well register ducts.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DEF</ptxt>
+</entry>
+<entry valign="middle">
+<graphic graphicname="Y100677" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>H, K</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Defrosts the windshield through the front defroster and side register.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>AIR OUTLETS AND AIR FLOW VOLUME</ptxt>
+<figure>
+<graphic graphicname="Y113428E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="6">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.13in"/>
+<colspec colname="COL3" colwidth="1.13in"/>
+<colspec colname="COL4" colwidth="1.13in"/>
+<colspec colname="COL5" colwidth="1.13in"/>
+<colspec colname="COL6" colwidth="1.14in"/>
+<thead>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Indication</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Mode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Center</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Side</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Footwell</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Defroster</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100673" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>FACE</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100974" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100974" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100674" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>BI-LEVEL</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100976" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100675" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>FOOT</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100976" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100976" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100676" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>FOOT/DEF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100976" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100677" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>DEF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100976" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="Y100975" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The circle size (○) is proportional to the amount of air flow.</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

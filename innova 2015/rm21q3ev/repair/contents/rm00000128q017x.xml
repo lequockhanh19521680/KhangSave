@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82F_T006T" variety="T006T">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM00000128Q017X" category="D" type-id="303F2" name-id="DL06E-09" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM00000128Q017X_z0" proc-id="RM21Q0EV__00002FC00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>POWER DOOR LOCK CONTROL SYSTEM DESCRIPTION</ptxt>
+<ptxt>The power door lock system locks / unlocks all the doors simultaneously.</ptxt>
+<ptxt>The master switch sends lock / unlock request signals to the integration relay. Then, the integration relay sends these requests to lock motors in each door to lock / unlock all the doors simultaneously. Operating the driver side door lock using a key sends lock / unlock request signals to the integration relay.</ptxt>
+</step1>
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENT</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Component</ptxt>
+</entry>
+<entry>
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Master switch</ptxt>
+</entry>
+<entry>
+<ptxt>Door control switch on master switch locks / unlocks all doors</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Door courtesy switch</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>One for each door</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Detects door status (open or closed) and outputs data to integration relay </ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Turns on when door is open and off when door is closed</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Driver door lock</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Built-in motor locks / unlocks door</ptxt>
+</item>
+<item>
+<ptxt>Built-in door control switch (key-linked) detects door lock status (locked or unlocked) and outputs data to integration relay</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Passenger, rear LH, rear RH and back door locks</ptxt>
+</entry>
+<entry>
+<ptxt>Built-in motor locks / unlocks doors</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>DESCRIPTION</ptxt>
+<ptxt>This system is controlled by the integration relay. The integration relay outputs signals to each door lock motor.</ptxt>
+<ptxt>The door lock control system in the vehicle has the following functions:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.63in"/>
+<colspec colname="COL2" colwidth="3.46in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Function</ptxt>
+</entry>
+<entry>
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Manual lock and unlock function</ptxt>
+</entry>
+<entry>
+<ptxt>Locks / unlocks all doors by door control switch's lock operation (manual operation)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Key-linked lock and unlock function</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Linked with driver door key cylinder</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Locks / unlocks all doors when lock / unlock operation is possible</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Driver side door key-linked lock / unlock function will not operate when seat belt is fastened</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>All doors lock with transmitter*</ptxt>
+</entry>
+<entry>
+<ptxt>Pressing transmitter's lock switch locks all doors</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>All doors unlock with transmitter*</ptxt>
+</entry>
+<entry>
+<ptxt>Pressing transmitter's unlock switch unlocks all doors</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: w/ Theft Deterrent system</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

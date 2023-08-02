@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N6Z00OX" category="J" type-id="304M1" name-id="ME1U5-02" from="201202">
+<dtccode/>
+<dtcname>Clearance Sonar Main Switch Circuit</dtcname>
+<subpara id="RM000003N6Z00OX_01" type-id="60" category="03" proc-id="RM21Q0EV__00002M100000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>When the clearance sonar main switch is turned on, an ON signal is sent to the clearance warning ECU, and the TOYOTA parking assist-sensor system starts operating.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000003N6Z00OX_02" type-id="32" category="03" proc-id="RM21Q0EV__00002M200000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E168858E03" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000003N6Z00OX_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000003N6Z00OX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000003N6Z00OX_04_0001" proc-id="RM21Q0EV__00002M300000">
+<testtitle>INSPECT FUSE (ECU-IG &amp; GAUGE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ECU-IG &amp; GAUGE fuse from the driver side junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>ECU-IG &amp; GAUGE fuse</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N6Z00OX_04_0002" fin="false">OK</down>
+<right ref="RM000003N6Z00OX_04_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N6Z00OX_04_0002" proc-id="RM21Q0EV__00002M400000">
+<testtitle>INSPECT CLEARANCE SONAR MAIN SWITCH</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the clearance sonar main switch.</ptxt>
+<figure>
+<graphic graphicname="E168863E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>3 (IG) - 4 (ECU)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Clearance sonar main switch on</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 (IG) - 4 (ECU)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Clearance sonar main switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N6Z00OX_04_0003" fin="false">OK</down>
+<right ref="RM000003N6Z00OX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N6Z00OX_04_0003" proc-id="RM21Q0EV__00002M500000">
+<testtitle>CHECK HARNESS AND CONNECTOR (CLEARANCE SONAR MAIN SWITCH - CLEARANCE WARNING ECU)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the B4 switch connector.</ptxt>
+<figure>
+<graphic graphicname="E169219E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the C17 ECU connector.</ptxt>
+<figure>
+<graphic graphicname="E149933E23" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>B4-3 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B4-3 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>B4-4 (ECU) - C17-10 (IG)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B4-4 (ECU) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N6Z00OX_04_0004" fin="false">OK</down>
+<right ref="RM000003N6Z00OX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N6Z00OX_04_0004" proc-id="RM21Q0EV__00002M600000">
+<testtitle>CHECK HARNESS AND CONNECTOR (CLEARANCE WARNING ECU - BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the C17 ECU connector.</ptxt>
+<figure>
+<graphic graphicname="E149933E22" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C17-21 (E) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003N6Z00OX_04_0008" fin="true">OK</down>
+<right ref="RM000003N6Z00OX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003N6Z00OX_04_0005">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM000003N6Z00OX_04_0006">
+<testtitle>REPLACE CLEARANCE SONAR MAIN SWITCH</testtitle>
+</testgrp>
+<testgrp id="RM000003N6Z00OX_04_0007">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000003N6Z00OX_04_0008">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM000003N6S00LX"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

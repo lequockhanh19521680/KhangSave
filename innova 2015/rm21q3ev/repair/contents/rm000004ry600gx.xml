@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A812_T005G" variety="T005G">
+<name>BLOWER UNIT</name>
+<para id="RM000004RY600GX" category="A" type-id="80002" name-id="ACFTR-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000004RY600GX_01" type-id="01" category="01">
+<s-1 id="RM000004RY600GX_01_0003" proc-id="RM21Q0EV__00004HR00000">
+<ptxt>REMOVE AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY (for Manual Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E227247" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 3 claws and remove the air inlet damper control cable sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RY600GX_01_0004" proc-id="RM21Q0EV__00004HS00000">
+<ptxt>REMOVE RECIRCULATION DAMPER SERVO SUB-ASSEMBLY (for Automatic Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the claw and remove the lever.</ptxt>
+<figure>
+<graphic graphicname="E229501E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lever</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 3 screws and recirculation damper servo sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E229502" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RY600GX_01_0005" proc-id="RM21Q0EV__00004HT00000">
+<ptxt>REMOVE CLEAN AIR FILTER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225195" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the claw and remove the air filter case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the clean air filter.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RY600GX_01_0001" proc-id="RM21Q0EV__000046Y00000">
+<ptxt>REMOVE BLOWER RESISTOR (for Manual Air Conditioning System)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231900" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 screws and blower resistor.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RY600GX_01_0006" proc-id="RM21Q0EV__000046T00000">
+<ptxt>REMOVE BLOWER MOTOR CONTROL (for Automatic Air Conditioning System)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231898" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 screws and blower motor control.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RY600GX_01_0002" proc-id="RM21Q0EV__000046N00000">
+<ptxt>REMOVE BLOWER MOTOR WITH FAN SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E235163" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the clip and disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 3 screws and the blower motor with fan sub-assembly.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

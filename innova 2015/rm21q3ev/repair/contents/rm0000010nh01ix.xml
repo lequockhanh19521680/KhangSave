@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZA_T003O" variety="T003O">
+<name>SHIFT LOCK SYSTEM</name>
+<para id="RM0000010NH01IX" category="G" type-id="8000T" name-id="AT44P-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010NH01IX_01" type-id="01" category="01">
+<s-1 id="RM0000010NH01IX_01_0001" proc-id="RM21Q0EV__00000YD00000">
+<ptxt>CHECK SHIFT LOCK OPERATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Move the shift lever to P.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch off.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the shift lever cannot be moved from P.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch to ON, depress the brake pedal and check that the shift lever can be moved to other positions.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NH01IX_01_0002" proc-id="RM21Q0EV__00000YE00000">
+<ptxt>CHECK SHIFT LOCK RELEASE BUTTON OPERATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When operating the shift lever with the shift lock release button pressed, check that the lever can be moved to any position.</ptxt>
+<ptxt>If the operation cannot be performed as specified, check the shift lock control unit assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NH01IX_01_0003" proc-id="RM21Q0EV__00000YF00000">
+<ptxt>CHECK KEY INTERLOCK OPERATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</s2>
+<s2>
+<ptxt>Depress the brake pedal and move the shift lever to any position other than P.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the ignition switch cannot be turned off.</ptxt>
+</s2>
+<s2>
+<ptxt>Move the shift lever to P, turn the ignition switch off and check that the key can be removed.</ptxt>
+<ptxt>If the results are not as specified, inspect the shift lock control unit assembly and the key interlock solenoid.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NH01IX_01_0004" proc-id="RM21Q0EV__00000YG00000">
+<ptxt>CHECK SHIFT LOCK CONTROL ECU SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C113154E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Measure the voltage and resistance according to the values in the table below.</ptxt>
+<atten4>
+<ptxt>Do not disconnect the shift lock control ECU connector.</ptxt>
+</atten4>
+<spec>
+<title>Standard Voltage and Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>12 (KLS+) - 8 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch to ACC and shift lever in P</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>12 (KLS+) - 8 (E)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch to ACC and shift lever not in P</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>7.5 to 11 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>12 (KLS+) - 8 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch to ACC and shift lever not in P (after approx. 1 second)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt> 6 to 9 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>6 (ACC) - 8 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch to ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>6 (ACC) - 8 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch to ACC</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>6 (ACC) - 8 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>7 (STP) - 8 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Brake pedal depressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>7 (STP) - 8 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Brake pedal released</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 (IG) - 8 (E)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch to ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 (IG) - 8 (E) </ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>8 (E) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the shift lock control unit assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

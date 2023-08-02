@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="routing">
+	<Code id="J20" type="conn" subcode="">
+		<refs type="system" code="SYS003"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS038"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J28" type="conn" subcode="B">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS004"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS011"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS015"/>
+		<refs type="system" code="SYS016"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS019"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS028"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS033"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS038"/>
+		<refs type="system" code="SYS039"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="SYS041"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J27" type="conn" subcode="A">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS011"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS015"/>
+		<refs type="system" code="SYS016"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS019"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS033"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS038"/>
+		<refs type="system" code="SYS039"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J38" type="conn" subcode="">
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/></Code>
+	<Code id="J29" type="conn" subcode="A">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS028"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J30" type="conn" subcode="B">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS028"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J34" type="conn" subcode="">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS037"/></Code>
+	<Code id="J18" type="conn" subcode="A">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS026"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS038"/></Code>
+	<Code id="J19" type="conn" subcode="B">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS026"/>
+		<refs type="system" code="SYS037"/></Code>
+	<Code id="J21" type="conn" subcode="A">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS026"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS036"/></Code>
+	<Code id="J33" type="conn" subcode="">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS017"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS026"/>
+		<refs type="system" code="SYS036"/>
+		<refs type="system" code="SYS038"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J7" type="conn" subcode="">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J22" type="conn" subcode="B">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS026"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS031"/></Code>
+	<Code id="J15" type="conn" subcode="B">
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J14" type="conn" subcode="A">
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS033"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J3" type="conn" subcode="B">
+		<refs type="system" code="SYS009"/>
+		<refs type="system" code="SYS021"/></Code>
+	<Code id="J4" type="conn" subcode="A">
+		<refs type="system" code="SYS011"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="J2" type="conn" subcode="A">
+		<refs type="system" code="SYS009"/>
+		<refs type="system" code="SYS010"/>
+		<refs type="system" code="SYS021"/></Code>
+	<Code id="J5" type="conn" subcode="B">
+		<refs type="system" code="SYS011"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="J13" type="conn" subcode="B">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS032"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="J12" type="conn" subcode="A">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS032"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="J17" type="conn" subcode="B">
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="J16" type="conn" subcode="A">
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="J25" type="conn" subcode="A">
+		<refs type="system" code="SYS006"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS017"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS038"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J26" type="conn" subcode="B">
+		<refs type="system" code="SYS006"/>
+		<refs type="system" code="SYS009"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS017"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS038"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="SYS041"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="J24" type="conn" subcode="B">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/></Code>
+	<Code id="J31" type="conn" subcode="A">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="J32" type="conn" subcode="B">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="J23" type="conn" subcode="A">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/></Code>
+</CodeList>

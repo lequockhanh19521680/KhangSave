@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81S_T0066" variety="T0066">
+<name>HAZARD WARNING SWITCH</name>
+<para id="RM0000024EY003X" category="G" type-id="3001K" name-id="LI1VM-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000024EY003X_01" type-id="01" category="01">
+<s-1 id="RM0000024EY003X_01_0001" proc-id="RM21Q0EV__000029900000">
+<ptxt>INSPECT HAZARD WARNING SIGNAL SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B059807E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance of the switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>2 (E) - 4 (TB)</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (E) - 4 (TB)</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</item>
+</list1>
+</s2>
+<s2>
+<ptxt>Check illumination operation.</ptxt>
+<s3>
+<ptxt>Connect the battery's positive (+) lead to terminal 8 and negative (-) lead to terminal 9. Then check that the bulb illuminates.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Bulb illuminates.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

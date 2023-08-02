@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XW_T002A" variety="T002A">
+<name>CAMSHAFT POSITION SENSOR</name>
+<para id="RM000000VX401SX" category="A" type-id="30014" name-id="ES45Y-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000VX401SX_01" type-id="01" category="01">
+<s-1 id="RM000000VX401SX_01_0001" proc-id="RM21Q0EV__000005000000">
+<ptxt>INSTALL CAMSHAFT POSITION SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099146E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Apply a light coat of engine oil to the O-ring of the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VX401SX_01_0007">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000VX401SX_01_0008" proc-id="RM21Q0EV__000005100000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

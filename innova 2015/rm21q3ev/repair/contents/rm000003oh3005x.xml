@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z9_T003N" variety="T003N">
+<name>VALVE BODY ASSEMBLY</name>
+<para id="RM000003OH3005X" category="G" type-id="3001K" name-id="AT44L-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000003OH3005X_01" type-id="01" category="01">
+<s-1 id="RM000003OH3005X_01_0001" proc-id="RM21Q0EV__00000XV00000">
+<ptxt>INSPECT SHIFT SOLENOID VALVE SLT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C162477E18" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal 1 of shift solenoid valve SLT - terminal 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.0 to 5.6 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Apply 12 V of battery voltage to the shift solenoid valve and check that the valve moves and makes an operating noise.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Battery positive (+) with a 21 W bulb → Terminal 2</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Battery negative (-) → Terminal 1</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Valve moves and makes an operating noise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the solenoid valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OH3005X_01_0002" proc-id="RM21Q0EV__00000XW00000">
+<ptxt>INSPECT SHIFT SOLENOID VALVE SL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C192868E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Solenoid Connector (SL) - Solenoid Body (SL)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Apply 12 V of battery voltage to the shift solenoid valve and check that the valve moves and makes an operating noise.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Battery positive (+) → Shift solenoid valve SL connector</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Battery negative (-) → Shift solenoid valve SL body</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Valve moves and makes an operating noise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the solenoid valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OH3005X_01_0003" proc-id="RM21Q0EV__00000XX00000">
+<ptxt>INSPECT SHIFT SOLENOID VALVE S1/S2</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C192337E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Solenoid Connector (S1) - Solenoid Body (S1) </ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Solenoid Connector (S2) - Solenoid Body (S2) </ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>11 to 15 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Apply 12 V of battery voltage to the shift solenoid valve and check that the valve moves and makes an operating noise.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Battery positive (+) → Shift solenoid valve S1/S2 connector</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Battery negative (-) → Shift solenoid valve S1/S2 body</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Valve moves and makes an operating noise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the solenoid valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

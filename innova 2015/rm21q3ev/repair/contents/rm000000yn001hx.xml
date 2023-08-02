@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y9_T002N" variety="T002N">
+<name>CAMSHAFT</name>
+<para id="RM000000YN001HX" category="A" type-id="80001" name-id="EM0EG-03" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000YN001HX_01" type-id="01" category="01">
+<s-1 id="RM000000YN001HX_01_0001" proc-id="RM21Q0EV__00000NC00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0002" proc-id="RM21Q0EV__000005F00000">
+<ptxt>REMOVE DRIVE BELT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and decrease the tension in the drive belt. Then remove the drive belt.</ptxt>
+<figure>
+<graphic graphicname="A099194E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>When removing the drive belt, do not use the idle pulley's bolt.</ptxt>
+</atten3>
+<atten4>
+<ptxt>After removing the drive belt, move the tensioner upward to the maximum position.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YN001HX_01_0013" proc-id="RM21Q0EV__00000HR00000">
+<ptxt>REMOVE INTAKE AIR CONNECTOR
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099871E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the MAF meter connector and wire harness clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the hose clamp and remove the 4 bolts, air cleaner and intake air connector assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YN001HX_01_0004" proc-id="RM21Q0EV__00000ND00000">
+<ptxt>REMOVE IGNITION COIL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and ignition coil.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0005" proc-id="RM21Q0EV__00000NE00000">
+<ptxt>REMOVE CYLINDER HEAD COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the wire harness from the 6 clamps.</ptxt>
+<figure>
+<graphic graphicname="G035202E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 19 bolts, 2 nuts, cylinder head cover and 2 gaskets.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0006" proc-id="RM21Q0EV__00000NF00000">
+<ptxt>REMOVE TIMING CHAIN GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts, chain guide and O-ring.</ptxt>
+<figure>
+<graphic graphicname="G037278E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0007" proc-id="RM21Q0EV__00000NG00000">
+<ptxt>REMOVE CAMSHAFT TIMING SPROCKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Turn the crankshaft pulley, and align its groove with timing mark 0 of the timing chain cover.</ptxt>
+<figure>
+<graphic graphicname="G038864E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that the timing marks of the camshaft timing gear and sprocket are aligned with the timing marks of the No. 1 bearing cap, as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Place paint marks on the timing chain and camshaft timing gear/sprocket.</ptxt>
+<figure>
+<graphic graphicname="A097862E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Fix the camshaft in place with a wrench and then loosen the sprocket bolt.</ptxt>
+<figure>
+<graphic graphicname="A097863E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the oil delivery pipe.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a 10 mm socket hexagon wrench, remove the timing chain cover plug.</ptxt>
+<figure>
+<graphic graphicname="A086539E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, access the tensioner stopper plate through the chain tensioner service hole. Move the stopper plate upward to release the lock. Then hold the plate in that position, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097864E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>If the stopper plate's lock is difficult to release, slightly rotate the camshaft's hexagon-shaped part to the left and right.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>With the stopper plate's lock released, slightly rotate the camshaft to the right. Then maintain that position. </ptxt>
+<figure>
+<graphic graphicname="A097865E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the oil delivery pipe.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Rotating the camshaft to the right will cause pressure to be applied to the tensioner plunger.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the screwdriver from the chain tensioner service hole. Move the stopper plate to the position shown in the illustration. Then insert a hexagon wrench into the hole.</ptxt>
+<figure>
+<graphic graphicname="A086542E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the wrench cannot fit into the hole, slightly rotate the camshaft to the left and then to the right. Then insert the wrench.</ptxt>
+</item>
+<item>
+<ptxt>To prevent the wrench from falling out, use tape to fix the wrench in place.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the camshaft timing sprocket from the camshaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0008" proc-id="RM21Q0EV__00000NH00000">
+<ptxt>REMOVE CAMSHAFT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Uniformly loosen the 21 bearing cap bolts in several passes in the sequence shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A097866E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 9 bearing caps, oil delivery pipe, O-ring and camshaft. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Place the camshaft on a flat surface, maintain this position and loosen the bolts uniformly.</ptxt>
+</item>
+<item>
+<ptxt>Do not pry the camshaft with a tool by applying excessive force to it.</ptxt>
+</item>
+<item>
+<ptxt>Do not damage the reception part of the camshaft on the cylinder head side.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the camshaft while holding the timing chain.</ptxt>
+<figure>
+<graphic graphicname="A086544E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tie the timing chain with a string as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A086545E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to drop anything inside the timing chain cover.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0009" proc-id="RM21Q0EV__00000NI00000">
+<ptxt>REMOVE VALVE ROCKER ARM</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Each rocker arm must be reinstalled to its original location.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0010" proc-id="RM21Q0EV__00000NJ00000">
+<ptxt>REMOVE VALVE LASH ADJUSTER</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Each lash adjuster must be reinstalled to its original location.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0011" proc-id="RM21Q0EV__00000NK00000">
+<ptxt>REMOVE CAMSHAFT TIMING GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the flange bolt of the camshaft timing gear. </ptxt>
+<figure>
+<graphic graphicname="A097871E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be sure not to remove the other 3 bolts.</ptxt>
+</item>
+<item>
+<ptxt>If planning to reuse the gear, be sure to release the straight pin lock before installing the gear.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YN001HX_01_0012" proc-id="RM21Q0EV__00000NL00000">
+<ptxt>REMOVE VALVE STEM CAP</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Each stem cap must be reinstalled to its original location.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

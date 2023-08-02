@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7ARJO_T008X" variety="T008X">
+<name>CAMSHAFT OIL CONTROL VALVE</name>
+<para id="RM000000VVX01YX" category="G" type-id="3001K" name-id="ES0A1-12" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000000VVX01YX_01" type-id="01" category="01">
+<s-1 id="RM000000VVX01YX_01_0001" proc-id="RM21Q0EV__00003HZ00000">
+<ptxt>INSPECT CAMSHAFT TIMING OIL CONTROL VALVE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A111696" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the resistance of the oil control valve.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>6.9 to 7.9 Ω at 20°C (68°F)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the oil control valve assembly.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A123787E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the battery's positive (+) lead to terminal 1 and negative (-) lead to terminal 2, and check the movement of the valve.</ptxt>
+<spec>
+<title>Specified condition</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) voltage is applied</ptxt>
+</entry>
+<entry>
+<ptxt>Valve moves in black arrow direction shown in the illustration</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) voltage is cut off</ptxt>
+</entry>
+<entry>
+<ptxt>Valve moves in white arrow direction shown in the illustration</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the oil control valve assembly. If the valve cannot return properly because of foreign matter, a small pressure leak in the advanced direction may occur and a DTC may be output.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

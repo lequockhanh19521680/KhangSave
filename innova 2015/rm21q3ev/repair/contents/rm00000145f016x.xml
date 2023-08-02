@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name>
+<ttl id="1000C_S0009_7A7YR_T0035" variety="T0035">
+<name>RADIATOR</name>
+<para id="RM00000145F016X" category="K" type-id="30193" name-id="CO04B-06" from="201202" to="201403">
+<name>COMPONENTS</name>
+<subpara id="RM00000145F016X_01" type-id="02" category="04" proc-id="RM21Q0EV__00000RN00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A120247E02" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM00000145F016X_05" type-id="02" category="04" proc-id="RM21Q0EV__00000RP00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A194871E01" width="7.1065789991732in" height="9.80353557226662in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM00000145F016X_03" type-id="02" category="04" proc-id="RM21Q0EV__00000RO00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A113331E08" width="7.1065789991732in" height="9.80353557226662in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM00000145F016X_06" type-id="02" category="04" proc-id="RM21Q0EV__00000RQ00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A113333E04" width="7.1065789991732in" height="9.80353557226662in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AWVT_T00AJ" variety="T00AJ">
+<name>WIPER SWITCH</name>
+<para id="RM00000151201CX" category="G" type-id="3001K" name-id="WW54Z-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM00000151201CX_01" type-id="01" category="01">
+<s-1 id="RM00000151201CX_01_0001" proc-id="RM21Q0EV__00004Z900000">
+<ptxt>INSPECT WIPER AND WASHER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the front wiper switch.</ptxt>
+<figure>
+<graphic graphicname="E171721E56" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Wiper and Washer Switch Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<s3>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B-3 (+1) - B-2 (+B)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>MIST</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B-3 (+1) - B-1 (+S)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B-3 (+1) - B-1 (+S)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>INT</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B-3 (+1) - B-2 (+B)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>LO</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B-4 (+2) - B-2 (+B)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>HI</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the windshield washer switch.</ptxt>
+<s3>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-3 (WF) - A-2 (EW)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-3 (WF) - A-2 (EW)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the rear wiper and washer switch.</ptxt>
+<s3>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-2 (EW) - B-5 (WR)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>WASH</ptxt>
+<ptxt>Rear wiper switch rotated from ON position and held</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-2 (EW) - B-5 (WR)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-7 (+1R) - B-5 (WR)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-2 (EW) - A-7 (+1R)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-2 (EW) - A-7 (+1R)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-2 (EW) - B-5 (WR)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>WASH</ptxt>
+<ptxt>Rear wiper switch rotated from ON position and held</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-7 (+1R) - B-5 (WR)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>WASH</ptxt>
+<ptxt>Rear wiper switch rotated from ON position and held</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A-2 (EW) - A-7 (+1R)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>WASH</ptxt>
+<ptxt>Rear wiper switch rotated from ON position and held</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the intermittent operation.</ptxt>
+<s3>
+<ptxt>Connect a voltmeter's positive (+) lead to terminal B-3 (+1) and the negative (-) lead to terminal A-2 (EW).</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the battery's positive (+) lead to terminal B-2 (+B) and the negative (-) lead to terminals A-2 (EW) and B-1 (+S).</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the wiper switch to the INT position.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the battery's positive (+) lead to terminal B-1 (+S) for 5 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the battery's negative (-) lead to terminal B-1 (+S). operate the intermittent wiper relay and check the voltage between terminals B-3 (+1) and A-2 (EW).</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Refer to the illustration below.</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="E056399E63" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Voltage between terminals B-3 (+1) and A-2 (EW)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Battery negative lead is connected to terminal B-1 (+S)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Battery negative lead is connected to terminal B-1 (+S)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.6 +/-1 second (interval is short)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10.7 +/-5 second (interval is long)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the washer operation.</ptxt>
+<s3>
+<ptxt>Turn the wiper switch off.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the battery's positive (+) lead to terminal B-2 (+B) and the negative (-) lead to terminals B-1 (+S) and A-2 (EW).</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the voltmeter's positive (+) lead to terminal B-3 (+1) and the negative (-) lead to terminal A-2 (EW).</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the washer switch on and off, and check the voltage between terminals B-3 (+1) and A-2 (EW).</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Refer to the illustration below.</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="E125344E37" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Washer Switch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Voltage between terminals A-2 (EW) and B-3 (+1)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>If the result is not as specified, replace the switch assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

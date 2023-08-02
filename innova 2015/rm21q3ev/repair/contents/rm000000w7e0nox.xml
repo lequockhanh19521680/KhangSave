@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W7E0NOX" category="U" type-id="303FJ" name-id="AT0039-175" from="201202" to="201303">
+<name>DATA LIST / ACTIVE TEST</name>
+<subpara id="RM000000W7E0NOX_z0" proc-id="RM21Q0EV__000018C00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>READ DATA LIST</ptxt>
+<atten4>
+<ptxt>Using the Data List of the intelligent tester allows switch, sensor, actuator, and other item values to be read without removing any parts. Reading the Data List early in troubleshooting is one way to save time.</ptxt>
+</atten4>
+<atten3>
+<ptxt>In the table below, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.</ptxt>
+</atten3>
+<step2>
+<ptxt>Warm up the engine.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch off.</ptxt>
+</step2>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch to ON and push the tester main switch on.</ptxt>
+</step2>
+<step2>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List.</ptxt>
+</step2>
+<step2>
+<ptxt>Follow the instructions on the tester and read the Data List.</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="1.77in"/>
+<colspec colname="COL2" align="left" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Stop Light Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Brake pedal is</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Depressed</ptxt>
+</item>
+<item>
+<ptxt>OFF: Released</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Neutral Position SW Signal</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: In P or N</ptxt>
+</item>
+<item>
+<ptxt>OFF: Not in P or N</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, see page <xref label="Seep01" href="RM0000013TP01BX"/>
+</ptxt>
+</atten4>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW Status (R Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: In R</ptxt>
+</item>
+<item>
+<ptxt>OFF: Not in R</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, see page <xref label="Seep02" href="RM0000013TP01BX"/>
+</ptxt>
+</atten4>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW Status (D or 3 Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: In D or 3</ptxt>
+</item>
+<item>
+<ptxt>OFF: Not in D or 3</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, see page <xref label="Seep03" href="RM0000013TP01BX"/>
+</ptxt>
+</atten4>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW Status (2 Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: In 2</ptxt>
+</item>
+<item>
+<ptxt>OFF: Not in 2</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, see page <xref label="Seep04" href="RM0000013TP01BX"/>
+</ptxt>
+</atten4>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW Status (L Range)</ptxt>
+</entry>
+<entry>
+<ptxt>Park/neutral position switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: In L</ptxt>
+</item>
+<item>
+<ptxt>OFF: Not in L</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+<atten4>
+<ptxt>When failure still occurs even after adjusting these parts, see page <xref label="Seep05" href="RM0000013TP01BX"/>
+</ptxt>
+</atten4>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift Status</ptxt>
+</entry>
+<entry>
+<ptxt>ECM gear shift command/</ptxt>
+<ptxt>1st, 2nd, 3rd or 4th</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>In L: 1st</ptxt>
+</item>
+<item>
+<ptxt>In 2: 1st or 2nd</ptxt>
+</item>
+<item>
+<ptxt>In 3: 1st, 2nd or 3rd</ptxt>
+</item>
+<item>
+<ptxt>In D: 1st, 2nd, 3rd or 4th</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lock Up Solenoid Status</ptxt>
+</entry>
+<entry>
+<ptxt>Lock-up solenoid status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Lock-up solenoid is:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Operating</ptxt>
+</item>
+<item>
+<ptxt>OFF: Not operating</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SLT Solenoid Status</ptxt>
+</entry>
+<entry>
+<ptxt>Shift solenoid SLT status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>ON: Accelerator pedal is released</ptxt>
+</item>
+<item>
+<ptxt>OFF: Accelerator pedal is depressed</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A/T Oil Temperature 3</ptxt>
+</entry>
+<entry>
+<ptxt>ATF temperature sensor value/</ptxt>
+<ptxt>Min.: -40°C (-40°F)</ptxt>
+<ptxt>Max.: 215°C (419°F)</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>After stall speed test:</ptxt>
+<ptxt>Approximately 80°C (176°F)</ptxt>
+</item>
+<item>
+<ptxt>Equal to ambient temperature while engine is cold</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>If value is -40°C (-40°F) or 215°C (419°F), ATF temperature sensor circuit is open or short circuited</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SPD (SP2)</ptxt>
+</entry>
+<entry>
+<ptxt>Output shaft speed/</ptxt>
+<ptxt>Min.: 0 km/h (0 mph)</ptxt>
+<ptxt>Max.: 255 km/h (158 mph)</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle stopped: 0 km/h (0 mph)</ptxt>
+<ptxt>(output shaft speed is equal to vehicle speed)</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SPD (NC0)</ptxt>
+</entry>
+<entry>
+<ptxt>Input turbine speed/</ptxt>
+<ptxt>Min.: 0 rpm</ptxt>
+<ptxt>Max.: 12750 rpm</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Lock-up ON (warmed up engine, other than 4th):</ptxt>
+<ptxt>Input turbine speed (NC0) is equal to the engine speed</ptxt>
+</item>
+<item>
+<ptxt>Lock-up ON (warmed up engine, 4th):</ptxt>
+<ptxt>Input turbine speed (NC0) is 0 rpm</ptxt>
+</item>
+<item>
+<ptxt>Lock-up OFF (idling with shift lever on N):</ptxt>
+<ptxt>Input turbine speed (NC0) is nearly equal to engine speed</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Data is displayed in increments of 50 rpm</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>PERFORM ACTIVE TEST</ptxt>
+<atten4>
+<ptxt>Performing the intelligent tester's Active Test allows relays, VSVs, actuators and other items to be operated without removing any parts. Performing the Active Test early in troubleshooting is one way to save time.</ptxt>
+<ptxt>The Data List can be displayed during the Active Test.</ptxt>
+</atten4>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch to ON and push the tester main switch on.</ptxt>
+</step2>
+<step2>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Active Test.</ptxt>
+</step2>
+<step2>
+<ptxt>Perform the Active Test.</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry>
+<ptxt>Test Part</ptxt>
+</entry>
+<entry>
+<ptxt>Control Range</ptxt>
+</entry>
+<entry>
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Control the Shift Position</ptxt>
+</entry>
+<entry>
+<ptxt>Operate shift solenoid valve and set each shift position</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Press "→" button: Shift up</ptxt>
+</item>
+<item>
+<ptxt>Press "←" button: Shift down</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>Possible to check operation of shift solenoid valves</ptxt>
+<ptxt>[Vehicle Condition]</ptxt>
+<ptxt>50 km/h (30 mph) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Control the Lock Up</ptxt>
+</entry>
+<entry>
+<ptxt>Control shift solenoid SL to set automatic transmission to lock-up condition</ptxt>
+</entry>
+<entry>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Possible to check shift solenoid valve SL operation</ptxt>
+<ptxt>[Vehicle Condition]</ptxt>
+<ptxt>Vehicle speed: 60 km/h (36 mph) or more</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Control the Line Pressure Up*</ptxt>
+</entry>
+<entry>
+<ptxt>Operate the shift solenoid SLT and raise line pressure</ptxt>
+</entry>
+<entry>
+<ptxt>ON or OFF</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>OFF: Line pressure up (when "Activate the solenoid (SLT)" Active Test is performed, ECM commands SLT solenoid to turn OFF)</ptxt>
+</item>
+<item>
+<ptxt>ON: No action (normal operation)</ptxt>
+</item>
+</list1>
+</atten4>
+</entry>
+<entry>
+<ptxt>[Vehicle Condition]</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Vehicle stopped</ptxt>
+</item>
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: "Control the Line Pressure Up" in the Active Test is performed to check the line pressure changes by connecting SST to the automatic transmission, which is used in the Hydraulic Test (see page <xref label="Seep06" href="RM000000W7B0L6X"/>) as well. Please note that the pressure values in the Active Test and Hydraulic Test are different.</ptxt>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

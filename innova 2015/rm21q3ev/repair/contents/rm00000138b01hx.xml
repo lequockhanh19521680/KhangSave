@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7A80X_T005B" variety="T005B">
+<name>VANE PUMP</name>
+<para id="RM00000138B01HX" category="A" type-id="30014" name-id="PS0HT-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000138B01HX_01" type-id="01" category="01">
+<s-1 id="RM00000138B01HX_01_0013" proc-id="RM21Q0EV__00001UQ00000">
+<ptxt>INSTALL VANE PUMP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G028304E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the vane pump with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="G038598E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the connector to the oil pressure switch.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the pressure switch to the vane pump.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138B01HX_01_0014" proc-id="RM21Q0EV__00001UR00000">
+<ptxt>CONNECT PRESSURE FEED TUBE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G038602E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new gasket and the pressure feed tube to the vane pump with the union bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Make sure that the stopper of the pressure feed tube touches the front housing as shown in the illustration.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138B01HX_01_0015" proc-id="RM21Q0EV__00001US00000">
+<ptxt>CONNECT RETURN HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G038601E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the hose with the clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138B01HX_01_0022" proc-id="RM21Q0EV__000005A00000">
+<ptxt>INSTALL FAN &amp; GENERATOR V BELT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the drive belt to the pulleys except the drive belt tensioner pulley.</ptxt>
+<figure>
+<graphic graphicname="G038623E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and then install the drive belt to the tensioner pulley. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>The backside of the drive belt should face the tensioner pulley.</ptxt>
+</item>
+<item>
+<ptxt>Check that the drive belt is properly set to each pulley.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>After a new belt has been installed, check that the tensioner indicator mark is within range A shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G038479E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138B01HX_01_0017">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM00000138B01HX_01_0024" proc-id="RM21Q0EV__00001UT00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138B01HX_01_0018">
+<ptxt>ADD POWER STEERING FLUID</ptxt>
+</s-1>
+<s-1 id="RM00000138B01HX_01_0023" proc-id="RM21Q0EV__00001UM00000">
+<ptxt>BLEED AIR FROM POWER STEERING SYSTEM
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fluid level.</ptxt>
+</s2>
+<s2>
+<ptxt>Jack up the front of the vehicle and support it with stands.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel.</ptxt>
+<s3>
+<ptxt>With the engine stopped, turn the steering wheel slowly from lock to lock several times.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. Run the engine at idle for a few minutes.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel.</ptxt>
+<s3>
+<ptxt>With the engine idling, turn the steering wheel to the left or right full lock position and hold it there for 2 to 3 seconds. Then turn the steering wheel to the opposite full lock position and hold it there for 2 to 3 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>Repeat the step above several times.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Stop the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Check for foaming or emulsification. If the system has to be bled twice because of foaming or emulsification, check for fluid leaks in the system.</ptxt>
+<figure>
+<graphic graphicname="F040897E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check the fluid level.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138B01HX_01_0020">
+<ptxt>CHECK POWER STEERING FLUID LEVEL IN RESERVOIR</ptxt>
+</s-1>
+<s-1 id="RM00000138B01HX_01_0021">
+<ptxt>CHECK FOR FLUID LEAKS</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

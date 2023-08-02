@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80L_T004Z" variety="T004Z">
+<name>FRONT BRAKE FLEXIBLE HOSE</name>
+<para id="RM000001NUG00SX" category="A" type-id="80001" name-id="BR0GA-13" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001NUG00SX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001QP00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001NUG00SX_02" type-id="01" category="01">
+<s-1 id="RM000001NUG00SX_02_0001">
+<ptxt>REMOVE FRONT WHEEL</ptxt>
+</s-1>
+<s-1 id="RM000001NUG00SX_02_0002" proc-id="RM21Q0EV__00001QQ00000">
+<ptxt>DRAIN BRAKE FLUID</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Wash off brake fluid immediately if it comes in contact with any painted surface.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000001NUG00SX_02_0003" proc-id="RM21Q0EV__00001QR00000">
+<ptxt>REMOVE FRONT FLEXIBLE HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a union nut wrench, remove the brake tube from the flexible hose while holding the flexible hose with a wrench.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not bend or damage the brake tube.</ptxt>
+</item>
+<item>
+<ptxt>Do not allow any foreign matter such as dirt and dust to enter the brake tube from the connecting points.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the clip labeled A and bolt labeled B.</ptxt>
+<figure>
+<graphic graphicname="C133735E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the union bolt labeled C, flexible hose and gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

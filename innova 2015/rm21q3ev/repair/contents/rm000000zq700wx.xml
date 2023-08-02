@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQ700WX" category="C" type-id="3007P" name-id="ES10OO-001" from="201202">
+<dtccode>P0500/42</dtccode>
+<dtcname>Vehicle Speed Sensor Malfunction</dtcname>
+<subpara id="RM000000ZQ700WX_01" type-id="60" category="03" proc-id="RM21Q0EV__000008100000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The vehicle speed sensor outputs 4 pulses for every revolution of the rotor shaft, which is rotated by the transmission output shaft via the driven gear. After this signal is converted into a more precise rectangular waveform by the waveform shaping circuit inside the combination meter, it is then transmitted to the ECM. The ECM determines the vehicle speed based on the frequency of this pulse signal.</ptxt>
+<figure>
+<graphic graphicname="G036498E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0500/42</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>While the vehicle is being driven, no vehicle speed signal is input to the ECM.</ptxt>
+<ptxt>(1 trip detection logic: manual transaxle models)</ptxt>
+<ptxt>(2 trip detection logic: automatic transaxle models)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in speed sensor circuit</ptxt>
+</item>
+<item>
+<ptxt>Vehicle speed sensor</ptxt>
+</item>
+<item>
+<ptxt>Combination meter</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ700WX_02" type-id="64" category="03" proc-id="RM21Q0EV__000008200000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<topic>
+<title>Automatic Transaxle Models:</title>
+<ptxt>The ECM assumes that the vehicle is being driven when the vehicle speed signal from the transmission (SP2) indicates a speed of 9 km/h (6 mph) or more.</ptxt>
+<ptxt>If there is no vehicle speed signal from the combination meter (SP1) when the vehicle is being driven, the ECM determines this to be a malfunction of the vehicle speed sensor. The ECM then illuminates the MIL and stores the DTC.</ptxt>
+</topic>
+<topic>
+<title>Manual Transaxle Models:</title>
+<ptxt>The ECM assumes that the vehicle is being driven when the indicated engine speed is 2000 to 5000 rpm and the engine load calculated by the ECM is more than a certain level. If there is no signal from the vehicle speed sensor, despite these conditions being met, the ECM interprets this as a malfunction in the speed signal circuit. The ECM then illuminates the MIL and stores the DTC.</ptxt>
+</topic>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ700WX_03" type-id="32" category="03" proc-id="RM21Q0EV__000008300000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A256001E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ700WX_04" type-id="51" category="05" proc-id="RM21Q0EV__000008400000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ700WX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQ700WX_05_0001" proc-id="RM21Q0EV__000008500000">
+<testtitle>CHECK OPERATION OF SPEEDOMETER</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Drive the vehicle and check whether the operation of the speedometer in the combination meter is normal.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The vehicle speed sensor is operating normally if the speedometer reading is normal.</ptxt>
+</item>
+<item>
+<ptxt>If the speedometer does not operate, check it by following the procedure described in Speedometer Malfunction.</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ700WX_05_0008" fin="false">OK</down>
+<right ref="RM000000ZQ700WX_05_0013" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0008" proc-id="RM21Q0EV__00004YM00000">
+<testtitle>READ VALUE USING INTELLIGENT TESTER (VEHICLE SPEED)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Drive the vehicle and check whether the operation of the speedometer in the combination meter is normal.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The vehicle speed sensor is operating normally if the speedometer reading is normal.</ptxt>
+</item>
+<item>
+<ptxt>If the speedometer does not operate, check it by following the procedure described in Speedometer Malfunction.</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ700WX_05_0015" fin="true">OK</down>
+<right ref="RM000000ZQ700WX_05_0003" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0003" proc-id="RM21Q0EV__000008700000">
+<testtitle>CHECK HARNESS AND CONNECTOR (COMBINATION METER - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034704E14" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C20 combination meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E10 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C20-6 - E10-8 (SPD)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C20-6 or E10-8 (SPD) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>If the wire has a short, check the speed signal circuit in other systems related to the vehicle speed signal (e.g. tire pressure warning system, audio system, etc.).</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ700WX_05_0009" fin="false">OK</down>
+<right ref="RM000000ZQ700WX_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0009" proc-id="RM21Q0EV__00004YN00000">
+<testtitle>CHECK COMBINATION METER ASSEMBLY (+S VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A127854E77" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the combination meter connector.</ptxt>
+<atten4>
+<ptxt>Disconnect the ECU connectors on the other systems related to the speed signal (but the ECM connectors must be connected).</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C20-6 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch on</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ700WX_05_0010" fin="false">OK</down>
+<right ref="RM000000ZQ700WX_05_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0010" proc-id="RM21Q0EV__00004YO00000">
+<testtitle>CHECK COMBINATION METER ASSEMBLY (SPD SIGNAL OUTPUT WAVEFORM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A261267E11" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Remove the combination meter assembly.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the combination meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Move the shift lever to the neutral position.</ptxt>
+</test1>
+<test1>
+<ptxt>Jack up one of the rear wheels.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the voltage between the terminal of the combination meter and the body ground while the rear wheel is turned slowly.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-6 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch on</ptxt>
+<ptxt>Turn wheel slowly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Voltage generated intermittently</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The output voltage should fluctuate up and down, similarly to the diagram, when the wheel is turned slowly.</ptxt>
+</item>
+<item>
+<ptxt>A voltage of 12 V or 5 V is output from each ECU and then input to the combination meter assembly.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten4>
+<ptxt>The output voltage should fluctuate up and down, similarly to the diagram, when the wheel is turned slowly.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ700WX_05_0016" fin="true">OK</down>
+<right ref="RM000000ZQ700WX_05_0011" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0011" proc-id="RM21Q0EV__00004YQ00000">
+<testtitle>CHECK COMBINATION METER ASSEMBLY (SPD SIGNAL INPUT WAVEFORM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A261267E12" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Remove the combination meter assembly.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the combination meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Move the shift lever to the neutral position.</ptxt>
+</test1>
+<test1>
+<ptxt>Jack up one of the rear wheels.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the voltage between the terminal of the combination meter and the body ground while the rear wheel is turned slowly.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC2" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-5 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch on</ptxt>
+<ptxt>Turn wheel slowly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Voltage generated intermittently</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>The output voltage should fluctuate up and down, similarly to the diagram, when the wheel is turned slowly.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ700WX_05_0007" fin="true">OK</down>
+<right ref="RM000000ZQ700WX_05_0012" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0012" proc-id="RM21Q0EV__00004YR00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (COMBINATION METER - SPEEDOMETER SENSOR)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A240431E20" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the combination meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the speedometer sensor connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC1" colwidth="1.37in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-5 - S3-3 (SI)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C20-5 or S3-3 (SI) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ700WX_05_0017" fin="true">OK</down>
+<right ref="RM000000ZQ700WX_05_0014" fin="true">NH</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0013">
+<testtitle>GO TO MALFUNCTION IN SPEEDOMETER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR (OTHER SYSTEM RELATED TO SPEED METER)</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0005">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0014">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0015">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0016">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0007">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ700WX_05_0017">
+<testtitle>REPLACE SPEEDOMETER SENSOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

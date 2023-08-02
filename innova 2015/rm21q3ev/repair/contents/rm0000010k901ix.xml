@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80J_T004X" variety="T004X">
+<name>BRAKE PEDAL</name>
+<para id="RM0000010K901IX" category="A" type-id="80002" name-id="BR06I-23" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000010K901IX_01" type-id="01" category="01">
+<s-1 id="RM0000010K901IX_01_0001" proc-id="RM21Q0EV__00001PG00000">
+<ptxt>REMOVE BRAKE PEDAL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the shaft, nut and brake pedal from the support.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bushes and brake pedal shaft collar from the brake pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010K901IX_01_0002" proc-id="RM21Q0EV__00001PH00000">
+<ptxt>REMOVE STOP LIGHT SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Turn the switch counterclockwise and remove it.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the adjuster from the support.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010K901IX_01_0003" proc-id="RM21Q0EV__00001PI00000">
+<ptxt>REMOVE BRAKE PEDAL PAD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the pad from the pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

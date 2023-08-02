@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1000K_S000I" variety="S000I">
+<name>DIFFERENTIAL</name>
+<ttl id="1000K_S000I_7A7ZV_T0049" variety="T0049">
+<name>DIFFERENTIAL OIL</name>
+<para id="RM0000037HK00LX" category="A" type-id="30019" name-id="DF137-01" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM0000037HK00LX_01" type-id="01" category="01">
+<s-1 id="RM0000037HK00LX_01_0001" proc-id="RM21Q0EV__000056K00000">
+<ptxt>DRAIN DIFFERENTIAL OIL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Stop the vehicle on a level surface.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the differential filler plug and gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the drain plug and gasket, and drain the oil.  </ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.  </ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000037HK00LX_01_0002" proc-id="RM21Q0EV__000056L00000">
+<ptxt>ADD DIFFERENTIAL OIL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Add differential oil so that the oil level is within 5 mm (0 to 0.196 in.) from the bottom lip of the differential filler plug hole.</ptxt>
+<figure>
+<graphic graphicname="D025304E51" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0 to 5 mm (0 to 0.196 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>After changing the oil, drive the vehicle, and then check the oil level again.</ptxt>
+</item>
+<item>
+<ptxt>Too much or too little oil will lead to differential problems.</ptxt>
+</item>
+</list1>
+</atten3>
+<ptxt>If necessary, fill the differential carrier with hypoid gear oil.</ptxt>
+<spec>
+<title>Differential oil type</title>
+<specitem>
+<ptxt>Hypoid gear oil API GL-5</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Recommended Viscosity</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Temperature</ptxt>
+</entry>
+<entry>
+<ptxt>Viscosity</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Above -18°C (0°F)</ptxt>
+</entry>
+<entry>
+<ptxt>SAE 90</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Below -18°C (0°F)</ptxt>
+</entry>
+<entry>
+<ptxt>SAE 80W-90 or SAE 80W</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard Rear Differential Oil Capacity</title>
+<specitem>
+<ptxt>3.00 to 3.10 liters (2.84 to 2.93 US qts., 2.64 to 2.73 Imp. qts.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Check for oil leakage when the oil level is low.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the differential filler plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

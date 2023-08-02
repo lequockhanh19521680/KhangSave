@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102J013X" category="D" type-id="303F2" name-id="BC0EB-13" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM00000102J013X_z0" proc-id="RM21Q0EV__00001O200000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>SYSTEM DESCRIPTION</ptxt>
+<atten4>
+<ptxt>The skid control ECU has a built-in brake actuator.</ptxt>
+</atten4>
+<step2>
+<ptxt>The ABS helps to prevent the wheels from locking when the brakes are applied firmly or when braking on a slippery surface.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>ABS OPERATION</ptxt>
+<step2>
+<ptxt>Using each wheel's speed sensor signal, the skid control ECU calculates wheel speed and deceleration to check each wheel's slipping condition. Depending on the slipping condition, the ECU will control the pressure holding valve and pressure reduction valve to adjust the fluid pressure of each wheel cylinder.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>FAIL-SAFE FUNCTION</ptxt>
+<step2>
+<ptxt>When a failure occurs in the ABS, the ABS warning light illuminates and ABS operation is prohibited.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

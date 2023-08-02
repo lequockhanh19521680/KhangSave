@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XE_T001S" variety="T001S">
+<name>POWER STEERING</name>
+<para id="RM0000029BS006X" category="F" type-id="30027" name-id="SS258-08" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000029BS006X_z0" proc-id="RM21Q0EV__000004A00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Power steering fluid</ptxt>
+</entry>
+<entry>
+<ptxt>Fluid level rise</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>5 mm (0.20 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COL3">
+<ptxt>Fluid pressure at idle speed with valve closed</ptxt>
+</entry>
+<entry>
+<ptxt>8800 to 9300 kPa (89.8 to 94.8 kgf/cm2, 1276 to 1348 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Steering wheel</ptxt>
+</entry>
+<entry>
+<ptxt>Steering effort at idle speed</ptxt>
+</entry>
+<entry>
+<ptxt>Reference</ptxt>
+</entry>
+<entry>
+<ptxt>5.5 N*m (56 kgf*cm, 49 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2">
+<ptxt>Power steering vane pump</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL3">
+<ptxt>Vane pump rotating torque</ptxt>
+</entry>
+<entry>
+<ptxt>0.27 N*m (2.8 kgf*cm, 2.4 in.*lbf) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Clearance between the rotor groove and plate</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum</ptxt>
+</entry>
+<entry>
+<ptxt>0.03 mm (0.0012 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Flow control valve compression spring free length</ptxt>
+</entry>
+<entry>
+<ptxt>Minimum</ptxt>
+</entry>
+<entry>
+<ptxt>29.2 mm (1.150 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Power steering link</ptxt>
+</entry>
+<entry>
+<ptxt>Total preload (tie rod rotating torque)</ptxt>
+</entry>
+<entry>
+<ptxt>Turning</ptxt>
+</entry>
+<entry>
+<ptxt>2.96 to 1.96 N*m (2.9 to 20.0 kgf*cm, 2.87 to 17.35 in.*lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Total preload (control valve rotating torque)</ptxt>
+</entry>
+<entry>
+<ptxt>Turning</ptxt>
+</entry>
+<entry>
+<ptxt>0.8 to 1.6 N*m (8.2 to 16.3 kgf*cm, 7.1 to 14.2 in.*lbf)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

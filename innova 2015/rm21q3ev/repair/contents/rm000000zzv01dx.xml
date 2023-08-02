@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002H_S000J" variety="S000J">
+<name>AXLE</name>
+<ttl id="1002H_S000J_7A802_T004G" variety="T004G">
+<name>REAR AXLE SHAFT</name>
+<para id="RM000000ZZV01DX" category="A" type-id="80001" name-id="AH0C0-03" from="201202" to="201303">
+<name>REMOVAL</name>
+<subpara id="RM000000ZZV01DX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001I100000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000000ZZV01DX_02" type-id="01" category="01">
+<s-1 id="RM000000ZZV01DX_02_0001">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0002">
+<ptxt>REMOVE BRAKE DRUM</ptxt>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0016" proc-id="RM21Q0EV__00001LV00000">
+<ptxt>REMOVE REAR SPEED SENSOR LH (w/ ABS)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C189959" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 3 clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and speed sensor.</ptxt>
+<atten3>
+<ptxt>Keep the sensor tip and sensor installation hole free from foreign matter.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000ZZV01DX_02_0017" proc-id="RM21Q0EV__00001I600000">
+<ptxt>DISCONNECT BRAKE LINE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050087E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, disconnect the brake line from the wheel cylinder.</ptxt>
+<sst>
+<sstitem>
+<s-number>09023-00101</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0004" proc-id="RM21Q0EV__00001I200000">
+<ptxt>REMOVE REAR AXLE SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050072E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 4 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, tap out the axle shaft.</ptxt>
+<sst>
+<sstitem>
+<s-number>09520-00031</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the retainer side gasket.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the rear brake and remove the axle housing side.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0009" proc-id="RM21Q0EV__00001I300000">
+<ptxt>REMOVE REAR AXLE SHAFT LH OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F051150E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, tap out the oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09308-00010</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0018" proc-id="RM21Q0EV__00001I700000">
+<ptxt>REMOVE REAR AXLE SHAFT INNER OIL SEAL (w/ ABS)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C136362E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST and a press, press out the oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-00020</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0019" proc-id="RM21Q0EV__00001I800000">
+<ptxt>REMOVE REAR AXLE BEARING INNER RETAINER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050074E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>w/o ABS:</ptxt>
+<ptxt>Using a grinder, grind down the inner retainer.</ptxt>
+</s2>
+<s2>
+<ptxt>w/ ABS:</ptxt>
+<ptxt>Using a grinder, grind down the inner retainer and ABS speed sensor rotor.</ptxt>
+</s2>
+<s2>
+<ptxt>w/o ABS:</ptxt>
+<ptxt>Using a chisel and a hammer, cut off the inner retainer. Then remove it from the axle shaft.</ptxt>
+<figure>
+<graphic graphicname="F050136E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>w/ ABS:</ptxt>
+<ptxt>Using a chisel and a hammer, cut off the inner retainer and ABS speed sensor rotor. Then remove them from the axle shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0020" proc-id="RM21Q0EV__00001I900000">
+<ptxt>REMOVE REAR AXLE LH BEARING AND OUTER RETAINER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050075E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST and a press, press out the bearing from the axle shaft.</ptxt>
+<sst>
+<sstitem>
+<s-number>09527-30010</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Remove the bearing outer retainer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZV01DX_02_0013" proc-id="RM21Q0EV__00001I400000">
+<ptxt>INSPECT REAR AXLE SHAFT LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050876E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a dial indicator, measure the rear axle shaft runout and flange runout.</ptxt>
+<spec>
+<title>Maximum runout</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Shaft runout</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 mm (0.0591 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Flange runout</ptxt>
+</entry>
+<entry>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the rear axle shaft or flange is damaged or worn, or if the runout is greater than the maximum, replace the rear axle shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

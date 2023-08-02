@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102H01XX" category="U" type-id="3001G" name-id="BC0E7-28" from="201202">
+<name>TERMINALS OF ECU</name>
+<subpara id="RM00000102H01XX_z0" proc-id="RM21Q0EV__00001M500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK BRAKE ACTUATOR ASSEMBLY (SKID CONTROL ECU WITH ACTUATOR)</ptxt>
+<figure>
+<graphic graphicname="C108855E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-1 (+BS) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>W-R - W-B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Solenoid relay power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-9 (FL+) - S2-8 (FL-)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>R - G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front speed sensor LH input</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, slowly turn left front wheel</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>S2-10 (STP) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>G-W - W-B</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Stop light switch input</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stop light switch ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>8 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Stop light switch OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-11 (RL+) - S2-12 (RL-)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>P - L</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear speed sensor LH input</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, slowly turn left rear wheel</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>S2-13 (WA) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>R-G - W-B</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>ABS warning light output</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, ABS warning light ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch ON, ABS warning light OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-14 (D/G) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>L-Y - W-B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Diagnosis tester communication line</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>S2-15 (TS) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>W - W-B</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Terminal TS of DLC3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>S2-16 (TC) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>P-L - W-B</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Terminal TC of DLC3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>S2-18 (PKB) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>L-O - W-B</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Parking brake switch input</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, parking brake switch ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch ON, parking brake switch OFF</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-23 (+BM) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>R - W-B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Motor relay power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-25 (IG1) - S2-2, 24 (GND1, GND2)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B - W-B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>IG1 power supply</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-31 (FR+) - S2-30 (FR-)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>W - R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front speed sensor RH input</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, slowly turn right front wheel</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2-33 (RR+) - S2-34 (RR-)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>G - R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear speed sensor RH input</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, slowly turn right rear wheel</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>If the result is not as specified, there may be a malfunction in the skid control ECU.</ptxt>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

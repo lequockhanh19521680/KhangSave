@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W750KDX" category="D" type-id="303F2" name-id="AT002W-168" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000000W750KDX_z0" proc-id="RM21Q0EV__000018300000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>SYSTEM DESCRIPTION</ptxt>
+<step2>
+<ptxt>The Electronic Controlled Automatic Transmission (ECT) is an automatic transmission that electronically controls shift timing using the Engine Control Module (ECM). The ECM detects electrical signals that indicate engine and driving conditions, and controls the shift point based on driver habits and road conditions. As a result, fuel efficiency and power transmission performance are improved.</ptxt>
+<ptxt>Shift shock is reduced by controlling the engine and transmission simultaneously.</ptxt>
+<ptxt>In addition, the ECT has the following features:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Diagnostic function.</ptxt>
+</item>
+<item>
+<ptxt>Fail-safe function when a malfunction occurs.</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

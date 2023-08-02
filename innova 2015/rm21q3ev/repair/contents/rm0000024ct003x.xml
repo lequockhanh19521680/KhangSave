@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81Q_T0064" variety="T0064">
+<name>LIGHTING SYSTEM</name>
+<para id="RM0000024CT003X" category="L" type-id="3001A" name-id="LI1U6-03" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM0000024CT003X_z0" proc-id="RM21Q0EV__000028R00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>PRECAUTIONS FOR HEADLIGHT BULB REPLACEMENT</ptxt>
+<step2>
+<ptxt>If even a thin film of oil is left on the surface of the halogen light, its service life will be shortened because the light will burn at a higher temperature.</ptxt>
+</step2>
+<step2>
+<ptxt>Handle halogen lights with great care. Dropping, hitting or damaging the bulb in any way may cause it to explode or shatter because of its high internal pressure.</ptxt>
+</step2>
+<step2>
+<ptxt>Always prepare a new bulb for replacement. While replacing the bulb, the lens may attract dust and moisture if the bulb is removed from the vehicle for too long.</ptxt>
+</step2>
+<step2>
+<ptxt>Always use a bulb of the same wattage for replacement.</ptxt>
+</step2>
+<step2>
+<ptxt>Firmly reinstall the socket after bulb replacement. Moisture or water may enter the light cavity if there are gaps around the socket.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

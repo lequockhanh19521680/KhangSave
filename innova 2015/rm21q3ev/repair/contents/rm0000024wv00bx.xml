@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7A83M_T0080" variety="T0080">
+<name>REAR NO. 1 SEAT ASSEMBLY (for LH Side)</name>
+<para id="RM0000024WV00BX" category="A" type-id="80001" name-id="SE0PG-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000024WV00BX_01" type-id="01" category="01">
+<s-1 id="RM0000024WV00BX_01_0001" proc-id="RM21Q0EV__00002WD00000">
+<ptxt>REMOVE REAR SEAT CUSHION HINGE COVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a clip remover, remove the clip.</ptxt>
+<figure>
+<graphic graphicname="B086042E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws and remove the hinge cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024WV00BX_01_0002" proc-id="RM21Q0EV__00002WE00000">
+<ptxt>REMOVE REAR SEAT CUSHION HINGE COVER RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM0000024WV00BX_01_0003" proc-id="RM21Q0EV__00002WF00000">
+<ptxt>REMOVE REAR NO. 1 SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fully tilt the seatback forward.</ptxt>
+<figure>
+<graphic graphicname="B086053E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Unlock the seat locks by horizontally pulling the reclining release handle. Then fold the seat as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts and seat.</ptxt>
+<figure>
+<graphic graphicname="B086055E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

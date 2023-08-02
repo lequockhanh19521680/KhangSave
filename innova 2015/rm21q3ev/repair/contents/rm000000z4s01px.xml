@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW3_T00AK" variety="T00AK">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/o Theft Deterrent System)</name>
+<para id="RM000000Z4S01PX" category="T" type-id="3001H" name-id="DL05G-37" from="201202">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000000Z4S01PX_z0" proc-id="RM21Q0EV__00004ZT00000">
+<content5 releasenbr="2">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the table below to help determine the cause of problem symptoms. If multiple suspected areas are listed, the potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</item>
+<item>
+<ptxt>Inspect the fuses and relays related to this system before inspecting the suspected areas below.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Wireless Door Lock Control System</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="left">
+<ptxt>Only wireless control functions inoperative</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Proceed to "Only Wireless Control Function is Inoperative"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000Z4T03XX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Only answer-back function does not operate</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "No Answer-Back"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000010UG00SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="7" colsep="1" valign="middle">
+<ptxt>Only automatic lock function does not operate</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Perform operation check</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000010UG00SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Front door courtesy light switch assembly LH</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EM003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Front door courtesy light switch assembly RH</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EM003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear door courtesy light switch assembly LH</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001J0H00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Rear door courtesy light switch assembly RH</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001J0H00QX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Back door lock assembly (back door courtesy light switch)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001J0L00JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Driver side junction block assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Only illuminated entry function does not operate</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Perform operation check</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004Q9A00CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Lighting system</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002CE20AZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQ800JX" category="C" type-id="3008I" name-id="ES10OE-001" from="201202">
+<dtccode>P0100/31</dtccode>
+<dtcname>Mass Air Flow Circuit Malfunction</dtcname>
+<dtccode>P0102/31</dtccode>
+<dtcname>Mass or Volume Air Flow Circuit Low Input</dtcname>
+<dtccode>P0103/31</dtccode>
+<dtcname>Mass or Volume Air Flow Circuit High Input</dtcname>
+<subpara id="RM000000ZQ800JX_01" type-id="60" category="03" proc-id="RM21Q0EV__000008800000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The Mass Air Flow (MAF) meter measures the amount of air flowing through the throttle valve. The ECM uses this information to determine the fuel injection time and provide a proper air-fuel ratio. Inside the MAF meter, there is a heated platinum wire exposed to the flow of intake air. </ptxt>
+<ptxt>By applying a specific current to the wire, the ECM heats this wire to a given temperature. The flow of incoming air cools the wire and an internal thermistor, affecting their resistance. To maintain a constant current value, the ECM varies the voltage applied to these components* in the MAF meter. The voltage level is proportional to the air flow through the sensor. The ECM interprets this voltage as the intake air amount.</ptxt>
+<atten4>
+<ptxt>*: The circuit is constructed so that the platinum hot wire and temperature sensor provide a bridge circuit, with the power transistor controlled so that the potential of A and B remains equal to maintain the set temperature.</ptxt>
+<ptxt>When any of these DTCs are set, the ECM enters fail-safe mode. During fail-safe mode, the ignition timing is calculated by the ECM, according to the engine rpm and throttle valve position. Fail-safe mode continues until a pass condition is detected.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="A094565E04" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="0.838465439664804in"/>
+<colspec colnum="2" colname="c2" colwidth="3.1542271301676in"/>
+<colspec colnum="3" colname="c3" colwidth="3.1542271301676in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0100/31</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>When the MAF meter circuit is open or short for more than 3 seconds</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open or short in MAF meter circuit</ptxt>
+</item>
+<item>
+<ptxt>MAF meter</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0102/31</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>When the MAF meter circuit is open for more than 3 seconds</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Open in MAF meter circuit</ptxt>
+</item>
+<item>
+<ptxt>MAF meter</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0103/31</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>When the MAF meter circuit is shorted for more than 3 seconds</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Short in MAF meter circuit</ptxt>
+</item>
+<item>
+<ptxt>MAF meter</ptxt>
+</item>
+<item>
+<ptxt>ECM</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ800JX_02" type-id="64" category="03" proc-id="RM21Q0EV__000008900000">
+<name>MONITOR DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>If there is a defect in the MAF meter or an open or short circuit, the voltage level will deviate outside the normal operating range. The ECM interprets this deviation as a defect in the MAF meter and sets a DTC.</ptxt>
+<ptxt>Example:</ptxt>
+<ptxt>When the sensor voltage output is less than 0.2 V or more than 4.9 V and if either condition continues more than 3 seconds.</ptxt>
+<ptxt>This monitor runs for 3 seconds (the first 3 seconds of engine idle) after the engine is started (1 trip detection logic).</ptxt>
+<atten4>
+<ptxt>When DTC P0100/31, P0102/31 or P0103/31 is detected, check the air-flow ratio by entering the following menus on the intelligent tester: Powertrain / Engine and ECT / Data List / MAF.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="3.0236971in"/>
+<colspec colnum="2" colname="c2" colwidth="4.1232227in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Air Flow Value (g/sec.)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Malfunction</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Approximately 0</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Open in MAF meter power source circuit</ptxt>
+</item>
+<item>
+<ptxt>Open or short in VG circuit</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>271.0 or more</ptxt>
+</entry>
+<entry>
+<ptxt>Open in E2G circuit</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ800JX_03" type-id="32" category="03" proc-id="RM21Q0EV__000008A00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A123739E01" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ800JX_04" type-id="51" category="05" proc-id="RM21Q0EV__000008B00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Read freeze frame data using the intelligent tester. Freeze frame data records the engine conditions when malfunctions are detected. When troubleshooting, freeze frame data can help determine if the vehicle was moving or stationary, if the engine was warmed up or not, if the air-fuel ratio was lean or rich, and other data from the time the malfunction occurred.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000000ZQ800JX_05" type-id="54" category="05">
+<name>When using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQ800JX_06" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQ800JX_06_0001" proc-id="RM21Q0EV__000008C00000">
+<testtitle>READ DATA LIST (MASS AIR FLOW RATE)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Start the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / MAF.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the values.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Mass Air Flow Rate (g/sec.)</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>0.0</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>271.0 or more</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Between 0.0 and 271.0*</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>*: The value must change when the throttle valve is opened or closed.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_06_0002" fin="false">A</down>
+<right ref="RM000000ZQ800JX_06_0012" fin="false">B</right>
+<right ref="RM000000ZQ800JX_06_0005" fin="true">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0002" proc-id="RM21Q0EV__000008D00000">
+<testtitle>CHECK MASS AIR FLOW METER (POWER SOURCE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A054396E31" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A4-1 (+B) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_06_0003" fin="false">OK</down>
+<right ref="RM000000ZQ800JX_06_0009" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0003" proc-id="RM21Q0EV__000008E00000">
+<testtitle>CHECK ECM (VG VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E13" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Start the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connector.</ptxt>
+<atten4>
+<ptxt>The shift lever position should be N and the A/C switch should be turned OFF.</ptxt>
+</atten4>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-28 (VG) - E11-30 (E2G)</ptxt>
+</entry>
+<entry>
+<ptxt>Engine is idling</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 3.0 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_06_0004" fin="false">NG</down>
+<right ref="RM000000ZQ800JX_06_0006" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0004" proc-id="RM21Q0EV__000008F00000">
+<testtitle>CHECK WIRE HARNESS (MASS AIR FLOW METER - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034714E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340462in"/>
+<colspec colnum="2" colname="c2" colwidth="1.851757in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A4-3 (VG) - E11-28 (VG)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-2 (E2G) - E11-30 (E2G)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-3 (VG) or E11-28 (VG) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_06_0008" fin="true">OK</down>
+<right ref="RM000000ZQ800JX_06_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0005">
+<testtitle>CHECK FOR INTERMITTENT PROBLEMS</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0006">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0007">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0008">
+<testtitle>REPLACE MASS AIR FLOW METER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0009" proc-id="RM21Q0EV__000008G00000">
+<testtitle>CHECK WIRE HARNESS (MASS AIR FLOW METER - INTEGRATION RELAY (MAIN RELAY))</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034715E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 1J integration relay connector from the engine room junction block (see page <xref label="Seep01" href="RM0000014TJ02QX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A4-1 (+B) - 1J-5</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-1 (+B) or 1J-5 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_06_0011" fin="true">OK</down>
+<right ref="RM000000ZQ800JX_06_0010" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0010">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0011">
+<testtitle>INSPECT ECM POWER SOURCE CIRCUIT</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0012" proc-id="RM21Q0EV__000008H00000">
+<testtitle>CHECK ECM (SENSOR GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E14" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Measure the resistance of the E11 ECM connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929012in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-30 (E2G) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_06_0013" fin="false">OK</down>
+<right ref="RM000000ZQ800JX_06_0014" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0013" proc-id="RM21Q0EV__000008I00000">
+<testtitle>CHECK WIRE HARNESS (MASS AIR FLOW METER - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034714E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A4-3 (VG) - E11-28 (VG)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-2 (E2G) - E11-30 (E2G)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-3 (VG) or E11-28 (VG) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_06_0016" fin="true">OK</down>
+<right ref="RM000000ZQ800JX_06_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0014">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0015">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_06_0016">
+<testtitle>REPLACE MASS AIR FLOW METER</testtitle>
+</testgrp>
+</subpara>
+<subpara id="RM000000ZQ800JX_07" type-id="55" category="05">
+<name>When not using intelligent tester:</name>
+</subpara>
+<subpara id="RM000000ZQ800JX_08" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQ800JX_08_0017" proc-id="RM21Q0EV__000008J00000">
+<testtitle>CHECK ECM (VG VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E13" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Start the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connector.</ptxt>
+<atten4>
+<ptxt>The shift lever position should be N and the A/C switch should be turned OFF.</ptxt>
+</atten4>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E11-28 (VG) - E11-30 (E2G)</ptxt>
+</entry>
+<entry>
+<ptxt>Engine is idling</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 3.0 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_08_0018" fin="false">NG</down>
+<right ref="RM000000ZQ800JX_08_0020" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0018" proc-id="RM21Q0EV__000008K00000">
+<testtitle>CHECK MASS AIR FLOW METER (POWER SOURCE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A054396E32" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A4-1 (+B) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_08_0019" fin="false">OK</down>
+<right ref="RM000000ZQ800JX_08_0023" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0019" proc-id="RM21Q0EV__000008L00000">
+<testtitle>CHECK WIRE HARNESS (MASS AIR FLOW METER - ECM)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034714E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E11 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340666in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A4-3 (VG) - E11-28 (VG)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-2 (E2G) - E11-30 (E2G)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-3 (VG) or E11-28 (VG) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_08_0022" fin="true">OK</down>
+<right ref="RM000000ZQ800JX_08_0021" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0020">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0021">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0022">
+<testtitle>REPLACE MASS AIR FLOW METER</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0023" proc-id="RM21Q0EV__000008M00000">
+<testtitle>CHECK WIRE HARNESS (MASS AIR FLOW METER - INTEGRATION RELAY (MAIN RELAY))</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034715E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the A4 MAF meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the 1J integration relay connector from the engine room junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.4214754in"/>
+<colspec colnum="2" colname="c2" colwidth="1.7643286in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A4-1 (+B) - 1J-5</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A4-1 (+B) or 1J-5 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQ800JX_08_0025" fin="true">OK</down>
+<right ref="RM000000ZQ800JX_08_0024" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0024">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQ800JX_08_0025">
+<testtitle>INSPECT ECM POWER SOURCE CIRCUIT</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

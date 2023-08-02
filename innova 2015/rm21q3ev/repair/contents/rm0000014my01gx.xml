@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81S_T0066" variety="T0066">
+<name>HAZARD WARNING SWITCH</name>
+<para id="RM0000014MY01GX" category="A" type-id="80001" name-id="LIA1G-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000014MY01GX_01" type-id="01" category="01">
+<s-1 id="RM0000014MY01GX_01_0006" proc-id="RM21Q0EV__000029E00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000014MY01GX_01_0002" proc-id="RM21Q0EV__000039U00000">
+<ptxt>REMOVE INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279082" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Detach the 9 claws.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B279097" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the 4 claws and disconnect the air conditioning control.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the connectors and remove the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279081" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Detach the 9 claws.</ptxt>
+</s3>
+<s3>
+<ptxt>Disconnect the connectors and remove the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014MY01GX_01_0004" proc-id="RM21Q0EV__000049H00000">
+<ptxt>REMOVE HEATER CONTROL KNOB
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225816" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the No. 2 heater control knob as shown in the illustration.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014MY01GX_01_0005" proc-id="RM21Q0EV__000049K00000">
+<ptxt>REMOVE FRE / REC CONTROL KNOB
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225817" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the heater control knob as shown in the illustration.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000014MY01GX_01_0003" proc-id="RM21Q0EV__000029B00000">
+<ptxt>REMOVE HAZARD WARNING SIGNAL SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B136319" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 2 claws and remove the switch.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

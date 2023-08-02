@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X5_T001J" variety="T001J">
+<name>1TR-FE STARTING</name>
+<para id="RM0000024YQ003X" category="F" type-id="30027" name-id="SS244-01" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000024YQ003X_z0" proc-id="RM21Q0EV__000003T00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Starter</ptxt>
+</entry>
+<entry>
+<ptxt>No-load characteristics current</ptxt>
+</entry>
+<entry>
+<ptxt>90 A or less at 11.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" morerows="4">
+<ptxt>Starter armature assembly</ptxt>
+</entry>
+<entry>
+<ptxt>Maximum circle runout</ptxt>
+</entry>
+<entry>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Standard commutator diameter</ptxt>
+</entry>
+<entry>
+<ptxt>28.0 mm (1.10 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum commutator diameter</ptxt>
+</entry>
+<entry>
+<ptxt>27.0 mm (1.06 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Standard undercut depth</ptxt>
+</entry>
+<entry>
+<ptxt>0.6 mm (0.024 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum undercut depth</ptxt>
+</entry>
+<entry>
+<ptxt>0.2 mm (0.008 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" morerows="1">
+<ptxt>Brush length</ptxt>
+</entry>
+<entry>
+<ptxt>Standard length</ptxt>
+</entry>
+<entry>
+<ptxt>14.0 mm (0.551 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum length</ptxt>
+</entry>
+<entry>
+<ptxt>9.0 mm (0.354 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" morerows="1">
+<ptxt>Brush spring</ptxt>
+</entry>
+<entry>
+<ptxt>Standard spring load</ptxt>
+</entry>
+<entry>
+<ptxt>13.7 to 17.6 N (1.4 to 1.8 kgf, 3.1 to 4.0 lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum spring load</ptxt>
+</entry>
+<entry>
+<ptxt>8.8 N (0.9 kgf, 2.0 lbf)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Starter armature assembly standard resistance</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Segments</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Segment - Coil core</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Starter yoke assembly</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Lead wire - brush</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Lead wire - Starter yoke assembly</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Starter brush holder assembly</ptxt>
+</entry>
+<entry>
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Positive (+) brush holder - Negative (-) brush holder</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Starter magnet switch assembly</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal 50 - Terminal C</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Terminal 50 - Starter magnet switch body</ptxt>
+</entry>
+<entry>
+<ptxt>Below 2 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Brush length</ptxt>
+</entry>
+<entry>
+<ptxt>Standard length</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4">
+<ptxt>14.0 mm (0.551 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum length</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4">
+<ptxt>9.0 mm (0.354 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>Starter relay</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>3 -5</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Below 1 Ω (when battery voltage is applied to terminals 1 and 2)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="8">
+<ptxt>Ignition switch</ptxt>
+</entry>
+<entry morerows="8">
+<ptxt>Standard resistance</ptxt>
+</entry>
+<entry>
+<ptxt>Switch condition: LOCK</ptxt>
+</entry>
+<entry>
+<ptxt>Between all terminals 10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Switch condition: ACC</ptxt>
+</entry>
+<entry>
+<ptxt>2 (ACC) - 4 (AM1) Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2">
+<ptxt>Switch condition: ON</ptxt>
+</entry>
+<entry>
+<ptxt>1 (IG1) - 4 (AM1) Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (ACC) - 4 (AM1) Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (AM2) - 6 (IG2) Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3">
+<ptxt>Switch condition: START</ptxt>
+</entry>
+<entry>
+<ptxt>1 (IG1) - 4 (AM1) Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3 (ST1) - 4 (AM1) Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (AM2) - 6 (IG2) Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (AM2) - 7 (ST2) Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

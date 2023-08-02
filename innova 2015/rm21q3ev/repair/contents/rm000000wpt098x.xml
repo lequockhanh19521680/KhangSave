@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A838_T007M" variety="T007M">
+<name>WINDOW DEFOGGER SYSTEM</name>
+<para id="RM000000WPT098X" category="D" type-id="303F2" name-id="WS002O-169" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000000WPT098X_z0" proc-id="RM21Q0EV__00004YC00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>GENERAL</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The thin heater wires of the defogger system are attached to the inside of the rear window and defog the window surface quickly. </ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>The indicator light illuminates while the system is operating. </ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>The system automatically turns off after approximately 15 minutes.* </ptxt>
+</item>
+</list1>
+<ptxt>*: for Automatic Air Conditioning System</ptxt>
+</step1>
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENT</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DEF Relay</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Receives defogger activation request signals from the heater control and supplies power to the window defogger.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt> Window Defogger</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Receives power from the DEF relay and heats the defogger wire.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

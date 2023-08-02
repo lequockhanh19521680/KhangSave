@@ -1,0 +1,3156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZG_T003U" variety="T003U">
+<name>AUTOMATIC TRANSMISSION UNIT</name>
+<para id="RM000003OD4005X" category="A" type-id="8000E" name-id="AT452-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000003OD4005X_01" type-id="11" category="10" proc-id="RM21Q0EV__000014000000">
+<content3 releasenbr="1">
+<figure>
+<graphic graphicname="C191148E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<spec>
+<title>Bearing and Race Diameter</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COLSPEC0" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="2.12in"/>
+<colspec colname="COLSPEC1" colwidth="2.13in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Front Race Diameter Inside / Outside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Thrust Bearing Diameter Inside / Outside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Rear Race Diameter Inside / Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.32 mm (0.957 in.) / 43.20 mm (1.70 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.32 mm (0.957 in.) / 39.20 mm (1.54 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.30 mm (1.47 in.) / 52.52 mm (2.07 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>30.00 mm (1.18 in.) / 48.54 mm (1.91 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>28.30 mm (1.11 in.) / 46.48 mm (1.83 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>27.58 mm (1.09 in.) / 44.70 mm (1.76 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.05 mm (0.947 in.) / 37.59 mm (1.48 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>23.34 mm (0.919 in.) / 37.59 mm (1.48 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>E</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.05 mm (0.947 in.) / 37.59 mm (1.48 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>23.34 mm (0.919 in.) / 37.59 mm (1.48 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>21.41 mm (0.843 in.) / 37.59 mm (1.48 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>F</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>30.00 mm (1.18 in.) / 47.9 mm (1.89 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>28.30 mm (1.11 in.) / 46.48 mm (1.83 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>27.58 mm (1.09 in.) / 44.70 mm (1.76 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>G</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>21.40 mm (0.843 in.) / 47.30 mm (1.86 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>H</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>30.00 mm (1.18 in.) / 48.54 mm (1.91 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>28.30 mm (1.11 in.) / 46.48 mm (1.83 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>I</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>38.15 mm (1.50 in.) / 55.30 mm (2.18 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>39.12 mm (1.54 in.) / 57.53 mm (2.26 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content3>
+</subpara>
+<subpara id="RM000003OD4005X_02" type-id="01" category="01">
+<s-1 id="RM000003OD4005X_02_0001" proc-id="RM21Q0EV__000014100000">
+<ptxt>INSTALL MANUAL VALVE LEVER SHAFT OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191162E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, tap in 2 new oil seals.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09361-30011</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Coat the oil seal lips with MP grease.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0002" proc-id="RM21Q0EV__000014200000">
+<ptxt>INSTALL MANUAL VALVE LEVER SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191163E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new spacer to the manual valve lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert the manual valve lever shaft into the transmission case through the manual valve lever to install it.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a hammer, tap in a new spring pin.</ptxt>
+<figure>
+<graphic graphicname="C191164" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the manual valve lever indentation with the spacer hole, and stake them with a pin punch.</ptxt>
+<figure>
+<graphic graphicname="C191165" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that the shaft rotates smoothly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0003" proc-id="RM21Q0EV__000014300000">
+<ptxt>INSTALL NO. 3 BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191166E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 5 new O-rings with ATF, and install them to the inner piston, reaction sleeve and No. 3 brake piston.</ptxt>
+<atten3>
+<ptxt>The thinner O-ring must be installed to the outside of the sleeve.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Assemble the inner piston, sleeve and outer piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Stand the transmission case on its end.</ptxt>
+<figure>
+<graphic graphicname="C191167" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the assembled pistons into the transmission case by hand to install them.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the O-rings.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Place the brake return spring onto the outer piston.</ptxt>
+<figure>
+<graphic graphicname="C191143" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Set SST as shown in the illustration and compress the return spring with SST.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191168E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the snap ring with a snap ring expander. Make sure that the end gap of the snap ring is not aligned with the spring seat claw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0104" proc-id="RM21Q0EV__000011B00000">
+<ptxt>INSPECT NO. 3 BRAKE PISTON MOVEMENT
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191141" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the No. 3 brake pistons move smoothly when applying and releasing compressed air from the transmission case.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD4005X_02_0005" proc-id="RM21Q0EV__000014400000">
+<ptxt>INSTALL BRAKE APPLY TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191139" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the race with petroleum jelly, and install it to the transmission case.</ptxt>
+<spec>
+<title>Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Race I</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>39.12 mm (1.54 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>57.53 mm (2.26 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the race.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Align the locking tab of the tube with the cutout of the case and install the tube.</ptxt>
+<atten4>
+<ptxt>Make sure that the lips of the tube end are completely inserted into the outer piston.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C191138" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0006" proc-id="RM21Q0EV__000014500000">
+<ptxt>INSTALL SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191140" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0007" proc-id="RM21Q0EV__000014600000">
+<ptxt>INSTALL PLANETARY OUTPUT SHAFT OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191428E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new oil seal ring with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the oil seal ring's ends and install it to the output shaft.</ptxt>
+<atten4>
+<ptxt>After installing the oil seal ring, check that it rotates smoothly.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Do not stretch the ring excessively.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0008" proc-id="RM21Q0EV__000014700000">
+<ptxt>INSTALL INTERMEDIATE SHAFT SLEEVE OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191427" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new oil seal ring with ATF, and install it to the intermediate shaft.</ptxt>
+<atten4>
+<ptxt>After installing the oil seal ring, check that it rotates smoothly.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0009" proc-id="RM21Q0EV__000014800000">
+<ptxt>INSTALL REAR PLANETARY RING GEAR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191429" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the bearing with petroleum jelly, and install it to the intermediate shaft.</ptxt>
+<spec>
+<title>Bearing Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing G</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>21.40 mm (0.843 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>47.30 mm (1.86 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the bearing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the ring gear to the intermediate shaft.</ptxt>
+<figure>
+<graphic graphicname="C191430" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the set ring.</ptxt>
+<figure>
+<graphic graphicname="C191424" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0010" proc-id="RM21Q0EV__000014900000">
+<ptxt>INSTALL REAR PLANETARY SUN GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191423" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0011" proc-id="RM21Q0EV__000014A00000">
+<ptxt>INSTALL REAR PLANETARY GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191421" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0013" proc-id="RM21Q0EV__000014C00000">
+<ptxt>INSTALL REAR PLANETARY GEAR ASSEMBLY WITH INTERMEDIATE SHAFT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191431E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the bearing and race with petroleum jelly, and install them to the ring gear.</ptxt>
+<spec>
+<title>Bearing and Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Race H</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>30.00 mm (1.18 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>48.54 mm (1.91 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing H</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>28.30 mm (1.11 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>46.48 mm (1.83 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful to the installation direction of the bearing and race.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the rear planetary gear assembly with intermediate shaft sub-assembly to the output shaft.</ptxt>
+<figure>
+<graphic graphicname="C191418" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0014" proc-id="RM21Q0EV__000014D00000">
+<ptxt>INSTALL FRONT PLANETARY RING GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191417" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Align the snap ring ends with the wide cutout portion of the output shaft.</ptxt>
+<figure>
+<graphic graphicname="C191416" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the ring gear while compressing the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the snap ring is installed to the groove of the output shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0015" proc-id="RM21Q0EV__000014E00000">
+<ptxt>INSTALL NO. 2 PLANETARY CARRIER THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191415" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the thrust washer with petroleum jelly, and install the thrust washer to the rear planetary gear.</ptxt>
+<atten4>
+<ptxt>Make sure that the tabs of the washer are aligned with the cutout portions on the rear planetary gear.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0012" proc-id="RM21Q0EV__000014B00000">
+<ptxt>INSTALL REAR PLANETARY GEAR ASSEMBLY WITH INTERMEDIATE SHAFT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191137" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the bearing with petroleum jelly, and install it to the planetary gear.</ptxt>
+<spec>
+<title>Bearing Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing I</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>38.15 mm (1.50 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>55.30 mm (2.18 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the bearing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the rear planetary gear assembly with intermediate shaft sub-assembly and output shaft assembly to the transmission case.</ptxt>
+<figure>
+<graphic graphicname="C191136" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0016" proc-id="RM21Q0EV__000014F00000">
+<ptxt>INSTALL NO. 3 BRAKE DISC SET AND NO. 3 BRAKE PRESSURE PLATE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191169E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the pressure plate with its flat surface facing the front of the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 5 discs and 4 plates.</ptxt>
+<spec>
+<title>Install in order</title>
+<specitem>
+<ptxt>D - P - D - P - D - P - D - P - D</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>P = Plate</ptxt>
+<ptxt>D = Disc</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0017" proc-id="RM21Q0EV__000014G00000">
+<ptxt>INSPECT PACK CLEARANCE OF NO. 3 BRAKE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191133" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a vernier caliper, measure the clearance between the disc and transmission case, as shown in the illustration.</ptxt>
+<spec>
+<title>Standard pack clearance</title>
+<specitem>
+<ptxt>0.52 to 1.27 mm (0.0205 to 0.0500 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the pressure plate with one of a different thickness.</ptxt>
+<atten4>
+<ptxt>There are 6 different ranges of thickness for the pressure plate.</ptxt>
+</atten4>
+<spec>
+<title>Pressure Plate Thickness</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COLSPEC1" colwidth="0.83in"/>
+<colspec colname="COL1" colwidth="3.3in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Mark</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Thickness</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2.95 to 3.05 mm (0.116 to 0.120 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>325</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3.20 to 3.30 mm (0.126 to 0.130 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>350</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3.45 to 3.55 mm (0.136 to 0.140 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>375</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3.70 to 3.80 mm (0.146 to 0.150 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>400</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3.95 to 4.05 mm (0.156 to 0.159 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>425</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4.20 to 4.30 mm (0.165 to 0.169 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0018" proc-id="RM21Q0EV__000014H00000">
+<ptxt>INSTALL NO. 3 PLANETARY CARRIER THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191413" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the thrust washer with petroleum jelly, and install the thrust washer to the front planetary gear.</ptxt>
+<atten4>
+<ptxt>Make sure that the tabs of the washer are aligned with the cutout portions on the front planetary gear.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0019" proc-id="RM21Q0EV__000014I00000">
+<ptxt>INSTALL NO. 2 1-WAY CLUTCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191414E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 1-way clutch and 2 retainers to the planetary gear, as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Make sure that the open end of the 1-way clutch is facing upward.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring.</ptxt>
+<figure>
+<graphic graphicname="C191409" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0020" proc-id="RM21Q0EV__000014J00000">
+<ptxt>INSTALL NO. 2 1-WAY CLUTCH INNER RACE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191408" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the inner race while turning it counterclockwise.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0021" proc-id="RM21Q0EV__000014K00000">
+<ptxt>INSTALL NO. 1 PLANETARY CARRIER THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191406" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the thrust washer with petroleum jelly, and install the thrust washer to the planetary gear.</ptxt>
+<atten4>
+<ptxt>Make sure that the tabs of the washer are aligned with the holes on the front planetary gear.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0105" proc-id="RM21Q0EV__000011800000">
+<ptxt>INSPECT NO. 2 1-WAY CLUTCH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191407E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the 1-way clutch and inner race and turned the planetary gear. Check that planetary gear can be turned counterclockwise but cannot be turned clockwise.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD4005X_02_0023" proc-id="RM21Q0EV__000014L00000">
+<ptxt>INSTALL FRONT PLANETARY GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191170" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 1-way clutch inner race from the planetary gear assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the planetary gear.</ptxt>
+<atten4>
+<ptxt>Mesh the splines of the planetary gear with the teeth of the discs by rotating and pushing the planetary gear.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Position the notched tooth of the inner race toward the valve body side of the case and push the race into place.</ptxt>
+<atten4>
+<ptxt>The inner race is correctly installed if the snap ring groove is fully visible.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C191171" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring.</ptxt>
+<figure>
+<graphic graphicname="C191172" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0024" proc-id="RM21Q0EV__000014M00000">
+<ptxt>INSTALL SUN GEAR SHAFT OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191439E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new oil seal rings with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the oil seal ring ends, and install the oil seal rings to the sun gear.</ptxt>
+<atten3>
+<ptxt>Do not stretch the rings excessively.</ptxt>
+</atten3>
+<atten4>
+<ptxt>After installing the oil seal rings, check that they rotate smoothly.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0025" proc-id="RM21Q0EV__000014N00000">
+<ptxt>INSTALL NO. 1 1-WAY CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191441E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 1-way clutch to the outer race with its open end facing rearward.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 retainers.</ptxt>
+</s2>
+<s2>
+<ptxt>Install 2 new retainers to the outer race.</ptxt>
+<figure>
+<graphic graphicname="C191442" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a pin punch and hammer, stake the claws of the retainers.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 1-way clutch to the sun gear.</ptxt>
+<figure>
+<graphic graphicname="C191435" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0106" proc-id="RM21Q0EV__000011600000">
+<ptxt>INSPECT 1-WAY CLUTCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191434E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the No. 1 1-way clutch and turn the sun gear. Check that the sun gear can be turned counterclockwise but cannot be turned clockwise.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD4005X_02_0028" proc-id="RM21Q0EV__000014O00000">
+<ptxt>INSTALL NO. 2 BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191402" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to the center support.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat a new O-ring with ATF and install it to the brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the brake piston.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191403E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the brake piston into the center support by hand.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the O-rings.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0029" proc-id="RM21Q0EV__000014P00000">
+<ptxt>INSTALL NO. 2 BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191400" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the piston return spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the spring seat and compress the return spring with press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191404E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring. Make sure the end gap of the snap ring is not aligned with the spring seat claw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0030" proc-id="RM21Q0EV__000014Q00000">
+<ptxt>INSTALL NO. 2 BRAKE DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191397E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 3 plates and 3 discs.</ptxt>
+<spec>
+<title>Install in order</title>
+<specitem>
+<ptxt>P - D - P - D - P - D</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>P = Plate</ptxt>
+<ptxt>D = Disc</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0031" proc-id="RM21Q0EV__000014R00000">
+<ptxt>INSTALL NO. 2 BRAKE FLANGE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191405" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the flange with its flat end facing downward.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the center support.</ptxt>
+<figure>
+<graphic graphicname="C191395" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0101" proc-id="RM21Q0EV__000011400000">
+<ptxt>INSPECT PISTON STROKE OF NO. 2 BRAKE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191394" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a dial indicator, measure the No. 2 brake piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>0.98 to 1.71 mm (0.0386 to 0.0673 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the stroke is not as specified, inspect the discs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD4005X_02_0033" proc-id="RM21Q0EV__000014S00000">
+<ptxt>INSTALL CENTER SUPPORT OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191389E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 3 new oil seal rings with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the oil seal ring ends and install the oil seal rings to the center support.</ptxt>
+<atten4>
+<ptxt>After installing the oil seal rings, check that they rotate smoothly.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Do not stretch the rings excessively.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0034" proc-id="RM21Q0EV__000014T00000">
+<ptxt>INSTALL NO. 1 BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191388" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new O-rings with ATF and install them to the brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the brake piston.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191391E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the No. 1 brake piston into the center support by hand.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the O-rings.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0035" proc-id="RM21Q0EV__000014U00000">
+<ptxt>INSTALL NO. 1 BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191386" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the piston return spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the spring seat and compress the return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191392E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring. Make sure the end gap of the snap ring is not aligned with the spring seat claw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0036" proc-id="RM21Q0EV__000014V00000">
+<ptxt>INSTALL NO. 1 BRAKE DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191383E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 3 plates and 2 discs.</ptxt>
+<spec>
+<title>Install in order</title>
+<specitem>
+<ptxt>P - D - P - P - D</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>P = Plate</ptxt>
+<ptxt>D = Disc</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0037" proc-id="RM21Q0EV__000014W00000">
+<ptxt>INSTALL NO. 1 BRAKE FLANGE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191393" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the flange with its rounded edge facing upward.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the center support.</ptxt>
+<figure>
+<graphic graphicname="C191381" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0102" proc-id="RM21Q0EV__000011100000">
+<ptxt>INSPECT PISTON STROKE OF NO. 1 BRAKE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the brake piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C191380" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>0.75 to 1.35 mm (0.0295 to 0.0531 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the stroke is not as specified, inspect the discs.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD4005X_02_0039" proc-id="RM21Q0EV__000014X00000">
+<ptxt>INSTALL PLANETARY SUN GEAR SUB-ASSEMBLY WITH NO. 1 1-WAY CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191433" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>While turning the 1-way clutch, install the planetary sun gear sub-assembly with No. 1 1-way clutch assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring.</ptxt>
+<figure>
+<graphic graphicname="C191432" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0040" proc-id="RM21Q0EV__000014Y00000">
+<ptxt>INSTALL CENTER SUPPORT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191173" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Face the bolt holes and oil holes of the center support toward the valve body side, and align them with the bolt holes and oil holes of the transmission case and install the center support.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 wave washers with the 2 bolts.</ptxt>
+<atten4>
+<ptxt>First tighten the bolt on the accumulator piston side.</ptxt>
+</atten4>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>260</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="C191174" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0041" proc-id="RM21Q0EV__000014Z00000">
+<ptxt>INSTALL REAR CLUTCH PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191376" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 4 new O-rings with ATF, and install them to the rear clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the rear clutch piston to the rear clutch drum.</ptxt>
+<figure>
+<graphic graphicname="C191377E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Place SST on the rear clutch piston.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Press the rear clutch piston into the clutch drum by hand.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the O-rings.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0042" proc-id="RM21Q0EV__000015000000">
+<ptxt>INSTALL REAR CLUTCH RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191372" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the clutch return spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the clutch return spring and compress the clutch return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191378E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the snap ring with a snap ring expander. Make sure the end gap of the snap ring is not aligned with the spring seat claw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0043" proc-id="RM21Q0EV__000015100000">
+<ptxt>INSTALL REAR CLUTCH DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191369E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 3 plates and 3 discs.</ptxt>
+<spec>
+<title>Install in order</title>
+<specitem>
+<ptxt>P - D - P - D - P - D</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>P = Plate</ptxt>
+<ptxt>D = Disc</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0044" proc-id="RM21Q0EV__000015200000">
+<ptxt>INSTALL REAR CLUTCH FLANGE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191379" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the flange with its flat side facing downward.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the rear clutch drum.</ptxt>
+<figure>
+<graphic graphicname="C191367" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0045" proc-id="RM21Q0EV__000015300000">
+<ptxt>INSPECT PISTON STROKE OF REAR CLUTCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191366" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the rear clutch onto the center support.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the rear clutch piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>0.90 to 1.30 mm (0.0354 to 0.0512 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the piston stroke is not as specified, parts may have been assembled incorrectly. Check the parts and reassemble again.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the piston stroke is still not as specified, replace the flange with one of a different thickness.</ptxt>
+</item>
+<item>
+<ptxt>There are 3 different ranges of flange thicknesses.</ptxt>
+</item>
+</list1>
+</atten4>
+<table>
+<title>Flange Thickness</title>
+<tgroup cols="1" align="center">
+<colspec colname="COL1" colwidth="4.13in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>3.475 to 3.600 mm (0.137 to 0.142 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3.675 to 3.800 mm (0.145 to 0.150 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3.925 to 4.050 mm (0.155 to 0.159 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0046" proc-id="RM21Q0EV__000015400000">
+<ptxt>INSTALL REAR CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191292E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the rear clutch.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Mesh the splines of the rear clutch drum with the teeth of the No. 1 brake discs by rotating and pushing the rear clutch.</ptxt>
+</item>
+<item>
+<ptxt>If the rear clutch drum is fully meshed with the No. 1 brake discs the splined center of the rear clutch drum will be flush with the end of the sun gear shaft.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Coat the race with petroleum jelly, and install it to the rear clutch.</ptxt>
+<spec>
+<title>Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Race F</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>27.58 mm (1.09 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44.70 mm (1.76 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the race.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0047" proc-id="RM21Q0EV__000015500000">
+<ptxt>INSTALL FRONT CLUTCH PISTON SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191358E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new O-rings with ATF and install them to the front clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the front clutch piston.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191359E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the clutch piston into the front clutch drum by hand.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the O-rings.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0048" proc-id="RM21Q0EV__000015600000">
+<ptxt>INSTALL FRONT CLUTCH RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191354" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the return spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the spring seat and compress the return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191360E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring. Make sure the end gap of the snap ring is not aligned with the spring seat claw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0049" proc-id="RM21Q0EV__000015700000">
+<ptxt>INSTALL FRONT CLUTCH DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191351E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 4 plates and 3 discs.</ptxt>
+<spec>
+<title>Install in order</title>
+<specitem>
+<ptxt>P - D - P - D - P - D - P</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>P = Plate</ptxt>
+<ptxt>D = Disc</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the front clutch drum.</ptxt>
+<figure>
+<graphic graphicname="C191350E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the disc.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0050" proc-id="RM21Q0EV__000015800000">
+<ptxt>INSPECT PISTON STROKE OF FRONT CLUTCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191361E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>In order to check the piston stroke, install the rear clutch hub.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a dial indicator, measure the front clutch piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09350-06120</s-subnumber>
+</sstitem>
+</sst>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>1.40 to 1.60 mm (0.0551 to 0.0630 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the piston stroke is not as specified, parts may have been assembled incorrectly. Check the parts and reassemble again.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the piston stroke is still not as specified, replace plates with plates of a different thickness as necessary until the piston stroke is as specified.</ptxt>
+</item>
+<item>
+<ptxt>There are 2 different plate ranges of thickness.</ptxt>
+</item>
+</list1>
+</atten4>
+<table>
+<title>Plate Thickness</title>
+<tgroup cols="1" align="center">
+<colspec colname="COL1" colwidth="4.13in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1.75 to 1.85 mm (0.0689 to 0.0728 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1.95 to 2.05 mm (0.0768 to 0.0807 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the snap ring and rear clutch hub.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0051" proc-id="RM21Q0EV__000015900000">
+<ptxt>INSTALL FRONT CLUTCH HUB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191362E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the bearing and races with petroleum jelly, and install them to the front clutch drum.</ptxt>
+<spec>
+<title>Bearing and Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Front Race E</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.05 mm (0.947 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.59 mm (1.48 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing E</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>23.34 mm (0.919 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.59 mm (1.48 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Rear Race E </ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>21.41 mm (0.843 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.59 mm (1.48 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the bearing and races.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the front clutch hub to the front clutch drum.</ptxt>
+<atten4>
+<ptxt>Mesh the splines of the front clutch hub with the teeth of the discs by rotating and pushing the front clutch hub.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C191363" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0052" proc-id="RM21Q0EV__000015A00000">
+<ptxt>INSTALL REAR CLUTCH HUB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191364" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the rear clutch hub.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the front clutch drum.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the front clutch from the overdrive case.</ptxt>
+<figure>
+<graphic graphicname="C191482" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0062" proc-id="RM21Q0EV__000015J00000">
+<ptxt>INSTALL FRONT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191293E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the 2 bearings and race with petroleum jelly, and install them to the front clutch.</ptxt>
+<spec>
+<title>Bearing and Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>23.34 mm (0.919 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.59 mm (1.48 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Race F</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>30.00 mm (1.18 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>47.9 mm (1.89 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing F</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>28.30 mm (1.11 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>46.48 mm (1.83 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the thrust bearings and race.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the front clutch.</ptxt>
+<atten4>
+<ptxt>Mesh the splines of the front clutch with the teeth of the discs by rotating and pushing the front clutch.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C191125" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0063" proc-id="RM21Q0EV__000015K00000">
+<ptxt>INSPECT INSTALLATION DISTANCE OF FRONT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191107E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the transmission case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09370-12010</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the distance between the top of the clutch drum and SST.</ptxt>
+<ptxt>If the measured distance is the same as the measured distance noted during disassembly, the front clutch is installed correctly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0064" proc-id="RM21Q0EV__000015L00000">
+<ptxt>INSTALL CLUTCH DRUM OIL SEAL RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191318" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new oil seal rings with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the oil seal rings ends install the oil seal rings to the overdrive case.</ptxt>
+<atten4>
+<ptxt>After installing the oil seal rings, check that they rotate smoothly.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Do not stretch the rings excessively.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0065" proc-id="RM21Q0EV__000015M00000">
+<ptxt>INSTALL OVERDRIVE BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191319" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new O-rings with ATF, and install them to the overdrive brake piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Press the brake piston into the overdrive case by hand to install it.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the O-rings.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0066" proc-id="RM21Q0EV__000015N00000">
+<ptxt>INSTALL OVERDRIVE BRAKE RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191320" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the overdrive brake return spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the snap ring while pushing the overdrive brake return spring with a screwdriver. Make sure the end gap of the snap ring is not aligned with the cutout portion of the overdrive case.</ptxt>
+<figure>
+<graphic graphicname="C191321" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Make sure that the snap ring is inserted into its groove.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0067" proc-id="RM21Q0EV__000015O00000">
+<ptxt>INSTALL OVERDRIVE PLANETARY RING GEAR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191322E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the bearing and races with petroleum jelly, and install them to the overdrive case.</ptxt>
+<spec>
+<title>Bearing and Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Front Race C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>30.00 mm (1.18 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>48.54 mm (1.91 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>28.30 mm (1.11 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>46.48 mm (1.83 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Rear Race C</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>27.58 mm (1.09 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44.70 mm (1.76 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the bearing and races.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the overdrive planetary ring gear.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0068" proc-id="RM21Q0EV__000015P00000">
+<ptxt>INSTALL OVERDRIVE BRAKE DISC SET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191323E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 3 plates, 3 discs and flange with the rounded edge of the flange facing upward.</ptxt>
+<spec>
+<title>Install in order</title>
+<specitem>
+<ptxt>P - D - P - D - P - D - F</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>F = Flange</ptxt>
+<ptxt>D = Disc</ptxt>
+<ptxt>P = Plate</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the overdrive case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0070" proc-id="RM21Q0EV__000015R00000">
+<ptxt>INSTALL OVERDRIVE BRAKE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191294E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Temporarily install SST to the transmission case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09362-30011</s-subnumber>
+</sstitem>
+</sst>
+<atten4>
+<ptxt>Remove the SST after installation of the oil pump.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Coat the No. 1 overdrive planetary gear thrust washer and race with petroleum jelly, and install them to the overdrive brake.</ptxt>
+<figure>
+<graphic graphicname="C191106E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Race D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.05 mm (0.947 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.59 mm (1.48 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the race.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Slide the overdrive brake gently onto the 2 guide bolts (SST) with the cutout portion of the case facing the valve body side to install the overdrive brake.</ptxt>
+<figure>
+<graphic graphicname="C191461" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0069" proc-id="RM21Q0EV__000015Q00000">
+<ptxt>INSPECT PACK CLEARANCE OF OVERDRIVE BRAKE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191312" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a dial indicator, measure the overdrive brake pack clearance by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<spec>
+<title>Standard pack clearance</title>
+<specitem>
+<ptxt>0.75 to 1.25 mm (0.0295 to 0.0492 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the pack clearance is not as specified, parts may have been assembled incorrectly. Check the parts and reassemble again.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the pack clearance is still not as specified, replace plates with plates of a different thickness as necessary until the pack clearance is as specified.</ptxt>
+</item>
+<item>
+<ptxt>There are 2 different ranges of plate thickness.</ptxt>
+</item>
+</list1>
+</atten4>
+<table>
+<title>Plate Thickness</title>
+<tgroup cols="1" align="center">
+<colspec colname="COL1" colwidth="4.13in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1.95 to 2.05 mm (0.0768 to 0.0807 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2.25 to 2.35 mm (0.0886 to 0.0925 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0053" proc-id="RM21Q0EV__000015B00000">
+<ptxt>INSTALL OVERDRIVE 1-WAY CLUTCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191344" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the bearing with petroleum jelly, and install it to the overdrive planetary gear.</ptxt>
+<spec>
+<title>Bearing Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing B</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>37.3 mm (1.47 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>52.52 mm (2.07 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the thrust bearing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the 1-way clutch to the outer race with its open end facing upward.</ptxt>
+<figure>
+<graphic graphicname="C191467E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the 2 retainers.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the No. 3 thrust washer, 1-way clutch and No. 4 thrust washer.</ptxt>
+<figure>
+<graphic graphicname="C191345E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C191338" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0054" proc-id="RM21Q0EV__000015C00000">
+<ptxt>INSTALL OVERDRIVE DIRECT CLUTCH PISTON SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191479E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new O-rings with ATF and install them to the overdrive direct clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the direct clutch piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the direct clutch piston.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191342E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the direct clutch piston into the clutch drum by hand.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the O-rings.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0055" proc-id="RM21Q0EV__000015D00000">
+<ptxt>INSTALL OVERDRIVE CLUTCH RETURN SPRING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191333" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the return spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Place SST on the clutch return spring and compress the clutch return spring with a press.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09369-20040</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191343E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the snap ring. Make sure the end gap of the snap ring is not aligned with the spring seat claw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0056" proc-id="RM21Q0EV__000015E00000">
+<ptxt>INSTALL OVERDRIVE CLUTCH FLANGE AND CUSHION PLATE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191468E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the cushion plate and flange with the rounded edge facing upward.</ptxt>
+<spec>
+<title>Install in order</title>
+<specitem>
+<ptxt>C - F</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>C = Cushion plate</ptxt>
+</atten4>
+<ptxt>F = Flange</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the drum.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0057" proc-id="RM21Q0EV__000015F00000">
+<ptxt>INSTALL OVERDRIVE CLUTCH DISC</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191329" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0058" proc-id="RM21Q0EV__000015G00000">
+<ptxt>INSTALL OVERDRIVE BRAKE HUB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191328" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the overdrive brake hub.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the snap ring. Make sure the end gap of the snap ring is not aligned with the cutout portion of the drum.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0059" proc-id="RM21Q0EV__000015H00000">
+<ptxt>INSPECT PISTON STROKE OF OVERDRIVE DIRECT CLUTCH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191327" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Place the overdrive direct clutch onto the oil pump.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the overdrive direct clutch piston stroke by applying and releasing compressed air (392 to 785 kPa (4 to 8 kgf/cm<sup>2</sup>, 57 to 114 psi)), as shown in the illustration.</ptxt>
+<spec>
+<title>Standard piston stroke</title>
+<specitem>
+<ptxt>1.74 to 2.44 mm (0.0685 to 0.0961 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the piston stroke is not as specified, parts may have been assembled incorrectly. Check the parts and reassemble again.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0060" proc-id="RM21Q0EV__000015I00000">
+<ptxt>INSTALL OVERDRIVE DIRECT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191325" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the direct clutch to the overdrive planetary gear.</ptxt>
+<atten4>
+<ptxt>Mesh the splines of the overdrive planetary gear with the teeth of the disc by rotating and pushing the overdrive planetary gear.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0103" proc-id="RM21Q0EV__000010O00000">
+<ptxt>INSPECT OVERDRIVE 1-WAY CLUTCH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191324E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Hold the overdrive direct clutch drum and be turned the input shaft. Check that the input shaft can be turned clockwise but cannot be turned counterclockwise.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OD4005X_02_0071" proc-id="RM21Q0EV__000015S00000">
+<ptxt>INSTALL OVERDRIVE PLANETARY GEAR ASSEMBLY WITH OVERDRIVE DIRECT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191462E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the No. 2 overdrive planetary gear thrust washer with petroleum jelly, and install it to the overdrive direct clutch.</ptxt>
+</s2>
+<s2>
+<ptxt>Coat the race with petroleum jelly, and install it to the overdrive direct clutch.</ptxt>
+<spec>
+<title>Race Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Race A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.32 mm (0.957 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>39.2 mm (1.54 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the race.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the overdrive planetary gear assembly with overdrive direct clutch assembly.</ptxt>
+<atten4>
+<ptxt>Mesh the splines of the overdrive direct clutch with the teeth of the discs by rotating and pushing the overdrive direct clutch.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C191103" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0072" proc-id="RM21Q0EV__000015T00000">
+<ptxt>INSPECT INSTALLATION DISTANCE OF OVERDRIVE DIRECT CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191102E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place SST on the transmission case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09370-12010</s-subnumber>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper, measure the distance between the top of the clutch drum and SST.</ptxt>
+<ptxt>If the measured distance is the same as the measured distance noted during disassembly, the overdrive direct clutch is installed correctly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0073" proc-id="RM21Q0EV__000015U00000">
+<ptxt>INSTALL AUTOMATIC TRANSMISSION HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191295E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF, and install it to the overdrive brake.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the transmission housing with the 6 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>34</t-value1>
+<t-value2>345</t-value2>
+<t-value4>25</t-value4>
+<ptxt>for 10 mm bolt </ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>57</t-value1>
+<t-value2>580</t-value2>
+<t-value4>42</t-value4>
+<ptxt>for 12 mm bolt</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0074" proc-id="RM21Q0EV__000015V00000">
+<ptxt>INSTALL OIL PUMP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191296" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the bearing with petroleum jelly, and install it to the oil pump.</ptxt>
+<spec>
+<title>Bearing Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Inside</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outside</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Bearing A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>24.32 mm (0.957 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>43.2 mm (1.70 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Be careful of the installation direction of the bearing.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Coat a new O-ring with ATF, and install it to the pump body.</ptxt>
+<figure>
+<graphic graphicname="C191444" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Slide the oil pump gently onto the SST (2 guide bolts) to install it.</ptxt>
+<sst>
+<sstitem>
+<s-number>09350-20015</s-number>
+<s-subnumber>09370-12010</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C191298E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply adhesive to the bolt heads.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1344,</ptxt>
+<ptxt>Three Bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Temporarily install the 5 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, remove the SST.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="C191299" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tighten all the bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>215</t-value2>
+<t-value4>16</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0075" proc-id="RM21Q0EV__000015W00000">
+<ptxt>INSPECT INPUT SHAFT ROTATION</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191300" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check that the input shaft rotates smoothly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0076" proc-id="RM21Q0EV__000015X00000">
+<ptxt>INSPECT OUTPUT SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191301" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a dial indicator, measure the end play of the output shaft while moving the output shaft by hand.</ptxt>
+<spec>
+<title>Standard end play</title>
+<specitem>
+<ptxt>0.3 to 0.9 mm (0.0118 to 0.0354 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the end play is not as specified, check for improper installation.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the output shaft rotates smoothly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0077" proc-id="RM21Q0EV__000015Y00000">
+<ptxt>INSPECT INDIVIDUAL PISTON OPERATION</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191302E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check for operating noise while applying compressed air to the oil holes indicated in the illustration.</ptxt>
+<s3>
+<ptxt>Overdrive direct clutch</ptxt>
+</s3>
+<s3>
+<ptxt>Overdrive brake</ptxt>
+</s3>
+<s3>
+<ptxt>Rear clutch</ptxt>
+</s3>
+<s3>
+<ptxt>Front clutch</ptxt>
+</s3>
+<s3>
+<ptxt>No. 1 brake</ptxt>
+</s3>
+<s3>
+<ptxt>No. 2 brake</ptxt>
+</s3>
+<s3>
+<ptxt>No. 3 brake</ptxt>
+<ptxt>If there is no noise, disassemble and check the installation condition of the parts.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0078" proc-id="RM21Q0EV__000015Z00000">
+<ptxt>INSTALL PARKING LOCK PAWL SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191098E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new E-ring to the shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the parking lock pawl, shaft and spring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0079" proc-id="RM21Q0EV__000016000000">
+<ptxt>INSTALL PARKING LOCK ROD SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191303" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the parking lock rod to the manual valve lever to install it.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0080" proc-id="RM21Q0EV__000016100000">
+<ptxt>INSTALL PARKING LOCK PAWL BRACKET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191096" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the parking lock pawl bracket with the 2 wave washers and 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.4</t-value1>
+<t-value2>75</t-value2>
+<t-value3>65</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Shift the manual valve lever to the P position, and confirm that the planetary ring gear is correctly locked by the lock pawl.</ptxt>
+<figure>
+<graphic graphicname="C191304" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0081" proc-id="RM21Q0EV__000016200000">
+<ptxt>INSTALL ACCUMULATOR PISTON AND SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191305E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 6 new O-rings with ATF and install 2 to each piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 springs and 3 accumulator pistons to the 3 holes, as shown in the illustration.</ptxt>
+<spec>
+<title>Piston Diameter</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Piston</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outer Diameter</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C - 1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>31.85 mm (1.25 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>31.85 mm (1.25 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>34.8 mm (1.37 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Spring Diameter</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="0.83in"/>
+<colspec colname="COL2" colwidth="1.65in"/>
+<colspec colname="COLSPEC1" colwidth="1.65in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Spring</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Free Length</ptxt>
+<ptxt>Outer Diameter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Color</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C - 1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>75.03 mm (2.95 in.)</ptxt>
+<ptxt>17.00 mm (0.669 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>White or Blue</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>C - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>62.27 mm (2.45 in.)</ptxt>
+<ptxt>16.4 mm (0.646 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>White or Purple</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B - 2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>56.40 mm (2.22 in.)</ptxt>
+<ptxt>18.79 mm (0.740 in.)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Green</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0082" proc-id="RM21Q0EV__000016300000">
+<ptxt>INSTALL TRANSMISSION VALVE BODY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191306" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the groove of the manual valve to the pin of the lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the valve body with the 17 bolts.</ptxt>
+<figure>
+<graphic graphicname="C191475E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>110</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Each bolt length is indicated below.</ptxt>
+<ptxt>36 mm (1.42 in.) for A</ptxt>
+<ptxt>28 mm (1.10 in.) for B</ptxt>
+<ptxt>45 mm (1.77 in.) for C</ptxt>
+<ptxt>30 mm (1.18 in.) for D</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0083" proc-id="RM21Q0EV__000016400000">
+<ptxt>INSTALL TRANSMISSION WIRE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191094" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the O-ring of the transmission wire connector with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the transmission wire to the case with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>16</t-value1>
+<t-value2>160</t-value2>
+<t-value4>12</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connectors to the 4 shift solenoid valves.</ptxt>
+<figure>
+<graphic graphicname="C191093" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the clamp with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>110</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0084" proc-id="RM21Q0EV__000016500000">
+<ptxt>INSTALL OVERDRIVE BRAKE TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191092" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a plastic-faced hammer, tap in the tube as shown in the illustration.</ptxt>
+<atten3>
+<ptxt>Be careful not to bend or damage the tube.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0085" proc-id="RM21Q0EV__000016600000">
+<ptxt>INSTALL VALVE BODY OIL STRAINER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191091" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install 3 new gaskets to the oil strainer.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the oil strainer with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0086" proc-id="RM21Q0EV__000016700000">
+<ptxt>INSTALL AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190104" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 2 magnets to the oil pan.</ptxt>
+<atten3>
+<ptxt>Make sure that the magnets do not interfere with the oil pipes.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install a new gasket to the transmission case.</ptxt>
+<atten4>
+<ptxt>Align the cutout part of the gasket and case.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="C191307" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the oil pan with the 14 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>4.4</t-value1>
+<t-value2>45</t-value2>
+<t-value3>65</t-value3>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="C191308" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0087" proc-id="RM21Q0EV__000016800000">
+<ptxt>INSTALL TRANSMISSION CASE REAR COVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191089E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new gasket and the cover with the 3 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0088" proc-id="RM21Q0EV__000016900000">
+<ptxt>INSTALL SENSOR ROTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191088E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, install the front side snap ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the key and sensor rotor.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a snap ring expander, install the rear side snap ring.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0089" proc-id="RM21Q0EV__000016A00000">
+<ptxt>INSTALL EXTENSION HOUSING DUST DEFLECTOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191309" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver and hammer, tap in a new dust deflector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0090" proc-id="RM21Q0EV__000016B00000">
+<ptxt>INSTALL AUTOMATIC TRANSMISSION EXTENSION HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190090E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Coat the lip of a new oil seal with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in the oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09309-37010</s-number>
+</sstitem>
+</sst>
+<spec>
+<title>Standard depth</title>
+<specitem>
+<ptxt>(6.2 to 6.8 mm (0.244 to 0.268 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Be careful not to damage the lip of the oil seal.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install a new dust seal to a new retainer.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in the dust seal together with the retainer.</ptxt>
+<spec>
+<title>Standard distance</title>
+<specitem>
+<ptxt>0.7 to 1.3 mm (0.0394 to 0.0512 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0091" proc-id="RM21Q0EV__000016C00000">
+<ptxt>INSTALL EXTENSION HOUSING BUSH APPLY TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191084E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the tube and a new gasket to the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0092" proc-id="RM21Q0EV__000016D00000">
+<ptxt>INSTALL EXTENSION HOUSING SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191083E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new gasket and extension housing to the case.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply adhesive to the bolts labeled A.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1344,</ptxt>
+<ptxt>Three Bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the 6 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>36</t-value1>
+<t-value2>370</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Each bolt length is indicated below.</ptxt>
+<ptxt>45 mm (1.77 in.) for bolt A</ptxt>
+<ptxt>35 mm (1.38 in.) for bolt B</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0093" proc-id="RM21Q0EV__000016E00000">
+<ptxt>INSTALL SPEED SENSOR (NC0)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191076" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF, and install it to the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0094" proc-id="RM21Q0EV__000016F00000">
+<ptxt>INSTALL SPEED SENSOR (SP2)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191075" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat new O-ring with ATF, and install it to the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0095" proc-id="RM21Q0EV__000016G00000">
+<ptxt>INSTALL SPEEDOMETER SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191074" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF, and install it to the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0096" proc-id="RM21Q0EV__000016H00000">
+<ptxt>INSTALL OIL COOLER TUBE UNION</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191073" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat 2 new O-rings with ATF, and install one to each tube union.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 tube unions.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0097" proc-id="RM21Q0EV__000016I00000">
+<ptxt>INSTALL ATF TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191072" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the O-ring of the ATF temperature sensor with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>15</t-value1>
+<t-value2>150</t-value2>
+<t-value4>11</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0098" proc-id="RM21Q0EV__000016J00000">
+<ptxt>INSTALL PARK/NEUTRAL POSITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191071" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the switch to the manual valve lever shaft, and temporarily install the adjusting bolt.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new lock washer with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.0</t-value1>
+<t-value2>71</t-value2>
+<t-value3>62</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using the control shaft lever, turn the manual lever shaft clockwise until it stops, and then turn it counterclockwise 2 notches to set it to the N position.</ptxt>
+</s2>
+<s2>
+<ptxt>Align the neutral basic line with the switch groove, and tighten the adjusting bolt.</ptxt>
+<figure>
+<graphic graphicname="D025795E12" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Bend the tabs of the lock washer.</ptxt>
+<atten4>
+<ptxt>Bend at least 2 of the lock washer tabs.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0099" proc-id="RM21Q0EV__000016K00000">
+<ptxt>INSTALL TRANSMISSION CONTROL SHAFT LEVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the control shaft lever with the spring washer and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>16</t-value1>
+<t-value2>160</t-value2>
+<t-value4>12</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="C191070" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OD4005X_02_0100" proc-id="RM21Q0EV__000016L00000">
+<ptxt>INSTALL DRAIN PLUG</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>286</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

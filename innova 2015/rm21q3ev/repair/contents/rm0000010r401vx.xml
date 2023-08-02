@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZI_T003W" variety="T003W">
+<name>CLUTCH PEDAL</name>
+<para id="RM0000010R401VX" category="A" type-id="80001" name-id="CL23K-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010R401VX_02" type-id="01" category="01">
+<s-1 id="RM0000010R401VX_02_0014" proc-id="RM21Q0EV__00003A100000">
+<ptxt>REMOVE LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B291270" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Detach the 7 claws and remove the lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010R401VX_02_0015" proc-id="RM21Q0EV__000053400000">
+<ptxt>REMOVE COMBINATION METER ASSEMBLY</ptxt>
+<content1 releasenbr="2">
+<ptxt>(See page <xref label="Seep01" href="RM000004S68006X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010R401VX_02_0003" proc-id="RM21Q0EV__000018O00000">
+<ptxt>REMOVE CLUTCH PEDAL RETURN SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C113186" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM0000010R401VX_02_0016" proc-id="RM21Q0EV__000018R00000">
+<ptxt>REMOVE PUSH ROD CLEVIS PIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the clip and pin.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010R401VX_02_0004" proc-id="RM21Q0EV__000018P00000">
+<ptxt>REMOVE CLUTCH PEDAL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037529E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt, 2 nuts and clutch pedal.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

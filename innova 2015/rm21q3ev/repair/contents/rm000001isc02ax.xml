@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10025_S000D" variety="S000D">
+<name>1TR-FE CHARGING</name>
+<ttl id="10025_S000D_7A7Z2_T003G" variety="T003G">
+<name>GENERATOR</name>
+<para id="RM000001ISC02AX" category="G" type-id="3001K" name-id="CH11Z-02" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001ISC02AX_01" type-id="01" category="01">
+<s-1 id="RM000001ISC02AX_01_0001" proc-id="RM21Q0EV__00000VR00000">
+<ptxt>INSPECT GENERATOR BRUSH HOLDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a vernier caliper, measure the brush length.</ptxt>
+<figure>
+<graphic graphicname="A118443E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard length</title>
+<specitem>
+<ptxt>10.5 mm (0.413 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum length</title>
+<specitem>
+<ptxt>4.5 mm (0.177 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the brush length is less than the minimum, replace the brush holder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001ISC02AX_01_0004" proc-id="RM21Q0EV__00000VS00000">
+<ptxt>INSPECT GENERATOR ROTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the bearing is not rough or worn, and that it rotates smoothly.</ptxt>
+<figure>
+<graphic graphicname="A118444" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If necessary, replace the rotor assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the resistance.</ptxt>
+<s3>
+<ptxt>Measure the resistance between the slip rings.</ptxt>
+<figure>
+<graphic graphicname="A236749E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>1.85 to 2.25 Ω at 20°C (68°F)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the rotor assembly.</ptxt>
+</s3>
+<s3>
+<ptxt>Measure the resistance between the slip ring and rotor core.</ptxt>
+<figure>
+<graphic graphicname="A236750E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>10 kΩ or higher</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the rotor assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check each slip ring.</ptxt>
+<s3>
+<ptxt>Check that the slip rings are not rough or scored.</ptxt>
+<ptxt>If rough or scored, replace the rotor assembly.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a vernier caliper, measure the slip ring diameter.</ptxt>
+<figure>
+<graphic graphicname="A118447E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard diameter</title>
+<specitem>
+<ptxt>14.2 to 14.4 mm (0.559 to 0.567 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum diameter</title>
+<specitem>
+<ptxt>14.0 mm (0.551 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the diameter is less than the minimum, replace the rotor assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

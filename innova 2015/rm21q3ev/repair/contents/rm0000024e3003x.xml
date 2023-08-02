@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A823_T006H" variety="T006H">
+<name>HIGH MOUNTED STOP LIGHT ASSEMBLY</name>
+<para id="RM0000024E3003X" category="A" type-id="30014" name-id="LI1V1-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000024E3003X_01" type-id="01" category="01">
+<s-1 id="RM0000024E3003X_01_0003" proc-id="RM21Q0EV__00002CL00000">
+<ptxt>INSTALL CENTER STOP LIGHT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B086303" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the stop light with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024E3003X_01_0004" proc-id="RM21Q0EV__00002CM00000">
+<ptxt>INSTALL CENTER STOP LIGHT COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B086302E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Attach the 2 claws and 2 clips to install the cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024E3003X_01_0001">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM0000024E3003X_01_0002" proc-id="RM21Q0EV__00002CK00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T1">
+<name>INTRODUCTION</name>
+<section id="10002_S0001" variety="S0001">
+<name>INTRODUCTION</name>
+<ttl id="10002_S0001_7A7VP_T0003" variety="T0003">
+<name>REPAIR INSTRUCTION</name>
+<para id="RM000000UYY09TX" category="F" type-id="30022" name-id="IN1E6-01" from="201202">
+<name>VEHICLE LIFT AND SUPPORT LOCATIONS</name>
+<subpara id="RM000000UYY09TX_z0" proc-id="RM21Q0EV__000000400000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>NOTICE ABOUT VEHICLE CONDITION WHEN RAISING VEHICLE</ptxt>
+<step2>
+<ptxt>The vehicle must be unloaded before jacking up or raising the vehicle. Never jack up or raise a heavily loaded vehicle.</ptxt>
+</step2>
+<step2>
+<ptxt>Set the jack and safety stands exactly under the specified locations on the vehicle.</ptxt>
+</step2>
+<step2>
+<ptxt>Never try to jack up or raise a vehicle that exceeds the weight specifications of the equipment being used.</ptxt>
+</step2>
+<step2>
+<ptxt>When raising the vehicle, first raise the vehicle only a little, and then shake the vehicle slightly to make sure it is stable before raising it to the specified position.</ptxt>
+</step2>
+<step2>
+<ptxt>Before removing the jack, tap the safety stands with a hammer or equivalent to make sure that the vehicle is properly supported.</ptxt>
+</step2>
+<step2>
+<ptxt>When using a lift, always lower the vehicle when work is not being performed.</ptxt>
+</step2>
+<step2>
+<ptxt>When removing any heavy components like the engine or transmission, the vehicle's center of gravity will shift. To stabilize the vehicle, place a balance weight in a location that will prevent the vehicle from rolling or shifting, or place a transmission jack under the appropriate jack position at the opposite end of the vehicle.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>NOTICE FOR USING 4 POST LIFT</ptxt>
+<step2>
+<ptxt>Follow the safety procedures outlined in the 4 post lift's instruction manual.</ptxt>
+</step2>
+<step2>
+<ptxt>Use precautionary measures to prevent the free wheel beam from damaging tires or wheels.</ptxt>
+</step2>
+<step2>
+<ptxt>Use wheel chocks to secure the vehicle.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>NOTICE FOR USING JACK AND SAFETY STAND</ptxt>
+<step2>
+<ptxt>Work on a level surface. Use wheel chocks at all times.</ptxt>
+</step2>
+<step2>
+<ptxt>Set the jack and rigid racks to the specified locations on the vehicle accurately.</ptxt>
+</step2>
+<step2>
+<ptxt>When jacking up the vehicle, first release the parking brake and move the shift lever to N.</ptxt>
+</step2>
+<step2>
+<ptxt>When jacking up the entire vehicle:</ptxt>
+<step3>
+<ptxt>When jacking up the front wheels first, make sure wheel chocks are behind the rear wheels.</ptxt>
+</step3>
+<step3>
+<ptxt>When jacking up the rear wheels first, make sure wheel chocks are in front of the front wheels.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>When jacking up only the front or rear wheels of the vehicle:</ptxt>
+<step3>
+<ptxt>Before jacking up the front wheels, place wheel chocks on both sides of the rear wheels.</ptxt>
+</step3>
+<step3>
+<ptxt>Before jacking up the rear wheels, place wheel chocks on both sides of the front wheels.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>When lowering a vehicle that only has its front or rear wheels jacked up:</ptxt>
+<step3>
+<ptxt>Before lowering the front wheels, make sure wheel chocks are in front of the rear wheels.</ptxt>
+</step3>
+<step3>
+<ptxt>Before lowering the rear wheels, make sure wheel chocks are behind the front wheels.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>It is extremely dangerous to perform any work on a vehicle raised on a jack alone, even for work that can be finished quickly. Rigid racks must be used to support the vehicle.</ptxt>
+<figure>
+<graphic graphicname="D105929E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry>
+<graphic graphicname="D100714" width="1.1811023622047245in" height="0.7874015748031497in"/>
+</entry>
+<entry valign="middle">
+<list1 type="nonmark">
+<item>
+<ptxt>JACK POSITION</ptxt>
+</item>
+</list1>
+<ptxt>Front: Center of crossmember</ptxt>
+<ptxt>Rear: Center of rear differential</ptxt>
+</entry>
+<entry valign="middle">
+<atten2>
+<ptxt>When jacking up the vehicle, make sure the vehicle is not carrying any extra weight.</ptxt>
+</atten2>
+</entry>
+</row>
+<row>
+<entry>
+<graphic graphicname="D100716" width="1.1811023622047245in" height="0.7874015748031497in"/>
+</entry>
+<entry valign="middle">
+<list1 type="nonmark">
+<item>
+<ptxt>SUPPORT POSITION</ptxt>
+</item>
+</list1>
+<ptxt>Safety stand</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<graphic graphicname="D100791" width="1.1811023622047245in" height="0.7874015748031497in"/>
+</entry>
+<entry valign="middle">
+<list1 type="nonmark">
+<item>
+<ptxt>SUPPORT POSITION</ptxt>
+</item>
+</list1>
+<ptxt>Swing arm type lift</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<graphic graphicname="D102935" width="1.1811023622047245in" height="0.7874015748031497in"/>
+</entry>
+<entry valign="middle">
+<list1 type="nonmark">
+<item>
+<ptxt>SUPPORT POSITION</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7AGEX_T008L" variety="T008L">
+<name>POWER STEERING LINK</name>
+<para id="RM00000164103BX" category="A" type-id="30014" name-id="PS2NI-01" from="201503">
+<name>INSTALLATION</name>
+<subpara id="RM00000164103BX_01" type-id="01" category="01">
+<s-1 id="RM00000164103BX_01_0003" proc-id="RM21Q0EV__000037Q00001">
+<ptxt>INSTALL POWER STEERING LINK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the steering link with the 2 bolts and 2 nuts.</ptxt>
+<figure>
+<graphic graphicname="C131081" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>95</t-value1>
+<t-value2>969</t-value2>
+<t-value4>70</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>If necessary, return the differential to its original position and install the differential mount.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0031" proc-id="RM21Q0EV__00001II00000">
+<ptxt>INSTALL FRONT STABILIZER BAR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front stabilizer bar to the vehicle body.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000164103BX_01_0005">
+<ptxt>STABILIZE SUSPENSION</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0006" proc-id="RM21Q0EV__000037R00001">
+<ptxt>CONNECT STEERING GEAR OUTLET RETURN TUBE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a union nut wrench, connect the outlet return tube.</ptxt>
+<figure>
+<graphic graphicname="C131682E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>33</t-value4>
+<ptxt>for use without union nut wrench</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>40</t-value1>
+<t-value2>409</t-value2>
+<t-value4>30</t-value4>
+<ptxt>for use with union nut wrench</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 300 mm (11.81 in.).</ptxt>
+</item>
+<item>
+<ptxt>This torque value is effective when a union nut wrench is parallel to the torque wrench.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the hose with the clip.</ptxt>
+<figure>
+<graphic graphicname="C131079E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0007" proc-id="RM21Q0EV__000037S00001">
+<ptxt>CONNECT PRESSURE FEED TUBE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the pressure feed tube to the steering link with the bolt.</ptxt>
+<figure>
+<graphic graphicname="C131077" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>286</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, tighten the flare nut and connect the pressure feed tube.</ptxt>
+<figure>
+<graphic graphicname="C131076E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>33</t-value4>
+<ptxt>for use without union nut wrench</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>40</t-value1>
+<t-value2>409</t-value2>
+<t-value4>30</t-value4>
+<ptxt>for use with union nut wrench</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 300 mm (11.81 in.).</ptxt>
+</item>
+<item>
+<ptxt>This torque value is effective when a union nut wrench is parallel to the torque wrench.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0008" proc-id="RM21Q0EV__00005B500001">
+<ptxt>CONNECT NO. 2 STEERING INTERMEDIATE SHAFT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the matchmarks on the steering intermediate shaft and steering link.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>35</t-value1>
+<t-value2>357</t-value2>
+<t-value4>26</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0043" proc-id="RM21Q0EV__00005B600001">
+<ptxt>CONNECT STEERING SLIDING YOKE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the matchmarks on the steering sliding yoke and steering intermediate shaft, and connect the steering sliding yoke to the steering intermediate shaft.</ptxt>
+<figure>
+<graphic graphicname="C239647E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the bolt labeled B.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>35</t-value1>
+<t-value2>357</t-value2>
+<t-value4>26</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Tighten the bolt labeled A.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>35</t-value1>
+<t-value2>357</t-value2>
+<t-value4>26</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0009" proc-id="RM21Q0EV__000037T00001">
+<ptxt>CONNECT TIE ROD END SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the tie rod end to the steering knuckle arm with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>49</t-value1>
+<t-value2>500</t-value2>
+<t-value4>36</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install a new cotter pin.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0010" proc-id="RM21Q0EV__000037U00001">
+<ptxt>CONNECT TIE ROD END SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0011" proc-id="RM21Q0EV__000037V00001">
+<ptxt>INSTALL FRONT SIDE MEMBER TO FRONT SUSPENSION CROSSMEMBER BRACE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the crossmember brace with the 8 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0014">
+<ptxt>INSTALL FRONT WHEEL</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0015">
+<ptxt>PLACE FRONT WHEELS FACING STRAIGHT AHEAD</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0032" proc-id="RM21Q0EV__00004ZB00000">
+<ptxt>INSTALL WINDSHIELD WIPER SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the windshield wiper switch assembly.</ptxt>
+<atten3>
+<ptxt>Do not push the claw with excessive force as damage may occur.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000164103BX_01_0033" proc-id="RM21Q0EV__00001TB00000">
+<ptxt>INSTALL HEADLIGHT DIMMER SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B136347" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the headlight dimmer switch with the claw as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the headlight dimmer switch with the clamp.</ptxt>
+<figure>
+<graphic graphicname="B136353" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+<figure>
+<graphic graphicname="B088653" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000164103BX_01_0018">
+<ptxt>INSTALL SPIRAL CABLE SUB-ASSEMBLY</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0019">
+<ptxt>INSTALL STEERING COLUMN COVER UPPER</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0034" proc-id="RM21Q0EV__00001T700000">
+<ptxt>INSTALL STEERING COLUMN COVER LOWER
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035005E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the lower cover with the 3 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>2.0</t-value1>
+<t-value2>20</t-value2>
+<t-value3>18</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000164103BX_01_0035" proc-id="RM21Q0EV__00001T800000">
+<ptxt>INSTALL STEERING WHEEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C129232E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the matchmarks on the steering wheel and main shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the steering set nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000164103BX_01_0022">
+<ptxt>INSPECT STEERING WHEEL CENTER POINT</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0036" proc-id="RM21Q0EV__00004UT00000">
+<ptxt>INSTALL STEERING PAD ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>With the steering pad installed on the vehicle, perform a visual check. If there are any defects as mentioned below, replace the steering pad with a new one:</ptxt>
+<ptxt>Cuts, minute cracks or marked discoloration on the steering pad top surface or in the grooved portion.</ptxt>
+</s2>
+<s2>
+<ptxt>Make sure that the horn sounds.</ptxt>
+<ptxt>If the horn does not sound, inspect the horn system.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000164103BX_01_0025">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0026" proc-id="RM21Q0EV__000037W00001">
+<ptxt>CHECK SRS WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the SRS warning light (See page <xref label="Seep01" href="RM000000YVX019X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000164103BX_01_0039">
+<ptxt>ADD POWER STEERING FLUID</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0040" proc-id="RM21Q0EV__00001UM00000">
+<ptxt>BLEED AIR FROM POWER STEERING SYSTEM
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fluid level.</ptxt>
+</s2>
+<s2>
+<ptxt>Jack up the front of the vehicle and support it with stands.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel.</ptxt>
+<s3>
+<ptxt>With the engine stopped, turn the steering wheel slowly from lock to lock several times.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. Run the engine at idle for a few minutes.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel.</ptxt>
+<s3>
+<ptxt>With the engine idling, turn the steering wheel to the left or right full lock position and hold it there for 2 to 3 seconds. Then turn the steering wheel to the opposite full lock position and hold it there for 2 to 3 seconds.</ptxt>
+</s3>
+<s3>
+<ptxt>Repeat the step above several times.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Stop the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Check for foaming or emulsification. If the system has to be bled twice because of foaming or emulsification, check for fluid leaks in the system.</ptxt>
+<figure>
+<graphic graphicname="F040897E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check the fluid level.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000164103BX_01_0041">
+<ptxt>CHECK FOR POWER STEERING FLUID LEAKAGE</ptxt>
+</s-1>
+<s-1 id="RM00000164103BX_01_0030" proc-id="RM21Q0EV__000037X00001">
+<ptxt>INSPECT AND ADJUST FRONT WHEEL ALIGNMENT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect and adjust the front wheel alignment (See page <xref label="Seep01" href="RM0000039J4005X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

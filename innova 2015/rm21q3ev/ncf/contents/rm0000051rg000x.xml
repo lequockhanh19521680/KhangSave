@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="59">
+<name>Vehicle Exterior</name>
+<section id="12064_S0010" variety="S0010">
+<name>WINDOW / GLASS</name>
+<ttl id="12064_S0010_7AHZ0_T000F" variety="T000F">
+<name>WINDSHIELD / WINDOW GLASS SYSTEM</name>
+<para id="RM0000051RG000X" category="F" type-id="8048Z" name-id="WS6V5-01" from="201202">
+<name>DETAILS</name>
+<subpara id="RM0000051RG000X_z0" proc-id="NM21Q0EV__000002800000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<step2>
+<ptxt>Window Defogger System</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Window Defogger Switch Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Operates the window defogger system.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Window Defogger Wire</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Applies electrical current to a window defogger wire installed in the back door glass to remove fogging from the back door glass.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air Conditioning Amplifier Assembly*</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Operates and controls the window defogger system in accordance with the signals from the rear window defogger switch assembly.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with automatic air conditioning system</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>Window Defogger System (Models with Automatic Conditioning System)</ptxt>
+<step3>
+<ptxt>When the ignition switch is turned to ON, and the rear window defogger switch assembly is pushed, this system is activated to keep the rear window defogger wire on for approximately 15 minutes.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12051_S000S" variety="S000S">
+<name>DOOR LOCK</name>
+<ttl id="12051_S000S_7AHYT_T000B" variety="T000B">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM000004RYF003X" category="F" type-id="8048W" name-id="DL771-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004RYF003X_z0" proc-id="NM21Q0EV__000000T00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The wireless door lock control system is a convenient system for locking and unlocking all the doors from a distance.</ptxt>
+</step2>
+<step2>
+<ptxt>A key-integrated, 2-button type*1 or 3-button type*2 transmitter is used.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: Models without theft deterrent system</ptxt>
+</item>
+<item>
+<ptxt>*2: Models with theft deterrent system</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>In this system, the door control receiver performs the code identification process and the No. 1 integration relay performs door lock control.</ptxt>
+</step2>
+<step2>
+<ptxt>When preparing a new transmitter to replace one that has been lost, it is necessary to register the recognition code. For details, refer to the corresponding Service Bulletin for this model.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

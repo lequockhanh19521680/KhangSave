@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLX_T009E" variety="T009E">
+<name>SIDE MOULDING (for Front Door)</name>
+<para id="RM000004RUO00YX" category="A" type-id="80001" name-id="ET6RV-05" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000004RUO00YX_01" type-id="11" category="10" proc-id="RM21Q0EV__00003TB00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004RUO00YX_02" type-id="01" category="01">
+<s-1 id="RM000004RUO00YX_02_0044" proc-id="RM21Q0EV__00003TD00000">
+<ptxt>REMOVE FRONT DOOR OUTSIDE MOULDING LH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the front door outside moulding, heat the front door panel and front door outside moulding using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the front door panel or front door outside moulding excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Put protective tape around the front door outside moulding.</ptxt>
+<figure>
+<graphic graphicname="B280921E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Insert piano wire between the front door panel and front door outside moulding.</ptxt>
+</s2>
+<s2>
+<ptxt>Tie objects that can serve as handles (for example, wooden blocks) to the piano wire ends.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the piano wire and scrape off the double-sided tape that holds the front door outside moulding to the front door panel.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the front door panel.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the front door outside moulding.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wooden Block</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUO00YX_02_0043" proc-id="RM21Q0EV__00003TC00000">
+<ptxt>REMOVE FRONT DOOR INSERT OUTSIDE MOULDING LH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the front door insert outside moulding, heat the front door outside moulding and front door insert outside moulding using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Door Insert Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the front door outside moulding or front door insert outside moulding excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Put protective tape around the front door insert outside moulding.</ptxt>
+<figure>
+<graphic graphicname="B280920E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, remove the front door insert outside moulding.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the front door outside moulding.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

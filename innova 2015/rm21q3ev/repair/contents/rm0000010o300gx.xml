@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7AX04_T00AM" variety="T00AM">
+<name>FRONT SHOCK ABSORBER</name>
+<para id="RM0000010O300GX" category="G" type-id="3001K" name-id="FP11S-09" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010O300GX_01" type-id="01" category="01">
+<s-1 id="RM0000010O300GX_01_0001" proc-id="RM21Q0EV__000052500000">
+<ptxt>INSPECT FRONT SHOCK ABSORBER ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Compress and extend the shock absorber rod 4 times or more. Check that there is no abnormal resistance or unusual sound during the operation.</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>If there is any abnormality, replace the shock absorber assembly with a new one.</ptxt>
+<atten3>
+<ptxt>When disposing of the shock absorber, see Disposal (See page <xref label="Seep01" href="RM0000010O100GX"/>).</ptxt>
+</atten3>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

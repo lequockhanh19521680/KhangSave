@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10025_S000D" variety="S000D">
+<name>1TR-FE CHARGING</name>
+<ttl id="10025_S000D_7A7Z2_T003G" variety="T003G">
+<name>GENERATOR</name>
+<para id="RM000001ISE02UX" category="A" type-id="8000E" name-id="CH120-02" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000001ISE02UX_01" type-id="01" category="01">
+<s-1 id="RM000001ISE02UX_01_0007" proc-id="RM21Q0EV__00000W600000">
+<ptxt>INSTALL GENERATOR DRIVE END FRAME BEARING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST and a press, press in a new bearing.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-60010</s-number>
+<s-subnumber>09951-00470</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09950-70010</s-number>
+<s-subnumber>09951-07100</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A118448E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the claws of the bearing retainer with the grooves inside the drive end frame.</ptxt>
+<figure>
+<graphic graphicname="A118449E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the bearing retainer with the 4 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>2.3</t-value1>
+<t-value2>23</t-value2>
+<t-value3>20</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001ISE02UX_01_0001" proc-id="RM21Q0EV__00000W300000">
+<ptxt>INSTALL GENERATOR ROTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the generator rotor to the drive end frame.</ptxt>
+<atten3>
+<ptxt>Do not drop the generator rotor.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the generator drive end frame space collar to the generator rotor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the washer to the generator rotor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001ISE02UX_01_0010" proc-id="RM21Q0EV__00000W900000">
+<ptxt>INSTALL GENERATOR COIL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 21 mm deep socket wrench and press, slowly press in the generator coil assembly.</ptxt>
+<figure>
+<graphic graphicname="A118450E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the generator coil assembly with the 4 through bolts.</ptxt>
+<figure>
+<graphic graphicname="A118451" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.8</t-value1>
+<t-value2>59</t-value2>
+<t-value3>51</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001ISE02UX_01_0004" proc-id="RM21Q0EV__00000W400000">
+<ptxt>INSTALL GENERATOR BRUSH HOLDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>While pushing the 2 brushes inside the brush holder, insert a φ1.0 mm (0.039 in.) pin into the brush holder hole.</ptxt>
+<figure>
+<graphic graphicname="A118452E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the brush holder with the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="A118453E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>1.8</t-value1>
+<t-value2>18</t-value2>
+<t-value3>16</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Pull out the pin from the brush holder.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001ISE02UX_01_0008" proc-id="RM21Q0EV__00000W700000">
+<ptxt>INSTALL TERMINAL INSULATOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the terminal insulator.</ptxt>
+<figure>
+<graphic graphicname="A118454" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001ISE02UX_01_0009" proc-id="RM21Q0EV__00000W800000">
+<ptxt>INSTALL GENERATOR REAR END COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the generator rear end cover with the 3 nuts.</ptxt>
+<figure>
+<graphic graphicname="A118436" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>4.6</t-value1>
+<t-value2>47</t-value2>
+<t-value3>41</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001ISE02UX_01_0005" proc-id="RM21Q0EV__00000W500000">
+<ptxt>INSTALL GENERATOR PULLEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the pulley to the rotor shaft by tightening the generator pulley nut by hand.</ptxt>
+</s2>
+<s2>
+<ptxt>Install SST 1-A and B to the rotor shaft.</ptxt>
+<sst>
+<sstitem>
+<s-number>09820-63011</s-number>
+<s-subnumber>09820-06010</s-subnumber>
+<s-subnumber>09820-06021</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="A075664E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Part No.</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>SST 1-A and B</ptxt>
+</entry>
+<entry>
+<ptxt>09820-06010</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SST 2</ptxt>
+</entry>
+<entry>
+<ptxt>09820-06021</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Hold SST 1-A with a torque wrench, and tighten SST 1-B clockwise with the specified torque.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>39</t-value1>
+<t-value2>398</t-value2>
+<t-value4>29</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Make sure that the SST is secured to the rotor shaft.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Mount the generator in a vise between aluminum plates.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert SST 2 to attach it to the pulley nut.</ptxt>
+<figure>
+<graphic graphicname="A203850E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tighten the pulley nut by turning SST 1-A in the direction shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A203821E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>111</t-value1>
+<t-value2>1127</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Remove SST 2 from the generator.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn SST 1-B in the direction shown in the illustration, and remove SST 1-A and B.</ptxt>
+<figure>
+<graphic graphicname="A075667E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the pulley, and check that the pulley moves smoothly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

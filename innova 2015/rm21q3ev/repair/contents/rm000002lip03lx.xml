@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LIP03LX" category="U" type-id="3001G" name-id="ACFUY-01" from="201202">
+<name>TERMINALS OF ECU</name>
+<subpara id="RM000002LIP03LX_z0" proc-id="RM21Q0EV__00004PQ00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK AIR CONDITIONING AMPLIFIER ASSEMBLY</ptxt>
+<figure>
+<graphic graphicname="E224847E05" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage and resistance according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A36-1 (GND) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A36-5 (+B1) - A36-1 (GND)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L-Y - L</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Battery power source</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-6 (IG+) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>R-L - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Ignition power source</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-13 (MGC) - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>B - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Magnet clutch signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-14 (HR) - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>L-W - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>HTR relay signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>If the result is not as specified, there may be a malfunction on the wire harness side.</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>Reconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+</step2>
+<step2>
+<ptxt>Measure the voltage and resistance according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.40in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A36-2 (BLW) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L-B - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Blower motor speed control voltage</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+<ptxt>(See waveform 1)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-3 (AOF) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Y-B - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Mode damper servo operation voltage</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Mode switch DEF</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Mode switch FACE</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-4 (AOD) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>R-B - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Mode damper servo operation voltage</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Mode switch FACE</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Mode switch DEF</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-7 (ACT) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>R-L - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Magnet clutch on permit input signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch off or on (magnet clutch off)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch on (magnet clutch on)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A36-8 (TW) - A36-1 (GND)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P - L</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine coolant temperature sensor signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A36-9 (SPD) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>V-W - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle speed signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driving at approximately 20 km/h (12 mph)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+<ptxt>(See waveform 2)</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-13 (MGC) - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>B - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Magnet clutch signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>A/C switch on (magnet clutch on permitted)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>A/C switch off or on (magnet clutch on not permitted)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-17 (AMH) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>L - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Air mix damper servo operation signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Temperature switch MAX HOT</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Temperature switch MAX COLD</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A36-18 (TAMO) - A36-1 (GND)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P - L</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ambient temperature signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-19 (AMC) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>R-W - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Air mix damper servo operation signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Temperature switch MAX HOT</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Temperature switch MAX COLD</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-21 (AC1) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Y - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Idle-up request signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch off</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-22 (AIR) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>L-W - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Recirculation damper servo operation voltage</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Fresh switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Recirculation switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A36-23 (AIF) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>G-Y - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Recirculation damper servo operation voltage</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Recirculation switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Fresh switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A38-1 (TE) - A38-14 (SG-4)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>G - P</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>No. 1 cooler thermistor signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Evaporator temperature 0°C (32°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>2 to 2.4 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Evaporator temperature 15°C (59°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>1.4 to 1.8 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-2 (S5-3) - A36-1 (GND)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>W-R - L</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Power supply for solar sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A38-5 (PSW) - A36-1 (GND)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Y-B - L</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Air conditioner pressure sensor signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Refrigerant pressure normal</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Refrigerant pressure less than 0.196 MPa (2.0 kgf/cm<sup>2</sup>, 28 psi) or more than 3.14 MPa (32.0 kgf/cm<sup>2</sup>, 455 psi)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A38-7 (TS) - A38-2 (S5-3)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>L-W - W-R</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Solar sensor signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Solar sensor subjected to electric light</ptxt>
+</item>
+<item>
+<ptxt>Vehicle indoors</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>0.8 to 4.3 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Solar sensor covered with cloth</ptxt>
+</item>
+<item>
+<ptxt>Vehicle indoors</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 0.8 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-9 (VER) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Steering wheel location information signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-11 (SG-2) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ground for pulse position sensor (Mode damper servo)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-13 (SG-3) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BR-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ground for cooler thermistor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-14 (SG-4) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ground for No. 1 cooler thermistor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-16 (PIB) - A38-21 (SG-7)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R-L - LG-R</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Input signal for pulse position sensor (recirculation damper servo)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Air inlet control recirculation to fresh or vice versa</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-17 (PIA) - A38-21 (SG-7)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P-B - LG-R</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Input signal for pulse position sensor (recirculation damper servo)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Air inlet control recirculation to fresh or vice versa</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A38-18 (TR) - A38-13 (SG-3)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>GR - BR-Y</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Cooler thermistor signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Cabin temperature 25°C (77°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>1.8 to 2.2 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Cabin temperature 40°C (104°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>1.2 to 1.6 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-20 (SG-1) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BR-Y - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ground for pulse position sensor (air mix damper servo)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-21 (SG-7) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>LG-R - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ground for pulse position sensor (recirculation damper servo)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-23 (PMB) - A38-20 (SG-1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>W-L - BR-Y</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Input signal for pulse position sensor (air mix damper servo)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Temperature switch MAX HOT to MAX COLD</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-24 (PMA) - A38-20 (SG-1)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>W-R - BR-Y</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Input signal for pulse position sensor (air mix damper servo)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Temperature switch MAX COLD to MAX HOT</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-25 (POB) - A38-11(SG-2 )</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>LG - L-Y</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Input signal for pulse position sensor (mode damper servo)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Mode control FACE to DEF or vice versa</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A38-26 (POA) - A38-11 (SG-2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L-O - L-Y</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Input signal for pulse position sensor (mode damper servo)</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Mode control FACE to DEF or vice versa</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Using an oscilloscope, check waveform 1.</ptxt>
+<figure>
+<graphic graphicname="E171008E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Blower motor control signal</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A36-2 (BLW) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 V/DIV., 50 μsec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON, Blower switch on (LO level)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>When the blower level is increased, the duty ratio changes accordingly.</ptxt>
+</atten4>
+</step2>
+<step2>
+<ptxt>Using an oscilloscope, check waveform 2.</ptxt>
+<figure>
+<graphic graphicname="E169152E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Vehicle speed signal</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A36-9 (SPD) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 20 ms./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Driving at approximately 20 km/h (12 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>As the vehicle speed increases, the wavelength becomes shorter.</ptxt>
+</atten4>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK ECM</ptxt>
+<figure>
+<graphic graphicname="E170985E06" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>E10-24 (AC1) - E12-3 (E1)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Y - BR</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Idle-up request signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch on (magnet clutch on)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch off or on (magnet clutch off)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>E10-25 (ACT) - E12-3 (E1)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>R-L - BR</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Magnet clutch on permit output signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch off</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Engine idling</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+<item>
+<ptxt>A/C switch on</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK ACCESSORY METER ASSEMBLY</ptxt>
+<figure>
+<graphic graphicname="E165586E12" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>A19-3 (TH+) - A19-2 (SG)</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>W-G - BR-Y</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Thermistor assembly signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Ambient temperature 20 to 30°C (68 to 86°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>1 to 1.6 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Ambient temperature 30 to 50°C (86 to 122°F)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>0.6 to 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A19-9 (DATA) - A19-1 (GND)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P - LG</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ambient temperature signal</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK COMBINATION METER ASSEMBLY</ptxt>
+<figure>
+<graphic graphicname="E165587E08" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<table pgwide="1">
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>C20-6 - C20-22</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>V-R - Y</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Vehicle speed signal</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Driving at approximately 20 km/h (12 mph)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pulse generation</ptxt>
+<ptxt>(See waveform)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Using an oscilloscope, check waveform.</ptxt>
+<figure>
+<graphic graphicname="E169152E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Vehicle speed signal</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Terminal No. (Symbol)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C20-6 - C20-22</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5 V/DIV., 20 ms./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Driving at approximately 20 km/h (12 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>When the blower level is increased, the duty ratio changes accordingly.</ptxt>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000O_S000O" variety="S000O">
+<name>PARKING BRAKE</name>
+<ttl id="1000O_S000O_7A80S_T0056" variety="T0056">
+<name>PARKING BRAKE LEVER</name>
+<para id="RM0000010M5016X" category="A" type-id="80001" name-id="PB2DH-06" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010M5016X_01" type-id="01" category="01">
+<s-1 id="RM0000010M5016X_01_0011" proc-id="RM21Q0EV__000057000000">
+<ptxt>PRECAUTION</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010M5016X_01_0001" proc-id="RM21Q0EV__000056X00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010M5016X_01_0009" proc-id="RM21Q0EV__000056Z00000">
+<ptxt>REMOVE CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEC013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010M5016X_01_0010">
+<ptxt>REMOVE PARKING BRAKE LEVER COVER</ptxt>
+</s-1>
+<s-1 id="RM0000010M5016X_01_0006" proc-id="RM21Q0EV__000056Y00000">
+<ptxt>REMOVE PARKING BRAKE LEVER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the lock nut and No. 1 parking brake cable adjusting nut.</ptxt>
+<figure>
+<graphic graphicname="C237675E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock Nut</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Parking Brake Cable Adjusting Nut</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and lever (with the No. 1 parking brake cable).</ptxt>
+<figure>
+<graphic graphicname="C237673" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Bend the claw so that the No. 1 parking brake cable can be removed.</ptxt>
+<figure>
+<graphic graphicname="C237678E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Claw</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and 2 nuts.</ptxt>
+<figure>
+<graphic graphicname="C238705" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the cable from the lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the parking brake switch connector.</ptxt>
+<figure>
+<graphic graphicname="C237685" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the screw and switch from the lever.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7A83F_T007T" variety="T007T">
+<name>OUTER REAR VIEW MIRROR</name>
+<para id="RM0000015DU037X" category="A" type-id="80001" name-id="MI1YE-01" from="201202" to="201403">
+<name>REMOVAL</name>
+<subpara id="RM0000015DU037X_01" type-id="11" category="10" proc-id="RM21Q0EV__000044V00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000015DU037X_02" type-id="01" category="01">
+<s-1 id="RM0000015DU037X_02_0022" proc-id="RM21Q0EV__00004IH00000">
+<ptxt>REMOVE POWER WINDOW REGULATOR MASTER SWITCH ASSEMBLY WITH FRONT UPPER ARMREST BASE PANEL LH (w/ Power Window, for Driver Side)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B291416" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 2 clips and 8 claws.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector and remove the power window regulator master switch assembly with front door armrest base panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000015DU037X_02_0016" proc-id="RM21Q0EV__00004AT00000">
+<ptxt>REMOVE POWER WINDOW REGULATOR SWITCH ASSEMBLY WITH FRONT UPPER ARMREST BASE PANEL RH (w/ Power Window, for Front Passenger Side)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B280659" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Using moulding remover A, detach the 2 clips and 8 claws.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector and remove the power window regulator switch assembly with front upper armrest base panel RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000015DU037X_02_0021" proc-id="RM21Q0EV__00004JB00000">
+<ptxt>REMOVE FRONT UPPER ARMREST BASE PANEL LH (w/o Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B311432" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 2 clips and 8 claws and remove the front upper armrest base panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000015DU037X_02_0017" proc-id="RM21Q0EV__00004JC00000">
+<ptxt>REMOVE FRONT DOOR WINDOW REGULATOR HANDLE ASSEMBLY (w/o Power Window)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Insert a clip remover between the plate and front door trim board.</ptxt>
+<figure>
+<graphic graphicname="B311433E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the clip remover tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Turn the handle clockwise to remove the snap ring, front door window regulator handle and plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000015DU037X_02_0018" proc-id="RM21Q0EV__00004II00000">
+<ptxt>REMOVE FRONT DOOR LOWER FRAME BRACKET GARNISH LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 3 clips and remove the front door lower frame bracket garnish.</ptxt>
+<figure>
+<graphic graphicname="B291417E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>w/ Front No. 2 Speaker</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>w/o Front No. 2 Speaker</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000015DU037X_02_0019" proc-id="RM21Q0EV__00004IJ00000">
+<ptxt>REMOVE FRONT DOOR TRIM BOARD SUB-ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B291418" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 9 clips and remove the front door trim board.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000015DU037X_02_0020" proc-id="RM21Q0EV__00004T300000">
+<ptxt>REMOVE FRONT NO. 2 SPEAKER ASSEMBLY (w/ Front No. 2 Speaker)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+<figure>
+<graphic graphicname="E226350" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the nut and front No. 2 speaker assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000015DU037X_02_0004" proc-id="RM21Q0EV__000044W00000">
+<ptxt>REMOVE OUTER REAR VIEW MIRROR ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Front No. 2 Speaker:</ptxt>
+<figure>
+<graphic graphicname="B280850E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Disconnect the connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the 2 nuts.</ptxt>
+</s3>
+<s3>
+<ptxt>Push down the claw and remove the outer rear view mirror assembly LH.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>w/o Front No. 2 Speaker:</ptxt>
+<figure>
+<graphic graphicname="B360216" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Remove the 3 nuts.</ptxt>
+</s3>
+<s3>
+<ptxt>Push down the claw and remove the outer rear view mirror assembly LH.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7ARJP_T008Y" variety="T008Y">
+<name>REAR NO. 1 SEAT INNER BELT ASSEMBLY (for Captain Seat Type)</name>
+<para id="RM000002P91009X" category="K" type-id="30193" name-id="SB13B-09" from="201202" to="201403">
+<name>COMPONENTS</name>
+<subpara id="RM000002P91009X_01" type-id="02" category="04" proc-id="RM21Q0EV__00003I500000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B284166E06" width="7.1065789991732in" height="5.78762943422969in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

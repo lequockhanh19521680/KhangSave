@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZC_T003Q" variety="T003Q">
+<name>AUTOMATIC TRANSMISSION ASSEMBLY</name>
+<para id="RM0000010NT01WX" category="A" type-id="30014" name-id="AT44W-02" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010NT01WX_01" type-id="01" category="01">
+<s-1 id="RM0000010NT01WX_01_0001" proc-id="RM21Q0EV__00000Z600000">
+<ptxt>INSPECT TORQUE CONVERTER CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect the torque converter clutch assembly (See page <xref label="Seep01" href="RM0000010NN01QX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0002" proc-id="RM21Q0EV__00000Z700000">
+<ptxt>INSTALL TORQUE CONVERTER CLUTCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C191485E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Install the torque converter clutch to the automatic transmission.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper and straightedge, measure dimension A between the contact surfaces of the transmission and engine (*1), and the contact surfaces of the converter and drive plate (*2).</ptxt>
+</s2>
+<s2>
+<ptxt>Using a vernier caliper and straightedge, measure dimension B shown in the illustration. Check that B is greater than A.</ptxt>
+<figure>
+<graphic graphicname="C191486E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>Standard distance</title>
+<specitem>
+<ptxt>B = A + 1.00 mm (0.0394 in.) or more</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0004" proc-id="RM21Q0EV__00000Z800000">
+<ptxt>INSTALL NO. 1 ENGINE MOUNTING INSULATOR REAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034579E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the engine mounting insulator to the transmission with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>47</t-value1>
+<t-value2>479</t-value2>
+<t-value4>35</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0005" proc-id="RM21Q0EV__00000Z900000">
+<ptxt>INSTALL AUTOMATIC TRANSMISSION ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C193822E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply clutch spline grease to the surface of the torque converter centerpiece that contacts the crankshaft.</ptxt>
+<spec>
+<title>Clutch spline grease</title>
+<specitem>
+<ptxt>Toyota Genuine Clutch Spline Grease or equivalent</ptxt>
+</specitem>
+<subtitle>Maximum grease amount</subtitle>
+<specitem>
+<ptxt>Approximately 1 g (0.353 oz)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the transmission to the engine with the 7 bolts.</ptxt>
+<figure>
+<graphic graphicname="G039174E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>71</t-value1>
+<t-value2>724</t-value2>
+<t-value4>52</t-value4>
+<ptxt>for 17 mm head</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+<ptxt>for 14 mm head</ptxt>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Before installing the transmission, make sure that the 2 knock pins on the engine block have not been removed.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the exhaust manifold stay with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>32</t-value4>
+<ptxt>for bolt A</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>30</t-value1>
+<t-value2>306</t-value2>
+<t-value4>22</t-value4>
+<ptxt>for bolt B</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>71</t-value1>
+<t-value2>724</t-value2>
+<t-value4>52</t-value4>
+<ptxt>for bolt C</ptxt>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="C118034E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the crankshaft to gain access to the installation locations of the 6 torque converter clutch mounting bolts and install each bolt while holding the crankshaft pulley bolt with a wrench.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>41</t-value1>
+<t-value2>418</t-value2>
+<t-value4>30</t-value4>
+</torqueitem>
+</torque>
+<figure>
+<graphic graphicname="G034529E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>First install the black colored bolt and then the remaining 5 bolts.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0032">
+<ptxt>INSTALL FLYWHEEL HOUSING DUST SEAL</ptxt>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0007">
+<ptxt>CONNECT WIRE HARNESS</ptxt>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0008" proc-id="RM21Q0EV__00000ZA00000">
+<ptxt>CONNECT CONNECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+<s3>
+<ptxt>Connect the temperature sensor connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the park/neutral position switch connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the 3 speed sensor connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the transmission wire connector.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0009" proc-id="RM21Q0EV__00000ZB00000">
+<ptxt>INSTALL NO. 3 FRAME CROSSMEMBER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034517E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>*1: Install the frame crossmember to the engine mounting insulator with the 4 set bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>27</t-value1>
+<t-value2>275</t-value2>
+<t-value4>20</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>*2: Connect the ends of the frame crossmember to the vehicle with the 4 bolts and 4 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0033" proc-id="RM21Q0EV__000005O00000">
+<ptxt>INSTALL STARTER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the starter with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="G039040E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the starter wire to terminal 30 with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the starter connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NT01WX_01_0036" proc-id="RM21Q0EV__00000U400000">
+<ptxt>INSTALL FRONT FENDER SEAL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the fender seal with the 5 clips.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NT01WX_01_0011" proc-id="RM21Q0EV__00000ZC00000">
+<ptxt>INSTALL TRANSMISSION CONTROL CABLE BRACKET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190116" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the control cable bracket with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>286</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0012" proc-id="RM21Q0EV__00000ZD00000">
+<ptxt>CONNECT TRANSMISSION CONTROL SHIFT CABLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190115" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the control cable with the clip and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0013" proc-id="RM21Q0EV__00000ZE00000">
+<ptxt>CONNECT OIL COOLER TUBE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118032" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the end of the oil cooler tube inlet to the automatic transmission by hand.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the end of the oil cooler tube outlet to the automatic transmission by hand.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clamps with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>50</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, tighten the inlet and outlet tubes.</ptxt>
+<figure>
+<graphic graphicname="C118036E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<subtitle>without union nut wrench</subtitle>
+<torqueitem>
+<t-value1>34</t-value1>
+<t-value2>346</t-value2>
+<t-value4>25</t-value4>
+</torqueitem>
+<subtitle>with union nut wrench</subtitle>
+<torqueitem>
+<t-value1>31</t-value1>
+<t-value2>316</t-value2>
+<t-value4>23</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 300 mm (11.8 in.).</ptxt>
+</item>
+<item>
+<ptxt>The torque value for use with a union nut wrench is effective when the union nut wrench is parallel to the torque wrench.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0014" proc-id="RM21Q0EV__00000U500000">
+<ptxt>INSTALL TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190098" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat a new O-ring with ATF, and install it to the oil filler tube.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the oil filler tube with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the oil level gauge.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0015" proc-id="RM21Q0EV__00000ZF00000">
+<ptxt>INSTALL PROPELLER WITH CENTER BEARING SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the propeller with center bearing shaft assembly (See page <xref label="Seep01" href="RM000000ZZ1020X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0018" proc-id="RM21Q0EV__00000GV00000">
+<ptxt>INSTALL FRONT EXHAUST PIPE ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A107610" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a vernier caliper, measure the free length of the compression spring.</ptxt>
+<spec>
+<title>Minimum length</title>
+<specitem>
+<ptxt>40 mm (1.57 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the length is less than the minimum, replace the compression spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front pipe to the pipe support.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099436E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install a new gasket to the outlet pipe.</ptxt>
+<atten4>
+<ptxt>Using a plastic-faced hammer, uniformly strike the gasket so that the gasket and exhaust pipe are properly fit.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful with the installation direction of the gasket.</ptxt>
+</item>
+<item>
+<ptxt>Do not reuse the gasket.</ptxt>
+</item>
+<item>
+<ptxt>To ensure a proper seal, do not use the front pipe to force the gasket onto the outlet pipe.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the front pipe with the 2 compression springs and 2 bolts. Alternately tighten the bolts in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>43</t-value1>
+<t-value2>438</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NT01WX_01_0034" proc-id="RM21Q0EV__00000ZJ00000">
+<ptxt>INSTALL NO. 2 FRAME CROSSMEMBER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034583E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the frame crossmember with the 4 bolts and 4 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0037" proc-id="RM21Q0EV__00000XL00000">
+<ptxt>ADJUST SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Move the shift lever to N.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the control cable.</ptxt>
+<figure>
+<graphic graphicname="C193823" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Turn the control shaft lever clockwise until it stops, and then turn it counterclockwise 2 notches to set it to the N position.</ptxt>
+<figure>
+<graphic graphicname="D028682E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>While holding the control shaft lever slightly toward the R position side, connect the cable with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NT01WX_01_0022" proc-id="RM21Q0EV__00000ZG00000">
+<ptxt>ADD AUTOMATIC TRANSMISSION FLUID</ptxt>
+<content1 releasenbr="1">
+<spec>
+<title>Fluid type</title>
+<specitem>
+<ptxt>Toyota Genuine ATF Type T-IV</ptxt>
+</specitem>
+</spec>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0023" proc-id="RM21Q0EV__00000ZH00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable to the negative (-) battery terminal.</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0038" proc-id="RM21Q0EV__00000XK00000">
+<ptxt>INSPECT SHIFT LEVER POSITION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When moving the shift lever from P to R with the ignition switch to ON and the brake pedal depressed, make sure that the shift lever moves smoothly and correctly into position.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and make sure that the vehicle moves forward after moving the shift lever from N to D, and moves in reverse after shifting to R.</ptxt>
+<ptxt>If the results are not as specified, inspect the park/neutral position switch and check the shift lever.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010NT01WX_01_0027">
+<ptxt>CHECK FOR EXHAUST GAS LEAKS</ptxt>
+</s-1>
+<s-1 id="RM0000010NT01WX_01_0028" proc-id="RM21Q0EV__00000ZI00000">
+<ptxt>CHECK AUTOMATIC TRANSMISSION FLUID LEVEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the automatic transmission fluid level (See page <xref label="Seep01" href="RM0000014P801SX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

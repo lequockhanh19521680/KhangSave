@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z7_T003L" variety="T003L">
+<name>ATF TEMPERATURE SENSOR</name>
+<para id="RM0000010NI01TX" category="A" type-id="30014" name-id="AT0FP-08" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010NI01TX_01" type-id="01" category="01">
+<s-1 id="RM0000010NI01TX_01_0001" proc-id="RM21Q0EV__00000XB00000">
+<ptxt>INSTALL ATF TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190106E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Coat the O-ring of the ATF temperature sensor with ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the temperature sensor.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>15</t-value1>
+<t-value2>150</t-value2>
+<t-value4>11</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the temperature sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NI01TX_01_0002" proc-id="RM21Q0EV__00000XC00000">
+<ptxt>CHECK AUTOMATIC TRANSMISSION FLUID LEVEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the automatic transmission fluid level (See page <xref label="Seep01" href="RM0000014P801SX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12052_S000T" variety="S000T">
+<name>THEFT DETERRENT / KEYLESS ENTRY</name>
+<ttl id="12052_S000T_7AHYY_T000D" variety="T000D">
+<name>THEFT DETERRENT</name>
+<para id="RM000004RYK003X" category="F" type-id="8048W" name-id="TD5LU-02" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004RYK003X_z0" proc-id="NM21Q0EV__000000V00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The theft deterrent system utilizes the components of the door lock control system and the wireless door lock control system. The system activates when somebody attempts to forcibly enter the vehicle, open the engine hood or apply abnormal vibration to the vehicle, or when the battery is disconnected and reconnected.</ptxt>
+</step2>
+<step2>
+<ptxt>A shock sensing triggering sensor is built into the theft warning ECU assembly.</ptxt>
+</step2>
+<step2>
+<ptxt>This system is controlled by the theft warning ECU assembly.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="4.24in"/>
+<tbody>
+<row>
+<entry morerows="2" valign="middle" align="center">
+<ptxt>Warning Method</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Hazard Warning Light</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Flashes</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Security Horn Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Sounds a warning in approx. 0.8-second cycles</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Horn Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Sounds a warning in approx. 0.8-second cycles</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Warning Time</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Approx. 27.5 seconds</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

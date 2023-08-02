@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW4_T00AL" variety="T00AL">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/ Theft Deterrent System)</name>
+<para id="RM000004SGO002X" category="D" type-id="303FF" name-id="DL77H-03" from="201202">
+<name>OPERATION CHECK</name>
+<subpara id="RM000004SGO002X_z0" proc-id="RM21Q0EV__000050J00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>NOTICES WHEN CHECKING</ptxt>
+<step2>
+<ptxt>Wireless door lock/unlock function:</ptxt>
+<ptxt>The wireless door lock control function operates only when the following conditions are met:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>No key is inserted into the ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>All the doors are closed.</ptxt>
+<atten4>
+<ptxt>The unlock function operates even when one of the doors is open.</ptxt>
+</atten4>
+</item>
+<item>
+<ptxt>The power door lock control system is functioning normally.</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>The operational range of the door control transmitter assembly differs depending on the situation.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The operational range differs depending on the user, the way the door control transmitter assembly is held and the location.</ptxt>
+</item>
+<item>
+<ptxt>In certain areas, the operational range will be reduced due to the vehicle body shape and the influence of the surrounding environment.</ptxt>
+</item>
+<item>
+<ptxt>The weak electric waves from the door control transmitter assembly may be affected if the area has strong electric waves or noise. The operational range of the door control transmitter assembly may be reduced or the door control transmitter assembly may not function.</ptxt>
+</item>
+<item>
+<ptxt>When the transmitter battery weakens, the operational range is reduced and the door control transmitter assembly may not function.</ptxt>
+<atten4>
+<ptxt>The transmitter battery may weaken or other problems may occur if one of the following occurs: 1) the door control transmitter assembly has had prolonged exposure to direct sunlight, such as on the instrument panel; or 2) the door control transmitter assembly is placed within 1 m (3.28 ft) of electrical products, such as TVs, computers, cordless phones, cell phone recharger stands (with the cell phone recharging), etc.</ptxt>
+</atten4>
+</item>
+</list1>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK WIRELESS DOOR LOCK CONTROL FUNCTIONS</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The switches described below transmit signals and are built into the door control transmitter assembly.</ptxt>
+</item>
+<item>
+<ptxt>The operational range of the door control transmitter assembly must be taken into account while checks are being made.</ptxt>
+</item>
+</list1>
+</atten4>
+<step2>
+<ptxt>Make sure the vehicle is in a condition in which the wireless control functions can be operated (see above). </ptxt>
+</step2>
+<step2>
+<ptxt>Check the basic functions:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Check that the transmitter LED illuminates 3 times or more when a lock switch of the door control transmitter assembly is pressed and held for 5 seconds.</ptxt>
+<atten4>
+<ptxt>If the LED does not illuminate 3 times or more when a switch is pressed and held, the transmitter battery may be depleted.</ptxt>
+</atten4>
+</item>
+<item>
+<ptxt>Check that all the doors lock when the lock switch is pressed.</ptxt>
+</item>
+<item>
+<ptxt>Check that when the unlock switch is pressed once, only the driver side door unlocks. When the unlock switch is pressed again within 3 seconds, check that all doors unlock.</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>Check the chattering prevention function:</ptxt>
+<ptxt>When a switch is pressed, check that the corresponding operation occurs only once. When the switch is held down, check that the corresponding operation occurs only once and does not repeatedly activate. Lastly, when the switch is pressed at 1 second intervals, check that the corresponding operation activates once for each press of the switch.</ptxt>
+</step2>
+<step2>
+<ptxt>Check the answer-back function*:</ptxt>
+<atten4>
+<ptxt>*: The security horn assembly applies only if the wireless answer-back function has been customized so that the hazard warning lights and side turn signal lights flash and the security horn assembly sounds.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>When the lock switch is pressed, check that the hazard warning lights and side turn signal lights flash once and the security horn assembly sounds once simultaneously with the locking operation of all the doors.</ptxt>
+</item>
+<item>
+<ptxt>When the unlock switch is pressed once, check that the hazard warning lights and side turn signal lights flash twice and the security horn assembly sounds twice simultaneously with the unlocking operation of all the doors.</ptxt>
+</item>
+</list1>
+</atten4>
+</step2>
+<step2>
+<ptxt>Check the automatic locking function:</ptxt>
+<ptxt>When all of the doors are unlocked with the unlock switch and none of the doors are opened or locked within 30 seconds, check that the doors lock again.</ptxt>
+</step2>
+<step2>
+<ptxt>Check the switch operation fail-safe function:</ptxt>
+<ptxt>If the door control transmitter assembly is in the ignition key cylinder, check that the doors cannot be locked by the lock switch. However, this does not apply when the system is in recognition code registration mode.</ptxt>
+</step2>
+<step2>
+<ptxt>Check the illuminated entry function:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>When the map light and the No. 1 room light door switches are in the door position, and all the doors are locked, pressing the unlock switch causes the interior light illumination to turn on and all the doors to unlock simultaneously.</ptxt>
+</item>
+<item>
+<ptxt>If the doors have not been opened, the interior light turns off after approximately 15 seconds.</ptxt>
+</item>
+</list1>
+</step2>
+<step2>
+<ptxt>Check the door ajar warning function:</ptxt>
+<ptxt>If a door is open or not completely closed, check that the doors cannot be locked by the lock switch and that the security horn assembly sounds for 10 seconds.</ptxt>
+</step2>
+<step2>
+<ptxt>Check the alarm function:</ptxt>
+<ptxt>Check that the vehicle horns and security horn sound, that the hazard warning lights and side turn signal lights flash for 17.5 seconds due to the theft alarm function when the alarm switch is held down for 1.5 seconds or more. Also, check that the horns stops sounding and the lights stop flashing when any switch of the door control transmitter assembly is pressed.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

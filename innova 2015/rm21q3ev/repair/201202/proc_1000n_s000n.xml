@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<section id="1000N_S000N" variety="S000N">
+<ttl id="1000N_S000N_7A80I_T004W" variety="T004W">
+<parts id="J400009"/>
+<para id="RM0000010K4011X" category="G" type-id="8000T" from="201202">
+<subpara id="RM0000010K4011X_01">
+<s-1 id="RM0000010K4011X_01_0001" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010K3017X" category="N" type-id="3000P" from="201202">
+<subpara id="RM0000010K3017X_01" proc-id="RM21Q0EV__00001P200000"/>
+<subpara id="RM0000010K3017X_02">
+<s-1 id="RM0000010K3017X_02_0001" proc-id="RM21Q0EV__00001L000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010K3017X_02_0002" proc-id="RM21Q0EV__00001L100000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM0000010K3017X_02_0008" proc-id="RM21Q0EV__00001P300000">
+<parts id="47910"/>
+</s-1>
+<s-1 id="RM0000010K3017X_02_0003" proc-id="RM21Q0EV__00001L200000">
+<parts id="B400198"/>
+</s-1>
+<s-1 id="RM0000010K3017X_02_0005" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+<ttl id="1000N_S000N_7A80J_T004X" variety="T004X">
+<parts id="B400478"/>
+<para id="RM0000010K801KX" category="A" type-id="80001" from="201202">
+<subpara id="RM0000010K801KX_01">
+<s-1 id="RM0000010K801KX_01_0004" proc-id="RM21Q0EV__00001PF00000">
+<parts id="B002086"/>
+</s-1>
+<s-1 id="RM0000010K801KX_01_0003" proc-id="RM21Q0EV__00001PE00000">
+<parts id="83100"/>
+</s-1>
+<s-1 id="RM0000010K801KX_01_0001" proc-id="RM21Q0EV__00001PC00000">
+<parts id="47264D"/>
+</s-1>
+<s-1 id="RM0000010K801KX_01_0002" proc-id="RM21Q0EV__00001PD00000">
+<parts id="55106"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010K901IX" category="A" type-id="80002" from="201202">
+<subpara id="RM0000010K901IX_01">
+<s-1 id="RM0000010K901IX_01_0001" proc-id="RM21Q0EV__00001PG00000">
+<parts id="47101"/>
+</s-1>
+<s-1 id="RM0000010K901IX_01_0002" proc-id="RM21Q0EV__00001PH00000">
+<parts id="84340"/>
+</s-1>
+<s-1 id="RM0000010K901IX_01_0003" proc-id="RM21Q0EV__00001PI00000">
+<parts id="47121"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010K5016X" category="N" type-id="3000G" from="201202" to="201503">
+<subpara id="RM0000010K5016X_01">
+<s-1 id="RM0000010K5016X_01_0001" proc-id="RM21Q0EV__00001P400000">
+<parts id="B002026"/>
+</s-1>
+<s-1 id="RM0000010K5016X_01_0002" proc-id="RM21Q0EV__00001P500000">
+<parts id="B300375"/>
+</s-1>
+<s-1 id="RM0000010K5016X_01_0003" proc-id="RM21Q0EV__00001P600000">
+<parts id="B400478"/>
+</s-1>
+</subpara>
+</para>
+
+<para id="RM0000010KA01IX" category="A" type-id="8000E" from="201202">
+<subpara id="RM0000010KA01IX_01">
+<s-1 id="RM0000010KA01IX_01_0001" proc-id="RM21Q0EV__00001PJ00000">
+<parts id="47121"/>
+</s-1>
+<s-1 id="RM0000010KA01IX_01_0002" proc-id="RM21Q0EV__00001PK00000">
+<parts id="84340"/>
+</s-1>
+<s-1 id="RM0000010KA01IX_01_0003" proc-id="RM21Q0EV__00001PL00000">
+<parts id="47101"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010K601LX" category="A" type-id="30014" from="201202">
+<subpara id="RM0000010K601LX_01">
+<s-1 id="RM0000010K601LX_01_0001" proc-id="RM21Q0EV__00001P700000">
+<parts id="55106"/>
+</s-1>
+<s-1 id="RM0000010K601LX_01_0002" proc-id="RM21Q0EV__00001P800000">
+<parts id="47264D"/>
+</s-1>
+<s-1 id="RM0000010K601LX_01_0007" proc-id="RM21Q0EV__00001P400000">
+<parts id="B002026"/>
+</s-1>
+<s-1 id="RM0000010K601LX_01_0008" proc-id="RM21Q0EV__00001P500000">
+<parts id="B300375"/>
+</s-1>
+<s-1 id="RM0000010K601LX_01_0009" proc-id="RM21Q0EV__00001P600000">
+<parts id="B400478"/>
+</s-1>
+<s-1 id="RM0000010K601LX_01_0006" proc-id="RM21Q0EV__00001P900000">
+<parts id="83100"/>
+</s-1>
+<s-1 id="RM0000010K601LX_01_0010" proc-id="RM21Q0EV__00001PA00000">
+<parts id="B002087"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+<ttl id="1000N_S000N_7A80O_T0052" variety="T0052">
+<parts id="B400065"/>
+<para id="RM000001L5P00EX" category="A" type-id="80001" from="201202" to="201303">
+<subpara id="RM000001L5P00EX_01">
+<s-1 id="RM000001L5P00EX_01_0001" proc-id="RM21Q0EV__00001RZ00000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001L5P00EX_01_0002" proc-id="RM21Q0EV__00001S000000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM000001L5P00EX_01_0003" proc-id="RM21Q0EV__00001S100000">
+<parts id="47201"/>
+</s-1>
+</subpara>
+</para>
+
+<para id="RM000005459000X" category="A" type-id="80002" from="201202">
+<subpara id="RM000005459000X_01">
+<s-1 id="RM000005459000X_01_0001" proc-id="RM21Q0EV__000053A00000">
+<parts id="47202"/>
+</s-1>
+<s-1 id="RM000005459000X_01_0002" proc-id="RM21Q0EV__000053B00000">
+<parts id="47255"/>
+</s-1>
+<s-1 id="RM000005459000X_01_0003">
+<parts id="47287"/>
+</s-1>
+<s-1 id="RM000005459000X_01_0004" proc-id="RM21Q0EV__000053C00000">
+<parts id="47230"/>
+</s-1>
+<s-1 id="RM000005459000X_01_0005" proc-id="RM21Q0EV__000053D00000">
+<parts id="47299"/>
+</s-1>
+<s-1 id="RM000005459000X_01_0006" proc-id="RM21Q0EV__000053E00000">
+<parts id="04493"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM000001L5N02BX" category="G" type-id="3001K" from="201202">
+<subpara id="RM000001L5N02BX_01">
+<s-1 id="RM000001L5N02BX_01_0001" proc-id="RM21Q0EV__00001RW00000">
+<parts id="B400055"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM00000545A000X" category="A" type-id="8000E" from="201202">
+<subpara id="RM00000545A000X_01">
+<s-1 id="RM00000545A000X_01_0001" proc-id="RM21Q0EV__000053F00000">
+<parts id="04493"/>
+</s-1>
+<s-1 id="RM00000545A000X_01_0002" proc-id="RM21Q0EV__000053G00000">
+<parts id="47299"/>
+</s-1>
+<s-1 id="RM00000545A000X_01_0003" proc-id="RM21Q0EV__000053H00000">
+<parts id="47230"/>
+</s-1>
+<s-1 id="RM00000545A000X_01_0004">
+<parts id="47287"/>
+</s-1>
+<s-1 id="RM00000545A000X_01_0005" proc-id="RM21Q0EV__000053I00000">
+<parts id="47255"/>
+</s-1>
+<s-1 id="RM00000545A000X_01_0006" proc-id="RM21Q0EV__000053J00000">
+<parts id="47202"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM000001L5M00FX" category="A" type-id="30014" from="201202" to="201303">
+<subpara id="RM000001L5M00FX_01">
+<s-1 id="RM000001L5M00FX_01_0002" proc-id="RM21Q0EV__00001RU00000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM000001L5M00FX_01_0003" proc-id="RM21Q0EV__00001RV00000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM000001L5M00FX_01_0010" proc-id="RM21Q0EV__00001L000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001L5M00FX_01_0011" proc-id="RM21Q0EV__00001L100000">
+<parts id="B400065"/>
+</s-1>
+<s-1 id="RM000001L5M00FX_01_0012" proc-id="RM21Q0EV__00001L200000">
+<parts id="B400198"/>
+</s-1>
+<s-1 id="RM000001L5M00FX_01_0015" proc-id="RM21Q0EV__00001A700000">
+<parts id="B330014"/>
+</s-1>
+<s-1 id="RM000001L5M00FX_01_0013" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+<s-1 id="RM000001L5M00FX_01_0009">
+<parts id="J400009"/>
+</s-1>
+</subpara>
+</para>
+
+</ttl>
+<ttl id="1000N_S000N_7A80P_T0053" variety="T0053">
+<parts id="J100102"/>
+<para id="RM000001L5L00CX" category="G" type-id="8000T" from="201202">
+<subpara id="RM000001L5L00CX_01">
+<s-1 id="RM000001L5L00CX_01_0001" proc-id="RM21Q0EV__00001S800000">
+<parts id="44610"/>
+</s-1>
+<s-1 id="RM000001L5L00CX_01_0002" proc-id="RM21Q0EV__00001S900000">
+<parts id="44730"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM000001L5K00GX" category="A" type-id="80001" from="201202" to="201303">
+<subpara id="RM000001L5K00GX_01">
+<s-1 id="RM000001L5K00GX_01_0001" proc-id="RM21Q0EV__00001S600000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001L5K00GX_01_0004" proc-id="RM21Q0EV__00001S000000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM000001L5K00GX_01_0005" proc-id="RM21Q0EV__00001S100000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM000001L5K00GX_01_0003" proc-id="RM21Q0EV__00001S700000">
+<parts id="44610"/>
+</s-1>
+</subpara>
+</para>
+
+<para id="RM000001L5I00GX" category="A" type-id="30014" from="201202" to="201303">
+<subpara id="RM000001L5I00GX_01">
+<s-1 id="RM000001L5I00GX_01_0001" proc-id="RM21Q0EV__00001S300000">
+<parts id="44610"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0013" proc-id="RM21Q0EV__00001RW00000">
+<parts id="B400055"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0014" proc-id="RM21Q0EV__00001RU00000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0015" proc-id="RM21Q0EV__00001RV00000">
+<parts id="47201"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0016" proc-id="RM21Q0EV__00001L000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0017" proc-id="RM21Q0EV__00001L100000">
+<parts id="B400065"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0018" proc-id="RM21Q0EV__00001L200000">
+<parts id="B400198"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0024" proc-id="RM21Q0EV__00001A700000">
+<parts id="B330014"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0019" proc-id="RM21Q0EV__00001P400000">
+<parts id="B002026"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0020" proc-id="RM21Q0EV__00001P500000">
+<parts id="B400478"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0021" proc-id="RM21Q0EV__00001P600000">
+<parts id="B400478"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0022" proc-id="RM21Q0EV__000018M00000">
+<parts id="B860056"/>
+</s-1>
+<s-1 id="RM000001L5I00GX_01_0012">
+<parts id="J400009"/>
+</s-1>
+</subpara>
+</para>
+
+</ttl>
+<ttl id="1000N_S000N_7A80K_T004Y" variety="T004Y">
+<parts id="J400010"/>
+<para id="RM0000010KT00SX" category="A" type-id="80001" from="201202">
+<subpara id="RM0000010KT00SX_01" proc-id="RM21Q0EV__00001PW00000"/>
+<subpara id="RM0000010KT00SX_02">
+<s-1 id="RM0000010KT00SX_02_0001">
+<parts id="B001506"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0002" proc-id="RM21Q0EV__00001PX00000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0003" proc-id="RM21Q0EV__00001PY00000">
+<parts id="47313A"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0004" proc-id="RM21Q0EV__00001PZ00000">
+<parts id="47750"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0005" proc-id="RM21Q0EV__000053N00000">
+<parts id="47769"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0006" proc-id="RM21Q0EV__000053O00000">
+<parts id="47779"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0007" proc-id="RM21Q0EV__000053P00000">
+<parts id="B400298"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0008" proc-id="RM21Q0EV__000053Q00000">
+<parts id="47721B"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0009" proc-id="RM21Q0EV__000053R00000">
+<parts id="47721B"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0010" proc-id="RM21Q0EV__000053S00000">
+<parts id="04465"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0011" proc-id="RM21Q0EV__000053T00000">
+<parts id="04945"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0012" proc-id="RM21Q0EV__000053U00000">
+<parts id="B400434"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0015" proc-id="RM21Q0EV__000053V00000">
+<parts id="B400550"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0013" proc-id="RM21Q0EV__000053W00000">
+<parts id="47722"/>
+</s-1>
+<s-1 id="RM0000010KT00SX_02_0014" proc-id="RM21Q0EV__000053X00000">
+<parts id="43512"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010KU00RX" category="A" type-id="80002" from="201202">
+<subpara id="RM0000010KU00RX_01" proc-id="RM21Q0EV__00001Q000000"/>
+<subpara id="RM0000010KU00RX_02">
+<s-1 id="RM0000010KU00RX_02_0006" proc-id="RM21Q0EV__00001Q500000">
+<parts id="B400040"/>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0007" proc-id="RM21Q0EV__00001Q600000">
+<parts id="47731"/>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0008" proc-id="RM21Q0EV__00001Q700000">
+<parts id="B400042"/>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0011">
+<parts id="31478B"/>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0009" proc-id="RM21Q0EV__00001Q800000">
+<parts id="47547B"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010KR00WX" category="G" type-id="3001K" from="201202">
+<subpara id="RM0000010KR00WX_01">
+<s-1 id="RM0000010KR00WX_01_0001" proc-id="RM21Q0EV__00001PQ00000">
+<parts id="B400044"/>
+</s-1>
+<s-1 id="RM0000010KR00WX_01_0002" proc-id="RM21Q0EV__00001PR00000">
+<parts id="04465"/>
+</s-1>
+<s-1 id="RM0000010KR00WX_01_0003" proc-id="RM21Q0EV__00001PS00000">
+<parts id="B400550"/>
+</s-1>
+<s-1 id="RM0000010KR00WX_01_0004" proc-id="RM21Q0EV__00001PT00000">
+<parts id="43512"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010KV00SX" category="A" type-id="8000E" from="201202">
+<subpara id="RM0000010KV00SX_02" proc-id="RM21Q0EV__00001QK00000"/>
+<subpara id="RM0000010KV00SX_01">
+<s-1 id="RM0000010KV00SX_01_0002" proc-id="RM21Q0EV__00001QB00000">
+<parts id="B400050"/>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0003" proc-id="RM21Q0EV__00001QC00000">
+<parts id="47547B"/>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0011">
+<parts id="31478B"/>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0004" proc-id="RM21Q0EV__00001QD00000">
+<parts id="B400042"/>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0005" proc-id="RM21Q0EV__00001QE00000">
+<parts id="47731"/>
+</s-1>
+<s-1 id="RM0000010KV00SX_01_0006" proc-id="RM21Q0EV__00001QF00000">
+<parts id="B400040"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010KQ013X" category="A" type-id="30014" from="201202">
+<subpara id="RM0000010KQ013X_02" proc-id="RM21Q0EV__00001PP00000"/>
+<subpara id="RM0000010KQ013X_01">
+<s-1 id="RM0000010KQ013X_01_0019" proc-id="RM21Q0EV__000054000000">
+<parts id="43512"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0020" proc-id="RM21Q0EV__000054100000">
+<parts id="47722"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0021" proc-id="RM21Q0EV__000054200000">
+<parts id="B400550"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0022" proc-id="RM21Q0EV__000054300000">
+<parts id="B400434"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0023" proc-id="RM21Q0EV__000054400000">
+<parts id="04945"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0024" proc-id="RM21Q0EV__000054500000">
+<parts id="04465"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0025" proc-id="RM21Q0EV__000054600000">
+<parts id="47721B"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0026" proc-id="RM21Q0EV__000054700000">
+<parts id="47721B"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0027" proc-id="RM21Q0EV__000054800000">
+<parts id="B400298"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0028" proc-id="RM21Q0EV__000054900000">
+<parts id="47769"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0029" proc-id="RM21Q0EV__000054A00000">
+<parts id="47779"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0001" proc-id="RM21Q0EV__00001PM00000">
+<parts id="47750"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0002" proc-id="RM21Q0EV__00001PN00000">
+<parts id="47313A"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0010" proc-id="RM21Q0EV__00001L000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0011" proc-id="RM21Q0EV__00001L100000">
+<parts id="B400065"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0012" proc-id="RM21Q0EV__00001L200000">
+<parts id="B400198"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0013" proc-id="RM21Q0EV__00001A700000">
+<parts id="B330014"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0014" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0008">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010KQ013X_01_0030" proc-id="RM21Q0EV__000051V00000">
+<parts id="B001506"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+<ttl id="1000N_S000N_7A80L_T004Z" variety="T004Z">
+<parts id="F00014L"/>
+<para id="RM000001NUG00SX" category="A" type-id="80001" from="201202">
+<subpara id="RM000001NUG00SX_01" proc-id="RM21Q0EV__00001QP00000"/>
+<subpara id="RM000001NUG00SX_02">
+<s-1 id="RM000001NUG00SX_02_0001">
+<parts id="B001506"/>
+</s-1>
+<s-1 id="RM000001NUG00SX_02_0002" proc-id="RM21Q0EV__00001QQ00000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001NUG00SX_02_0003" proc-id="RM21Q0EV__00001QR00000">
+<parts id="47313A"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM000001NUE00UX" category="A" type-id="30014" from="201202">
+<subpara id="RM000001NUE00UX_01" proc-id="RM21Q0EV__00001QL00000"/>
+<subpara id="RM000001NUE00UX_02">
+<s-1 id="RM000001NUE00UX_02_0001" proc-id="RM21Q0EV__00001QM00000">
+<parts id="47313A"/>
+</s-1>
+<s-1 id="RM000001NUE00UX_02_0002" proc-id="RM21Q0EV__00001L000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001NUE00UX_02_0006" proc-id="RM21Q0EV__00001L100000">
+<parts id="B400065"/>
+</s-1>
+<s-1 id="RM000001NUE00UX_02_0010" proc-id="RM21Q0EV__00001L200000">
+<parts id="B400198"/>
+</s-1>
+<s-1 id="RM000001NUE00UX_02_0014" proc-id="RM21Q0EV__00001A700000">
+<parts id="B330014"/>
+</s-1>
+<s-1 id="RM000001NUE00UX_02_0015" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+<s-1 id="RM000001NUE00UX_02_0019">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001NUE00UX_02_0021" proc-id="RM21Q0EV__000051V00000">
+<parts id="B001506"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+<ttl id="1000N_S000N_7A80M_T0050" variety="T0050">
+<parts id="J400029"/>
+<para id="RM0000010QQ00VX" category="A" type-id="80001" from="201202">
+<subpara id="RM0000010QQ00VX_01" proc-id="RM21Q0EV__00001QZ00000"/>
+<subpara id="RM0000010QQ00VX_02">
+<s-1 id="RM0000010QQ00VX_02_0004" proc-id="RM21Q0EV__00001R200000">
+<parts id="B400188"/>
+</s-1>
+<s-1 id="RM0000010QQ00VX_02_0001">
+<parts id="B400054"/>
+</s-1>
+<s-1 id="RM0000010QQ00VX_02_0002" proc-id="RM21Q0EV__00001R000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010QQ00VX_02_0003" proc-id="RM21Q0EV__00001R100000">
+<parts id="42403"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010QR00VX" category="A" type-id="80002" from="201202">
+<subpara id="RM0000010QR00VX_01" proc-id="RM21Q0EV__00001R300000"/>
+<subpara id="RM0000010QR00VX_02">
+<s-1 id="RM0000010QR00VX_02_0007" proc-id="RM21Q0EV__00001R900000">
+<parts id="B400167"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0008" proc-id="RM21Q0EV__00001RA00000">
+<parts id="B400084"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0009" proc-id="RM21Q0EV__00001RB00000">
+<parts id="B400166"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0010" proc-id="RM21Q0EV__00001RC00000">
+<parts id="B400085"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0001" proc-id="RM21Q0EV__00001R400000">
+<parts id="47644A"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0003" proc-id="RM21Q0EV__00001R500000">
+<parts id="47602"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0004" proc-id="RM21Q0EV__00001R600000">
+<parts id="47570"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0005" proc-id="RM21Q0EV__00001R700000">
+<parts id="47570"/>
+</s-1>
+<s-1 id="RM0000010QR00VX_02_0006" proc-id="RM21Q0EV__00001R800000">
+<parts id="47547R"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010QO00VX" category="G" type-id="3001K" from="201202">
+<subpara id="RM0000010QO00VX_01">
+<s-1 id="RM0000010QO00VX_01_0001" proc-id="RM21Q0EV__00001QU00000">
+<parts id="B400064"/>
+</s-1>
+<s-1 id="RM0000010QO00VX_01_0002" proc-id="RM21Q0EV__00001QV00000">
+<parts id="04495"/>
+</s-1>
+<s-1 id="RM0000010QO00VX_01_0003" proc-id="RM21Q0EV__00001QW00000">
+<parts id="B300150"/>
+</s-1>
+<s-1 id="RM0000010QO00VX_01_0004" proc-id="RM21Q0EV__00001QX00000">
+<parts id="47570"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010QS00VX" category="A" type-id="8000E" from="201202">
+<subpara id="RM0000010QS00VX_01" proc-id="RM21Q0EV__00001RD00000"/>
+<subpara id="RM0000010QS00VX_02">
+<s-1 id="RM0000010QS00VX_02_0001" proc-id="RM21Q0EV__00001RE00000">
+<parts id="47570"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0002" proc-id="RM21Q0EV__00001RF00000">
+<parts id="47547R"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0003" proc-id="RM21Q0EV__00001RG00000">
+<parts id="47570"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0004" proc-id="RM21Q0EV__00001RH00000">
+<parts id="B400067"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0005" proc-id="RM21Q0EV__00001RI00000">
+<parts id="47602"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0007" proc-id="RM21Q0EV__00001RK00000">
+<parts id="47644A"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0006" proc-id="RM21Q0EV__00001RJ00000">
+<parts id="04495"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0019" proc-id="RM21Q0EV__00001RM00000">
+<parts id="B400166"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0020" proc-id="RM21Q0EV__00001RN00000">
+<parts id="B400084"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0021" proc-id="RM21Q0EV__00001RO00000">
+<parts id="B400167"/>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0008" proc-id="RM21Q0EV__00001RL00000">
+<parts id="42403"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010QN00WX" category="A" type-id="30014" from="201202">
+<subpara id="RM0000010QN00WX_01">
+<s-1 id="RM0000010QN00WX_01_0001">
+<parts id="42403"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0011" proc-id="RM21Q0EV__00001L000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0012" proc-id="RM21Q0EV__00001L100000">
+<parts id="B400065"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0013" proc-id="RM21Q0EV__00001L200000">
+<parts id="B400198"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0014" proc-id="RM21Q0EV__00001A700000">
+<parts id="B330014"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0015" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0007">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0030" proc-id="RM21Q0EV__00001IZ00000">
+<parts id="B400054"/>
+</s-1>
+<s-1 id="RM0000010QN00WX_01_0017" proc-id="RM21Q0EV__000056P00000">
+<parts id="B400063"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+<ttl id="1000N_S000N_7A80N_T0051" variety="T0051">
+<parts id="F00014M"/>
+<para id="RM0000010L900TX" category="A" type-id="80001" from="201202">
+<subpara id="RM0000010L900TX_01">
+<s-1 id="RM0000010L900TX_01_0001" proc-id="RM21Q0EV__00001RR00000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010L900TX_01_0002" proc-id="RM21Q0EV__00001RS00000">
+<parts id="47321B"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM0000010L700VX" category="A" type-id="30014" from="201202">
+<subpara id="RM0000010L700VX_01">
+<s-1 id="RM0000010L700VX_01_0001" proc-id="RM21Q0EV__00001RP00000">
+<parts id="47321B"/>
+</s-1>
+<s-1 id="RM0000010L700VX_01_0008" proc-id="RM21Q0EV__00001L000000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM0000010L700VX_01_0009" proc-id="RM21Q0EV__00001L100000">
+<parts id="B400065"/>
+</s-1>
+<s-1 id="RM0000010L700VX_01_0010" proc-id="RM21Q0EV__00001L200000">
+<parts id="B400198"/>
+</s-1>
+<s-1 id="RM0000010L700VX_01_0011" proc-id="RM21Q0EV__00001A700000">
+<parts id="B330014"/>
+</s-1>
+<s-1 id="RM0000010L700VX_01_0012" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+<s-1 id="RM0000010L700VX_01_0007">
+<parts id="J400009"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+<ttl id="1000N_S000N_7A80Q_T0054" variety="T0054">
+<parts id="B400508"/>
+<para id="RM000001HK500MX" category="G" type-id="8000T" from="201202" to="201303">
+<subpara id="RM000001HK500MX_01">
+<s-1 id="RM000001HK500MX_01_0001" proc-id="RM21Q0EV__00001SD00000">
+<parts id="47910"/>
+</s-1>
+<s-1 id="RM000001HK500MX_01_0002" proc-id="RM21Q0EV__00001SF00000">
+<parts id="47910"/>
+</s-1>
+</subpara>
+</para>
+
+<para id="RM000001X4F00GX" category="A" type-id="30019" from="201202">
+<subpara id="RM000001X4F00GX_01">
+<s-1 id="RM000001X4F00GX_01_0001" proc-id="RM21Q0EV__00001SA00000">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0002" proc-id="RM21Q0EV__00001SB00000">
+<parts id="47900"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0003" proc-id="RM21Q0EV__00001SC00000">
+<parts id="47900"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0004" proc-id="RM21Q0EV__00001L000000">
+<parts id="47202"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0005" proc-id="RM21Q0EV__00001L100000">
+<parts id="B001515"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0012" proc-id="RM21Q0EV__00001P300000">
+<parts id="47910"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0006" proc-id="RM21Q0EV__00001L200000">
+<parts id="B001515"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0007" proc-id="RM21Q0EV__00001A700000">
+<parts id="B001515"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0008" proc-id="RM21Q0EV__000018M00000">
+<parts id="F0000HK"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0009">
+<parts id="J400009"/>
+</s-1>
+<s-1 id="RM000001X4F00GX_01_0010" proc-id="RM21Q0EV__00001SD00000">
+<parts id="47910"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-db>

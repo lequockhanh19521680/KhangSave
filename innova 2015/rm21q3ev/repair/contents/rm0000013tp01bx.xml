@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM0000013TP01BX" category="J" type-id="300WI" name-id="AT3YZ-01" from="201202" to="201303">
+<dtccode/>
+<dtcname>Park / Neutral Position Switch Circuit</dtcname>
+<subpara id="RM0000013TP01BX_01" type-id="60" category="03" proc-id="RM21Q0EV__000016X00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The Park/Neutral Position (PNP) switch detects the shift lever position and sends signals to the ECM.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000013TP01BX_02" type-id="32" category="03" proc-id="RM21Q0EV__000016Y00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C169725E06" width="7.106578999in" height="6.791605969in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000013TP01BX_03" type-id="51" category="05" proc-id="RM21Q0EV__000016Z00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Using the Data List of the intelligent tester allows switch, sensor, actuator and other item values to be read without removing any parts. Reading the Data List early in troubleshooting is one way to save time.</ptxt>
+</atten4>
+<list1 type="ordered">
+<item>
+<ptxt>Warm up the engine.</ptxt>
+</item>
+<item>
+<ptxt>Turn the ignition switch off.</ptxt>
+</item>
+<item>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</item>
+<item>
+<ptxt>Turn the ignition switch to ON and push the tester main switch on.</ptxt>
+</item>
+<item>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List.</ptxt>
+</item>
+<item>
+<ptxt>Follow the instructions on the tester and read the Data List.</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="1.77in"/>
+<colspec colname="COL2" align="left" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Neutral Position SW Signal</ptxt>
+</entry>
+<entry>
+<ptxt>PNP switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<ptxt>In P or N: ON</ptxt>
+<ptxt>Not in P or N: OFF</ptxt>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW Status (R Range)</ptxt>
+</entry>
+<entry>
+<ptxt>PNP switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<ptxt>In R: ON</ptxt>
+<ptxt>Not in R: OFF</ptxt>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW Status (D or 3 Range)</ptxt>
+</entry>
+<entry>
+<ptxt>PNP switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<ptxt>In D or 3: ON</ptxt>
+<ptxt>Not in D or 3: OFF</ptxt>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW Status (2 Range)</ptxt>
+</entry>
+<entry>
+<ptxt>PNP switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<ptxt>In 2: ON</ptxt>
+<ptxt>Not in 2: OFF</ptxt>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Shift SW status (L Range)</ptxt>
+</entry>
+<entry>
+<ptxt>PNP switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Shift lever is:</ptxt>
+<ptxt>In L: ON</ptxt>
+<ptxt>Not in L: OFF</ptxt>
+</entry>
+<entry>
+<ptxt>When the shift lever position displayed on the intelligent tester differs from the actual position, the adjustment of the PNP switch or shift cable may be incorrect.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>In the table above, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM0000013TP01BX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000013TP01BX_04_0001" proc-id="RM21Q0EV__000017000000">
+<testtitle>INSPECT PARK/NEUTRAL POSITION SWITCH</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the N1 park/neutral position switch connector.</ptxt>
+<figure>
+<graphic graphicname="C146745E17" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the park/neutral position switch when the shift lever is moved to each position.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="1.39526716666667in"/>
+<colspec colnum="2" colname="c2" colwidth="1.39526716666667in"/>
+<colspec colnum="3" colname="c3" colwidth="1.39526716666667in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Shift Lever Position</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4 (B) - 5 (L)</ptxt>
+</entry>
+<entry>
+<ptxt>P or N</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>4 (B) - 5 (L)</ptxt>
+</entry>
+<entry>
+<ptxt>Not in P or N</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry>
+<ptxt>R</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 (RL) - 2 (RB)</ptxt>
+</entry>
+<entry>
+<ptxt>Not in R</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (RB) - 7 (DL)</ptxt>
+</entry>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (RB) - 7 (DL)</ptxt>
+</entry>
+<entry>
+<ptxt>Not in D</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (RB) - 3 (2L)</ptxt>
+</entry>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (RB) - 3 (2L)</ptxt>
+</entry>
+<entry>
+<ptxt>Not in 2</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (RB) - 8 (LL)</ptxt>
+</entry>
+<entry>
+<ptxt>L</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2 (RB) - 8 (LL)</ptxt>
+</entry>
+<entry>
+<ptxt>Not in L</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TP01BX_04_0002" fin="false">OK</down>
+<right ref="RM0000013TP01BX_04_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TP01BX_04_0002" proc-id="RM21Q0EV__000017100000">
+<testtitle>INSPECT SHIFT LOCK CONTROL ECU</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the S10 ECU connector.</ptxt>
+<figure>
+<graphic graphicname="C170575E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the ECU when the shift lever is moved to each position.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="1.39526716666667in"/>
+<colspec colnum="2" colname="c2" colwidth="1.39526716666667in"/>
+<colspec colnum="3" colname="c3" colwidth="1.39526716666667in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Shift Lever Position</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>9 (NSSD) - 3 (AT3)</ptxt>
+</entry>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>9 (NSSD) - 3 (AT3)</ptxt>
+</entry>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TP01BX_04_0003" fin="false">OK</down>
+<right ref="RM0000013TP01BX_04_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TP01BX_04_0003" proc-id="RM21Q0EV__000017200000">
+<testtitle>CHECK WIRE HARNESS (ECM - BATTERY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</test1>
+<figure>
+<graphic graphicname="C192331E05" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Measure the voltage of the ECM connectors.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3">
+<colspec colnum="1" colname="c1" colwidth="1.3952669in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952677in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Shift Lever Position</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E10-11 (R) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>R</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V*</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-11 (R) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Not in R</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-19 (3) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-19 (3) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Not in 3</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-10 (2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-10 (2) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Not in 2</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-9 (L) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>L</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-9 (L) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Not in L</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>*: The voltage will drop slightly due to the illumination of the back-up light.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TP01BX_04_0007" fin="true">OK</down>
+<right ref="RM0000013TP01BX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TP01BX_04_0004">
+<testtitle>REPLACE PARK/NEUTRAL POSITION SWITCH</testtitle>
+</testgrp>
+<testgrp id="RM0000013TP01BX_04_0005">
+<testtitle>REPLACE SHIFT LOCK CONTROL ECU</testtitle>
+</testgrp>
+<testgrp id="RM0000013TP01BX_04_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000013TP01BX_04_0007">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

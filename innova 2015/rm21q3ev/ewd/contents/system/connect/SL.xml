@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="conn" code="R6">
+		<pin no="6">
+			<line id="1" color="W-B">
+				<connector type="gp" code="BJ">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R6">
+		<pin no="3">
+			<line id="2" color="G-W">
+				<connector type="conn" code="J36" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J35" subcode="A">
+		<pin no="7">
+			<line id="3" color="G-W">
+				<connector type="jbc" code="2K">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2M">
+		<pin no="5">
+			<line id="4" color="G-W">
+				<connector type="conn" code="S13">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S13">
+		<pin no="2">
+			<line id="5" color="G-B">
+				<connector type="jbc" code="2F">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="BJ">
+		<pin>
+			<line id="6" color="W-B">
+				<connector type="conn" code="R7">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="R7">
+		<pin no="3">
+			<line id="7" color="G-W">
+				<connector type="conn" code="J36" subcode="B">
+					<pin no="11"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J35" subcode="A">
+		<pin no="8">
+			<line id="8" color="G-W" spec="w/ Center Stop Lamp">
+				<connector type="w2w" code="BD2" sex="male">
+					<pin no="1" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J35" subcode="A">
+		<pin no="8">
+			<line id="8" color="G-W" spec="w/ Center Stop Lamp">
+				<connector type="w2w" code="BD4" sex="male">
+					<pin no="6" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="BK">
+		<pin>
+			<line id="9" color="W-B" spec="w/ Center Stop Lamp">
+				<connector type="conn" code="C15">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C15">
+		<pin no="1">
+			<line id="10" color="G-W" spec="w/ Center Stop Lamp">
+				<connector type="w2w" code="BD2" sex="female">
+					<pin no="1" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C15">
+		<pin no="1">
+			<line id="10" color="G-W" spec="w/ Center Stop Lamp">
+				<connector type="w2w" code="BD4" sex="female">
+					<pin no="6" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

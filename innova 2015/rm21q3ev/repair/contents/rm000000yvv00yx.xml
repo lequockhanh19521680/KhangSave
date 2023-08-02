@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YVV00YX" category="T" type-id="3001H" name-id="RS0G8-06" from="201202" to="201303">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000000YVV00YX_z0" proc-id="RM21Q0EV__000020R00000">
+<content5>
+<table pgwide="1" frame="all" colsep="1" rowsep="1">
+<title/>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" align="left" valign="middle">
+<ptxt>SRS warning light remains on (When ignition switch is ON, SRS warning light sometimes turns on after approximately 6 seconds)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>SRS warning light circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref label="XX-XX" href="RM000000YXP01HX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" align="left" valign="middle">
+<ptxt>SRS warning light remains on (SRS warning light remains illuminated even when DTC is not output)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>SRS warning light circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref label="XX-XX" href="RM000000YXP01HX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" align="left" valign="middle">
+<ptxt>SRS warning light does not come on (When ignition switch is ON, SRS warning light does not illuminate)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>SRS warning light circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref label="XX-XX" href="RM000000YXM01GX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" align="left" valign="middle">
+<ptxt>TC and CG terminal circuit (SRS warning light is blinking but pattern is not DTC or normal system code)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>TC terminal circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>
+<xref label="XX-XX" href="RM000000YXN01FX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

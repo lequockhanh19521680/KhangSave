@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM000003ODM005X" category="J" type-id="301CF" name-id="ME4K2-02" from="201303" to="201403">
+<dtccode/>
+<dtcname>Front Passenger Side Seat Belt Warning Light Malfunction</dtcname>
+<subpara id="RM000003ODM005X_01" type-id="32" category="03" proc-id="RM21Q0EV__00002H000001">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E171439E20" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000003ODM005X_02" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000003ODM005X_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000003ODM005X_03_0001" proc-id="RM21Q0EV__00002H100001">
+<testtitle>INSPECT FUSE (ECU-IG&amp;GAUGE, ACC, DCC, DOME)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the ECU-IG&amp;GAUGE and ACC fuses from the driver side junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Remove the DCC and DOME fuses from the engine room relay block, junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>ECU-IG&amp;GAUGE fuse</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ACC fuse</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DCC fuse</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DOME fuse</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003ODM005X_03_0002" fin="false">OK</down>
+<right ref="RM000003ODM005X_03_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0002" proc-id="RM21Q0EV__00002H200001">
+<testtitle>CHECK HARNESS AND CONNECTOR (ACCESSORY METER ASSEMBLY - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A18 accessory meter connector.</ptxt>
+<figure>
+<graphic graphicname="E169496E20" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A18-12 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-12 (IG) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-13 (ACC) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ACC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-13 (ACC) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A18-14 (+B) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A18-1 (GND) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003ODM005X_03_0003" fin="false">OK</down>
+<right ref="RM000003ODM005X_03_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0003" proc-id="RM21Q0EV__00002H300001">
+<testtitle>INSPECT FRONT SEAT INNER BELT ASSEMBLY RH (BUCKLE SWITCH)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the F14 belt connector.</ptxt>
+<figure>
+<graphic graphicname="E169497E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Seat belt is unfastened (ON) and more than 147 N (15 kgf, 34 lbf) of force is applied to occupant detection sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 100 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Seat belt is fastened (OFF)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003ODM005X_03_0004" fin="false">OK</down>
+<right ref="RM000003ODM005X_03_0006" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0004" proc-id="RM21Q0EV__00002H400001">
+<testtitle>CHECK HARNESS AND CONNECTOR (FRONT SEAT INNER BELT RH - BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the F14 belt connector.</ptxt>
+<figure>
+<graphic graphicname="E169495E09" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>F14-2 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003ODM005X_03_0005" fin="false">OK</down>
+<right ref="RM000003ODM005X_03_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0005" proc-id="RM21Q0EV__00002H500001">
+<testtitle>CHECK HARNESS AND CONNECTOR (FRONT SEAT INNER BELT RH - ACCESSORY METER ASSEMBLY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the F14 belt connector.</ptxt>
+<figure>
+<graphic graphicname="E169495E09" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the A18 accessory meter connector.</ptxt>
+<figure>
+<graphic graphicname="E169496E21" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>F14-1 - A18-8 (PBEW)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>F14-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003ODM005X_03_0009" fin="true">OK</down>
+<right ref="RM000003ODM005X_03_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0006" proc-id="RM21Q0EV__00002H600001">
+<testtitle>INSPECT FRONT SEAT INNER BELT ASSEMBLY RH (OCCUPANT DETECTION SENSOR)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the occupant detection sensor connector.</ptxt>
+<figure>
+<graphic graphicname="E169498E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>More than 147 N (15 kgf, 34 lbf) of force applied to occupant detection sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 100 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Seat belt is fastened (OFF)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003ODM005X_03_0010" fin="true">OK</down>
+<right ref="RM000003ODM005X_03_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0007">
+<testtitle>REPLACE FUSE</testtitle>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0008">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0009">
+<testtitle>REPLACE ACCESSORY METER ASSEMBLY<xref label="Seep01" href="RM000004S6B006X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0010">
+<testtitle>REPLACE FRONT SEAT INNER BELT ASSEMBLY RH<xref label="Seep01" href="RM00000122H07UX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000003ODM005X_03_0011">
+<testtitle>REPLACE FRONT SEAT CUSHION PAD RH</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

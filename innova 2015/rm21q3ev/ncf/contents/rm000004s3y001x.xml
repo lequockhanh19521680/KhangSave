@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="V1">
+<name>General</name>
+<section id="12001_S0001" variety="S0001">
+<name>INTRODUCTION</name>
+<ttl id="12001_S0001_7AJVJ_T000W" variety="T000W">
+<name>FEATURES</name>
+<para id="RM000004S3Y001X" category="F" type-id="80490" name-id="IN0WP-02" from="201202">
+<name>MODEL CODE AND LINE-UP</name>
+<subpara id="RM000004S3Y001X_z0" proc-id="NM21Q0EV__000002L00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>MODEL CODE</ptxt>
+<figure>
+<graphic graphicname="V101504" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="0.57in"/>
+<colspec colname="COLSPEC1" colwidth="1.77in"/>
+<colspec colname="COLSPEC0" colwidth="4.74in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BASIC MODEL CODE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>TGN40: With 1TR-FE Engine</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>STEERING WHEEL POSITION</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L: Left-hand Drive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>BODY TYPE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>G: Mini-van</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>NUMBER OF DOORS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>K: 5-door</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>5</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>GEAR SHIFT TYPE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>M: 5-speed Manual, Floor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>P: 4-speed Automatic, Floor</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle" align="center">
+<ptxt>6</ptxt>
+</entry>
+<entry morerows="2" valign="middle">
+<ptxt>GRADE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R: Standard</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>D: Deluxe</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N: GL</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ENGINE SPECIFICATION</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>K: DOHC and SFI</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DESTINATION</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>U: Vietnam</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>MODEL LINE-UP</ptxt>
+<table pgwide="1">
+<tgroup cols="7">
+<colspec colname="COLSPEC1" colwidth="0.86in"/>
+<colspec colname="COL3" colwidth="0.86in"/>
+<colspec colname="COLSPEC2" colwidth="0.81in"/>
+<colspec colname="COL5" colwidth="0.81in"/>
+<colspec colname="COL6" colwidth="0.91in"/>
+<colspec colname="COL7" colwidth="1.41in"/>
+<colspec colname="COLSPEC0" colwidth="1.42in"/>
+<thead>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>ENGINE</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>DRIVE TYPE</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>BODY TYPE</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>SEATING CAPACITY</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>GRADE</ptxt>
+</entry>
+<entry namest="COL7" nameend="COLSPEC0" valign="middle" align="center">
+<ptxt>TRANSMISSION</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>G58</ptxt>
+<ptxt>5-speed Manual</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A45DE</ptxt>
+<ptxt>4-speed Automatic</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="3" valign="middle" align="center">
+<ptxt>1TR-FE</ptxt>
+</entry>
+<entry morerows="3" valign="middle" align="center">
+<ptxt>2WD</ptxt>
+</entry>
+<entry morerows="3" valign="middle" align="center">
+<ptxt>Mini-van</ptxt>
+</entry>
+<entry morerows="2" valign="middle" align="center">
+<ptxt>8</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Standard</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>TGN40L-GKMRKU</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Deluxe</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>TGN40L-GKMDKU</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>TGN40L-GKPDKU</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>7*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>GL</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>TGN40L-GKPNKU</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with separate type rear No. 1 seat for 2-passenger</ptxt>
+</item>
+</list1>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

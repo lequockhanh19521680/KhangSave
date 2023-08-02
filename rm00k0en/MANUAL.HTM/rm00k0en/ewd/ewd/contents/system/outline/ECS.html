@@ -1,0 +1,40 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="../../../styles/system/outline.css">
+</head>
+<body>
+<h3>System Outline</h3>
+<hr>
+<p></p>
+<p>This system utilizes an engine ECU and maintains overall control of the engine, transmission and so on. An outline of the engine control is explained here.</p>
+<p><b>1.Input Signals</b></p>
+<p>(1)Water temp. signal circuit</p>
+<p>The water temp. sensor detects the engine coolant temp. and has a built­in thermistor with a resistance which varies according to the engine coolant temp. thus the engine coolant temp. is input in the form of a control signal into TERMINAL THW of the engine ECU.</p>
+<p>(2)Intake air temp. signal circuit</p>
+<p>The intake air temp. sensor is installed in the air flow meter and detects the intake air temp., which is input as a control signal into TERMINAL THA of the engine ECU.</p>
+<p>(3)RPM signal circuit</p>
+<p>Camshaft position and crankshaft position are detected by the camshaft position sensor and crankshaft position sensor. Camshaft position is input as a control signal to TERMINAL G2+ of the engine ECU, and engine RPM is input into TERMINAL NE+.</p>
+<p>(4)Throttle signal circuit</p>
+<p>The throttle body assembly detects the throttle valve opening angle, which is input as a control signal into TERMINALS VTA1 and VTA2 of the engine ECU.</p>
+<p>(5)Vehicle speed signal circuit</p>
+<p>The speed sensor detects the vehicle speed and inputs a control signal to TERMINAL SPD of the engine ECU via the combination meter.</p>
+<p>(6)Battery signal circuit</p>
+<p>Voltage is constantly applied to TERMINAL BATT of the engine ECU. When the ignition SW is turned on, the voltage for engine ECU operation is applied via the MAIN relay to TERMINAL +B of the engine ECU.</p>
+<p>(7)Starter signal circuit</p>
+<p>To confirm whether the engine is cranking, the voltage applied to the starter motor during cranking is detected and the signal is input into TERMINAL STA of the engine ECU as a control signal.</p>
+<p>(8)Engine knock signal circuit</p>
+<p>Engine knocking is detected by knock control sensor (Bank 1) and the signal is input into TERMINAL KNK1 of the engine ECU as a control signal.</p>
+<p><b>2.Control System</b></p>
+<p>*EFI system</p>
+<p>The EFI system monitors the engine condition through the signals, which are input from each sensor to the engine ECU. The best fuel injection volume is decided based on this data and the program memorized by the engine ECU, and the control signal is output to TERMINALS #10, #20, #30 and #40 of the engine ECU to operate the fuel injector (Inject the fuel). The EFI system produces control of fuel injection operation by the engine ECU in response to the driving conditions.</p>
+<p>*ESA system</p>
+<p>The ESA system monitors the engine condition through the signals, which are input to the engine ECU from each sensor. The best ignition timing is detected according to this data and the memorized data in the engine ECU, and the control signal is output to TERMINALS IGT1, IGT2, IGT3 and IGT4. This signal controls the ignition coil to provide the best ignition timing for the driving conditions.</p>
+<p>*Fuel pump control system</p>
+<p>The engine ECU operation outputs to TERMINAL FC and controls the C/OPN relay. Thus controls the fuel pump drive speed in response to conditions.</p>
+<p><b>3.Diagnosis System</b></p>
+<p>With the diagnosis system, when there is a malfunctioning in the engine ECU signal system, the malfunction system is recorded in the memory. The malfunctioning system can be found by reading the display (Code) of the check engine warning light.</p>
+<p><b>4.Fail­Safe System</b></p>
+<p>When a malfunction occurs in any system, if there is a possibility of engine trouble being caused by continued control based on the signals from that system, the fail­safe system either controls the system by using data (Standard values) recorded in the engine ECU memory or else stops the engine.</p>
+</body>
+</html>

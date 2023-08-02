@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YK_T002Y" variety="T002Y">
+<name>FUEL TANK CAP</name>
+<para id="RM000001TNJ005X" category="G" type-id="3001K" name-id="EC0GL-05" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001TNJ005X_01" type-id="01" category="01">
+<s-1 id="RM000001TNJ005X_01_0001" proc-id="RM21Q0EV__00000Q200000">
+<ptxt>INSPECT FUEL TANK CAP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A223509E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Visually check that the cap and gasket are not deformed or damaged.</ptxt>
+<ptxt>If the result is not as specified, replace the cap assembly or gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000E_S000B" variety="S000B">
+<name>1TR-FE IGNITION</name>
+<ttl id="1000E_S000B_7ARJQ_T008Z" variety="T008Z">
+<name>IGNITION COIL AND SPARK PLUG</name>
+<para id="RM000000SK501KX" category="A" type-id="30014" name-id="ESUND-13" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000SK501KX_01" type-id="01" category="01">
+<s-1 id="RM000000SK501KX_01_0016" proc-id="RM21Q0EV__00003IE00000">
+<ptxt>INSTALL SPARK PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 16 mm spark plug wrench, install the 4 spark plugs.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000SK501KX_01_0001" proc-id="RM21Q0EV__00003ID00000">
+<ptxt>INSTALL IGNITION COIL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 4 ignition coils with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the 4 ignition coil connectors.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000SK501KX_01_0017" proc-id="RM21Q0EV__00000NY00000">
+<ptxt>INSTALL INTAKE AIR CONNECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the intake air connector with the 2 bolts, and tighten the 2 hose clamps.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+<ptxt> for intake air connector</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+<ptxt> for hose clamp</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

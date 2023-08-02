@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7A83K_T007Y" variety="T007Y">
+<name>REAR NO. 2 SEAT ASSEMBLY</name>
+<para id="RM0000023OC003X" category="A" type-id="8000E" name-id="SE0PS-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000023OC003X_01" type-id="01" category="01">
+<s-1 id="RM0000023OC003X_01_0001" proc-id="RM21Q0EV__00002UG00000">
+<ptxt>INSTALL NO. 2 FOLD SEAT STOPPER BAND ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the stopper band with the screw.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0002" proc-id="RM21Q0EV__00002UH00000">
+<ptxt>INSTALL NO. 3 SEAT OUTER REAR LEG SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the leg with the 2 plates and bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0003" proc-id="RM21Q0EV__00002UI00000">
+<ptxt>INSTALL NO. 3 SEAT OUTER FRONT LEG SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the leg with the 2 plates and bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0004" proc-id="RM21Q0EV__00002UJ00000">
+<ptxt>INSTALL NO. 2 SEAT LEG PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the plate with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0005" proc-id="RM21Q0EV__00002UK00000">
+<ptxt>INSTALL REAR NO. 2 SEAT CUSHION COVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B137036E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Using hog ring pliers, install the seat cushion cover to the seat cushion pad with 6 new hog rings.</ptxt>
+</s2>
+<s2>
+<ptxt>Using hog ring pliers, install the seat cushion cover (with pad) to the seat cushion frame with 8 new hog rings.</ptxt>
+<figure>
+<graphic graphicname="B119457E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Close the zippers and attach the 2 hooks.</ptxt>
+<figure>
+<graphic graphicname="B119456E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0006" proc-id="RM21Q0EV__00002UL00000">
+<ptxt>INSTALL NO. 2 SEAT LEG SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the leg with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, install the No. 3 seat cushion spring.</ptxt>
+<figure>
+<graphic graphicname="B119459" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0007" proc-id="RM21Q0EV__00002UM00000">
+<ptxt>INSTALL REAR NO. 2 SEAT LAP TYPE CENTER BELT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pass the belt through the hole in the seat cushion cover (with pad).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0008" proc-id="RM21Q0EV__00002UN00000">
+<ptxt>INSTALL REAR NO. 2 SEAT INNER BELT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pass the belt through the hole in the seat cushion cover (with pad). Install the inner belt and lap type belt to the No. 2 seat cushion frame with the nut.</ptxt>
+<figure>
+<graphic graphicname="B086024E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0009" proc-id="RM21Q0EV__00002UO00000">
+<ptxt>INSTALL NO. 3 SEAT CUSHION HINGE COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the hinge cover with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0010" proc-id="RM21Q0EV__00002UP00000">
+<ptxt>INSTALL REAR NO. 1 SEAT CUSHION HINGE COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the hinge cover with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0011" proc-id="RM21Q0EV__00002UQ00000">
+<ptxt>INSTALL REAR SEAT LEG COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Pass the release band through the hole in the leg cover. Then install the lock cover with the 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Fold the release band as shown in the illustration. Then install the 2 lock release buttons.</ptxt>
+<figure>
+<graphic graphicname="B119458E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0012" proc-id="RM21Q0EV__00002UR00000">
+<ptxt>INSTALL REAR SEAT HINGE COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the hinge cover.</ptxt>
+<figure>
+<graphic graphicname="B086029E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the 2 clips and 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0013" proc-id="RM21Q0EV__00002US00000">
+<ptxt>INSTALL REAR NO. 2 SEATBACK COVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B137117E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to damage the cover.</ptxt>
+</item>
+<item>
+<ptxt>When installing the hog rings, avoid wrinkling the cover.</ptxt>
+</item>
+</list1>
+</atten3>
+<s2>
+<ptxt>Using hog ring pliers, install the seatback cover to the seatback pad with 3 new hog rings.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the seatback cover (with pad) to the seatback frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 4 claws to install the 2 headrest supports.</ptxt>
+<figure>
+<graphic graphicname="B085727E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Attach the hooks and close the fastening tape.</ptxt>
+<figure>
+<graphic graphicname="B085722E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0014" proc-id="RM21Q0EV__00002UT00000">
+<ptxt>INSTALL REAR NO. 2 SEATBACK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for RH Side:</ptxt>
+<figure>
+<graphic graphicname="B086030E04" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<ptxt>Install the seatback with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>for LH Side:</ptxt>
+<ptxt>Install the seatback, spacer and plate with the bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0017" proc-id="RM21Q0EV__00002UW00000">
+<ptxt>INSTALL REAR SEAT CUSHION HINGE LOWER COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the lower cover with the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B085724E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0015" proc-id="RM21Q0EV__00002UU00000">
+<ptxt>INSTALL REAR NO. 2 SEAT RECLINING COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the reclining cover with the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B085723E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0016" proc-id="RM21Q0EV__00002UV00000">
+<ptxt>INSTALL NO. 1 RECLINING ADJUSTER RELEASE HANDLE RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the release handle with the screw.</ptxt>
+<figure>
+<graphic graphicname="B085725E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OC003X_01_0018">
+<ptxt>INSTALL REAR NO. 2 SEAT HEADREST ASSEMBLY</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

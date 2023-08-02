@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM0000012A80GZX" category="T" type-id="3001H" name-id="AV00FS-408" from="201403">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM0000012A80GZX_z0" proc-id="RM21Q0EV__00005GV00000">
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the table below to help determine the cause of problem symptoms. If multiple suspected areas are listed, the potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</item>
+<item>
+<ptxt>Inspect the fuses and relays related to this system before inspecting the suspected areas below.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Audio Function</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle">
+<ptxt>Pressing power switch does not turn on system</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Pressing Power Switch does not Turn on System"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000NL80ILX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Radio Receiver Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CI0M0X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle">
+<ptxt>No sound can be heard from speakers (audio is mute)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Radio Receiver Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CI0M0X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "No Sound can be Heard from Speakers"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000NLC0JYX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Speaker Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001XJI0BFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle">
+<ptxt>Sound quality is bad in all modes (volume is too low)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Poor Sound Quality in All Modes (Low Volume)"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CQ0JSX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Speaker Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001XJI0BFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle">
+<ptxt>ASL does not function</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Speed Signal Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002UD70CKX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle">
+<ptxt>External device sound cannot be heard or sound quality is bad (stereo jack is used)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Radio Receiver Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CI0M0X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Sound Signal Circuit between Radio Receiver and Stereo Jack Adapter"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001ZYU0OFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace No. 1 stereo jack adapter assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003AWF03ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle">
+<ptxt>Abnormal noise occurs</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Noise Occurs"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000NL50ZDX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle">
+<ptxt>Radio broadcast cannot be received or poor reception</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Radio Broadcast cannot be Received (Bad Reception)"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102W06OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle">
+<ptxt>CD cannot be inserted/played or CD is ejected right after insertion</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Radio Receiver Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CI0M0X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "CD cannot be Inserted/ Played or CD is Ejected Right After Insertion"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000NL60P9X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle">
+<ptxt>CD cannot be ejected</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Radio Receiver Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CI0M0X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "CD cannot be Ejected"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000NL70P9X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle">
+<ptxt>Sound quality is bad only when CD is played (volume is too low)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Sound Quality is Bad Only when CD is Played (Volume is Too Low)"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CB0T4X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle">
+<ptxt>CD sound skips</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "CD Sound Skips"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000NLH0PCX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>Turning on light control switch does not activate nighttime illumination of radio receiver</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Illumination for Panel Switch does not Come on with Tail Switch ON"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012FK06FX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Illumination Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CG0VDX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>USB Audio System Function</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="3" colsep="1" valign="middle">
+<ptxt>USB audio system sound cannot be heard or sound quality is bad (Stereo jack is used)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Radio Receiver Power Source Circuit"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000012CI0M0X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Proceed to "Sound Signal Circuit between Radio Receiver and Stereo Jack Adapter"</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001ZYU0OFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Replace No. 1 stereo jack adapter assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003AWF03ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>USB device or "iPod" is not recognized</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "USB Audio System Recognition/Play Error"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003YYX0S2X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Sound Signal Circuit between Radio Receiver and Stereo Jack Adapter"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001ZYU0OFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Replace No. 1 stereo jack adapter assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003AWF03ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>Track information, such as track, artist and album names, is not displayed</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "USB Audio System Recognition/Play Error"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003YYX0S2X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Sound Signal Circuit between Radio Receiver and Stereo Jack Adapter"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001ZYU0OFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Replace No. 1 stereo jack adapter assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003AWF03ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>USB device or "iPod" is recognized but cannot play, or can play but not in sorted order</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "USB Audio System Recognition/Play Error"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003YYX0S2X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Proceed to "Sound Signal Circuit between Radio Receiver and Stereo Jack Adapter"</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001ZYU0OFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Replace No. 1 stereo jack adapter assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001ZYU0OFX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1" valign="middle">
+<ptxt>Replace radio receiver assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003OG9012X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

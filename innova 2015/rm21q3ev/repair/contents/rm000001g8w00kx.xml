@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A809_T004N" variety="T004N">
+<name>REAR LATERAL CONTROL ROD</name>
+<para id="RM000001G8W00KX" category="A" type-id="30014" name-id="SP3EP-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001G8W00KX_01" type-id="01" category="01">
+<s-1 id="RM000001G8W00KX_01_0001" proc-id="RM21Q0EV__00001JT00000">
+<ptxt>INSTALL REAR LATERAL CONTROL ROD ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install 2 new bushes to the control rod.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the control rod and 2 retainers to the axle housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the lateral control rod with the bolt and 2 nuts.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G8W00KX_01_0004" proc-id="RM21Q0EV__000051S00000">
+<ptxt>STABILIZE SUSPENSION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the vehicle several times to stabilize the suspension.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G8W00KX_01_0003" proc-id="RM21Q0EV__00001JU00000">
+<ptxt>TIGHTEN REAR LATERAL CONTROL ROD ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118725E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Tighten the 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>96</t-value1>
+<t-value2>979</t-value2>
+<t-value4>71</t-value4>
+<ptxt>for nut B</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>100</t-value1>
+<t-value2>1,020</t-value2>
+<t-value4>74</t-value4>
+<ptxt>for nut A</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>While fixing the bolt labeled C in place, tighten the nut.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

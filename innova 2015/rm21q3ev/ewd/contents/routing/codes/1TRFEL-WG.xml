@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="routing">
+	<Code id="EB1" type="w2w" subcode="">
+		<refs type="system" code="SYS031"/></Code>
+	<Code id="ED" type="gp" subcode="">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS018"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="EC" type="gp" subcode="">
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS032"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="EA1" type="w2w" subcode="">
+		<refs type="system" code="SYS030"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS033"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="EA2" type="w2w" subcode="">
+		<refs type="system" code="SYS033"/></Code>
+	<Code id="EB" type="gp" subcode="">
+		<refs type="system" code="SYS009"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="EA" type="gp" subcode="">
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS009"/>
+		<refs type="system" code="SYS010"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="GP"/></Code>
+</CodeList>

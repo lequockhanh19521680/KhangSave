@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A818_T005M" variety="T005M">
+<name>AIR CONDITIONING SWITCH (for Manual Air Conditioning System)</name>
+<para id="RM0000012K9016X" category="A" type-id="30014" name-id="ACFUG-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000012K9016X_01" type-id="01" category="01">
+<s-1 id="RM0000012K9016X_01_0022" proc-id="RM21Q0EV__00004F300000">
+<ptxt>INSTALL COOLER SWITCH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to install the cooler switch.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012K9016X_01_0020" proc-id="RM21Q0EV__00003AO00000">
+<ptxt>INSTALL CENTER INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 4 claws to connect the air conditioning control.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012K9016X_01_0021" proc-id="RM21Q0EV__00003AS00000">
+<ptxt>INSTALL CENTER LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws and 2 clips to install the center lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

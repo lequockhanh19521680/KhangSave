@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002Y_S0019" variety="S0019">
+<name>INTERIOR</name>
+<ttl id="1002Y_S0019_7ARDR_T008W" variety="T008W">
+<name>FRONT CONSOLE BOX</name>
+<para id="RM000004R7U00HX" category="A" type-id="8000E" name-id="IR1EQ-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000004R7U00HX_02" type-id="01" category="01">
+<s-1 id="RM000004R7U00HX_02_0005" proc-id="RM21Q0EV__00003GM00000">
+<ptxt>INSTALL REAR NO. 2 CONSOLE BOX (w/o Cup Holder)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws and 2 guides to install the rear No. 2 console box.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004R7U00HX_02_0003" proc-id="RM21Q0EV__00003GK00000">
+<ptxt>INSTALL REAR CONSOLE END PANEL SUB-ASSEMBLY (w/ Cup Holder)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear console end panel with the 4 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004R7U00HX_02_0004" proc-id="RM21Q0EV__00003GL00000">
+<ptxt>INSTALL CONSOLE COMPARTMENT DOOR SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the console compartment door with the 2 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

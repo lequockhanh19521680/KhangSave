@@ -1,0 +1,2391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T1">
+<name>INTRODUCTION</name>
+<section id="10002_S0001" variety="S0001">
+<name>INTRODUCTION</name>
+<ttl id="10002_S0001_7A7VR_T0005" variety="T0005">
+<name>TERMS</name>
+<para id="RM000000THI057X" category="F" type-id="30025" name-id="IN00F-81" from="201202">
+<name>ABBREVIATIONS USED IN MANUAL</name>
+<subpara id="RM000000THI057X_z0" proc-id="RM21Q0EV__000000900000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Abbreviations</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Meaning</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>ABS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Anti-Lock Brake System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A/C</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Conditioner</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Alternating Current</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ACC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Accessory</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ACIS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Acoustic Control Induction System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ACM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Active Control Engine Mount</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ACSD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic Cold Start Device</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ACT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Actuator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A.D.D.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic Disconnecting Differential</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ADM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P.T. Astra Daihatsu Motor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A/F</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air-Fuel Ratio</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AFS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Adaptive Front-Lighting System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AHC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Active Height Control Suspension</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AID</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Injection Control Driver</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ALR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic Locking Retractor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ALT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Alternator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AMP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Amplifier</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ANT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Antenna</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>ASC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Acceleration Sound Control (for Germany, Australia and Thailand)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Active Sound Control (except Germany, Australia and Thailand)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ASL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic Sound Levelizer</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ASG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automated Sequential Gearbox</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ASSB</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Assembly Services Sdn. Bhd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A/T, ATM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic Transmission (Transaxle)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ATDC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>After Top Dead Center</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ATF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic Transmission Fluid</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A-TRAC, A-TRC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Active Traction Control</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AUTO</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Automatic</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AUX</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Auxiliary</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AVG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Average</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AVS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Adaptive Variable Suspension System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>AWD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>All Wheel Drive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B+, +B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Battery Voltage</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Brake Assist</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BACS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Boost Altitude Compensation System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BATT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Battery</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blu-ray Disc</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BDC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bottom Dead Center</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B/L</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bi-Level</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>B/S</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bore-Stroke Ratio</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BTDC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Before Top Dead Center</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>BVSV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bimetallic Vacuum Switching Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CAN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Controller Area Network</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Calif.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>California</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CB</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Circuit Breaker</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CCM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Carbon Ceramic Material</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CCo</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Catalytic Converter Oxidation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CCV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Canister Closed Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Compact Disc</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cornering Force</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Center of Gravity</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CH</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Channel</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CKD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Complete Knock Down</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CNG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Compressed Natural Gas</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>COMB.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Combination</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CPS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Combustion Pressure Sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CPU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Central Processing Unit</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CRAWL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Crawl Control</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CRS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Child Restraint System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CTR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Center</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C/V</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Check Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Control Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CVT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Continuously Variable Transmission (Transaxle)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>CW</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Curb Weight</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Direct Current</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DEF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Defogger</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DFL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Deflector</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DIFF.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Differential</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DIFF. LOCK</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Differential Lock</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>D/INJ</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Direct Injection</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DLC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Data Link Connector</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DLI</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Distributorless Ignition</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DOHC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Double Overhead Camshaft</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Dash Pot</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Dead Soak</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DSP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Digital Signal Processor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DTC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Diagnostic Trouble Code</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DVD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Digital Versatile Disc</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EBD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electric Brake Force Distribution</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electrochromic</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ECAM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Engine Control And Measurement System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ECD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electronically Controlled Diesel</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ECDY</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Eddy Current Dynamometer</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ECT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electronic Controlled Automatic Transmission</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ECU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electronic Control Unit</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ED</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electro-Deposited</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EDU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electronic Driving Unit</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EDIC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electric Diesel Injection Control</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EFI</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electronic Fuel Injection</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>E/G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Engine</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EGR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Exhaust Gas Recirculation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ELR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Emergency Locking Retractor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EMPS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electric Motor Power Steering</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ENG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Engine</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EPS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electric Power Steering</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ES</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Easy &amp; Smooth</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ESA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electronic Spark Advance</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electric Vehicle</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EVAP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Evaporative Emission Control</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>E-VRV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Electric Vacuum Regulating Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>EX</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Exhaust</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fuel Economy</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front-Engine-Front-Wheel-Drive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>F/G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fuel Gauge</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FIPG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Formed In Place Gasket</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>FL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Left</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Fusible Link</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>F/P</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fuel Pump</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>FR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front Right</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>F/W</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Flywheel</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FW/D</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Flywheel Damper</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>FWD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Wheel Drive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>GAS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Gasoline</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>GND</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>GPS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Global Positioning System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>GSA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Gear Shift Actuator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>GTMC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Gac Toyota Motor Co., Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>GTS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Global TechStream</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>H/B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hatchback</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>H-FUSE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>High Current Fuse</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>HID</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>High Intensity Discharge (Headlight)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>HPU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hydraulic Power Unit</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>HSG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Housing</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>HT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hard Top</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>HV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hybrid Vehicle</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>HWS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Heated Windshield System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Integrated Circuit</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ICS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intelligent Clearance Sonar</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IDI</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Indirect Diesel Injection</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IFS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Independent Front Suspension</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IIA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Integrated Ignition Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IMC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>INDUS Motor Company Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intake (Manifold, Valve)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>INT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intermittent</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>I/P</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Instrument Panel</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>IRS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Independent Rear Suspension</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ISC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Idle Speed Control</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ISCV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Idle Speed Control Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>KD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Kick-Down</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>KDSS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Kinetic Dynamic Suspension System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LAN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Local Area Network</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LCD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Liquid Crystal Display</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LED</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Light Emitting Diode</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LEV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Low Emission Vehicle</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LH</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Left-Hand</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LHD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Left-Hand Drive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LIN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Local Interconnect Network</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>L/H/W</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Length, Height, Width</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LLC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Long-Life Coolant</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LNG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Liquefied Natural Gas</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LPG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Liquefied Petroleum Gas</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LSD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Limited Slip Differential</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LSP &amp; BV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Load Sensing Proportioning and Bypass Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>LSPV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Load Sensing Proportioning Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MAP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Manifold Absolute Pressure</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MAX.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Maximum</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MIC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Microphone</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Malfunction Indicator Lamp</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MIN.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Minimum</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MG1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Motor Generator No. 1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MG2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Motor Generator No. 2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MMT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Multi-mode Manual Transmission</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Multipurpose</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MPI</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Multipoint Electronic Injection</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MPX</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Multiplex Communication System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>M/T</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Manual Transmission (Transaxle)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mount</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MTG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mounting</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Neutral</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>NA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Natural Aspiration</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>NO.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Number</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>O2S</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oxygen Sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>OC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oxidation Catalyst</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>OCV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Control Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>O/D</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>OEM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Original Equipment Manufacturing</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>OPT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Option</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ORVR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On-board Refilling Vapor Recovery</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>O/S</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oversize</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>P &amp; BV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proportioning and Bypass Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PBD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Power Back Door</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>PCS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Power Control System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Pre-crash Safety System/Pre-collision System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PCV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Positive Crankcase Ventilation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PHV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plug-in Hybrid Vehicle</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PKB</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Parking Brake</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PPS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Progressive Power Steering</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PROM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Programmable Read Only Memory</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Power Steering</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PSD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Power Slide Door</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PTC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Positive Temperature Coefficient</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PTO</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Power Take-Off</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>PZEV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Partial Zero Emission Vehicle</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>P/W</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Power Window</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R &amp; P</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rack and Pinion</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RAM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Random Access Memory</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RBS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Recirculating Ball Type Steering</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>RCTA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Cross Traffic Alert (except Europe)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Crossing Traffic Alert (for Europe)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>REAS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Relative Absorber System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>R/F</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Reinforcement</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RFS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rigid Front Suspension</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RH</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Right-Hand</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RHD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Right-Hand Drive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Left</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ROM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Read Only Memory</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>RR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Right</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RRS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rigid Rear Suspension</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RSE</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Seat Entertainment</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>RWD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Wheel Drive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Supercharger</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>SCV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Swirl Control Valve (for gasoline engine)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Suction Control Valve (for diesel engine)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SFTM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sichuan Faw Toyota Motor Co., Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SIA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Subaru of Indiana Automotive, Inc.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SICS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Starting Injection Control System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SLLC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Super Long Life Coolant</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SOC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>State Of Charge</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SOHC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Single Overhead Camshaft</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SPEC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specification</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SPI</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Single Point Injection</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SPV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Spill Control Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SRS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Supplemental Restraint System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SSM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Special Service Materials</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SST</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Special Service Tools</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>STD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>STJ</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cold-Start Fuel Injection</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>SULEV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Super Ultra Low Emission Vehicle</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>T/A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transaxle</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TACH</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Tachometer</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TASA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Argentina S.A.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TCAP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Caetano Portugal, S.A.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TCM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmission Control Module</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>TCV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Timing Control Valve (for diesel engine)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Tumble Control Valve (for gasoline engine)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TDB</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota do Brasil Ltda.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TDC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Top Dead Center</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TDV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota de Venezuela, C.A.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TEMP.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TFT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>TOYOTA Free-Tronic</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TFTM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Tianjin Faw Toyota Motor Co., Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>THS II</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>TOYOTA Hybrid System II</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TIS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Total Information System for Vehicle Development</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>T/M</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmission</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Corporation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMCA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Corporation Australia Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMBC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing de Baja California, S. de R.L de C.V.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing Canada Inc.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMF</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing France S.A.S.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMI</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing, Indiana, Inc.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMIN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P.T. Toyota Motor Manufacturing Indonesia</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMK</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing Kentucky, Inc.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing Turkey Inc.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMTX</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing, Texas, Inc.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMMR</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing Russia Inc.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Philippines Corp.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Thailand Co., Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMUK</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Manufacturing (UK) Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TMV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Motor Vietnam Co., Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TPCA</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota Peugeot Citroen Automobiles Czech, s.r.o.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TRAC/TRC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Traction Control System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TSAM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Toyota South Africa Motors (Pty) Ltd.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TVIP</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>TOYOTA Vehicle Intrusion Protection</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TWC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Three-Way Catalyst</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>U/D</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Underdrive</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>U/S</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Undersize</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VCV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vacuum Control Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VDIM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vehicle Dynamics Integrated Management</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VENT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ventilator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VGRS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Variable Gear Ratio Steering</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VIM</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vehicle Interface Module</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VIN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vehicle Identification Number</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VLC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Valve Lift Control</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VPS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Variable Power Steering</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VSC</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vehicle Stability Control</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VSV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vacuum Switching Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VTV</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Vacuum Transmitting Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>VVT-i</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Variable Valve Timing-intelligent</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>W/, w/</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>With</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>WGN</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wagon</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>W/H</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wire Harness</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>W/O, w/o</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Without</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>X-REAS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>X-Relative Absorber System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1ST, 1st</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>First</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2ND, 2nd</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Second</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2WD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Two Wheel Drive Vehicle (4 x 2)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3RD, 3rd</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Third</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4TH, 4th</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fourth</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4WD</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Four Wheel Drive Vehicle (4 x 4)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4WS</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Four Wheel Steering System</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>5TH, 5th</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fifth</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>6TH, 6th</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sixth</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>7TH, 7th</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Seventh</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>8TH, 8th</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Eighth</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

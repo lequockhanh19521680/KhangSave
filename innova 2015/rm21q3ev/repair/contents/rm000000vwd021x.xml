@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y3_T002H" variety="T002H">
+<name>ACCELERATOR PEDAL ROD</name>
+<para id="RM000000VWD021X" category="A" type-id="80001" name-id="ES46A-03" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000VWD021X_01" type-id="01" category="01">
+<s-1 id="RM000000VWD021X_01_0002" proc-id="RM21Q0EV__000006V00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000VWD021X_01_0001" proc-id="RM21Q0EV__000006U00000">
+<ptxt>REMOVE ACCELERATOR PEDAL ROD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099092E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the accelerator pedal position sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and accelerator pedal rod.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not drop or strike the accelerator pedal rod.</ptxt>
+</item>
+<item>
+<ptxt>Do not disassemble the accelerator pedal rod.</ptxt>
+</item>
+<item>
+<ptxt>This accelerator pedal does not require lubrication.</ptxt>
+<ptxt>Do not apply oil or other lubrication to the accelerator pedal rod.</ptxt>
+<ptxt>If applied, the accelerator pedal rod must be replaced.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

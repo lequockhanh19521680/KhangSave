@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LoadList SYSTEM "../../dtd/load.dtd">
+<LoadList pubno="EM21Q2EV" xml:lang="en">
+	<Block code="RL004">
+		<blockname>Engine Room R/B and Engine Room J/B</blockname>
+		<Fuse capacity="7.5">
+			<name>ALT-S</name>
+			<refs>
+				<System code="SYS030">Charging</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="7.5">
+			<name>DOME</name>
+			<refs>
+				<System code="SYS001">Accessory Meter</System>
+				<System code="SYS035">Air Conditioner (Front) (From Feb. 2012 Production)</System>
+				<System code="SYS002">Audio System</System>
+				<System code="SYS005">Clock (w/ Accessory Meter)</System>
+				<System code="SYS006">Clock (w/o Accessory Meter)</System>
+				<System code="SYS007">Combination Meter</System>
+				<System code="SYS008">Door Lock Control</System>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS011">Headlight</System>
+				<System code="SYS013">Illumination</System>
+				<System code="SYS014">Interior Light</System>
+				<System code="SYS015">Key Reminder</System>
+				<System code="SYS016">Light Reminder</System>
+				<System code="SYS018">Parking Assist (TOYOTA Parking Assist-Sensor) (From Sep. 2008 Production)</System>
+				<System code="SYS023">Taillight</System>
+				<System code="SYS037">Theft Deterrent</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="7.5">
+			<name>ECU-B (Before Sep. 2008 Production)</name>
+			<refs>
+				<System code="SYS008">Door Lock Control</System>
+				<System code="SYS014">Interior Light</System>
+				<System code="SYS037">Theft Deterrent</System>
+				<System code="SYS025">Wireless Door Lock Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="7.5">
+			<name>ECU-B NO.2</name>
+			<refs>
+				<System code="SYS035">Air Conditioner (Front) (From Feb. 2012 Production)</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>ECU-B (From Sep. 2008 Production)</name>
+			<refs>
+				<System code="SYS008">Door Lock Control</System>
+				<System code="SYS014">Interior Light</System>
+				<System code="SYS037">Theft Deterrent</System>
+				<System code="SYS025">Wireless Door Lock Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>ETCS</name>
+			<refs>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>FOG (From Mar. 2014 Production)</name>
+			<refs>
+				<System code="SYS009">Front Fog Light</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>HORN</name>
+			<refs>
+				<System code="SYS012">Horn</System>
+				<System code="SYS037">Theft Deterrent</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>FOG (Before Mar. 2014 Production)</name>
+			<refs>
+				<System code="SYS009">Front Fog Light</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>H-LP LH (From Feb. 2012 Production)</name>
+			<refs>
+				<System code="SYS011">Headlight</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>H-LP RH (From Feb. 2012 Production)</name>
+			<refs>
+				<System code="SYS011">Headlight</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>RAD</name>
+			<refs>
+				<System code="SYS002">Audio System</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>TURN-HAZ</name>
+			<refs>
+				<System code="SYS024">Turn Signal and Hazard Warning Light</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="20">
+			<name>H-LP LH (Before Feb. 2012 Production)</name>
+			<refs>
+				<System code="SYS011">Headlight</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="20">
+			<name>H-LP RH (Before Feb. 2012 Production)</name>
+			<refs>
+				<System code="SYS011">Headlight</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="25">
+			<name>EFI</name>
+			<refs>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="30">
+			<name>ABS NO.2</name>
+			<refs>
+				<System code="SYS029">ABS</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="30">
+			<name>AM2</name>
+			<refs>
+				<System code="SYS033">Starting</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="40">
+			<name>ABS NO.1</name>
+			<refs>
+				<System code="SYS029">ABS</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="40">
+			<name>FR HTR (Before Sep. 2009 Production)</name>
+			<refs>
+				<System code="SYS034">Air Conditioner (Front) (Before Feb. 2012 Production)</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="40">
+			<name>RR CLR</name>
+			<refs>
+				<System code="SYS036">Air Conditioner (Rear)</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="50">
+			<name>BATT P/I</name>
+			<refs>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="50">
+			<name>FR HTR (From Sep. 2009 Production)</name>
+			<refs>
+				<System code="SYS034">Air Conditioner (Front) (Before Feb. 2012 Production)</System>
+				<System code="SYS035">Air Conditioner (Front) (From Feb. 2012 Production)</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="100">
+			<name>ALT</name>
+			<refs>
+				<System code="SYS030">Charging</System>
+			</refs>
+		</Fuse>
+	</Block>
+	<Block code="RL005">
+		<blockname>Driver Side J/B</blockname>
+		<Fuse capacity="7.5">
+			<name>ACC</name>
+			<refs>
+				<System code="SYS001">Accessory Meter</System>
+				<System code="SYS002">Audio System</System>
+				<System code="SYS005">Clock (w/ Accessory Meter)</System>
+				<System code="SYS006">Clock (w/o Accessory Meter)</System>
+				<System code="SYS019">Power Outlet</System>
+				<System code="SYS028">Remote Control Mirror</System>
+				<System code="SYS041">Shift Lock</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="7.5">
+			<name>IGN</name>
+			<refs>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS039">SRS</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="7.5">
+			<name>MET</name>
+			<refs>
+				<System code="SYS029">ABS</System>
+				<System code="SYS001">Accessory Meter</System>
+				<System code="SYS035">Air Conditioner (Front) (From Feb. 2012 Production)</System>
+				<System code="SYS002">Audio System</System>
+				<System code="SYS030">Charging</System>
+				<System code="SYS005">Clock (w/ Accessory Meter)</System>
+				<System code="SYS007">Combination Meter</System>
+				<System code="SYS008">Door Lock Control</System>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS013">Illumination</System>
+				<System code="SYS015">Key Reminder</System>
+				<System code="SYS016">Light Reminder</System>
+				<System code="SYS018">Parking Assist (TOYOTA Parking Assist-Sensor) (From Sep. 2008 Production)</System>
+				<System code="SYS038">Seat Belt Warning</System>
+				<System code="SYS039">SRS</System>
+				<System code="SYS023">Taillight</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="7.5">
+			<name>OBD</name>
+			<refs>
+				<System code="SYS031">Engine Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="7.5">
+			<name>ST</name>
+			<refs>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS033">Starting</System>
+				<System code="SYS037">Theft Deterrent</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>A/C</name>
+			<refs>
+				<System code="SYS034">Air Conditioner (Front) (Before Feb. 2012 Production)</System>
+				<System code="SYS035">Air Conditioner (Front) (From Feb. 2012 Production)</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>ECU-IG&amp;GAUGE</name>
+			<refs>
+				<System code="SYS029">ABS</System>
+				<System code="SYS001">Accessory Meter</System>
+				<System code="SYS034">Air Conditioner (Front) (Before Feb. 2012 Production)</System>
+				<System code="SYS035">Air Conditioner (Front) (From Feb. 2012 Production)</System>
+				<System code="SYS036">Air Conditioner (Rear)</System>
+				<System code="SYS002">Audio System</System>
+				<System code="SYS003">Back-Up Light</System>
+				<System code="SYS030">Charging</System>
+				<System code="SYS005">Clock (w/ Accessory Meter)</System>
+				<System code="SYS007">Combination Meter</System>
+				<System code="SYS008">Door Lock Control</System>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS017">Parking Assist (TOYOTA Parking Assist-Sensor) (Before Sep. 2008 Production)</System>
+				<System code="SYS018">Parking Assist (TOYOTA Parking Assist-Sensor) (From Sep. 2008 Production)</System>
+				<System code="SYS027">Rear Window Defogger</System>
+				<System code="SYS038">Seat Belt Warning</System>
+				<System code="SYS041">Shift Lock</System>
+				<System code="SYS037">Theft Deterrent</System>
+				<System code="SYS024">Turn Signal and Hazard Warning Light</System>
+				<System code="SYS025">Wireless Door Lock Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>STOP</name>
+			<refs>
+				<System code="SYS029">ABS</System>
+				<System code="SYS040">ECT and A/T Indicator</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS041">Shift Lock</System>
+				<System code="SYS022">Stop Light</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="10">
+			<name>TAIL</name>
+			<refs>
+				<System code="SYS001">Accessory Meter</System>
+				<System code="SYS005">Clock (w/ Accessory Meter)</System>
+				<System code="SYS006">Clock (w/o Accessory Meter)</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS009">Front Fog Light</System>
+				<System code="SYS013">Illumination</System>
+				<System code="SYS015">Key Reminder</System>
+				<System code="SYS016">Light Reminder</System>
+				<System code="SYS023">Taillight</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>CIG</name>
+			<refs>
+				<System code="SYS004">Cigarette Lighter</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>INJ</name>
+			<refs>
+				<System code="SYS001">Accessory Meter</System>
+				<System code="SYS005">Clock (w/ Accessory Meter)</System>
+				<System code="SYS007">Combination Meter</System>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS032">Ignition</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="15">
+			<name>PWR OUT</name>
+			<refs>
+				<System code="SYS019">Power Outlet</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="20">
+			<name>WIP</name>
+			<refs>
+				<System code="SYS010">Front Wiper and Washer</System>
+				<System code="SYS021">Rear Wiper and Washer</System>
+			</refs>
+		</Fuse>
+	</Block>
+	<Block code="RL006">
+		<blockname>R/B No.3</blockname>
+		<Fuse capacity="20">
+			<name>DEF</name>
+			<refs>
+				<System code="SYS031">Engine Control</System>
+				<System code="SYS027">Rear Window Defogger</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="25">
+			<name>DOOR</name>
+			<refs>
+				<System code="SYS008">Door Lock Control</System>
+				<System code="SYS037">Theft Deterrent</System>
+				<System code="SYS025">Wireless Door Lock Control</System>
+			</refs>
+		</Fuse>
+		<Fuse capacity="30">
+			<name>PWR</name>
+			<refs>
+				<System code="SYS026">Power Window</System>
+			</refs>
+		</Fuse>
+	</Block>
+</LoadList>

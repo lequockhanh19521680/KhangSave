@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80P_T0053" variety="T0053">
+<name>BRAKE BOOSTER</name>
+<para id="RM000001L5I00HX" category="A" type-id="30014" name-id="BR6XA-01" from="201303">
+<name>INSTALLATION</name>
+<subpara id="RM000001L5I00HX_01" type-id="01" category="01">
+<s-1 id="RM000001L5I00HX_01_0001" proc-id="RM21Q0EV__00001S300001">
+<ptxt>INSTALL BRAKE BOOSTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new gasket to the brake booster.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the booster with the 4 nuts.</ptxt>
+<figure>
+<graphic graphicname="C111300" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>145</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the push rod clevis.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply a light coat of lithium soap base glycol grease to the clevis pin.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clevis pin and a new clip.</ptxt>
+<figure>
+<graphic graphicname="C226773E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>The clip must be installed as shown in the illustration.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the return spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new grommet and check valve to the booster.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the vacuum warning switch to the booster and connect the vacuum warning switch connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001L5I00HX_01_0013" proc-id="RM21Q0EV__00001RW00000">
+<ptxt>CHECK AND ADJUST BRAKE BOOSTER PUSH ROD
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Adjust the booster push rod when the master cylinder is replaced with a new one. Adjustment is not necessary when the master cylinder is reinstalled and the booster is replaced with a new one.</ptxt>
+</atten4>
+<s2>
+<ptxt>Set SST on the master cylinder and lower the rod of SST until it just touches the piston.</ptxt>
+<sst>
+<sstitem>
+<s-number>09737-00013</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="G028332E05" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>SST 09737-00012 can also be used.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Apply chalk to the flat tip of the SST. Turn SST upside down and measure the clearance between the brake booster push rod and SST.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0 mm (0 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If there is clearance between the main body of SST and the shell of the brake booster, the push rod is protruding too far. If the chalk does not stick to the tip of the brake booster push rod, the push rod protrusion is insufficient.</ptxt>
+</s2>
+<s2>
+<ptxt>If the clearance is not as specified, adjust the length by holding the rod using SST and turning the tip of the rod using a 7 mm socket driver.</ptxt>
+<sst>
+<sstitem>
+<s-number>09737-00020</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F040006E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Check the push rod clearance again after adjusting.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0015" proc-id="RM21Q0EV__00001RV00001">
+<ptxt>INSTALL BRAKE MASTER CYLINDER SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C121401" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install a new O-ring to the master cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the master cylinder and bracket (with 3-way) to the booster with the 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>127</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, connect the 5 brake lines labeled C to the master cylinder and 3-way.</ptxt>
+<figure>
+<graphic graphicname="C121400E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>15</t-value1>
+<t-value2>155</t-value2>
+<t-value4>11</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Use the formula to calculate special torque values for situations where a union nut wrench is combined with a torque wrench (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the brake fluid level warning switch connector labeled B to the master cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the clutch reservoir tube labeled A to the master cylinder.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0016" proc-id="RM21Q0EV__00001L000000">
+<ptxt>FILL RESERVOIR WITH BRAKE FLUID
+</ptxt>
+<content1 releasenbr="1">
+<spec>
+<title>Fluid</title>
+<specitem>
+<ptxt>SAE J1703 or FMVSS No. 116 DOT3</ptxt>
+</specitem>
+</spec>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0017" proc-id="RM21Q0EV__00001L100000">
+<ptxt>BLEED AIR FROM BRAKE MASTER CYLINDER
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>If the master cylinder has been disassembled or if the reservoir becomes empty, bleed air from the master cylinder.</ptxt>
+</atten4>
+<s2>
+<ptxt>Using a union nut wrench, disconnect the 2 brake lines from the master cylinder.</ptxt>
+<figure>
+<graphic graphicname="C122081" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Slowly depress and hold down the brake pedal.</ptxt>
+</s2>
+<s2>
+<ptxt>Cover the outer holes with your fingers, and release the pedal.</ptxt>
+<figure>
+<graphic graphicname="C122083" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Repeat the 2 previous steps 3 or 4 times.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, connect the 2 brake lines to the master cylinder.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>15</t-value1>
+<t-value2>155</t-value2>
+<t-value4>11</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Use the formula to calculate special torque values for situations where a union nut wrench is combined with a torque wrench (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0018" proc-id="RM21Q0EV__00001L200000">
+<ptxt>BLEED AIR FROM BRAKE LINE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bleeder plug cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect a vinyl tube to the bleeder plugs.</ptxt>
+<figure>
+<graphic graphicname="C130674" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Depress the pedal several times, and then loosen the bleeder plug with the pedal depressed.</ptxt>
+</s2>
+<s2>
+<ptxt>When fluid stops coming out, immediately tighten the bleeder plug. Then release the pedal.</ptxt>
+</s2>
+<s2>
+<ptxt>Repeat the 2 previous steps until all the air in the brake fluid is gone.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the bleeder plug.</ptxt>
+<torque>
+<subtitle>for Front Brake</subtitle>
+<torqueitem>
+<t-value1>11</t-value1>
+<t-value2>110</t-value2>
+<t-value4>8</t-value4>
+</torqueitem>
+<subtitle>for Rear Brake</subtitle>
+<torqueitem>
+<t-value1>11</t-value1>
+<t-value2>107</t-value2>
+<t-value4>8</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Bleed air from the brake line for each wheel by repeating the above procedures.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0024" proc-id="RM21Q0EV__00001A700000">
+<ptxt>BLEED AIR FROM CLUTCH LINE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the brake master cylinder reservoir filler cap assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Add brake fluid to keep the level between the MIN and MAX lines of the reservoir while bleeding the clutch line.</ptxt>
+<spec>
+<title>Fluid</title>
+<specitem>
+<ptxt> SAE J1703 or FMVSS No. 116 DOT3 </ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Remove the bleeder plug cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect a vinyl tube to the bleeder plug.  </ptxt>
+<figure>
+<graphic graphicname="C132678" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Depress the clutch pedal several times, and then loosen the bleeder plug with the pedal depressed.</ptxt>
+</s2>
+<s2>
+<ptxt>At the point when fluid stops coming out, tighten the bleeder plug, and then release the clutch pedal.  </ptxt>
+</s2>
+<s2>
+<ptxt>Repeat the previous 2 steps until all the air in the fluid is completely bled out.  </ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the bleeder plug. </ptxt>
+<torque>
+<torqueitem>
+<t-value1>11</t-value1>
+<t-value2>110</t-value2>
+<t-value4>8</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the bleeder plug cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that all the air has been bled out of the clutch line.  </ptxt>
+</s2>
+<s2>
+<ptxt>Check for brake fluid leaks.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the brake fluid level in the reservoir (See page <xref label="Seep01" href="RM0000010K4011X_01_0001"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Install the brake master cylinder reservoir filler cap assembly.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0019" proc-id="RM21Q0EV__00001P400000">
+<ptxt>CHECK AND ADJUST BRAKE PEDAL HEIGHT
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C130676E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Check the pedal height.</ptxt>
+<spec>
+<title>Standard pedal height from dash panel</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>for Manual Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>152.9 to 162.9 mm (6.020 to 6.413 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>for Automatic Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>154.1 to 164.1 mm (6.067 to 6.461 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Adjust the pedal height.</ptxt>
+<s3>
+<ptxt>Disconnect the connector from the stop light switch.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the switch.</ptxt>
+</s3>
+<s3>
+<ptxt>Loosen the push rod clevis lock nut.</ptxt>
+</s3>
+<s3>
+<ptxt>Adjust the pedal height by turning the push rod.</ptxt>
+</s3>
+<s3>
+<ptxt>Tighten the lock nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>Insert the switch into the adjuster until it slightly touches the pedal.</ptxt>
+<figure>
+<graphic graphicname="C111301E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not depress the pedal.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Turn the switch a quarter turn clockwise.</ptxt>
+<figure>
+<graphic graphicname="C111302E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>1.5</t-value1>
+<t-value2>15</t-value2>
+<t-value3>13</t-value3>
+<ptxt>or less</ptxt>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not depress the pedal.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Connect the connector to the switch.</ptxt>
+</s3>
+<s3>
+<ptxt>Check the switch clearance.</ptxt>
+<spec>
+<title>Standard stop light switch clearance</title>
+<specitem>
+<ptxt>1.5 to 2.5 mm (0.0591 to 0.0984 in.)</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0020" proc-id="RM21Q0EV__00001P500000">
+<ptxt>CHECK BRAKE PEDAL FREE PLAY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111306E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Stop the engine. Depress the pedal several times until there is no vacuum in the booster. Then release the pedal.</ptxt>
+</s2>
+<s2>
+<ptxt>Depress the pedal until resistance is felt.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the pedal free play by measuring the distance between the position in the previous step and the pedal's released position.</ptxt>
+<spec>
+<title>Standard pedal free play</title>
+<specitem>
+<ptxt>1.0 to 6.0 mm (0.039 to 0.236 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the free play is not as specified, check the switch clearance in the next step.</ptxt>
+<ptxt>If the free play is as specified, proceed to the "CHECK BRAKE PEDAL RESERVE DISTANCE" procedure.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the switch clearance.</ptxt>
+<spec>
+<title>Standard stop light switch clearance</title>
+<specitem>
+<ptxt>1.5 to 2.5 mm (0.0591 to 0.0984 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the clearance is not as specified, adjust the clearance and recheck the pedal's free play.</ptxt>
+<ptxt>If the clearance is as specified, troubleshoot the brake system and proceed to the "CHECK BRAKE PEDAL RESERVE DISTANCE" procedure.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0021" proc-id="RM21Q0EV__00001P600000">
+<ptxt>CHECK BRAKE PEDAL RESERVE DISTANCE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111339E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Release the parking brake lever. Start the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Depress the pedal and check the pedal reserve distance.</ptxt>
+<s3>
+<ptxt>Depress the pedal with a force of 490 N (50 kgf, 110 lbf).</ptxt>
+</s3>
+<s3>
+<ptxt>Measure the distance between the pedal and dash panel shown in the illustration.</ptxt>
+<spec>
+<title>Standard pedal reserve distance</title>
+<specitem>
+<ptxt>78.0 mm (3.071 in.) or more</ptxt>
+</specitem>
+</spec>
+<ptxt>If the distance is not as specified, troubleshoot the brake system.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0022" proc-id="RM21Q0EV__000018M00000">
+<ptxt>CHECK BRAKE FLUID LEVEL IN RESERVOIR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fluid level and add fluid if necessary.</ptxt>
+<figure>
+<graphic graphicname="F052092" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Fluid</title>
+<specitem>
+<ptxt>SAE J1703 or FMVSS No. 116 DOT3</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Add fluid to a level between the reservoir's MIN and MAX lines.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001L5I00HX_01_0012">
+<ptxt>CHECK FOR BRAKE FLUID LEAKAGE</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

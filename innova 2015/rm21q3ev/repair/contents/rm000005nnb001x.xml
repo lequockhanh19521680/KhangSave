@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7D17C_T00AY" variety="T00AY">
+<name>RADIATOR GRILLE (except Standard)</name>
+<para id="RM000005NNB001X" category="A" type-id="30014" name-id="ETA8M-02" from="201403">
+<name>INSTALLATION</name>
+<subpara id="RM000005NNB001X_01" type-id="01" category="01">
+<s-1 id="RM000005NNB001X_01_0001" proc-id="RM21Q0EV__00005F400000">
+<ptxt>INSTALL RADIATOR GRILLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

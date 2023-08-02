@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000003XYR068X" category="C" type-id="804GP" name-id="AV8Z4-32" from="201403">
+<dtccode>CB-10</dtccode>
+<dtcname>System Microcomputer Malfunction</dtcname>
+<dtccode>CB-11</dtccode>
+<dtcname>Media Interface Microcomputer Malfunction</dtcname>
+<dtccode>CB-12</dtccode>
+<dtcname>CD-LSI Malfunction</dtcname>
+<subpara id="RM000003XYR068X_01" type-id="60" category="03" proc-id="RM21Q0EV__00005IC00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.34in"/>
+<colspec colname="COL2" colwidth="2.34in"/>
+<colspec colname="COL3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>CB-10</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A system microcomputer malfunction.</ptxt>
+</entry>
+<entry morerows="2" valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>"iPod" or USB device</ptxt>
+</item>
+<item>
+<ptxt>Radio receiver assembly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>CB-11</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A media interface microcomputer malfunction.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>CB-12</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A CD-LSI (large scale integration) malfunction.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000003XYR068X_02" type-id="51" category="05" proc-id="RM21Q0EV__00005ID00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>The data stored on the USB device or "iPod" may be changed or lost due to malfunctions, repairs, system errors, etc. Therefore, when repairs are to be performed, explain this to the customer and obtain their consent prior to performing repairs.</ptxt>
+</atten3>
+<atten4>
+<ptxt>After the inspection is completed, clear the DTCs.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM000003XYR068X_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000003XYR068X_03_0001" proc-id="RM21Q0EV__00005IE00000">
+<testtitle>REPLACE USB DEVICE OR "iPod"</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the USB device or "iPod" from the stereo jack adapter.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch off.</ptxt>
+<atten4>
+<ptxt>When one of these DTCs has been stored, it is necessary to turn off the ignition switch to make it possible for the vehicle to recognize a new device when it is connected.</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ACC.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect a known good USB device or "iPod" to the stereo jack adapter.</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000003XYR068X_03_0003" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000003XYR068X_03_0003" proc-id="RM21Q0EV__00005IF00000">
+<testtitle>CHECK FOR DTC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep01" href="RM0000014CZ0EBX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs and check if the same DTC occurs again.</ptxt>
+<atten4>
+<ptxt>If DTCs are output frequently, replace the radio receiver assembly.</ptxt>
+</atten4>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Malfunction disappears.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003XYR068X_03_0004" fin="true">OK</down>
+<right ref="RM000003XYR068X_03_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003XYR068X_03_0004">
+<testtitle>END (USB DEVICE OR "iPod" WAS DEFECTIVE)</testtitle>
+</testgrp>
+<testgrp id="RM000003XYR068X_03_0005">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

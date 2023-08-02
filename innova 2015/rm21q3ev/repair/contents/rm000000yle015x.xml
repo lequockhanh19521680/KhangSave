@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YD_T002R" variety="T002R">
+<name>FUEL PRESSURE REGULATOR</name>
+<para id="RM000000YLE015X" category="A" type-id="80001" name-id="FU0QF-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000YLE015X_01" type-id="01" category="01">
+<s-1 id="RM000000YLE015X_01_0005" proc-id="RM21Q0EV__00000IJ00000">
+<ptxt>DISCHARGE FUEL SYSTEM PRESSURE
+</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not disconnect any part of the fuel system until you have discharged the fuel system pressure.</ptxt>
+</item>
+<item>
+<ptxt>Even after discharging the fuel pressure, place a cloth or equivalent over fittings as you separate them to reduce the risk of fuel spray on yourself or in the engine compartment.</ptxt>
+</item>
+</list1>
+</atten2>
+<s2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Remove the front driver side scuff plate.</ptxt>
+<s3>
+<ptxt>Using a screwdriver, detach the 7 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Using a clip remover, detach the 3 clips and remove the scuff plate.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Turn up the floor carpet and disconnect the joining connector, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A116042" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>This connector has the lines of the fuel pump and rear speed sensor.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. After the engine has stopped on its own, turn the ignition switch OFF.</ptxt>
+<atten4>
+<ptxt>DTCs C0210/33 and C0215/34 (rear speed sensor circuit) and DTC P0171/25 (system too lean) may be set.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Crank the engine again, and then check that the engine does not start.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the fuel tank cap, and then discharge the pressure in the fuel tank completely.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the fuel pump connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front driver side scuff plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Clear the DTCs (see page <xref label="Seep01" href="RM000000ZPW01AX"/>).</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLE015X_01_0002" proc-id="RM21Q0EV__00000O900000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLE015X_01_0006" proc-id="RM21Q0EV__00000O400000">
+<ptxt>REMOVE INTAKE AIR CONNECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the 2 hose clamps and remove the 2 bolts and disconnect the intake air connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLE015X_01_0004" proc-id="RM21Q0EV__00000OA00000">
+<ptxt>REMOVE FUEL PRESSURE REGULATOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+<figure>
+<graphic graphicname="A099412E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 2 fuel hose. </ptxt>
+<atten3>
+<ptxt>Put a suitable container, cloth or equivalent under the fuel delivery pipe.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts and fuel pressure regulator.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

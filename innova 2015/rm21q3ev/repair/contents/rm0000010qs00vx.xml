@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80M_T0050" variety="T0050">
+<name>REAR BRAKE</name>
+<para id="RM0000010QS00VX" category="A" type-id="8000E" name-id="BR0UE-03" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM0000010QS00VX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001RD00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010QS00VX_02" type-id="01" category="01">
+<s-1 id="RM0000010QS00VX_02_0001" proc-id="RM21Q0EV__00001RE00000">
+<ptxt>INSTALL REAR WHEEL BRAKE CYLINDER CUP</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C115338E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply lithium soap base glycol grease to 2 new cups and the 2 pistons.</ptxt>
+</s2>
+<s2>
+<ptxt>Install 2 new cups to each piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the compression spring and 2 pistons to the cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Install 2 new cylinder dust boots to the cylinder.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0002" proc-id="RM21Q0EV__00001RF00000">
+<ptxt>TEMPORARILY TIGHTEN REAR BRAKE DRUM BLEEDER PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the bleeder plug to the cylinder.</ptxt>
+<atten4>
+<ptxt>The bleeder plug will be tightened to a torque specification in the "BLEED AIR FROM BRAKE LINE" procedures.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the cap.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0003" proc-id="RM21Q0EV__00001RG00000">
+<ptxt>INSTALL REAR WHEEL BRAKE CYLINDER ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cylinder with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="C111485" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a union nut wrench, connect the brake line.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>15</t-value1>
+<t-value2>155</t-value2>
+<t-value4>11</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Use the formula to calculate special torque values for situations where a union nut wrench is combined with a torque wrench (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0004" proc-id="RM21Q0EV__00001RH00000">
+<ptxt>APPLY HIGH TEMPERATURE GREASE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111487E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply high temperature grease to the surface of the backing plate where the shoe will be attached.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply high temperature grease to the anchor block plate and cable setting area.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0005" proc-id="RM21Q0EV__00001RI00000">
+<ptxt>INSTALL REAR BRAKE PARKING BRAKE SHOE LEVER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F051884" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using needle-nose pliers, install the lever with a new C-washer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0007" proc-id="RM21Q0EV__00001RK00000">
+<ptxt>INSTALL REAR BRAKE AUTOMATIC ADJUST LEVER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F051885" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using needle-nose pliers, install the lever with a new C-washer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0006" proc-id="RM21Q0EV__00001RJ00000">
+<ptxt>INSTALL REAR BRAKE SHOE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F052116" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using needle-nose pliers, connect the No. 3 parking brake cable to the parking brake shoe lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Using needle-nose pliers, install the adjust lever tension spring to the automatic adjust lever and rear brake shoe.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="C111398E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using SST, install the shoe, pin, shoe hold down spring and shoe hold down spring cup.</ptxt>
+<sst>
+<sstitem>
+<s-number>09718-00010</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0019" proc-id="RM21Q0EV__00001RM00000">
+<ptxt>INSTALL PARKING BRAKE SHOE STRUT SET LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="C115331E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disassemble the strut set. Apply high temperature grease to the areas indicated by the arrows in the illustration. Then reassemble the strut set.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0020" proc-id="RM21Q0EV__00001RN00000">
+<ptxt>INSTALL FRONT BRAKE SHOE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F051815E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the shoe tension spring to the front brake shoe and rear brake shoe.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, install the shoe, shoe hold down spring and shoe hold down spring cup.</ptxt>
+<sst>
+<sstitem>
+<s-number>09718-00010</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0021" proc-id="RM21Q0EV__00001RO00000">
+<ptxt>CONNECT REAR BRAKE SHOE RETURN SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C239756E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, connect the return spring to the front brake shoe and rear brake shoe.</ptxt>
+<sst>
+<sstitem>
+<s-number>09703-30011</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Be careful not to damage the wheel cylinder boot.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010QS00VX_02_0008" proc-id="RM21Q0EV__00001RL00000">
+<ptxt>CHECK REAR BRAKE DRUM INSTALLATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that each part is installed properly.</ptxt>
+<figure>
+<graphic graphicname="F049774E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Measure the inside diameter of the drum and diameter of the brake shoes. Check that the difference between the diameters is the correct shoe clearance.</ptxt>
+<figure>
+<graphic graphicname="C111493" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard shoe clearance</title>
+<specitem>
+<ptxt>0.5 mm (0.0197 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>There should be no oil or grease on the contact surfaces of the shoe lining and drum.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

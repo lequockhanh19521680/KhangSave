@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A837_T007L" variety="T007L">
+<name>DEFOGGER RELAY</name>
+<para id="RM000001L8501RX" category="G" type-id="8000T" name-id="WS0BN-03" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000001L8501RX_01" type-id="01" category="01">
+<s-1 id="RM000001L8501RX_01_0002" proc-id="RM21Q0EV__00002PQ00000">
+<ptxt>REMOVE DEFOGGER RELAY (Marking: DEF)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the defogger relay from the No. 3 relay block.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001L8501RX_01_0003" proc-id="RM21Q0EV__00002PR00000">
+<ptxt>INSPECT DEFOGGER RELAY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B060778E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Measure the resistance of the relay.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+<ptxt>(when battery voltage is applied to terminals 1 and 2)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the relay.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001L8501RX_01_0004">
+<ptxt>INSTALL DEFOGGER RELAY</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

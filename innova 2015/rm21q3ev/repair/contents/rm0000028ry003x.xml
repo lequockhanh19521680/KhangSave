@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XL_T001Z" variety="T001Z">
+<name>PROPELLER SHAFT</name>
+<para id="RM0000028RY003X" category="F" type-id="30028" name-id="SS23H-01" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028RY003X_z0" proc-id="RM21Q0EV__000004J00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="3.93in"/>
+<colspec colname="COL2" colwidth="1.10in"/>
+<colspec colname="COL3" colwidth="0.98in"/>
+<colspec colname="COL4" colwidth="1.07in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry align="center">
+<ptxt>N*m</ptxt>
+</entry>
+<entry align="center">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry align="center">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Flange yoke x Flange coupling</ptxt>
+</entry>
+<entry>
+<ptxt>88</ptxt>
+</entry>
+<entry>
+<ptxt>897</ptxt>
+</entry>
+<entry>
+<ptxt>65</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Propeller shaft flange yoke x differential flange</ptxt>
+</entry>
+<entry>
+<ptxt>88</ptxt>
+</entry>
+<entry>
+<ptxt>897</ptxt>
+</entry>
+<entry>
+<ptxt>65</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2">
+<ptxt>Intermediate shaft x Lock nut</ptxt>
+</entry>
+<entry>
+<ptxt>1st: 181</ptxt>
+</entry>
+<entry>
+<ptxt>1st: 1,850</ptxt>
+</entry>
+<entry>
+<ptxt>1st: 134</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>2nd: Loosen nut</ptxt>
+</entry>
+<entry>
+<ptxt>2nd: Loosen nut</ptxt>
+</entry>
+<entry>
+<ptxt>2nd: Loosen nut</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3rd: 68</ptxt>
+</entry>
+<entry>
+<ptxt>3rd: 700</ptxt>
+</entry>
+<entry>
+<ptxt>3rd: 51</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Center support bearing x Frame crossmember</ptxt>
+</entry>
+<entry>
+<ptxt>36</ptxt>
+</entry>
+<entry>
+<ptxt>360</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

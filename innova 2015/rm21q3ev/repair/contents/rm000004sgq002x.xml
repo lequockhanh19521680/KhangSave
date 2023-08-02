@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW4_T00AL" variety="T00AL">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/ Theft Deterrent System)</name>
+<para id="RM000004SGQ002X" category="M" type-id="80037" name-id="DL77I-03" from="201202">
+<name>REGISTRATION</name>
+<subpara id="RM000004SGQ002X_01" type-id="01" category="01">
+<s-1 id="RM000004SGQ002X_01_0001" proc-id="RM21Q0EV__000050K00000">
+<ptxt>DESCRIPTION OF CODE REGISTRATION</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Recognition code registration is necessary when replacing the door control transmitter assembly or the theft warning ECU assembly.</ptxt>
+</item>
+<item>
+<ptxt>Add mode is used to register new recognition codes while retaining codes already registered. This mode is used when a new door control transmitter assembly is added. If the number of registered codes exceeds 4, the previously registered codes will be erased in order, starting from the first registered code.</ptxt>
+</item>
+<item>
+<ptxt>Rewrite mode is used to erase all previously registered recognition codes in order to register new recognition codes. This mode is used when the door control transmitter assembly or the theft warning ECU assembly is replaced.</ptxt>
+</item>
+<item>
+<ptxt>Synchronization mode is used to renew the sequential code (rolling code) of the door control transmitter assembly and synchronize it with the registered recognition code. This mode is used when the door control transmitter assembly does not function because they are unsynchronized. Up to 4 door control transmitter assemblies can be synchronized at once (If a door control transmitter assembly's switch is pressed while out of range of the theft warning ECU assembly, the system will not be able to synchronize the sequential code (rolling code) with the registered recognition code. At this time, the system will automatically synchronize them. However, automatic synchronization can be performed only 500 times. Therefore, it its necessary to use this mode after they have synchronized 500 times).</ptxt>
+</item>
+<item>
+<ptxt>Erase mode is used to erase all the registered codes and disable the wireless door lock function. This mode is used when the door control transmitter assembly is lost.</ptxt>
+</item>
+<item>
+<ptxt>All of the following registration procedures must be performed in order.</ptxt>
+</item>
+</list1>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000004SGQ002X_01_0002" proc-id="RM21Q0EV__000050L00000">
+<ptxt>REGISTER RECOGNITION CODE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the following condition is met.</ptxt>
+<ptxt>No key in the ignition key cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Insert the key into the ignition key cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Wait for the 5 seconds.</ptxt>
+<atten4>
+<ptxt>If the key is pulled out from the ignition key cylinder or the ignition switch is turned to ON, the registration mode will be canceled.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Turn the ignition switch from off to ON 5 times within 10 seconds to turn on the security indicator light assembly.</ptxt>
+<atten4>
+<ptxt>If the key is pulled out from the ignition key cylinder, the registration mode will be canceled.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Open and close the driver side door once and turn the ignition switch from ON to off within 30 seconds.</ptxt>
+<atten4>
+<ptxt>If the key is pulled out from the ignition key cylinder or the driver side door is opened and closed twice or more, the registration mode will be canceled.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Check the response to registration mode.</ptxt>
+<figure>
+<graphic graphicname="B276318E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Perform the following operations (mode selection) within 30 seconds.</ptxt>
+<s3>
+<ptxt>Perform the driver side door open-close operation according to details below. Then turn the ignition switch ON and off.</ptxt>
+<ptxt>Number of open-close operations of the driver side door:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Add mode</ptxt>
+<ptxt>Open-close operation: Once</ptxt>
+</item>
+<item>
+<ptxt>Rewrite mode:</ptxt>
+<ptxt>Open-close operation: Twice</ptxt>
+</item>
+<item>
+<ptxt>Synchronization mode:</ptxt>
+<ptxt>Open-close operation: 3 times</ptxt>
+</item>
+<item>
+<ptxt>Erase mode:</ptxt>
+<ptxt>Open-close operation: 4 times</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>If any of the following operations are performed, the registration mode will be canceled.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The key is removed from the ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>The driver side door is opened and closed 5 times or more.</ptxt>
+</item>
+<item>
+<ptxt>The ignition switch is turned ON before opening the driver side door.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the response to the selected mode.</ptxt>
+<figure>
+<graphic graphicname="B123988E06" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<atten4>
+<ptxt>If erase mode is selected, the registration procedures are completed.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Press the lock and unlock switches on the transmitter simultaneously.</ptxt>
+</s2>
+<s2>
+<ptxt>Press a single switch (lock or unlock).</ptxt>
+</s2>
+<s2>
+<ptxt>After completing the above step, check the response to the registration completion within 3 seconds.</ptxt>
+<figure>
+<graphic graphicname="B123989E06" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If lock-unlock operation and the security horn assembly sounds occur twice, the registration of the recognition code has failed. Perform the registration procedures again from the beginning.</ptxt>
+</item>
+<item>
+<ptxt>If registering another transmitter, repeat the procedures after the response to the selected mode confirmation. All 4 recognition codes can be registered consecutively.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Perform either of the following.</ptxt>
+<s3>
+<ptxt>Open the door.</ptxt>
+</s3>
+<s3>
+<ptxt>Insert the key into the ignition key cylinder.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the ignition switch to ON.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Registration of the recognition codes (add mode and rewrite mode) is completed.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

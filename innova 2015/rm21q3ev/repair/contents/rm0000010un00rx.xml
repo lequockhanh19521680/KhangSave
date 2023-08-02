@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZQ_T0044" variety="T0044">
+<name>MANUAL TRANSMISSION UNIT</name>
+<para id="RM0000010UN00RX" category="A" type-id="80001" name-id="MT1TI-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010UN00RX_01" type-id="01" category="01">
+<s-1 id="RM0000010UN00RX_01_0001" proc-id="RM21Q0EV__00001CL00000">
+<ptxt>REMOVE FILLER PLUG</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029128E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the filler plug and gasket from the transmission case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0002" proc-id="RM21Q0EV__00001CM00000">
+<ptxt>REMOVE DRAIN PLUG</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029129E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the drain plug and gasket from the transmission case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0003" proc-id="RM21Q0EV__00001CN00000">
+<ptxt>REMOVE CLUTCH RELEASE FORK</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086352E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the release fork and release bearing from the clutch housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0004" proc-id="RM21Q0EV__00001CO00000">
+<ptxt>REMOVE CLUTCH RELEASE BEARING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C067602E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the clip and release bearing from the release fork.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0005" proc-id="RM21Q0EV__00001CP00000">
+<ptxt>REMOVE RELEASE FORK SUPPORT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086353E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the release fork support from the clutch housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0006" proc-id="RM21Q0EV__00001CQ00000">
+<ptxt>REMOVE CLUTCH RELEASE FORK BOOT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029348E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the clutch release fork boot from the clutch housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0007" proc-id="RM21Q0EV__00001CR00000">
+<ptxt>REMOVE BACK-UP LIGHT SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029130E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, remove the back-up light switch and gasket from the transmission case.</ptxt>
+<sst>
+<sstitem>
+<s-number>09817-16011</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0008" proc-id="RM21Q0EV__00001CS00000">
+<ptxt>REMOVE CLUTCH HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029131E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 9 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a plastic-faced hammer, tap out the clutch housing from the transmission case.</ptxt>
+<figure>
+<graphic graphicname="D029132E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0009" proc-id="RM21Q0EV__00001CT00000">
+<ptxt>REMOVE RESTRICT PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034239E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 restrict pins from the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0010" proc-id="RM21Q0EV__00001CU00000">
+<ptxt>REMOVE CONTROL SHIFT LEVER RETAINER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033433E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 4 bolts from the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the shift lever retainer and oil deflector from the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0011" proc-id="RM21Q0EV__00001CV00000">
+<ptxt>REMOVE SPEEDOMETER DRIVEN GEAR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and driven gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the driven gear.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0012" proc-id="RM21Q0EV__00001CW00000">
+<ptxt>REMOVE SHIFT DETENT BALL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029138E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a T40 "torx" socket, remove the spring seat from the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, remove the compression spring and shift detent ball from the extension housing.</ptxt>
+<figure>
+<graphic graphicname="D029139E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0013" proc-id="RM21Q0EV__00001CX00000">
+<ptxt>REMOVE EXTENSION HOUSING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034241E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt from the shift lever housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 8 bolts.</ptxt>
+<figure>
+<graphic graphicname="G034240E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a plastic-faced hammer, tap the extension housing and remove the shift lever housing and the shift and select lever from the transmission case.</ptxt>
+<figure>
+<graphic graphicname="G034242E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0014" proc-id="RM21Q0EV__00001CY00000">
+<ptxt>REMOVE TRANSMISSION MAGNET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029141E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the magnet from the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0015" proc-id="RM21Q0EV__00001CZ00000">
+<ptxt>REMOVE OIL RECEIVER PIPE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029142E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the receiver pipe from the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0016" proc-id="RM21Q0EV__00001D000000">
+<ptxt>REMOVE OIL RECEIVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and oil receiver.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0017" proc-id="RM21Q0EV__00001D100000">
+<ptxt>REMOVE REVERSE RESTRICT PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029144E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a T40 "torx" socket, remove the plug from the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 5 mm pin punch and hammer, tap out the restrict slotted spring pin from the extension housing.</ptxt>
+<figure>
+<graphic graphicname="D029145E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the restrict pin from the extension housing.</ptxt>
+<figure>
+<graphic graphicname="D029146E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0018" proc-id="RM21Q0EV__00001D200000">
+<ptxt>REMOVE EXTENSION HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033562E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver and hammer, tap out the oil seal from the extension housing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0019" proc-id="RM21Q0EV__00001D300000">
+<ptxt>REMOVE BEARING RETAINER FRONT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029148E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 8 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>w/o Gasket:</ptxt>
+<ptxt>Remove the bearing retainer from the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>w/ Gasket:</ptxt>
+<ptxt>Remove the bearing retainer and gasket from the transmission case.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0020" proc-id="RM21Q0EV__00001D400000">
+<ptxt>REMOVE TRANSMISSION FRONT BEARING RETAINER OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033559E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, pry out the oil seal from the front bearing retainer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0021" proc-id="RM21Q0EV__00001D500000">
+<ptxt>REMOVE FRONT BEARING SHAFT SNAP RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029149E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring from the front bearing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0022" proc-id="RM21Q0EV__00001D600000">
+<ptxt>REMOVE NO. 1 COUNTER GEAR FRONT BEARING SNAP RING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029150E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring from the front bearing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0023" proc-id="RM21Q0EV__00001D700000">
+<ptxt>REMOVE MANUAL TRANSMISSION CASE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033560E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Stand the transmission as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a plastic-faced hammer, carefully tap off the transmission case.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the transmission case from the intermediate plate as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0024" proc-id="RM21Q0EV__00001D800000">
+<ptxt>FIX INTERMEDIATE PLATE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033561E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Fix the intermediate plate in a vise.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0025" proc-id="RM21Q0EV__00001D900000">
+<ptxt>REMOVE SHIFT DETENT BALL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033558E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a T40 "torx" socket, remove the 3 spring seats from the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, remove the 3 compression springs and 3 shift detent balls from the intermediate plate.</ptxt>
+<figure>
+<graphic graphicname="D033536E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0026" proc-id="RM21Q0EV__00001DA00000">
+<ptxt>REMOVE NO. 2 SHIFT DETENT BALL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029155E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a T40 "torx" socket, remove the spring seat from the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, remove the compression spring and detent ball from the intermediate plate.</ptxt>
+<figure>
+<graphic graphicname="D029156E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0027" proc-id="RM21Q0EV__00001DB00000">
+<ptxt>REMOVE NO. 4 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029157E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt from the No. 3 gear shift fork.</ptxt>
+</s2>
+<s2>
+<ptxt>Using 2 screwdrivers and a hammer, tap out the snap ring and 2 reverse shift head rings form the No. 4 shift fork shaft.</ptxt>
+<figure>
+<graphic graphicname="D033526E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the No. 4 shift fork shaft, ball pin shift interlocks and No. 3 gear shift fork from the intermediate plate.</ptxt>
+<figure>
+<graphic graphicname="B087773E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0028" proc-id="RM21Q0EV__00001DC00000">
+<ptxt>REMOVE NO. 5 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029160E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a 5 mm pin punch and hammer, tap out the slotted spring pin from the reverse shift head.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the reverse shift head and No. 5 shift fork shaft from the intermediate plate.</ptxt>
+<figure>
+<graphic graphicname="D029161E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0029" proc-id="RM21Q0EV__00001DD00000">
+<ptxt>REMOVE NO. 3 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029162E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the No. 3 shift fork shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, remove the No. 2 shift interlock pin from the No. 3 shift fork shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the shift detent ball and compression spring from the reverse shift fork.</ptxt>
+<figure>
+<graphic graphicname="B087772E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, remove the No. 3 shift interlock pin from the intermediate plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0030" proc-id="RM21Q0EV__00001DE00000">
+<ptxt>REMOVE NO. 3 HEAD GEAR SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033530E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a 5 mm pin pinch and hammer, tap out the slotted spring pin from the No. 3 shift fork shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the No. 3 head gear shaft from the No. 3 shift fork shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0031" proc-id="RM21Q0EV__00001DF00000">
+<ptxt>REMOVE NO. 2 SHIFT INTERLOCK PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029168E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a magnet hand, remove the No. 2 interlock pin from the No. 1 shift fork shaft.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0032" proc-id="RM21Q0EV__00001DG00000">
+<ptxt>REMOVE NO. 1 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029169E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using 2 screwdrivers and a hammer, tap out the snap ring from the No. 1 shift fork shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt from the No. 1 gear shift fork.</ptxt>
+<figure>
+<graphic graphicname="D029170E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the No. 1 shift fork shaft from the intermediate plate.</ptxt>
+<figure>
+<graphic graphicname="D029171E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0033" proc-id="RM21Q0EV__00001DH00000">
+<ptxt>REMOVE NO. 1 SHIFT INTERLOCK PIN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029172E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a magnet hand, remove the No. 1 interlock pin from the intermediate plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0034" proc-id="RM21Q0EV__00001DI00000">
+<ptxt>REMOVE NO. 2 SHIFT FORK SHAFT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029173E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt from the No. 2 gear shift fork.</ptxt>
+</s2>
+<s2>
+<ptxt>Using 2 screwdrivers and a hammer, tap out the snap ring from the No. 2 shift fork shaft.</ptxt>
+<figure>
+<graphic graphicname="D029174E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the No. 2 shift fork shaft, No. 1 gear shift fork and No. 2 gear shift fork from the intermediate plate.</ptxt>
+<figure>
+<graphic graphicname="D033557E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0035" proc-id="RM21Q0EV__00001DJ00000">
+<ptxt>INSPECT COUNTER SHAFT 5TH GEAR THRUST CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086399E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a feeler gauge, measure the thrust clearance.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.125 to 0.325 mm (0.0049 to 0.0128 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum clearance</title>
+<specitem>
+<ptxt>0.325 mm (0.0128 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0036" proc-id="RM21Q0EV__00001DK00000">
+<ptxt>REMOVE COUNTER SHAFT 5TH GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033537E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using 2 screwdrivers and a hammer, tap out the snap ring from the counter gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, remove the No. 5 gear spline piece and No. 3 synchronizer ring from the counter gear.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-50013</s-number>
+<s-subnumber>09951-05010</s-subnumber>
+<s-subnumber>09952-05010</s-subnumber>
+<s-subnumber>09953-05010</s-subnumber>
+<s-subnumber>09954-05021</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="D033538E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 5th gear and 5th gear bearing from the counter gear.</ptxt>
+<figure>
+<graphic graphicname="D033539E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0037" proc-id="RM21Q0EV__00001DL00000">
+<ptxt>REMOVE 5TH GEAR THRUST WASHER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033540E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the thrust washer from the counter gear.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a magnet hand, remove the thrust washer lock ball from the counter gear.</ptxt>
+<figure>
+<graphic graphicname="D033541E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0038" proc-id="RM21Q0EV__00001DM00000">
+<ptxt>REMOVE REVERSE SHIFT ARM BRACKET</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033529E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and arm bracket with the shift arm from the intermediate plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0039" proc-id="RM21Q0EV__00001DN00000">
+<ptxt>REMOVE REVERSE SHIFT ARM</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033309E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, pry out the E-ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the shift fork from the shift arm.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0040" proc-id="RM21Q0EV__00001DO00000">
+<ptxt>REMOVE REVERSE IDLER GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033542E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and idler gear shaft stopper from the intermediate plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the idler gear shaft and idler gear from the intermediate plate.</ptxt>
+<figure>
+<graphic graphicname="D033543E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0041" proc-id="RM21Q0EV__00001DP00000">
+<ptxt>INSPECT REVERSE IDLER GEAR RADIAL CLEARANCE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C086408E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a dial indicator, measure the radial clearance.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.04 to 0.08 mm (0.0016 to 0.0031 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum clearance</title>
+<specitem>
+<ptxt>0.08 mm (0.0031 in.)</ptxt>
+</specitem>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the clearance is greater than the maximum, replace the reverse idler gear.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0042" proc-id="RM21Q0EV__00001DQ00000">
+<ptxt>INSPECT REVERSE IDLER GEAR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033607E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a feeler gauge, measure the clearance between the reverse idler gear and reverse shift arm.</ptxt>
+<spec>
+<title>Standard clearance</title>
+<specitem>
+<ptxt>0.05 to 0.35 mm (0.0020 to 0.0138 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Maximum clearance</title>
+<specitem>
+<ptxt>0.35 mm (0.0138 in.)</ptxt>
+</specitem>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the clearance is greater than the maximum, replace the reverse idler gear and reverse shift arm.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0043" proc-id="RM21Q0EV__00001DR00000">
+<ptxt>REMOVE OUTPUT SHAFT REAR BEARING RETAINER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033544E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a T40 "torx" socket, remove the 4 screws and rear bearing retainer from the intermediate plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0044" proc-id="RM21Q0EV__00001DS00000">
+<ptxt>REMOVE COUNTER GEAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D029185E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring from the counter shaft center bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, remove the center bearing, counter gear and input shaft from the intermediate plate.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-40011</s-number>
+<s-subnumber>09951-04010</s-subnumber>
+<s-subnumber>09952-04010</s-subnumber>
+<s-subnumber>09953-04010</s-subnumber>
+<s-subnumber>09954-04010</s-subnumber>
+<s-subnumber>09955-04011</s-subnumber>
+<s-subnumber>09958-04011</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="D033545E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UN00RX_01_0045" proc-id="RM21Q0EV__00001DT00000">
+<ptxt>REMOVE OUTPUT SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033546E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the snap ring from the output shaft center bearing.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the output shaft from the intermediate plate by pulling on the output shaft and tapping on the intermediate plate with a plastic-faced hammer.</ptxt>
+<figure>
+<graphic graphicname="D033547E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

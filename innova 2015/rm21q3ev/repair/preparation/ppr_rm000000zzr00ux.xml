@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002H_S000J" variety="S000J">
+<name>AXLE</name>
+<ttl id="1002H_S000J_7A801_T004F" variety="T004F">
+<name>REAR AXLE HUB BOLT</name>
+<para id="RM000000ZZR00UX" category="A" type-id="30019" name-id="AH069-02" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM000000ZZR00UX_z2">
+<content4>
+<table frame="all" colsep="1" rowsep="1">
+<title>SST</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.96in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.18in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.04in" colsep="0"/>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000746" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09650-17011</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Hub Bolt Remover</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

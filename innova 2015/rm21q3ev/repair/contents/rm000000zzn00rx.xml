@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002H_S000J" variety="S000J">
+<name>AXLE</name>
+<ttl id="1002H_S000J_7A7ZY_T004C" variety="T004C">
+<name>FRONT AXLE HUB BOLT</name>
+<para id="RM000000ZZN00RX" category="A" type-id="30019" name-id="AH0BU-01" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM000000ZZN00RX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001FO00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (see page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000000ZZN00RX_02" type-id="01" category="01">
+<s-1 id="RM000000ZZN00RX_02_0001">
+<ptxt>REMOVE FRONT WHEEL</ptxt>
+</s-1>
+<s-1 id="RM000000ZZN00RX_02_0002" proc-id="RM21Q0EV__00001FP00000">
+<ptxt>REMOVE FRONT DISC BRAKE CYLINDER ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111187" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts and disc brake cylinder.</ptxt>
+</s2>
+<s2>
+<ptxt>Support the brake cylinder securely.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZN00RX_02_0004">
+<ptxt>REMOVE FRONT DISC</ptxt>
+</s-1>
+<s-1 id="RM000000ZZN00RX_02_0005" proc-id="RM21Q0EV__00001FQ00000">
+<ptxt>REMOVE FRONT AXLE HUB BOLT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C136358E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Temporarily install 2 nuts to the hub bolts as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a brass bar or equivalent to hold the axle hub, remove the hub bolt.</ptxt>
+<sst>
+<sstitem>
+<s-number>09650-17011</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZN00RX_02_0006" proc-id="RM21Q0EV__00001FR00000">
+<ptxt>INSTALL FRONT AXLE HUB BOLT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C136359" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Temporarily install a plate washer and nut to a new hub bolt as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a brass bar or equivalent to hold the front axle, install a new hub bolt by tightening the nut. Then remove the nut and plate washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts and washer from the hub bolts.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZN00RX_02_0007">
+<ptxt>INSTALL FRONT DISC</ptxt>
+</s-1>
+<s-1 id="RM000000ZZN00RX_02_0009" proc-id="RM21Q0EV__00001FS00000">
+<ptxt>INSTALL FRONT DISC BRAKE CYLINDER ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111187" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the disc brake cylinder with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>126</t-value1>
+<t-value2>1,285</t-value2>
+<t-value4>93</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZN00RX_02_0010" proc-id="RM21Q0EV__00001FT00000">
+<ptxt>INSTALL FRONT WHEEL</ptxt>
+<content1 releasenbr="1">
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1,122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

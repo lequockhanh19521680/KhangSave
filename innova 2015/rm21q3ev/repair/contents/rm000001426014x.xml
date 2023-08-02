@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YI_T002W" variety="T002W">
+<name>VACUUM SWITCHING VALVE</name>
+<para id="RM000001426014X" category="G" type-id="3001K" name-id="EC032-06" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001426014X_01" type-id="01" category="01">
+<s-1 id="RM000001426014X_01_0001" proc-id="RM21Q0EV__00000PS00000">
+<ptxt>INSPECT PURGE VSV</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A110271E02" width="2.775699831in" height="4.7836529in"/>
+</figure>
+<ptxt>Measure the resistance of the purge VSV.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>26 to 30 Ω at 20°C (68°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - Body ground</ptxt>
+<ptxt>2 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the purge VSV.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099532E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check operation of the purge VSV.</ptxt>
+<s3>
+<ptxt>Check that air does not flow from port E to port F.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="A110272E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Apply battery voltage across terminals 1 and 2.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that air flows from port E to port F.</ptxt>
+<ptxt>If the result is not as specified, replace the purge VSV.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7A82B_T006P" variety="T006P">
+<name>WASHER MOTOR</name>
+<para id="RM0000024FN005X" category="A" type-id="30014" name-id="WW553-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000024FN005X_01" type-id="01" category="01">
+<s-1 id="RM0000024FN005X_01_0001" proc-id="RM21Q0EV__00002DQ00000">
+<ptxt>INSTALL REAR WASHER MOTOR AND PUMP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear washer motor and pump to the packing of the washer jar.</ptxt>
+<figure>
+<graphic graphicname="E225299" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024FN005X_01_0002" proc-id="RM21Q0EV__00002DR00000">
+<ptxt>INSTALL WINDSHIELD WASHER MOTOR AND PUMP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the windshield washer motor and pump to the packing of the washer jar.</ptxt>
+<figure>
+<graphic graphicname="B128357" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024FN005X_01_0003" proc-id="RM21Q0EV__00002DS00000">
+<ptxt>INSTALL WINDSHIELD WASHER JAR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the windshield washer jar and pump with the 3 bolts. Then attach the 3 clamps.</ptxt>
+<figure>
+<graphic graphicname="E225300" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.5</t-value1>
+<t-value2>56</t-value2>
+<t-value3>49</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connectors and 2 washer hoses.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the grommet.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024FN005X_01_0008" proc-id="RM21Q0EV__00002DV00000">
+<ptxt>FILL UP WASHER JAR AND PUMP ASSEMBLY WITH WASHER FLUID</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fill the washer jar with washer fluid.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024FN005X_01_0010" proc-id="RM21Q0EV__00003PN00000">
+<ptxt>INSTALL FRONT BUMPER COVER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Fog Light:</ptxt>
+<ptxt>Connect the 2 fog light connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 8 claws and 2 guides to install the front bumper cover.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 5 clips and 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 pin hold clips and 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip and 6 screws.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000024FN005X_01_0011" proc-id="RM21Q0EV__00003QX00000">
+<ptxt>INSTALL RADIATOR GRILLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

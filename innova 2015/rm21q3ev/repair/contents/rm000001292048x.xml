@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81I_T005W" variety="T005W">
+<name>FRONT SEAT OUTER BELT ASSEMBLY</name>
+<para id="RM000001292048X" category="G" type-id="3001K" name-id="SB04W-08" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001292048X_01" type-id="01" category="01">
+<s-1 id="RM000001292048X_01_0001" proc-id="RM21Q0EV__000024Z00000">
+<ptxt>INSPECT FRONT SEAT OUTER BELT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Do not disassemble the retractor.</ptxt>
+</atten3>
+<figure>
+<graphic graphicname="B081493E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Before installing the outer belt, check the ELR.</ptxt>
+<s3>
+<ptxt>When the inclination of the retractor is 15° or less, check that the belt can be pulled from the retractor. When the inclination of the retractor is over 45°, check that the belt locks.</ptxt>
+<ptxt>If the result is not as specified, replace the outer belt assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

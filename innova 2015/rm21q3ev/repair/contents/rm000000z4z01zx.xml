@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW3_T00AK" variety="T00AK">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/o Theft Deterrent System)</name>
+<para id="RM000000Z4Z01ZX" category="M" type-id="80037" name-id="DL7MM-02" from="201202">
+<name>REGISTRATION</name>
+<subpara id="RM000000Z4Z01ZX_01" type-id="01" category="01">
+<s-1 id="RM000000Z4Z01ZX_01_0001" proc-id="RM21Q0EV__00004ZR00000">
+<ptxt>DESCRIPTION OF CODE REGISTRATION</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Recognition code registration is necessary when replacing the door control transmitter assembly or the door control receiver.</ptxt>
+</item>
+<item>
+<ptxt>Add mode is used to register new recognition codes while retaining codes already registered. This mode is used when a new transmitter is added. If the number of registered codes exceeds 4, the previously registered codes will be erased in order, starting from the first registered code.</ptxt>
+</item>
+<item>
+<ptxt>Rewrite mode is used to erase all previously registered recognition codes in order to register new recognition codes. This mode is used when the transmitter or the receiver is replaced.</ptxt>
+</item>
+<item>
+<ptxt>Confirmation mode is used to confirm how many recognition codes have already been registered before another recognition code is registered.</ptxt>
+</item>
+<item>
+<ptxt>Prohibition mode is used to erase all the registered codes and disable the wireless door lock function. This mode is used when the transmitter is lost.</ptxt>
+</item>
+<item>
+<ptxt>All of the following registration procedures must be performed in order.</ptxt>
+</item>
+</list1>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000000Z4Z01ZX_01_0002" proc-id="RM21Q0EV__00004ZS00000">
+<ptxt>REGISTER RECOGNITION CODE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the following conditions are met.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>No key in the ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>The driver side door is opened (the other doors are closed).</ptxt>
+</item>
+</list1>
+</s2>
+<s2>
+<ptxt>Insert the key into the ignition key cylinder, then pull it out twice within 5 seconds.</ptxt>
+</s2>
+<s2>
+<ptxt>Perform the following operations within 40 seconds.</ptxt>
+<s3>
+<ptxt>Close and open the driver side door twice.</ptxt>
+</s3>
+<s3>
+<ptxt>Insert the key into the ignition key cylinder, then pull it out.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Perform the following operations within 40 seconds.</ptxt>
+<s3>
+<ptxt>Close and open the driver side door twice.</ptxt>
+</s3>
+<s3>
+<ptxt>Insert the key into the ignition key cylinder and close the driver side door.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Perform the following operations within 40 seconds.</ptxt>
+<s3>
+<ptxt>Operate the ignition switch according to the number of times shown below.</ptxt>
+<figure>
+<graphic graphicname="B111914E21" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<atten4>
+<ptxt>If the number of ignition switch On-Off operations is 0, 4, 6, or more, there will be no response (power door lock and unlock operation) to show which mode has been selected.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Remove the key from the ignition key cylinder.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the response to the selected mode within 3 seconds.</ptxt>
+<figure>
+<graphic graphicname="B111913E17" width="7.106578999in" height="7.795582503in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>In the confirmation mode, Lock-Unlock operation will occur once for each recognition code that has been registered. For example, if 2 recognition codes have been registered, the Lock-Unlock operation will occur 2 times.</ptxt>
+</item>
+<item>
+<ptxt>In confirmation mode, if no recognition codes have been registered, the Lock-Unlock operation will occur 5 times.</ptxt>
+</item>
+<item>
+<ptxt>If confirmation mode or prohibition mode is selected, the operation ends after the response to the selected mode completes.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Within 40 seconds of completing the confirmation mode operation, press the lock and unlock switches on the transmitter simultaneously.</ptxt>
+</s2>
+<s2>
+<ptxt>After completing the above step, press a single switch (lock or unlock) within 5 seconds.</ptxt>
+</s2>
+<s2>
+<ptxt>After completing the above step, check the response to the registration completion within 3 seconds.</ptxt>
+<figure>
+<graphic graphicname="B111915E31" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the registration of the recognition code has failed, perform the registration procedures from the beginning.</ptxt>
+</item>
+<item>
+<ptxt>If registering another transmitter, repeat the procedures after the response to the selected mode confirmation. All 4 recognition codes can be registered consecutively.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<ptxt>Perform either of the following.</ptxt>
+<s3>
+<ptxt>Open the door.</ptxt>
+</s3>
+<s3>
+<ptxt>Insert the key into the ignition key cylinder.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Registration of the recognition codes (add mode and rewrite mode) is completed.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

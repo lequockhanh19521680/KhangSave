@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z8_T003M" variety="T003M">
+<name>PARK / NEUTRAL POSITION SWITCH</name>
+<para id="RM0000010NC05SX" category="A" type-id="80001" name-id="AT0QG-07" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010NC05SX_01" type-id="01" category="01">
+<s-1 id="RM0000010NC05SX_01_0001" proc-id="RM21Q0EV__00000XP00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000010NC05SX_01_0002">
+<ptxt>DISCONNECT PARK/NEUTRAL POSITION SWITCH CONNECTOR</ptxt>
+</s-1>
+<s-1 id="RM0000010NC05SX_01_0003" proc-id="RM21Q0EV__00000XQ00000">
+<ptxt>REMOVE PARK/NEUTRAL POSITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034253E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, bend the tabs of the lock washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the lock nut and lock washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and park/neutral position switch.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

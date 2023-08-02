@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7ARMA_T009M" variety="T009M">
+<name>OUTER MIRROR COVER</name>
+<para id="RM000004RUS00GX" category="A" type-id="80001" name-id="MX2SX-03" from="201202" to="201403">
+<name>REMOVAL</name>
+<subpara id="RM000004RUS00GX_02" type-id="11" category="10" proc-id="RM21Q0EV__000046200000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004RUS00GX_01" type-id="01" category="01">
+<s-1 id="RM000004RUS00GX_01_0004" proc-id="RM21Q0EV__000046000000">
+<ptxt>REMOVE OUTER REAR VIEW MIRROR ASSEMBLY LH (w/ Side Turn Signal Light)</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000015DU037X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000004RUS00GX_01_0001" proc-id="RM21Q0EV__000045S00000">
+<ptxt>REMOVE OUTER MIRROR LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver with its tip, detach the 2 claws as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B278386E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw Driver</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Do not pull the outer mirror LH with excessive force. Doing so may cause the actuator to come off or break the mirror surface.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Apply protective tape to the mirror body and screw driver.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B278387" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the 2 claws at the upper part of the outer mirror.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the outer mirror LH.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004RUS00GX_01_0002" proc-id="RM21Q0EV__000045Z00000">
+<ptxt>REMOVE OUTER MIRROR COVER LH (w/ Side Turn Signal Light)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B278447E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the tape.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B280806" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the screw, detach the 10 claws and remove the rubber base.</ptxt>
+<atten4>
+<ptxt>It is not necessary to completely remove the rubber base. Slightly more the rubber base so that the outer mirror cover LH can be removed in a later step.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B278380" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a T25 "TORX" socket wrench, remove the 3 screws.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B278382" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<ptxt>Remove the 3 screws.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B280813" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a screwdriver, detach the 6 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B280814" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt> Detach the 2 claws and remove the outer mirror cover LH as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RUS00GX_01_0005" proc-id="RM21Q0EV__000046100000">
+<ptxt>REMOVE OUTER MIRROR COVER LH (w/o Side Turn Signal Light)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B280810E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a screwdriver, detach the 6 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B280807E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the 3 claws as shown in the illustration and remove the outer mirror cover LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

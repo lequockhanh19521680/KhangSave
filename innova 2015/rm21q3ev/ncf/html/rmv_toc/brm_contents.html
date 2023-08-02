@@ -1,0 +1,60 @@
+<!-- $Id: brm_contents.html,v 1.1 2010/04/21 08:02:08 kse-narumi Exp $ -->
+<!--========================================================================-->
+<!-- for Translation                                                        -->
+<!--    title(element)                                                      -->
+<!--    001 CONTENT_NOT_EXISTS_ERROR                                        -->
+<!--========================================================================-->
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>GSIC - Global Service Information Center -Installation and Removal Menu-</title>
+<link href="../../css/contents.css" rel="stylesheet" type="text/css">
+<script language="javascript">
+var CONTENT_NOT_EXISTS_ERROR = "There is no information available.";   // 001
+function init() {
+	var titleList = parent.g_tocXml.selectNodes("//ttl[para/@id='"+parent.g_parag+"']");
+	if (titleList.length == 1) {
+		var titleNode = titleList.item(0);
+		var titleId = titleNode.getAttribute("id");
+		displayContents(titleId);
+	} else {
+		alert(CONTENT_NOT_EXISTS_ERROR);
+	}
+}
+var DELIM = " &gt; ";
+function displayContents(titleId) {
+	var paraList = parent.g_tocXml.selectNodes("//ttl[@id='"+titleId+"']/para[@category='A']/@id");
+	var objTemp  = new ActiveXObject("Msxml2.XSLTemplate");
+	objTemp.stylesheet = parent.g_objXsl;
+	var objProc  = objTemp.createProcessor();
+	var secName = "";
+	var ttlName = "";
+	for (var i=0; i<paraList.length; i++) {
+		paraId = paraList.item(i).nodeTypedValue;
+		var objXml = parent.initXml(paraId.toLowerCase()+".xml");
+		if (i==0) {
+			secName = parent.getSectionName(paraId, objXml);
+			ttlName = parent.getTitleName(paraId, objXml);
+		}
+		var paraName = parent.getParagraphNameList(paraId, "name", objXml)[0];
+		objProc.input = objXml;
+		objProc.transform();
+		disp.innerHTML += "<p class='location'>"
+										+ secName + DELIM
+										+ ttlName + DELIM
+										+ paraName
+										+ "</p>";
+		disp.innerHTML += objProc.output;
+		disp.innerHTML += "<br clear='all'/><br/><br/>";
+	}
+	parent.loadMemoData(document, parent.REPAIR);
+}
+</script>
+</head>
+<body onLoad="init();">
+	<div id="disp"></div>
+</body>
+</html>

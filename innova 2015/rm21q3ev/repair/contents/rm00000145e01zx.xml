@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name>
+<ttl id="1000C_S0009_7A7YR_T0035" variety="T0035">
+<name>RADIATOR</name>
+<para id="RM00000145E01ZX" category="A" type-id="30014" name-id="CO67B-02" from="201403">
+<name>INSTALLATION</name>
+<subpara id="RM00000145E01ZX_01" type-id="01" category="01">
+<s-1 id="RM00000145E01ZX_01_0001" proc-id="RM21Q0EV__00000GW00001">
+<ptxt>INSTALL RADIATOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099640E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the radiator with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A110375" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Attach the 4 clamps to the radiator side as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the 2 front airbag sensor connectors.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0025" proc-id="RM21Q0EV__00000RL00001">
+<ptxt>CONNECT OIL COOLER INLET HOSE (for Automatic Transmission)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the oil cooler inlet hose to the radiator.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0026" proc-id="RM21Q0EV__00000RM00001">
+<ptxt>CONNECT OIL COOLER OUTLET HOSE (for Automatic Transmission)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the oil cooler outlet hose to the radiator.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0004" proc-id="RM21Q0EV__00000GX00001">
+<ptxt>INSTALL FAN SHROUD</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099679E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the fan pulley to the water pump.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the shroud together with the fluid coupling fan between the radiator and engine.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the radiator core.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the coupling fan to the water pump with the 4 nuts. Tighten the nuts as much as possible by hand.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the shroud's claws to the radiator as shown in A in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the shroud with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the reservoir hose to the radiator tank upper.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the drive belt (see page <xref label="Seep01" href="RM000000YMN02MX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 4 nuts of the fluid coupling fan.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>255</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0020" proc-id="RM21Q0EV__00000RJ00001">
+<ptxt>INSTALL RADIATOR HOSE INLET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the hose to the radiator tank upper and engine.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0021" proc-id="RM21Q0EV__00000RK00001">
+<ptxt>CONNECT RADIATOR HOSE OUTLET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the hose to the radiator tank lower.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0008">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0018" proc-id="RM21Q0EV__000005L00000">
+<ptxt>ADD ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten all the plugs and fill the radiator with TOYOTA Super Long Life Coolant (SLLC).</ptxt>
+<torque>
+<torqueitem>
+<t-value1>130</t-value1>
+<t-value2>1326</t-value2>
+<t-value4>96</t-value4>
+<ptxt> for cylinder block drain cock plug</ptxt>
+</torqueitem>
+</torque>
+<spec>
+<title>Standard Capacity</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Manual Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.8 liters (8.2 US qts, 6.9 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.1 liters (8.6 US qts, 7.1 Imp. qts)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>TOYOTA vehicles are filled with TOYOTA SLLC at the factory. In order to avoid damage to the engine cooling system and other technical problems, only use TOYOTA SLLC or similar high quality ethylene glycol based non-silicate, non-amine, non-nitrite, non-borate coolant with long-life hybrid organic acid technology (coolant with long-life hybrid organic acid technology is a combination of low phosphates and organic acids).</ptxt>
+</item>
+<item>
+<ptxt>Please contact your TOYOTA dealer for further details.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<ptxt>Never use water as a substitute for engine coolant.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Fill the radiator reservoir with TOYOTA SLLC to the F line.</ptxt>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand, and then check the level of the coolant.</ptxt>
+<ptxt>If the coolant level drops below the F line, add TOYOTA SLLC to the F line.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Bleed air from the cooling system.</ptxt>
+<s3>
+<ptxt>Warm up the engine until the thermostat opens.</ptxt>
+<ptxt>While the thermostat is open, circulate the coolant for several minutes.</ptxt>
+</s3>
+<s3>
+<ptxt>Maintain the engine speed at 2,500 to 3,000 rpm.</ptxt>
+</s3>
+<s3>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand to bleed air.</ptxt>
+<atten2>
+<title>When pressing the radiator hoses:</title>
+<list1 type="unordered">
+<item>
+<ptxt>Wear protective gloves.</ptxt>
+</item>
+<item>
+<ptxt>Be careful as the radiator hoses are hot.</ptxt>
+</item>
+<item>
+<ptxt>Keep your hands away from the radiator fan.</ptxt>
+</item>
+</list1>
+</atten2>
+</s3>
+</s2>
+<s2>
+<ptxt>Stop the engine and wait until the coolant cools down to ambient temperature.</ptxt>
+<atten2>
+<ptxt>Do not remove the radiator cap while the engine and radiator are still hot. Pressurized, hot engine coolant and steam may be released and cause serious burns.</ptxt>
+</atten2>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the coolant level in the radiator reservoir.</ptxt>
+<ptxt>If the coolant level is below the L line, add SLLC up to the reservoir F line.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000145E01ZX_01_0009" proc-id="RM21Q0EV__00000RH00001">
+<ptxt>CHECK FOR ENGINE COOLANT LEAKS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check for engine coolant leaks (see page <xref label="Seep01" href="RM000001454018X_01_0001"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0024" proc-id="RM21Q0EV__00005MZ00000">
+<ptxt>INSTALL RADIATOR GRILLE</ptxt>
+<content1 releasenbr="3">
+<list1 type="unordered">
+<item>
+<ptxt>for Standard: (See page <xref label="Seep01" href="RM000004S3F00HX"/>)</ptxt>
+</item>
+<item>
+<ptxt>except Standard: (See page <xref label="Seep02" href="RM000005NNB001X"/>)</ptxt>
+</item>
+</list1>
+</content1>
+</s-1>
+<s-1 id="RM00000145E01ZX_01_0015" proc-id="RM21Q0EV__00000RI00001">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

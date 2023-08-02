@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AVR8_T00AD" variety="T00AD">
+<name>WASHER NOZZLE (for Front)</name>
+<para id="RM00000332U01GX" category="A" type-id="30014" name-id="WW3TT-14" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000332U01GX_01" type-id="01" category="01">
+<s-1 id="RM00000332U01GX_01_0001" proc-id="RM21Q0EV__00004TT00000">
+<ptxt>INSTALL WASHER NOZZLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect a new washer nozzle sub-assembly to the washer hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 claws to install the washer nozzle sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E226580" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

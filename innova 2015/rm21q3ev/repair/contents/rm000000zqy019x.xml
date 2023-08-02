@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQY019X" category="J" type-id="3018M" name-id="ES10P0-001" from="201202">
+<dtccode/>
+<dtcname>MIL Circuit</dtcname>
+<subpara id="RM000000ZQY019X_01" type-id="60" category="03" proc-id="RM21Q0EV__00000A100000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The MIL is used to inform the user when the ECM has detected a vehicle malfunction.</ptxt>
+<ptxt>By turning the ignition switch ON, power is supplied to the MIL circuit, and the ECM provides the circuit ground that illuminates the MIL.</ptxt>
+<ptxt>Operation of the MIL should be checked visually:</ptxt>
+<ptxt>When the ignition switch is first turned ON, the MIL should illuminate. When the engine is started, the MIL should turn off.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQY019X_02" type-id="32" category="03" proc-id="RM21Q0EV__00000A200000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A115353E03" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQY019X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000ZQY019X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQY019X_04_0013" proc-id="RM21Q0EV__00000A800000">
+<testtitle>CHECK THAT MIL IS ILLUMINATED</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Perform troubleshooting in accordance with the chart below.</ptxt>
+<spec>
+<title>Result</title>
+<table>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>MIL remains ON</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>MIL does not illuminate</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQY019X_04_0001" fin="false">A</down>
+<right ref="RM000000ZQY019X_04_0008" fin="false">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0001" proc-id="RM21Q0EV__00000A300000">
+<testtitle>CHECK IF MIL TURNS OFF</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and turn the intelligent tester ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check if DTCs have been stored (see page <xref label="Seep01" href="RM000000ZPW01AX"/>). If DTCs are present, write them down. </ptxt>
+</test1>
+<test1>
+<ptxt>Clear the DTCs using the intelligent tester (see page <xref label="Seep02" href="RM000000ZPW01AX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Check that the MIL turns off.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> The MIL turns off.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQY019X_04_0002" fin="false">NG</down>
+<right ref="RM000000ZQY019X_04_0004" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0002" proc-id="RM21Q0EV__00000A400000">
+<testtitle>CHECK WIRE HARNESS (FOR SHORT)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A065744E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E10 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the MIL is not illuminated.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> The MIL is not illuminated.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQY019X_04_0003" fin="false">NG</down>
+<right ref="RM000000ZQY019X_04_0005" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0003" proc-id="RM21Q0EV__00000A500000">
+<testtitle>CHECK WIRE HARNESS (ECM - COMBINATION METER)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034708E15" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E10 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the C20 combination meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.3340527in"/>
+<colspec colnum="2" colname="c2" colwidth="1.8517505in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E10-30 (W) - C20-39</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>E10-30 (W) or C20-39 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQY019X_04_0007" fin="true">OK</down>
+<right ref="RM000000ZQY019X_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0004">
+<testtitle>REPAIR CIRCUIT INDICATED BY OUTPUT DTC</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0005">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0006">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0007">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0008" proc-id="RM21Q0EV__00000A600000">
+<testtitle>CHECK IF MIL ILLUMINATES</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that the MIL illuminates when turning the ignition switch ON.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt> The MIL illuminates.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQY019X_04_0014" fin="false">NG</down>
+<right ref="RM000000ZQY019X_04_0010" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0014" proc-id="RM21Q0EV__00000A900000">
+<testtitle>CHECK THAT ENGINE STARTS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Start the engine.</ptxt>
+</test1>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed To</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Engine starts</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Engine does not start*</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: The intelligent tester cannot communicate with the ECM.</ptxt>
+</atten4>
+</content6>
+<res>
+<down ref="RM000000ZQY019X_04_0009" fin="false">A</down>
+<right ref="RM000000ZQY019X_04_0015" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0009" proc-id="RM21Q0EV__00000A700000">
+<testtitle>INSPECT COMBINATION METER ASSEMBLY (MIL CIRCUIT)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>See the combination meter troubleshooting procedure (see page <xref label="Seep01" href="RM000003ODI002X"/>). </ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQY019X_04_0012" fin="true">OK</down>
+<right ref="RM000000ZQY019X_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0010">
+<testtitle>NORMAL</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0011">
+<testtitle>REPAIR OR REPLACE BULB OR COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0012">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR (COMBINATION METER - ECM)</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQY019X_04_0015">
+<testtitle>GO TO VC OUTPUT CIRCUIT</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

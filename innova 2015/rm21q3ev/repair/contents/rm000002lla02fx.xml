@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LLA02FX" category="D" type-id="303F3" name-id="ACCUR-13" from="201202">
+<name>DIAGNOSIS SYSTEM</name>
+<subpara id="RM000002LLA02FX_z0" proc-id="RM21Q0EV__00004PR00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DESCRIPTION</ptxt>
+<step2>
+<ptxt>Air conditioning system data and Diagnostic Trouble Codes (DTCs) can be read through the Data Link Connector 3 (DLC3) of the vehicle. When the system seems to be malfunctioning, use the intelligent tester to check for malfunctions and perform troubleshooting.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK DLC3</ptxt>
+<step2>
+<ptxt>Check the DLC3 (See page <xref label="Seep01" href="RM000000UZ20AZX"/>).</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>LIST OF OPERATION METHODS</ptxt>
+<step2>
+<ptxt>By operating each of the air conditioning control switches as shown in the diagram below, it is possible to enter diagnostic check mode.</ptxt>
+<figure>
+<graphic graphicname="E165567E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

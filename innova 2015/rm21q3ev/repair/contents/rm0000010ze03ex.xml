@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A83D_T007R" variety="T007R">
+<name>POWER WINDOW CONTROL SYSTEM</name>
+<para id="RM0000010ZE03EX" category="D" type-id="303F2" name-id="WS07A-07" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM0000010ZE03EX_z0" proc-id="RM21Q0EV__00002QQ00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>POWER WINDOW CONTROL SYSTEM DESCRIPTION</ptxt>
+<ptxt>The power window control system controls the power windows' UP / DOWN function using the regulator motors.</ptxt>
+<ptxt>The main controls of this system are: the power window regulator master switch, which is built into the driver side door, and the power window regulator switches, which are built into the passenger side door and rear doors. Pressing a regulator switch or any of the switches on the master switch transmits an UP / DOWN signal to the corresponding power window regulator motor.</ptxt>
+</step1>
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENT</ptxt>
+</step1>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Component</ptxt>
+</entry>
+<entry>
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Power Window Regulator Master Switch Assembly</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Controls window operations for all windows</ptxt>
+</item>
+<item>
+<ptxt>When window lock switch is set to lock position, window operation will only be possible with master switch's driver switch</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Power Window Regulator Switch Assembly</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Located on passenger side door and rear doors</ptxt>
+</item>
+<item>
+<ptxt>Each regulator switch controls window operations for its respective window</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Power Window Regulator Motor Assembly</ptxt>
+</entry>
+<entry>
+<ptxt>Receives switch signals and changes signals into motor activation to change window position</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<step1>
+<ptxt>SYSTEM FUNCTION</ptxt>
+<ptxt>The power window control system has the following functions.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Function</ptxt>
+</entry>
+<entry>
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Manual UP / DOWN function</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Driver side power window:</ptxt>
+<ptxt>Function that raises window while power window switch is pulled up, and lowers window while pushed halfway down (window stops as soon as switch is released)</ptxt>
+</item>
+<item>
+<ptxt>Other power windows:</ptxt>
+<ptxt>Function that raises window while power window switch is pulled up, and lowers window while pushed down (window stops as soon as switch is released)</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>AUTO DOWN function</ptxt>
+</entry>
+<entry>
+<ptxt>Function that enables window of driver side door to be fully opened by one full push downward on power window switch</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Remote UP / DOWN function</ptxt>
+</entry>
+<entry>
+<ptxt>Function that allows power window master switch to control manual UP / DOWN operation of passenger side power window and rear power windows</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Window lock function</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Function that disables passenger side power window and rear power window operations when window lock switch of master switch is pressed</ptxt>
+</item>
+<item>
+<ptxt>Passenger side power window and rear power windows can be operated when window lock switch is pressed again</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

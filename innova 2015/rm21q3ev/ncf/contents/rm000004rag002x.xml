@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12007_S0004" variety="S0004">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="12007_S0004_7AH5Q_T0002" variety="T0002">
+<name>ENGINE UNIT</name>
+<para id="RM000004RAG002X" category="F" type-id="8048W" name-id="EM9YR-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004RAG002X_z0" proc-id="NM21Q0EV__000000500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The 1TR-FE engine is an in-line 4-cylinder, 2.0-liter, 16-valve DOHC engine.</ptxt>
+</step2>
+<step2>
+<ptxt>On this engine, the Variable Valve Timing-intelligent (VVT-i) system and Electronic Throttle Control System-intelligent (ETCS-i) are used. These control functions have been optimized to further improve engine performance and fuel economy, and to reduce exhaust emissions.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.06in"/>
+<colspec colname="COL3" colwidth="1.06in"/>
+<colspec colname="COL4" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>No. of Cyls. and Arrangement</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4-cylinder, In-line</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Valve Mechanism</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>16-valve DOHC, Chain Drive (with VVT-i)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Combustion Chamber</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Pentroof Type</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Manifolds</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Cross-flow</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Fuel System</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Sequential Multiport Fuel Injection (SFI)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Ignition System</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Direct Ignition System (DIS)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Displacement</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1998 cm<sup>3</sup> (121.9 cu. in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Bore x Stroke</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>86.0 mm x 86.0 mm (3.39 in. x 3.39 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Compression Ratio</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>9.8 : 1</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Max. Output [SAE-NET]</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>100 kW @ 5600 rpm</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Max. Torque [SAE-NET]</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>182 N*m @ 4000 rpm</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" valign="middle">
+<ptxt>Valve Timing</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Intake</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Open</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0° to 40° BTDC</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Closed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>64° to 24° ABDC</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Exhaust</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Open</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>44° BBDC</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Closed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>8° ATDC</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Spark Plug</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL3" valign="middle">
+<ptxt>Manufacturer</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DENSO</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COL3" valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>K20HR-U11</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL2" nameend="COL3" valign="middle">
+<ptxt>Plug Gap</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.0 mm to 1.1 mm (0.0394 in. to 0.0433 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Firing Order</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1 - 3 - 4 - 2</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Research Octane Number</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>91 or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Emission Regulation</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>EURO 2</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL3" valign="middle">
+<ptxt>Engine Service Mass (Reference)*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>144 kg (317 lb)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: Weight shows the figure with oil and coolant fully filled.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="W104267E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step1>
+<step1>
+<ptxt>MAIN FEATURES</ptxt>
+<step2>
+<ptxt>This engine has been able to achieve the following performance features through the use of the items listed below:</ptxt>
+<step3>
+<ptxt>High performance and fuel economy</ptxt>
+</step3>
+<step3>
+<ptxt>Low noise and vibration</ptxt>
+</step3>
+<step3>
+<ptxt>Lightweight and compact design</ptxt>
+</step3>
+<step3>
+<ptxt>Good serviceability</ptxt>
+</step3>
+<step3>
+<ptxt>Clean emissions</ptxt>
+<table pgwide="1">
+<tgroup cols="7">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.57in"/>
+<colspec colname="COL4" colwidth="0.57in"/>
+<colspec colname="COL5" colwidth="0.57in"/>
+<colspec colname="COL6" colwidth="0.57in"/>
+<colspec colname="COL7" colwidth="0.55in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>(1)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>(2)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>(3)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>(4)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>(5)</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="3" valign="middle">
+<ptxt>Engine Proper</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A cylinder head cover made of plastic is used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A taper squish shape is used for the combustion chamber.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>The piston skirt is coated with resin.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A No. 1 oil pan made of aluminum alloy is used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Valve Mechanism</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Timing chains and chain tensioners are used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Valve lash adjuster assemblies are used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Valve rocker arm sub-assemblies are used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Intake and Exhaust System</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>An intake manifold made of plastic is used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A linkless-type throttle body is used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A Three-Way Catalysts (TWCs) are used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Fuel System</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Long nozzle, 12-hole type fuel injector assemblies are used to improve the atomization of fuel.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Quick connectors are used to connect the fuel hose with the fuel pipe.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition System</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Long-reach type spark plugs are used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Serpentine Belt Drive System</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A serpentine belt drive system is used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Engine Control System</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The Electronic Throttle Control System-intelligent (ETCS-i) is used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>The Direct Ignition System (DIS) makes ignition timing adjustment unnecessary.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>The Variable Valve Timing-intelligent (VVT-i) system is used.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

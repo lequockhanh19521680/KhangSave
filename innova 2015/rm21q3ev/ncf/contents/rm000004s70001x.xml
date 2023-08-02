@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12059_S000X" variety="S000X">
+<name>SEAT</name>
+<ttl id="12059_S000X_7AJVK_T000X" variety="T000X">
+<name>SEAT ASSEMBLY</name>
+<para id="RM000004S70001X" category="F" type-id="8048Z" name-id="SE7RT-01" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004S70001X_z0" proc-id="NM21Q0EV__000002Q00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION</ptxt>
+<step2>
+<ptxt>Rear Seat</ptxt>
+<step3>
+<ptxt>A fold and tumble mechanism is used in the rear No. 1 seats. A folding-up mechanism is used in the rear No. 2 seats. These seats create an ample cargo area that enhances the utility of the vehicle.</ptxt>
+<figure>
+<graphic graphicname="V101329E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear No. 1 Seat Fold and Tumble Mechanism</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear No. 2 Seat Folding-up Mechanism</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

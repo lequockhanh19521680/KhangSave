@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N6Q00LX" category="L" type-id="3001A" name-id="ME1S9-03" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000003N6Q00LX_z0" proc-id="RM21Q0EV__00002L500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>PRECAUTIONS FOR TOYOTA PARKING ASSIST-SENSOR SYSTEM</ptxt>
+<step2>
+<ptxt>Under the following conditions, the detection function may not function properly:</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>In very cold weather when the malfunction display appears, the sensor may not be able to detect obstacles.</ptxt>
+</item>
+<item>
+<ptxt>If the malfunction display appears, visually check the sensor first. If the sensor is free of foreign matter but the malfunction display remains, the sensor may have a malfunction.</ptxt>
+</item>
+</list1>
+</atten4>
+<step3>
+<ptxt>The sensor is covered with foreign matter, such as mud or snow (the detection function returns to normal when the sensor is cleaned).</ptxt>
+</step3>
+<step3>
+<ptxt>The sensor is frozen (the detection function returns to normal when the temperature of the sensor rises).</ptxt>
+</step3>
+<step3>
+<ptxt>The sensor is covered by a hand.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>The detection range may be affected by the following conditions:</ptxt>
+<step3>
+<ptxt>The sensor is covered with foreign matter, such as mud or snow.</ptxt>
+</step3>
+<step3>
+<ptxt>The vehicle is in an excessively hot or cold area.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Under the following conditions, a detection error may occur:</ptxt>
+<step3>
+<ptxt>Driving on a bumpy road, an unpaved road, or in tall grass.</ptxt>
+</step3>
+<step3>
+<ptxt>Ultrasonic waves from items such as another vehicle horn, motorcycle engines, a large vehicle's air brakes, or another vehicle sonar are transmitted near the vehicle.</ptxt>
+</step3>
+<step3>
+<ptxt>It is raining heavily or the sensor comes into contact with water (sprayed).</ptxt>
+</step3>
+<step3>
+<ptxt>The vehicle is tilted at a steep angle.</ptxt>
+</step3>
+<step3>
+<ptxt>The vehicle is equipped with a fender pole or a wireless antenna.</ptxt>
+</step3>
+<step3>
+<ptxt>The sensor is covered with foreign matter, such as mud or snow.</ptxt>
+</step3>
+<step3>
+<ptxt>The vehicle is moving toward a high curb or the corner of a pointed object.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>The sensor cannot detect some objects such as the following:</ptxt>
+<step3>
+<ptxt>Thin objects, such as wires and ropes</ptxt>
+</step3>
+<step3>
+<ptxt>Materials that absorb ultrasonic waves, such as cotton, snow, etc.</ptxt>
+</step3>
+<step3>
+<ptxt>Objects with sharp edges</ptxt>
+</step3>
+<step3>
+<ptxt>Short objects</ptxt>
+</step3>
+<step3>
+<ptxt>Tall, overhanging objects</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Other notices:</ptxt>
+<step3>
+<ptxt>The sensor cannot detect objects directly under the bumper. (The sensor may detect low objects and thin poles, and then lose track of the objects.)</ptxt>
+</step3>
+<step3>
+<ptxt>The sensor may not be able to detect obstacles that are too close to the sensor.</ptxt>
+</step3>
+<step3>
+<ptxt>The sensor may not be able to detect obstacles if it is dropped or subjected to a strong impact.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db><pub id="RM21Q3EV"><servcat id="38"><name>HEATER &amp; AIR CONDITIONING SYSTEM</name><section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name><ttl id="1002K_S000R_7A81A_T005O" variety="T005O"><name>AIR CONDITIONING SYSTEM (for Manual Air Conditioning System)</name>
+<parts id="M000112"><name>AIR CONDITIONING SYSTEM</name></parts>
+<para id="RM0000028I5002X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="B001045"><name>ECM VOLTAGE</name></parts><parts id="F00003Y"><name>AIR CONDITIONING</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7"><name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<parts id="M000112"><name>AIR CONDITIONING SYSTEM</name></parts>
+
+<para id="RM000001DT8029X" category="C" type-id="300BW" from="201403"><name>11</name>
+
+
+
+
+<parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="88625C"><name>COOLER THERMISTOR</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+
+<para id="RM000001DT902AX" category="C" type-id="300BX" from="201403"><name>12</name>
+
+
+
+
+<parts id="88790B"><name>THERMISTOR ASSEMBLY</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="83290D"><name>ACCESSORY METER ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+
+<para id="RM000001DTA02AX" category="C" type-id="300BY" from="201403"><name>13</name>
+
+
+
+
+<parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="88625"><name>COOLER THERMISTOR NO.1</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+
+<para id="RM000001LZL01HX" category="C" type-id="300BZ" from="201403"><name>14</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="M000235"><name>SFI SYSTEM</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B800737"><name>DTC</name></parts></para>
+
+<para id="RM000001DTK02BX" category="C" type-id="302XS" from="201403"><name>21</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="88625H"><name>COOLER (SOLAR SENSOR) THERMISTOR</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+
+<para id="RM000001DTB028X" category="C" type-id="300C4" from="201403"><name>23</name>
+
+
+
+
+<parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="88710E"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="J800003"><name>REFRIGERANT</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="F000214"><name>OPERATION</name></parts><parts id="B417002"><name>REFRIGERANT PRESSURE</name></parts></para>
+
+<para id="RM000001LZM01EX" category="C" type-id="801IA" from="201403"><name>41</name>
+
+
+
+
+<parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B898409"><name>END</name></parts><parts id="87106L"><name>DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000002"><name>ACTUATOR</name></parts></para>
+
+<para id="RM000001DTC028X" category="C" type-id="300CB" from="201403"><name>42</name>
+
+
+
+
+<parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B898409"><name>END</name></parts><parts id="87106N"><name>RECIRCULATION DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000002"><name>ACTUATOR</name></parts></para>
+
+<para id="RM000001DTD028X" category="C" type-id="300CC" from="201403"><name>43</name>
+
+
+
+
+<parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B898409"><name>END</name></parts><parts id="87106J"><name>MODE DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000002"><name>ACTUATOR</name></parts></para>
+
+<para id="RM000001DTJ029X" category="J" type-id="300DO" from="201403"><name>Vehicle Speed Signal Circuit</name>
+
+
+
+
+
+<parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+
+<para id="RM000001DTI02OX" category="J" type-id="300CJ" from="201403"><name>Blower Motor Circuit</name>
+
+
+
+
+<parts id="87165C"><name>BLOWER MOTOR CONTROL</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="87103B"><name>BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000002"><name>ACTUATOR</name></parts></para>
+
+<para id="RM000001DTH02DX" category="J" type-id="800OV" from="201403"><name>Air Conditioning Compressor Magnetic Clutch Circuit</name>
+
+
+
+
+<parts id="B898409"><name>END</name></parts><parts id="89661A"><name>ECM</name></parts><parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="88410"><name>MAGNET CLUTCH ASSEMBLY</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="85934"><name>MAGNET-CLUTCH RELAY</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B702000"><name>INTELLIGENT TESTER</name></parts></para>
+
+<para id="RM000001DTG028X" category="J" type-id="300CH" from="201403"><name>Heater Relay Circuit</name>
+
+
+
+
+<parts id="88650E"><name>AIR CONDITIONING AMPLIFIER ASSY NO.1</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="85913C"><name>HEATER RELAY NO.1</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+
+<para id="RM000002LLU063X" category="J" type-id="300CF" from="201403"><name>IG Power Source Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+
+<para id="RM000002LLV066X" category="J" type-id="300CG" from="201403"><name>Back-up Power Source Circuit</name>
+
+
+
+
+<parts id="B000701"><name>HARNESS OR CONNECTOR</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A80Y_T005C" variety="T005C"><name>REFRIGERANT</name>
+<parts id="J800003"><name>REFRIGERANT</name></parts>
+<para id="RM00000246U003X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="B417002"><name>REFRIGERANT PRESSURE</name></parts><parts id="B900991"><name>REFRIGERANT VOLUME</name></parts></para>
+<para id="RM00000246T003X" category="A" type-id="30019" from="201202"><name>REPLACEMENT</name>
+
+<parts id="F0001XI"><name>REFRIGERANT LEAK</name></parts><parts id="J000025"><name>ENGINE</name></parts><parts id="F0001XH"><name>REFRIGERANT</name></parts><parts id="F0001XG"><name>REFRIGERANT FROM REFRIGERATION SYSTEM</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A811_T005F" variety="T005F"><name>AIR CONDITIONING UNIT</name>
+<parts id="B800459"><name>AIR CONDITIONING UNIT</name></parts>
+<para id="RM0000012JP01PX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="87211B"><name>AIR DUCT NO.3</name></parts><parts id="87010"><name>AIR CONDITIONING UNIT ASSY</name></parts><parts id="88539"><name>COOLER UNIT DRAIN HOSE NO.1</name></parts><parts id="55331"><name>INSTRUMENT PANEL REINFORCEMENT</name></parts><parts id="89661"><name>ECM</name></parts><parts id="88505"><name>AIR CONDITIONING DUCT SUB-ASSY</name></parts><parts id="55306A"><name>INSTRUMENT PANEL BRACE SUB-ASSEMBLY NO.1</name></parts><parts id="87211C"><name>AIR DUCT NO.4</name></parts><parts id="87211A"><name>AIR DUCT NO.2</name></parts><parts id="87211"><name>AIR DUCT NO.1</name></parts><parts id="45250"><name>STEERING COLUMN ASSEMBLY</name></parts><parts id="55303B"><name>INSTRUMENT PANEL SUB-ASSEMBLY LOWER</name></parts><parts id="55950G"><name>DEFROSTER NOZZLE ASSEMBLY</name></parts><parts id="55847B"><name>HEATER TO REGISTER DUCT NO.5</name></parts><parts id="55844"><name>HEATER TO REGISTER DUCT NO.2</name></parts><parts id="55843A"><name>HEATER TO REGISTER DUCT NO.1</name></parts><parts id="55845A"><name>HEATER TO REGISTER DUCT NO.3</name></parts><parts id="55302A"><name>INSTRUMENT PANEL SUB-ASSEMBLY UPPER</name></parts><parts id="87246"><name>HEATER WATER HOSE OUTLET</name></parts><parts id="87245"><name>HEATER WATER HOSE INLET</name></parts><parts id="88710E"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="88704"><name>SUCTION HOSE SUB-ASSEMBLY</name></parts><parts id="B002086"><name>CABLE FROM NEGATIVE BATTERY TERMINAL</name></parts><parts id="B001391"><name>PRECAUTION</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="F0001XG"><name>REFRIGERANT FROM REFRIGERATION SYSTEM</name></parts></para>
+<para id="RM0000012JQ024X" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="88625"><name>COOLER THERMISTOR NO.1</name></parts><parts id="88515"><name>COOLER EXPANSION VALVE</name></parts><parts id="88501"><name>COOLER EVAPORATOR SUB-ASSEMBLY NO.1</name></parts><parts id="87107A"><name>HEATER RADIATOR UNIT SUB-ASSEMBLY</name></parts><parts id="87106J"><name>MODE DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="87106H"><name>AIRMIX DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="55906"><name>HEATER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="55909A"><name>AIRMIX DAMPER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="87130D"><name>BLOWER ASSEMBLY</name></parts><parts id="88650B"><name>AIRCONDITIONER AMPLIFIER ASSEMBLY</name></parts></para>
+<para id="RM0000012JR024X" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="88650B"><name>AIRCONDITIONER AMPLIFIER ASSEMBLY</name></parts><parts id="87130D"><name>BLOWER ASSEMBLY</name></parts><parts id="87106H"><name>AIRMIX DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="87106J"><name>MODE DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="55909A"><name>AIRMIX DAMPER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="55906"><name>HEATER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="87107A"><name>HEATER RADIATOR UNIT SUB-ASSEMBLY</name></parts><parts id="88501"><name>COOLER EVAPORATOR SUB-ASSEMBLY NO.1</name></parts><parts id="88515"><name>COOLER EXPANSION VALVE</name></parts><parts id="88625"><name>COOLER THERMISTOR NO.1</name></parts></para>
+<para id="RM0000012JN01PX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+
+<parts id="B800000"><name>SRS WARNING LIGHT</name></parts><parts id="J800003"><name>REFRIGERANT</name></parts><parts id="F0003R4"><name>COOLANT LEAKS</name></parts><parts id="B000169"><name>WARM UP ENGINE</name></parts><parts id="B001610"><name>ENGINE COOLANT</name></parts><parts id="B002087"><name>CABLE TO NEGATIVE BATTERY TERMINAL</name></parts><parts id="88704"><name>SUCTION HOSE SUB-ASSEMBLY</name></parts><parts id="88710E"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="87245"><name>HEATER WATER HOSE INLET</name></parts><parts id="87246"><name>HEATER WATER HOSE OUTLET</name></parts><parts id="55302A"><name>INSTRUMENT PANEL SUB-ASSEMBLY UPPER</name></parts><parts id="55845A"><name>HEATER TO REGISTER DUCT NO.3</name></parts><parts id="55843A"><name>HEATER TO REGISTER DUCT NO.1</name></parts><parts id="55844"><name>HEATER TO REGISTER DUCT NO.2</name></parts><parts id="55847B"><name>HEATER TO REGISTER DUCT NO.5</name></parts><parts id="55950G"><name>DEFROSTER NOZZLE ASSEMBLY</name></parts><parts id="55303B"><name>INSTRUMENT PANEL SUB-ASSEMBLY LOWER</name></parts><parts id="45250"><name>STEERING COLUMN ASSEMBLY</name></parts><parts id="87211"><name>AIR DUCT NO.1</name></parts><parts id="87211A"><name>AIR DUCT NO.2</name></parts><parts id="87211C"><name>AIR DUCT NO.4</name></parts><parts id="55306A"><name>INSTRUMENT PANEL BRACE SUB-ASSEMBLY NO.1</name></parts><parts id="87010"><name>AIR CONDITIONING UNIT ASSY</name></parts><parts id="88505"><name>AIR CONDITIONING DUCT SUB-ASSY</name></parts><parts id="89661"><name>ECM</name></parts><parts id="55331"><name>INSTRUMENT PANEL REINFORCEMENT</name></parts><parts id="88539"><name>COOLER UNIT DRAIN HOSE NO.1</name></parts><parts id="87211B"><name>AIR DUCT NO.3</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A810_T005E" variety="T005E"><name>REAR COOLING UNIT</name>
+<parts id="F000157"><name>REAR COOLING UNIT</name></parts>
+<para id="RM000001JR2021X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88510T"><name>COOLING (REAR) UNIT ASSEMBLY</name></parts><parts id="88710H"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="88891S"><name>COOLER COVER NO.1</name></parts><parts id="62930B"><name>QUARTER VENT DUCT ASSEMBLY RH</name></parts><parts id="52159"><name>REAR BUMPER COVER</name></parts><parts id="88566A"><name>COOLER AIR DUCT NO.1</name></parts><parts id="88566B"><name>COOLER AIR DUCT NO.2</name></parts><parts id="88566C"><name>COOLER AIR DUCT NO.3</name></parts><parts id="63310"><name>ROOF HEADLINING ASSEMBLY</name></parts><parts id="F0001XG"><name>REFRIGERANT FROM REFRIGERATION SYSTEM</name></parts></para>
+<para id="RM000001JR302GX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="88515B"><name>REAR COOLING UNIT EXPANSION VALVE</name></parts><parts id="88710H"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="87103D"><name>REAR BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts><parts id="88539C"><name>COOLER UNIT DRAIN HOSE NO.2</name></parts><parts id="87138D"><name>BLOWER (REAR) RESISTOR</name></parts></para>
+<para id="RM000001JR402HX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="87138D"><name>BLOWER (REAR) RESISTOR</name></parts><parts id="88539C"><name>COOLER UNIT DRAIN HOSE NO.2</name></parts><parts id="87103D"><name>REAR BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts><parts id="88710H"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="88515B"><name>REAR COOLING UNIT EXPANSION VALVE</name></parts></para>
+<para id="RM000001JR102BX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="J800003"><name>REFRIGERANT</name></parts><parts id="B000169"><name>WARM UP ENGINE</name></parts><parts id="F0001XH"><name>REFRIGERANT</name></parts><parts id="63310"><name>ROOF HEADLINING ASSEMBLY</name></parts><parts id="88566C"><name>COOLER AIR DUCT NO.3</name></parts><parts id="88566B"><name>COOLER AIR DUCT NO.2</name></parts><parts id="88566A"><name>COOLER AIR DUCT NO.1</name></parts><parts id="52159"><name>REAR BUMPER COVER</name></parts><parts id="62930B"><name>QUARTER VENT DUCT ASSEMBLY RH</name></parts><parts id="88891S"><name>COOLER COVER NO.1</name></parts><parts id="88710H"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="88510T"><name>COOLING (REAR) UNIT ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A812_T005G" variety="T005G"><name>BLOWER UNIT</name>
+<parts id="F0000AZ"><name>BLOWER UNIT</name></parts>
+<para id="RM0000012JK01EX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="87130D"><name>BLOWER ASSEMBLY</name></parts><parts id="87010"><name>AIR CONDITIONING UNIT ASSY</name></parts></para>
+<para id="RM000004RY600GX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="87103B"><name>BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts><parts id="87165C"><name>BLOWER MOTOR CONTROL</name></parts><parts id="87138C"><name>BLOWER RESISTOR</name></parts><parts id="87139C"><name>CLEAN AIR FILTER</name></parts><parts id="87106N"><name>RECIRCULATION DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="55908A"><name>AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY</name></parts></para>
+<para id="RM000004RY700GX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="87106N"><name>RECIRCULATION DAMPER SERVO SUB-ASSEMBLY</name></parts><parts id="55908A"><name>AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="87139C"><name>CLEAN AIR FILTER</name></parts><parts id="87165C"><name>BLOWER MOTOR CONTROL</name></parts><parts id="87138C"><name>BLOWER RESISTOR</name></parts><parts id="87103B"><name>BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts></para>
+<para id="RM0000012JI01EX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="87010"><name>AIR CONDITIONING UNIT ASSY</name></parts><parts id="87130D"><name>BLOWER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROQ_T009T" variety="T009T"><name>FRONT BLOWER MOTOR</name>
+<parts id="F00019H"><name>FRONT BLOWER MOTOR</name></parts>
+<para id="RM0000012JK01BX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="87103B"><name>BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts></para>
+<para id="RM000003TQI00LX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="87103B"><name>BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts></para>
+<para id="RM0000012JI01BX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="87103B"><name>BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A813_T005H" variety="T005H"><name>REAR BLOWER MOTOR</name>
+<parts id="B417018"><name>REAR BLOWER MOTOR</name></parts>
+<para id="RM000001G9Z00NX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="87103D"><name>REAR BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts><parts id="62511"><name>QUARTER INSIDE TRIM BOARD RH</name></parts><parts id="64725H"><name>QUARTER TRIM HOOK</name></parts><parts id="67935"><name>BACK DOOR SCUFF PLATE</name></parts><parts id="62331C"><name>REAR DOOR OPENING TRIM WEATHERSTRIP RH</name></parts><parts id="67917C"><name>REAR DOOR SCUFF PLATE RH</name></parts><parts id="F0000CU"><name>REAR NO. 2 SEAT ASSEMBLY</name></parts></para>
+<para id="RM000001G9X00KX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="87103D"><name>REAR BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts></para>
+<para id="RM000001G9W00NX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0000CU"><name>REAR NO. 2 SEAT ASSEMBLY</name></parts><parts id="67917C"><name>REAR DOOR SCUFF PLATE RH</name></parts><parts id="62331C"><name>REAR DOOR OPENING TRIM WEATHERSTRIP RH</name></parts><parts id="67935"><name>BACK DOOR SCUFF PLATE</name></parts><parts id="64725H"><name>QUARTER TRIM HOOK</name></parts><parts id="62511"><name>QUARTER INSIDE TRIM BOARD RH</name></parts><parts id="87103D"><name>REAR BLOWER W/FAN MOTOR SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROL_T009O" variety="T009O"><name>BLOWER MOTOR CONTROLLER (for Automatic Air Conditioning System)</name>
+<parts id="B417016"><name>BLOWER MOTOR CONTROLLER</name></parts>
+<para id="RM0000012JL01KX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="87165C"><name>BLOWER MOTOR CONTROL</name></parts></para>
+<para id="RM0000012JM01KX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="87165C"><name>BLOWER MOTOR CONTROL</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROM_T009P" variety="T009P"><name>FRONT BLOWER RESISTOR (for Manual Air Conditioning System)</name>
+<parts id="F0001CZ"><name>FRONT BLOWER RESISTOR</name></parts>
+<para id="RM000003TOX00KX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="87138C"><name>BLOWER RESISTOR</name></parts></para>
+<para id="RM000003TOV00QX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="87138C"><name>BLOWER RESISTOR</name></parts></para>
+<para id="RM000003TOU00KX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="87138C"><name>BLOWER RESISTOR</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7ARON_T009Q" variety="T009Q"><name>REAR BLOWER RESISTOR</name>
+<parts id="B889443"><name>REAR BLOWER RESISTOR</name></parts>
+<para id="RM000004R35008X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="87138D"><name>BLOWER (REAR) RESISTOR</name></parts><parts id="62511"><name>QUARTER INSIDE TRIM BOARD RH</name></parts><parts id="64725H"><name>QUARTER TRIM HOOK</name></parts><parts id="67935"><name>BACK DOOR SCUFF PLATE</name></parts><parts id="62331C"><name>REAR DOOR OPENING TRIM WEATHERSTRIP RH</name></parts><parts id="67917C"><name>REAR DOOR SCUFF PLATE RH</name></parts><parts id="F0000CU"><name>REAR NO. 2 SEAT ASSEMBLY</name></parts></para>
+<para id="RM000003TOV00RX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="87138D"><name>BLOWER (REAR) RESISTOR</name></parts></para>
+<para id="RM000004R33008X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0000CU"><name>REAR NO. 2 SEAT ASSEMBLY</name></parts><parts id="67917C"><name>REAR DOOR SCUFF PLATE RH</name></parts><parts id="62331C"><name>REAR DOOR OPENING TRIM WEATHERSTRIP RH</name></parts><parts id="67935"><name>BACK DOOR SCUFF PLATE</name></parts><parts id="64725H"><name>QUARTER TRIM HOOK</name></parts><parts id="62511"><name>QUARTER INSIDE TRIM BOARD RH</name></parts><parts id="87138D"><name>BLOWER (REAR) RESISTOR</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROO_T009R" variety="T009R"><name>COMPRESSOR</name>
+<parts id="A883200"><name>COMPRESSOR</name></parts>
+<para id="RM00000248Y00DX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88320"><name>COOLER COMPRESSOR ASSEMBLY</name></parts><parts id="88711"><name>COOLER REFRIGERANT DISCHARGE HOSE NO.1</name></parts><parts id="88704"><name>SUCTION HOSE SUB-ASSEMBLY</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="F0001XG"><name>REFRIGERANT FROM REFRIGERATION SYSTEM</name></parts></para>
+<para id="RM0000016AL07HX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="88410"><name>MAGNET CLUTCH ASSEMBLY</name></parts><parts id="B909934"><name>COOLER BRACKET</name></parts></para>
+<para id="RM0000016AI052X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88410"><name>MAGNET CLUTCH ASSEMBLY</name></parts></para>
+<para id="RM0000016TR07HX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="B000610"><name>MAGNETIC CLUTCH</name></parts><parts id="B909934"><name>COOLER BRACKET</name></parts><parts id="88410"><name>MAGNET CLUTCH ASSEMBLY</name></parts></para>
+<para id="RM00000248W00DX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0001XI"><name>REFRIGERANT LEAK</name></parts><parts id="J000025"><name>ENGINE</name></parts><parts id="F0001XH"><name>REFRIGERANT</name></parts><parts id="16361A"><name>FAN &amp; GENERATOR V BELT</name></parts><parts id="88704"><name>SUCTION HOSE SUB-ASSEMBLY</name></parts><parts id="88711"><name>COOLER REFRIGERANT DISCHARGE HOSE NO.1</name></parts><parts id="88320"><name>COOLER COMPRESSOR ASSEMBLY</name></parts><parts id="B800004"><name>COMPRESSOR OIL</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A814_T005I" variety="T005I"><name>CONDENSER</name>
+<parts id="B800178"><name>CONDENSER</name></parts>
+<para id="RM0000012K301WX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="F0001XH"><name>REFRIGERANT</name></parts><parts id="88460"><name>COOLER CONDENSER ASSEMBLY</name></parts></para>
+
+<para id="RM0000012K202SX" category="A" type-id="80001" from="201403"><name>REMOVAL</name>
+
+<parts id="88460"><name>COOLER CONDENSER ASSEMBLY</name></parts><parts id="53205"><name>RADIATOR SUPPORT SUB-ASSEMBLY UPPER</name></parts><parts id="53510"><name>HOOD LOCK ASSEMBLY</name></parts><parts id="88710E"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="88711"><name>COOLER REFRIGERANT DISCHARGE HOSE NO.1</name></parts><parts id="52119A"><name>FRONT BUMPER COVER</name></parts><parts id="F0001XG"><name>REFRIGERANT FROM REFRIGERATION SYSTEM</name></parts></para>
+<para id="RM000002XLU05IX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="88474"><name>COOLER DRYER</name></parts><parts id="88463B"><name>COOLER CONDENSER BRACKET NO.3</name></parts><parts id="88463A"><name>COOLER CONDENSER BRACKET NO.2</name></parts><parts id="88463"><name>COOLER CONDENSER BRACKET NO.1</name></parts></para>
+<para id="RM000002XLV05IX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="88463"><name>COOLER CONDENSER BRACKET NO.1</name></parts><parts id="88463A"><name>COOLER CONDENSER BRACKET NO.2</name></parts><parts id="88463B"><name>COOLER CONDENSER BRACKET NO.3</name></parts><parts id="88474"><name>COOLER DRYER</name></parts></para>
+
+<para id="RM0000012K002SX" category="A" type-id="30014" from="201403"><name>INSTALLATION</name>
+
+<parts id="J800003"><name>REFRIGERANT</name></parts><parts id="B000169"><name>WARM UP ENGINE</name></parts><parts id="52119A"><name>FRONT BUMPER COVER</name></parts><parts id="88711"><name>COOLER REFRIGERANT DISCHARGE HOSE NO.1</name></parts><parts id="88710E"><name>AIRCONDITIONER TUBE &amp; ACCESSORY ASSEMBLY</name></parts><parts id="53510"><name>HOOD LOCK ASSEMBLY</name></parts><parts id="53205"><name>RADIATOR SUPPORT SUB-ASSEMBLY UPPER</name></parts><parts id="88460"><name>COOLER CONDENSER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROP_T009S" variety="T009S"><name>ROOM TEMPERATURE SENSOR (for Automatic Air Conditioning System)</name>
+<parts id="B909939"><name>ROOM TEMPERATURE SENSOR</name></parts>
+<para id="RM000001G9F01OX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88625C"><name>COOLER THERMISTOR</name></parts><parts id="55422A"><name>INSTRUMENT CLUSTER FINISH PANEL LOWER</name></parts></para>
+<para id="RM000001G9D00SX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88625C"><name>COOLER THERMISTOR</name></parts></para>
+<para id="RM000001G9C01PX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="55422A"><name>INSTRUMENT CLUSTER FINISH PANEL LOWER</name></parts><parts id="88625C"><name>COOLER THERMISTOR</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROS_T009U" variety="T009U"><name>AMBIENT TEMPERATURE SENSOR</name>
+<parts id="B800648"><name>AMBIENT TEMPERATURE SENSOR</name></parts>
+
+<para id="RM000002VYK035X" category="A" type-id="80001" from="201403"><name>REMOVAL</name>
+
+<parts id="88790B"><name>THERMISTOR ASSEMBLY</name></parts><parts id="53111"><name>RADIATOR GRILLE</name></parts></para>
+<para id="RM000000Y0P040X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88790B"><name>THERMISTOR ASSEMBLY</name></parts></para>
+
+<para id="RM000002VYI035X" category="A" type-id="30014" from="201403"><name>INSTALLATION</name>
+
+<parts id="53111"><name>RADIATOR GRILLE</name></parts><parts id="88790B"><name>THERMISTOR ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROT_T009V" variety="T009V"><name>FRONT EVAPORATOR TEMPERATURE SENSOR</name>
+<parts id="F0001D0"><name>FRONT EVAPORATOR TEMPERATURE SENSOR</name></parts>
+<para id="RM0000012JQ021X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88625"><name>COOLER THERMISTOR NO.1</name></parts><parts id="88501"><name>COOLER EVAPORATOR SUB-ASSEMBLY NO.1</name></parts><parts id="87010"><name>AIR CONDITIONING UNIT ASSY</name></parts></para>
+<para id="RM000004I2700KX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88625"><name>COOLER THERMISTOR NO.1</name></parts></para>
+<para id="RM0000012JR021X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="87010"><name>AIR CONDITIONING UNIT ASSY</name></parts><parts id="88501"><name>COOLER EVAPORATOR SUB-ASSEMBLY NO.1</name></parts><parts id="88625"><name>COOLER THERMISTOR NO.1</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROU_T009W" variety="T009W"><name>SOLAR SENSOR (for Automatic Air Conditioning System)</name>
+<parts id="B800650"><name>SOLAR SENSOR</name></parts>
+<para id="RM000001G9N018X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88625H"><name>COOLER (SOLAR SENSOR) THERMISTOR</name></parts></para>
+<para id="RM000001G9L00SX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88625H"><name>COOLER (SOLAR SENSOR) THERMISTOR</name></parts></para>
+<para id="RM000001G9K019X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="88625H"><name>COOLER (SOLAR SENSOR) THERMISTOR</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A815_T005J" variety="T005J"><name>PRESSURE SWITCH</name>
+<parts id="B417004"><name>PRESSURE SWITCH</name></parts>
+<para id="RM0000030JI02CX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88645H"><name>PRESSURE NO.1 SWITCH</name></parts><parts id="F0001XG"><name>REFRIGERANT FROM REFRIGERATION SYSTEM</name></parts></para>
+<para id="RM00000202W04SX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88645H"><name>PRESSURE NO.1 SWITCH</name></parts></para>
+<para id="RM0000030JG02CX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0001XI"><name>REFRIGERANT LEAK</name></parts><parts id="B000169"><name>WARM UP ENGINE</name></parts><parts id="F0001XH"><name>REFRIGERANT</name></parts><parts id="88645H"><name>PRESSURE NO.1 SWITCH</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A816_T005K" variety="T005K"><name>HEATER BLOWER MOTOR RELAY</name>
+<parts id="F0000A6"><name>HEATER BLOWER MOTOR RELAY</name></parts>
+<para id="RM000004R4700IX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="85913C"><name>HEATER RELAY NO.1</name></parts><parts id="55303B"><name>INSTRUMENT PANEL SUB-ASSEMBLY LOWER</name></parts><parts id="55302A"><name>INSTRUMENT PANEL SUB-ASSEMBLY UPPER</name></parts><parts id="B002086"><name>CABLE FROM NEGATIVE BATTERY TERMINAL</name></parts><parts id="B001391"><name>PRECAUTION</name></parts></para>
+<para id="RM0000012HQ01AX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="85913C"><name>HEATER RELAY NO.1</name></parts></para>
+<para id="RM000004R4500IX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B002087"><name>CABLE TO NEGATIVE BATTERY TERMINAL</name></parts><parts id="55302A"><name>INSTRUMENT PANEL SUB-ASSEMBLY UPPER</name></parts><parts id="55303B"><name>INSTRUMENT PANEL SUB-ASSEMBLY LOWER</name></parts><parts id="85913C"><name>HEATER RELAY NO.1</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROZ_T00A1" variety="T00A1"><name>MAGNETIC CLUTCH RELAY</name>
+<parts id="B001269"><name>MAGNETIC CLUTCH RELAY</name></parts>
+<para id="RM000003ZPW00TX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="85934"><name>MAGNET-CLUTCH RELAY</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="55411G"><name>INSTRUMENT CLUSTER FINISH PANEL NO.1</name></parts><parts id="84140"><name>HEADLAMP DIMMER SWITCH ASSEMBLY</name></parts></para>
+<para id="RM0000014VG00RX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="85934"><name>MAGNET-CLUTCH RELAY</name></parts></para>
+<para id="RM000003ZPU00TX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="84140"><name>HEADLAMP DIMMER SWITCH ASSEMBLY</name></parts><parts id="55411G"><name>INSTRUMENT CLUSTER FINISH PANEL NO.1</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="85934"><name>MAGNET-CLUTCH RELAY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A817_T005L" variety="T005L"><name>REAR COOLER RELAY</name>
+<parts id="B800637"><name>REAR COOLER RELAY</name></parts>
+<para id="RM000004R2W00AX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88630G"><name>COOLER RELAY ASSEMBLY</name></parts><parts id="62511"><name>QUARTER INSIDE TRIM BOARD RH</name></parts><parts id="64725H"><name>QUARTER TRIM HOOK</name></parts><parts id="67935"><name>BACK DOOR SCUFF PLATE</name></parts><parts id="62331C"><name>REAR DOOR OPENING TRIM WEATHERSTRIP RH</name></parts><parts id="67917C"><name>REAR DOOR SCUFF PLATE RH</name></parts><parts id="F0000CU"><name>REAR NO. 2 SEAT ASSEMBLY</name></parts></para>
+<para id="RM000001HL400HX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88630G"><name>COOLER RELAY ASSEMBLY</name></parts></para>
+<para id="RM000004R2U00AX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0000CU"><name>REAR NO. 2 SEAT ASSEMBLY</name></parts><parts id="67917C"><name>REAR DOOR SCUFF PLATE RH</name></parts><parts id="62331C"><name>REAR DOOR OPENING TRIM WEATHERSTRIP RH</name></parts><parts id="67935"><name>BACK DOOR SCUFF PLATE</name></parts><parts id="64725H"><name>QUARTER TRIM HOOK</name></parts><parts id="62511"><name>QUARTER INSIDE TRIM BOARD RH</name></parts><parts id="88630G"><name>COOLER RELAY ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROV_T009X" variety="T009X"><name>AIR CONDITIONING PANEL (for Automatic Air Conditioning System)</name>
+<parts id="F0003W3"><name>AIR CONDITIONING PANEL</name></parts>
+<para id="RM000001K3A01JX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="84013A"><name>INTEGRATION PANEL SUB-ASSEMBLY</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts></para>
+<para id="RM000001K3B01JX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="84013A"><name>INTEGRATION PANEL SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROW_T009Y" variety="T009Y"><name>AIR CONDITIONING PANEL (for Manual Air Conditioning System)</name>
+<parts id="F0003W3"><name>AIR CONDITIONING PANEL</name></parts>
+<para id="RM0000012KC015X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="55900"><name>AIR CONDITIONING CONTROL ASSY</name></parts><parts id="55909A"><name>AIRMIX DAMPER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="55906"><name>HEATER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="55908A"><name>AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="55905A"><name>HEATER CONTROL KNOB</name></parts><parts id="55905B"><name>HEATER CONTROL KNOB NO.2</name></parts><parts id="84660C"><name>COOLER SWITCH</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts></para>
+<para id="RM0000012KA00RX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="55900"><name>AIR CONDITIONING CONTROL ASSY</name></parts></para>
+<para id="RM0000012K9015X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="84660C"><name>COOLER SWITCH</name></parts><parts id="55905B"><name>HEATER CONTROL KNOB NO.2</name></parts><parts id="55905A"><name>HEATER CONTROL KNOB</name></parts><parts id="55900"><name>AIR CONDITIONING CONTROL ASSY</name></parts><parts id="55908A"><name>AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY</name></parts><parts id="55906"><name>HEATER CONTROL CABLE SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A818_T005M" variety="T005M"><name>AIR CONDITIONING SWITCH (for Manual Air Conditioning System)</name>
+<parts id="F0001F0"><name>AIR CONDITIONING SWITCH</name></parts>
+<para id="RM0000012KC016X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="84660C"><name>COOLER SWITCH</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts></para>
+<para id="RM0000012KA00SX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="84660C"><name>COOLER SWITCH</name></parts></para>
+<para id="RM0000012K9016X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="84660C"><name>COOLER SWITCH</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROX_T009Z" variety="T009Z"><name>REAR BLOWER CONTROL SWITCH</name>
+<parts id="F0002QT"><name>REAR BLOWER CONTROL SWITCH</name></parts>
+<para id="RM00000249L00UX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="84660H"><name>COOLER CONTROL SWITCH ASSEMBLY</name></parts></para>
+<para id="RM000004SE6006X" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="84660R"><name>COOLER(REAR) SWITCH</name></parts><parts id="88600B"><name>CONTROL PANEL ASSEMBLY</name></parts><parts id="88611A"><name>COOLER CONTROL SWITCH KNOB</name></parts></para>
+<para id="RM00000249K00PX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="84660H"><name>COOLER CONTROL SWITCH ASSEMBLY</name></parts></para>
+<para id="RM000004SE7006X" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="88611A"><name>COOLER CONTROL SWITCH KNOB</name></parts><parts id="88600B"><name>CONTROL PANEL ASSEMBLY</name></parts><parts id="84660R"><name>COOLER(REAR) SWITCH</name></parts></para>
+<para id="RM00000249J00UX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="88660C"><name>COOLER CONTROL SWITCH ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7A819_T005N" variety="T005N"><name>AIR CONDITIONING AMPLIFIER (for Manual Air Conditioning System)</name>
+<parts id="B909587"><name>AIR CONDITIONING AMPLIFIER</name></parts>
+<para id="RM0000012KH01FX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88650B"><name>AIRCONDITIONER AMPLIFIER ASSEMBLY</name></parts></para>
+<para id="RM0000012KF01FX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="88650B"><name>AIRCONDITIONER AMPLIFIER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002K_S000R_7AROY_T00A0" variety="T00A0"><name>AIR CONDITIONING AMPLIFIER (for Automatic Air Conditioning System)</name>
+<parts id="B909587"><name>AIR CONDITIONING AMPLIFIER</name></parts>
+<para id="RM000001K3A01KX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="88650B"><name>AIRCONDITIONER AMPLIFIER ASSEMBLY</name></parts><parts id="F000153"><name>HEATER CONTROL BASE</name></parts><parts id="88484"><name>COOLER WIRE NO.1</name></parts><parts id="55912E"><name>HEATER CONTROL BASE LOWER</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts></para>
+<para id="RM000004QZA00DX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="88484"><name>COOLER WIRE NO.1</name></parts></para>
+<para id="RM000001K3B01KX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="55413D"><name>INSTRUMENT CLUSTER FINISH PANEL CENTER LOWER</name></parts><parts id="55420A"><name>INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY CENTER</name></parts><parts id="55912E"><name>HEATER CONTROL BASE LOWER</name></parts><parts id="88484"><name>COOLER WIRE NO.1</name></parts><parts id="F000153"><name>HEATER CONTROL BASE</name></parts><parts id="88650B"><name>AIRCONDITIONER AMPLIFIER ASSEMBLY</name></parts></para>
+</ttl>
+</section></servcat></pub></tmc-service-db>

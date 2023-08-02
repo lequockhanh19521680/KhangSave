@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12051_S000S" variety="S000S">
+<name>DOOR LOCK</name>
+<ttl id="12051_S000S_7AHYU_T000C" variety="T000C">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM000004RYE003X" category="F" type-id="8048Z" name-id="DL770-01" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004RYE003X_z0" proc-id="NM21Q0EV__000000S00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION</ptxt>
+<step2>
+<ptxt>The power door lock control system has the following functions:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Manual Lock and Unlock</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This function can lock or unlock all doors by operation of the door control switch.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Key-linked Lock and Unlock</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>This function, linked with the driver door key cylinder, can lock or unlock all the doors when a lock or unlock operation is effected.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Speed Sensitive Automatic Door Lock*</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>All the doors are locked when all the doors are closed and the vehicle reaches a speed of 25 km/h (15.5 mph) for the first time. This function is controlled by the theft warning ECU assembly.</ptxt>
+</item>
+<item>
+<ptxt>This function can be disabled together with the speed-sensitive automatic door lock function according to user preference. For details, refer to the corresponding Repair Manual for this model.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition Switch-linked Automatic Door Unlock*</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>After all the doors are locked through the operation of the speed-sensitive automatic door lock function, turning the ignition switch off automatically unlocks all the doors.</ptxt>
+</item>
+<item>
+<ptxt>This function can be disabled together with the ignition switch-linked automatic door unlock function, according to user preference. For details, refer to the corresponding Repair Manual for this model.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with theft deterrent system</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

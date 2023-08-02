@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12008_S0005" variety="S0005">
+<name>1TR-FE FUEL</name>
+<ttl id="12008_S0005_7AH5R_T0003" variety="T0003">
+<name>FUEL SYSTEM</name>
+<para id="RM000004RAI002X" category="F" type-id="8048W" name-id="FU7NA-03" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004RAI002X_z0" proc-id="NM21Q0EV__000000700000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>The fuel injector assembly is shaped to form a long nozzle. This shortens the distance from the fuel injector assembly to the intake valve, which prevents the fuel from adhering to the intake port walls and reduces exhaust emissions. This injector has 12 fuel injection holes.</ptxt>
+</step2>
+<step2>
+<ptxt>A quick connector is used to connect the fuel pipe with the fuel hose for excellent serviceability.</ptxt>
+</step2>
+<step2>
+<ptxt>A fuel cut control is used to stop the fuel pump if the SRS airbag is deployed.*</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>*: Models with SRS airbag system</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

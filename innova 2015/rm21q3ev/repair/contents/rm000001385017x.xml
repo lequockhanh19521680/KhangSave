@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000V_S000Q" variety="S000Q">
+<name>POWER STEERING</name>
+<ttl id="1000V_S000Q_7A80W_T005A" variety="T005A">
+<name>POWER STEERING SYSTEM</name>
+<para id="RM000001385017X" category="D" type-id="303F2" name-id="PS0BE-05" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000001385017X_z0" proc-id="RM21Q0EV__00001UK00000">
+<content5 releasenbr="1">
+<ptxt>A rack and pinion type, engine revolution sensing power steering gear is used on all models.</ptxt>
+<figure>
+<graphic graphicname="C123189E02" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

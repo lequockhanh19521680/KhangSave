@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T1">
+<name>INTRODUCTION</name>
+<section id="10002_S0001" variety="S0001">
+<name>INTRODUCTION</name>
+<ttl id="10002_S0001_7A7VO_T0002" variety="T0002">
+<name>IDENTIFICATION INFORMATION</name>
+<para id="RM000000UYW0COX" category="F" type-id="30020" name-id="IN02G-02" from="201202">
+<name>VEHICLE IDENTIFICATION AND SERIAL NUMBERS</name>
+<subpara id="RM000000UYW0COX_z0" proc-id="RM21Q0EV__000000200000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>VEHICLE IDENTIFICATION NUMBER</ptxt>
+<step2>
+<ptxt>The vehicle identification number is stamped on the vehicle body and on the certification label, as shown in the illustration.</ptxt>
+<step3>
+<ptxt>Vehicle Body</ptxt>
+<figure>
+<graphic graphicname="D102777" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>Certification Label</ptxt>
+<figure>
+<graphic graphicname="D102166" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>ENGINE SERIAL NUMBER AND TRANSMISSION SERIAL NUMBER</ptxt>
+<step2>
+<ptxt>The engine serial number is stamped on the cylinder block of the engine and the transmission serial number is stamped on the housing as shown in the illustration.</ptxt>
+<step3>
+<ptxt>Engine Serial Number</ptxt>
+<figure>
+<graphic graphicname="D102716E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>Transmission Serial Number</ptxt>
+<figure>
+<graphic graphicname="D102714E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

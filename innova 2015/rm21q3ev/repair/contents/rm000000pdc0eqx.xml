@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000PDC0EQX" category="D" type-id="303HX" name-id="ES0065-359" from="201202">
+<name>DEFINITION OF TERMS</name>
+<subpara id="RM000000PDC0EQX_z0" proc-id="RM21Q0EV__00000FK00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.53in"/>
+<colspec colname="COL2" colwidth="4.55in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Terms</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Definitions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Monitor description</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Description of what the ECM monitors and how it detects malfunctions (monitoring purpose and its details).</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

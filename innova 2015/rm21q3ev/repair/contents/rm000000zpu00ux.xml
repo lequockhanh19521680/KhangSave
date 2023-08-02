@@ -1,0 +1,1627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZPU00UX" category="U" type-id="3011K" name-id="ES10O9-001" from="201202">
+<name>TERMINALS OF ECM</name>
+<subpara id="RM000000ZPU00UX_z0" proc-id="RM21Q0EV__000009S00000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="G035135E02" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Each ECM terminal's standard normal voltage is shown in the table below.</ptxt>
+<ptxt>In the table, first check the information under "Condition". Look under "Symbols (Terminal No.)" for the terminals to be inspected. The standard voltage between the terminals is shown under "Specified Condition".</ptxt>
+<ptxt>Use the illustration above as a reference for the ECM terminals.</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>Wiring Color</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal Description</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>BATT (E9-3) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>L - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Battery (for measuring battery voltage and for ECM memory)</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>+BM (E9-7) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>R-W - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Power source of throttle motor</ptxt>
+</entry>
+<entry>
+<ptxt>Always</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>IGSW (E9-9) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>B-O - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>+B (E9-1) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Power source of ECM</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>MREL (E9-8) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>W-G - BR</ptxt>
+</entry>
+<entry>
+<ptxt>EFI relay</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VC (E12-18) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>LG-B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Power source of sensor (specific voltage)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VTA1 (E12-20) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>B-R - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor (for engine control)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully released</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 1.1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VTA1 (E12-20) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>B-R - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor (for engine control)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully depressed</ptxt>
+</entry>
+<entry>
+<ptxt>3.2 to 4.8 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VTA2 (E12-19) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>LG - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor (for sensor malfunction detection)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully released</ptxt>
+</entry>
+<entry>
+<ptxt>2.1 to 3.1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VTA2 (E12-19) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>LG - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle position sensor (for sensor malfunction detection)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully depressed</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VPA (E9-18) - EPA (E9- 20)</ptxt>
+</entry>
+<entry>
+<ptxt>W-L - BR-W</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerator pedal position sensor (for engine control)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully released</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 1.1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VPA (E9-18) - EPA (E9- 20)</ptxt>
+</entry>
+<entry>
+<ptxt>W-L - BR-W</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerator pedal position sensor (for engine control)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully depressed</ptxt>
+</entry>
+<entry>
+<ptxt>2.5 to 4.6 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VPA2 (E9-19) - EPA2 (E9-21)</ptxt>
+</entry>
+<entry>
+<ptxt>GR-G - BR-Y</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerator pedal position sensor (for sensor malfunction detection)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully released</ptxt>
+</entry>
+<entry>
+<ptxt>1.5 to 2.9 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VPA2 (E9-19) - EPA2 (E9-21)</ptxt>
+</entry>
+<entry>
+<ptxt>GR-G - BR-Y</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerator pedal position sensor (for sensor malfunction detection)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, accelerator pedal fully depressed</ptxt>
+</entry>
+<entry>
+<ptxt>3.5 to 5.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VCPA (E9-26) - EPA (E9-20)</ptxt>
+</entry>
+<entry>
+<ptxt>LG-R - BR-W</ptxt>
+</entry>
+<entry>
+<ptxt>Power source of accelerator pedal position sensor (for VPA)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VCP2 (E9-27) - EPA2 (E9-21)</ptxt>
+</entry>
+<entry>
+<ptxt>BR-R - BR-Y</ptxt>
+</entry>
+<entry>
+<ptxt>Power source of accelerator pedal position sensor (for VPA2)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>VG (E11-28) - E2G (E11-30)</ptxt>
+</entry>
+<entry>
+<ptxt>L-W - L-R</ptxt>
+</entry>
+<entry>
+<ptxt>MAF meter</ptxt>
+</entry>
+<entry>
+<ptxt>Idling, shift position on P or N, A/C switch off</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 3.0 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>THA (E11-29) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>L-B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>IAT sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Idling, intake air temperature 20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 to 3.4 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>THW (E12-32) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>ECT sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Idling, engine coolant temperature 80°C (176°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.2 to 1.0 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>#10 (E11-6) - E01 (E12-7)</ptxt>
+<ptxt>#20 (E11-5) - E01 (E12-7)</ptxt>
+<ptxt>#30 (E11-2) - E01 (E12-7)</ptxt>
+<ptxt>#40 (E11-1) - E01 (E12-7)</ptxt>
+</entry>
+<entry>
+<ptxt>L - W-B</ptxt>
+<ptxt>G - W-B</ptxt>
+<ptxt>R - W-B</ptxt>
+<ptxt>W - W-B</ptxt>
+</entry>
+<entry>
+<ptxt>Injector</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>#10 (E11-6) - E01 (E12-7)</ptxt>
+<ptxt>#20 (E11-5) - E01 (E12-7)</ptxt>
+<ptxt>#30 (E11-2) - E01 (E12-7)</ptxt>
+<ptxt>#40 (E11-1) - E01 (E12-7)</ptxt>
+</entry>
+<entry>
+<ptxt>L - W-B</ptxt>
+<ptxt>G - W-B</ptxt>
+<ptxt>R - W-B</ptxt>
+<ptxt>W - W-B</ptxt>
+</entry>
+<entry>
+<ptxt>Injector</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 6)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>IGT1 (E12-17) - E1 (E12-3)</ptxt>
+<ptxt>IGT2 (E12-16) - E1 (E12-3)</ptxt>
+<ptxt>IGT3 (E12-15) - E1 (E12-3)</ptxt>
+<ptxt>IGT4 (E12-14) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>R - BR</ptxt>
+<ptxt>R-L - BR</ptxt>
+<ptxt>G-B - BR</ptxt>
+<ptxt>G - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition coil with igniter ignition signal</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 5)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>IGF1 (E12-23) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G-R - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition coil with igniter (ignition confirmation signal)</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>IGF1 (E12-23) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G-R - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition coil with igniter (ignition confirmation signal)</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 5)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>G2 (E12-26) - NE- (E12-34)</ptxt>
+</entry>
+<entry>
+<ptxt>R - G</ptxt>
+</entry>
+<entry>
+<ptxt>Camshaft position sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>NE+ (E12-27) - NE- (E12-34)</ptxt>
+</entry>
+<entry>
+<ptxt>L - G</ptxt>
+</entry>
+<entry>
+<ptxt>Crankshaft position sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>FC (E9-25) - E01 (E12-7)</ptxt>
+</entry>
+<entry>
+<ptxt>LG-B - W-B</ptxt>
+</entry>
+<entry>
+<ptxt>Fuel pump control</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>M+ (E12-5) - ME01 (E11-3)</ptxt>
+</entry>
+<entry>
+<ptxt>B - W-B</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle actuator</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 1)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>M- (E12-4) - ME01 (E11-3)</ptxt>
+</entry>
+<entry>
+<ptxt>W - W-B</ptxt>
+</entry>
+<entry>
+<ptxt>Throttle actuator</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 2)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>KNK1 (E12-29) - EKNK (E12-30)</ptxt>
+</entry>
+<entry>
+<ptxt>B - W</ptxt>
+</entry>
+<entry>
+<ptxt>Knock sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Maintain engine speed at 4,000 rpm after warming up engine</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 8)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>OC1+ (E12-13) - OC1- (E12-12)</ptxt>
+</entry>
+<entry>
+<ptxt>P-L - Y</ptxt>
+</entry>
+<entry>
+<ptxt>Camshaft timing oil control valve</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 7)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>STA (E9-12) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>B-Y - BR*1</ptxt>
+<ptxt>L-Y - BR*2</ptxt>
+</entry>
+<entry>
+<ptxt>Starter signal</ptxt>
+</entry>
+<entry>
+<ptxt>Shift position on P or N, ignition switch START</ptxt>
+</entry>
+<entry>
+<ptxt>6.0 V or more</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>NSW (E9-30) - E1 (E12-3)*1</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>L-Y - BR</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Park/neutral position switch</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, shift lever not in P or N</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ignition switch ON, shift lever in P or N</ptxt>
+</entry>
+<entry>
+<ptxt>Below 3.0 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>A1A+ (E12-21) - E2 (E12-28)</ptxt>
+</entry>
+<entry>
+<ptxt>B -BR</ptxt>
+</entry>
+<entry>
+<ptxt>Heated oxygen sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Maintain engine speed at 2,500 rpm for 2 minutes after warming up sensor</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 9)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>HA1A (E12-1) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>Y - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Heated oxygen sensor heater</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>PRG (E11-23) - E1 (E12-3)</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>L - BR</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Purge VSV</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Idling, under purge control</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 10)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ALT (E12-10) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Generator</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>STP (E10-4) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G-W - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch</ptxt>
+</entry>
+<entry>
+<ptxt>Brake pedal depressed</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>STP (E10-4) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G-W - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch</ptxt>
+</entry>
+<entry>
+<ptxt>Brake pedal released</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ST1- (E9-16) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>R-L - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, brake pedal depressed</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ST1- (E9-16) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>R-L - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, brake pedal released</ptxt>
+</entry>
+<entry>
+<ptxt>7.5 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>W (E10-30) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>R-B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>MIL</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>W (E10-30) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>R-B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>MIL</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>Below 3.0 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ELS (E9-15) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Electric load</ptxt>
+</entry>
+<entry>
+<ptxt>Taillight switch on</ptxt>
+</entry>
+<entry>
+<ptxt>7.5 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ELS (E9-15) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Electric load</ptxt>
+</entry>
+<entry>
+<ptxt>Taillight switch off</ptxt>
+</entry>
+<entry>
+<ptxt>0 to 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>ELS3 (E10-3) - E1 (E12-3)</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>B - BR</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Electric load</ptxt>
+</entry>
+<entry>
+<ptxt>Defogger switch on</ptxt>
+</entry>
+<entry>
+<ptxt>7.5 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Defogger switch off</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TACH (E10-1) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>B-W - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Engine speed</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SPD (E10-8) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>V-R - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Speed signal from combination meter</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON, slowly turn wheel</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation (see waveform 4)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>THWO (E10-14) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>P - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Engine speed signal sent to combination meter</ptxt>
+</entry>
+<entry>
+<ptxt>Idling with warm engine</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>TC (E10-17) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>P-B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal TC of DLC3</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>SIL (E10-13) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>R-Y - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Terminal SIL of DLC3</ptxt>
+</entry>
+<entry>
+<ptxt>Connect intelligent tester to DLC3</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>PSW (E11-32) - E1 (E12-3)</ptxt>
+</entry>
+<entry>
+<ptxt>G-Y - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Power steering oil pressure switch</ptxt>
+</entry>
+<entry>
+<ptxt>While turning steering wheel</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1.5 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>F/PS (E10-32) - E1 (E12-3)*3</ptxt>
+</entry>
+<entry>
+<ptxt>B - BR</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly</ptxt>
+</entry>
+<entry>
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>Pulse generation</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="unordered">
+<item>
+<ptxt>*1: for Automatic Transmission</ptxt>
+</item>
+<item>
+<ptxt>*2: for Manual Transmission</ptxt>
+</item>
+<item>
+<ptxt>*3: w/ Airbag</ptxt>
+</item>
+</list1>
+<step1>
+<ptxt>Waveform 1 (Reference)</ptxt>
+<figure>
+<graphic graphicname="A208000E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Throttle actuator positive terminal</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>M+ (E12-5) - ME01 (E11-3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>5 V/DIV., 1 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idle after engine warm-up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The duty ratio varies depending on the throttle opening operation.</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 2 (Reference)</ptxt>
+<figure>
+<graphic graphicname="A245848E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Throttle actuator negative terminal</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>M- (E12-4) - ME01 (E11-3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>5 V/DIV., 1 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idle after engine warm-up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The duty ratio varies depending on the throttle opening operation.</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 3 (Reference)</ptxt>
+<figure>
+<graphic graphicname="G034678E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>(a) Camshaft position sensor</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>(a) G2 (E12-26) - NE- (E12-34)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>5 V/DIV., 20 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idle after engine warm-up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>(b) Crankshaft position sensor</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>(b) NE+ (E12-27) - NE- (E12-34)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>5 V/DIV., 20 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idle after engine warm-up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The wavelength becomes shorter as engine speed increases.</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 4 (Reference)</ptxt>
+<figure>
+<graphic graphicname="G034679E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Vehicle speed signal</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>SPD (E10-8) - E1 (E12-3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>2 V/DIV., 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Driving at 40 km/h (25 mph)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The wavelength becomes shorter as vehicle speed increases.</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 5 (Reference)</ptxt>
+<figure>
+<graphic graphicname="G034680E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>(a) Igniter IGT signal (from ECM to igniter)</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>(a) IGT1 (E12-17) to IGT4 (E12-14) - E1 (E12-3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>2 V/DIV., 20 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>(b) Igniter IGF signal (from igniter to ECM)</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>(b) IGF1 (E12-23) - E1 (E12-3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>2 V/DIV., 20 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The wavelength becomes shorter as engine speed increases.</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 6 (Reference)</ptxt>
+<figure>
+<graphic graphicname="G034681E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Fuel injector</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>#10 (E11-6) to #40 (E11-1) - E01 (E12-7)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>20 V/DIV., 20 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The wavelength becomes shorter as engine speed increases.</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 7 (Reference)</ptxt>
+<figure>
+<graphic graphicname="G034682E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>VVT OCV</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>OC1+ (E12-13) - OC1- (E12-12)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>5 V/DIV., 1 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Accelerate slowly after engine warm-up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>VVT OCV DUTY (%) = A/B x 100</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 8 (Reference)</ptxt>
+<figure>
+<graphic graphicname="G034683E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Knock sensor</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>KNK1 (E12-29) - EKNK (E12-30)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>0.01 to 10 V/DIV., 0.01 to 10 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>After warming up engine, keep engine speed at 4,000 rpm</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The wavelength becomes shorter as engine speed increases.</ptxt>
+</item>
+<item>
+<ptxt>The waveform and amplitudes displayed differ slightly depending on the vehicle.</ptxt>
+</item>
+</list1>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 9 (Reference)</ptxt>
+<figure>
+<graphic graphicname="A093282E11" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Heated oxygen (HO2) sensor (sensor 1)</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>A1A+ (E12-21) - E2 (E12-28)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>0.2 V/DIV., 200 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Engine maintained at 2,500 rpm when engine warmed up</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>In the Data List, item O2S B1 S1 shows the ECM input values from the rear HO2 sensor (sensor 1).</ptxt>
+</atten4>
+</step1>
+<step1>
+<ptxt>Waveform 10 (Reference)</ptxt>
+<figure>
+<graphic graphicname="A205411E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Purge VSV</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Content</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Symbols (Terminal No.)</ptxt>
+</entry>
+<entry>
+<ptxt>PRG (E11-23) - E1 (E12-3)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tool Setting</ptxt>
+</entry>
+<entry>
+<ptxt>10 V/DIV., 20 msec./DIV.</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Idling, under purge control</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>If the waveform is not similar to the illustration, check the waveform again after idling for 10 minutes or more.</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

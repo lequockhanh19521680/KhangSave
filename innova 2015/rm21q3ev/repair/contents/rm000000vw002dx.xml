@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y2_T002G" variety="T002G">
+<name>ECM</name>
+<para id="RM000000VW002DX" category="A" type-id="30014" name-id="ES469-03" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000000VW002DX_01" type-id="01" category="01">
+<s-1 id="RM000000VW002DX_01_0009" proc-id="RM21Q0EV__000006I00000">
+<ptxt>INSTALL NO. 2 ECM BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G039686E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the bracket with the 2 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>3.0</t-value1>
+<t-value2>31</t-value2>
+<t-value3>27</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VW002DX_01_0010" proc-id="RM21Q0EV__000006J00000">
+<ptxt>INSTALL NO. 1 ECM BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G039685E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the bracket with the 2 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>3.0</t-value1>
+<t-value2>31</t-value2>
+<t-value3>27</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VW002DX_01_0001" proc-id="RM21Q0EV__000006G00000">
+<ptxt>INSTALL ECM</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A111681" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the ECM with the bolt and 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12.5</t-value1>
+<t-value2>127</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the 4 connectors.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VW002DX_01_0013" proc-id="RM21Q0EV__00003C300000">
+<ptxt>INSTALL GLOVE COMPARTMENT DOOR ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B291412E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the 2 hinges to install the glove compartment door.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hinge</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B291413E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>While pushing in the sides of the glove compartment door as indicated by the arrows in the illustration, close the door to engage it to the 2 stoppers.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stopper</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VW002DX_01_0005">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000VW002DX_01_0006" proc-id="RM21Q0EV__000006H00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

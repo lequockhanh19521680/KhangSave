@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A811_T005F" variety="T005F">
+<name>AIR CONDITIONING UNIT</name>
+<para id="RM0000012JP01PX" category="A" type-id="80001" name-id="ACFTM-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000012JP01PX_01" type-id="01" category="01">
+<s-1 id="RM0000012JP01PX_01_0052" proc-id="RM21Q0EV__00001VQ00000">
+<ptxt>RECOVER REFRIGERANT FROM REFRIGERATION SYSTEM
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Start the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Operate the cooler compressor under the conditions shown below:</ptxt>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Engine Speed</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Idling</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Operating Time</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3 minutes or more</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A/C Switch Status</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Blower Switch Status</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>HI</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Set Temperature</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>MAX COOL</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<ptxt>This causes most of the compressor oil from the various components of the A/C system to collect in the A/C compressor.</ptxt>
+<atten3>
+<ptxt>It is not necessary to operate the cooler compressor if the A/C does not operate because of compressor lock, etc.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Stop the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Recover the refrigerant from the A/C system using a refrigerant recovery unit.</ptxt>
+<atten4>
+<ptxt>Use the refrigerant recovery unit in accordance with the manufacturer's instruction manual.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JP01PX_01_0060" proc-id="RM21Q0EV__000005U00000">
+<ptxt>DRAIN ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the cylinder block drain cock plug and radiator drain cock plug, and then drain the coolant.</ptxt>
+<atten4>
+<ptxt>Collect the coolant in a container and dispose of it according to the regulations in your area.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="A113302E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012JP01PX_01_0034" proc-id="RM21Q0EV__00004FQ00000">
+<ptxt>PRECAUTION (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0002" proc-id="RM21Q0EV__00004FC00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0003" proc-id="RM21Q0EV__00004FD00000">
+<ptxt>DISCONNECT SUCTION HOSE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and disconnect the suction hose sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E173197" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<figure>
+<graphic graphicname="E173198E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<list1 type="unordered">
+<item>
+<ptxt>Do not use a screwdriver or similar tool to disconnect the suction hose sub-assembly.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Seal the openings of the disconnected parts using vinyl tape to prevent moisture and foreign matter from entering.</ptxt>
+</item>
+</list1>
+</atten3>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Disconnect tube by hand</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the suction hose sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0004" proc-id="RM21Q0EV__00004FE00000">
+<ptxt>DISCONNECT AIR CONDITIONING TUBE AND ACCESSORY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the air conditioning tube and accessory assembly.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not use a screwdriver or similar tool to disconnect the air conditioning tube and accessory assembly.</ptxt>
+</item>
+<item>
+<ptxt>Seal the openings of the disconnected parts using vinyl tape to prevent moisture and foreign matter from entering.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the O-ring from the air conditioning tube and accessory assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0058" proc-id="RM21Q0EV__00004FZ00000">
+<ptxt>REMOVE HEATER WATER INLET HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225468" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using pliers, grip the claws of the clip and slide the clip to disconnect the heater water inlet hose.</ptxt>
+<atten4>
+<ptxt>Collect the engine coolant in a container.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0059" proc-id="RM21Q0EV__00004G000000">
+<ptxt>REMOVE HEATER WATER OUTLET HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225469" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using pliers, grip the claws of the clip and slide the clip to disconnect the heater water outlet hose.</ptxt>
+<atten4>
+<ptxt>Collect the engine coolant in a container.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0007" proc-id="RM21Q0EV__00004FF00000">
+<ptxt>REMOVE UPPER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEO00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0009" proc-id="RM21Q0EV__00004FH00000">
+<ptxt>REMOVE NO. 3 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231875" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 clips.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws and remove the No. 3 heater to register duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0010" proc-id="RM21Q0EV__00004FI00000">
+<ptxt>REMOVE NO. 1 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231876" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 clips.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 claws and remove the No. 1 heater to register duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0011" proc-id="RM21Q0EV__00004FJ00000">
+<ptxt>REMOVE NO. 2 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231877" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 clips.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 claws and remove the No. 2 heater to register duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0054" proc-id="RM21Q0EV__00004FV00000">
+<ptxt>REMOVE NO. 5 HEATER TO REGISTER DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231878" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 8 claws and remove the No. 5 heater to register duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0033" proc-id="RM21Q0EV__00004FP00000">
+<ptxt>REMOVE DEFROSTER NOZZLE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231879" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 3 claws and remove the defroster nozzle assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0008" proc-id="RM21Q0EV__00004FG00000">
+<ptxt>REMOVE LOWER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NFT00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0024" proc-id="RM21Q0EV__00004FN00000">
+<ptxt>REMOVE STEERING COLUMN ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000137Z013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0055" proc-id="RM21Q0EV__00004FW00000">
+<ptxt>REMOVE NO. 1 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws and remove the No. 1 air duct.</ptxt>
+<figure>
+<graphic graphicname="E226311" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0056" proc-id="RM21Q0EV__00004FX00000">
+<ptxt>REMOVE NO. 2 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws and remove the No. 2 air duct.</ptxt>
+<figure>
+<graphic graphicname="E226312" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0057" proc-id="RM21Q0EV__00004FY00000">
+<ptxt>REMOVE NO. 4 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws and remove the No. 4 air duct.</ptxt>
+<figure>
+<graphic graphicname="E226313" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0012" proc-id="RM21Q0EV__00004FK00000">
+<ptxt>REMOVE NO. 1 INSTRUMENT PANEL BRACE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231880E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 3 clamps and remove the 2 nuts labeled A.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connectors and remove the driver side junction block.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the screw.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt, the nut labeled B and the No. 1 instrument panel brace sub-assembly.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Nut A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Nut B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bolt</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0035" proc-id="RM21Q0EV__00004FR00000">
+<ptxt>REMOVE AIR CONDITIONING DUCT SUB-ASSEMBLY (for Automatic Air Conditioning System)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws and remove the air conditioning duct sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E231881" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0028" proc-id="RM21Q0EV__00004FO00000">
+<ptxt>REMOVE ECM</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000VW2028X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0018" proc-id="RM21Q0EV__00004FL00000">
+<ptxt>REMOVE INSTRUMENT PANEL REINFORCEMENT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector and detach the clamp.</ptxt>
+<figure>
+<graphic graphicname="E231882" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<ptxt>Detach the clip and disconnect the connectors.</ptxt>
+<figure>
+<graphic graphicname="E231883" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<ptxt>Detach the clip and disconnect the connectors.</ptxt>
+<figure>
+<graphic graphicname="E231884" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and disconnect the ground wires from the instrument panel reinforcement.</ptxt>
+<figure>
+<graphic graphicname="E231885" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the grommet from the vehicle body.</ptxt>
+<figure>
+<graphic graphicname="E233029" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 10 clamps.</ptxt>
+<figure>
+<graphic graphicname="E231887" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts.</ptxt>
+<figure>
+<graphic graphicname="E231888" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>for Automatic Transmission:</ptxt>
+<ptxt>Remove the 8 bolts and instrument panel reinforcement.</ptxt>
+</s2>
+<s2>
+<ptxt>for Manual Transmission:</ptxt>
+<ptxt>Remove the 9 bolts and instrument panel reinforcement.</ptxt>
+<figure>
+<graphic graphicname="E231889E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>for Manual Transmission</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0036" proc-id="RM21Q0EV__00004FS00000">
+<ptxt>REMOVE NO. 1 COOLER UNIT DRAIN HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231890" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the No. 1 cooler unit drain hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0019" proc-id="RM21Q0EV__00004FM00000">
+<ptxt>REMOVE AIR CONDITIONING UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231891" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt, nut and air conditioning unit assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JP01PX_01_0037" proc-id="RM21Q0EV__00004FT00000">
+<ptxt>REMOVE NO. 3 AIR DUCT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E231892" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 nuts and No. 3 air duct.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

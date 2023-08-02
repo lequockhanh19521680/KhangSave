@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7AWW4_T00AL" variety="T00AL">
+<name>WIRELESS DOOR LOCK CONTROL SYSTEM (w/ Theft Deterrent System)</name>
+<para id="RM000004SGN002X" category="D" type-id="303F2" name-id="DL77F-03" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000004SGN002X_z0" proc-id="RM21Q0EV__000050H00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>WIRELESS DOOR LOCK CONTROL SYSTEM DESCRIPTION</ptxt>
+<step2>
+<ptxt>This system locks and unlocks the vehicle's doors remotely. The wireless door lock control system has the following features:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The door control receiver performs the code identification process and the driver side junction block assembly operates the door lock control. A serial data link is provided for communication between the door control receiver and driver side junction block assembly.</ptxt>
+</item>
+<item>
+<ptxt>A key-integrated type transmitter is used and it contains the following 3 switches: the door lock switch, door unlock switch and alarm switch.</ptxt>
+</item>
+<item>
+<ptxt>An LED is built into the transmitter so that the battery status can be checked.</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Components</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Functions</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Door control transmitter assembly</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Contains lock, unlock and alarm switches. </ptxt>
+</item>
+<item>
+<ptxt>Transmits faint electric waves (recognition codes and function codes) to door control receiver.</ptxt>
+</item>
+<item>
+<ptxt>Illuminates indicator light (LED) during transmission.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Unlock warning switch assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects if key is in ignition key cylinder or not.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front door courtesy light switch assembly LH/RH</ptxt>
+<ptxt>Rear door courtesy light switch assembly LH/RH</ptxt>
+<ptxt>Back door lock assembly (back door courtesy light switch)</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Located on each door.</ptxt>
+</item>
+<item>
+<ptxt>Turns on when the door is open and off when the door is closed. Outputs the door status (open or closed) to the theft warning ECU assembly.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front door lock assembly LH</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Built-in motor locks and unlocks the door.</ptxt>
+</item>
+<item>
+<ptxt>Built-in door lock position switch detects the door status (locked or unlocked) and outputs a signal to the theft warning ECU assembly. This switch turns off when the door is locked and turns on when the door is unlocked.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Front door lock assembly RH</ptxt>
+<ptxt>Rear door lock assembly LH/RH</ptxt>
+<ptxt>Back door lock assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Built-in motor locks and unlocks the door.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Theft warning ECU assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Receives weak electric waves (recognition codes and function codes) from the door control receiver and changes the waves to code data.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>SYSTEM FUNCTION</ptxt>
+<step2>
+<ptxt>The wireless door lock control system has the following functions.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Outline</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>All door lock function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressing lock switch locks all doors.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>All door unlock function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressing unlock switch unlocks all doors.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Answer-back function*</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>When the doors are locked by a wireless operation, the hazard warning lights and side turn signal lights flash once and the security horn assembly sounds once.</ptxt>
+</item>
+<item>
+<ptxt>When the doors are unlocked by a wireless operation, the hazard warning lights flash and side turn signal lights twice and the security horn assembly sounds twice.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Remote alarm function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressing the alarm switch of the transmitter for more than approximately 0.8 seconds causes the following alarms to activate:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Sounds the horns.</ptxt>
+</item>
+<item>
+<ptxt>Flashes the hazard warning lights, and side turn signal lights.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic locking function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>If no doors are opened within 30 seconds after they are unlocked by the door control transmitter assembly, all the doors lock again automatically.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Door ajar warning function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>If any door is open or ajar, pressing the lock switch causes the security horn assembly to sound for approximately 10 seconds.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Illuminated entry function</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>When the map light and No. 1 room light door switches are in the door position, and all the doors are locked, pressing the unlock switch causes the interior light illumination to turn on and all the doors to unlock simultaneously.</ptxt>
+</item>
+<item>
+<ptxt>If the doors have not been opened, the interior light turns off after approximately 15 seconds.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Security function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sends signal as rolling code.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Transmitter recognition code registration function</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Enables 4 modes for registering (writing and storing) transmitter recognition codes in EEPROM, which is built into door control receiver.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*: The security horn assembly applies only if thee wireless answer-back function has been customized so that the hazard warning lights and side turn signal lights flash and the security horn sounds.</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

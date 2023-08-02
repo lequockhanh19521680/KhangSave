@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7YX_T003B" variety="T003B">
+<name>STARTING SYSTEM</name>
+<para id="RM00000135Q01CX" category="U" type-id="303FI" name-id="ST039-06" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM00000135Q01CX_z0" proc-id="RM21Q0EV__00000U300000">
+<content5 releasenbr="1">
+<ptxt>The starting system rotates the starter motor according to the signals from the ignition switch.</ptxt>
+<figure>
+<graphic graphicname="A118434E04" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

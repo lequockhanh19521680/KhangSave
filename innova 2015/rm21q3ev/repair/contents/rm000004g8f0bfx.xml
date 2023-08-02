@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000004G8F0BFX" category="J" type-id="8059Z" name-id="ES0PJR-264" from="201202" to="201503">
+<dtccode/>
+<dtcname>Brake Override System</dtcname>
+<subpara id="RM000004G8F0BFX_01" type-id="60" category="03" proc-id="RM21Q0EV__00004YE00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>When the vehicle is being driven with the accelerator pedal depressed, depressing the brake pedal without releasing the accelerator pedal will activate the brake override system to restrict driving torque. The conditions for activating the brake override system as well as the items that are controlled are explained below.</ptxt>
+<figure>
+<graphic graphicname="A232420E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<topic>
+<title>Activation Conditions:</title>
+<list1 type="unordered">
+<item>
+<ptxt>Vehicle is running at or above a specified speed.</ptxt>
+</item>
+<item>
+<ptxt>The accelerator pedal is depressed beyond a specified level, and then the brake pedal is depressed.</ptxt>
+</item>
+</list1>
+<atten3>
+<ptxt>The vehicle may not enter brake override system control due to the relation of the accelerator pedal angle and the vehicle's speed.</ptxt>
+</atten3>
+</topic>
+<topic>
+<title>Items Controlled:</title>
+<list1 type="unordered">
+<item>
+<ptxt>Driving torque is restricted.</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>During brake override system control, the value for the accelerator pedal angle (which is used for engine control) is forcibly reduced to a specified value. For this reason, the Data List value for Throttle Sensor Position will be replaced with a specified value regardless of the actual accelerator pedal angle (Accel Sens. No. 1 Volt %, Accel Sens. No. 2 Volt %).</ptxt>
+</atten4>
+</topic>
+<topic>
+<title>Deactivation Conditions:</title>
+<list1 type="unordered">
+<item>
+<ptxt>When the stop light switch turns off or the actual accelerator pedal angle increases or decreases beyond the specified range.</ptxt>
+</item>
+</list1>
+</topic>
+</content5>
+</subpara>
+<subpara id="RM000004G8F0BFX_02" type-id="51" category="05" proc-id="RM21Q0EV__00004YF00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<topic>
+<title>Inspection Method</title>
+<ptxt>Drive at 10 km/h (6.25 mph), depress the accelerator pedal by 1/2 to 3/4 and keep it in that position. Under these conditions, if the engine speed decreases to 1000 rpm when the brake pedal is depressed, the brake override system has been activated.</ptxt>
+</topic>
+<atten2>
+<ptxt>When carrying out the inspection, use a place where you are able to carry it out safely and also pay close attention to your surroundings.</ptxt>
+<ptxt>Also, when driving, make absolutely sure that all traffic laws, such as speed limits, are observed.</ptxt>
+</atten2>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Under normal conditions, the Throttle Sensor Position value changes in response to the Accel Sens. No. 1 Volt % value. For more information on the numerical values, refer to the Data List (See page <xref label="Seep01" href="RM000000ZQ0017X"/>).</ptxt>
+</item>
+<item>
+<ptxt>If the Data List values of Throttle Sensor Position and Accel Sens. No. 1 Volt % do not match, and the value of Throttle Sensor Position changes but the value of Accel Sens. No. 1 Volt % is constant, this confirms that the brake override system has activated. (Data can be captured relatively easily by using the snapshot function in the Data List. Confirm the data after performing the driving test.)</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<ptxt>The brake override system restricts driving torque if the brake pedal is depressed when driving with the accelerator pedal depressed. If a customer reports experiencing loss of torque after the accelerator and brake pedals have both been intentionally depressed, explain to the customer that this is not a malfunction, and that the customer should avoid depressing both the accelerator and brake pedals at the same time.</ptxt>
+<ptxt>Example: While operating the accelerator pedal, the customer uses their left foot to operate the brake pedal.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000004G8F0BFX_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000004G8F0BFX_03_0001" proc-id="RM21Q0EV__00004YG00000">
+<testtitle>CHECK DTC OUTPUT</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON and turn the intelligent tester on.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Utility / All Codes. </ptxt>
+</test1>
+<test1>
+<ptxt>Check DTCs.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>No DTC output</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC output</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000004G8F0BFX_03_0002" fin="false">A</down>
+<right ref="RM000004G8F0BFX_03_0013" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0002" proc-id="RM21Q0EV__00004YH00000">
+<testtitle>READ VALUE USING INTELLIGENT TESTER (STOP LIGHT SWITCH AND ST1)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON and turn the intelligent tester on.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Stop Light Switch and ST1.</ptxt>
+</test1>
+<test1>
+<ptxt>Check the Data List indication when the brake pedal is depressed and released.</ptxt>
+<spec>
+<title>OK</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Intelligent Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Stop Light Switch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Brake pedal released</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Brake pedal depressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>ST1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Brake pedal released</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Brake pedal depressed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000004G8F0BFX_03_0003" fin="false">OK</down>
+<right ref="RM000004G8F0BFX_03_0012" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0003" proc-id="RM21Q0EV__00004YI00000">
+<testtitle>INSPECT BRAKE PEDAL</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Inspect and adjust the brake pedal (See page <xref label="Seep01" href="RM0000010K5016X"/>).</ptxt>
+<atten4>
+<ptxt>If the stop light switch turns on too late, the start of brake override system control may be delayed; if it turns on too soon, brake override system control may begin too early. Therefore, it is necessary to conduct inspection of the brake pedal and stop light switch assembly.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000004G8F0BFX_03_0004" fin="false">OK</down>
+<right ref="RM000004G8F0BFX_03_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0004" proc-id="RM21Q0EV__00004YJ00000">
+<testtitle>READ VALUE USING INTELLIGENT TESTER (ACCELERATOR PEDAL POSITION SENSOR)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON and turn the intelligent tester on.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Accel Sens. No. 1 Volt % and Accel Sens. No. 2 Volt %.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value displayed on the intelligent tester.</ptxt>
+<spec>
+<title>OK</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Intelligent Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Accel Sens. No. 1 Volt %</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Accelerator Pedal</ptxt>
+<ptxt>Released → Depressed → Released</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Values smoothly change following accelerator pedal operation</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Accel Sens. No. 2 Volt %</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>For numerical values of Accel Sens. No. 1 Volt % and Accel Sens. No. 2 Volt %, refer to the Data List (See page <xref label="Seep01" href="RM000000ZQ0017X"/>).</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000004G8F0BFX_03_0005" fin="false">OK</down>
+<right ref="RM000004G8F0BFX_03_0010" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0005" proc-id="RM21Q0EV__00004YK00000">
+<testtitle>READ VALUE USING INTELLIGENT TESTER (VEHICLE SPEED)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON and turn the intelligent tester on.</ptxt>
+</test1>
+<test1>
+<ptxt>Start the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List / Vehicle Speed.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value displayed on the intelligent tester.</ptxt>
+<spec>
+<title>Standard</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Intelligent Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Vehicle Speed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Vehicle stopped, engine running</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0 km/h (0 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Vehicle driven at constant speed between 16.1 and 64.4 km/h (10 and 40 mph)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No large fluctuations when driving at a constant speed</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten2>
+<ptxt>When performing the confirmation driving pattern, obey all speed limits and traffic laws.</ptxt>
+</atten2>
+<atten4>
+<ptxt>Data can be captured relatively easily by using the snapshot function in the Data List. Confirm the data after performing the driving test.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000004G8F0BFX_03_0006" fin="false">OK</down>
+<right ref="RM000004G8F0BFX_03_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0006" proc-id="RM21Q0EV__00004YL00000">
+<testtitle>READ VALUE USING INTELLIGENT TESTER (FR, FL, RR, RL WHEEL SPEED)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ON and turn the intelligent tester on.</ptxt>
+</test1>
+<test1>
+<ptxt>Start the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter the following menus: Chassis / ABS/VSC/TRC / Data List / FR Wheel Speed, FL Wheel Speed, RR Wheel Speed and RL Wheel Speed.</ptxt>
+</test1>
+<test1>
+<ptxt>Read the value displayed on the intelligent tester.</ptxt>
+<spec>
+<title>Standard</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Intelligent Tester Display</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>FR Wheel Speed</ptxt>
+<ptxt>FL Wheel Speed</ptxt>
+<ptxt>RR Wheel Speed</ptxt>
+<ptxt>RL Wheel Speed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Vehicle stopped, engine running</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0 km/h (0 mph)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Vehicle driven at constant speed between 16.1 and 64.4 km/h (10 and 40 mph)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No large fluctuations when driving at a constant speed</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten2>
+<ptxt>When performing the confirmation driving pattern, obey all speed limits and traffic laws.</ptxt>
+</atten2>
+<atten4>
+<ptxt>Data can be captured relatively easily by using the snapshot function in the Data List. Confirm the data after performing the driving test.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000004G8F0BFX_03_0007" fin="true">OK</down>
+<right ref="RM000004G8F0BFX_03_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0007">
+<testtitle>END</testtitle>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0008">
+<testtitle>INSPECT FRONT OR REAR SPEED SENSOR</testtitle>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0009">
+<testtitle>GO TO VEHICLE SPEED SENSOR MALFUNCTION<xref label="Seep01" href="RM000000ZQ700WX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0010">
+<testtitle>REPLACE ACCELERATOR PEDAL ROD ASSEMBLY<xref label="Seep01" href="RM000000VWD021X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0011">
+<testtitle>REPAIR OR REPLACE BRAKE PEDAL<xref label="Seep01" href="RM0000010K801KX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0012">
+<testtitle>INSPECT STOP LIGHT SWITCH ASSEMBLY<xref label="Seep01" href="RM0000024F3003X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000004G8F0BFX_03_0013">
+<testtitle>GO TO DTC CHART</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

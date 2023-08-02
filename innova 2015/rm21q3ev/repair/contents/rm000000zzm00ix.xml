@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002H_S000J" variety="S000J">
+<name>AXLE</name>
+<ttl id="1002H_S000J_7A7ZZ_T004D" variety="T004D">
+<name>FRONT AXLE HUB</name>
+<para id="RM000000ZZM00IX" category="G" type-id="8000T" name-id="AH02E-02" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000ZZM00IX_01" type-id="01" category="01">
+<s-1 id="RM000000ZZM00IX_01_0001" proc-id="RM21Q0EV__00001GO00000">
+<ptxt>CHECK FRONT AXLE HUB BEARING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C136360" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the front wheel.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the front disc brake cylinder (see page <xref label="Seep01" href="RM0000010KT00SX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the front disc.</ptxt>
+</s2>
+<s2>
+<ptxt>Inspect the axle hub backlash.</ptxt>
+<s3>
+<ptxt>Using a dial indicator, check the backlash near the center of the axle hub.</ptxt>
+<spec>
+<title>Maximum backlash</title>
+<specitem>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the backlash is greater than the maximum, replace the bearing.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Inspect the axle hub deviation.</ptxt>
+<figure>
+<graphic graphicname="C136361" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using a dial indicator, check the deviation on the surface of the axle hub.</ptxt>
+<spec>
+<title>Maximum deviation</title>
+<specitem>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the deviation is greater than the maximum, replace the bearing.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="10021_S0011" variety="S0011">
+<name>HORN</name>
+<ttl id="10021_S0011_7A82W_T007A" variety="T007A">
+<name>INTEGRATION RELAY</name>
+<para id="RM0000013OA01UX" category="G" type-id="8000T" name-id="HO01O-06" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000013OA01UX_01" type-id="01" category="01">
+<s-1 id="RM0000013OA01UX_01_0001" proc-id="RM21Q0EV__00002MG00000">
+<ptxt>INSPECT INTEGRATION NO.1 RELAY (HORN RELAY)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034545E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws and disconnect the integration relay from the engine room junction block.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099733E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Measure the voltage of the HORN relay.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1I-8 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Horn switch ON</ptxt>
+</entry>
+<entry>
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the integration relay.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

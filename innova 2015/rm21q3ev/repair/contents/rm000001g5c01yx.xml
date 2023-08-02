@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81K_T005Y" variety="T005Y">
+<name>REAR SEAT OUTER BELT ASSEMBLY</name>
+<para id="RM000001G5C01YX" category="G" type-id="3001K" name-id="SB09M-03" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001G5C01YX_01" type-id="01" category="01">
+<s-1 id="RM000001G5C01YX_01_0001" proc-id="RM21Q0EV__000026D00000">
+<ptxt>INSPECT REAR NO. 1 SEAT BELT ASSEMBLY OUTER RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B081499E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not disassemble the retractor.</ptxt>
+</atten3>
+<s2>
+<ptxt>When the inclination of the retractor is 15° or less, check that the belt can be pulled from the retractor. When the inclination of the retractor is over 45°, check that the belt locks.</ptxt>
+<ptxt>If the operation is not as specified, replace the belt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G5C01YX_01_0002" proc-id="RM21Q0EV__000026E00000">
+<ptxt>INSPECT REAR NO. 2 SEAT BELT ASSEMBLY OUTER RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B081499E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not disassemble the retractor.</ptxt>
+</atten3>
+<s2>
+<ptxt>When the inclination of the retractor is 15° or less, check that the belt can be pulled from the retractor. When the inclination of the retractor is over 45°, check that the belt locks.</ptxt>
+<ptxt>If the operation is not as specified, replace the belt.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

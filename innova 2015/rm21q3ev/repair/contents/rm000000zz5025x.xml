@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1002F_S000H" variety="S000H">
+<name>PROPELLER SHAFT</name>
+<ttl id="1002F_S000H_7ARNQ_T009N" variety="T009N">
+<name>PROPELLER SHAFT ASSEMBLY</name>
+<para id="RM000000ZZ5025X" category="A" type-id="8000E" name-id="PR0A8-06" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000000ZZ5025X_01" type-id="01" category="01">
+<s-1 id="RM000000ZZ5025X_01_0001" proc-id="RM21Q0EV__000046G00000">
+<ptxt>INSTALL UNIVERSAL JOINT SPIDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply MP grease to a new spider and 4 new bearings.</ptxt>
+<figure>
+<graphic graphicname="C060598E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Fit the spider into the yoke.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, install 2 spider bearings to the spider.</ptxt>
+<sst>
+<sstitem>
+<s-number>09332-25010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="C063061E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using SST, adjust the spider bearings so that: 1) the yoke does not overlap the snap ring grooves of the spider bearings, and the grooves are as wide as possible; and 2) the groove width on both sides is the same.</ptxt>
+<sst>
+<sstitem>
+<s-number>09332-25010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="G020755E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install 2 new snap rings to the installed spider bearings. The snap rings must have an equal thickness which will allow 0 to 0.05 mm (0 to 0.00197 in.) axial play.</ptxt>
+<spec>
+<title>Standard Snap Ring Thickness</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part No.</ptxt>
+</entry>
+<entry>
+<ptxt>Thickness</ptxt>
+</entry>
+<entry>
+<ptxt>Mark</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>90520-T0007</ptxt>
+</entry>
+<entry>
+<ptxt>2.19 mm (0.0862 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>F</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0008</ptxt>
+</entry>
+<entry>
+<ptxt>2.21 mm (0.0870 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>G</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0009</ptxt>
+</entry>
+<entry>
+<ptxt>2.23 mm (0.0877 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>H</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0010</ptxt>
+</entry>
+<entry>
+<ptxt>2.25 mm (0.0885 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>J</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0011</ptxt>
+</entry>
+<entry>
+<ptxt>2.27 mm (0.0893 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>K</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0012</ptxt>
+</entry>
+<entry>
+<ptxt>2.29 mm (0.0901 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>1</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0013</ptxt>
+</entry>
+<entry>
+<ptxt>2.31 mm (0.0909 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>2</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0014</ptxt>
+</entry>
+<entry>
+<ptxt>2.33 mm (0.0917 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>3</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0015</ptxt>
+</entry>
+<entry>
+<ptxt>2.35 mm (0.0925 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>4</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0016</ptxt>
+</entry>
+<entry>
+<ptxt>2.37 mm (0.0933 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>5</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0017</ptxt>
+</entry>
+<entry>
+<ptxt>2.39 mm (0.0940 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>6</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0018</ptxt>
+</entry>
+<entry>
+<ptxt>2.41 mm (0.0948 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>7</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0019</ptxt>
+</entry>
+<entry>
+<ptxt>2.43 mm (0.0956 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>8</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0020</ptxt>
+</entry>
+<entry>
+<ptxt>2.45 mm (0.0964 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>N</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0021</ptxt>
+</entry>
+<entry>
+<ptxt>2.47 mm (0.0972 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0022</ptxt>
+</entry>
+<entry>
+<ptxt>2.49 mm (0.0980 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0023</ptxt>
+</entry>
+<entry>
+<ptxt>2.51 mm (0.0988 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0024</ptxt>
+</entry>
+<entry>
+<ptxt>2.53 mm (0.0996 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0025</ptxt>
+</entry>
+<entry>
+<ptxt>2.55 mm (0.1003 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>90520-T0026</ptxt>
+</entry>
+<entry>
+<ptxt>2.57 mm (0.1011 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>E</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>New snap rings must be used.</ptxt>
+</item>
+<item>
+<ptxt>The snap ring thickness must be the same on both ends.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a hammer, tap the yoke until there is no clearance between the spider bearings and snap rings.</ptxt>
+<figure>
+<graphic graphicname="G022297E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the matchmarks on the yoke and shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install 2 spider bearings on the shaft side.</ptxt>
+<ptxt>Install the other universal joint spider(s) using the same procedures.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZ5025X_01_0002" proc-id="RM21Q0EV__000046H00000">
+<ptxt>INSPECT UNIVERSAL JOINT SPIDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the spider bearings for wear or damage.</ptxt>
+<ptxt>If any of the bearings is worn or damaged, replace it.</ptxt>
+</s2>
+<s2>
+<ptxt>Check each spider bearing's axial play by turning the yoke while holding the shaft tightly.</ptxt>
+<spec>
+<title>Maximum bearing axial play</title>
+<specitem>
+<ptxt>0.05 mm (0.00197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the bearing axial play is more than the maximum, replace the spider bearing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZ5025X_01_0003" proc-id="RM21Q0EV__000046I00000">
+<ptxt>INSTALL CENTER NO. 1 SUPPORT BEARING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the center support bearing to the intermediate shaft.</ptxt>
+<figure>
+<graphic graphicname="C115788E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Coat the splines of the intermediate shaft with MP grease.</ptxt>
+<figure>
+<graphic graphicname="F049874E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the matchmarks on the flange coupling and intermediate shaft, and install the flange coupling to the intermediate shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the washer.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST to hold the flange coupling, press the bearing into position by installing a new lock nut.</ptxt>
+<sst>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F049875E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>181</t-value1>
+<t-value2>1850</t-value2>
+<t-value4>134</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Loosen the lock nut.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the lock nut again.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>68</t-value1>
+<t-value2>700</t-value2>
+<t-value4>51</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a chisel and hammer, stake the lock nut.</ptxt>
+<figure>
+<graphic graphicname="C061391E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the matchmarks on the flange yoke and flange coupling, and connect them with the 4 washers and 4 nuts.</ptxt>
+<figure>
+<graphic graphicname="F049877E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>88</t-value1>
+<t-value2>897</t-value2>
+<t-value4>65</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>If any parts with matchmarks is replaced during inspection, reassemble them so that the yoke of the intermediate shaft and the rear flange yoke of the propeller shaft are at right angles to each other.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZ5025X_01_0004" proc-id="RM21Q0EV__000046J00000">
+<ptxt>INSPECT PROPELLER WITH CENTER BEARING SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When the spider bearing is replaced, be sure that the grease fitting holes are facing the direction shown in the illustration. </ptxt>
+<figure>
+<graphic graphicname="C191269E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

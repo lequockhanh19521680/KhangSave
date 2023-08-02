@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000102G02HX" category="S" type-id="3001E" name-id="BC0E2-10" from="201202">
+<name>DIAGNOSTIC TROUBLE CODE CHART</name>
+<subpara id="RM00000102G02HX_z0" proc-id="RM21Q0EV__00001M100000">
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If an abnormality is not found when inspecting parts, inspect the ECU and ground points for poor contact.</ptxt>
+</item>
+<item>
+<ptxt>If a malfunction code is displayed during the DTC check, check the circuit listed for that code. For details of each code, refer to the See page in the chart below.</ptxt>
+</item>
+<item>
+<ptxt>When 2 or more DTCs are detected, perform inspections on each circuit until the problem is identified.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>DTC chart of ABS</title>
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="0.99in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="2.48in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.69in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="0.92in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0200/31</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Right Front Wheel Speed Sensor Signal Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Front speed sensor RH</ptxt>
+<ptxt>- Front speed sensor RH circuit</ptxt>
+<ptxt>- Front speed sensor rotor RH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0205/32</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Left Front Wheel Speed Sensor Signal Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Front speed sensor LH</ptxt>
+<ptxt>- Front speed sensor LH circuit</ptxt>
+<ptxt>- Front speed sensor rotor LH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0210/33</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Right Rear Wheel Speed Sensor Signal Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Rear speed sensor RH</ptxt>
+<ptxt>- Rear speed sensor RH circuit</ptxt>
+<ptxt>- Rear speed sensor rotor RH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0215/34</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Left Rear Wheel Speed Sensor Signal Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Rear speed sensor LH</ptxt>
+<ptxt>- Rear speed sensor LH circuit</ptxt>
+<ptxt>- Rear speed sensor rotor LH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0226/21</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>SFR Solenoid Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- SFRR or SFRH circuit</ptxt>
+<ptxt>- Brake actuator assembly</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104A013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0236/22</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>SFL Solenoid Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- SFLR or SFLH circuit</ptxt>
+<ptxt>- Brake actuator assembly</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104A013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0246/23</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>SRR Solenoid Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- SRRR or SRRH circuit</ptxt>
+<ptxt>- Brake actuator assembly</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104A013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0273/13</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in ABS Motor Relay Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Brake actuator assembly (ABS motor relay)</ptxt>
+<ptxt>- ABS motor relay circuit</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011CE00ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0274/14</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to B+ in ABS Motor Relay Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Brake actuator assembly (ABS motor relay)</ptxt>
+<ptxt>- ABS motor relay circuit</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011CE00ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0278/11</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in ABS Solenoid Relay Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Brake actuator assembly (ABS solenoid relay)</ptxt>
+<ptxt>- ABS solenoid relay circuit</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011CD013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C0279/12</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to B+ in ABS Solenoid Relay Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Brake actuator assembly (ABS solenoid relay)</ptxt>
+<ptxt>- ABS solenoid relay circu</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011CD013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1235/35</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Foreign Object is Attached on Tip of Front Speed Sensor RH</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Front speed sensor RH</ptxt>
+<ptxt>- Front speed sensor RH circuit</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1236/36</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Foreign Object is Attached on Tip of Front Speed Sensor LH</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Front speed sensor LH</ptxt>
+<ptxt>- Front speed sensor LH circuit</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1238/38</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Foreign Object is Attached on Tip of Rear Speed Sensor RH</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Rear speed sensor RH</ptxt>
+<ptxt>- Rear speed sensor RH circuit</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1239/39</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Foreign Object is Attached on Tip of Rear Speed Sensor LH</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Rear speed sensor LH</ptxt>
+<ptxt>- Rear speed sensor LH circuit</ptxt>
+<ptxt>- Sensor installation</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1241/41</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Low Battery Positive Voltage or Abnormally High Battery Positive Voltage</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Battery</ptxt>
+<ptxt>- Charging system</ptxt>
+<ptxt>- Power source circuit</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000011CF019X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1249/49</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in Stop Light Switch Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Stop light bulb</ptxt>
+<ptxt>- Stop light switch</ptxt>
+<ptxt>- Stop light switch circuit</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104C013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1251/51</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in Pump Motor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Brake actuator</ptxt>
+<ptxt>- Brake actuator circuit</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104D011X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1337/37</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Diameter of the Tire is not Uniform</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>Tire size</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104I022X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>DTC chart of sensor check function</title>
+<tgroup cols="4" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="0.99in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="2.48in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.69in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="0.92in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1271/71</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Low Output Signal of Front Speed Sensor RH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Front speed sensor RH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+<ptxt>- Front speed sensor rotor RH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1272/72</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Low Output Signal of Front Speed Sensor LH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Front speed sensor LH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+<ptxt>- Front speed sensor rotor LH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1273/73</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Low Output Signal of Rear Speed Sensor RH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Rear speed sensor RH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+<ptxt>- Rear speed sensor rotor RH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1274/74</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Low Output Signal of Rear Speed Sensor LH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>- Rear speed sensor LH</ptxt>
+<ptxt>- Sensor installation</ptxt>
+<ptxt>- Rear speed sensor rotor LH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1275/75</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Abnormal Change in Output Signal of Front Speed Sensor RH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>Front speed sensor rotor RH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1276/76</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Abnormal Change in Output Signal of Front Speed Sensor LH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>Front speed sensor rotor LH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000102R02AX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1277/77</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Abnormal Change in Output Signal of Rear Speed Sensor RH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>Rear speed sensor rotor RH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>C1278/78</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Abnormal Change in Output Signal of Rear Speed Sensor LH (Test Mode DTC)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle">
+<ptxt>Rear speed sensor rotor LH</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM00000104M02BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The codes in this table are output only in TEST MODE.</ptxt>
+</atten4>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

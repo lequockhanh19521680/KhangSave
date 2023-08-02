@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82F_T006T" variety="T006T">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM000001JFA00CX" category="L" type-id="3001A" name-id="DL0MT-02" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000001JFA00CX_z0" proc-id="RM21Q0EV__00002F500000">
+<content5 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable from the negative (-) battery terminal, initialize the following system(s) after the cable is reconnected.</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>System Name</ptxt>
+</entry>
+<entry>
+<ptxt>See procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Meter / Gauge system</ptxt>
+</entry>
+<entry>
+<ptxt>
+<xref label="Seep01" href="RM000001126016X"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</atten3>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

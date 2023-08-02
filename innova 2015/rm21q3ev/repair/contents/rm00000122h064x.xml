@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81H_T005V" variety="T005V">
+<name>FRONT SEAT INNER BELT ASSEMBLY</name>
+<para id="RM00000122H064X" category="A" type-id="80001" name-id="SB6TI-01" from="201202" to="201303">
+<name>REMOVAL</name>
+<subpara id="RM00000122H064X_03" type-id="11" category="10" proc-id="RM21Q0EV__00005OF00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM00000122H064X_02" type-id="01" category="01">
+<s-1 id="RM00000122H064X_02_0020" proc-id="RM21Q0EV__000024P00000">
+<ptxt>REMOVE FRONT SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the front seat assembly LH (See page <xref label="Seep01" href="RM000000Z8U09CX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000122H064X_02_0022" proc-id="RM21Q0EV__00005OC00000">
+<ptxt>REMOVE FRONT SEAT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000122H064X_02_0004" proc-id="RM21Q0EV__000024N00000">
+<ptxt>REMOVE FRONT SEAT INNER BELT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B087811E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>w/ Driver Seat Belt Warning Light:</ptxt>
+<s3>
+<ptxt>Detach the clamp.</ptxt>
+</s3>
+<s3>
+<ptxt>Detach the wire harness from the clamp.</ptxt>
+<figure>
+<graphic graphicname="B089297E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+</s2>
+<s2>
+<ptxt>Roll up over the front seat cushion cover LH.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and front seat inner belt assembly LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000122H064X_02_0016" proc-id="RM21Q0EV__000024O00000">
+<ptxt>REMOVE FRONT SEAT INNER BELT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Passenger Seat Belt Warning Light: </ptxt>
+<figure>
+<graphic graphicname="B113100E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Detach the 2 clamps and disconnect the connector.</ptxt>
+</s3>
+<s3>
+<ptxt>Detach the 2 clamps.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="B087812E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the wire harness from the clamp.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Roll up over the front seat cushion cover RH.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and front seat inner belt assembly RH.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000122H064X_02_0023" proc-id="RM21Q0EV__00005OD00000">
+<ptxt>REMOVE FRONT SEAT CUSHION COVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the front seat cushion cover LH from the front seat inner belt assembly LH.</ptxt>
+<atten4>
+<ptxt>Use the same procedure described for the RH side.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

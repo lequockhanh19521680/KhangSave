@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1000J_S000L" variety="S000L">
+<name>TIRE AND WHEEL</name>
+<ttl id="1000J_S000L_7A80C_T004Q" variety="T004Q">
+<name>TIRE AND WHEEL SYSTEM</name>
+<para id="RM000001F0B093X" category="D" type-id="3001B" name-id="TW004B-206" from="201503">
+<name>HOW TO PROCEED WITH TROUBLESHOOTING</name>
+<subpara id="RM000001F0B093X_z0" proc-id="RM21Q0EV__000046L00003">
+<content5 releasenbr="3">
+<step1>
+<ptxt>DIAGNOSIS OF TIRE VIBRATION</ptxt>
+</step1>
+<descript-diag>
+<descript-testgroup>
+<testtitle>TIGHTEN WHEEL NUTS</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>INSPECT TIRES (See page <xref label="Seep01" href="RM0000010MW013X_01_0001"/>)</testtitle>
+<results>
+<result>NG</result>
+<action-ci-right>Go to step 3</action-ci-right>
+<result>OK</result>
+<action-ci-right>Go to step 4</action-ci-right>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>REPAIR OR REPLACE TIRE(S)</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>INSPECT AND/OR ADJUST WHEEL BALANCE (See page <xref label="Seep02" href="RM0000010MW013X_01_0005"/>)</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>INSPECT FRONT AXLE HUB BEARING LOOSENESS AND AXLE HUB RUNOUT (See page <xref label="Seep03" href="RM000000ZZM00IX"/>)</testtitle>
+<results>
+<result>NG</result>
+<action-ci-right>Go to step 6</action-ci-right>
+<result>OK</result>
+<action-ci-right>Go to step 7</action-ci-right>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>REPAIR FRONT AXLE HUB BEARING LOOSENESS AND AXLE HUB RUNOUT (See page <xref label="Seep05" href="RM000000ZZQ00MX"/>)</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>PERFORM ROAD TEST</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+<action-ci-fin>RETURN VEHICLE TO CUSTOMER</action-ci-fin>
+</results>
+</descript-testgroup>
+</descript-diag>
+<step1>
+<ptxt>DIAGNOSIS OF IRREGULAR TIRE WEAR</ptxt>
+</step1>
+<descript-diag>
+<descript-testgroup>
+<testtitle>INSPECT TIRES (See page <xref label="Seep07" href="RM0000010MW013X_01_0001"/>)</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>REPAIR OR REPLACE TIRE(S)</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>INSPECT AND/OR ADJUST FRONT WHEEL ALIGNMENT (See page <xref label="Seep08" href="RM0000039J4005X"/>)</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>PERFORM ROAD TEST</testtitle>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+<action-ci-fin>RETURN VEHICLE TO CUSTOMER</action-ci-fin>
+</results>
+</descript-testgroup>
+</descript-diag>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="routing">
+	<Code id="P6" type="conn" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="P5" type="conn" subcode="">
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="T14" type="conn" subcode="">
+		<refs type="system" code="SYS002"/></Code>
+	<Code id="S14" type="conn" subcode="">
+		<refs type="system" code="SYS002"/></Code>
+	<Code id="P11" type="conn" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="P8" type="conn" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="S16" type="conn" subcode="">
+		<refs type="system" code="SYS002"/></Code>
+	<Code id="P9" type="conn" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="S17" type="conn" subcode="">
+		<refs type="system" code="SYS002"/></Code>
+	<Code id="R8" type="conn" subcode="">
+		<refs type="system" code="SYS036"/></Code>
+	<Code id="P12" type="conn" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="R10" type="conn" subcode="B">
+		<refs type="system" code="SYS027"/></Code>
+	<Code id="R7" type="conn" subcode="">
+		<refs type="system" code="SYS003"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS022"/>
+		<refs type="system" code="SYS024"/></Code>
+	<Code id="R11" type="conn" subcode="">
+		<refs type="system" code="SYS021"/></Code>
+	<Code id="U3" type="conn" subcode="">
+		<refs type="system" code="SYS017"/></Code>
+	<Code id="U5" type="conn" subcode="">
+		<refs type="system" code="SYS018"/></Code>
+	<Code id="R12" type="conn" subcode="">
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS037"/></Code>
+	<Code id="T15" type="conn" subcode="">
+		<refs type="system" code="SYS002"/></Code>
+	<Code id="P7" type="conn" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="S15" type="conn" subcode="">
+		<refs type="system" code="SYS002"/></Code>
+	<Code id="P10" type="conn" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="R13" type="conn" subcode="">
+		<refs type="system" code="SYS014"/>
+		<refs type="system" code="SYS037"/></Code>
+	<Code id="R9" type="conn" subcode="A">
+		<refs type="system" code="SYS027"/></Code>
+	<Code id="U2" type="conn" subcode="">
+		<refs type="system" code="SYS017"/></Code>
+	<Code id="U4" type="conn" subcode="">
+		<refs type="system" code="SYS018"/></Code>
+	<Code id="S19" type="conn" subcode="">
+		<refs type="system" code="SYS029"/></Code>
+	<Code id="S18" type="conn" subcode="">
+		<refs type="system" code="SYS029"/></Code>
+	<Code id="R6" type="conn" subcode="">
+		<refs type="system" code="SYS003"/>
+		<refs type="system" code="SYS013"/>
+		<refs type="system" code="SYS023"/>
+		<refs type="system" code="SYS022"/>
+		<refs type="system" code="SYS024"/></Code>
+</CodeList>

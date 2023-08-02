@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="59">
+<name>Vehicle Exterior</name>
+<section id="12067_S0011" variety="S0011">
+<name>MIRROR (EXT)</name>
+<ttl id="12067_S0011_7AHZ2_T000G" variety="T000G">
+<name>MIRROR SYSTEM</name>
+<para id="RM000004RYW003X" category="F" type-id="8048W" name-id="MX2TF-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004RYW003X_z0" proc-id="NM21Q0EV__000000Y00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>Outer Rear View Mirror Assembly</ptxt>
+<step3>
+<ptxt>An electrical remote control type outer rear view mirror assembly is used.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

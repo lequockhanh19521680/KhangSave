@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A80B_T004P" variety="T004P">
+<name>FRONT LOWER SUSPENSION ARM</name>
+<para id="RM0000010U9009X" category="A" type-id="80002" name-id="SP3EI-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000010U9009X_z2">
+<content4>
+<table frame="all" colsep="1" rowsep="1">
+<title>SST</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.96in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.18in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="2.04in" colsep="0"/>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I010136" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09628-00011</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Ball Joint Puller</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="2">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000742" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09632-36010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Steering Vane Pump Bearing</ptxt>
+<ptxt>Replacer</ptxt>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="3">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002585" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09710-22021</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Front Suspension Bush Tool</ptxt>
+<ptxt>Set</ptxt>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="4">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002591" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09710-01081)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Lower Arm Bushing Replacer</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="5">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I000119" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09950-00020</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Bearing Remover</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="6">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002205" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09950-40011</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Puller B Set</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="7">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002206" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09951-04010)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Hanger 150</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="8">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002208" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09952-04010)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Slide Arm</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="9">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002210" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09953-04020)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Center Bolt 150</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="10">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002212" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09954-04010)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Arm 25</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="11">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002217" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09955-04031)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Claw No.3</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="12">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002222" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09957-04010)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Attachment</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="13">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002223" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09958-04011)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Holder</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="14">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002306" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>09950-60010</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Replacer Set</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+<row rowsep="15">
+<entry colname="1" colsep="1" align="center">
+<graphic graphicname="I002342" width="1.53in" height="0.61in"/>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>(09951-00520)</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="left">
+<ptxt>Replacer 52</ptxt>
+<ptxt/>
+<ptxt/>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

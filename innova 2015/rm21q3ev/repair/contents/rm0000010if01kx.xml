@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81E_T005S" variety="T005S">
+<name>FRONT AIRBAG SENSOR</name>
+<para id="RM0000010IF01KX" category="A" type-id="30014" name-id="RSC4Y-11" from="201202" to="201403">
+<name>INSTALLATION</name>
+<subpara id="RM0000010IF01KX_02" type-id="11" category="10" proc-id="RM21Q0EV__00004VF00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010IF01KX_01" type-id="01" category="01">
+<s-1 id="RM0000010IF01KX_01_0001" proc-id="RM21Q0EV__00004V900000">
+<ptxt>INSTALL FRONT AIRBAG SENSOR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front airbag sensor LH with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>If the front airbag sensor LH has been dropped, or there are any cracks, dents or other defects in the case or connector, replace it with a new one.</ptxt>
+</item>
+<item>
+<ptxt>When installing the front airbag sensor LH, make sure that the SRS wiring does not interfere with other parts and is not pinched between other parts.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Check that the front airbag sensor LH is not loose.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010IF01KX_01_0002" proc-id="RM21Q0EV__00004VA00000">
+<ptxt>INSTALL BATTERY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the battery.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the cable to the positive (+) battery terminal.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010IF01KX_01_0012" proc-id="RM21Q0EV__00004VH00000">
+<ptxt>INSTALL BATTERY CLAMP SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the battery clamp with the bolt and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010IF01KX_01_0009" proc-id="RM21Q0EV__00003QX00000">
+<ptxt>INSTALL RADIATOR GRILLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010IF01KX_01_0010" proc-id="RM21Q0EV__00004VD00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM0000010IF01KX_01_0007" proc-id="RM21Q0EV__00004VB00000">
+<ptxt>CHECK SRS WARNING LIGHT</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000YVX010X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

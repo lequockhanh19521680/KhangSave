@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LIT02SX" category="D" type-id="303F4" name-id="ACCUQ-18" from="201202">
+<name>DTC CHECK / CLEAR</name>
+<subpara id="RM000002LIT02SX_z0" proc-id="RM21Q0EV__00004PS00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK INDICATOR</ptxt>
+<step2>
+<ptxt>Turn the ignition switch to ON while pressing the air conditioning control AUTO and recirculation switches simultaneously.</ptxt>
+<figure>
+<graphic graphicname="E228748" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step2>
+<step2>
+<ptxt>Check that the indicators turn on and off 4 times at 1 second intervals.</ptxt>
+<figure>
+<graphic graphicname="E228749E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>After the indicator check is completed, the system enters the DTC check mode automatically.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Blinking Pattern</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Off</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1 second</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4 times</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK DTC (SENSOR CHECK)</ptxt>
+<step2>
+<ptxt>After the indicator check is completed, check that the system enters the DTC check mode automatically.</ptxt>
+<figure>
+<graphic graphicname="E228750E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Press the OFF switch to cancel the check mode.</ptxt>
+</item>
+<item>
+<ptxt>In the sensor check mode, troubleshooting may be only partially completed. Be sure to perform the actuator check, and then perform the sensor check again.</ptxt>
+</item>
+</list1>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Diagnostic Trouble Code (DTC)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+<step2>
+<ptxt>Read the DTCs displayed on the panel (temperature display). Refer to the list of DTCs (See page <xref label="Seep01" href="RM000002LIN039X"/>) when reading the codes.</ptxt>
+</step2>
+<step2>
+<ptxt>If manual switching of the DTC display is desired, press the front DEF switch. This will stop the automatic progression of the DTC display. The DTC display can then be advanced manually by pressing the front DEF switch.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>CLEAR DTC</ptxt>
+<step2>
+<ptxt>There are 2 methods for clearing the DTC memory.</ptxt>
+<step3>
+<ptxt>During sensor check, press the front DEF switch and rear DEF switch at the same time.</ptxt>
+<figure>
+<graphic graphicname="E228751" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>Remove the ECU-B NO.2 fuse from the engine room relay block and junction block assembly for 20 seconds or more.</ptxt>
+<figure>
+<graphic graphicname="E225626E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COLSPEC0" align="center" colwidth="0.42in"/>
+<colspec colname="COLSPEC1" align="left" colwidth="3.71in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Engine Room Relay Block and Junction Block Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ECU-B NO.2 Fuse</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQ100VX" category="U" type-id="303FP" name-id="ES0OH-28" from="201202">
+<name>FAIL-SAFE CHART</name>
+<subpara id="RM000000ZQ100VX_z0" proc-id="RM21Q0EV__00000FJ00000">
+<content5 releasenbr="1">
+<ptxt>If any of the following codes are recorded, the ECM enters fail-safe mode.</ptxt>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="4">
+<colspec colnum="1" colname="c1" colwidth="1.0281429in"/>
+<colspec colnum="2" colname="c2" colwidth="1.7992505in"/>
+<colspec colnum="3" colname="c3" colwidth="2.5081128in"/>
+<colspec colnum="4" colname="c4" colwidth="1.8114152in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Fail-safe Operation</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Fail-safe Deactivation Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0100/31</ptxt>
+<ptxt>P0102/31</ptxt>
+<ptxt>P0103/31</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Mass Air Flow Meter</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>If engine is running at over 3,000 rpm, ECM performs fuel cut.</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>"Pass" condition detected</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0110/24</ptxt>
+<ptxt>P0112/24</ptxt>
+<ptxt>P0113/24</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Intake Air Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM fixes intake air temperature at 20°C (68°F).</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>"Pass" condition detected</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0115/22</ptxt>
+<ptxt>P0117/22</ptxt>
+<ptxt>P0118/22</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine Coolant Temperature </ptxt>
+<ptxt>Sensor</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM fixes engine coolant temperature at 80°C (176°F).</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>"Pass" condition detected</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0120/41</ptxt>
+<ptxt>P0121/41</ptxt>
+<ptxt>P0122/41</ptxt>
+<ptxt>P0123/41</ptxt>
+<ptxt>P0220/41</ptxt>
+<ptxt>P0222/41</ptxt>
+<ptxt>P0223/41</ptxt>
+<ptxt>P0604/89</ptxt>
+<ptxt>P0606/89</ptxt>
+<ptxt>P0607/89</ptxt>
+<ptxt>P0657/89</ptxt>
+<ptxt>P2102/41</ptxt>
+<ptxt>P2103/41</ptxt>
+<ptxt>P2111/41</ptxt>
+<ptxt>P2112/41</ptxt>
+<ptxt>P2118/89</ptxt>
+<ptxt>P2119/89</ptxt>
+<ptxt>P2135/41</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Electronic Throttle Control System</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>If electronic throttle control system is malfunctioning, ECM cuts off current to throttle actuator. Throttle control valve returns to predetermined throttle position (approximately 6.5°) by force of return spring.</ptxt>
+<ptxt>Then, required engine power is calculated by using ignition timing and accelerator pedal position. Engine is controlled by intermittent fuel-cut. If accelerator pedal is depressed firmly and slowly, vehicle can be driven at minimum speed. If accelerator pedal is depressed quickly, vehicle may speed up and slow down erratically.</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>"Pass" condition detected and then ignition switch turned OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0327/52</ptxt>
+<ptxt>P0328/52</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Knock Sensor</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>ECM sets ignition timing delay to maximum.</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Ignition switch turned to OFF</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0351/14</ptxt>
+<ptxt>P0352/15</ptxt>
+<ptxt>P0353/14</ptxt>
+<ptxt>P0354/15</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Igniter</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>If engine is running at over 500 rpm, ECM performs fuel cut in malfunctioning cylinders.</ptxt>
+<ptxt>Engine performs fuel cut in all cylinders if: 1) engine is running at over 1,500 rpm, and 2) engine load rate is 20 to 89% or more.</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>"Pass" condition detected</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P0504/51</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stop Light Switch Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Accelerator pedal angle is fixed.</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>"Pass" condition detected</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P2120/19</ptxt>
+<ptxt>P2121/19</ptxt>
+<ptxt>P2122/19</ptxt>
+<ptxt>P2123/19</ptxt>
+<ptxt>P2125/19</ptxt>
+<ptxt>P2127/19</ptxt>
+<ptxt>P2128/19</ptxt>
+<ptxt>P2138/19</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Accelerator Pedal Position Sensor</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Engine is stuck on idle or output is limited.</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>"Pass" condition detected and then ignition switch turned OFF</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

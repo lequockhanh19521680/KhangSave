@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YF_T002T" variety="T002T">
+<name>FUEL PUMP</name>
+<para id="RM00000133601GX" category="G" type-id="8000T" name-id="FU051-09" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM00000133601GX_01" type-id="01" category="01">
+<s-1 id="RM00000133601GX_01_0001" proc-id="RM21Q0EV__00000P000000">
+<ptxt>INSPECT FUEL PUMP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check fuel pump operation. </ptxt>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+<figure>
+<graphic graphicname="A120720E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+<atten3>
+<ptxt>Do not start the engine.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Push the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Select the Active Test and enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Fuel Pump / Speed.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

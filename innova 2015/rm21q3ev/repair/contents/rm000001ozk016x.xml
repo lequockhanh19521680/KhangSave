@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z4_T003I" variety="T003I">
+<name>EXTENSION HOUSING REAR OIL SEAL</name>
+<para id="RM000001OZK016X" category="A" type-id="30019" name-id="AT0VC-14" from="201202">
+<name>REPLACEMENT</name>
+<subpara id="RM000001OZK016X_01" type-id="01" category="01">
+<s-1 id="RM000001OZK016X_01_0001" proc-id="RM21Q0EV__00000WB00000">
+<ptxt>DRAIN AUTOMATIC TRANSMISSION FLUID</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the drain plug and gasket, and drain the ATF.</ptxt>
+</s2>
+<s2>
+<ptxt>Install a new gasket and the drain plug.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>286</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001OZK016X_01_0002" proc-id="RM21Q0EV__00000WC00000">
+<ptxt>REMOVE PROPELLER WITH CENTER BEARING SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the propeller with center bearing shaft (See page <xref label="Seep01" href="RM000000ZZ301ZX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001OZK016X_01_0003" proc-id="RM21Q0EV__00000WD00000">
+<ptxt>REMOVE AUTOMATIC TRANSMISSION EXTENSION HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D028697E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using SST, remove the retainer together with the dust seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09308-10010</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Using SST, remove the oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09308-10010</s-number>
+</sstitem>
+</sst>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001OZK016X_01_0004" proc-id="RM21Q0EV__00000WE00000">
+<ptxt>INSTALL AUTOMATIC TRANSMISSION EXTENSION HOUSING OIL SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C190090E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Coat the lip of a new oil seal with MP grease.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in the oil seal.</ptxt>
+<sst>
+<sstitem>
+<s-number>09309-37010</s-number>
+</sstitem>
+</sst>
+<spec>
+<title>Standard depth</title>
+<specitem>
+<ptxt>6.2 to 6.8 mm (0.244 to 0.268 in.)</ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>Be careful not to damage the lip of the oil seal.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install a new dust seal to a new retainer.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and a hammer, tap in the dust seal together with the retainer.</ptxt>
+<spec>
+<title>Standard distance</title>
+<specitem>
+<ptxt>0.7 to 1.3 mm (0.0394 to 0.0512 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001OZK016X_01_0005" proc-id="RM21Q0EV__00000WF00000">
+<ptxt>INSTALL PROPELLER WITH CENTER BEARING SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the propeller with center bearing shaft (See page <xref label="Seep01" href="RM000000ZZ1020X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001OZK016X_01_0006" proc-id="RM21Q0EV__00000WG00000">
+<ptxt>ADD AUTOMATIC TRANSMISSION FLUID</ptxt>
+<content1 releasenbr="1">
+<spec>
+<title>Fluid type</title>
+<specitem>
+<ptxt>Toyota Genuine ATF Type T-IV</ptxt>
+</specitem>
+</spec>
+</content1>
+</s-1>
+<s-1 id="RM000001OZK016X_01_0007" proc-id="RM21Q0EV__00000WH00000">
+<ptxt>CHECK AUTOMATIC TRANSMISSION FLUID LEVEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the automatic transmission fluid level (See page <xref label="Seep01" href="RM0000014P801SX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="58">
+<name>Vehicle Interior</name>
+<section id="12059_S000X" variety="S000X">
+<name>SEAT</name>
+<ttl id="12059_S000X_7AJVK_T000X" variety="T000X">
+<name>SEAT ASSEMBLY</name>
+<para id="RM000004S6Z001X" category="F" type-id="8048W" name-id="SE7RS-02" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004S6Z001X_z0" proc-id="NM21Q0EV__000002P00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>Seat Variation</ptxt>
+<step3>
+<ptxt>A 6-way manual seat is provided for the driver seat.</ptxt>
+</step3>
+<step3>
+<ptxt>A 4-way manual seat is provided for the front passenger seat.</ptxt>
+</step3>
+<step3>
+<ptxt>A separate type of 2-passenger or 3-passenger seat is provided for the rear No. 1 seat.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Seat Cover</ptxt>
+<step3>
+<ptxt>3 types of fabric are provided for the seat cover.</ptxt>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

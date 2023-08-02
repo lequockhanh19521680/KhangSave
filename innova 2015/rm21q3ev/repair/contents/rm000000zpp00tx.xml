@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZPP00TX" category="L" type-id="3001A" name-id="ES0O8-25" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000000ZPP00TX_z0" proc-id="RM21Q0EV__000007400000">
+<content5 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable from the negative (-) battery terminal, initialize the following system(s) after the cable is reconnected.</ptxt>
+</atten3>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>System Name</ptxt>
+</entry>
+<entry>
+<ptxt>See procedure</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Meter/Gauge System</ptxt>
+</entry>
+<entry>
+<ptxt>
+<xref label="Seep01" href="RM000001126016X"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>Initialization cannot be completed by only reconnecting the cable to the negative (-) battery terminal.</ptxt>
+</atten4>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

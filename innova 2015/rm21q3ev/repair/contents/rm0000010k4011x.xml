@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80I_T004W" variety="T004W">
+<name>BRAKE FLUID</name>
+<para id="RM0000010K4011X" category="G" type-id="8000T" name-id="BR06D-05" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010K4011X_01" type-id="01" category="01">
+<s-1 id="RM0000010K4011X_01_0001" proc-id="RM21Q0EV__000018M00000">
+<ptxt>CHECK BRAKE FLUID LEVEL IN RESERVOIR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fluid level and add fluid if necessary.</ptxt>
+<figure>
+<graphic graphicname="F052092" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Fluid</title>
+<specitem>
+<ptxt>SAE J1703 or FMVSS No. 116 DOT3</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Add fluid to a level between the reservoir's MIN and MAX lines.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

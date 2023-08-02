@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X2_T001G" variety="T001G">
+<name>1TR-FE COOLING</name>
+<para id="RM0000020QV003X" category="F" type-id="30027" name-id="SS24Y-01" from="201202">
+<name>SERVICE DATA</name>
+<subpara id="RM0000020QV003X_z0" proc-id="RM21Q0EV__000003N00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Thermostat</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Valve opening temperature</ptxt>
+</entry>
+<entry>
+<ptxt>80 to 84°C (176 to 183°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Valve lift</ptxt>
+</entry>
+<entry>
+<ptxt>8.5 mm (0.335 in.) or more at 95°C (203°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Radiator reservoir cap</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Standard value</ptxt>
+<ptxt>(for brand-new cap)</ptxt>
+</entry>
+<entry>
+<ptxt>93.3 to 122.7 kPa (0.95 to 1.25 kgf/cm<sup>2</sup>, 13.5 to 17.8 psi)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Minimum standard value</ptxt>
+<ptxt>(after using cap)</ptxt>
+</entry>
+<entry>
+<ptxt>78.5 kPa (0.8 kgf/cm<sup>2</sup>, 11.4 psi)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

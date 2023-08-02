@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7ARM9_T009L" variety="T009L">
+<name>OUTER REAR VIEW MIRROR GLASS</name>
+<para id="RM0000015DT03BX" category="A" type-id="30014" name-id="MX2PJ-08" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000015DT03BX_02" type-id="11" category="10" proc-id="RM21Q0EV__000045V00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000015DT03BX_01" type-id="01" category="01">
+<s-1 id="RM0000015DT03BX_01_0001" proc-id="RM21Q0EV__000045U00000">
+<ptxt>INSTALL OUTER MIRROR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B278388" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Attach the 2 claws as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B285970" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Attach the 2 claws to install the outer mirror LH.</ptxt>
+<atten3>
+<ptxt>Do not push in the glass with excessive force. Doing so may break the mirror surface.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

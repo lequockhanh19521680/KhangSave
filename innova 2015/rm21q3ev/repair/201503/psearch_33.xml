@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db><pub id="RM21Q3EV"><servcat id="33"><name>TRANSMISSION</name><section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name><ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V"><name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<parts id="F00004O"><name>AUTOMATIC TRANSMISSION SYSTEM</name></parts>
+<para id="RM0000013US01DX" category="C" type-id="302UA" from="201202"><name>P0710/38</name><name>P0712/38</name><name>P0713/38</name>
+
+
+
+
+
+<parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89429A"><name>TEMPERATURE SENSOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM0000018N8018X" category="C" type-id="302TF" from="201202"><name>P0717/67</name>
+
+
+
+
+
+<parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89411C"><name>SPEED SENSOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM0000013TS018X" category="C" type-id="302NQ" from="201202"><name>P0722/61</name>
+
+
+
+
+
+<parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="89411C"><name>SPEED SENSOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM0000013TT013X" category="C" type-id="302NR" from="201202"><name>P0973/62</name><name>P0974/62</name><name>P0976/63</name><name>P0977/63</name>
+
+
+
+
+
+<parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35250A"><name>TRANSMISSION SOLENOID ASSEMBLY NO.3</name></parts><parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM0000013TQ012X" category="C" type-id="302NI" from="201202"><name>P2716/77</name>
+
+
+
+
+<parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35290"><name>LINE PRESSURE CONTROL SOLENOID ASSEMBLY</name></parts><parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM0000013TU01XX" category="C" type-id="3031A" from="201202"><name>P2769/64</name><name>P2770/64</name>
+
+
+
+
+
+<parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35250A"><name>TRANSMISSION SOLENOID ASSEMBLY NO.3</name></parts><parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+
+<para id="RM0000013TP023X" category="J" type-id="300WI" from="201303"><name>Park / Neutral Position Switch Circuit</name>
+
+
+
+
+<parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="33560"><name>SHIFT LOCK CONTROL UNIT ASSEMBLY</name></parts><parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM0000013TO019X" category="J" type-id="300WG" from="201202"><name>Stop Light Switch Circuit</name>
+
+
+
+
+<parts id="89661A"><name>ECM</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84340"><name>STOP LAMP SWITCH ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7Z3_T003H" variety="T003H"><name>AUTOMATIC TRANSMISSION FLUID</name>
+<parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts>
+<para id="RM0000014P801SX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="F0000HN"><name>AUTOMATIC TRANSMISSION FLUID LEVEL</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7Z4_T003I" variety="T003I"><name>EXTENSION HOUSING REAR OIL SEAL</name>
+<parts id="F00004Q"><name>EXTENSION HOUSING REAR OIL SEAL</name></parts>
+<para id="RM000001OZK016X" category="A" type-id="30019" from="201202"><name>REPLACEMENT</name>
+
+<parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="37100"><name>PROPELLER W/CENTER BEARING SHAFT ASSEMBLY</name></parts><parts id="35108R"><name>AUTOMATIC TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7Z5_T003J" variety="T003J"><name>SPEED SENSOR</name>
+<parts id="B800324"><name>SPEED SENSOR</name></parts>
+<para id="RM0000010N501XX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="83181G"><name>SPEEDOMETER SENSOR</name></parts><parts id="89411C"><name>SPEED SENSOR</name></parts></para>
+<para id="RM0000010N301WX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="89411C"><name>SPEED SENSOR</name></parts></para>
+<para id="RM0000013FM01YX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="89411C"><name>SPEED SENSOR</name></parts><parts id="83181G"><name>SPEEDOMETER SENSOR</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7Z6_T003K" variety="T003K"><name>TRANSMISSION WIRE</name>
+<parts id="B399524"><name>TRANSMISSION WIRE</name></parts>
+<para id="RM0000010N201TX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35892"><name>OVERDRIVE BRAKE TUBE</name></parts><parts id="35330"><name>VALVE BODY OIL STRAINER ASSEMBLY</name></parts><parts id="35106"><name>AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts></para>
+<para id="RM0000010MZ020X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0000HN"><name>AUTOMATIC TRANSMISSION FLUID LEVEL</name></parts><parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="35106"><name>AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</name></parts><parts id="35330"><name>VALVE BODY OIL STRAINER ASSEMBLY</name></parts><parts id="35892"><name>OVERDRIVE BRAKE TUBE</name></parts><parts id="82125J"><name>TRANSMISSION WIRE</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7Z7_T003L" variety="T003L"><name>ATF TEMPERATURE SENSOR</name>
+<parts id="F000053"><name>ATF TEMPERATURE SENSOR</name></parts>
+<para id="RM0000010NL01SX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="89429A"><name>TEMPERATURE SENSOR</name></parts></para>
+<para id="RM0000010NJ01TX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="89429A"><name>TEMPERATURE SENSOR</name></parts></para>
+<para id="RM0000010NI01TX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0000HN"><name>AUTOMATIC TRANSMISSION FLUID LEVEL</name></parts><parts id="89429A"><name>TEMPERATURE SENSOR</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7Z8_T003M" variety="T003M"><name>PARK / NEUTRAL POSITION SWITCH</name>
+<parts id="B001343"><name>PARK / NEUTRAL POSITION SWITCH</name></parts>
+<para id="RM0000010ND056X" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts></para>
+<para id="RM0000010NC05SX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts><parts id="B300220"><name>PARK / NEUTRAL POSITION SWITCH CONNECTOR</name></parts><parts id="B000853"><name>DISCONNECT BATTERY NEGATIVE TERMINAL</name></parts></para>
+<para id="RM0000010NA02OX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts></para>
+<para id="RM0000010N805SX" category="N" type-id="3000G" from="201202"><name>ADJUSTMENT</name>
+
+<parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts></para>
+<para id="RM0000010N9064X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts><parts id="B300039"><name>SHIFT LEVER POSITION</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts><parts id="B300220"><name>PARK / NEUTRAL POSITION SWITCH CONNECTOR</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7Z9_T003N" variety="T003N"><name>VALVE BODY ASSEMBLY</name>
+<parts id="F00004T"><name>VALVE BODY ASSEMBLY</name></parts>
+<para id="RM0000013B001VX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="35410"><name>TRANSMISSION VALVE BODY ASSEMBLY</name></parts><parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35892"><name>OVERDRIVE BRAKE TUBE</name></parts><parts id="35330"><name>VALVE BODY OIL STRAINER ASSEMBLY</name></parts><parts id="35106"><name>AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts></para>
+<para id="RM000003OH4005X" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="85420N"><name>TRANSMISSION SOLENOID ASSEMBLY</name></parts><parts id="85420K"><name>TRANSMISSION SOLENOID ASSEMBLY</name></parts><parts id="35283"><name>LOCK UP CONTROL SOLENOID SLEEVE</name></parts><parts id="35290"><name>LINE PRESSURE CONTROL SOLENOID ASSEMBLY</name></parts></para>
+<para id="RM000003OH3005X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="85420N"><name>TRANSMISSION SOLENOID ASSEMBLY</name></parts><parts id="85420K"><name>TRANSMISSION SOLENOID ASSEMBLY</name></parts><parts id="35290"><name>LINE PRESSURE CONTROL SOLENOID ASSEMBLY</name></parts></para>
+<para id="RM000003OH5005X" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="35290"><name>LINE PRESSURE CONTROL SOLENOID ASSEMBLY</name></parts><parts id="35283"><name>LOCK UP CONTROL SOLENOID SLEEVE</name></parts><parts id="85420K"><name>TRANSMISSION SOLENOID ASSEMBLY</name></parts><parts id="85420N"><name>TRANSMISSION SOLENOID ASSEMBLY</name></parts></para>
+<para id="RM0000013AZ021X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="B000174"><name>BATTERY NEGATIVE TERMINAL</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="35106"><name>AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</name></parts><parts id="35330"><name>VALVE BODY OIL STRAINER ASSEMBLY</name></parts><parts id="35892"><name>OVERDRIVE BRAKE TUBE</name></parts><parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35410"><name>TRANSMISSION VALVE BODY ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7ZA_T003O" variety="T003O"><name>SHIFT LOCK SYSTEM</name>
+<parts id="J300007"><name>SHIFT LOCK SYSTEM</name></parts>
+<para id="RM0000010NH01IX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="85903"><name>SHIFT LOCK CONTROL ECU SUB-ASSY</name></parts><parts id="85432"><name>KEY INTER LOCK SOLENOID</name></parts><parts id="33563"><name>SHIFT LOCK RELEASE BUTTON</name></parts><parts id="33560"><name>SHIFT LOCK CONTROL UNIT ASSEMBLY</name></parts></para>
+<para id="RM0000014WI01CX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="85432"><name>KEY INTER LOCK SOLENOID</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7ZB_T003P" variety="T003P"><name>FLOOR SHIFT ASSEMBLY</name>
+<parts id="J300008"><name>FLOOR SHIFT ASSEMBLY</name></parts>
+<para id="RM0000010NQ026X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="J300008"><name>FLOOR SHIFT ASSEMBLY</name></parts><parts id="B500015"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts></para>
+<para id="RM0000010NR02CX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="33563"><name>SHIFT LOCK RELEASE BUTTON</name></parts><parts id="35974"><name>POSITION INDICATOR HOUSING LOWER</name></parts><parts id="35906"><name>INDICATOR LAMP WIRE SUB-ASSEMBLY</name></parts><parts id="35975"><name>POSITION INDICATOR SLIDE COVER</name></parts><parts id="35971A"><name>POSITION INDICATOR HOUSING UPPER</name></parts><parts id="33504F"><name>SHIFT LEVER KNOB SUB-ASSEMBLY</name></parts></para>
+<para id="RM0000013EW02DX" category="N" type-id="3000G" from="201202"><name>ADJUSTMENT</name>
+
+<parts id="B300039"><name>SHIFT LEVER POSITION</name></parts></para>
+<para id="RM0000010NS02CX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="33504F"><name>SHIFT LEVER KNOB SUB-ASSEMBLY</name></parts><parts id="35971A"><name>POSITION INDICATOR HOUSING UPPER</name></parts><parts id="35975"><name>POSITION INDICATOR SLIDE COVER</name></parts><parts id="35906"><name>INDICATOR LAMP WIRE SUB-ASSEMBLY</name></parts><parts id="35974"><name>POSITION INDICATOR HOUSING LOWER</name></parts><parts id="33563"><name>SHIFT LOCK RELEASE BUTTON</name></parts></para>
+<para id="RM0000010NO02FX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B500015"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="B300039"><name>SHIFT LEVER POSITION</name></parts><parts id="B803111"><name>SYSTEM INITIALIZE</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts><parts id="J300008"><name>FLOOR SHIFT ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7ZC_T003Q" variety="T003Q"><name>AUTOMATIC TRANSMISSION ASSEMBLY</name>
+<parts id="J300034"><name>AUTOMATIC TRANSMISSION ASSEMBLY</name></parts>
+<para id="RM0000010NV01TX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="32000"><name>TORQUE CONVERTER CLUTCH ASSY</name></parts><parts id="12371"><name>ENGINE MOUNTING INSULATOR REAR NO.1</name></parts><parts id="J300034"><name>AUTOMATIC TRANSMISSION ASSEMBLY</name></parts><parts id="11354"><name>FLYWHEEL HOUSING DUST SEAL</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="B000907"><name>CONNECTOR</name></parts><parts id="51204"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.3</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="53882K"><name>FRONT FENDER SEAL</name></parts><parts id="B338301"><name>TRANSMISSION CONTROL CABLE BRACKET</name></parts><parts id="33820B"><name>TRANSMISSION CONTROL CABLE ASSEMBLY</name></parts><parts id="B001001"><name>OIL COOLER TUBE</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="37100"><name>PROPELLER W/CENTER BEARING SHAFT ASSEMBLY</name></parts><parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts><parts id="51203"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.2</name></parts><parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts></para>
+<para id="RM0000010NT01WX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="F0000HN"><name>AUTOMATIC TRANSMISSION FLUID LEVEL</name></parts><parts id="B000812"><name>EXHAUST GAS</name></parts><parts id="B300039"><name>SHIFT LEVER POSITION</name></parts><parts id="B001850"><name>BATTERY TERMINAL</name></parts><parts id="J300033"><name>AUTOMATIC TRANSMISSION FLUID</name></parts><parts id="51203"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.2</name></parts><parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts><parts id="37100"><name>PROPELLER W/CENTER BEARING SHAFT ASSEMBLY</name></parts><parts id="35013"><name>TRANSMISSION OIL FILLER TUBE SUB-ASSEMBLY</name></parts><parts id="B001001"><name>OIL COOLER TUBE</name></parts><parts id="B338200"><name>TRANSMISSION CONTROL SHIFT CABLE ASSEMBLY</name></parts><parts id="B338301"><name>TRANSMISSION CONTROL CABLE BRACKET</name></parts><parts id="53882K"><name>FRONT FENDER SEAL</name></parts><parts id="28100"><name>STARTER ASSEMBLY</name></parts><parts id="51204"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.3</name></parts><parts id="B000907"><name>CONNECTOR</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="11354"><name>FLYWHEEL HOUSING DUST SEAL</name></parts><parts id="J300034"><name>AUTOMATIC TRANSMISSION ASSEMBLY</name></parts><parts id="12371"><name>ENGINE MOUNTING INSULATOR REAR NO.1</name></parts><parts id="32000"><name>TORQUE CONVERTER CLUTCH ASSY</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7ZD_T003R" variety="T003R"><name>TORQUE CONVERTER CLUTCH AND DRIVE PLATE</name>
+<parts id="J300037"><name>TORQUE CONVERTER CLUTCH AND DRIVE PLATE</name></parts>
+<para id="RM0000010NN01QX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="32101"><name>DRIVE PLATE &amp; RING GEAR SUB-ASSEMBLY</name></parts><parts id="32000"><name>TORQUE CONVERTER CLUTCH ASSY</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7ZE_T003S" variety="T003S"><name>TRANSMISSION CONTROL CABLE</name>
+<parts id="F00006N"><name>TRANSMISSION CONTROL CABLE</name></parts>
+<para id="RM0000013B9019X" category="A" type-id="30019" from="201202"><name>REPLACEMENT</name>
+
+<parts id="B500015"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="B300039"><name>SHIFT LEVER POSITION</name></parts><parts id="33820B"><name>TRANSMISSION CONTROL CABLE ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7ZG_T003U" variety="T003U"><name>AUTOMATIC TRANSMISSION UNIT</name>
+<parts id="F00004P"><name>AUTOMATIC TRANSMISSION UNIT</name></parts>
+<para id="RM000003OD3005X" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="35104"><name>AUTOMATIC TRANSMISSION CASE SUB-ASSEMBLY</name></parts><parts id="35623"><name>BRAKE PISTON NO.3</name></parts><parts id="35608C"><name>NO.3 BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35629"><name>SPRING (1ST &amp; REVS BRAKE PLATE STOPPER)</name></parts><parts id="35666"><name>BRAKE APPLY TUBE</name></parts><parts id="35735A"><name>PLANETARY OUTPUT SHAFT OIL SEAL RING</name></parts><parts id="35748"><name>INTERMEDIATE SHAFT SLEEVE OIL SEAL RING</name></parts><parts id="35074"><name>REAR PLANETARY RING GEAR SUB-ASSEMBLY</name></parts><parts id="35719A"><name>REAR PLANETARY SUN GEAR</name></parts><parts id="35760"><name>REAR PLANETARY GEAR ASSEMBLY</name></parts><parts id="35770"><name>OUTPUT SHAFT ASSEMBLY</name></parts><parts id="35708"><name>INTERMEDIATE SHAFT SUB-ASSEMBLY</name></parts><parts id="35743"><name>FRONT PLANETARY RING GEAR</name></parts><parts id="35738"><name>PLANETARY CARRIER THRUST WASHER NO.2</name></parts><parts id="J300044"><name>REAR PLANETARY GEAR</name></parts><parts id="35666B"><name>BRAKE CLUTCH DISC</name></parts><parts id="F00005C"><name>NO. 3 BRAKE</name></parts><parts id="35704B"><name>FRONT PLANETARY GEAR SUB-ASSEMBLY</name></parts><parts id="35739"><name>PLANETARY CARRIER THRUST WASHER NO.3</name></parts><parts id="35792"><name>1 WAY CLUTCH NO.2</name></parts><parts id="35707"><name>1 WAY CLUTCH RACE SUB-ASSEMBLY INNER</name></parts><parts id="35737A"><name>PLANETARY CARRIER THRUST WASHER NO.1</name></parts><parts id="35720"><name>FRONT PLANETARY GEAR ASSEMBLY</name></parts><parts id="35706H"><name>PLANETARY SUN GEAR SUB-ASSEMBLY</name></parts><parts id="35749A"><name>SUN GEAR SHAFT OIL SEAL RING</name></parts><parts id="35790"><name>1 WAY CLUTCH ASSEMBLY</name></parts><parts id="35606"><name>REAR CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="35621E"><name>REAR BRAKE BRAKE PISTON</name></parts><parts id="35608"><name>2ND BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35677D"><name>REAR BRAKE CLUTCH DISC</name></parts><parts id="35620T"><name>REAR BRAKE CLUTCH FLANGE</name></parts><parts id="35709"><name>CENTER SUPPORT SUB-ASSEMBLY</name></parts><parts id="35709C"><name>CENTER SUPPORT OIL SEAL RING</name></parts><parts id="35621"><name>BRAKE PISTON NO.1</name></parts><parts id="35620B"><name>BRAKE CLUTCH DISC</name></parts><parts id="35620C"><name>BRAKE CLUTCH FLANGE</name></parts><parts id="J300050"><name>CENTER SUPPORT ASSEMBLY</name></parts><parts id="35604"><name>DIRECT CLUTCH RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35673"><name>REAR CLUTCH DISC</name></parts><parts id="35675"><name>REAR CLUTCH FLANGE</name></parts><parts id="J300049"><name>REAR CLUTCH ASSEMBLY</name></parts><parts id="35602"><name>FRONT CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="35603A"><name>FORWARD CLUTCH RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35633"><name>FRONT CLUTCH CLUTCH DISC</name></parts><parts id="35654"><name>REAR CLUTCH HUB</name></parts><parts id="J300048"><name>FRONT CLUTCH ASSEMBLY</name></parts><parts id="B320107"><name>FRONT CLUTCH</name></parts><parts id="35617"><name>CLUTCH DRUM OIL SEAL RING</name></parts><parts id="34622"><name>OVERDRIVE BRAKE PISTON</name></parts><parts id="34603"><name>OVERDRIVE BRAKE RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="34705"><name>OVERDRIVE PLANETARY RING GEAR SUB-ASSEMBLY</name></parts><parts id="34601D"><name>OVERDRIVE CLUTCH DISC</name></parts><parts id="J300059"><name>OVERDRIVE BRAKE</name></parts><parts id="34710"><name>OVERDRIVE PLANETARY GEAR ASSEMBLY</name></parts><parts id="34714"><name>OVERDRIVE 1 WAY CLUTCH</name></parts><parts id="34601"><name>OVERDRIVE DIRECT CLUTCH DRUM SUB-ASSEMBLY</name></parts><parts id="34602"><name>OVERDRIVE DIRECT CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="34604"><name>OVERDRIVE CLUTCH RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="34615"><name>OVERDRIVE CLUTCH FLANGE</name></parts><parts id="34624"><name>OVERDRIVE BRAKE HUB</name></parts><parts id="B300080"><name>OVERDRIVE DIRECT CLUTCH</name></parts><parts id="35506F"><name>MANUAL VALVE LEVER SHAFT OIL SEAL</name></parts><parts id="35561"><name>MANUAL VALVE LEVER SHAFT</name></parts><parts id="35556"><name>PARKING LOCK PAWL SHAFT</name></parts><parts id="35501"><name>PARKING LOCK ROD SUB-ASSEMBLY</name></parts><parts id="35595"><name>PARKING LOCK PAWL BRACKET</name></parts><parts id="35421"><name>ACCUMULATOR PISTON NO.1</name></parts><parts id="35410"><name>TRANSMISSION VALVE BODY ASSEMBLY</name></parts><parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35892"><name>OVERDRIVE BRAKE TUBE</name></parts><parts id="35330"><name>VALVE BODY OIL STRAINER ASSEMBLY</name></parts><parts id="35106"><name>AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</name></parts><parts id="F0000T3"><name>TRANSMISSION CASE</name></parts><parts id="35143"><name>TRANSMISSION CASE COVER REAR</name></parts><parts id="89414A"><name>SENSOR ROTOR</name></parts><parts id="35108"><name>EXTENSION (ATM) HOUSING SUB-ASSEMBLY</name></parts><parts id="33146B"><name>EXTENSION HOUSING DUST DEFLECTOR</name></parts><parts id="35108R"><name>AUTOMATIC TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts><parts id="35847A"><name>EXTENSION HOUSING BUSH APPLY TUBE</name></parts><parts id="35111"><name>AUTOMATIC TRANSMISSION HOUSING</name></parts><parts id="B000111"><name>OIL PUMP ASSEMBLY</name></parts><parts id="89411C"><name>SPEED SENSOR</name></parts><parts id="83181G"><name>SPEEDOMETER SENSOR</name></parts><parts id="32921C"><name>OIL COOLER TUBE UNION</name></parts><parts id="89429A"><name>TEMPERATURE SENSOR</name></parts><parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts><parts id="35573"><name>TRANSMISSION CONTROL SHAFT LEVER LH</name></parts><parts id="35106A"><name>DRAIN (ATM) PLUG SUB-ASSEMBLY</name></parts></para>
+<para id="RM000003OD1005X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="35104"><name>AUTOMATIC TRANSMISSION CASE SUB-ASSEMBLY</name></parts><parts id="35623"><name>BRAKE PISTON NO.3</name></parts><parts id="35666B"><name>BRAKE CLUTCH DISC</name></parts><parts id="F00005C"><name>NO. 3 BRAKE</name></parts><parts id="35760"><name>REAR PLANETARY GEAR ASSEMBLY</name></parts><parts id="35770"><name>OUTPUT SHAFT ASSEMBLY</name></parts><parts id="35704B"><name>FRONT PLANETARY GEAR SUB-ASSEMBLY</name></parts><parts id="35792"><name>1 WAY CLUTCH NO.2</name></parts><parts id="35706H"><name>PLANETARY SUN GEAR SUB-ASSEMBLY</name></parts><parts id="35790"><name>1 WAY CLUTCH ASSEMBLY</name></parts><parts id="35677D"><name>REAR BRAKE CLUTCH DISC</name></parts><parts id="35621E"><name>REAR BRAKE BRAKE PISTON</name></parts><parts id="35709"><name>CENTER SUPPORT SUB-ASSEMBLY</name></parts><parts id="35620B"><name>BRAKE CLUTCH DISC</name></parts><parts id="35621"><name>BRAKE PISTON NO.1</name></parts><parts id="35606"><name>REAR CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="35673"><name>REAR CLUTCH DISC</name></parts><parts id="35602"><name>FRONT CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="35633"><name>FRONT CLUTCH CLUTCH DISC</name></parts><parts id="B320107"><name>FRONT CLUTCH</name></parts><parts id="35634E"><name>BRAKE CLUTCH PLATE</name></parts><parts id="34710"><name>OVERDRIVE PLANETARY GEAR ASSEMBLY</name></parts><parts id="34601"><name>OVERDRIVE DIRECT CLUTCH DRUM SUB-ASSEMBLY</name></parts><parts id="34602"><name>OVERDRIVE DIRECT CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="34601D"><name>OVERDRIVE CLUTCH DISC</name></parts><parts id="34714"><name>OVERDRIVE 1 WAY CLUTCH</name></parts><parts id="35601"><name>CLUTCH DRUM SUB-ASSEMBLY</name></parts><parts id="35106"><name>AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</name></parts><parts id="35108"><name>EXTENSION (ATM) HOUSING SUB-ASSEMBLY</name></parts></para>
+<para id="RM000003OD4005X" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+
+<parts id="35106A"><name>DRAIN (ATM) PLUG SUB-ASSEMBLY</name></parts><parts id="35573"><name>TRANSMISSION CONTROL SHAFT LEVER LH</name></parts><parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts><parts id="89429A"><name>TEMPERATURE SENSOR</name></parts><parts id="32921C"><name>OIL COOLER TUBE UNION</name></parts><parts id="83181G"><name>SPEEDOMETER SENSOR</name></parts><parts id="89411C"><name>SPEED SENSOR</name></parts><parts id="35108"><name>EXTENSION (ATM) HOUSING SUB-ASSEMBLY</name></parts><parts id="35847A"><name>EXTENSION HOUSING BUSH APPLY TUBE</name></parts><parts id="35108R"><name>AUTOMATIC TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts><parts id="33146B"><name>EXTENSION HOUSING DUST DEFLECTOR</name></parts><parts id="89414A"><name>SENSOR ROTOR</name></parts><parts id="35143"><name>TRANSMISSION CASE COVER REAR</name></parts><parts id="35106"><name>AUTOMATIC TRANSMISSION OIL PAN SUB-ASSEMBLY</name></parts><parts id="35330"><name>VALVE BODY OIL STRAINER ASSEMBLY</name></parts><parts id="35892"><name>OVERDRIVE BRAKE TUBE</name></parts><parts id="82125J"><name>TRANSMISSION WIRE</name></parts><parts id="35410"><name>TRANSMISSION VALVE BODY ASSEMBLY</name></parts><parts id="35421"><name>ACCUMULATOR PISTON NO.1</name></parts><parts id="35595"><name>PARKING LOCK PAWL BRACKET</name></parts><parts id="35501"><name>PARKING LOCK ROD SUB-ASSEMBLY</name></parts><parts id="35556"><name>PARKING LOCK PAWL SHAFT</name></parts><parts id="F000214"><name>OPERATION</name></parts><parts id="35770"><name>OUTPUT SHAFT ASSEMBLY</name></parts><parts id="B320114"><name>INPUT SHAFT ROTATION</name></parts><parts id="B000111"><name>OIL PUMP ASSEMBLY</name></parts><parts id="35111"><name>AUTOMATIC TRANSMISSION HOUSING</name></parts><parts id="34601"><name>OVERDRIVE DIRECT CLUTCH DRUM SUB-ASSEMBLY</name></parts><parts id="34710"><name>OVERDRIVE PLANETARY GEAR ASSEMBLY</name></parts><parts id="34714"><name>OVERDRIVE 1 WAY CLUTCH</name></parts><parts id="B300080"><name>OVERDRIVE DIRECT CLUTCH</name></parts><parts id="34602"><name>OVERDRIVE DIRECT CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="34624"><name>OVERDRIVE BRAKE HUB</name></parts><parts id="34601D"><name>OVERDRIVE CLUTCH DISC</name></parts><parts id="34615"><name>OVERDRIVE CLUTCH FLANGE</name></parts><parts id="34604"><name>OVERDRIVE CLUTCH RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35634C"><name>OVERDRIVE DIRECT CLUTCH CLUTCH PLATE</name></parts><parts id="J300059"><name>OVERDRIVE BRAKE</name></parts><parts id="35620B"><name>BRAKE CLUTCH DISC</name></parts><parts id="34705"><name>OVERDRIVE PLANETARY RING GEAR SUB-ASSEMBLY</name></parts><parts id="34603"><name>OVERDRIVE BRAKE RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="34622"><name>OVERDRIVE BRAKE PISTON</name></parts><parts id="35617"><name>CLUTCH DRUM OIL SEAL RING</name></parts><parts id="B320107"><name>FRONT CLUTCH</name></parts><parts id="J300048"><name>FRONT CLUTCH ASSEMBLY</name></parts><parts id="35654"><name>REAR CLUTCH HUB</name></parts><parts id="35631"><name>MULTIPLE DISC CLUTCH CLUTCH HUB</name></parts><parts id="35602"><name>FRONT CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="35633"><name>FRONT CLUTCH CLUTCH DISC</name></parts><parts id="35604"><name>DIRECT CLUTCH RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="J300049"><name>REAR CLUTCH ASSEMBLY</name></parts><parts id="35606"><name>REAR CLUTCH PISTON SUB-ASSEMBLY</name></parts><parts id="35675"><name>REAR CLUTCH FLANGE</name></parts><parts id="35673"><name>REAR CLUTCH DISC</name></parts><parts id="35603A"><name>FORWARD CLUTCH RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35652"><name>REAR CLUTCH PISTON NO.2</name></parts><parts id="J300050"><name>CENTER SUPPORT ASSEMBLY</name></parts><parts id="35706H"><name>PLANETARY SUN GEAR SUB-ASSEMBLY</name></parts><parts id="35621"><name>BRAKE PISTON NO.1</name></parts><parts id="35620C"><name>BRAKE CLUTCH FLANGE</name></parts><parts id="35608A"><name>BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35709C"><name>CENTER SUPPORT OIL SEAL RING</name></parts><parts id="35621E"><name>REAR BRAKE BRAKE PISTON</name></parts><parts id="35620T"><name>REAR BRAKE CLUTCH FLANGE</name></parts><parts id="35677D"><name>REAR BRAKE CLUTCH DISC</name></parts><parts id="35608"><name>2ND BRAKE PISTON RETURN SPRING SUB-ASSEMBLY</name></parts><parts id="35790"><name>1 WAY CLUTCH ASSEMBLY</name></parts><parts id="35749A"><name>SUN GEAR SHAFT OIL SEAL RING</name></parts><parts id="35720"><name>FRONT PLANETARY GEAR ASSEMBLY</name></parts><parts id="35792"><name>1 WAY CLUTCH NO.2</name></parts><parts id="35737A"><name>PLANETARY CARRIER THRUST WASHER NO.1</name></parts><parts id="35739"><name>PLANETARY CARRIER THRUST WASHER NO.3</name></parts><parts id="F00005C"><name>NO. 3 BRAKE</name></parts><parts id="35666B"><name>BRAKE CLUTCH DISC</name></parts><parts id="J300044"><name>REAR PLANETARY GEAR</name></parts><parts id="35738"><name>PLANETARY CARRIER THRUST WASHER NO.2</name></parts><parts id="35743"><name>FRONT PLANETARY RING GEAR</name></parts><parts id="35708"><name>INTERMEDIATE SHAFT SUB-ASSEMBLY</name></parts><parts id="35760"><name>REAR PLANETARY GEAR ASSEMBLY</name></parts><parts id="35719A"><name>REAR PLANETARY SUN GEAR</name></parts><parts id="35074"><name>REAR PLANETARY RING GEAR SUB-ASSEMBLY</name></parts><parts id="35748"><name>INTERMEDIATE SHAFT SLEEVE OIL SEAL RING</name></parts><parts id="35735A"><name>PLANETARY OUTPUT SHAFT OIL SEAL RING</name></parts><parts id="35629"><name>SPRING (1ST &amp; REVS BRAKE PLATE STOPPER)</name></parts><parts id="35666"><name>BRAKE APPLY TUBE</name></parts><parts id="35623"><name>BRAKE PISTON NO.3</name></parts><parts id="35561"><name>MANUAL VALVE LEVER SHAFT</name></parts><parts id="35506F"><name>MANUAL VALVE LEVER SHAFT OIL SEAL</name></parts></para>
+</ttl>
+<ttl id="1000Q_S000E_7A7ZF_T003T" variety="T003T"><name>OIL PUMP</name>
+<parts id="B000110"><name>OIL PUMP</name></parts>
+<para id="RM0000013B701RX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="35301A"><name>FRONT OIL PUMP OIL SEAL</name></parts><parts id="35321"><name>FRONT OIL PUMP DRIVE GEAR</name></parts><parts id="35370"><name>STATOR SHAFT ASSEMBLY</name></parts><parts id="B320055"><name>CLUTCH DRUM OIL SEAL RING</name></parts><parts id="B000111"><name>OIL PUMP ASSEMBLY</name></parts><parts id="35301B"><name>FRONT OIL PUMP BODY O-RING</name></parts></para>
+<para id="RM0000013B501PX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="B300079"><name>OIL PUMP DRIVE GEAR ROTATION</name></parts><parts id="35301"><name>FRONT OIL PUMP BODY SUB-ASSEMBLY</name></parts><parts id="B320057"><name>STATOR SHAFT ASSEMBLY</name></parts></para>
+<para id="RM0000013B801RX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="35301B"><name>FRONT OIL PUMP BODY O-RING</name></parts><parts id="35617"><name>CLUTCH DRUM OIL SEAL RING</name></parts><parts id="35370"><name>STATOR SHAFT ASSEMBLY</name></parts><parts id="35322"><name>FRONT OIL PUMP DRIVEN GEAR</name></parts><parts id="35301"><name>FRONT OIL PUMP BODY SUB-ASSEMBLY</name></parts><parts id="35301A"><name>FRONT OIL PUMP OIL SEAL</name></parts></para>
+</ttl>
+</section><section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name><ttl id="1000S_S000F_7A7ZM_T0040" variety="T0040"><name>CLUTCH SYSTEM</name>
+<parts id="J300001"><name>CLUTCH SYSTEM</name></parts>
+<para id="RM000001FSF00EX" category="N" type-id="3000P" from="201202"><name>BLEEDING</name>
+
+
+<parts id="B330014"><name>CLUTCH LINE</name></parts></para>
+</ttl>
+<ttl id="1000S_S000F_7A7ZI_T003W" variety="T003W"><name>CLUTCH PEDAL</name>
+<parts id="B001222"><name>CLUTCH PEDAL</name></parts>
+<para id="RM0000010R401VX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="B001222"><name>CLUTCH PEDAL</name></parts><parts id="31453A"><name>CLUTCH MASTER CYLINDER PUSH ROD CLEVIS W/HOLE PIN</name></parts><parts id="31301A"><name>CLUTCH PEDAL SPRING</name></parts><parts id="B800048"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="55422A"><name>INSTRUMENT CLUSTER FINISH PANEL LOWER</name></parts></para>
+<para id="RM0000010R501HX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="31301B"><name>CLUTCH PEDAL NO.1 CUSHION</name></parts><parts id="88469B"><name>COLLAR</name></parts><parts id="31301"><name>CLUTCH PEDAL SUB-ASSEMBLY</name></parts></para>
+<para id="RM0000010R101WX" category="N" type-id="3000G" from="201202"><name>ADJUSTMENT</name>
+
+<parts id="31301"><name>CLUTCH PEDAL SUB-ASSEMBLY</name></parts></para>
+<para id="RM0000010R601IX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="31301"><name>CLUTCH PEDAL SUB-ASSEMBLY</name></parts><parts id="88469B"><name>COLLAR</name></parts><parts id="31301B"><name>CLUTCH PEDAL NO.1 CUSHION</name></parts></para>
+<para id="RM0000010R201YX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B300065"><name>CLUTCH FLUID</name></parts><parts id="55422A"><name>INSTRUMENT CLUSTER FINISH PANEL LOWER</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="31301A"><name>CLUTCH PEDAL SPRING</name></parts><parts id="31453A"><name>CLUTCH MASTER CYLINDER PUSH ROD CLEVIS W/HOLE PIN</name></parts><parts id="31301"><name>CLUTCH PEDAL SUB-ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000S_S000F_7A7ZJ_T003X" variety="T003X"><name>CLUTCH MASTER CYLINDER</name>
+<parts id="J720013"><name>CLUTCH MASTER CYLINDER</name></parts>
+<para id="RM000001FS901UX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="J720013"><name>CLUTCH MASTER CYLINDER</name></parts><parts id="31410"><name>CLUTCH MASTER CYLINDER ASSEMBLY</name></parts><parts id="31481"><name>CLUTCH MASTER CYLINDER TO FLEXIBLE HOSE TUBE</name></parts><parts id="31434"><name>CLUTCH RESERVOIR TUBE</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="55422A"><name>INSTRUMENT CLUSTER FINISH PANEL LOWER</name></parts><parts id="B300065"><name>CLUTCH FLUID</name></parts></para>
+<para id="RM000001FS701UX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B002947"><name>BRAKE FLUID RESERVOIR</name></parts><parts id="31301"><name>CLUTCH PEDAL SUB-ASSEMBLY</name></parts><parts id="B300065"><name>CLUTCH FLUID</name></parts><parts id="A31F001"><name>CLUTCH PIPE LINE</name></parts><parts id="55422A"><name>INSTRUMENT CLUSTER FINISH PANEL LOWER</name></parts><parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="31434"><name>CLUTCH RESERVOIR TUBE</name></parts><parts id="31481"><name>CLUTCH MASTER CYLINDER TO FLEXIBLE HOSE TUBE</name></parts><parts id="31410"><name>CLUTCH MASTER CYLINDER ASSEMBLY</name></parts><parts id="J720013"><name>CLUTCH MASTER CYLINDER</name></parts></para>
+</ttl>
+<ttl id="1000S_S000F_7A7ZK_T003Y" variety="T003Y"><name>CLUTCH RELEASE CYLINDER</name>
+<parts id="B001541"><name>CLUTCH RELEASE CYLINDER</name></parts>
+<para id="RM0000010RE00ZX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="31470"><name>CLUTCH RELEASE CYLINDER ASSEMBLY</name></parts><parts id="31482D"><name>CLUTCH RELEASE CYLINDER TO ACCUMULATOR TUBE</name></parts><parts id="J400009"><name>BRAKE FLUID</name></parts></para>
+<para id="RM0000010RF00ZX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="31477"><name>RELEASE CYLINDER BLEEDER PLUG</name></parts><parts id="31481A"><name>CLUTCH HOSE NO.1</name></parts></para>
+<para id="RM0000010RG00ZX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="31481A"><name>CLUTCH HOSE NO.1</name></parts><parts id="31477"><name>RELEASE CYLINDER BLEEDER PLUG</name></parts></para>
+<para id="RM0000010RC00ZX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="B300065"><name>CLUTCH FLUID</name></parts><parts id="31482D"><name>CLUTCH RELEASE CYLINDER TO ACCUMULATOR TUBE</name></parts><parts id="31470"><name>CLUTCH RELEASE CYLINDER ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000S_S000F_7A7ZL_T003Z" variety="T003Z"><name>CLUTCH UNIT</name>
+<parts id="J300002"><name>CLUTCH UNIT</name></parts>
+<para id="RM00000139901GX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="33311A"><name>INPUT SHAFT FRONT BEARING</name></parts><parts id="31250"><name>CLUTCH DISC ASSEMBLY</name></parts><parts id="31210"><name>CLUTCH COVER ASSEMBLY</name></parts><parts id="31236B"><name>RELEASE FORK SUPPORT</name></parts><parts id="31230"><name>CLUTCH RELEASE BEARING ASSEMBLY</name></parts><parts id="31126"><name>CLUTCH RELEASE FORK BOOT</name></parts><parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts></para>
+<para id="RM000001WX3008X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="31230"><name>CLUTCH RELEASE BEARING ASSEMBLY</name></parts><parts id="13405"><name>FLYWHEEL SUB-ASSEMBLY</name></parts><parts id="31210"><name>CLUTCH COVER ASSEMBLY</name></parts><parts id="31250"><name>CLUTCH DISC ASSEMBLY</name></parts></para>
+
+<para id="RM00000139702ZX" category="A" type-id="30014" from="201403"><name>INSTALLATION</name>
+
+<parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts><parts id="31126"><name>CLUTCH RELEASE FORK BOOT</name></parts><parts id="31230"><name>CLUTCH RELEASE BEARING ASSEMBLY</name></parts><parts id="31204"><name>CLUTCH RELEASE FORK SUB-ASSEMBLY</name></parts><parts id="31232A"><name>RELEASE BEARING HUB CLIP</name></parts><parts id="31236B"><name>RELEASE FORK SUPPORT</name></parts><parts id="31210"><name>CLUTCH COVER ASSEMBLY</name></parts><parts id="31250"><name>CLUTCH DISC ASSEMBLY</name></parts><parts id="33311A"><name>INPUT SHAFT FRONT BEARING</name></parts></para>
+</ttl>
+</section><section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name><ttl id="1000R_S000G_7A7ZN_T0041" variety="T0041"><name>MANUAL TRANSMISSION OIL</name>
+<parts id="J300036"><name>MANUAL TRANSMISSION OIL</name></parts>
+<para id="RM0000010UK00LX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="A156010"><name>OIL FILTER</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7A7ZO_T0042" variety="T0042"><name>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</name>
+<parts id="B330007"><name>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts>
+<para id="RM0000010UQ00RX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="33103R"><name>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts><parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts></para>
+<para id="RM0000010UO00DX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts><parts id="33103R"><name>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7AVR0_T00AA" variety="T00AA"><name>SPEEDOMETER SENSOR</name>
+<parts id="F00006E"><name>SPEEDOMETER SENSOR</name></parts>
+<para id="RM000004R1O009X" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="83181G"><name>SPEEDOMETER SENSOR</name></parts></para>
+<para id="RM000004R1L009X" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="83181G"><name>SPEEDOMETER SENSOR</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7AVQY_T00A8" variety="T00A8"><name>BACK-UP LIGHT SWITCH</name>
+<parts id="B009032"><name>BACK-UP LIGHT SWITCH</name></parts>
+<para id="RM0000014N700UX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="84210"><name>BACK-UP LAMP SWITCH ASSEMBLY</name></parts></para>
+<para id="RM0000024EZ003X" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="B890000"><name>BACK-UP LIGHT SWITCH ASSEMBLY</name></parts></para>
+<para id="RM0000014N500UX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="84210"><name>BACK-UP LAMP SWITCH ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7A7ZP_T0043" variety="T0043"><name>MANUAL TRANSMISSION ASSEMBLY</name>
+<parts id="J300053"><name>MANUAL TRANSMISSION ASSEMBLY</name></parts>
+<para id="RM0000010UT00MX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts><parts id="17118"><name>MANIFOLD STAY</name></parts><parts id="12371"><name>ENGINE MOUNTING INSULATOR REAR NO.1</name></parts><parts id="51204"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.3</name></parts><parts id="J100004"><name>STARTER ASSEMBLY</name></parts><parts id="31470"><name>CLUTCH RELEASE CYLINDER ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts><parts id="37110F"><name>PROPELLER SHAFT ASSEMBLY REAR</name></parts><parts id="51203"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.2</name></parts><parts id="J300036"><name>MANUAL TRANSMISSION OIL</name></parts><parts id="33530F"><name>FLOOR SHIFT SHIFT LEVER ASSEMBLY</name></parts><parts id="58280A"><name>SHIFT LEVER BOOT ASSEMBLY</name></parts><parts id="B500015"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="A288000"><name>BATTERY</name></parts></para>
+<para id="RM0000010UR00MX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="A288000"><name>BATTERY</name></parts><parts id="B500015"><name>CONSOLE BOX ASSEMBLY</name></parts><parts id="58280A"><name>SHIFT LEVER BOOT ASSEMBLY</name></parts><parts id="33530F"><name>FLOOR SHIFT SHIFT LEVER ASSEMBLY</name></parts><parts id="J300036"><name>MANUAL TRANSMISSION OIL</name></parts><parts id="51203"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.2</name></parts><parts id="37110F"><name>PROPELLER SHAFT ASSEMBLY REAR</name></parts><parts id="17410"><name>EXHAUST PIPE ASSEMBLY FRONT</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="31470"><name>CLUTCH RELEASE CYLINDER ASSEMBLY</name></parts><parts id="J100004"><name>STARTER ASSEMBLY</name></parts><parts id="51204"><name>FRAME CROSSMEMBER SUB-ASSEMBLY NO.3</name></parts><parts id="12371"><name>ENGINE MOUNTING INSULATOR REAR NO.1</name></parts><parts id="17118"><name>MANIFOLD STAY</name></parts><parts id="33030"><name>MANUAL TRANSMISSION UNIT ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7A7ZQ_T0044" variety="T0044"><name>MANUAL TRANSMISSION UNIT</name>
+<parts id="J331100"><name>MANUAL TRANSMISSION UNIT</name></parts>
+<para id="RM0000010UN00RX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+<parts id="J300030"><name>OUTPUT SHAFT ASSEMBLY</name></parts><parts id="33421"><name>COUNTER GEAR</name></parts><parts id="33151"><name>OUTPUT SHAFT REAR BEARING(MTM) RETAINER</name></parts><parts id="33402"><name>REVERSE IDLER GEAR SUB-ASSEMBLY</name></parts><parts id="33221"><name>REVERSE SHIFT ARM</name></parts><parts id="33228"><name>REVERSE SHIFT ARM BRACKET</name></parts><parts id="33349A"><name>4TH GEAR WASHER</name></parts><parts id="33428"><name>COUNTERSHAFT 5TH GEAR</name></parts><parts id="33265"><name>SHIFT INTER LOCK PIN NO.2</name></parts><parts id="33243A"><name>GEAR SHIFT FORK SHAFT NO.2</name></parts><parts id="33242"><name>GEAR SHIFT FORK SHAFT NO.1</name></parts><parts id="33234A"><name>GEAR SHIFT HEAD NO.3</name></parts><parts id="33214G"><name>GEAR SHIFT FORK NO.3</name></parts><parts id="33246C"><name>GEAR SHIFT FORK SHAFT NO.5</name></parts><parts id="33245G"><name>GEAR SHIFT FORK SHAFT NO.4</name></parts><parts id="33276B"><name>SHIFT DETENT BALL NO.2</name></parts><parts id="33275B"><name>SHAFT DETENT BALL</name></parts><parts id="B300092"><name>INTERMEDIATE PLATE</name></parts><parts id="33111"><name>MANUAL TRANSMISSION CASE</name></parts><parts id="33411D"><name>COUNTER GEAR FRONT BEARING SNAP RING NO.1</name></parts><parts id="33311B"><name>FRONT BEARING SHAFT SNAP RING</name></parts><parts id="33131A"><name>TRANSMISSION FRONT BEARING RETAINER OIL SEAL</name></parts><parts id="33131"><name>BEARING RETAINER FRONT(MTM)</name></parts><parts id="33103R"><name>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts><parts id="33280"><name>REVERSE RESTRICT PIN ASSEMBLY</name></parts><parts id="33124F"><name>EXTENSION HOUSING OIL RECEIVER PIPE</name></parts><parts id="33449B"><name>TRANSMISSION MAGNET</name></parts><parts id="33103"><name>EXTENSION(MTM) HOUSING SUB-ASSEMBLY</name></parts><parts id="33481"><name>SPEEDOMETER DRIVE (MTM) GEAR</name></parts><parts id="33506F"><name>FLOOR SHIFT CONTROL SHIFT LEVER RETAINER SUB-ASSEMBLY</name></parts><parts id="31111"><name>CLUTCH HOUSING</name></parts><parts id="84210"><name>BACK-UP LAMP SWITCH ASSEMBLY</name></parts><parts id="31126"><name>CLUTCH RELEASE FORK BOOT</name></parts><parts id="31236B"><name>RELEASE FORK SUPPORT</name></parts><parts id="31230"><name>CLUTCH RELEASE BEARING ASSEMBLY</name></parts><parts id="31204"><name>CLUTCH RELEASE FORK SUB-ASSEMBLY</name></parts><parts id="33104"><name>DRAIN(MTM) PLUG SUB-ASSEMBLY</name></parts><parts id="33101A"><name>MANUAL TRANSMISSION FILLER PLUG</name></parts></para>
+<para id="RM0000010UL00RX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="33101A"><name>MANUAL TRANSMISSION FILLER PLUG</name></parts><parts id="33104"><name>DRAIN(MTM) PLUG SUB-ASSEMBLY</name></parts><parts id="31204"><name>CLUTCH RELEASE FORK SUB-ASSEMBLY</name></parts><parts id="31230"><name>CLUTCH RELEASE BEARING ASSEMBLY</name></parts><parts id="31236B"><name>RELEASE FORK SUPPORT</name></parts><parts id="31237"><name>CLUTCH RELEASE FORK SUPPORT BOOT</name></parts><parts id="84210"><name>BACK-UP LAMP SWITCH ASSEMBLY</name></parts><parts id="31111"><name>CLUTCH HOUSING</name></parts><parts id="33280"><name>REVERSE RESTRICT PIN ASSEMBLY</name></parts><parts id="33506F"><name>FLOOR SHIFT CONTROL SHIFT LEVER RETAINER SUB-ASSEMBLY</name></parts><parts id="33481"><name>SPEEDOMETER DRIVE (MTM) GEAR</name></parts><parts id="33275B"><name>SHAFT DETENT BALL</name></parts><parts id="33103"><name>EXTENSION(MTM) HOUSING SUB-ASSEMBLY</name></parts><parts id="33449B"><name>TRANSMISSION MAGNET</name></parts><parts id="33124F"><name>EXTENSION HOUSING OIL RECEIVER PIPE</name></parts><parts id="33103R"><name>MANUAL TRANSMISSION EXTENSION HOUSING OIL SEAL</name></parts><parts id="33131"><name>BEARING RETAINER FRONT(MTM)</name></parts><parts id="33131A"><name>TRANSMISSION FRONT BEARING RETAINER OIL SEAL</name></parts><parts id="33311B"><name>FRONT BEARING SHAFT SNAP RING</name></parts><parts id="33411D"><name>COUNTER GEAR FRONT BEARING SNAP RING NO.1</name></parts><parts id="33111"><name>MANUAL TRANSMISSION CASE</name></parts><parts id="33276B"><name>SHIFT DETENT BALL NO.2</name></parts><parts id="33245G"><name>GEAR SHIFT FORK SHAFT NO.4</name></parts><parts id="33246C"><name>GEAR SHIFT FORK SHAFT NO.5</name></parts><parts id="33214G"><name>GEAR SHIFT FORK NO.3</name></parts><parts id="33265"><name>SHIFT INTER LOCK PIN NO.2</name></parts><parts id="33234A"><name>GEAR SHIFT HEAD NO.3</name></parts><parts id="33242"><name>GEAR SHIFT FORK SHAFT NO.1</name></parts><parts id="33243A"><name>GEAR SHIFT FORK SHAFT NO.2</name></parts><parts id="33428"><name>COUNTERSHAFT 5TH GEAR</name></parts><parts id="33421"><name>COUNTER GEAR</name></parts><parts id="33349A"><name>4TH GEAR WASHER</name></parts><parts id="33359A"><name>5TH GEAR BEARING INNER RACE LOCK BALL</name></parts><parts id="33228"><name>REVERSE SHIFT ARM BRACKET</name></parts><parts id="33221"><name>REVERSE SHIFT ARM</name></parts><parts id="33402"><name>REVERSE IDLER GEAR SUB-ASSEMBLY</name></parts><parts id="33151"><name>OUTPUT SHAFT REAR BEARING(MTM) RETAINER</name></parts><parts id="J300055"><name>COUNTER GEAR</name></parts><parts id="J300030"><name>OUTPUT SHAFT ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7A7ZR_T0045" variety="T0045"><name>INPUT SHAFT</name>
+<parts id="J300020"><name>INPUT SHAFT</name></parts>
+<para id="RM0000010UV00RX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+
+<parts id="33368"><name>SYNCHRONIZER RING NO.2</name></parts><parts id="33311A"><name>INPUT SHAFT FRONT BEARING</name></parts><parts id="33311D"><name>INPUT SHAFT BEARING</name></parts></para>
+<para id="RM0000010UU00RX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="33368"><name>SYNCHRONIZER RING NO.2</name></parts><parts id="33311D"><name>INPUT SHAFT BEARING</name></parts><parts id="33311A"><name>INPUT SHAFT FRONT BEARING</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7A7ZS_T0046" variety="T0046"><name>OUTPUT SHAFT</name>
+<parts id="J000206"><name>OUTPUT SHAFT</name></parts>
+<para id="RM0000010UZ00RX" category="A" type-id="80001" from="201202"><name>REMOVAL</name>
+
+
+<parts id="33333"><name>3RD GEAR</name></parts><parts id="33332"><name>2ND GEAR</name></parts><parts id="33335"><name>1ST GEAR</name></parts><parts id="33364"><name>TRANSMISSION HUB SLEEVE NO.2</name></parts><parts id="33331"><name>REVERSE GEAR</name></parts><parts id="33368"><name>SYNCHRONIZER RING NO.2</name></parts><parts id="33367"><name>SYNCHRONIZER RING NO.1</name></parts><parts id="33355"><name>1ST GEAR BEARING INNER RACE</name></parts><parts id="33321"><name>OUTPUT SHAFT</name></parts><parts id="33362"><name>TRANSMISSION CLUTCH HUB NO.2</name></parts><parts id="33333A"><name>3RD GEAR NEEDLE ROLLER BEARING</name></parts><parts id="33361"><name>TRANSMISSION CLUTCH HUB NO.1</name></parts><parts id="33332B"><name>2ND GEAR NEEDLE ROLLER BEARING</name></parts><parts id="33355A"><name>1ST GEAR BEARING INNER RACE LOCK KEY OR BALL</name></parts><parts id="33481"><name>SPEEDOMETER DRIVE (MTM) GEAR</name></parts></para>
+<para id="RM0000010UY00RX" category="A" type-id="30014" from="201202"><name>INSTALLATION</name>
+
+<parts id="33335"><name>1ST GEAR</name></parts><parts id="33332"><name>2ND GEAR</name></parts><parts id="33333"><name>3RD GEAR</name></parts><parts id="33481"><name>SPEEDOMETER DRIVE (MTM) GEAR</name></parts><parts id="33336"><name>5TH GEAR</name></parts><parts id="33321V"><name>OUTPUT SHAFT CENTER BEARING</name></parts><parts id="33355"><name>1ST GEAR BEARING INNER RACE</name></parts><parts id="33355A"><name>1ST GEAR BEARING INNER RACE LOCK KEY OR BALL</name></parts><parts id="33367"><name>SYNCHRONIZER RING NO.1</name></parts><parts id="33361"><name>TRANSMISSION CLUTCH HUB NO.1</name></parts><parts id="33332B"><name>2ND GEAR NEEDLE ROLLER BEARING</name></parts><parts id="33362"><name>TRANSMISSION CLUTCH HUB NO.2</name></parts><parts id="33368"><name>SYNCHRONIZER RING NO.2</name></parts><parts id="33333A"><name>3RD GEAR NEEDLE ROLLER BEARING</name></parts></para>
+</ttl>
+<ttl id="1000R_S000G_7AVQZ_T00A9" variety="T00A9"><name>COUNTER GEAR</name>
+<parts id="F0004CR"><name>COUNTER GEAR</name></parts>
+<para id="RM0000010UX00UX" category="A" type-id="80002" from="201202"><name>DISASSEMBLY</name>
+
+<parts id="33411A"><name>COUNTER GEAR FRONT BEARING OR ROLLER</name></parts></para>
+<para id="RM000004R2200BX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="33421"><name>COUNTER GEAR</name></parts></para>
+<para id="RM0000010UW00UX" category="A" type-id="8000E" from="201202"><name>REASSEMBLY</name>
+
+<parts id="33411A"><name>COUNTER GEAR FRONT BEARING OR ROLLER</name></parts></para>
+</ttl>
+</section></servcat></pub></tmc-service-db>

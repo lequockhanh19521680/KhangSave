@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002T_S0012" variety="S0012">
+<name>OTHER SYSTEM</name>
+<ttl id="1002T_S0012_7ARDL_T008Q" variety="T008Q">
+<name>CLOCK</name>
+<para id="RM000004S6C006X" category="A" type-id="30014" name-id="OT0VQ-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000004S6C006X_01" type-id="01" category="01">
+<s-1 id="RM000004S6C006X_01_0001" proc-id="RM21Q0EV__000039F00000">
+<ptxt>INSTALL CLOCK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 6 claws to install the clock.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6C006X_01_0002" proc-id="RM21Q0EV__00003CA00000">
+<ptxt>INSTALL INSTRUMENT PANEL HOLE COVER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the instrument panel hole cover with the 2 screws &lt;F&gt;.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004S6C006X_01_0003" proc-id="RM21Q0EV__00003AO00000">
+<ptxt>INSTALL CENTER INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 4 claws to connect the air conditioning control.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004S6C006X_01_0004" proc-id="RM21Q0EV__00003AS00000">
+<ptxt>INSTALL CENTER LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws and 2 clips to install the center lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

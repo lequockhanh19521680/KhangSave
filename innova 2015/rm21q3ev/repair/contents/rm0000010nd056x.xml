@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7Z8_T003M" variety="T003M">
+<name>PARK / NEUTRAL POSITION SWITCH</name>
+<para id="RM0000010ND056X" category="G" type-id="8000T" name-id="AT09R-32" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010ND056X_02" type-id="01" category="01">
+<s-1 id="RM0000010ND056X_02_0011" proc-id="RM21Q0EV__00000XJ00000">
+<ptxt>INSPECT PARK/NEUTRAL POSITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply the parking brake and turn the ignition switch to ON.</ptxt>
+</s2>
+<s2>
+<ptxt>Depress the brake pedal and check that the engine starts when the shift lever is on N or P, but does not start in other positions.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the back-up light illuminates and the reverse warning buzzer sounds when the shift lever is on R, but do not function in other positions.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

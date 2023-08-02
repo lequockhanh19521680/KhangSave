@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X7_T001L" variety="T001L">
+<name>TIRE AND WHEEL</name>
+<para id="RM0000028W9006X" category="F" type-id="30027" name-id="SS25Q-05" from="201403">
+<name>SERVICE DATA</name>
+<subpara id="RM0000028W9006X_z0" proc-id="RM21Q0EV__000003X00001">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Cold Tire Inflation Pressure</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tire Size</ptxt>
+</entry>
+<entry>
+<ptxt>Front</ptxt>
+<ptxt>kPa (kgf/cm<sup>2</sup>, psi)</ptxt>
+</entry>
+<entry>
+<ptxt>Rear</ptxt>
+<ptxt>kPa (kgf/cm<sup>2</sup>, psi)</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>205/65R 15 94S</ptxt>
+</entry>
+<entry>
+<ptxt>230 (2.3, 33)</ptxt>
+</entry>
+<entry>
+<ptxt>230 (2.3, 33)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Tire Runout</title>
+<tgroup cols="2" align="left">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Maximum tire runout</ptxt>
+</entry>
+<entry>
+<ptxt>3.0 mm (0.118 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Standard Imbalance after Adjustment</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tire Size</ptxt>
+</entry>
+<entry>
+<ptxt>Standard Imbalance after Adjustment</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>205/65R 15 94S</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>14 g (0.030 lb) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

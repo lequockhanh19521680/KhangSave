@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLL_T0093" variety="T0093">
+<name>REAR DOOR</name>
+<para id="RM000004RWF00LX" category="N" type-id="3000G" name-id="DH2FV-06" from="201202">
+<name>ADJUSTMENT</name>
+<subpara id="RM000004RWF00LX_01" type-id="11" category="10" proc-id="RM21Q0EV__000043R00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>Centering bolts are used to mount the door hinge to the vehicle body and door. The door cannot be adjusted with the centering bolts on. Substitute the centering bolts for standard bolts when making adjustments.</ptxt>
+<figure>
+<graphic graphicname="B276679E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (See page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Centering Bolt</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Standard Bolt</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content3>
+</subpara>
+<subpara id="RM000004RWF00LX_02" type-id="01" category="01">
+<s-1 id="RM000004RWF00LX_02_0001" proc-id="RM21Q0EV__000043S00000">
+<ptxt>INSPECT REAR DOOR PANEL SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the clearance measurements of areas A to U are within the standard ranges.</ptxt>
+<figure>
+<graphic graphicname="B280445E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<spec>
+<title>Standard</title>
+<table pgwide="1">
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.12in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="2.12in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Area</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.1 to 6.1 mm (0.122 to 0.240 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.0 to 8.0 mm (0.197 to 0.315 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2.8 to 5.8 mm (0.110 to 0.228 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>D</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>6.5 to 9.5 mm (0.256 to 0.374 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>E</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2.2 to 5.2 mm (0.0866 to 0.205 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>F</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>6.6 to 9.6 mm (0.260 to 0.378 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>G</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>12.6 to 15.6 mm (0.496 to 0.614 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>H</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-1.2 to 1.8 mm (-0.0472 to 0.0709 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>I</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.2 to 6.2 mm (0.126 to 0.244 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>J</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.5 to 6.5 mm (0.138 to 0.256 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>K</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4.3 to 7.3 mm (0.169 to 0.287 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>L</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>6.0 to 9.0 mm (0.236 to 0.354 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>M</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.1 to 10.1 mm (0.280 to 0.398 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.2 to 8.2 mm (0.205 to 0.323 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>O</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>6.6 to 9.6 mm (0.260 to 0.378 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>P</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.7 to 6.7 mm (0.146 to 0.264 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Q</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-1.3 to 1.7 mm (-0.0512 to 0.0669 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>R</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.7 to 6.7 mm (0.146 to 0.264 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>S</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-1.2 to 1.8 mm (-0.0472 to 0.0709 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>T</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.9 to 6.9 mm (0.154 to 0.272 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>U</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.7 to 6.7 mm (0.146 to 0.264 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWF00LX_02_0002" proc-id="RM21Q0EV__000043T00000">
+<ptxt>ADJUST REAR DOOR PANEL SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Loosen the hinge bolts on the body and adjust the door position.</ptxt>
+<figure>
+<graphic graphicname="B280451" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tighten the hinge bolts on the body after the adjustment.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Loosen the hinge bolts on the door and adjust the door position.</ptxt>
+<figure>
+<graphic graphicname="B280452" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tighten the hinge bolts on the door after the adjustment.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>26</t-value1>
+<t-value2>265</t-value2>
+<t-value4>19</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Using a T30 "TORX" socket, adjust the striker position by slightly loosening the striker mounting screws and hitting the striker with a plastic-faced hammer.</ptxt>
+<figure>
+<graphic graphicname="B280453" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a T30 "TORX" socket, tighten the striker mounting screws after the adjustment.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>23</t-value1>
+<t-value2>235</t-value2>
+<t-value4>17</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7AX04_T00AM" variety="T00AM">
+<name>FRONT SHOCK ABSORBER</name>
+<para id="RM0000010O200YX" category="A" type-id="30014" name-id="SP3QV-01" from="201503">
+<name>INSTALLATION</name>
+<subpara id="RM0000010O200YX_02" type-id="11" category="10" proc-id="RM21Q0EV__000052400001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010O200YX_01" type-id="01" category="01">
+<s-1 id="RM0000010O200YX_01_0009" proc-id="RM21Q0EV__000051W00001">
+<ptxt>INSTALL FRONT COIL SPRING LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, compress the coil spring.</ptxt>
+<figure>
+<graphic graphicname="C159782E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09727-30021</s-number>
+<s-subnumber>09727-00010</s-subnumber>
+<s-subnumber>09727-00031</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09727-00060</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Attach the arm of SST to the diameter of the coil spring.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Correct</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Incorrect</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="C275706E04" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure that the coil spring is installed so that the distance between the upper and lower hooks of SST is at the maximum.</ptxt>
+</item>
+<item>
+<ptxt>Make sure that the claws of the hooks are securely attached.</ptxt>
+</item>
+</list1>
+</atten2>
+</s2>
+<s2>
+<ptxt>Using SST, compress the coil spring.</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>If the coil spring bends during the compression, immediately stop the compression and reinstall SST.</ptxt>
+</item>
+<item>
+<ptxt>Do not compress the spring until the coil springs contact each other.</ptxt>
+</item>
+<item>
+<ptxt>Do not use an impact wrench.</ptxt>
+</item>
+</list1>
+</atten2>
+</s2>
+<s2>
+<ptxt>Install the coil spring to the shock absorber. Fit the lower end of the coil spring into the recess of the spring lower seat.</ptxt>
+<figure>
+<graphic graphicname="F049913E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Recess</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0010" proc-id="RM21Q0EV__000051X00001">
+<ptxt>INSTALL FRONT COIL SPRING UPPER INSULATOR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the upper insulator to the shock absorber.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0011" proc-id="RM21Q0EV__000051Y00001">
+<ptxt>INSTALL FRONT SUSPENSION SUPPORT SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cushion retainer to the shock absorber.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the suspension support to the shock absorber.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0012" proc-id="RM21Q0EV__000051Z00001">
+<ptxt>INSTALL FRONT SHOCK ABSORBER CUSHION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cushion to the shock absorber.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0013" proc-id="RM21Q0EV__000052000001">
+<ptxt>INSTALL FRONT SHOCK ABSORBER CUSHION RETAINER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cushion retainer to the shock absorber.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0014" proc-id="RM21Q0EV__000052100001">
+<ptxt>INSTALL FRONT SUPPORT TO FRONT SHOCK ABSORBER NUT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the suspension support and absorber bushes as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="C113158E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Suspension Support</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Absorber Bush</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>for LH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>for RH</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Install a new lock nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not use an impact wrench. It will damage the shock absorber rod.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Release the coil spring while checking the position of the spring lower seat and suspension support.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0001" proc-id="RM21Q0EV__000051P00001">
+<ptxt>TEMPORARILY INSTALL FRONT SHOCK ABSORBER WITH COIL SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049915E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the shock absorber to the vehicle body so that: 1) the coil spring LH lower tip is facing away from the vehicle, and 2) the coil spring RH lower tip is facing toward the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST and 150 mm extension bar, install the 3 nuts to the upper side of the shock absorber with coil spring.</ptxt>
+<figure>
+<graphic graphicname="C288511E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09249-B1010</s-number>
+</sstitem>
+</sst>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fulcrum Length</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<torque>
+<subtitle>without SST</subtitle>
+<torqueitem>
+<t-value1>40</t-value1>
+<t-value2>408</t-value2>
+<t-value4>30</t-value4>
+</torqueitem>
+<subtitle>with SST</subtitle>
+<torqueitem>
+<t-value1>28</t-value1>
+<t-value2>286</t-value2>
+<t-value4>21</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Use a torque wrench with a fulcrum length of 300 mm (11.8 in.).</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F049906E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Temporarily install the bolt and nut as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Fix the nut in place and temporarily install the bolt.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0017" proc-id="RM21Q0EV__00001II00000">
+<ptxt>INSTALL FRONT STABILIZER BAR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front stabilizer bar to the vehicle body.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010O200YX_01_0018" proc-id="RM21Q0EV__00001IK00000">
+<ptxt>INSTALL FRONT STABILIZER BRACKET
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118728" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the 2 brackets with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>48</t-value1>
+<t-value2>489</t-value2>
+<t-value4>35</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Make sure the bracket's arrows face the front of the vehicle.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010O200YX_01_0002" proc-id="RM21Q0EV__000051Q00001">
+<ptxt>INSTALL FRONT STABILIZE LINK ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C113157" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the stabilizer link to the lower arm with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>78</t-value1>
+<t-value2>795</t-value2>
+<t-value4>58</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>If the ball joint turns together with the nut, use a 6 mm hexagon wrench to hold the stud in place.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0003" proc-id="RM21Q0EV__000051R00001">
+<ptxt>INSTALL FRONT STABILIZER LINK ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0008" proc-id="RM21Q0EV__000051V00001">
+<ptxt>INSTALL FRONT WHEEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front wheel.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0005" proc-id="RM21Q0EV__000051S00001">
+<ptxt>STABILIZE SUSPENSION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the vehicle several times to stabilize the suspension.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0006" proc-id="RM21Q0EV__000051T00001">
+<ptxt>TIGHTEN FRONT SHOCK ABSORBER WITH COIL SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fix the nut in place and tighten the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>95</t-value1>
+<t-value2>969</t-value2>
+<t-value4>70</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not tighten the nut.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010O200YX_01_0007" proc-id="RM21Q0EV__000051U00001">
+<ptxt>INSPECT AND ADJUST FRONT WHEEL ALIGNMENT</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000039J4005X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

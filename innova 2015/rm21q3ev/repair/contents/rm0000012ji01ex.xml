@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A812_T005G" variety="T005G">
+<name>BLOWER UNIT</name>
+<para id="RM0000012JI01EX" category="A" type-id="30014" name-id="ACFTT-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000012JI01EX_02" type-id="01" category="01">
+<s-1 id="RM0000012JI01EX_02_0019" proc-id="RM21Q0EV__00004I300000">
+<ptxt>INSTALL BLOWER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the blower assembly with the 3 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012JI01EX_02_0022" proc-id="RM21Q0EV__00004I400000">
+<ptxt>INSTALL AIR CONDITIONING UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000012JN01PX"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

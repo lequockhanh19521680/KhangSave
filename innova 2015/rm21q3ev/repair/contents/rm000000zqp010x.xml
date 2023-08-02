@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7Y5_T002J" variety="T002J">
+<name>SFI SYSTEM</name>
+<para id="RM000000ZQP010X" category="J" type-id="30076" name-id="ES10OU-001" from="201202">
+<dtccode/>
+<dtcname>ECM Power Source Circuit</dtcname>
+<subpara id="RM000000ZQP010X_01" type-id="60" category="03" proc-id="RM21Q0EV__000007Q00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>When the ignition switch is turned ON, the battery voltage is applied to terminal IGSW of the ECM. The ECM "MREL" output signal causes a current to flow to the MAIN relay coil, closing the contacts of the MAIN relay and supplying power to terminal +B of the ECM.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000ZQP010X_02" type-id="32" category="03" proc-id="RM21Q0EV__000007R00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="A123743E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000ZQP010X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000ZQP010X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000ZQP010X_04_0001" proc-id="RM21Q0EV__000007S00000">
+<testtitle>CHECK ECM (+B VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E20" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929004in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-1 (+B) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0002" fin="false">NG</down>
+<right ref="RM000000ZQP010X_04_0006" fin="true">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0002" proc-id="RM21Q0EV__000007T00000">
+<testtitle>CHECK WIRE HARNESS (ECM - BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A065159E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the E12 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929012in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E12-3 (E1) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0003" fin="false">OK</down>
+<right ref="RM000000ZQP010X_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0003" proc-id="RM21Q0EV__000007U00000">
+<testtitle>CHECK ECM (IGSW VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E21" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929012in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-9 (IGSW) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0004" fin="false">NG</down>
+<right ref="RM000000ZQP010X_04_0011" fin="false">OK</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0004" proc-id="RM21Q0EV__000007V00000">
+<testtitle>INSPECT FUSE (IGN)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034718E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Remove the IGN fuse from the instrument panel junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the fuse.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt> Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0005" fin="false">OK</down>
+<right ref="RM000000ZQP010X_04_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0005" proc-id="RM21Q0EV__000007W00000">
+<testtitle>INSPECT IGNITION SWITCH ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A087913E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the I9 ignition switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="3" align="left">
+<colspec colnum="1" colname="c1" colwidth="1.3952677in"/>
+<colspec colnum="2" colname="c2" colwidth="1.3952669in"/>
+<colspec colnum="3" colname="c3" colwidth="1.3952669in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>5 (AM2) - 6 (IG2)</ptxt>
+</entry>
+<entry>
+<ptxt>LOCK</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 (AM2) - 6 (IG2)</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0010" fin="true">OK</down>
+<right ref="RM000000ZQP010X_04_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0006">
+<testtitle>PROCEED TO NEXT CIRCUIT INSPECTION SHOWN IN PROBLEM SYMPTOMS TABLE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0007">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0008">
+<testtitle>CHECK FOR SHORT IN ALL HARNESSES AND COMPONENTS CONNECTED TO FUSE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0009">
+<testtitle>REPLACE IGNITION SWITCH ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0010">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR (IGNITION SWITCH - ECM AND BATTERY)</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0011" proc-id="RM21Q0EV__000007X00000">
+<testtitle>CHECK ECM (MREL VOLTAGE)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="A066060E55" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the ECM connectors.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table frame="all" colsep="1" rowsep="1">
+<tgroup cols="2" align="left">
+<colspec colnum="1" colname="c1" colwidth="2.0929012in"/>
+<colspec colnum="2" colname="c2" colwidth="2.0929012in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>E9-8 (MREL) - E12-3 (E1)</ptxt>
+</entry>
+<entry>
+<ptxt>9 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0012" fin="false">OK</down>
+<right ref="RM000000ZQP010X_04_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0012" proc-id="RM21Q0EV__000007Y00000">
+<testtitle>INSPECT FUSE (EFI)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034719E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Remove the EFI fuse from the engine room junction block.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the fuse.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt> Below 1 Ω</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0013" fin="false">OK</down>
+<right ref="RM000000ZQP010X_04_0016" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0013" proc-id="RM21Q0EV__000007Z00000">
+<testtitle>INSPECT INTEGRATION NO.1 RELAY (MAIN RELAY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Inspect the integration No. 1 relay (See page <xref label="Seep01" href="RM0000014TJ02QX"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0014" fin="false">OK</down>
+<right ref="RM000000ZQP010X_04_0017" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0014" proc-id="RM21Q0EV__000008000000">
+<testtitle>CHECK WIRE HARNESS (INTEGRATION RELAY (MAIN RELAY) - ECM, BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="G034949E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the 1J integration relay connector from the engine room junction block (see page <xref label="Seep01" href="RM0000014TJ02QX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the E9 ECM connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1J-2 - E9-8 (MREL)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1J-4 - E9-1 (+B)</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1J-3 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1J-2 or E9-8 (MREL) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1J-4 or E9-1 (+B) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000ZQP010X_04_0019" fin="true">OK</down>
+<right ref="RM000000ZQP010X_04_0018" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0015">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0016">
+<testtitle>CHECK FOR SHORT IN ALL HARNESSES AND COMPONENTS CONNECTED TO FUSE</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0017">
+<testtitle>REPLACE INTEGRATION NO.1 RELAY</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0018">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000ZQP010X_04_0019">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR (TERMINAL +B OF ECM - BATTERY POSITIVE TERMINAL)</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

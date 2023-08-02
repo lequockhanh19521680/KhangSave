@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XJ_T001X" variety="T001X">
+<name>ENGINE HOOD / DOOR</name>
+<para id="RM0000038EP05SX" category="F" type-id="30028" name-id="SS03Z9-123" from="201403">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000038EP05SX_z0" proc-id="RM21Q0EV__000059600001">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>HOOD</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Hood hinge x Hood panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>12</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>117</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.5</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Hood lock x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>HOOD LOCK CONTROL CABLE ASSEMBLY</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Hood lock x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>FRONT DOOR</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Outer rear view mirror assembly x Front door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>82</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front No. 2 speaker assembly x Outer rear view mirror assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>82</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door glass sub-assembly x Front door window regulator sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door window regulator sub-assembly x Front door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>82</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door outside handle frame sub-assembly x Front door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door outside handle cover with door key cylinder x Front door outside handle frame sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door lock assembly x Front door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>51</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door check assembly x Front door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>56</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>49 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door check assembly x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>214</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door hinge x body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>26</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>265</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door hinge x Front door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>26</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>265</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front door lock striker x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>23</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>235</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>17</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>REAR DOOR</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door window regulator sub-assembly x Rear door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>82</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door outside handle frame sub-assembly x Rear door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door outside handle cover x Rear door outside handle frame sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door lock assembly x Rear door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>51</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door check assembly x Rear door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>5.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>56</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>49 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door check assembly x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>214</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door hinge x body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>26</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>265</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door hinge x Rear door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>26</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>265</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear door lock striker x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>23</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>235</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>17</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>BACK DOOR</title>
+<tgroup cols="5" align="center">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COLSPEC0" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.41in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle" align="left">
+<ptxt>Back door outside handle x Back door outside garnish</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>71</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>62 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Back door outside garnish x Back door panel</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>Nut</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>4.9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>50</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>43 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Bolt</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>27 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle" align="left">
+<ptxt>Back door lock assembly x Back door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>15</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>153</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle" align="left">
+<ptxt>Back door hinge x Back door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>19</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>194</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle" align="left">
+<ptxt>Back door striker x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>18</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>178</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>13</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>BACK DOOR SUPPORT</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Back door stay assembly x Back door panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Back door stay assembly x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>66 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>FUEL LID LOCK CONTROL CABLE ASSEMBLY</title>
+<tgroup cols="4" align="center">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.41in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Part tightened</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear No. 2 seat outer belt floor anchor x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Rear No. 1 seat outer belt floor anchor x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>Front seat outer belt floor anchor x Body</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>42</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>428</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>31</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

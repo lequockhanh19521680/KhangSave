@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXR011X" category="C" type-id="303MI" name-id="RS6C6-01" from="201202" to="201303">
+<dtccode>B1805/52</dtccode>
+<dtcname>Short in Front Passenger Side Squib Circuit</dtcname>
+<dtccode>B1806/52</dtccode>
+<dtcname>Open in Front Passenger Side Squib Circuit</dtcname>
+<dtccode>B1807/52</dtccode>
+<dtcname>Short to GND in Front Passenger Side Squib Circuit</dtcname>
+<dtccode>B1808/52</dtccode>
+<dtcname>Short to B+ in Front Passenger Side Squib Circuit</dtcname>
+<subpara id="RM000000YXR011X_01" type-id="61" category="03" proc-id="RM21Q0EV__000021Q00000">
+<name>SYSTEM DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The front passenger side squib circuit consists of the center airbag sensor and front passenger airbag. The circuit instructs the SRS to deploy when deployment conditions are met. These DTCs are recorded when a malfunction is detected in the front passenger side squib circuit.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B1805/52</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives line short circuit signal 5 times in passenger squib circuit during primary check</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Front passenger airbag assembly (passenger squib)</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+<item>
+<ptxt>No. 2 instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B1806/52</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives open circuit signal in passenger squib circuit for 2 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Front passenger airbag assembly (passenger squib)</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+<item>
+<ptxt>No. 2 instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B1807/52</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives short circuit to ground signal in passenger squib circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Front passenger airbag assembly (passenger squib)</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+<item>
+<ptxt>No. 2 instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>B1808/52</ptxt>
+</entry>
+<entry>
+<ptxt>Center airbag sensor assembly receives B+ short circuit signal in passenger squib circuit for 0.5 seconds</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Front passenger airbag assembly (passenger squib)</ptxt>
+</item>
+<item>
+<ptxt>Center airbag sensor assembly</ptxt>
+</item>
+<item>
+<ptxt>Instrument panel wire</ptxt>
+</item>
+<item>
+<ptxt>No. 2 instrument panel wire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000000YXR011X_02" type-id="32" category="03" proc-id="RM21Q0EV__000021R00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="H101254E14" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000000YXR011X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM000000YXR011X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000YXR011X_04_0012" proc-id="RM21Q0EV__000021U00000">
+<testtitle>CHECK FRONT PASSENGER AIRBAG (PASSENGER SQUIB)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H101447E06" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the connector from the front passenger airbag.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the white wire side of SST (resistance 2.1 Ω) to the instrument panel wire connector E.</ptxt>
+</test1>
+<sst>
+<sstitem>
+<s-number>09843-18061</s-number>
+</sstitem>
+</sst>
+<atten2>
+<ptxt>Never connect a tester to the front passenger airbag (passenger squib) for measurement, as this may lead to a serious injury due to airbag deployment.</ptxt>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not forcibly insert SST into the terminals of the connector when connecting.</ptxt>
+</item>
+<item>
+<ptxt>Insert SST straight into the terminals of the connector.</ptxt>
+</item>
+</list1>
+</atten3>
+<test1>
+<ptxt>Connect the cable to the negative (-) battery terminal, and wait for at least 2 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON, and wait for at least 60 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep01" href="RM000000YVY00UX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON, and wait for at least 60 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs (See page <xref label="Seep02" href="RM000000YVY00UX"/>).</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>DTC B1805, B1806, B1807, B1808 or 52 is not output.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>DTCs other than DTC B1805, B1806, B1807, B1808 or 52 may be output at this time, but they are not related to this check.</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXR011X_04_0034" fin="true">OK</down>
+<right ref="RM000000YXR011X_04_0002" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXR011X_04_0002" proc-id="RM21Q0EV__000021S00000">
+<testtitle>CHECK CONNECTOR</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect SST (resistance 2.1 Ω) from the instrument panel wire.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the instrument panel wire connector which connects to the front passenger side airbag is not damaged.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Lock button is not disengaged, and claw of lock is not deformed or damaged.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXR011X_04_0008" fin="false">OK</down>
+<right ref="RM000000YXR011X_04_0022" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXR011X_04_0008" proc-id="RM21Q0EV__000021T00000">
+<testtitle>CHECK INSTRUMENT PANEL WIRE (PASSENGER SQUIB CIRCUIT)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100374E24" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the connector from the center airbag sensor.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the cable to the negative (-) battery terminal, and wait for at least 2 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-2 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - A20-2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Release the activation prevention mechanism built into connector B (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - A20-2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-2 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXR011X_04_0029" fin="true">OK</down>
+<right ref="RM000000YXR011X_04_0022" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXR011X_04_0022" proc-id="RM21Q0EV__000021V00000">
+<testtitle>REPAIR OR REPLACE NO. 2 INSTRUMENT PANEL WIRE</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H102636E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the instrument panel wire connector from the No. 2 instrument panel wire.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect the cable to the negative (-) battery terminal, and wait for at least 2 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-2 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - IH1-1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-2 - IH1-2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-1 - A20-2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>A20-2 - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1 MΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXR011X_04_0023" fin="true">OK</down>
+<right ref="RM000000YXR011X_04_0051" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXR011X_04_0023">
+<testtitle>REPAIR OR REPLACE INSTRUMENT PANEL WIRE</testtitle>
+</testgrp>
+<testgrp id="RM000000YXR011X_04_0029">
+<testtitle>REPLACE CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXR011X_04_0034">
+<testtitle>REPLACE FRONT PASSENGER AIRBAG ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXR011X_04_0051">
+<testtitle>REPAIR OR REPLACE NO. 2 INSTRUMENT PANEL WIRE</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

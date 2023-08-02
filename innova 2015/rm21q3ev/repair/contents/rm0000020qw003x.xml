@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X2_T001G" variety="T001G">
+<name>1TR-FE COOLING</name>
+<para id="RM0000020QW003X" category="F" type-id="30028" name-id="SS24Z-01" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000020QW003X_z0" proc-id="RM21Q0EV__000003O00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<title>Coolant</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Cylinder block drain cock plug x Cylinder block drain cock</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>133</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Water pump</title>
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="1.42in"/>
+<colspec colname="COL3" colwidth="1.42in"/>
+<colspec colname="COL4" colwidth="1.42in"/>
+<colspec colname="COL5" colwidth="1.4in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Water pump assembly x Timing chain cover</ptxt>
+</entry>
+<entry>
+<ptxt>for bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>26</ptxt>
+</entry>
+<entry>
+<ptxt>265</ptxt>
+</entry>
+<entry>
+<ptxt>19</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>for Bolt B</ptxt>
+</entry>
+<entry>
+<ptxt>13</ptxt>
+</entry>
+<entry>
+<ptxt>133</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2">
+<ptxt>V-ribbed belt tensioner x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>for Bolt A</ptxt>
+</entry>
+<entry>
+<ptxt>43</ptxt>
+</entry>
+<entry>
+<ptxt>439</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>for Bolt B</ptxt>
+</entry>
+<entry>
+<ptxt>40</ptxt>
+</entry>
+<entry>
+<ptxt>408</ptxt>
+</entry>
+<entry>
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>for Bolt C</ptxt>
+</entry>
+<entry>
+<ptxt>21</ptxt>
+</entry>
+<entry>
+<ptxt>214</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>No. 1 idler pulley sub-assembly x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>43</ptxt>
+</entry>
+<entry>
+<ptxt>439</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Oil dipstick guide x Cylinder head</ptxt>
+</entry>
+<entry>
+<ptxt>8.0</ptxt>
+</entry>
+<entry>
+<ptxt>82</ptxt>
+</entry>
+<entry>
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Fan shroud x Radiator tank upper</ptxt>
+</entry>
+<entry>
+<ptxt>5.0</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+<entry>
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2">
+<ptxt>Fluid coupling fan x Water pump assembly</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>255</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Thermostat</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Water inlet x Cylinder block</ptxt>
+</entry>
+<entry>
+<ptxt>20</ptxt>
+</entry>
+<entry>
+<ptxt>204</ptxt>
+</entry>
+<entry>
+<ptxt>15</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Fan</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Fan x Fluid coupling</ptxt>
+</entry>
+<entry>
+<ptxt>5.5</ptxt>
+</entry>
+<entry>
+<ptxt>56</ptxt>
+</entry>
+<entry>
+<ptxt>49 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Radiator</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Oil cooler x Nut</ptxt>
+</entry>
+<entry>
+<ptxt>8.34</ptxt>
+</entry>
+<entry>
+<ptxt>85</ptxt>
+</entry>
+<entry>
+<ptxt>74</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Oil cooler x Cooler pipe</ptxt>
+</entry>
+<entry>
+<ptxt>14.7</ptxt>
+</entry>
+<entry>
+<ptxt>150</ptxt>
+</entry>
+<entry>
+<ptxt>11</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Radiator assembly x Body panel</ptxt>
+</entry>
+<entry>
+<ptxt>12</ptxt>
+</entry>
+<entry>
+<ptxt>122</ptxt>
+</entry>
+<entry>
+<ptxt>9</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Fan shroud x Radiator tank upper</ptxt>
+</entry>
+<entry>
+<ptxt>5.0</ptxt>
+</entry>
+<entry>
+<ptxt>51</ptxt>
+</entry>
+<entry>
+<ptxt>44 in.*lbf</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Fluid coupling fan x Water pump</ptxt>
+</entry>
+<entry>
+<ptxt>25</ptxt>
+</entry>
+<entry>
+<ptxt>255</ptxt>
+</entry>
+<entry>
+<ptxt>18</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Radiator bracket x Radiator tank upper/lower</ptxt>
+</entry>
+<entry>
+<ptxt>12.7</ptxt>
+</entry>
+<entry>
+<ptxt>130</ptxt>
+</entry>
+<entry>
+<ptxt>10</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

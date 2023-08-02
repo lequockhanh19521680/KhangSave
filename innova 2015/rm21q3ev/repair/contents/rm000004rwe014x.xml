@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLY_T009F" variety="T009F">
+<name>SIDE MOULDING (for Rear Door)</name>
+<para id="RM000004RWE014X" category="A" type-id="80001" name-id="ET6RY-05" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000004RWE014X_01" type-id="11" category="10" proc-id="RM21Q0EV__00003TI00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000004RWE014X_02" type-id="01" category="01">
+<s-1 id="RM000004RWE014X_02_0040" proc-id="RM21Q0EV__00003TK00000">
+<ptxt>REMOVE REAR DOOR OUTSIDE MOULDING LH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the rear door outside moulding, heat the rear door panel and rear door outside moulding using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Panel</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>40 to 60°C (104 to 140°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the rear door panel or rear door outside moulding excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Put protective tape around the rear door outside moulding.</ptxt>
+<figure>
+<graphic graphicname="B280930E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Insert piano wire between the rear door panel and rear door outside moulding.</ptxt>
+</s2>
+<s2>
+<ptxt>Tie objects that can serve as handles (for example, wooden blocks) to the piano wire ends.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the piano wire and scrape off the double-sided tape that holds the rear door outside moulding to the rear door panel.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the rear door panel.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the rear door outside moulding.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wooden Block</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004RWE014X_02_0039" proc-id="RM21Q0EV__00003TJ00000">
+<ptxt>REMOVE REAR DOOR INSERT OUTSIDE MOULDING LH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>When removing the rear door insert outside moulding, heat the rear door outside moulding and rear door insert outside moulding using a heat light.</ptxt>
+</atten4>
+<spec>
+<title>Standard</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Door Insert Outside Moulding</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the rear door outside moulding or rear door insert outside moulding excessively.</ptxt>
+</atten3>
+<s2>
+<ptxt>Put protective tape around the rear door insert outside moulding.</ptxt>
+<figure>
+<graphic graphicname="B280929E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, remove the rear door insert outside moulding.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the rear door outside moulding.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

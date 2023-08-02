@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="54">
+<name>Brake</name>
+<section id="12030_S000J" variety="S000J">
+<name>BRAKE CONTROL / DYNAMIC CONTROL SYSTEMS</name>
+<ttl id="12030_S000J_7AKNR_T0013" variety="T0013">
+<name>BRAKE CONTROL SYSTEM</name>
+<para id="RM000004S1D004X" category="F" type-id="8048Z" name-id="BCC9Z-01" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004S1D004X_z0" proc-id="NM21Q0EV__000003100000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Brake Actuator Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Changes the fluid path based on the signals from the skid control ECU during the operation of the brake control system functions, in order to control the fluid pressure applied to the wheel cylinders.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Motor Relay (Built-into Skid Control ECU)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Supplies power to the pump motor.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Solenoid Relay (Built-into Skid Control ECU)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Supplies power to the solenoid valves.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Speed Sensors</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detect the wheel speed of each of the 4 wheels.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Stop Light Switch Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the brake pedal depressing signal.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Parking Brake Switch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the parking brake lever status.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ABS Warning Light</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lights up to alert the driver when the skid control ECU detects a malfunction in the ABS.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Skid Control ECU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Judges the vehicle driving condition based on the signals from each sensor, and sends the brake control signals to the brake actuator.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>SYSTEM CONTROL</ptxt>
+<step2>
+<ptxt>Anti-lock Brake System (ABS)</ptxt>
+<step3>
+<ptxt>The ABS prevents the wheels from locking during sudden braking or braking on a slippery surface. This provides the proper braking force when the vehicle slips, thus ensuring vehicle stability and excellent braking performance.</ptxt>
+<figure>
+<graphic graphicname="X105342E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Models with ABS</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Models without ABS</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Brake Operation</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>Brake Actuator Assembly</ptxt>
+<step3>
+<ptxt>The brake actuator assembly consists of an actuator portion and skid control ECU.</ptxt>
+<figure>
+<graphic graphicname="X105312E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Skid Control ECU</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Actuator Portion</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>The actuator portion consists of 3 pressure holding solenoid valves, 3 pressure reduction solenoid valves, 2 pumps and 2 reservoirs.</ptxt>
+<figure>
+<graphic graphicname="X105313E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure Holding Solenoid Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure Reduction Solenoid Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pump</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Reservoir</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Brake Control Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>From Master Cylinder</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Brake LH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Brake RH</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Brake LH</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Brake RH</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Speed Sensor</ptxt>
+<step3>
+<ptxt>The speed sensor detects wheel speed and transmits the appropriate signals to the skid control ECU.</ptxt>
+<figure>
+<graphic graphicname="X105316E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Speed Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Speed Sensor</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>The pick-up coil type speed sensor is used.</ptxt>
+<figure>
+<graphic graphicname="X105318E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>ABS</ptxt>
+<step3>
+<ptxt>Based on the signals received from the 4 speed sensors and deceleration sensor, the skid control ECU calculates the speed of each wheel and the deceleration, and checks the wheel slipping conditions. In accordance with the slipping condition, the skid control ECU controls each solenoid valve in the brake actuator in order to adjust the fluid pressure of each wheel cylinder in the following 3 modes: pressure increase, pressure holding, and pressure reduction modes.</ptxt>
+<figure>
+<graphic graphicname="X105320E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure Holding Solenoid Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure Reduction Solenoid Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Port A</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Port B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure Increase Mode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure Holding Mode</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pressure Reduction Mode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*d</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>To Brake Caliper or Wheel Cylinder</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*e</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>From Brake Caliper or Wheel Cylinder</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Brake Actuator Operation in ABS</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="2.41in"/>
+<colspec colname="COL2" colwidth="1.56in"/>
+<colspec colname="COL3" colwidth="1.56in"/>
+<colspec colname="COL4" colwidth="1.55in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Pressure Mode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Increase Mode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Holding Mode</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Reduction Mode</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Pressure Holding Solenoid Valve (Port A)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off (Open)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On (Closed)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Pressure Reduction Solenoid Valve (Port B)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off (Closed)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>←</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On (Open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Wheel Cylinder Pressure</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Increases</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Holds</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Reduces</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>FAIL-SAFE</ptxt>
+<step2>
+<ptxt>If a failure occurs in the skid control ECU, sensors, or brake actuator, the system continues effecting brake control by excluding the failed area and using only the areas that are operating normally.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>DIAGNOSIS</ptxt>
+<step2>
+<ptxt>If the skid control ECU detects a malfunction in the brake control system, the warning lights or indicator light illuminate. At the same time, a Diagnostic Trouble Code (DTC) is stored in the memory of the skid control ECU.</ptxt>
+</step2>
+<step2>
+<ptxt>This system has a sensor signal check (test mode) function.</ptxt>
+</step2>
+<step2>
+<ptxt>For details of DTC and check function, refer to the corresponding Repair Manual for this model.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

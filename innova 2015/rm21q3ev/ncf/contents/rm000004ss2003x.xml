@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12018_S000C" variety="S000C">
+<name>CLUTCH</name>
+<ttl id="12018_S000C_7AIQO_T000R" variety="T000R">
+<name>CLUTCH SYSTEM</name>
+<para id="RM000004SS2003X" category="F" type-id="8048W" name-id="CL1TF-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004SS2003X_z0" proc-id="NM21Q0EV__000002C00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A dry type single plate clutch, operated by hydraulic pressure, is used, which is matched to the performance of each engine.</ptxt>
+</step2>
+<step2>
+<ptxt>A clutch disc assembly that uses an organic solvent-free material is used to help protect the environment. In addition, the components of the clutch damper have been optimized to achieve wear resistance and reduce noise and vibration.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="1.06in"/>
+<colspec colname="COL3" colwidth="4.96in"/>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Clutch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Dry Type </ptxt>
+<ptxt>Single Plate Clutch</ptxt>
+<ptxt>Diaphragm Spring</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Operation</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Hydraulic</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Clutch Cover</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Size</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>236 mm</ptxt>
+<ptxt>(9.29 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Installed Load</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4900 N</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Clutch Disc</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Facing Size*</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>236 mm x 150 mm</ptxt>
+<ptxt>(9.29 in. x 5.91 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Master Cylinder</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Plunger</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Release Cylinder</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Non-adjustable</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Clutch Pedal</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Conventional</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle">
+<ptxt>Clutch Accumulator</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Without</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: Outer diameter x Inner diameter</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

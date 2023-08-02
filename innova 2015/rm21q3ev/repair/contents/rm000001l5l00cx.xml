@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80P_T0053" variety="T0053">
+<name>BRAKE BOOSTER</name>
+<para id="RM000001L5L00CX" category="G" type-id="8000T" name-id="BR0I1-02" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000001L5L00CX_01" type-id="01" category="01">
+<s-1 id="RM000001L5L00CX_01_0001" proc-id="RM21Q0EV__00001S800000">
+<ptxt>CHECK BRAKE BOOSTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111618E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Airtightness check.</ptxt>
+<s3>
+<ptxt>Start the engine and stop it after 1 or 2 minutes. Depress the brake pedal several times.</ptxt>
+</s3>
+<s3>
+<ptxt>Make sure the booster is airtight. Check that the distance the pedal can be depressed decreases gradually in correlation with each subsequent press of the pedal.</ptxt>
+<ptxt>If the pedal is not as specified, check the check valve.</ptxt>
+<ptxt>If the check valve is normal, replace the booster.</ptxt>
+</s3>
+<s3>
+<ptxt>Start the engine. Depress and hold down the pedal, and stop the engine.</ptxt>
+</s3>
+<s3>
+<ptxt>Make sure the booster is airtight. Hold the pedal for 30 seconds and check that there is no change in the pedal reserve distance.</ptxt>
+<ptxt>If the pedal is not as specified, check the check valve.</ptxt>
+<ptxt>If the check valve is normal, replace the booster.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Operation check.</ptxt>
+<figure>
+<graphic graphicname="C111619" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Depress the pedal several times with the ignition switch OFF and check that there is no change in the pedal reserve distance.</ptxt>
+</s3>
+<s3>
+<ptxt>Depress and hold down the pedal, and start the engine. Check that the pedal can only be depressed slightly.</ptxt>
+<ptxt>If the pedal is not as specified, check the check valve.</ptxt>
+<ptxt>If the check valve is normal, replace the booster.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001L5L00CX_01_0002" proc-id="RM21Q0EV__00001S900000">
+<ptxt>CHECK BRAKE VACUUM CHECK VALVE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111620E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Check the check valve.</ptxt>
+<s3>
+<ptxt>Slide the clip and disconnect the vacuum hose.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the check valve from the booster.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that there is ventilation from the booster to the engine, and no ventilation from the engine to the booster.</ptxt>
+<atten4>
+<ptxt>If the results are not as specified, replace the check valve.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

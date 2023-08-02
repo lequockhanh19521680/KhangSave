@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LIU02NX" category="U" type-id="303FI" name-id="AC8TJ-28" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000002LIU02NX_z0" proc-id="RM21Q0EV__00004PM00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>for Front Air Conditioning</ptxt>
+<figure>
+<graphic graphicname="E224852E03" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</step1>
+<step1>
+<ptxt>for Rear Cooler</ptxt>
+<figure>
+<graphic graphicname="E229438E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,2218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y7_T002L" variety="T002L">
+<name>ENGINE ASSEMBLY</name>
+<para id="RM000000YMQ02GX" category="A" type-id="30014" name-id="EMBF1-02" from="201303" to="201403">
+<name>INSTALLATION</name>
+<subpara id="RM000000YMQ02GX_01" type-id="01" category="01">
+<s-1 id="RM000000YMQ02GX_01_0001" proc-id="RM21Q0EV__00000FX00001">
+<ptxt>INSTALL FRONT ENGINE MOUNTING BRACKET LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the mounting bracket with the 4 bolts.</ptxt>
+<figure>
+<graphic graphicname="A099872E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>51</t-value1>
+<t-value2>520</t-value2>
+<t-value4>38</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0002" proc-id="RM21Q0EV__00000FY00001">
+<ptxt>INSTALL FRONT ENGINE MOUNTING BRACKET RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the mounting bracket with the 4 bolts.</ptxt>
+<figure>
+<graphic graphicname="A099873E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>51</t-value1>
+<t-value2>520</t-value2>
+<t-value4>38</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0003" proc-id="RM21Q0EV__00000FZ00001">
+<ptxt>INSTALL CAMSHAFT TIMING OIL CONTROL VALVE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099883E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply a coat of engine oil to a new O-ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the O-ring to the oil control valve.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the oil control valve with the bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0074" proc-id="RM21Q0EV__000005600000">
+<ptxt>INSTALL CRANKSHAFT POSITION SENSOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099147E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Apply a light coat of engine oil to the O-ring of the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the connector to the connector bracket.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the harness clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0005" proc-id="RM21Q0EV__00000G000001">
+<ptxt>INSTALL CAMSHAFT POSITION SENSOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035088E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Apply a coat of engine oil to a new O-ring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the O-ring to the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0006" proc-id="RM21Q0EV__00000G100001">
+<ptxt>INSTALL ENGINE COOLANT TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 19 mm deep socket wrench, install a new gasket and the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0075" proc-id="RM21Q0EV__000006500000">
+<ptxt>INSTALL KNOCK SENSOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099415E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the sensor so that it is horizontal as shown in the illustration. Then install the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>It is acceptable for the sensor to be tilted +-10°.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0008" proc-id="RM21Q0EV__00000G200001">
+<ptxt>INSTALL NO. 1 WATER BY-PASS PIPE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new gasket and the No. 1 water by-pass pipe with the 2 nuts and bolt.</ptxt>
+<figure>
+<graphic graphicname="A289213" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>17.5</t-value1>
+<t-value2>178</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0076" proc-id="RM21Q0EV__00000GR00000">
+<ptxt>INSTALL ENGINE OIL PRESSURE SWITCH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply adhesive to 2 or 3 threads of the oil pressure switch.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota genuine adhesive 1344, three bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="G036762E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the oil pressure switch.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>15</t-value1>
+<t-value2>153</t-value2>
+<t-value4>11</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not start the engine for at least 1 hour after the installation of the switch.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the oil pressure switch connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and check for engine oil leaks.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0010" proc-id="RM21Q0EV__00000G300001">
+<ptxt>INSTALL NO. 1 IDLER PULLEY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the spacer, idler pulley and pulley plate with the bolt.</ptxt>
+<figure>
+<graphic graphicname="G035185E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0077" proc-id="RM21Q0EV__00000GS00000">
+<ptxt>INSTALL THERMOSTAT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A110369E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Install a new gasket to the thermostat.</ptxt>
+<atten4>
+<ptxt>When installing the thermostat to the gasket, be careful not to deform the gasket. Make sure that the thermostat is properly installed into the groove of the gasket, as shown in the illustration.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Insert the thermostat into the cylinder block with the jiggle valve facing straight upward.</ptxt>
+<atten4>
+<ptxt>The jiggle valve may be set within 10° of either side of the prescribed position.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0078" proc-id="RM21Q0EV__00000GT00000">
+<ptxt>INSTALL WATER INLET
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the inlet with the 2 nuts and bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20</t-value1>
+<t-value2>204</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0013" proc-id="RM21Q0EV__00000G400001">
+<ptxt>INSTALL V-RIBBED BELT TENSIONER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the belt tensioner with the 3 bolts.</ptxt>
+<figure>
+<graphic graphicname="G035081E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Make sure the flanges of the bolts are contacting the tensioner surface.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the tensioner by tightening the 3 bolts in the order shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>40</t-value1>
+<t-value2>408</t-value2>
+<t-value4>30</t-value4>
+<ptxt>for bolt 1</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+<ptxt>for bolt 2</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>43</t-value1>
+<t-value2>438</t-value2>
+<t-value4>32</t-value4>
+<ptxt>for bolt 3</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0014" proc-id="RM21Q0EV__00000G500001">
+<ptxt>INSTALL NO. 1 COMPRESSOR MOUNTING BRACKET</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Install the No. 1 compressor mounting bracket exactly as described in the procedures below to properly secure and prevent damage to the fan and generator V belt.</ptxt>
+</atten3>
+<s2>
+<ptxt>Temporarily install the No. 1 compressor mounting bracket with the 3 bolts.</ptxt>
+<figure>
+<graphic graphicname="A330624" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Temporarily install the No. 1 compressor mounting bracket with the 3 bolts so that the bracket can be moved by hand.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Push the No. 1 compressor mounting bracket toward the cylinder block as shown in the illustration and tighten the bolt B.</ptxt>
+<figure>
+<graphic graphicname="A332516E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>45</t-value1>
+<t-value2>459</t-value2>
+<t-value4>33</t-value4>
+<ptxt>for bolt B</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Make sure there is no clearance between the cylinder block and No. 1 compressor mounting bracket as shown in the illustration.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Uniformly tighten the 4 bolts in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A332517E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>45</t-value1>
+<t-value2>459</t-value2>
+<t-value4>33</t-value4>
+<ptxt>for bolt A</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>24.5</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+<ptxt>for bolt C</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0131" proc-id="RM21Q0EV__00005P800000">
+<ptxt>INSTALL IDLE PULLEY ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Temporarily install the idle pulley assembly with the bolt.</ptxt>
+<atten3>
+<ptxt>Do not use any tools.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Tighten the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0015" proc-id="RM21Q0EV__00000G600001">
+<ptxt>INSTALL EXHAUST MANIFOLD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new gasket and the exhaust manifold with the 6 nuts.</ptxt>
+<figure>
+<graphic graphicname="A099195E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>36</t-value1>
+<t-value2>367</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0016" proc-id="RM21Q0EV__00000G700001">
+<ptxt>INSTALL EXHAUST MANIFOLD HEAT INSULATOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the heat insulator with the 5 bolts.</ptxt>
+<figure>
+<graphic graphicname="A099875E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0017" proc-id="RM21Q0EV__00000G800001">
+<ptxt>INSTALL INTAKE MANIFOLD</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new gasket and the intake manifold with the 5 bolts and 2 nuts.</ptxt>
+<figure>
+<graphic graphicname="G036020E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>255</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the crankshaft position sensor to the clamp.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0064" proc-id="RM21Q0EV__00000GL00000">
+<ptxt>INSTALL INJECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new insulator to the injector.</ptxt>
+<figure>
+<graphic graphicname="A099091E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply a light coat of grease or gasoline to a new O-ring and install it to the injector.</ptxt>
+</s2>
+<s2>
+<ptxt>Apply a light coat of grease or gasoline on the place where the delivery pipe touches the O-ring.</ptxt>
+<figure>
+<graphic graphicname="A087155E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>To install the fuel injector into the fuel delivery pipe, push the fuel injector while twisting it right and left.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful not to twist the O-ring.</ptxt>
+</item>
+<item>
+<ptxt>After installing the fuel injector, check that it turns smoothly. If not, reinstall it with a new O-ring.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Position the injector connector so that it faces downward.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0065" proc-id="RM21Q0EV__00000GM00000">
+<ptxt>INSTALL FUEL DELIVERY PIPE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 4 spacers to the cylinder head.</ptxt>
+<figure>
+<graphic graphicname="G036023E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the delivery pipe together with the 4 injectors and 2 spacers with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="G036024E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the 4 injector connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the 4 clamps and wire harness to the delivery pipe.</ptxt>
+<figure>
+<graphic graphicname="G035144E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the vacuum hose.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0079" proc-id="RM21Q0EV__000005N00000">
+<ptxt>INSTALL THROTTLE BODY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G036423E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install a new gasket on the intake manifold.</ptxt>
+<atten4>
+<ptxt>Align the protrusion of the gasket with the groove of the intake manifold.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A086829E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the throttle body with the 2 bolts and 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the 2 water by-pass hoses to the throttle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Connector the throttle position sensor and control motor connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0021" proc-id="RM21Q0EV__00000G900001">
+<ptxt>INSTALL ENGINE WIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the wire harness (engine ground wire) to the engine rear side with the 2 bolts so that it is within the specified range shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G038850E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>31</t-value1>
+<t-value2>316</t-value2>
+<t-value4>23</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the oil pressure sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the noise filter connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the camshaft position sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the 4 injector connectors.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the crankshaft position sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the oil control valve connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the purge VSV connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the throttle body connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the engine coolant temperature sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the knock sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the wire harness to the clamps.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0080" proc-id="RM21Q0EV__00000GU00001">
+<ptxt>INSTALL GENERATOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099681E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the generator with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>43</t-value1>
+<t-value2>438</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the generator wire with the bolt and nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0023" proc-id="RM21Q0EV__00000GA00001">
+<ptxt>INSTALL VENTILATION PIPE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the ventilation pipe with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0127" proc-id="RM21Q0EV__00003IE00000">
+<ptxt>INSTALL SPARK PLUG
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 16 mm spark plug wrench, install the 4 spark plugs.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0025" proc-id="RM21Q0EV__00000GB00001">
+<ptxt>INSTALL IGNITION COIL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the ignition coil with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the 4 ignition coil connectors.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0026">
+<ptxt>REMOVE ENGINE FROM ENGINE STAND</ptxt>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0031" proc-id="RM21Q0EV__00000GD00001">
+<ptxt>INSTALL ENGINE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the engine sling device and chain block to the engine hangers.</ptxt>
+<figure>
+<graphic graphicname="A099869E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Slowly lower the engine assembly into the engine compartment.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the engine mounting brackets with the 4 bolts and 4 nuts.</ptxt>
+<figure>
+<graphic graphicname="G036026E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>38</t-value1>
+<t-value2>388</t-value2>
+<t-value4>28</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0027" proc-id="RM21Q0EV__00000GC00001">
+<ptxt>INSTALL REAR END PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the end plate with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0121" proc-id="RM21Q0EV__00000HB00001">
+<ptxt>INSTALL DRIVE PLATE AND RING GEAR SUB-ASSEMBLY (for Automatic Transmission)</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>If any of the mounting bolts is broken or deformed, replace it.</ptxt>
+<figure>
+<graphic graphicname="A004869E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</atten4>
+<s2>
+<ptxt>Apply adhesive to 2 or 3 threads of the mounting bolt end.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the drive plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Fix the crankshaft in place with SST.</ptxt>
+<figure>
+<graphic graphicname="A099210E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09213-54015</s-number>
+<s-subnumber>91651-60855</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Install and uniformly tighten the 10 mounting bolts in several passes in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099868E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>74</t-value1>
+<t-value2>755</t-value2>
+<t-value4>55</t-value4>
+</torqueitem>
+</torque>
+<ptxt>If any of the mounting bolts does not meet the torque specification, replace the mounting bolts.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0102" proc-id="RM21Q0EV__00000H100001">
+<ptxt>INSTALL FLYWHEEL (for Manual Transmission)</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>The mounting bolts are tightened in 2 progressive steps. </ptxt>
+<figure>
+<graphic graphicname="A004869E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</item>
+<item>
+<ptxt>If any of the mounting bolts is broken or deformed, replace it.</ptxt>
+</item>
+</list1>
+</atten4>
+<s2>
+<ptxt>Apply adhesive to 2 or 3 threads of the mounting bolt end.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or Equivalent</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the flywheel.</ptxt>
+</s2>
+<s2>
+<ptxt>Fix the crankshaft in place with SST.</ptxt>
+<figure>
+<graphic graphicname="A099210E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09213-54015</s-number>
+<s-subnumber>91651-60855</s-subnumber>
+</sstitem>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Install and uniformly tighten the 10 mounting bolts in several passes in the order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G035062E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>26.5</t-value1>
+<t-value2>270</t-value2>
+<t-value4>20</t-value4>
+</torqueitem>
+</torque>
+<ptxt>If any of the mounting bolts does not meet the torque specification, replace the mounting bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Mark the mounting bolts with paint.</ptxt>
+<figure>
+<graphic graphicname="G035063E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Retighten the mounting bolts by 90° in the numerical order shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G035062E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that the painted marks are now at a 90° angle to the previous position.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0116" proc-id="RM21Q0EV__00000H600000">
+<ptxt>INSTALL CLUTCH DISC (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C132683E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Insert SST into the clutch disc. Then insert SST (together with the clutch disc) into the flywheel.</ptxt>
+<sst>
+<sstitem>
+<s-number>09301-00110</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Make sure not to insert the clutch disc facing the wrong direction.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0117" proc-id="RM21Q0EV__00000H700000">
+<ptxt>INSTALL CLUTCH COVER (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the matchmarks on the clutch cover and flywheel.</ptxt>
+<figure>
+<graphic graphicname="D029623E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Loosely install the 6 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 6 bolts as described below.</ptxt>
+<s3>
+<ptxt>Determine the first bolt to be tightened by choosing the bolt closest to the knock pin.</ptxt>
+</s3>
+<s3>
+<ptxt>Uniformly tighten the 6 bolts in diametrically opposite pairs relative to the position of the first bolt. Use the illustration as a reference.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>19</t-value1>
+<t-value2>195</t-value2>
+<t-value4>14</t-value4>
+</torqueitem>
+</torque>
+</s3>
+</s2>
+<s2>
+<ptxt>Lightly move SST up and down, and right and left.</ptxt>
+<sst>
+<sstitem>
+<s-number>09301-00110</s-number>
+</sstitem>
+</sst>
+</s2>
+<s2>
+<ptxt>Check that the disc is in the center, and then tighten the bolts.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0110" proc-id="RM21Q0EV__00000H400000">
+<ptxt>INSTALL MANUAL TRANSMISSION UNIT (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the input shaft with the clutch disc and install the transmission to the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 7 bolts.</ptxt>
+<figure>
+<graphic graphicname="C168651E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<subtitle>for bolt A</subtitle>
+<torqueitem>
+<t-value1>72</t-value1>
+<t-value2>734</t-value2>
+<t-value4>53</t-value4>
+</torqueitem>
+<subtitle>for bolt B</subtitle>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0122" proc-id="RM21Q0EV__00000HC00001">
+<ptxt>INSTALL AUTOMATIC TRANSMISSION ASSEMBLY (for Automatic Transmission)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the automatic transmission (See page <xref label="Seep01" href="RM0000010NT01WX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0086" proc-id="RM21Q0EV__000005O00000">
+<ptxt>INSTALL STARTER
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the starter with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="G039040E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the starter wire to terminal 30 with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the starter connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0118" proc-id="RM21Q0EV__000046K00000">
+<ptxt>INSTALL PROPELLER SHAFT WITH CENTER BEARING
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove SST from the extension housing.</ptxt>
+<figure>
+<graphic graphicname="C098710E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the propeller shaft into the extension housing.</ptxt>
+</s2>
+<s2>
+<ptxt>Temporarily install the center support bearing with the 2 plates and 2 bolts. Tighten the bolts as much as possible by hand.</ptxt>
+<figure>
+<graphic graphicname="A098693E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Align the matchmarks on the propeller shaft flange and differential flange.</ptxt>
+<figure>
+<graphic graphicname="C119752E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the propeller shaft with the 4 bolts, 4 washers and 4 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>88</t-value1>
+<t-value2>897</t-value2>
+<t-value4>65</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Unload the vehicle. The center line of the center bearing and center bearing housing (see illustration) must be adjusted to within 0 +/-1 mm (0 +/-0.0394 in.) of each other. Measure the difference along the vehicle front/rear axis.</ptxt>
+<figure>
+<graphic graphicname="A098689E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Tighten the 2 bolts of the center support bearing.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>36</t-value1>
+<t-value2>367</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0090" proc-id="RM21Q0EV__00000GV00000">
+<ptxt>INSTALL FRONT EXHAUST PIPE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A107610" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a vernier caliper, measure the free length of the compression spring.</ptxt>
+<spec>
+<title>Minimum length</title>
+<specitem>
+<ptxt>40 mm (1.57 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the length is less than the minimum, replace the compression spring.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front pipe to the pipe support.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099436E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install a new gasket to the outlet pipe.</ptxt>
+<atten4>
+<ptxt>Using a plastic-faced hammer, uniformly strike the gasket so that the gasket and exhaust pipe are properly fit.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Be careful with the installation direction of the gasket.</ptxt>
+</item>
+<item>
+<ptxt>Do not reuse the gasket.</ptxt>
+</item>
+<item>
+<ptxt>To ensure a proper seal, do not use the front pipe to force the gasket onto the outlet pipe.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the front pipe with the 2 compression springs and 2 bolts. Alternately tighten the bolts in several passes.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>43</t-value1>
+<t-value2>438</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0130" proc-id="RM21Q0EV__00004NH00001">
+<ptxt>INSTALL HOOD SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the hood with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>11.5</t-value1>
+<t-value2>117</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the washer nozzle hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Adjust the hood (See page <xref label="Seep01" href="RM000004RU600LX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0107" proc-id="RM21Q0EV__00000H200001">
+<ptxt>INSTALL COWL PANEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the cowl panel with the 9 bolts.</ptxt>
+<figure>
+<graphic graphicname="A099201E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>81</t-value2>
+<t-value3>70</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0120" proc-id="RM21Q0EV__00000HA00001">
+<ptxt>INSTALL WINDSHIELD WIPER MOTOR AND LINK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the wiper motor and link assembly to the vehicle (see page <xref label="Seep01" href="RM00000114A01CX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0038" proc-id="RM21Q0EV__00000GE00001">
+<ptxt>INSTALL COOLER COMPRESSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Loosely install the bolt labeled A to install the compressor.</ptxt>
+<figure>
+<graphic graphicname="A099200E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the compressor completely by tightening the 4 bolts in the order shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>250</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>In order to prevent misalignment, which causes belt rattle, tightening of the bolts must be performed in the order shown.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the suction hose with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="A099198E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>5.4</t-value1>
+<t-value2>55</t-value2>
+<t-value3>48</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the compressor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0039" proc-id="RM21Q0EV__00000GF00001">
+<ptxt>INSTALL OIL DIPSTICK GUIDE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a new O-ring and the dipstick guide with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0040">
+<ptxt>INSTALL OIL DIPSTICK</ptxt>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0041" proc-id="RM21Q0EV__00000GG00001">
+<ptxt>INSTALL VANE PUMP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the vane pump with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="A099199E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the PS oil pressure switch connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0042" proc-id="RM21Q0EV__00000GH00001">
+<ptxt>CONNECT ENGINE WIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the 2 engine room junction block connectors and wire clamp.</ptxt>
+<figure>
+<graphic graphicname="G038831E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the cable to the engine room junction block with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>133</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the engine room relay block cover (upper).</ptxt>
+</s2>
+<s2>
+<ptxt>Install the engine room relay block cover (side).</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the ground wire with the bolt and clamp.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>31</t-value1>
+<t-value2>316</t-value2>
+<t-value4>23</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the ground wire to the frame with the bolt so that it is within the range shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A112963E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>133</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Push the engine wire through the dash panel into the cabin. The wire should be within the range shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the sensor clamp with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>13</t-value1>
+<t-value2>133</t-value2>
+<t-value4>10</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the ECM connectors.</ptxt>
+<figure>
+<graphic graphicname="A111959" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Connect the 4 ECM connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Install the glove compartment door.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Connect the wire clamp to the engine mounting bracket front LH with the bolt.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0066" proc-id="RM21Q0EV__00000GN00000">
+<ptxt>CONNECT FUEL HOSE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the No. 2 fuel hose to the pressure regulator.</ptxt>
+<figure>
+<graphic graphicname="G039233E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the No. 1 fuel hose to the pulsation damper.</ptxt>
+<s3>
+<ptxt>Check that there is no damage or contamination in the connected part of the pipe.</ptxt>
+<figure>
+<graphic graphicname="A071366E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Align the axis of the connector with the axis of the pipe. Push the pipe into the connector until the connector makes a "click" sound. If the connection is tight, apply a small amount of fresh engine oil on the tip of the pipe.</ptxt>
+</s3>
+<s3>
+<ptxt>After having finished the connection, try to pull apart the pipe and the connector and confirm that they are securely connected.</ptxt>
+<figure>
+<graphic graphicname="A071366E10" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Attach the lock claws to the connector by pushing down on the cover, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A099425E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0045" proc-id="RM21Q0EV__00000GI00001">
+<ptxt>CONNECT HOSE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G039232E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the vacuum hose to the intake manifold.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the hose to the purge VSV.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0091" proc-id="RM21Q0EV__00000GW00000">
+<ptxt>INSTALL RADIATOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A099640E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the radiator with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A110375" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Attach the 4 clamps to the radiator side as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the 2 front airbag sensor connectors.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0128" proc-id="RM21Q0EV__00000RL00000">
+<ptxt>CONNECT OIL COOLER INLET HOSE (for Automatic Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the oil cooler inlet hose to the radiator.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0129" proc-id="RM21Q0EV__00000RM00000">
+<ptxt>CONNECT OIL COOLER OUTLET HOSE (for Automatic Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the oil cooler outlet hose to the radiator.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0047">
+<ptxt>INSTALL FAN PULLEY</ptxt>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0092" proc-id="RM21Q0EV__00000GX00000">
+<ptxt>INSTALL FAN SHROUD
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099679E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the fan pulley to the water pump.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the shroud together with the fluid coupling fan between the radiator and engine.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the radiator core.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the coupling fan to the water pump with the 4 nuts. Tighten the nuts as much as possible by hand.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the shroud's claws to the radiator as shown in A in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the shroud with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the reservoir hose to the radiator tank upper.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the drive belt (see page <xref label="Seep01" href="RM000000YMN01TX"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 4 nuts of the fluid coupling fan.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>25</t-value1>
+<t-value2>255</t-value2>
+<t-value4>18</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0093" proc-id="RM21Q0EV__000005A00001">
+<ptxt>INSTALL DRIVE BELT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the drive belt to the pulleys except the drive belt tensioner pulley.</ptxt>
+<figure>
+<graphic graphicname="G038623E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Use the hexagon-shaped part indicated by the arrow in the illustration to move the tensioner pulley downward and then install the drive belt to the tensioner pulley. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>The backside of the drive belt should face the tensioner pulley.</ptxt>
+</item>
+<item>
+<ptxt>Check that the drive belt is properly set to each pulley.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>After a new belt has been installed, check that the tensioner indicator mark is within range A shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="G038479E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0050">
+<ptxt>CONNECT RADIATOR OUTLET HOSE</ptxt>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0051">
+<ptxt>CONNECT RADIATOR INLET HOSE</ptxt>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0115" proc-id="RM21Q0EV__00003QX00000">
+<ptxt>INSTALL RADIATOR GRILLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 8 claws to install the radiator grille.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 3 clips.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0053" proc-id="RM21Q0EV__00000GJ00001">
+<ptxt>INSTALL INTAKE AIR CONNECTOR AND AIR CLEANER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the air cleaner and intake air connector assembly with the 4 bolts, and tighten the hose clamp.</ptxt>
+<figure>
+<graphic graphicname="A099871E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+<ptxt>for air cleaner</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>8.0</t-value1>
+<t-value2>82</t-value2>
+<t-value3>71</t-value3>
+<ptxt>for intake air connector</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+<ptxt>for hose clamp</ptxt>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the MAF meter connector and harness clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the vacuum hose.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0054">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0094" proc-id="RM21Q0EV__00000GY00000">
+<ptxt>ADD ENGINE OIL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Clean and install the oil drain plug with a new gasket.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37.5</t-value1>
+<t-value2>382</t-value2>
+<t-value4>28</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Add fresh engine oil.</ptxt>
+<spec>
+<title>Standard capacity</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Drain and refill with oil filter change</ptxt>
+</entry>
+<entry>
+<ptxt>5.6 liters (5.9 US qts, 4.9 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Drain and refill without oil filter change</ptxt>
+</entry>
+<entry>
+<ptxt>5.3 liters (5.6 US qts, 4.6 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Dry fill</ptxt>
+</entry>
+<entry>
+<ptxt>6.3 liters (6.7 US qts, 5.5 Imp. qts)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Install the oil filler cap.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0095" proc-id="RM21Q0EV__000005L00000">
+<ptxt>ADD ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten all the plugs and fill the radiator with TOYOTA Super Long Life Coolant (SLLC).</ptxt>
+<torque>
+<torqueitem>
+<t-value1>130</t-value1>
+<t-value2>1326</t-value2>
+<t-value4>96</t-value4>
+<ptxt> for cylinder block drain cock plug</ptxt>
+</torqueitem>
+</torque>
+<spec>
+<title>Standard Capacity</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Manual Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.8 liters (8.2 US qts, 6.9 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.1 liters (8.6 US qts, 7.1 Imp. qts)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>TOYOTA vehicles are filled with TOYOTA SLLC at the factory. In order to avoid damage to the engine cooling system and other technical problems, only use TOYOTA SLLC or similar high quality ethylene glycol based non-silicate, non-amine, non-nitrite, non-borate coolant with long-life hybrid organic acid technology (coolant with long-life hybrid organic acid technology is a combination of low phosphates and organic acids).</ptxt>
+</item>
+<item>
+<ptxt>Please contact your TOYOTA dealer for further details.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<ptxt>Never use water as a substitute for engine coolant.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Fill the radiator reservoir with TOYOTA SLLC to the F line.</ptxt>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand, and then check the level of the coolant.</ptxt>
+<ptxt>If the coolant level drops below the F line, add TOYOTA SLLC to the F line.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Bleed air from the cooling system.</ptxt>
+<s3>
+<ptxt>Warm up the engine until the thermostat opens.</ptxt>
+<ptxt>While the thermostat is open, circulate the coolant for several minutes.</ptxt>
+</s3>
+<s3>
+<ptxt>Maintain the engine speed at 2,500 to 3,000 rpm.</ptxt>
+</s3>
+<s3>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand to bleed air.</ptxt>
+<atten2>
+<title>When pressing the radiator hoses:</title>
+<list1 type="unordered">
+<item>
+<ptxt>Wear protective gloves.</ptxt>
+</item>
+<item>
+<ptxt>Be careful as the radiator hoses are hot.</ptxt>
+</item>
+<item>
+<ptxt>Keep your hands away from the radiator fan.</ptxt>
+</item>
+</list1>
+</atten2>
+</s3>
+</s2>
+<s2>
+<ptxt>Stop the engine and wait until the coolant cools down to ambient temperature.</ptxt>
+<atten2>
+<ptxt>Do not remove the radiator cap while the engine and radiator are still hot. Pressurized, hot engine coolant and steam may be released and cause serious burns.</ptxt>
+</atten2>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the coolant level in the radiator reservoir.</ptxt>
+<ptxt>If the coolant level is below the L line, add SLLC up to the reservoir F line.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0125" proc-id="RM21Q0EV__00000HD00000">
+<ptxt>ADD MANUAL TRANSMISSION OIL (for Manual Transmission)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D025304E10" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Oil grade</title>
+<specitem>
+<ptxt>GL-4</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Viscosity</title>
+<specitem>
+<ptxt>SAE 75W-90</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard capacity</title>
+<specitem>
+<ptxt>2.2 liters (2.3 US qts, 1.9 Imp. qts)</ptxt>
+</specitem>
+</spec>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0126">
+<ptxt>ADD AUTOMATIC TRANSMISSION FLUID (for Automatic Transmission)</ptxt>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0068" proc-id="RM21Q0EV__00000GO00000">
+<ptxt>CHECK FOR FUEL LEAKS
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+<atten3>
+<ptxt>Do not start the engine.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Push the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Select the Active Test and enter the following menus: Powertrain / Engine and ECT / Active Test / Control the Fuel Pump / Speed.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check for fuel leaks.</ptxt>
+<s3>
+<ptxt>Check that there are no fuel leaks after performing maintenance anywhere on the fuel system.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0058" proc-id="RM21Q0EV__00000GK00001">
+<ptxt>CHECK FOR OIL LEAKS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Start the engine, and check that there are no oil leaks after performing maintenance.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YMQ02GX_01_0096" proc-id="RM21Q0EV__00000GZ00000">
+<ptxt>CHECK FOR COOLANT LEAKS
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check for engine coolant leaks (see page <xref label="Seep01" href="RM000001454018X_01_0001"/>).</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0069" proc-id="RM21Q0EV__00000GP00000">
+<ptxt>CHECK IGNITION TIMING
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up the engine and stop the engine.</ptxt>
+<atten3>
+<ptxt>A warmed up engine should have an engine coolant temperature of over 80°C (176°F), have an engine oil temperature of 60°C (140°F), and the engine rpm should be stabilized.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>When using the intelligent tester:</ptxt>
+<ptxt>Check the ignition timing.</ptxt>
+<figure>
+<graphic graphicname="A120720E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</s3>
+<s3>
+<ptxt>Start the engine and allow it to idle.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Enter the following items: Powertrain / Engine and ECT / Data List / IGN Advance.</ptxt>
+<spec>
+<title>Standard ignition timing</title>
+<specitem>
+<ptxt>0 to 20° BTDC @ idle</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Refer to the intelligent tester operator's manual for further details.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>When not using the intelligent tester:</ptxt>
+<ptxt>Check the ignition timing.</ptxt>
+<figure>
+<graphic graphicname="H100769E32" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using SST, connect a tachometer probe to terminal 9 (TAC) of the DLC3.</ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18030</s-number>
+</sstitem>
+</sst>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Confirm the terminal numbers before connecting them. Connection with a wrong terminal can damage the engine.</ptxt>
+</item>
+<item>
+<ptxt>Turn off all electrical systems before connecting the terminals.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+<s3>
+<ptxt>Clamp the tester probe of a timing light to the 4 lead wires or green-red lead wire of the ignition coil connector of the No. 1 cylinder.</ptxt>
+<figure>
+<graphic graphicname="A099874E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Start the engine.</ptxt>
+</s3>
+<s3>
+<ptxt>Using SST, connect terminals 13 (TC) and 4 (CG) of the DLC3.</ptxt>
+<figure>
+<graphic graphicname="H100769E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09843-18040</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>When checking the ignition timing, the transmission should be in the neutral position.</ptxt>
+</atten3>
+<atten4>
+<list1 type="unordered">
+<figure>
+<graphic graphicname="A099876E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<item>
+<ptxt>After connecting the terminals (TC and CG), the engine rpm changes to approximately 1,000 to 1,500 rpm for 5 seconds, then returns to the idle speed. This occurs because the ECM checks that the ISC (idle speed control system) is operating properly.</ptxt>
+</item>
+<item>
+<ptxt>Perform the inspection of the ignition timing after the engine rpm is returned to idle speed.</ptxt>
+</item>
+</list1>
+</atten4>
+</s3>
+<s3>
+<ptxt>Using a timing light, measure the ignition timing.</ptxt>
+<figure>
+<graphic graphicname="A099880E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard ignition timing</title>
+<specitem>
+<ptxt>3 to 7° BTDC @ idle</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>Remove SST from terminals 13 (TC) and 4 (CG) of the DLC3. </ptxt>
+</s3>
+<s3>
+<ptxt>Check the ignition timing.</ptxt>
+<spec>
+<title>Standard ignition timing</title>
+<specitem>
+<ptxt>0 to 20° BTDC @ idle</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>Confirm that the ignition timing moves to the advanced angle side when the engine speed is increased.</ptxt>
+</s3>
+<s3>
+<ptxt>Remove the timing light.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0109" proc-id="RM21Q0EV__00000H300000">
+<ptxt>CHECK IDLE SPEED
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up and stop the engine.</ptxt>
+<atten3>
+<ptxt>A warmed up engine should have an engine coolant temperature of over 80°C (176°F), have an engine oil temperature of 60°C (140°F), and the engine rpm should be stabilized.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>When using the intelligent tester:</ptxt>
+<ptxt>Check the idle speed.</ptxt>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3. </ptxt>
+<figure>
+<graphic graphicname="A120720E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>Refer to the intelligent tester II operator's manual for further details.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Start the engine and allow it to idle.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the intelligent tester main switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Enter the following items: Powertrain / Engine and ECT / Data List / Engine SPD.</ptxt>
+<spec>
+<title>Standard idle speed</title>
+<specitem>
+<ptxt>650 to 750 rpm</ptxt>
+</specitem>
+</spec>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When checking the idle speed, the transmission should be in the neutral position.</ptxt>
+</item>
+<item>
+<ptxt>Switch off all accessories and air conditioning before connecting the intelligent tester.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>When not using the intelligent tester:</ptxt>
+<ptxt>Check the idle speed.</ptxt>
+<figure>
+<graphic graphicname="H100769E32" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Using SST, connect a tachometer tester probe to terminal 9 (TAC) of the DLC3. </ptxt>
+<sst>
+<sstitem>
+<s-number>09843-18030</s-number>
+</sstitem>
+</sst>
+</s3>
+<s3>
+<ptxt>Start the engine and allow it to idle.</ptxt>
+</s3>
+<s3>
+<ptxt>Check the idle speed.</ptxt>
+<spec>
+<title>Standard idle speed</title>
+<specitem>
+<ptxt>650 to 750 rpm</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0070" proc-id="RM21Q0EV__00000GQ00000">
+<ptxt>CHECK CO/HC
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Start and warm up the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Run the engine at 2,500 rpm for approximately 180 seconds and idle the engine.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="G038823E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Insert CO/HC meter testing probe at least 40 cm (1.3 ft.) into the tailpipe.</ptxt>
+</s2>
+<s2>
+<ptxt>Check CO/HC concentration at idle.</ptxt>
+<spec>
+<title>Idle CO concentration</title>
+<specitem>
+<ptxt>0 to 0.5%</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Idle HC concentration</title>
+<specitem>
+<ptxt>Applicable local regulation</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>If the CO/HC concentration is not as specified, perform troubleshooting in the order given below.</ptxt>
+<s3>
+<ptxt>Check the heated oxygen sensor operation (see page <xref label="Seep01" href="RM000000ZQ900VX"/>).</ptxt>
+</s3>
+<s3>
+<ptxt>See the table below for possible causes, and then inspect and repair the applicable causes if necessary.</ptxt>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.88in"/>
+<colspec colname="COL2" colwidth="0.79in"/>
+<colspec colname="COL3" colwidth="1.14in"/>
+<colspec colname="COL4" colwidth="4.27in"/>
+<thead>
+<row>
+<entry align="center">
+<ptxt>CO</ptxt>
+</entry>
+<entry align="center">
+<ptxt>HC</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Problems</ptxt>
+</entry>
+<entry align="center">
+<ptxt>Causes</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Normal</ptxt>
+</entry>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle</ptxt>
+</entry>
+<entry>
+<list1 type="ordered">
+<item>
+<ptxt>Faulty ignitions:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Incorrect timing</ptxt>
+</item>
+<item>
+<ptxt>Plugs are contaminated, shorted or gaps are defective</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>Incorrect valve clearance</ptxt>
+</item>
+<item>
+<ptxt>Leaks in intake and exhaust valves</ptxt>
+</item>
+<item>
+<ptxt>Leaks in cylinders</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Low</ptxt>
+</entry>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle</ptxt>
+<ptxt>(Fluctuating HC reading)</ptxt>
+</entry>
+<entry>
+<list1 type="ordered">
+<item>
+<ptxt>Vacuum leaks:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Ventilation hoses</ptxt>
+</item>
+<item>
+<ptxt>Intake manifold</ptxt>
+</item>
+<item>
+<ptxt>Throttle body</ptxt>
+</item>
+<item>
+<ptxt>Brake booster line</ptxt>
+</item>
+</list2>
+<item>
+<ptxt>Lean mixture causing misfire</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>High</ptxt>
+</entry>
+<entry>
+<ptxt>Rough idle</ptxt>
+<ptxt>(Black smoke from exhaust)</ptxt>
+</entry>
+<entry>
+<list1 type="ordered">
+<item>
+<ptxt>Restricted air filter</ptxt>
+</item>
+<item>
+<ptxt>Plugged ventilation valve</ptxt>
+</item>
+<item>
+<ptxt>Faulty SFI system:</ptxt>
+</item>
+<list2 type="unordered">
+<item>
+<ptxt>Faulty pressure regulator</ptxt>
+</item>
+<item>
+<ptxt>Defective ECT sensor</ptxt>
+</item>
+<item>
+<ptxt>Defective Mass Air Flow (MAF) meter</ptxt>
+</item>
+<item>
+<ptxt>Faulty ECM</ptxt>
+</item>
+<item>
+<ptxt>Faulty injectors</ptxt>
+</item>
+<item>
+<ptxt>Faulty throttle position sensor</ptxt>
+</item>
+</list2>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0097" proc-id="RM21Q0EV__000006400000">
+<ptxt>CHECK FUNCTION OF THROTTLE BODY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A111693" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the throttle control motor operating sound.</ptxt>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>When pressing the accelerator pedal, check the operating sound of the running motor. Make sure that no friction noises emit from the motor.</ptxt>
+<ptxt>If friction noise is heard, replace the throttle body.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099015E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the throttle position sensor.</ptxt>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Under Current Data, check that the throttle valve opening percentage (Throttle Pos) is within the standard.</ptxt>
+<spec>
+<title>Standard throttle valve opening percentage</title>
+<specitem>
+<ptxt>60% or more </ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>When checking the standard throttle valve opening percentage, the shift lever should be in the N position.</ptxt>
+</atten3>
+<ptxt>If the percentage is less than 60%, replace the throttle body.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YMQ02GX_01_0098" proc-id="RM21Q0EV__00000H000001">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXM01GX" category="J" type-id="3021L" name-id="RSDW2-01" from="201202" to="201303">
+<dtccode/>
+<dtcname>SRS Warning Light does not Come ON</dtcname>
+<subpara id="RM000000YXM01GX_01" type-id="60" category="03" proc-id="RM21Q0EV__000020S00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The SRS warning light is located on the combination meter. When the SRS is normal, the SRS warning light illuminates for approximately 6 seconds after the ignition switch is turned from OFF to ON, and then turns OFF automatically. If there is a malfunction in the SRS, the SRS warning light illuminates to inform the driver. When terminals TC and CG of the DLC3 are connected, the DTCs are communicated through SRS warning light blinking patterns.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000YXM01GX_02" type-id="32" category="03" proc-id="RM21Q0EV__000020T00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<ptxt>Refer to "SRS Warning Light Remains ON" (see page <xref label="Seep01" href="RM000000YXP01HX"/>).</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000000YXM01GX_03" type-id="51" category="05" proc-id="RM21Q0EV__000020U00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten2>
+<ptxt>Be sure to perform the following procedures before troubleshooting to avoid unexpected airbag deployment.</ptxt>
+</atten2>
+<list1 type="ordered">
+<item>
+<ptxt>Turn the ignition switch OFF.</ptxt>
+</item>
+<item>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</item>
+<item>
+<ptxt>Disconnect the connector from the center airbag sensor.</ptxt>
+</item>
+<item>
+<ptxt>Disconnect the connector from the steering pad.</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+<subpara id="RM000000YXM01GX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000000YXM01GX_04_0002" proc-id="RM21Q0EV__000020V00000">
+<testtitle>CHECK CONNECTION OF CONNECTORS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the cable from the negative (-) battery terminal, and wait for at least 90 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the connectors are properly connected to the center airbag sensor and combination meter.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Connectors are connected.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXM01GX_04_0003" fin="false">OK</down>
+<right ref="RM000000YXM01GX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0003" proc-id="RM21Q0EV__000020W00000">
+<testtitle>CHECK COMBINATION METER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="H100390E43" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the C20 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C20-21 - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>8 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXM01GX_04_0004" fin="false">OK</down>
+<right ref="RM000000YXM01GX_04_0008" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0004" proc-id="RM21Q0EV__000020X00000">
+<testtitle>CHECK SRS WARNING LIGHT OPERATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A14 ECU connector with the C20 meter connector connected.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the warning light illuminates 10 seconds after turning the ignition switch ON.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Warning light illuminates 10 seconds after turning ignition switch ON.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXM01GX_04_0005" fin="false">OK</down>
+<right ref="RM000000YXM01GX_04_0010" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0005" proc-id="RM21Q0EV__000020Y00000">
+<testtitle>REPLACE CENTER AIRBAG SENSOR ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Replace the center airbag sensor.</ptxt>
+</test1>
+<test1>
+<ptxt>Check that the SRS warning light illuminates normally.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>SRS warning light illuminates normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000000YXM01GX_04_0012" fin="true">OK</down>
+<right ref="RM000000YXM01GX_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0007">
+<testtitle>CONNECT CONNECTORS</testtitle>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0008">
+<testtitle>REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0010">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0011">
+<testtitle>REPLACE COMBINATION METER ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM000000YXM01GX_04_0012">
+<testtitle>END</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

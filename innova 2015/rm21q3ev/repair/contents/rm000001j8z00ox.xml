@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="40">
+<name>SECURITIES</name>
+<section id="1002N_S000U" variety="S000U">
+<name>THEFT DETERRENT</name>
+<ttl id="1002N_S000U_7A81M_T0060" variety="T0060">
+<name>THEFT DETERRENT SYSTEM</name>
+<para id="RM000001J8Z00OX" category="G" type-id="8000T" name-id="TD0AX-05" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000001J8Z00OX_01" type-id="01" category="01">
+<s-1 id="RM000001J8Z00OX_01_0001" proc-id="RM21Q0EV__000028D00000">
+<ptxt>OUTLINE OF THEFT DETERRENT SYSTEM</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When the theft deterrent system detects that the vehicle is being tampered with, the system activates the alarm function.</ptxt>
+</s2>
+<s2>
+<ptxt>The theft deterrent system has 4 states: disarmed state, arming preparation state, armed state and alarm sounding state.</ptxt>
+<s3>
+<ptxt>Step 1: Disarmed state</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The user is near the vehicle.</ptxt>
+</item>
+<item>
+<ptxt>The theft deterrent system is not operating.</ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>Step 2: Arming preparation state</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The theft deterrent system is not operating.</ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>Step 3: Armed state</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The user is not near the vehicle.</ptxt>
+</item>
+<item>
+<ptxt>The theft deterrent system is operating.</ptxt>
+</item>
+</list1>
+</s3>
+<s3>
+<ptxt>Step 4: Alarm sounding state</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>While in the armed state, if a door or the engine hood is opened without using the wireless transmitter, the system enters the alarm sounding state and the alarm function is activated for 27.5 seconds.</ptxt>
+</item>
+<item>
+<ptxt>The alarm function consists of the horns sounding and hazard warning lights flashing.</ptxt>
+</item>
+<item>
+<ptxt>When the alarm is sounding, voltage to the starter is cut.</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<title>Alarm method and time:</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.55in"/>
+<colspec colname="COL2" colwidth="3.53in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Alarm Method</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Hazard warning lights</ptxt>
+</entry>
+<entry>
+<ptxt>Flashing at approximately</ptxt>
+<ptxt>0.35 second intervals</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Horns</ptxt>
+</entry>
+<entry>
+<ptxt>Sounding at approximately</ptxt>
+<ptxt>0.4 second intervals</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>If the condition that activated the alarm sounding state continues beyond the alarm's duration (see step 4 above), the theft deterrent system will reset the alarm a maximum of 10 times.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001J8Z00OX_01_0002" proc-id="RM21Q0EV__000028E00000">
+<ptxt>ARMING MODE</ptxt>
+<content1 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>System state</ptxt>
+</entry>
+<entry>
+<ptxt>State switching condition</ptxt>
+</entry>
+<entry>
+<ptxt>Changed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1. Disarmed state</ptxt>
+<ptxt>(No key inserted into ignition key cylinder)</ptxt>
+</entry>
+<entry>
+<ptxt>Performing the following will cause the system to enter the arming preparation state (at the same time, hazard warning lights flash and security horn sounds once):</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>With all doors and engine hood closed, lock all doors by wireless operation.</ptxt>
+</item>
+</list1>
+<atten3>
+<ptxt>The system will not enter the arming preparation state if any door or the engine hood is open.</ptxt>
+</atten3>
+</entry>
+<entry>
+<ptxt>2. Arming preparation state</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>2. Arming preparation state</ptxt>
+</entry>
+<entry>
+<ptxt>Performing any of the following will cause the system to return to the disarmed state:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Unlock all doors by wireless operation.</ptxt>
+</item>
+<item>
+<ptxt>Unlock all doors by manual operation.</ptxt>
+</item>
+<item>
+<ptxt>Open engine hood.</ptxt>
+</item>
+<item>
+<ptxt>Insert key into ignition key cylinder.</ptxt>
+</item>
+<item>
+<ptxt>Reconnect battery.</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>1. Disarmed state</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Performing the following will cause the system to enter the armed state:</ptxt>
+<list1 type="nonmark">
+<item>
+<ptxt>With all doors and engine hood closed, lock all doors. Allow approximately 30 seconds to elapse.</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>3. Armed state</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>3. Armed state</ptxt>
+</entry>
+<entry>
+<ptxt>Performing either of the following will cause the system to return to the disarmed state:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Unlock all doors by wireless operation.</ptxt>
+</item>
+<item>
+<ptxt>Insert key into ignition key cylinder and turn ignition switch ON.</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>When the ignition switch is turned ON, the security indicator light turns off to indicate that the theft deterrent system has entered the disarmed state.</ptxt>
+</atten4>
+</entry>
+<entry>
+<ptxt>1. Disarmed state</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Performing any of the following will cause the system to enter the alarm sounding state:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Open any door.</ptxt>
+</item>
+<item>
+<ptxt>Open engine hood.</ptxt>
+</item>
+<item>
+<ptxt>Reconnect battery.</ptxt>
+</item>
+<item>
+<ptxt>Connect wire of ignition switch to body ground directly.</ptxt>
+</item>
+<item>
+<ptxt>Vehicle sustains excessive physical shock.</ptxt>
+</item>
+<item>
+<ptxt>Shock sensor function is off*2</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>4. Alarm sounding state*1</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1">
+<ptxt>4. Alarm sounding state*1</ptxt>
+</entry>
+<entry>
+<ptxt>Performing either of the following will cause the system to return to the disarmed state:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Unlock all doors by wireless operation.</ptxt>
+</item>
+<item>
+<ptxt>Insert key into ignition key cylinder and turn ignition switch ON.</ptxt>
+</item>
+</list1>
+<atten4>
+<ptxt>Even if all doors are unlocked through wireless operation, the security indicator light blinks.</ptxt>
+</atten4>
+</entry>
+<entry>
+<ptxt>1. Disarmed state</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>When a theft attempt is detected, the hazard warning lights flash and the horns sound.</ptxt>
+<ptxt>The alarm sounding state operates for 27.5 seconds.</ptxt>
+</entry>
+<entry>
+<ptxt>3. Armed state</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>*1: When the alarm is sounding, voltage to the starter is cut.</ptxt>
+</item>
+<item>
+<ptxt>*2: This function can be disable in accordance with user preference. For details, refer to Customize Parameters.</ptxt>
+</item>
+</list1>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000001J8Z00OX_01_0003" proc-id="RM21Q0EV__000028F00000">
+<ptxt>SECURITY INDICATOR LIGHT OUTPUT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>The theft warning ECU outputs a signal to cause flashing or illumination of the security indicator light according to the status of the system.</ptxt>
+<table>
+<title>Output:</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Security Indicator Light</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Disarmed state</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+<ptxt>Blinking</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Arming preparation state</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Armed state</ptxt>
+</entry>
+<entry>
+<ptxt>Blinking</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Alarm sounding state</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table>
+<title>Blinking frequency:</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Time</ptxt>
+</entry>
+<entry>
+<ptxt>Security Indicator Light</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>0.2 seconds</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1.8 seconds</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001J8Z00OX_01_0004" proc-id="RM21Q0EV__000028G00000">
+<ptxt>ALARM MEMORY FUNCTION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>The alarm memory function informs the user if the theft deterrent system entered the alarm sounding state while the user was away.</ptxt>
+<s3>
+<ptxt>After the theft deterrent system is set, if the system enters the alarm sounding state and the alarm sounding state ends before the theft deterrent system is canceled by the user, the alarm memory function will operate. When the theft deterrent system is canceled by the user, the alarm memory function will flash the hazard warning lights 3 times at 0.35 second intervals.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001J8Z00OX_01_0006" proc-id="RM21Q0EV__000028H00000">
+<ptxt>STARTER CUT FUNCTION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When the alarm is sounding, voltage to the starter will be cut.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLQ_T0097" variety="T0097">
+<name>FRONT BUMPER (for Standard)</name>
+<para id="RM000004S6H00IX" category="A" type-id="8000E" name-id="ET801-01" from="201202">
+<name>REASSEMBLY</name>
+<subpara id="RM000004S6H00IX_01" type-id="01" category="01">
+<s-1 id="RM000004S6H00IX_01_0005" proc-id="RM21Q0EV__00003PE00000">
+<ptxt>INSTALL LOWER NO. 1 RADIATOR GRILLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 18 claws to install the lower No. 1 radiator grille.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6H00IX_01_0003" proc-id="RM21Q0EV__00003PC00000">
+<ptxt>INSTALL FRONT BUMPER HOLE COVER LH (w/o Fog Light)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 5 claws to install the front bumper hole cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6H00IX_01_0004" proc-id="RM21Q0EV__00003PD00000">
+<ptxt>INSTALL FRONT BUMPER HOLE COVER RH (w/o Fog Light)</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000004S6H00IX_01_0012" proc-id="RM21Q0EV__00003PF00000">
+<ptxt>INSTALL FOG LIGHT COVER LH (w/ Fog Light)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 5 claws to install the fog light cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000004S6H00IX_01_0013" proc-id="RM21Q0EV__00003PG00000">
+<ptxt>INSTALL FOG LIGHT COVER RH (w/ Fog Light)</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000004S6H00IX_01_0014" proc-id="RM21Q0EV__00004XF00000">
+<ptxt>INSTALL FOG LIGHT ASSEMBLY LH (w/ Fog Light)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 guides to install the fog light assembly LH.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the screw.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000004S6H00IX_01_0002" proc-id="RM21Q0EV__00003PB00000">
+<ptxt>INSTALL FOG LIGHT ASSEMBLY RH (w/ Fog Light)</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

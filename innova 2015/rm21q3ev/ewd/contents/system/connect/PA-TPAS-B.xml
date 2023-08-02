@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="1" color="W-B">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="11">
+			<line id="2" color="LG">
+				<connector type="conn" code="B4">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B4">
+		<pin no="3">
+			<line id="3" color="R-L">
+				<connector type="jbc" code="2R">
+					<pin no="15"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="B4">
+		<pin no="4">
+			<line id="4" color="L-R">
+				<connector type="w2w" code="IA1" sex="female">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J33">
+		<pin no="8">
+			<line id="5" color="W-B">
+				<connector type="w2w" code="BE1" sex="female">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BE1" sex="male">
+		<pin no="2">
+			<line id="6" color="W-B">
+				<connector type="conn" code="C16">
+					<pin no="10"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C16">
+		<pin no="3">
+			<line id="7" color="L-R">
+				<connector type="w2w" code="BE1" sex="male">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BE1" sex="female">
+		<pin no="3">
+			<line id="8" color="L-R">
+				<connector type="w2w" code="IA1" sex="male">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C16">
+		<pin no="2">
+			<line id="9" color="P-G">
+				<connector type="w2w" code="BE1" sex="male">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BE1" sex="female">
+		<pin no="4">
+			<line id="10" color="P-G">
+				<connector type="w2w" code="IA1" sex="male">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="IA1" sex="female">
+		<pin no="5">
+			<line id="11" color="P-G">
+				<connector type="conn" code="C8">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C8">
+		<pin no="1">
+			<line id="12" color="R-L">
+				<connector type="jbc" code="2R">
+					<pin no="20"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C16">
+		<pin no="12">
+			<line id="13" color="P">
+				<connector type="conn" code="U2">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C16">
+		<pin no="11">
+			<line id="14" color="L">
+				<connector type="conn" code="U2">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID1" sex="female">
+		<pin no="2">
+			<line id="15" color="R-L">
+				<connector type="conn" code="B1">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID1" sex="male">
+		<pin no="2">
+			<line id="16" color="R-L">
+				<connector type="jbc" code="2S">
+					<pin no="25"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C16">
+		<pin no="6">
+			<line id="17" color="Y">
+				<connector type="conn" code="U3">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BE1" sex="female">
+		<pin no="1">
+			<line id="18" color="R-W">
+				<connector type="conn" code="J35" subcode="A">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="BE1" sex="male">
+		<pin no="1">
+			<line id="19" color="R-W">
+				<connector type="conn" code="C16">
+					<pin no="8"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C16">
+		<pin no="5">
+			<line id="20" color="BR">
+				<connector type="conn" code="U3">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J35" subcode="A">
+		<pin no="5">
+			<line id="21" color="R-W">
+				<connector type="jbc" code="2I">
+					<pin no="10"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2Q">
+		<pin no="27">
+			<line id="22" color="R-Y">
+				<connector type="w2w" code="ID1" sex="male">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID1" sex="female">
+		<pin no="3">
+			<line id="23" color="Y">
+				<connector type="conn" code="B1">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

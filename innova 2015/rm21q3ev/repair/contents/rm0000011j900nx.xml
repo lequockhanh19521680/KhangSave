@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002P_S000Y" variety="S000Y">
+<name>METER</name>
+<ttl id="1002P_S000Y_7A82K_T006Y" variety="T006Y">
+<name>METER / GAUGE SYSTEM</name>
+<para id="RM0000011J900NX" category="D" type-id="303FK" name-id="ME0KR-04" from="201202">
+<name>CALIBRATION</name>
+<subpara id="RM0000011J900NX_z0" proc-id="RM21Q0EV__00002HO00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>DESCRIPTION</ptxt>
+<atten3>
+<ptxt>Do not place magnetic or metal objects on or near the accessory meter.</ptxt>
+</atten3>
+<atten4>
+<ptxt>The procedures described below are for vehicles equipped with an accessory meter (multi-display).</ptxt>
+</atten4>
+<step2>
+<ptxt>The location of magnetic north differs depending on the vehicle location. Adjustment of the compass' magnetism is required to correct possible compass deviations from true north.</ptxt>
+</step2>
+<step2>
+<ptxt>Compass function calibration is necessary when: 1) purchasing a vehicle; 2) disconnecting and reconnecting the cable of the negative (-) battery terminal; 3) replacing the vehicle battery; 4) driving the vehicle out of the set zone (see the zone map below); or 5) placing magnetic or metal objects near the accessory meter (the direction indication on the display blinks).</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>PERFORM CALIBRATION</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Strictly observe posted speed limits, traffic laws and road conditions. </ptxt>
+</item>
+<item>
+<ptxt>Make sure no people are near the vehicle. </ptxt>
+</item>
+</list1>
+</atten2>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Perform the circling calibration in a spacious area that does not have artificial magnetic influence. Calibration cannot be performed in underground parking lots, areas under a steel tower and areas between tall buildings.</ptxt>
+</item>
+<item>
+<ptxt>When performing calibration, do not operate the air conditioner, power windows, or any other electrical system. </ptxt>
+</item>
+<item>
+<ptxt>A compass may become magnetized during shipping by vessels or freight cars. Make sure to perform calibration and ensure that the calibration described below is performed properly. If calibration cannot be completed despite driving the vehicle in a circle several times, the vehicle's magnetic field may be interfering with the calibration. Demagnetize the vehicle using a demagnetizer and perform calibration again.</ptxt>
+</item>
+</list1>
+</atten3>
+<step2>
+<ptxt>Circling calibration</ptxt>
+<step3>
+<ptxt>Select compass mode.</ptxt>
+</step3>
+<step3>
+<ptxt>Press and hold INFO for 3 seconds to enter the compass correction mode.</ptxt>
+</step3>
+<step3>
+<ptxt>Press RESET.</ptxt>
+</step3>
+<step3>
+<ptxt>Drive the vehicle slowly in a full circle within 128 seconds.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the circling calibration is completed, the correct direction is displayed automatically.</ptxt>
+</item>
+<item>
+<ptxt>If the correct direction is not displayed after driving the vehicle as specified, change the vehicle location.</ptxt>
+</item>
+</list1>
+</atten4>
+</step3>
+<step3>
+<ptxt>If enough space is not available to drive in a circle, perform the following:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>  Drive the vehicle forward with the steering wheel fully turned to the right, and then drive in reverse with the steering wheel fully turned to the left.</ptxt>
+</item>
+<item>
+<ptxt>Repeat the pattern above 2 times within 128 seconds.</ptxt>
+</item>
+</list1>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the circling calibration is completed, the correct direction is displayed automatically.</ptxt>
+</item>
+<item>
+<ptxt>If the correct direction is not displayed after driving the vehicle as specified, change the vehicle location.</ptxt>
+</item>
+</list1>
+</atten4>
+</step3>
+</step2>
+<step2>
+<ptxt>Compass correction mode cancellation</ptxt>
+<step3>
+<ptxt>Press RESET after performing the circling calibration.</ptxt>
+</step3>
+<step3>
+<ptxt>Press INFO or wait for 6 seconds to end the compass correction mode.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt> Zone setting</ptxt>
+<step3>
+<ptxt>Select compass mode.</ptxt>
+</step3>
+<step3>
+<ptxt>Press and hold INFO for 3 seconds to enter compass correction mode.</ptxt>
+</step3>
+<step3>
+<ptxt>Press H to select a higher zone number. Press M to select a lower zone number.</ptxt>
+</step3>
+<step3>
+<ptxt>Press INFO or wait for 6 seconds to end compass correction mode.</ptxt>
+<figure>
+<graphic graphicname="E110247E03" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="relay">
+	<Code id="1B" type="jbc" subcode="">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS033"/>
+		<refs type="system" code="SYS036"/>
+		<refs type="system" code="SYS040"/></Code>
+	<Code id="1E" type="jbc" subcode="">
+		<refs type="system" code="SYS030"/></Code>
+	<Code id="1F" type="jbc" subcode="">
+		<refs type="system" code="SYS020"/></Code>
+	<Code id="1A" type="jbc" subcode="">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS030"/>
+		<refs type="system" code="SYS033"/></Code>
+	<Code id="1C" type="jbc" subcode="">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/></Code>
+	<Code id="1D" type="jbc" subcode="">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS036"/></Code>
+	<Code id="1I" type="jbc" subcode="">
+		<refs type="system" code="SYS009"/>
+		<refs type="system" code="SYS012"/>
+		<refs type="system" code="SYS037"/></Code>
+	<Code id="1J" type="jbc" subcode="">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="1H" type="jbc" subcode="">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS040"/></Code>
+</CodeList>

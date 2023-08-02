@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001K_S0017" variety="S0017">
+<name>ENGINE HOOD / DOOR</name>
+<ttl id="1001K_S0017_7ARLN_T0095" variety="T0095">
+<name>BACK DOOR SUPPORT</name>
+<para id="RM000001J9801HX" category="A" type-id="30014" name-id="DH2B7-12" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001J9801HX_01" type-id="11" category="10" proc-id="RM21Q0EV__00003OF00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001J9801HX_02" type-id="01" category="01">
+<s-1 id="RM000001J9801HX_02_0001" proc-id="RM21Q0EV__00003NW00000">
+<ptxt>INSTALL BACK DOOR STAY ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When using a new bolt:</ptxt>
+<s3>
+<ptxt>Clean the threaded portion on the vehicle body with a non-residue solvent.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>When reusing a bolt:</ptxt>
+<s3>
+<ptxt>Clean the threaded portion on the vehicle body and bolt with a non-residue solvent.</ptxt>
+</s3>
+<s3>
+<ptxt>Apply adhesive to the threads of the bolt.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Adhesive 1324, Three Bond 1324 or equivalent</ptxt>
+</specitem>
+</spec>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the back door stay with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+<atten2>
+<ptxt>Install the back door stay while holding the back door.</ptxt>
+</atten2>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

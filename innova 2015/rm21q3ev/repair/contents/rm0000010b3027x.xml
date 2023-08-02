@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81G_T005U" variety="T005U">
+<name>FRONT PASSENGER AIRBAG ASSEMBLY</name>
+<para id="RM0000010B3027X" category="N" type-id="3000N" name-id="RSDW6-01" from="201202">
+<name>DISPOSAL</name>
+<subpara id="RM0000010B3027X_01" type-id="11" category="10" proc-id="RM21Q0EV__000024100000">
+<content3 releasenbr="1">
+<atten4>
+<ptxt>When scrapping a vehicle equipped with an SRS or disposing of the instrument panel passenger airbag, be sure to deploy the airbag first in accordance with the procedure described below. If any abnormality occurs during the airbag deployment, contact the service department of the distributor.</ptxt>
+</atten4>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Never dispose of an instrument panel passenger airbag that has an unactivated airbag.</ptxt>
+</item>
+<item>
+<ptxt>The airbag produces an exploding sound when it is deployed, so perform the operation outdoors and where it will not create a nuisance to nearby residents.</ptxt>
+</item>
+<item>
+<ptxt>When deploying the airbag, always use the specified SST (SRS Airbag Deployment Tool). Perform the operation in a place away from electrical noise.</ptxt>
+</item>
+<item>
+<ptxt>When deploying the airbag, perform the operation at least 10 m (32.8 ft.) away from the instrument panel passenger airbag.</ptxt>
+</item>
+<item>
+<ptxt>The instrument panel passenger airbag becomes extremely hot when the airbag is deployed, so do not touch it for at least 30 minutes after deployment.</ptxt>
+</item>
+<item>
+<ptxt>Use gloves and safety glasses when handling an instrument panel passenger airbag with a deployed airbag.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply water to an instrument panel passenger airbag with a deployed airbag.</ptxt>
+</item>
+<item>
+<ptxt>Always wash your hands with water after completing the operation.</ptxt>
+</item>
+<item>
+<ptxt>An airbag or pretensioner may be activated by static electricity. To prevent this, be sure to touch a metal surface with bare hands to discharge static electricity before performing this procedure.</ptxt>
+</item>
+</list1>
+</atten2>
+</content3>
+</subpara>
+<subpara id="RM0000010B3027X_03" type-id="01" category="01">
+<s-1 id="RM0000010B3027X_03_0001" proc-id="RM21Q0EV__000024200000">
+<ptxt>DISPOSE OF INSTRUMENT PANEL PASSENGER AIRBAG ASSEMBLY (WHEN INSTALLED IN VEHICLE)</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Prepare a battery as the power source to deploy the airbag.</ptxt>
+</atten4>
+<s2>
+<ptxt>Check the function of SST (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+<figure>
+<graphic graphicname="C110371E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Read the precaution (See page <xref label="Seep02" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Remove the instrument panel finish plate (See page <xref label="Seep03" href="RM000003NEO00DX_01_0018"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>Install SST.</ptxt>
+<figure>
+<graphic graphicname="B085365E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Disconnect the connector.</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, take care not to damage the airbag wire harness.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Connect SST (A) to SST (B). Then connect SST (B)'s connector to the airbag.</ptxt>
+<figure>
+<graphic graphicname="B085367E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09082-00700</s-number>
+</sstitem>
+<sstitem>
+<s-number>09082-00780</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>To avoid damaging SST connector and wire harness, do not lock the secondary lock of the twin lock.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Move SST at least 10 m (33 ft.) away from the front side window.</ptxt>
+<figure>
+<graphic graphicname="C110476E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s3>
+<s3>
+<ptxt>Maintain a small opening in the front side window for the SST wire harness. Close the remaining windows of the vehicle. Close all doors.</ptxt>
+<atten3>
+<ptxt>Take care not to damage the SST wire harness.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Connect the SST red clip to the positive (+) battery terminal and the black clip to the negative (-) battery terminal.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Deploy the airbag.</ptxt>
+<s3>
+<ptxt>Check that no one is inside the vehicle or within a 10 m (33 ft.) radius of the vehicle.</ptxt>
+</s3>
+<s3>
+<ptxt>Press the SST activation switch to deploy the airbag.</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>When deploying the airbag, make sure that no one is near the vehicle.</ptxt>
+</item>
+<item>
+<ptxt>The airbag becomes extremely hot when it is deployed. Do not touch it for at least 30 minutes after deployment.</ptxt>
+</item>
+<item>
+<ptxt>Use gloves and safety glasses when handling a deployed airbag.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply water to a deployed airbag.</ptxt>
+</item>
+<item>
+<ptxt>Always wash your hands with water after completing the operation.</ptxt>
+</item>
+</list1>
+</atten2>
+<atten4>
+<ptxt>The airbag is deployed as the SST activation switch LED illuminates.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010B3027X_03_0002" proc-id="RM21Q0EV__000024300000">
+<ptxt>DISPOSE OF INSTRUMENT PANEL PASSENGER AIRBAG ASSEMBLY (WHEN NOT INSTALLED IN VEHICLE)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Be sure to follow the procedure detailed below when deploying the airbag.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Prepare a battery as the power source to deploy the airbag.</ptxt>
+</atten4>
+<s2>
+<ptxt>Check the function of SST (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+<figure>
+<graphic graphicname="C110371E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the instrument panel passenger airbag (See page <xref label="Seep02" href="RM000001OJR004X"/>).</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>When removing the instrument panel passenger airbag, wait at least 90 seconds after the ignition switch is turned off and the cable is disconnected from the negative (-) battery terminal before starting work.</ptxt>
+</item>
+<item>
+<ptxt>When storing the instrument panel passenger airbag, keep the airbag deployment side facing upward.</ptxt>
+</item>
+</list1>
+</atten2>
+</s2>
+<s2>
+<ptxt>Using a service-purpose wire harness for the vehicle, tie down the instrument panel passenger airbag to a tire.</ptxt>
+<figure>
+<graphic graphicname="B104882E11" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Cross-sectional area of stripped wire harness section</title>
+<specitem>
+<ptxt>1.25 mm<sup>2</sup> (0.00192 in.<sup>2</sup>) or more</ptxt>
+</specitem>
+</spec>
+<atten2>
+<ptxt>Do not use wire harnesses that are too thin or any other substitute items to tie down the instrument panel passenger airbag. They may snap when the airbag deploys. Always use vehicle wire harnesses that have a cross-sectional area of at least 1.25 mm<sup>2</sup> (0.0019 in.<sup>2</sup>).</ptxt>
+</atten2>
+<atten4>
+<ptxt>To calculate the cross-sectional area of the stripped wire harness section: Cross-sectional area= 3.14 x (Diameter)<sup>2</sup> divided by 4</ptxt>
+</atten4>
+<s3>
+<ptxt>Position the instrument panel passenger airbag inside a tire with the airbag deployment side facing away from the tire.</ptxt>
+<figure>
+<graphic graphicname="B112124E02" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Tire size</title>
+<specitem>
+<ptxt>Must exceed the following dimensions</ptxt>
+</specitem>
+<subtitle>Width</subtitle>
+<specitem>
+<ptxt>185 mm (7.28 in.)</ptxt>
+</specitem>
+<subtitle>Inner diameter</subtitle>
+<specitem>
+<ptxt>360 mm (14.2 in.)</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>Tie the instrument panel passenger airbag to the tire with several wire harnesses.</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure that the wire harnesses are tight. If there is slack in the wire harnesses, the instrument panel passenger airbag may become loose due to the shock created when the airbag is deployed.</ptxt>
+</item>
+<item>
+<ptxt>Always tie down the instrument panel passenger airbag with the airbag deployment side facing away from the tire.</ptxt>
+</item>
+</list1>
+</atten2>
+<atten3>
+<ptxt>As the tire may be damaged by the airbag deployment, use a tire that you are planning to throw away.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Install SST.</ptxt>
+<figure>
+<graphic graphicname="B112125E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>After connecting SST to each other, connect them to the instrument panel passenger airbag.</ptxt>
+<sst>
+<sstitem>
+<s-number>09082-00780</s-number>
+</sstitem>
+</sst>
+</s3>
+</s2>
+<s2>
+<ptxt>Place tires.</ptxt>
+<figure>
+<graphic graphicname="H044501E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Place at least 2 tires under the tire which the instrument panel passenger airbag is tied to.</ptxt>
+</s3>
+<s3>
+<ptxt>Place at least 2 tires over the tire which the instrument panel passenger airbag is tied to. The top tire should have a disc wheel installed.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not place SST connector under the tire because it could be damaged.</ptxt>
+</item>
+<item>
+<ptxt>As the disc wheel may be damaged by the airbag deployment, use a disc wheel that you are planning to throw away.</ptxt>
+</item>
+<item>
+<ptxt>As the tires may be damaged by the airbag deployment, use tires that you are planning to throw away.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+<s3>
+<ptxt>Tie the tires together with 2 wire harnesses.</ptxt>
+<figure>
+<graphic graphicname="H042763E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten2>
+<ptxt>Make sure that the wire harnesses are tight. Looseness in the wire harnesses may result in the tires coming free due to the shock created when the airbag is deployed.</ptxt>
+</atten2>
+</s3>
+</s2>
+<s2>
+<ptxt>Install SST.</ptxt>
+<s3>
+<ptxt>Connect the SST connector.</ptxt>
+<sst>
+<sstitem>
+<s-number>09082-00700</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="H044502E11" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>To avoid damaging the SST connector and wire harness, do not lock the secondary lock of the twin lock. Also, secure some slack for the SST wire harness inside the tire.</ptxt>
+</atten3>
+</s3>
+</s2>
+<s2>
+<ptxt>Deploy the airbag.</ptxt>
+<s3>
+<ptxt>Connect the red clip of SST to the battery positive (+) terminal and the black clip of SST to the battery negative (-) terminal.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that no one is within a 10 m (32.8 ft.) radius of the tire which the instrument panel passenger airbag is tied to. </ptxt>
+</s3>
+<s3>
+<ptxt>Press SST activation switch to deploy the airbag.</ptxt>
+<atten2>
+<ptxt>When deploying the airbag, make sure that no one is near the tire.</ptxt>
+</atten2>
+<atten4>
+<ptxt>The airbag is deployed as the LED of SST activation switch comes on.</ptxt>
+</atten4>
+</s3>
+</s2>
+<s2>
+<ptxt>Dispose of the instrument panel passenger airbag assembly.</ptxt>
+<figure>
+<graphic graphicname="H041436E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>The instrument panel passenger airbag becomes extremely hot when the airbag is deployed, so do not touch it for at least 30 minutes after deployment.</ptxt>
+</item>
+<item>
+<ptxt>Use gloves and safety glasses when handling an instrument panel passenger airbag with a deployed airbag.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply water to an instrument panel passenger airbag with a deployed airbag.</ptxt>
+</item>
+<item>
+<ptxt>Always wash your hands with water after completing the operation.</ptxt>
+</item>
+</list1>
+</atten2>
+<s3>
+<ptxt>Remove the airbag from the tire.</ptxt>
+</s3>
+<s3>
+<ptxt>Place the airbag in a plastic bag, tie it tightly and dispose of it in the same way as other general parts.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

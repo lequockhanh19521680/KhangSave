@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A80B_T004P" variety="T004P">
+<name>FRONT LOWER SUSPENSION ARM</name>
+<para id="RM0000010ON013X" category="A" type-id="30014" name-id="SP3EK-02" from="201503">
+<name>INSTALLATION</name>
+<subpara id="RM0000010ON013X_02" type-id="11" category="10" proc-id="RM21Q0EV__00001KH00001">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (see page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010ON013X_01" type-id="01" category="01">
+<s-1 id="RM0000010ON013X_01_0001" proc-id="RM21Q0EV__00001KB00001">
+<ptxt>TEMPORARILY INSTALL FRONT LOWER SUSPENSION ARM SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049925E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Temporarily install the lower arm with the 2 camber adjusting cams, No. 1 and No. 2 camber adjusting cams and 2 nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Align the matchmarks on the No. 1 camber adjusting cam and No. 2 camber adjusting cam. Temporarily tighten the nuts.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F049924E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the ball joint attachment with the nut and a new cotter pin.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>140</t-value1>
+<t-value2>1428</t-value2>
+<t-value4>103</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the ball joint attachment with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>160</t-value1>
+<t-value2>1632</t-value2>
+<t-value4>118</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ON013X_01_0009" proc-id="RM21Q0EV__000052X00001">
+<ptxt>INSTALL FRONT SPRING BUMPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, install the front spring bumper to the lower arm.</ptxt>
+<figure>
+<graphic graphicname="C237887E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09922-10010</s-number>
+</sstitem>
+</sst>
+<torque>
+<subtitle>for use without SST</subtitle>
+<torqueitem>
+<t-value1>31</t-value1>
+<t-value2>316</t-value2>
+<t-value4>23</t-value4>
+</torqueitem>
+<subtitle>for use with SST</subtitle>
+<torqueitem>
+<t-value1>23</t-value1>
+<t-value2>231</t-value2>
+<t-value4>17</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ON013X_01_0002" proc-id="RM21Q0EV__00001KC00001">
+<ptxt>TEMPORARILY INSTALL FRONT SHOCK ABSORBER WITH COIL SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the shock absorber with coil spring with the bolt, and temporarily install the nut.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ON013X_01_0010" proc-id="RM21Q0EV__000052Y00001">
+<ptxt>CONNECT FRONT STABILIZER LINK ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the stabilizer link to the lower arm with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>78</t-value1>
+<t-value2>795</t-value2>
+<t-value4>58</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>If the ball joint turns together with the nut, use a 6 mm hexagon wrench to hold the stud in place.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ON013X_01_0012" proc-id="RM21Q0EV__00001LE00000">
+<ptxt>CONNECT FRONT SPEED SENSOR LH (w/ ABS)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the 2 harness clamps with the 2 bolts.</ptxt>
+<figure>
+<graphic graphicname="C187999E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>32</t-value1>
+<t-value2>326</t-value2>
+<t-value4>24</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When installing the clamp, do not twist the wire harness.</ptxt>
+</item>
+<item>
+<ptxt>Make sure the clamp rotation stopper touches the installation position.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the speed sensor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>8.5</t-value1>
+<t-value2>87</t-value2>
+<t-value3>75</t-value3>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Make sure there are no pieces of iron or other foreign matter attached to the sensor tip.</ptxt>
+</item>
+<item>
+<ptxt>While inserting the speed sensor into the knuckle hole, do not strike or damage the sensor tip.</ptxt>
+</item>
+<item>
+<ptxt>After installing the speed sensor, make sure there is no clearance or foreign matter between the sensor stay part and the knuckle.</ptxt>
+</item>
+<item>
+<ptxt>When installing the sensor, do not twist the wire harness.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the harness clamp with the bolt.</ptxt>
+<figure>
+<graphic graphicname="C188000E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>32</t-value1>
+<t-value2>326</t-value2>
+<t-value4>24</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When installing the clamp, do not twist the wire harness.</ptxt>
+</item>
+<item>
+<ptxt>Make sure the clamp rotation stopper touches the installation position.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the harness clamp with the bolt.</ptxt>
+<figure>
+<graphic graphicname="C189975E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>32</t-value1>
+<t-value2>326</t-value2>
+<t-value4>24</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When installing the clamp, do not twist the wire harness.</ptxt>
+</item>
+<item>
+<ptxt>Make sure the clamp rotation stopper touches the installation position.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Attach the clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+<figure>
+<graphic graphicname="C188015E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not attach the connector to the radiator fan shroud before connecting the connector.</ptxt>
+</item>
+<item>
+<ptxt>Securely connect the connector.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Attach the 2 clamps and the connector.</ptxt>
+<atten3>
+<ptxt>When attaching the clamps, do not twist the wire harness.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010ON013X_01_0003" proc-id="RM21Q0EV__00001KD00001">
+<ptxt>INSTALL FRONT WHEEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front wheel.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>110</t-value1>
+<t-value2>1122</t-value2>
+<t-value4>81</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ON013X_01_0008" proc-id="RM21Q0EV__000051S00001">
+<ptxt>STABILIZE SUSPENSION
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Lower the vehicle.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the vehicle several times to stabilize the suspension.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010ON013X_01_0005" proc-id="RM21Q0EV__00001KE00001">
+<ptxt>TIGHTEN FRONT LOWER SUSPENSION ARM SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten the 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>210</t-value1>
+<t-value2>2141</t-value2>
+<t-value4>155</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ON013X_01_0006" proc-id="RM21Q0EV__00001KF00001">
+<ptxt>TIGHTEN FRONT SHOCK ABSORBER WITH COIL SPRING</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fix the nut in place and tighten the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>95</t-value1>
+<t-value2>969</t-value2>
+<t-value4>70</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not tighten the nut.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010ON013X_01_0007" proc-id="RM21Q0EV__00001KG00001">
+<ptxt>INSPECT AND ADJUST FRONT WHEEL ALIGNMENT</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000039J4005X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

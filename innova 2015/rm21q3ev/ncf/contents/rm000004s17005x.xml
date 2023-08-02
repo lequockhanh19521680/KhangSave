@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="53">
+<name>Suspension</name>
+<section id="12027_S000H" variety="S000H">
+<name>REAR SUSPENSION</name>
+<ttl id="12027_S000H_7AKNP_T0011" variety="T0011">
+<name>REAR SUSPENSION SYSTEM</name>
+<para id="RM000004S17005X" category="F" type-id="8048W" name-id="RP15S-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004S17005X_z0" proc-id="NM21Q0EV__000002W00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A 4-link coil spring with lateral control rod type rigid axle suspension is used for the rear.</ptxt>
+</step2>
+<step2>
+<ptxt>Through the optimal allocation of components, the rear suspension ensures excellent riding comfort and controllability.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

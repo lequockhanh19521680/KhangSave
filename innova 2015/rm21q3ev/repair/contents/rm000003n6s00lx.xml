@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82U_T0078" variety="T0078">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000003N6S00LX" category="T" type-id="3001H" name-id="ME1SF-04" from="201202">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000003N6S00LX_z0" proc-id="RM21Q0EV__00002L900000">
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the table below to help determine the cause of problem symptoms. If multiple suspected areas are listed, the potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</item>
+<item>
+<ptxt>Inspect the fuses and relays related to this system before inspection the suspected area below.</ptxt>
+</item>
+</list1>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>TOYOTA Parking Assist-Sensor System</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Entirely inoperative (Initial check does not function)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Sonar Main Switch Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003N6Z00OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Warning ECU</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024HJ00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>No. 1 ultrasonic sonar does not function (Initial check functions normally)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Back Sonar Sensor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003N6V00PX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Warning ECU</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024HJ00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Although detection is possible, sometimes buzzer does not sound</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Warning Buzzer Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003N7000OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Warning ECU</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024HJ00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Malfunction is indicated during the initial check</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Back Sonar Sensor Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003N6V00PX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Warning ECU</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024HJ00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>The system operates with the shift lever in any position except R, or does not operate with the shift lever in R</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Park / Neutral Position Switch Circuit*1</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003N7V00EX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Back-up Light Circuit*2</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003NCT00CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Warning ECU</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024HJ00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Detection is possible although the vehicle speed is approximately 10 km/h (6 mph) or more</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Speed Signal Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003N7300HX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Clearance Warning ECU</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024HJ00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="0" colsep="1" valign="middle" align="left">
+<ptxt>Buzzer volume is too low</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="left">
+<ptxt>Adjust Buzzer Volume</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003N6P00CX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: for Automatic Transmission</ptxt>
+</item>
+<item>
+<ptxt>*2: for Manual Transmission</ptxt>
+</item>
+</list1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

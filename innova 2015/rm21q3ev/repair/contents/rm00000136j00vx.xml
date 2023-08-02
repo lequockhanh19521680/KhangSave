@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10025_S000D" variety="S000D">
+<name>1TR-FE CHARGING</name>
+<ttl id="10025_S000D_7A7Z1_T003F" variety="T003F">
+<name>CHARGING SYSTEM</name>
+<para id="RM00000136J00VX" category="L" type-id="3001A" name-id="CH02H-04" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM00000136J00VX_z0" proc-id="RM21Q0EV__00000VG00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>Check that the battery cables are connected to the correct terminals.</ptxt>
+</step1>
+<step1>
+<ptxt>Disconnect the battery cables when the battery is given a quick charge.</ptxt>
+</step1>
+<step1>
+<ptxt>Do not perform tests with a high voltage insulation resistance tester.</ptxt>
+</step1>
+<step1>
+<ptxt>Never disconnect the battery while the engine is running.</ptxt>
+</step1>
+<step1>
+<ptxt>Check that the charging cable nut is tightened on terminal B of the generator and the fuse box.</ptxt>
+</step1>
+<step1>
+<ptxt>If the generator is installed to the vehicle, do not perform checks on terminal F.</ptxt>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

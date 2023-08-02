@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A834_T007I" variety="T007I">
+<name>BACK DOOR GLASS</name>
+<para id="RM00000192704TX" category="A" type-id="80001" name-id="WS0NU-02" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000192704TX_01" type-id="11" category="10"/>
+<subpara id="RM00000192704TX_02" type-id="01" category="01">
+<s-1 id="RM00000192704TX_02_0009" proc-id="RM21Q0EV__00002PK00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM00000192704TX_02_0015" proc-id="RM21Q0EV__00004U500000">
+<ptxt>REMOVE REAR WIPER ARM AND BLADE ASSEMBLY (w/ Rear Wiper)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Open the wiper arm head cap.</ptxt>
+<figure>
+<graphic graphicname="E226546" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the nut and the arm and blade.</ptxt>
+<figure>
+<graphic graphicname="E226547" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192704TX_02_0022" proc-id="RM21Q0EV__00002CP00000">
+<ptxt>REMOVE CENTER STOP LIGHT COVER (w/ Center Stop Light)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B086302E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 2 claws and 2 clips, and remove the cover.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192704TX_02_0023" proc-id="RM21Q0EV__00002CQ00000">
+<ptxt>REMOVE CENTER STOP LIGHT ASSEMBLY (w/ Center Stop Light)
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B086303E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector and remove the stop light.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192704TX_02_0018" proc-id="RM21Q0EV__000058Q00000">
+<ptxt>REMOVE BACK DOOR GLASS CHANNEL LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B311653" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a heat light, heat the channel.</ptxt>
+<spec>
+<title>Standard heating temperature</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Channel</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>20 to 30°C (68 to 86°F)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten3>
+<ptxt>Do not heat the channel excessively.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, detach the double-sided tape and back door glass channel LH.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192704TX_02_0017" proc-id="RM21Q0EV__000058R00000">
+<ptxt>REMOVE BACK DOOR GLASS CHANNEL RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000192704TX_02_0019" proc-id="RM21Q0EV__00003NF00000">
+<ptxt>REMOVE BACK DOOR TRIM BOARD ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 16 clips and remove the back door trim board.</ptxt>
+<figure>
+<graphic graphicname="B280739" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192704TX_02_0006" proc-id="RM21Q0EV__00002PH00000">
+<ptxt>REMOVE BACK DOOR GLASS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Rear Window Defogger:</ptxt>
+<ptxt>Disconnect the 2 rear window defogger connectors.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B089302E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<ptxt>Apply protective tape to the outer surface of the vehicle body to prevent scratches.</ptxt>
+<atten3>
+<ptxt>When separating the back door glass from the vehicle, be careful not to damage the vehicle's paint or interior/exterior ornaments.</ptxt>
+</atten3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B070191E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>From the interior, insert a piano wire between the vehicle body and back door glass as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Tie objects that can serve as handles (for example, wooden blocks) to both wire ends.</ptxt>
+</s2>
+<s2>
+<ptxt>Cut through the adhesive by pulling the piano wire around the back door glass.</ptxt>
+<atten3>
+<ptxt>Leave as much adhesive on the vehicle body as possible when removing the back door glass.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using suction cups, remove the back door glass.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192704TX_02_0020">
+<ptxt>REMOVE BACK WINDOW OPENING TRIM</ptxt>
+</s-1>
+<s-1 id="RM00000192704TX_02_0007" proc-id="RM21Q0EV__00002PI00000">
+<ptxt>CLEAN BACK DOOR GLASS</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="BO04421E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Clean the outer edge of the back door glass with white gasoline.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not touch the back door glass surface after cleaning it.</ptxt>
+</item>
+<item>
+<ptxt>Be careful not to damage the glass.</ptxt>
+</item>
+<item>
+<ptxt>Even if using a new back door glass, clean the back door glass with white gasoline.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192704TX_02_0008" proc-id="RM21Q0EV__00002PJ00000">
+<ptxt>CLEAN VEHICLE BODY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B106081E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a scraper, remove the moulding and adhesive from the back door glass.</ptxt>
+</s2>
+<s2>
+<ptxt>Clean and shape the contact surface of the vehicle body.</ptxt>
+<s3>
+<ptxt>On the contact surface of the vehicle body, use a knife to cut away excess adhesive as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Leave as much adhesive on the vehicle body as possible.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s3>
+<s3>
+<ptxt>Clean the contact surface of the vehicle body with cleaner.</ptxt>
+<atten4>
+<ptxt>Even if all the adhesive has been removed, clean the vehicle body.</ptxt>
+</atten4>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

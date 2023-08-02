@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000U_S000P" variety="S000P">
+<name>STEERING COLUMN</name>
+<ttl id="1000U_S000P_7A80V_T0059" variety="T0059">
+<name>STEERING COLUMN ASSEMBLY</name>
+<para id="RM00000138001BX" category="A" type-id="30014" name-id="SR3QR-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000138001BX_01" type-id="01" category="01">
+<s-1 id="RM00000138001BX_01_0013" proc-id="RM21Q0EV__00001T500000">
+<ptxt>INSTALL STEERING COLUMN ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the steering column with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>21</t-value1>
+<t-value2>214</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138001BX_01_0012" proc-id="RM21Q0EV__00001T400000">
+<ptxt>INSTALL STEERING COLUMN HOLE COVER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035003E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Install the cover with the 3 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>5.0</t-value1>
+<t-value2>51</t-value2>
+<t-value3>44</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138001BX_01_0031" proc-id="RM21Q0EV__00001T900000">
+<ptxt>CONNECT CONNECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connectors and attach the wire harness clamps to the steering column.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138001BX_01_0015" proc-id="RM21Q0EV__00001T600000">
+<ptxt>INSTALL STEERING SLIDING YOKE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035017E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the matchmarks on the steering yoke and steering intermediate shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the bolt labeled B.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>35</t-value1>
+<t-value2>355</t-value2>
+<t-value4>26</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Tighten the bolt labeled A.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>35</t-value1>
+<t-value2>355</t-value2>
+<t-value4>26</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138001BX_01_0032" proc-id="RM21Q0EV__00003BZ00000">
+<ptxt>INSTALL LOWER INSTRUMENT PANEL SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<ptxt>Connect the room temperature sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 guides to install the lower instrument panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connectors and attach the clamps.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the hood lock control cable, fuel lid lock control cable, DLC3 and ash receptacle light.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 bolts &lt;B&gt;, 4 nuts &lt;C&gt;, screw &lt;D&gt;, 2 screws &lt;E&gt;.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 clips &lt;A&gt;.</ptxt>
+<figure>
+<graphic graphicname="B291275" width="7.106578999in" height="5.787629434in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Clip &lt;A&gt;</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Bolt &lt;B&gt;</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Nut &lt;C&gt;</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw &lt;D&gt;</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw &lt;E&gt;</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Hood Lock Control Cable</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fuel Lid Lock Control Cable</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ash Receptacle Light</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*10</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Clamp</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*11</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Guide</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*12</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Room Temperature Sensor</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0033" proc-id="RM21Q0EV__00003AK00000">
+<ptxt>INSTALL UPPER INSTRUMENT PANEL SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 5 guides and 6 claws to install the upper instrument panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 4 screws &lt;A&gt;.</ptxt>
+<figure>
+<graphic graphicname="B289824E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw &lt;A&gt;</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0034" proc-id="RM21Q0EV__00001TB00000">
+<ptxt>INSTALL HEADLIGHT DIMMER SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B136347" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the headlight dimmer switch with the claw as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the headlight dimmer switch with the clamp.</ptxt>
+<figure>
+<graphic graphicname="B136353" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+<figure>
+<graphic graphicname="B088653" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0035" proc-id="RM21Q0EV__00004ZB00000">
+<ptxt>INSTALL WIPER AND WASHER SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the claw to install the windshield wiper switch assembly.</ptxt>
+<atten3>
+<ptxt>Do not push the claw with excessive force as damage may occur.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connectors.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0036" proc-id="RM21Q0EV__00001TD00000">
+<ptxt>INSTALL SPIRAL CABLE SUB-ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check that the front wheels are facing straight ahead.</ptxt>
+</s2>
+<s2>
+<ptxt>Set the turn signal switch to the neutral position.</ptxt>
+<atten3>
+<ptxt>Make sure that the turn signal switch is in the neutral position, as the pin of the turn signal switch may be snapped.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the spiral cable.</ptxt>
+<atten3>
+<ptxt>When replacing the spiral cable with a new one, remove the lock pin before installing the steering wheel.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the connectors to the spiral cable.</ptxt>
+<atten3>
+<ptxt>When handling the airbag connector, do not damage the airbag wire harness.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0037" proc-id="RM21Q0EV__00003AP00000">
+<ptxt>INSTALL INSTRUMENT CLUSTER FINISH PANEL NO.1
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/ Light Control Rheostat:</ptxt>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 9 claws to install the No. 1 instrument cluster finish panel.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip &lt;B&gt;.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0028">
+<ptxt>INSTALL STEERING COLUMN UPPER COVER</ptxt>
+</s-1>
+<s-1 id="RM00000138001BX_01_0023" proc-id="RM21Q0EV__00001T700000">
+<ptxt>INSTALL STEERING COLUMN LOWER COVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G035005E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the lower cover with the 3 screws.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>2.0</t-value1>
+<t-value2>20</t-value2>
+<t-value3>18</t-value3>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138001BX_01_0040" proc-id="RM21Q0EV__000022R00000">
+<ptxt>ADJUST SPIRAL CABLE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="H045494E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Slowly rotate the spiral cable counterclockwise by hand until it feels firm.</ptxt>
+<atten3>
+<ptxt>Do not use the airbag wire harness to turn the spiral cable.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Rotate the spiral cable clockwise approximately 2.5 turns to align the marks.</ptxt>
+<figure>
+<graphic graphicname="H045495E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not use the airbag wire harness to turn the spiral cable.</ptxt>
+</atten3>
+<atten4>
+<ptxt>The spiral cable will rotate approximately 2.5 turns to the left and right from the center.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0024" proc-id="RM21Q0EV__00001T800000">
+<ptxt>INSTALL STEERING WHEEL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C129232E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the matchmarks on the steering wheel and main shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the steering set nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000138001BX_01_0038" proc-id="RM21Q0EV__00004UT00000">
+<ptxt>INSTALL STEERING PAD ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>With the steering pad installed on the vehicle, perform a visual check. If there are any defects as mentioned below, replace the steering pad with a new one:</ptxt>
+<ptxt>Cuts, minute cracks or marked discoloration on the steering pad top surface or in the grooved portion.</ptxt>
+</s2>
+<s2>
+<ptxt>Make sure that the horn sounds.</ptxt>
+<ptxt>If the horn does not sound, inspect the horn system.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000138001BX_01_0026">
+<ptxt>PLACE FRONT WHEELS FACING STRAIGHT AHEAD</ptxt>
+</s-1>
+<s-1 id="RM00000138001BX_01_0027">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

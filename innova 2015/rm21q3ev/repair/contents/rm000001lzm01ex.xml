@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000001LZM01EX" category="C" type-id="801IA" name-id="ACE3O-05" from="201403">
+<dtccode>41</dtccode>
+<dtcname>Front Air Mix Damper Control Servo Motor Circuit</dtcname>
+<subpara id="RM000001LZM01EX_01" type-id="60" category="03" proc-id="RM21Q0EV__00004R200001">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The air mix damper servo sub-assembly sends pulse signals to inform the air conditioning amplifier assembly of the air mix control damper position. The air conditioning amplifier assembly activates the motor (normal or reverse) based on the signals to move the air mix control damper to any position. As a result, the air mix control damper varies the mixture of hot air from the heater core and cold air from the evaporator so that the temperature of the air is as requested.</ptxt>
+<atten4>
+<ptxt>This DTC is also output if the damper and damper link are malfunctioning or unable to move properly. When this DTC is output, confirm that the mechanical parts of the damper and damper link are not defective or damaged.</ptxt>
+</atten4>
+<table pgwide="1">
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>41</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>The air mix control damper position does not change when the air conditioning amplifier assembly operates the air mix damper servo sub-assembly.</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Air mix damper servo sub-assembly</ptxt>
+</item>
+<item>
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</item>
+<item>
+<ptxt>Harness or connector</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000001LZM01EX_02" type-id="32" category="03" proc-id="RM21Q0EV__00004R300001">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E233156E17" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001LZM01EX_03" type-id="51" category="05" proc-id="RM21Q0EV__00005PL00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="2">
+<atten3>
+<ptxt>When DTC 41, 42 and 43 are output at same time, there would be malfunctioning on power source circuit (See page <xref label="Seep01" href="RM000002LLV066X"/>).</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000001LZM01EX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001LZM01EX_04_0001" proc-id="RM21Q0EV__00004R400001">
+<testtitle>PERFORM ACTUATOR CHECK</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Warm up the engine.</ptxt>
+</test1>
+<test1>
+<ptxt>Enter actuator check mode (See page <xref label="Seep01" href="RM000003R7I00PX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Place your hand in front of a vent and check that the air mix control damper position changes (the temperature of the air changes) according to the display code.</ptxt>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Display Code</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Air Mix Control Damper Position</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>0</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>COLD side (0% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>COLD side (0% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>COLD side (0% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>COLD side (0% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>COLD/HOT (50% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>COLD/HOT (50% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>HOT side (100% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>HOT side (100% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>HOT side (100% open)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>HOT side (100% open)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Air mix control damper position changes in accordance with each display code.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>The progression through the steps of the actuator check can be changed from automatic to manual by pressing the front DEF switch.</ptxt>
+</atten4>
+<table>
+<title>Result</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="3.10in"/>
+<colspec colname="COL2" colwidth="1.03in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to problem symptoms table.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to DTC.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>NG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001LZM01EX_04_0004" fin="true">A</down>
+<right ref="RM000001LZM01EX_04_0005" fin="true">B</right>
+<right ref="RM000001LZM01EX_04_0002" fin="false">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000001LZM01EX_04_0002" proc-id="RM21Q0EV__00004R500001">
+<testtitle>CHECK HARNESS AND CONNECTOR (AIR MIX DAMPER SERVO - AIR CONDITIONING AMPLIFIER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A35 air mix damper servo sub-assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the A36 and A38 air conditioning amplifier assembly connectors.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A35-5 (MHD) - A36-17 (AMH)</ptxt>
+</entry>
+<entry morerows="4" valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry morerows="4" valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-4 (MCD) - A36-19 (AMC)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-3 (MHP) - A38-23 (PMB)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-2 (MCP) - A38-24 (PMA)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-1 (SG) - A38-20 (SG-1)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-1 (SG) - Body ground</ptxt>
+</entry>
+<entry morerows="4" valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry morerows="4" valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-2 (MCP) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-3 (MHP) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-4 (MCD) - Body ground</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A35-5 (MHD) - Body ground</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001LZM01EX_04_0003" fin="false">OK</down>
+<right ref="RM000001LZM01EX_04_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001LZM01EX_04_0003" proc-id="RM21Q0EV__00004R600001">
+<testtitle>REPLACE AIR MIX DAMPER SERVO SUB-ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Temporally replace the air mix damper servo sub-assembly with a new or normally functioning one (See page <xref label="Seep01" href="RM0000012JQ024X"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Check the air mix control damper operates normally.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Air mix control damper operates normally.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001LZM01EX_04_0008" fin="true">OK</down>
+<right ref="RM000001LZM01EX_04_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001LZM01EX_04_0008">
+<testtitle>END (AIR MIX DAMPER SERVO IS DEFECTIVE)</testtitle>
+</testgrp>
+<testgrp id="RM000001LZM01EX_04_0004">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000045E302EX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001LZM01EX_04_0005">
+<testtitle>REPLACE AIR CONDITIONING AMPLIFIER ASSEMBLY<xref label="Seep01" href="RM000001K3A01KX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001LZM01EX_04_0006">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

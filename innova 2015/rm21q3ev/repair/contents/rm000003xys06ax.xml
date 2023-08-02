@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000003XYS06AX" category="C" type-id="804GS" name-id="AVA8Q-28" from="201403">
+<dtccode>CB-13</dtccode>
+<dtcname>USB Over Current Detection</dtcname>
+<subpara id="RM000003XYS06AX_01" type-id="60" category="03" proc-id="RM21Q0EV__00005IG00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.34in"/>
+<colspec colname="COL2" colwidth="2.34in"/>
+<colspec colname="COL3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>CB-13</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>An "iPod" or USB device overcurrent malfunction</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>"iPod" or USB device</ptxt>
+</item>
+<item>
+<ptxt>Harness or connector</ptxt>
+</item>
+<item>
+<ptxt>No. 1 stereo jack adapter assembly</ptxt>
+</item>
+<item>
+<ptxt>Radio receiver assembly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000003XYS06AX_02" type-id="32" category="03" proc-id="RM21Q0EV__00005IH00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C240166E14" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000003XYS06AX_03" type-id="51" category="05" proc-id="RM21Q0EV__00005II00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>The data stored on the USB device or "iPod" may be changed or lost due to malfunctions, repairs, system errors, etc. Therefore, when repairs are to be performed, explain this to the customer and obtain their consent prior to performing repairs.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000003XYS06AX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000003XYS06AX_04_0001" proc-id="RM21Q0EV__00005IJ00000">
+<testtitle>REPLACE USB DEVICE OR "iPod"</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the USB device or "iPod" from the stereo jack adapter assembly.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch off.</ptxt>
+<atten4>
+<ptxt>When this DTC has been stored, it is necessary to turn off the ignition switch to make it possible for the vehicle to recognize a new device when it is connected.</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ACC.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect a known good USB device or "iPod" to the stereo jack adapter assembly.</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM000003XYS06AX_04_0003" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000003XYS06AX_04_0003" proc-id="RM21Q0EV__00005IK00000">
+<testtitle>CHECK FOR DTC</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs (See page <xref label="Seep01" href="RM0000014CZ0EBX"/>). </ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs and check if the same DTC occurs again.</ptxt>
+<atten4>
+<ptxt>If DTCs are output frequently, replace the radio receiver assembly.</ptxt>
+</atten4>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Malfunction disappears. </ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003XYS06AX_04_0004" fin="true">OK</down>
+<right ref="RM000003XYS06AX_04_0005" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003XYS06AX_04_0004">
+<testtitle>USB DEVICE OR "iPod" WAS DEFECTIVE</testtitle>
+</testgrp>
+<testgrp id="RM000003XYS06AX_04_0005" proc-id="RM21Q0EV__00005IL00000">
+<testtitle>CHECK RADIO RECEIVER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the No. 1 stereo jack adapter assembly connector.</ptxt>
+<figure>
+<graphic graphicname="E293407E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below. </ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>N3-1 (UPI) - N3-4 (UJSG)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch ACC</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to No. 1 Stereo Jack Adapter Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000003XYS06AX_04_0006" fin="true">OK</down>
+<right ref="RM000003XYS06AX_04_0007" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003XYS06AX_04_0006">
+<testtitle>REPLACE NO. 1 STEREO JACK ADAPTER ASSEMBLY<xref label="Seep01" href="RM000003AWF03ZX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000003XYS06AX_04_0007" proc-id="RM21Q0EV__00005IM00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (RADIO RECEIVER ASSEMBLY - NO. 1 STEREO JACK ADAPTER ASSEMBLY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the R16 radio receiver assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the N3 No. 1 stereo jack adapter assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below. </ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-1 (USV1) - N3-1 (UPI)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-4 (UGD1) - N3-4 (UJSG)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-1 (USV1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-4 (UGD1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003XYS06AX_04_0008" fin="true">OK</down>
+<right ref="RM000003XYS06AX_04_0009" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003XYS06AX_04_0008">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000003XYS06AX_04_0009">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

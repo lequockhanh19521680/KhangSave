@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10024_S000C" variety="S000C">
+<name>1TR-FE STARTING</name>
+<ttl id="10024_S000C_7A7YY_T003C" variety="T003C">
+<name>STARTER</name>
+<para id="RM000001LVO00RX" category="G" type-id="3001K" name-id="ST0SB-07" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001LVO00RX_01" type-id="01" category="01">
+<s-1 id="RM000001LVO00RX_01_0018" proc-id="RM21Q0EV__00000UE00000">
+<ptxt>INSPECT STARTER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099965E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>These tests must be performed within 3 to 5 seconds to prevent the coil from burning out.</ptxt>
+</atten3>
+<s2>
+<ptxt>Perform pull-in/holding test.</ptxt>
+<s3>
+<ptxt>Disconnect the lead wire from terminal C.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the battery to the starter assembly as shown in the illustration. Then check that the clutch pinion gear moves outward.</ptxt>
+<ptxt>If the clutch pinion gear does not move, replace the magnet starter switch assembly.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="A099966E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>With the battery connected as above with the clutch pinion gear out, disconnect the negative (-) lead from terminal C. Check that the pinion gear remains out.</ptxt>
+<ptxt>If the clutch pinion gear moves inward, replace the magnet starter switch assembly.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="A099967E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the negative (-) lead from the starter body. Check that the clutch pinion gear returns inward.</ptxt>
+<ptxt>If the clutch pinion gear does not return inward, replace the magnet starter switch.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099968E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Perform operation test without load.</ptxt>
+<s3>
+<ptxt>Connect the lead wire to terminal C.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.8</t-value1>
+<t-value2>100</t-value2>
+<t-value3>87</t-value3>
+</torqueitem>
+</torque>
+</s3>
+<s3>
+<ptxt>Mount the starter in a vise between aluminum plates.</ptxt>
+</s3>
+<s3>
+<ptxt>Connect the battery and an ammeter to the starter as shown in the illustration.</ptxt>
+</s3>
+<s3>
+<ptxt>Check that the starter rotates smoothly and steadily while the pinion gear is moving out. Then measure the current.</ptxt>
+<spec>
+<title>Standard current</title>
+<specitem>
+<ptxt>90 A or less at 11.5 V</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the starter assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0019" proc-id="RM21Q0EV__00000UF00000">
+<ptxt>INSPECT STARTER ARMATURE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122065" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the commutator for an open circuit.</ptxt>
+<s3>
+<ptxt>Measure the resistance between any 2 segments of the commutator.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the armature assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A122066" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the commutator for short circuit.</ptxt>
+<s3>
+<ptxt>Measure the resistance between each segment of the commutator and the armature coil core.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>10 kΩ or higher</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the armature assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Check the commutator for dirt and/or burns on the surface.</ptxt>
+<ptxt>If the surface is dirty or burnt, correct with sandpaper (No. 400) or a lathe.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A122067" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the commutator circle runout.</ptxt>
+<s3>
+<ptxt>Place the commutator on V-blocks.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a dial gauge, measure the circle runout.</ptxt>
+<spec>
+<title>Maximum circle runout</title>
+<specitem>
+<ptxt>0.05 mm (0.0020 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the circle runout is greater than the maximum, correct it on a lathe.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A122068" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a vernier caliper, measure the commutator diameter.</ptxt>
+<spec>
+<title>Standard diameter</title>
+<specitem>
+<ptxt>28 mm (1.10 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum diameter</title>
+<specitem>
+<ptxt>27 mm (1.06 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the diameter is less than the minimum, replace the armature assembly.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A122069" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a vernier caliper, measure the undercut depth of the commutator.</ptxt>
+<spec>
+<title>Standard depth</title>
+<specitem>
+<ptxt>0.6 mm (0.024 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum depth</title>
+<specitem>
+<ptxt>0.2 mm (0.008 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the undercut depth is less than the minimum, correct it with a hacksaw blade.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0007" proc-id="RM21Q0EV__00000U700000">
+<ptxt>INSPECT STARTER YOKE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122070" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Inspect for an open circuit.</ptxt>
+<s3>
+<ptxt>Measure the resistance between the lead wire and field coil brush lead.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the starter yoke assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A122071" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Inspect for a short circuit.</ptxt>
+<s3>
+<ptxt>Measure the resistance between the field coil end and starter yoke body.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>10 kΩ or higher</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, repair or replace the starter yoke assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0009" proc-id="RM21Q0EV__00000U800000">
+<ptxt>INSPECT BRUSH LENGTH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122072" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a vernier caliper, measure the brush length.</ptxt>
+<spec>
+<title>Standard brush length</title>
+<specitem>
+<ptxt>14.0 mm (0.551 in.)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum brush length</title>
+<specitem>
+<ptxt>9.0 mm (0.354 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the length is less than the minimum, replace the brush holder assembly and starter yoke assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0011" proc-id="RM21Q0EV__00000U900000">
+<ptxt>INSPECT STARTER BRUSH HOLDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122074" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Inspect the brush insulation.</ptxt>
+<s3>
+<ptxt>Measure the resistance between the positive (+) and negative (-) brush holders.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>10 kΩ or higher</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the brush holder assembly.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A122073" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Take a pull scale reading the instant the brush spring separates from the brush.</ptxt>
+<spec>
+<title>Standard spring load</title>
+<specitem>
+<ptxt>13.7 to 17.6 N (1.4 to 1.8 kgf, 3.1 to 4.0 lbf)</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Minimum spring load</title>
+<specitem>
+<ptxt>8.8 N (0.9 kgf, 2.0 lbf)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the spring load is less than the minimum, replace the brush holder assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0012" proc-id="RM21Q0EV__00000UA00000">
+<ptxt>INSPECT GEAR TEETH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the gear teeth on the planetary gears, internal gear and starter clutch pinion gear for wear or damage.</ptxt>
+<ptxt>If a planetary gear or the internal gear is damaged, replace it.</ptxt>
+<ptxt>If the starter clutch pinion gear teeth are damaged, replace the starter clutch and also inspect the flywheel ring gear for wear or damage.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0013" proc-id="RM21Q0EV__00000UB00000">
+<ptxt>INSPECT STARTER CLUTCH SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122075E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Rotate the clutch pinion gear clockwise and check that it turns freely. Try to rotate the clutch pinion gear counterclockwise and check that it locks.</ptxt>
+<ptxt>If necessary, replace the starter clutch sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0014" proc-id="RM21Q0EV__00000UC00000">
+<ptxt>INSPECT PLUNGER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122076" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Push in the plunger and check that it returns quickly to its original position.</ptxt>
+<ptxt>If necessary, replace the magnetic starter switch assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001LVO00RX_01_0015" proc-id="RM21Q0EV__00000UD00000">
+<ptxt>INSPECT MAGNET STARTER SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A122077E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Inspect the pull-in coil.</ptxt>
+<s3>
+<ptxt>Measure the resistance between terminal 50 and terminal C.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 1 Ω</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the magnet starter switch assembly. </ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A122078E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Inspect the holding coil.</ptxt>
+<s3>
+<ptxt>Measure the resistance between terminal 50 and switch body.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<specitem>
+<ptxt>Below 2 Ω </ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the magnet starter switch assembly.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

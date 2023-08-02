@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7WH_T000V" variety="T000V">
+<name>ENGINE HOOD / DOOR</name>
+<para id="RM000002ZNQ06HX" category="B" type-id="8000C" name-id="PP6V2-94" from="201202">
+<name>LUBRICANT</name>
+<subpara id="RM000002ZNQ06HX_z1" proc-id="RM21Q0EV__000059200000">
+<content4 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>MP grease</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

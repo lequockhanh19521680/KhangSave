@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000C_S0009" variety="S0009">
+<name>1TR-FE COOLING</name>
+<ttl id="1000C_S0009_7A7YQ_T0034" variety="T0034">
+<name>FAN</name>
+<para id="RM0000014Y500OX" category="G" type-id="3001K" name-id="CO049-06" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000014Y500OX_01" type-id="01" category="01">
+<s-1 id="RM0000014Y500OX_01_0001" proc-id="RM21Q0EV__00000RD00000">
+<ptxt>INSPECT FLUID COUPLING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A097646E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check that the fluid coupling is not damaged and that no silicon oil leaks.</ptxt>
+<ptxt>If necessary, replace the fluid coupling assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

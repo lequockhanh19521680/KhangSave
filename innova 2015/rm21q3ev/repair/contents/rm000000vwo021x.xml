@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XZ_T002D" variety="T002D">
+<name>THROTTLE BODY</name>
+<para id="RM000000VWO021X" category="A" type-id="80001" name-id="ES463-01" from="201202" to="201403">
+<name>REMOVAL</name>
+<subpara id="RM000000VWO021X_01" type-id="01" category="01">
+<s-1 id="RM000000VWO021X_01_0001" proc-id="RM21Q0EV__000006300000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000VWO021X_01_0013" proc-id="RM21Q0EV__000005U00000">
+<ptxt>DRAIN ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the cylinder block drain cock plug and radiator drain cock plug, and then drain the coolant.</ptxt>
+<atten4>
+<ptxt>Collect the coolant in a container and dispose of it according to the regulations in your area.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="A113302E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VWO021X_01_0010" proc-id="RM21Q0EV__000005V00000">
+<ptxt>REMOVE INTAKE AIR CONNECTOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the hose clamp and remove the 2 bolts and intake air connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VWO021X_01_0009" proc-id="RM21Q0EV__000005X00000">
+<ptxt>REMOVE THROTTLE BODY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the throttle position sensor and control motor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 2 water by-pass hoses.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A086829E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 bolts, 2 nuts and throttle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the gasket.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

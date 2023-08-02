@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="conn" code="C12">
+		<pin no="13">
+			<line id="1" color="G-W">
+				<connector type="jbc" code="2C">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C12">
+		<pin no="10">
+			<line id="2" color="G">
+				<connector type="jbc" code="2R">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="3" color="W-B">
+				<connector type="conn" code="J26" subcode="B">
+					<pin no="6"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J25" subcode="A">
+		<pin no="1">
+			<line id="4" color="W-B">
+				<connector type="conn" code="C9">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C9">
+		<pin no="3">
+			<line id="5" color="G">
+				<connector type="jbc" code="2P">
+					<pin no="8"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2Q">
+		<pin no="12">
+			<line id="6" color="G">
+				<connector type="jbc" code="2S">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C9">
+		<pin no="1">
+			<line id="7" color="R">
+				<connector type="jbc" code="2P">
+					<pin no="25"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2J">
+		<pin no="8">
+			<line id="8" color="R">
+				<connector type="rb" code="1">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="C9">
+		<pin no="4">
+			<line id="9" color="V">
+				<connector type="jbc" code="2N">
+					<pin no="23"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

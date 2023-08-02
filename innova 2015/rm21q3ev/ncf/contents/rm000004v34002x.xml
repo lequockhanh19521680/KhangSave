@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="56">
+<name>Audio / Visual / Telematics</name>
+<section id="12044_S000R" variety="S000R">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="12044_S000R_7AI82_T000L" variety="T000L">
+<name>TOYOTA PARKING ASSIST-SENSOR SYSTEM</name>
+<para id="RM000004V34002X" category="F" type-id="8048Z" name-id="PM4WZ-03" from="201202">
+<name>DETAILS</name>
+<subpara id="RM000004V34002X_z0" proc-id="NM21Q0EV__000001L00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<step2>
+<ptxt>The components have the following functions:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 Ultrasonic Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the distance between the vehicle and the obstacle.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear Clearance Warning ECU Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Judges the approximate distance between the vehicle and obstacle based on the signals from the No. 1 ultrasonic sensors and sends the buzzer signal to the No. 1 clearance warning buzzer.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 Clearance Warning Buzzer</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Sounds intermittently to inform the driver that the rear clearance warning ECU assembly has detected an obstacle within the prescribed range.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Back Sonar or Clearance Sonar Switch Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turns the TOYOTA parking assist-sensor system on/off.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Back-up Light Switch Assembly*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmits the on/off signals of the back-up light switch assembly to the rear clearance sonar ECU assembly.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Park/Neutral Position Switch Assembly*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmits the R position signal to the rear clearance sonar ECU assembly.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*1: Models with manual transmission</ptxt>
+</item>
+<item>
+<ptxt>*2: Models with automatic transmission</ptxt>
+</item>
+</list1>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATING CONDITION</ptxt>
+<step2>
+<ptxt>The operating conditions of the ultrasonic sensor are as follows:</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Installation Position</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Operating Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rear Center</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch is ON.</ptxt>
+</item>
+<item>
+<ptxt>Back sonar or clearance sonar switch is on.</ptxt>
+</item>
+<item>
+<ptxt>Shift lever is in R.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>No. 1 Ultrasonic Sensor</ptxt>
+<step3>
+<ptxt>The No. 1 ultrasonic sensor consists of a circuit portion and a microphone that transmits and receives ultrasonic waves.</ptxt>
+</step3>
+<step3>
+<ptxt>The circuit portion is filled with urethane to prevent water from entering.</ptxt>
+<figure>
+<graphic graphicname="Y104486" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>No. 1 Clearance Warning Buzzer</ptxt>
+<step3>
+<ptxt>When the No. 1 ultrasonic sensor transmits ultrasonic waves and receives the reflected waves from an obstacle, the buzzer sounds in stages in accordance with the distance to the obstacle.</ptxt>
+<figure>
+<graphic graphicname="Y100456" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Rear Clearance Warning ECU Assembly</ptxt>
+<step3>
+<ptxt>The rear clearance warning ECU assembly effects overall control of the system, including switching between transmission and reception of the ultrasonic sensor signals, processing the received wave signals, determining the presence of obstacles, actuating the No. 1 clearance warning buzzer, and determining the presence of an open circuit in the sensors.</ptxt>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>After the TOYOTA parking assist-sensor system has started its activation, it sounds the No. 1 clearance warning buzzer for approximately 1 second, while checking for any malfunctions in the No. 1 ultrasonic sensors.</ptxt>
+</step2>
+<step2>
+<ptxt>The on and off times of the No. 1 clearance warning buzzer vary as shown in the table below, depending on the distance between the obstacle and the No. 1 ultrasonic sensor:</ptxt>
+<table pgwide="1">
+<title>Ultrasonic Sensor</title>
+<tgroup cols="5">
+<colspec colname="COL1" colwidth="1.06in"/>
+<colspec colname="COL2" colwidth="1.06in"/>
+<colspec colname="COL3" colwidth="2.83in"/>
+<colspec colname="COL4" colwidth="1.06in"/>
+<colspec colname="COL5" colwidth="1.07in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COL2" valign="middle" align="center">
+<ptxt>Ultrasonic Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Obstacle Distance [mm (in.)]</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off Time (ms)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On Time (ms)</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>Detection Level</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Approx. 1500 (59.1) to 1000 (39.4)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>150</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>150</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2nd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Approx. 1000 (39.4) to 500 (19.7)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>75</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>75</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3rd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Approx. 500 (19.7) or less</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>0</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Continuous</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="Y110132" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step2>
+</step1>
+<step1>
+<ptxt>DIAGNOSIS</ptxt>
+<step2>
+<ptxt>If the system cannot activate its detection function due to a malfunction in an No. 1 ultrasonic sensor, it alerts the driver of the malfunction by sounding the No. 1 clearance warning buzzer. For details, refer to the corresponding Repair Manual for this model.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

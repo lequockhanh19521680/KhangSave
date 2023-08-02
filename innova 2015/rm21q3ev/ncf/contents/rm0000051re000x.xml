@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="59">
+<name>Vehicle Exterior</name>
+<section id="12064_S0010" variety="S0010">
+<name>WINDOW / GLASS</name>
+<ttl id="12064_S0010_7AHZ0_T000F" variety="T000F">
+<name>WINDSHIELD / WINDOW GLASS SYSTEM</name>
+<para id="RM0000051RE000X" category="F" type-id="8048X" name-id="WS6V3-01" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM0000051RE000X_z0" proc-id="NM21Q0EV__000002600000">
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="Y109824E07" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<figure>
+<graphic graphicname="Y109825E09" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

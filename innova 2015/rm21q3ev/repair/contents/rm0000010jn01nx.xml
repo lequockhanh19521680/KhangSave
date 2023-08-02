@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80E_T004S" variety="T004S">
+<name>FRONT SPEED SENSOR</name>
+<para id="RM0000010JN01NX" category="G" type-id="3001K" name-id="BC0EO-10" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000010JN01NX_01" type-id="01" category="01">
+<s-1 id="RM0000010JN01NX_01_0001" proc-id="RM21Q0EV__00001LH00000">
+<ptxt>CHECK FRONT SPEED SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the speed sensor.</ptxt>
+<ptxt>Under any of the following conditions, replace the sensor with a new one.</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>The surface of the sensor is cracked, dented, or chipped.</ptxt>
+</item>
+<item>
+<ptxt>The connector is scratched, cracked, or damaged.</ptxt>
+</item>
+<item>
+<ptxt>The sensor has been dropped.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

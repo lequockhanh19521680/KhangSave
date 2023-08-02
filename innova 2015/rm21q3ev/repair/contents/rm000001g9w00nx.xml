@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A813_T005H" variety="T005H">
+<name>REAR BLOWER MOTOR</name>
+<para id="RM000001G9W00NX" category="A" type-id="30014" name-id="ACCZF-13" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001G9W00NX_01" type-id="01" category="01">
+<s-1 id="RM000001G9W00NX_01_0001" proc-id="RM21Q0EV__00004CH00000">
+<ptxt>INSTALL REAR BLOWER MOTOR WITH FAN SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the rear blower motor with fan sub-assembly with the 3 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001G9W00NX_01_0028" proc-id="RM21Q0EV__00003F600000">
+<ptxt>INSTALL QUARTER INSIDE TRIM BOARD RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 4 claws, 8 clips and 2 guides to install the quarter inside trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 1 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 2 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G9W00NX_01_0029" proc-id="RM21Q0EV__00003FP00000">
+<ptxt>INSTALL QUARTER TRIM HOOK
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure for both quarter trim hooks.</ptxt>
+</atten4>
+<s2>
+<ptxt>Install the quarter trim hook with the screw.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G9W00NX_01_0030" proc-id="RM21Q0EV__00003F700000">
+<ptxt>INSTALL BACK DOOR SCUFF PLATE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 6 clips and 4 claws to install the back door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000001G9W00NX_01_0031" proc-id="RM21Q0EV__00003FF00000">
+<ptxt>INSTALL REAR DOOR OPENING TRIM WEATHERSTRIP RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM000001G9W00NX_01_0032" proc-id="RM21Q0EV__00003FH00000">
+<ptxt>INSTALL REAR DOOR SCUFF PLATE RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM000001G9W00NX_01_0027" proc-id="RM21Q0EV__00004CI00000">
+<ptxt>INSTALL REAR NO. 2 SEAT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000023O8003X"/>)</ptxt>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

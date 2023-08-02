@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001A_S000V" variety="S000V">
+<name>LIGHTING</name>
+<ttl id="1001A_S000V_7A81Q_T0064" variety="T0064">
+<name>LIGHTING SYSTEM</name>
+<para id="RM000002CE20AZX" category="T" type-id="3001H" name-id="LI02HF-300" from="201202">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000002CE20AZX_z0" proc-id="RM21Q0EV__00004AV00000">
+<content5 releasenbr="2">
+<atten4>
+<ptxt>Use the table below to help determine the cause of problem symptoms. If multiple suspected areas are listed, the potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Headlight</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Low beam headlight on one side does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Headlight bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Both low beam headlights do not illuminate (high beam headlights are normal)</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>High beam headlight on one side does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Headlight bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Both high beam headlights do not illuminate (low beam headlights are normal)</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>High beam headlights do not illuminate with "High Flash" function (passing function)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Both low beam and high beam headlights on one side do not illuminate</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>H-LP LH fuse or H-LP RH fuse</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Low beam headlights do not turn off</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>High beam headlights do not turn off</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Taillight</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Clearance light on one side does not illuminate</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Clearance light bulb</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Taillight on one side does not illuminate</ptxt>
+</entry>
+<entry colsep="1" valign="middle">
+<ptxt>Taillight bulb</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>License plate light on one side does not illuminate</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>License plate light bulb</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>No lights illuminate</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>TAIL fuse</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Stop Light</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Stop light on one side does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Stop light bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Center stop light does not illuminate (w/ Center stop light)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Center stop light bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>No lights illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>STOP fuse</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Stop light switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024F3003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Front Fog Light (w/ Front Fog Light)</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Front fog light on one side does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Front fog light bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="2" colsep="1" valign="middle" align="left">
+<ptxt>Both front fog lights do not illuminate (taillight is normal)</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>FOG fuse</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Turn Signal and Hazard Warning Light</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>Hazard warning lights do not operate (turn signal lights are normal) (for Manual Air Conditioning System)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>TURN-HAZ fuse</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Hazard warning signal switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EY003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Turn signal flasher assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024CY004X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="5" colsep="1" valign="middle">
+<ptxt>Hazard warning lights do not operate (turn signal lights are normal) (for Automatic Air Conditioning System)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>TURN-HAZ fuse</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Integration panel sub-assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>No. 1 cooler wire</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Turn signal flasher assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024CY004X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>Turn signal lights do not operate (hazard warning lights are normal)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>ECU-IG&amp;GAUGE fuse</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Turn signal flasher assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024CY004X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>Hazard warning lights and turn signal lights do not operate</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>TURN-HAZ fuse and ECU-IG&amp;GAUGE fuse</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Turn signal flasher assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024CY004X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>Turn signal lights do not operate in one direction</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Headlight dimmer switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EI003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Turn signal flasher assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024CY004X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Front turn signal light does not illuminate</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Front turn signal light bulb</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" colsep="1" valign="middle">
+<ptxt>Side turn signal light does not illuminate (w/ side Turn Signal Light, w/ Front Fender Type Side Turn Signal Light)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Side turn signal light bulb</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>Side turn signal light does not illuminate (w/ side Turn Signal Light, w/o Front Fender Type Side Turn Signal Light)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Side turn signal light assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003S7S01SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Outer rear view mirror assembly</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000015DS06YX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Rear turn signal light does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Rear turn signal light bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Back-up Light</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="1" colsep="1" valign="middle" align="left">
+<ptxt>Back-up light on one side does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Back-up light bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" colsep="1" valign="middle">
+<ptxt>Both back-up lights do not illuminate</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>ECU-IG&amp;GAUGE fuse</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Back-up light switch assembly (for Manual Transmission)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EZ003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Park/neutral position switch assembly (for Automatic Transmission)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000010NA02OX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Illuminated Entry System</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry morerows="6" colsep="1" valign="middle">
+<ptxt>Map light*, No. 1 room light (for center) and No. 1 room light (for rear) do not illuminate for illuminated entry system</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Theft deterrent system*</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001J8K011X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Front door courtesy light switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EM003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Rear door courtesy light switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EQ003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Back door lock assembly (back door courtesy light switch)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EU003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Combination meter assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004S68006X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Theft warning ECU assembly*</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="7" colsep="1" valign="middle">
+<ptxt>Ignition key cylinder light does not illuminate for illuminated entry system (w/ Theft Deterrent System)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Theft deterrent system</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000001J8K011X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Key cylinder light assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024F0003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Front door courtesy light switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EM003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Rear door courtesy light switch assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EQ003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Back door lock assembly (back door courtesy light switch)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EU003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Combination meter assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004S68006X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Theft warning ECU assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="5" colsep="1" valign="middle">
+<ptxt>Ignition key cylinder light does not illuminate for illuminated entry system (w/ Ignition Key Cylinder Light, w/o Theft Deterrent System)</ptxt>
+</entry>
+<entry colsep="1">
+<ptxt>Wireless door lock control system</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000Z4P01ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Key cylinder light assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024F0003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Front door courtesy light switch assembly (driver side)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024EM003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Combination meter assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000004S68006X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Driver side junction block assembly (integration relay)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<list1 type="nonmark">
+<item>
+<ptxt>*: w/ Theft Deterrent System</ptxt>
+</item>
+</list1>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>Map Light (w/ Map Light)</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>Map light does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>Map light bulb</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Map light assembly</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000003YO700ZX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="2" colsep="1" align="left">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>No. 1 Room Light (for Center)</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>No. 1 room light (for center) does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>No. 1 room light bulb (for center)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>No. 1 room light assembly (for center)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024F1003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title>No. 1 Room Light (for Rear)</title>
+<tgroup cols="3" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="2.79in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="3.17in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.12in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry colname="3" colsep="1" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry morerows="2" colsep="1" valign="middle">
+<ptxt>No. 1 room light (for rear) does not illuminate</ptxt>
+</entry>
+<entry colname="2" colsep="1" align="left">
+<ptxt>No. 1 room light bulb (for rear)</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>No. 1 room light assembly (for rear)</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM0000024F1003X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry colsep="1">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

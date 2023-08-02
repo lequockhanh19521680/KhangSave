@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7VV_T0009" variety="T0009">
+<name>1TR-FE COOLING</name>
+<para id="RM0000020QS003X" category="B" type-id="80084" name-id="PP3VM-04" from="201202">
+<name>COOLANT</name>
+<subpara id="RM0000020QS003X_z1" proc-id="RM21Q0EV__000000O00000">
+<content4 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COLSPEC0" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle" align="center">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Capacity</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Classification</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1">
+<ptxt>Engine coolant</ptxt>
+</entry>
+<entry>
+<ptxt>Manual Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>7.8 liters (8.2 US qts, 6.9 Imp. qts)</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Use only "TOYOTA Super Long Life Coolant (SLLC)" or similar high quality ethylene glycol based non-silicate, non-amine, non-nitrite and non-borate coolant with long-life hybrid organic acid technology (coolant with long-life hybrid organic acid technology is a combination of low phosphates and organic acids).</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Automatic Transmission</ptxt>
+</entry>
+<entry>
+<ptxt>8.1 liters (8.6 US qts, 7.1 Imp. qts)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

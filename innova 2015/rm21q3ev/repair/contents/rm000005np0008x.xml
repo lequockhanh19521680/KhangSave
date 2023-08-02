@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y8_T002M" variety="T002M">
+<name>ENGINE UNIT</name>
+<para id="RM000005NP0008X" category="L" type-id="3001A" name-id="EMEFY-05" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000005NP0008X_z0" proc-id="RM21Q0EV__00005FT00000">
+<content5 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Any digits beyond the 1/100 mm (1/1000 in.) place for standard, minimum and maximum values should be used as a reference only.</ptxt>
+</item>
+<item>
+<ptxt>When both standard and maximum or minimum values are listed for an inspection, use the standard value as a reference only and base any judgments on the maximum and minimum values.</ptxt>
+</item>
+</list1>
+</atten4>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

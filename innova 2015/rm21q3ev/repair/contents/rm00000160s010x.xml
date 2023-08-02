@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000U_S000P" variety="S000P">
+<name>STEERING COLUMN</name>
+<ttl id="1000U_S000P_7A80V_T0059" variety="T0059">
+<name>STEERING COLUMN ASSEMBLY</name>
+<para id="RM00000160S010X" category="A" type-id="80002" name-id="SR0FM-03" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM00000160S010X_01" type-id="01" category="01">
+<s-1 id="RM00000160S010X_01_0001" proc-id="RM21Q0EV__00001TX00000">
+<ptxt>REMOVE STEERING SLIDING WITH COUPLING YOKE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034345E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place matchmarks on the steering main shaft and yoke.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and yoke.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0002" proc-id="RM21Q0EV__00001TY00000">
+<ptxt>REMOVE NO. 2 STEERING INTERMEDIATE SHAFT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G036669E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place matchmarks on the intermediate shaft and steering link.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bolt and intermediate shaft from the steering link.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0003" proc-id="RM21Q0EV__00001TZ00000">
+<ptxt>INSPECT STEERING COLUMN ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034346E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Measure the length of the steering main shaft.</ptxt>
+<spec>
+<title>Standard length</title>
+<specitem>
+<ptxt>385.0 mm (15.157 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0004" proc-id="RM21Q0EV__00001U000000">
+<ptxt>REMOVE KEY CYLINDER LIGHT ASSEMBLY (w/ Key Cylinder Light)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034347E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, widen the claw hanging onto the upper bracket by approximately 1.0 mm (0.039 in.).</ptxt>
+</s2>
+<s2>
+<ptxt>Pull out the key cylinder light with the claw open.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0005" proc-id="RM21Q0EV__00001U100000">
+<ptxt>REMOVE STEERING COLUMN UPPER WITH SWITCH BRACKET ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034348E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a 3 mm pin punch, mark the center of the 2 tapered-head bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a 3 to 4 mm drill bit, drill into the 2 tapered-head bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screw extractor, remove the 2 bolts and bracket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0006">
+<ptxt>REMOVE STEERING COLUMN UPPER CLAMP</ptxt>
+</s-1>
+<s-1 id="RM00000160S010X_01_0007" proc-id="RM21Q0EV__00001U200000">
+<ptxt>REMOVE IGNITION SWITCH LOCK CYLINDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034351E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Turn the ignition switch lock cylinder to the ACC position.</ptxt>
+</s2>
+<s2>
+<ptxt>Push down the stop pin with a screwdriver and pull out the ignition switch lock cylinder.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0008" proc-id="RM21Q0EV__00001U300000">
+<ptxt>REMOVE UNLOCK WARNING SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034352E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 2 claws and remove the switch.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0009" proc-id="RM21Q0EV__00001U400000">
+<ptxt>REMOVE IGNITION SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="A099992E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 2 claws and remove the switch from the steering column upper bracket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0010" proc-id="RM21Q0EV__00001U500000">
+<ptxt>REMOVE KEY INTERLOCK SOLENOID (for Automatic Transmission)</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034357E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 screws and solenoid from the steering column upper bracket.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000160S010X_01_0011" proc-id="RM21Q0EV__00001U600000">
+<ptxt>REMOVE STEERING MAIN SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034355E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a snap ring expander, remove the main shaft snap ring (outer side).</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="G034350E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a brass bar and hammer, tap out the steering main shaft and steering main shaft bearing.</ptxt>
+<atten3>
+<ptxt>Be careful not to drop the steering main shaft.</ptxt>
+</atten3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="G034349E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a snap ring expander, remove the steering main shaft snap ring (inner side).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

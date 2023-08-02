@@ -1,0 +1,2408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="52">
+<name>Drivetrain</name>
+<section id="12016_S000B" variety="S000B">
+<name>A45DE AUTOMATIC TRANSMISSION / TRANSAXLE</name>
+<ttl id="12016_S000B_7AIQN_T000Q" variety="T000Q">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM00000525J000X" category="F" type-id="8048Z" name-id="AT9CU-01" from="201202">
+<name>DETAILS</name>
+<subpara id="RM00000525J000X_z0" proc-id="NM21Q0EV__000002K00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>FUNCTION OF MAIN COMPONENTS</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COLSPEC0" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="4.24in"/>
+<thead>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle" align="center">
+<ptxt>Component</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Torque Converter Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Transmits the engine power to the transmission.</ptxt>
+</item>
+<item>
+<ptxt>Increases engine torque.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Oil Pump</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Provides oil pressure necessary for the transmission operation.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Overdrive Direct Clutch (C<sub>0</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Connects the overdrive planetary sun gear and the overdrive planetary carrier.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Forward Clutch (C<sub>1</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Connects the input shaft and the front planetary ring gear.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Direct Clutch (C<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Connects the input shaft and the front and rear planetary sun gear.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Overdrive Brake (B<sub>0</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Prevents the overdrive planetary sun gear from turning either clockwise or counterclockwise.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>2nd Coast Brake (B<sub>1</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Prevents the front and rear sun gear from turning either clockwise or counterclockwise.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>2nd Brake (B<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Prevents the outer race of F<sub>1</sub> from turning either clockwise or counterclockwise, thus preventing the front and rear sun gear from turning counterclockwise.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>1st and Reverse Brake (B<sub>3</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Prevents the front planetary carrier from turning either clockwise or counterclockwise.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Overdrive 1-way Clutch (F<sub>0</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Connects the overdrive planetary sun gear and the planetary carrier when engine power is transmitted to the overdrive input shaft.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>1-way Clutch Assembly (F<sub>1</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Prevents the front and rear planetary sun gear from turning counterclockwise when B<sub>2</sub> is operating.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>No. 2 1-way Clutch (F<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Prevents the front planetary carrier from turning counterclockwise.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Planetary Gears</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Change power transmission route in accordance with clutch and brake operation, and increase or decrease output shaft revolutions accordingly.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Shift Solenoid Valves S1 and S2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch the shift valves.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Shift Solenoid Valve SLT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Controls line pressure.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Shift Solenoid Valve SL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Controls the lock-up clutch.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>ATF Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the ATF temperature.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Input Speed Sensor (NC0)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the input speed of the transmission.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Output Speed Sensor (SP2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the output speed of the transmission.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>Park/Neutral Position Switch Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects the shift lever position (P, R, N, D, 2, L).</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Shift Lock Control ECU Sub-assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmission Control Switch</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Detects that the shift lever is in 3.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>ECM</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Controls each shift solenoid valve and engine output in response to a signal from each sensor and switch.</ptxt>
+</item>
+<item>
+<ptxt>Makes a diagnosis and memorizes the failed section when the ECM detects a malfunction.</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>Combination Meter Assembly</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Position Indicator Light</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Indicates the shift lever position.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>MIL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Illuminates or blinks to inform the driver when the ECM detects a malfunction.</ptxt>
+</entry>
+</row>
+<row>
+<entry namest="COL1" nameend="COLSPEC0" valign="middle">
+<ptxt>DLC3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The Diagnostic Trouble Codes (DTCs) can be read by connecting an intelligent tester II.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+<step1>
+<ptxt>SYSTEM CONTROL</ptxt>
+<table pgwide="1">
+<title>Electronic Control of Automatic Transmission</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Control</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Shift Timing Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The ECM sends current to the shift solenoid valves S1 and/or S2 based on signals from various sensors in order to shift the gears.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Line Pressure Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Actuates the shift solenoid valve SLT to control the line pressure in accordance with information from the ECM and the operating conditions of the transmission.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Engine Torque Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Retards the ignition timing temporarily to improve shift feeling during upshifting or downshifting.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>N to D Squat Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>When the shift lever is moved from N to D, the gear is temporarily engaged to the 3rd and then to the 1st to reduce vehicle squat.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Lock-up Timing Control</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The ECM sends current to the shift solenoid valve SL based on signals from various sensors and engages or disengages the lock-up clutch.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<step2>
+<ptxt>Line Pressure Control</ptxt>
+<step3>
+<ptxt>In order to obtain a predetermined line pressure characteristic in accordance with each sensor signal, the ECM activates the shift solenoid valve SLT to regulate the throttle pressure.</ptxt>
+</step3>
+<step3>
+<ptxt>This makes it possible for the primary regulator valve to precisely and minutely control the line pressure in accordance with the engine output, thus providing smoother shift characteristics.</ptxt>
+<figure>
+<graphic graphicname="X104739E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Engine Torque Control</ptxt>
+<step3>
+<ptxt>Engagement of the clutches and brakes of the planetary gear unit in the transmission is controlled smoothly by momentarily retarding the engine ignition timing when gears are shifted up or down in the transmission. When the ECM judges a gear shift timing in accordance with signals, it activates the shift solenoid valves to perform gear shifting. When the gear shifting starts, the ECM retards the engine ignition timing to reduce the engine torque. As a result, engagement force of the clutches and brakes of the planetary gear units is weakened and the gear change is performed smoothly.</ptxt>
+<figure>
+<graphic graphicname="X105542E01" width="7.106578999in" height="7.795582503in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Lock-up Timing Control</ptxt>
+<step3>
+<ptxt>The ECM operates the lock-up timing control in order to improve the fuel consumption performance in the top gear when the shift lever is in D or 3.</ptxt>
+<table pgwide="1">
+<title>Lock-up Timing Control Operation</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.42in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="2.83in"/>
+<thead>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>Gear</ptxt>
+</entry>
+<entry namest="COL2" nameend="COL3" valign="middle" align="center">
+<ptxt>Shift Lever Position</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>X</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>X</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2nd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>X</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>X</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3rd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>X</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4th</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>○: Operates</ptxt>
+<ptxt>X: Does not operate</ptxt>
+</atten4>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>FUNCTION</ptxt>
+<step2>
+<ptxt>Shift Lock System</ptxt>
+<step3>
+<ptxt>The shift lock system prevents the shift lever from being moved to any position other than P, unless the ignition switch is ON and the brake pedal is depressed. This prevents the vehicle from starting off suddenly.</ptxt>
+</step3>
+<step3>
+<ptxt>The shift lock system is controlled by the shift lock control ECU sub-assembly and it has a shift lock function and key interlock function.</ptxt>
+</step3>
+<step3>
+<ptxt>The shift lock control ECU sub-assembly has a built-in P detection switch to detect the shift lever position, and receives input signals from the stop light switch assembly and ignition switch. Upon receiving these signals, the shift lock control ECU sub-assembly turns on the shift lock solenoid and the key interlock solenoid in order to release the shift lock and key interlock.</ptxt>
+</step3>
+<step3>
+<ptxt>The key interlock function prevents the key from being pulled out after the ignition switch has been turned off, unless the shift lever has been moved to P. Thus, the driver is urged to park the vehicle with the shift lever in P.</ptxt>
+</step3>
+<step3>
+<ptxt>A shift lock release button, which manually overrides the shift lock mechanism, is used.</ptxt>
+<figure>
+<graphic graphicname="X102150E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CONSTRUCTION</ptxt>
+<step2>
+<ptxt>Torque Converter Assembly</ptxt>
+<step3>
+<ptxt>A compact, lightweight and high-capacity torque converter assembly is used. The torque converter supports lock-up clutch control, thus improving fuel economy.</ptxt>
+<figure>
+<graphic graphicname="X105544E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock-up Clutch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Turbine Runner</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1-way Clutch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stator</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Pump Impeller</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Oil Pump Assembly</ptxt>
+<step3>
+<ptxt>The oil pump is operated by the torque converter assembly. It lubricates the planetary gear units and supplies operating fluid pressure for hydraulic control. The front oil pump drive gear is continually driven by the engine via the pump impeller. The pump has sufficient capacity to supply the necessary fluid pressure throughout all speed ranges, as well as in reverse.</ptxt>
+<figure>
+<graphic graphicname="X105546E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Seal</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Oil Pump Body Sub-assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Oil Pump Drive Gear</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Oil Pump Cover</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Stator Shaft Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Oil Pump Driven Gear</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Planetary Gear Unit</ptxt>
+<step3>
+<ptxt>The gear train consists of three multi-plate clutches, three multi-plate brakes, a single band type brake, three 1-way clutches, and three sets of planetary gears each consisting of a sun gear, a pinion gear and a ring gear.</ptxt>
+<figure>
+<graphic graphicname="X105550E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive Input Shaft</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive Planetary Gear Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Input Shaft</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intermediate Shaft</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Planetary Gear Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Planetary Gear Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Output Shaft</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 2 1-way Clutch (F<sub>2</sub>)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1st and Reverse Brake (B<sub>3</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*10</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1-way Clutch Assembly (F<sub>1</sub>)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*11</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2nd Brake (B<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*12</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2nd Coast Brake (B<sub>1</sub>)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*13</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Direct Clutch (C<sub>2</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*14</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Forward Clutch (C<sub>1</sub>)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*15</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive Brake (B<sub>0</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*16</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive 1-way Clutch (F<sub>0</sub>)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*17</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive Direct Clutch (C<sub>0</sub>)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="X105551E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive Input Shaft</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive Planetary Gear Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Input Shaft</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front Planetary Gear Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear Planetary Gear Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Intermediate Shaft</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Output Shaft</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Transmission Valve Body Assembly</ptxt>
+<step3>
+<ptxt>The transmission valve body assembly consists of upper and lower valve bodies and 4 shift solenoid valves.</ptxt>
+<figure>
+<graphic graphicname="X105553E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Upper Valve Body</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve S2</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Plate</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lower Valve Body Cover</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve S1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve SLT</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve SL</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="X105554E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Upper Valve Body)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lock-up Relay Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Reverse Control Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Reverse Sequence Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Solenoid Modulator Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C<sub>2</sub> Check Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B<sub>3</sub> Check Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1-2 Shift Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2-3 Shift Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3-4 Shift Valve </ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*10</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Secondary Regulator Valve</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="X105555E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Lower Valve Body Cover)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Primary Regulator Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Cut Back Valve</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C-1 Orifice Control Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Low Coast Modulator Valve</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Shift Solenoid Valves S1 and S2</ptxt>
+<step3>
+<ptxt>The shift solenoid valves S1 and S2 are 2-way solenoid valves.</ptxt>
+</step3>
+<step3>
+<ptxt>A filter is provided at the tip of each solenoid valve to further improve operational reliability.</ptxt>
+<figure>
+<graphic graphicname="X105556E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Shift Solenoid Valves S1 and S2)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Filter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100135" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Line Pressure</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="V100136" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Control Pressure</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Function of Shift Solenoid Valves S1 and S2</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Shift Solenoid Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switches the 2-3 shift valve.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>S2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switches the 1-2 shift valve and the 3-4 shift valve.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Shift Solenoid Valves SLT and SL</ptxt>
+<step3>
+<ptxt>In order to provide a hydraulic pressure that is proportional to the current that flows to the solenoid coil, the shift solenoid valve SLT linearly controls the line pressure based on the signals it receives from the ECM.</ptxt>
+<figure>
+<graphic graphicname="X105557E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>The shift solenoid valve SL is a 2-way solenoid valve.</ptxt>
+</step3>
+<step3>
+<ptxt>A filter is provided at the tip of the solenoid valve to further improve operational reliability.</ptxt>
+<figure>
+<graphic graphicname="X105558E01" width="7.106578999in" height="1.771723296in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration (Shift Solenoid Valve SL)</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Filter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100135" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Line Pressure</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<graphic graphicname="V100136" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Control Pressure</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Function of Shift Solenoid Valves SLT and SL</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Shift Solenoid Valve</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>SLT</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Line pressure control</ptxt>
+</item>
+<item>
+<ptxt>Accumulator back pressure control</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>SL</ptxt>
+</entry>
+<entry valign="middle">
+<list1 type="unordered">
+<item>
+<ptxt>Lock-up clutch pressure control</ptxt>
+</item>
+<item>
+<ptxt>Accumulator back pressure control</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>ATF Temperature Sensor</ptxt>
+<step3>
+<ptxt>An ATF temperature sensor, which is provided on the oil outlet, detects the ATF oil temperature necessary for shifting and for various controls and sends the information to the ECM.</ptxt>
+<figure>
+<graphic graphicname="X105563E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>ATF Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Speed Sensors</ptxt>
+<step3>
+<ptxt>This automatic transmission uses an input speed sensor (for NC0 signal) and an output speed sensor (for SP2 signal). Thus, the ECM can detect the timing of the shifting of the gears and appropriately control the engine torque and hydraulic pressure in response to various conditions.</ptxt>
+</step3>
+<step3>
+<ptxt>These speed sensors are the pick-up coil type.</ptxt>
+</step3>
+<step3>
+<ptxt>The input speed sensor detects the input speed of the transmission. The overdrive direct clutch drum is used as the timing rotor for this sensor.</ptxt>
+</step3>
+<step3>
+<ptxt>The output speed sensor detects the speed of the output shaft.</ptxt>
+<figure>
+<graphic graphicname="X105568E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Overdrive Direct Clutch Drum</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Input Speed Sensor</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Output Speed Sensor</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Output Shaft</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+<step2>
+<ptxt>Park/Neutral Position Switch Assembly and Transmission Control Switch</ptxt>
+<step3>
+<ptxt>The ECM uses the park/neutral position switch assembly and the transmission control switch to detect the shift lever position.</ptxt>
+</step3>
+<step3>
+<ptxt>The park/neutral position switch assembly sends the R, 2, L and NSW signals to the ECM. It also sends signals for the shift position indicator "P, R, N, 2 and L" in the combination meter assembly.</ptxt>
+</step3>
+<step3>
+<ptxt>The transmission control switch is located in the shift lock control ECU sub-assembly. This switch sends the 3 signal to the ECM. It also sends a signal for the shift position indicator "D and 3" in the combination meter assembly.</ptxt>
+<figure>
+<graphic graphicname="X105570E01" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Shift Control Mechanism</ptxt>
+<step3>
+<ptxt>A gate type shift lever that uses a transmission control cable is used.</ptxt>
+</step3>
+<step3>
+<ptxt>The shift control mechanism consists of a transmission floor shift assembly and a transmission control cable assembly.</ptxt>
+<figure>
+<graphic graphicname="X105576E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmission Floor Shift Assembly</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Transmission Control Cable Assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Lever Knob</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Shift Pattern</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>OPERATION</ptxt>
+<step2>
+<ptxt>Transmission Power Flow</ptxt>
+<table pgwide="1">
+<title>Operating Condition</title>
+<tgroup cols="16">
+<colspec colname="COL1" colwidth="0.92in"/>
+<colspec colname="COL2" colwidth="0.92in"/>
+<colspec colname="COL3" colwidth="0.50in"/>
+<colspec colname="COL4" colwidth="0.50in"/>
+<colspec colname="COL5" colwidth="0.35in"/>
+<colspec colname="COLSPEC4" colwidth="0.35in"/>
+<colspec colname="COLSPEC3" colwidth="0.35in"/>
+<colspec colname="COLSPEC5" colwidth="0.35in"/>
+<colspec colname="COLSPEC2" colwidth="0.35in"/>
+<colspec colname="COLSPEC1" colwidth="0.35in"/>
+<colspec colname="COLSPEC0" colwidth="0.35in"/>
+<colspec colname="COL6" colwidth="0.35in"/>
+<colspec colname="COLSPEC6" colwidth="0.35in"/>
+<colspec colname="COL7" colwidth="0.35in"/>
+<colspec colname="COL8" colwidth="0.35in"/>
+<colspec colname="COL9" colwidth="0.39in"/>
+<thead>
+<row>
+<entry morerows="2" valign="middle" align="center">
+<ptxt>Shift Lever Position and Gear Range</ptxt>
+</entry>
+<entry morerows="2" valign="middle" align="center">
+<ptxt>Gear Position</ptxt>
+</entry>
+<entry namest="COL3" nameend="COL4" valign="middle" align="center">
+<ptxt>Shift Solenoid Valve</ptxt>
+</entry>
+<entry namest="COL5" nameend="COLSPEC5" valign="middle" align="center">
+<ptxt>Clutch</ptxt>
+</entry>
+<entry namest="COLSPEC2" nameend="COLSPEC6" valign="middle" align="center">
+<ptxt>Brake</ptxt>
+</entry>
+<entry namest="COL7" nameend="COL9" valign="middle" align="center">
+<ptxt>1-way Clutch</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>S1</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>S2</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>C<sub>0</sub>
+</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>C<sub>1</sub>
+</ptxt>
+</entry>
+<entry namest="COLSPEC3" nameend="COLSPEC5" valign="middle" align="center">
+<ptxt>C<sub>2</sub>
+</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>B<sub>0</sub>
+</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>B<sub>1</sub>
+</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>B<sub>2</sub>
+</ptxt>
+</entry>
+<entry namest="COL6" nameend="COLSPEC6" valign="middle" align="center">
+<ptxt>B<sub>3</sub>
+</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>F<sub>0</sub>
+</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>F<sub>1</sub>
+</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>F<sub>2</sub>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>IP</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OP</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>IP</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>OP</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>P</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Park</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Reverse</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>N</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Neutral</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="3" valign="middle" align="center">
+<ptxt>D</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2nd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3rd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>4th</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="2" valign="middle" align="center">
+<ptxt>3</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2nd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>3rd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry morerows="1" valign="middle" align="center">
+<ptxt>2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>2nd</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>L</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1st</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>○: Operates</ptxt>
+<ptxt>-: Does not operate</ptxt>
+<ptxt>IP: Inner Piston</ptxt>
+<ptxt>OP: Outer Piston</ptxt>
+</atten4>
+<step3>
+<ptxt>1st Gear (Shift Lever in D, 3 or 2)</ptxt>
+<figure>
+<graphic graphicname="X105581" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100143" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Operates</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>2nd Gear (Shift Lever in D or 3)</ptxt>
+<figure>
+<graphic graphicname="X105582" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100143" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Operates</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>3rd Gear (Shift Lever in D or 3)</ptxt>
+<figure>
+<graphic graphicname="X105583" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100143" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Operates</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>4th Gear (Shift Lever in D)</ptxt>
+<figure>
+<graphic graphicname="X105584" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100143" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Operates</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Engine Braking in 1st Gear (Shift Lever in L)</ptxt>
+<figure>
+<graphic graphicname="X105585" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100143" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Operates</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Engine Braking in 2nd Gear (Shift Lever in 2 or L)</ptxt>
+<figure>
+<graphic graphicname="X105586" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100143" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Operates</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+<step3>
+<ptxt>Reverse Gear (Shift Lever in R)</ptxt>
+<figure>
+<graphic graphicname="X105587" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100143" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>Operates</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>FAIL-SAFE</ptxt>
+<step2>
+<ptxt>The fail-safe function minimizes the loss of operability when an abnormality occurs in a sensor or a solenoid.</ptxt>
+<table pgwide="1">
+<title>Fail-safe Control List</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.12in"/>
+<colspec colname="COL2" colwidth="4.96in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Malfunction Part</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Function</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Output Speed Sensor (SP2)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During an output speed sensor malfunction, shift control is effected through the input speed sensor signal (NC0) or engine speed signal (NE).</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>ATF Temperature Sensor</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During a malfunction of the ATF temperature sensor, the system effects control by fixing the ATF temperature at 80°C (176°F).</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve S1/S2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>The current to the failed shift solenoid valve is cut off and control is effected by operating the other solenoid valves with normal operation.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve SLT</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During a shift solenoid valve SLT malfunction, the current to the shift solenoid valve is stopped. This stops line pressure control, thus increasing shift shock. However, shifting is effected through normal clutch pressure control.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Shift Solenoid Valve SL</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>During a shift solenoid valve SL malfunction, the current to the shift solenoid valve is stopped. This stops lock-up control, thus decreasing fuel economy.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+<step1>
+<ptxt>DIAGNOSIS</ptxt>
+<step2>
+<ptxt>When the ECM detects a malfunction, it makes a diagnosis and memorizes the failed section. Furthermore, the ECM illuminates or blinks the MIL in the combination meter assembly to inform the driver.</ptxt>
+</step2>
+<step2>
+<ptxt>The ECM will also store the Diagnostic Trouble Codes (DTCs) of the malfunctions.</ptxt>
+</step2>
+<step2>
+<ptxt>The DTCs can be read by connecting an intelligent tester II to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>For details, refer to the corresponding Repair Manual for this model.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82G_T006U" variety="T006U">
+<name>FRONT DOOR LOCK</name>
+<para id="RM000001JFV004X" category="G" type-id="3001K" name-id="DL0MK-02" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000001JFV004X_01" type-id="01" category="01">
+<s-1 id="RM000001JFV004X_01_0001" proc-id="RM21Q0EV__00002FT00000">
+<ptxt>INSPECT FRONT DOOR LOCK LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply battery voltage to the door lock and check the operation of the door lock motor.</ptxt>
+<figure>
+<graphic graphicname="B065427E14" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 4</ptxt>
+<ptxt>Battery positive (-) → Terminal 1</ptxt>
+</entry>
+<entry>
+<ptxt>Lock</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 1</ptxt>
+<ptxt>Battery positive (-) → Terminal 4</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the door lock.</ptxt>
+</s2>
+<s2>
+<ptxt>Measure the resistance of the door lock and unlock switch.</ptxt>
+<figure>
+<graphic graphicname="B065428E05" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Door lock Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>9 - 7</ptxt>
+</entry>
+<entry>
+<ptxt>Lock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>9 -7, 10 - 7</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>10 - 7</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the door lock.</ptxt>
+</s2>
+<s2>
+<ptxt>w/ Theft Deterrent System:</ptxt>
+<ptxt>Measure the resistance of the detection switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>7 - 8</ptxt>
+</entry>
+<entry>
+<ptxt>Lock</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>7 - 8</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the door lock.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JFV004X_01_0002" proc-id="RM21Q0EV__00002FU00000">
+<ptxt>INSPECT FRONT DOOR LOCK RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply battery voltage to the door lock and check the operation of the door lock motor.</ptxt>
+<figure>
+<graphic graphicname="B065429E10" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 4</ptxt>
+<ptxt>Battery positive (-) → Terminal 1</ptxt>
+</entry>
+<entry>
+<ptxt>Lock</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery positive (+) → Terminal 1</ptxt>
+<ptxt>Battery positive (-) → Terminal 4</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the door lock.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001JFV004X_01_0003" proc-id="RM21Q0EV__00002FV00000">
+<ptxt>INSPECT DOOR CONTROL SWITCH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance of the door control switch.</ptxt>
+<figure>
+<graphic graphicname="B118157E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>5 - 3</ptxt>
+</entry>
+<entry>
+<ptxt>Lock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5 - 3, 8- 3</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>8 - 3</ptxt>
+</entry>
+<entry>
+<ptxt>Unlock</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the power window regulator master switch.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

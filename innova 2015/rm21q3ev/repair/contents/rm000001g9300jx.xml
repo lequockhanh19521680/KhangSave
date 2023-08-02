@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A805_T004J" variety="T004J">
+<name>REAR SHOCK ABSORBER</name>
+<para id="RM000001G9300JX" category="A" type-id="80001" name-id="SP0J8-03" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000001G9300JX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001J500000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures described for the RH side and LH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM000001G9300JX_02" type-id="01" category="01">
+<s-1 id="RM000001G9300JX_02_0001">
+<ptxt>REMOVE REAR WHEEL</ptxt>
+</s-1>
+<s-1 id="RM000001G9300JX_02_0002" proc-id="RM21Q0EV__00001J600000">
+<ptxt>REMOVE REAR SHOCK ABSORBER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C118719" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Support the axle housing.</ptxt>
+<s3>
+<ptxt>Jack up and support the vehicle's frame on stands.</ptxt>
+</s3>
+<s3>
+<ptxt>Lower the axle housing until the coil spring tension is free, and maintain this position.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Remove the nut and 2 retainers.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="C118720" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the shock absorber and 2 bushes from the axle housing and frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the lock nut, bracket, 3 retainers and 2 cushions.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

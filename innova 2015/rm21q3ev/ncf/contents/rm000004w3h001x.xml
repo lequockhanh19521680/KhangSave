@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="54">
+<name>Brake</name>
+<section id="12033_S000M" variety="S000M">
+<name>BRAKE (REAR)</name>
+<ttl id="12033_S000M_7AKNU_T0016" variety="T0016">
+<name>REAR BRAKE</name>
+<para id="RM000004W3H001X" category="F" type-id="8048W" name-id="RB0NE-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004W3H001X_z0" proc-id="NM21Q0EV__000003400000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A leading-trailing drum brake is used.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Type</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Leading-trailing Drum</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Wheel Cylinder Diameter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>20.64 mm (0.81 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Drum Inner Diameter</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>254.0 mm (10.0 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Lining Material</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>D9033</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Lining Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>97.2 cm<sup>2</sup> (15.1 in.<sup>2</sup>) x 2</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

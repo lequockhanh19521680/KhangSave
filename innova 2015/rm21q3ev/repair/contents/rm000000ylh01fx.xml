@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YE_T002S" variety="T002S">
+<name>FUEL FILTER</name>
+<para id="RM000000YLH01FX" category="A" type-id="80001" name-id="FU0QH-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000000YLH01FX_01" type-id="01" category="01">
+<s-1 id="RM000000YLH01FX_01_0006" proc-id="RM21Q0EV__00000IJ00000">
+<ptxt>DISCHARGE FUEL SYSTEM PRESSURE
+</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not disconnect any part of the fuel system until you have discharged the fuel system pressure.</ptxt>
+</item>
+<item>
+<ptxt>Even after discharging the fuel pressure, place a cloth or equivalent over fittings as you separate them to reduce the risk of fuel spray on yourself or in the engine compartment.</ptxt>
+</item>
+</list1>
+</atten2>
+<s2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</s2>
+<s2>
+<ptxt>Remove the front driver side scuff plate.</ptxt>
+<s3>
+<ptxt>Using a screwdriver, detach the 7 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s3>
+<s3>
+<ptxt>Using a clip remover, detach the 3 clips and remove the scuff plate.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Turn up the floor carpet and disconnect the joining connector, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A116042" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>This connector has the lines of the fuel pump and rear speed sensor.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine. After the engine has stopped on its own, turn the ignition switch OFF.</ptxt>
+<atten4>
+<ptxt>DTCs C0210/33 and C0215/34 (rear speed sensor circuit) and DTC P0171/25 (system too lean) may be set.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Crank the engine again, and then check that the engine does not start.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the fuel tank cap, and then discharge the pressure in the fuel tank completely.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the fuel pump connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the front driver side scuff plate.</ptxt>
+</s2>
+<s2>
+<ptxt>Clear the DTCs (see page <xref label="Seep01" href="RM000000ZPW01AX"/>).</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLH01FX_01_0002" proc-id="RM21Q0EV__00000OH00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLH01FX_01_0007" proc-id="RM21Q0EV__00000OL00000">
+<ptxt>REMOVE CANISTER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A112078" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the 3 hoses from the canister.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112079" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the canister from the stay.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000YLH01FX_01_0003" proc-id="RM21Q0EV__00000OI00000">
+<ptxt>DISCONNECT FUEL HOSE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the hose from the clamp.</ptxt>
+</s2>
+<s2>
+<ptxt>Pinch and pull the fuel hose's connector to disconnect it from the fuel filter's upper pipe. </ptxt>
+<figure>
+<graphic graphicname="G038573E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Check for dirt or mud contamination in the fuel hose and around the fuel hose's connector. Clean if necessary. Dirt or mud can affect the O-ring's ability to seal the connector and fuel filter's upper pipe.</ptxt>
+</item>
+<item>
+<ptxt>Do not use tools to separate the connector and upper pipe.</ptxt>
+</item>
+<item>
+<ptxt>Do not forcefully bend or twist the hose.</ptxt>
+</item>
+<item>
+<ptxt>Keep the connector and pipe free from foreign matter.</ptxt>
+</item>
+<item>
+<ptxt>Put the connector in a plastic bag to prevent damage and contamination.</ptxt>
+</item>
+<item>
+<ptxt>If the connector and upper pipe are stuck together, pinch the connector and turn it carefully to disconnect it.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLH01FX_01_0004" proc-id="RM21Q0EV__00000OJ00000">
+<ptxt>REMOVE FUEL MAIN TUBE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the fuel tube grommet.</ptxt>
+<figure>
+<graphic graphicname="G038574E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the lock claws by lifting up the connector cover. Then pinch and pull the fuel main tube's connector to disconnect it from the fuel filter's lower pipe. </ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Check for dirt or mud contamination in the fuel hose and around the fuel hose's connector. Clean if necessary. Dirt or mud can affect the O-ring's ability to seal the connector and fuel filter's lower pipe.</ptxt>
+</item>
+<item>
+<ptxt>Do not use tools to separate the connector and lower pipe.</ptxt>
+</item>
+<item>
+<ptxt>Do not forcefully bend or twist the hose.</ptxt>
+</item>
+<item>
+<ptxt>Keep the connector and pipe free from foreign matter.</ptxt>
+</item>
+<item>
+<ptxt>Put the connector in a plastic bag to prevent damage and contamination.</ptxt>
+</item>
+<item>
+<ptxt>If the connector and lower pipe are stuck together, pinch the connector and turn it carefully to disconnect it.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YLH01FX_01_0005" proc-id="RM21Q0EV__00000OK00000">
+<ptxt>REMOVE FUEL FILTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 nuts and fuel filter.</ptxt>
+<figure>
+<graphic graphicname="G038575E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

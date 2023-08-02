@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CodeList SYSTEM "../../../dtd/codelist.dtd">
+<CodeList pubno="EM21Q2EV" type="routing">
+	<Code id="II2" type="w2w" subcode="">
+		<refs type="system" code="SYS020"/>
+		<refs type="system" code="SYS033"/></Code>
+	<Code id="II3" type="w2w" subcode="">
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS007"/>
+		<refs type="system" code="SYS010"/>
+		<refs type="system" code="SYS021"/>
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="II4" type="w2w" subcode="">
+		<refs type="system" code="SYS001"/>
+		<refs type="system" code="SYS005"/>
+		<refs type="system" code="SYS012"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS033"/>
+		<refs type="system" code="SYS034"/>
+		<refs type="system" code="SYS035"/>
+		<refs type="system" code="SYS037"/>
+		<refs type="system" code="SYS040"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="IL1" type="w2w" subcode="">
+		<refs type="system" code="SYS026"/></Code>
+	<Code id="IM1" type="w2w" subcode="">
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS024"/>
+		<refs type="system" code="SYS028"/>
+		<refs type="system" code="GP"/></Code>
+	<Code id="IH1" type="w2w" subcode="">
+		<refs type="system" code="SYS039"/></Code>
+	<Code id="II1" type="w2w" subcode="">
+		<refs type="system" code="SYS039"/></Code>
+	<Code id="IN1" type="w2w" subcode="">
+		<refs type="system" code="SYS002"/></Code>
+	<Code id="IK1" type="w2w" subcode="">
+		<refs type="system" code="SYS002"/>
+		<refs type="system" code="SYS008"/>
+		<refs type="system" code="SYS025"/>
+		<refs type="system" code="SYS027"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS037"/></Code>
+	<Code id="IJ1" type="w2w" subcode="">
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS036"/></Code>
+	<Code id="IJ5" type="w2w" subcode="">
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS036"/></Code>
+	<Code id="IJ3" type="w2w" subcode="">
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS036"/></Code>
+	<Code id="IJ4" type="w2w" subcode="">
+		<refs type="system" code="SYS029"/></Code>
+	<Code id="IJ2" type="w2w" subcode="">
+		<refs type="system" code="SYS029"/></Code>
+	<Code id="IJ6" type="w2w" subcode="">
+		<refs type="system" code="SYS029"/>
+		<refs type="system" code="SYS031"/>
+		<refs type="system" code="SYS036"/></Code>
+</CodeList>

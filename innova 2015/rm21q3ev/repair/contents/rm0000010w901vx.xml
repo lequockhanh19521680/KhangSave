@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82C_T006Q" variety="T006Q">
+<name>TRANSMITTER BATTERY</name>
+<para id="RM0000010W901VX" category="A" type-id="80001" name-id="DL808-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010W901VX_01" type-id="01" category="01">
+<s-1 id="RM0000010W901VX_01_0001" proc-id="RM21Q0EV__00002E900000">
+<ptxt>REMOVE TRANSMITTER HOUSING COVER</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Take extra care when handling these precision electronic components.</ptxt>
+</atten3>
+<s2>
+<ptxt>Twist the screwdriver in the direction of the arrow in the illustration, and open the transmitter housing cover.</ptxt>
+<figure>
+<graphic graphicname="B088005" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not forcibly pry the cover.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010W901VX_01_0002" proc-id="RM21Q0EV__00002EA00000">
+<ptxt>REMOVE DOOR CONTROL TRANSMITTER MODULE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the door control transmitter module.</ptxt>
+<figure>
+<graphic graphicname="B083983E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>When replacing the transmitter battery, before starting work, remove static electricity that has built up in the body by touching, for example, the vehicle to prevent the door control transmitter module set from being damaged.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010W901VX_01_0003" proc-id="RM21Q0EV__00002EB00000">
+<ptxt>REMOVE TRANSMITTER BATTERY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the hook of the transmitter battery's cover and remove the cover.</ptxt>
+<figure>
+<graphic graphicname="B083984E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>When replacing the transmitter battery, before starting work, remove static electricity that has built up in the body by touching, for example, the vehicle to prevent the door control transmitter module set from being damaged.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the battery (lithium battery: CR2016).</ptxt>
+<figure>
+<graphic graphicname="B083985E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When replacing the transmitter battery, before starting work, remove static electricity that has built up in the body by touching, for example, the vehicle to prevent the door control transmitter module set from being damaged.</ptxt>
+</item>
+<item>
+<ptxt>Do not push the terminals with your finger.</ptxt>
+</item>
+<item>
+<ptxt>Do not forcibly pry up the battery (lithium battery: CR2016). The terminals may become damaged. </ptxt>
+</item>
+<item>
+<ptxt>Do not touch the battery with wet hands. Water may cause rust. </ptxt>
+</item>
+<item>
+<ptxt>Do not touch or move any components inside the transmitter. It may cease to work.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

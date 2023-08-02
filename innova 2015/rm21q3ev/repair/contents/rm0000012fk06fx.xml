@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM0000012FK06FX" category="J" type-id="303UF" name-id="AV0HC-53" from="201403">
+<dtccode/>
+<dtcname>Illumination for Panel Switch does not Come on with Tail Switch ON</dtcname>
+<subpara id="RM0000012FK06FX_01" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM0000012FK06FX_02" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000012FK06FX_02_0001" proc-id="RM21Q0EV__00005JK00000">
+<testtitle>INSPECT NIGHTTIME ILLUMINATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Turn on the light control switch and check the nighttime illumination of the vehicle interior.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.89in"/>
+<colspec colname="COL2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Only radio receiver nighttime illumination does not activate</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No nighttime illumination at all</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM0000012FK06FX_02_0002" fin="true">A</down>
+<right ref="RM0000012FK06FX_02_0003" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM0000012FK06FX_02_0002">
+<testtitle>PROCEED TO NEXT CIRCUIT INSPECTION SHOWN IN PROBLEM SYSTEM TABLE<xref label="Seep01" href="RM0000012A80GZX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000012FK06FX_02_0003">
+<testtitle>GO TO LIGHTING SYSTEM<xref label="Seep01" href="RM000002CE20AZX"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

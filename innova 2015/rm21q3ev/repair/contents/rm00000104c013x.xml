@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000104C013X" category="C" type-id="300AA" name-id="BC1H1-01" from="201202">
+<dtccode>C1249/49</dtccode>
+<dtcname>Open in Stop Light Switch Circuit</dtcname>
+<subpara id="RM00000104C013X_01" type-id="60" category="03" proc-id="RM21Q0EV__00001MX00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>This circuit recognizes brake operation by sending a stop light signal to the skid control ECU.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry>
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C1249/49</ptxt>
+</entry>
+<entry>
+<ptxt>Both conditions continue for at least 0.3 seconds:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>IG1 terminal voltage is between 10 and 16 V</ptxt>
+</item>
+<item>
+<ptxt>Open in stop light switch circuit</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Stop light bulb</ptxt>
+</item>
+<item>
+<ptxt>Stop light switch assembly</ptxt>
+</item>
+<item>
+<ptxt>Stop light switch circuit</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM00000104C013X_02" type-id="32" category="03" proc-id="RM21Q0EV__00001MY00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C108873E07" width="7.106578999in" height="5.787629434in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM00000104C013X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM00000104C013X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000104C013X_04_0001" proc-id="RM21Q0EV__00001MZ00000">
+<testtitle>CHECK STOP LIGHT SWITCH OPERATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check that the stop light illuminates when the brake pedal is depressed, and turns off when the brake pedal is released.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Stop Light Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Brake pedal depressed</ptxt>
+</entry>
+<entry>
+<ptxt>Illuminates</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake pedal released</ptxt>
+</entry>
+<entry>
+<ptxt>Turns off</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104C013X_04_0002" fin="false">OK</down>
+<right ref="RM00000104C013X_04_0004" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0002" proc-id="RM21Q0EV__00001N000000">
+<testtitle>CHECK WIRE HARNESS (SKID CONTROL ECU - STOP LIGHT SWITCH)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="C108890E05" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the S2 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the S13 stop light switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the wire harness side connectors.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>S2-10 (STP) - S13-1</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104C013X_04_0003" fin="false">OK</down>
+<right ref="RM00000104C013X_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0003" proc-id="RM21Q0EV__00001N100000">
+<testtitle>CHECK IF DTC OUTPUT RECURS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs.</ptxt>
+</test1>
+<test1>
+<ptxt>Drive the vehicle at approximately 30 km/h (19 mph) or more for 60 seconds or more.</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>DTC is output</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>DTC is not output</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104C013X_04_0009" fin="true">A</down>
+<right ref="RM00000104C013X_04_0008" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0004" proc-id="RM21Q0EV__00001N200000">
+<testtitle>INSPECT STOP LIGHT SWITCH ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="C108891E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the switch connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the stop light switch.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Pin not pushed</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry>
+<ptxt>Pin pushed</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3 - 4</ptxt>
+</entry>
+<entry>
+<ptxt>Pin not pushed</ptxt>
+</entry>
+<entry>
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3 - 4</ptxt>
+</entry>
+<entry>
+<ptxt>Pin pushed</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104C013X_04_0005" fin="false">OK</down>
+<right ref="RM00000104C013X_04_0010" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0005" proc-id="RM21Q0EV__00001N300000">
+<testtitle>CHECK WIRE HARNESS (SKID CONTROL ECU - BATTERY)</testtitle>
+<content6 releasenbr="1">
+<figure>
+<graphic graphicname="C108880E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<test1>
+<ptxt>Disconnect the S2 ECU connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage of the wire harness side connector.</ptxt>
+<spec>
+<title>Standard voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>S2-10 (STP) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Brake pedal depressed</ptxt>
+</entry>
+<entry>
+<ptxt>8 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>S2-10 (STP) - Body ground</ptxt>
+</entry>
+<entry>
+<ptxt>Brake pedal released</ptxt>
+</entry>
+<entry>
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104C013X_04_0006" fin="false">OK</down>
+<right ref="RM00000104C013X_04_0011" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0006" proc-id="RM21Q0EV__00001N400000">
+<testtitle>CHECK IF DTC OUTPUT RECURS</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Clear the DTCs.</ptxt>
+</test1>
+<test1>
+<ptxt>Drive the vehicle at approximately 30 km/h (19 mph) or more for 60 seconds or more.</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>DTC is output</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>DTC is not output</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104C013X_04_0013" fin="true">A</down>
+<right ref="RM00000104C013X_04_0012" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0007">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0008">
+<testtitle>END</testtitle>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0009">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0010">
+<testtitle>REPLACE STOP LIGHT SWITCH ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0011">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0012">
+<testtitle>END</testtitle>
+</testgrp>
+<testgrp id="RM00000104C013X_04_0013">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

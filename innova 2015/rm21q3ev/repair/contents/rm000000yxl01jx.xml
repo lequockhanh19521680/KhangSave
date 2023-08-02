@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YXL01JX" category="S" type-id="3001E" name-id="RS0GE-46" from="201303">
+<name>DIAGNOSTIC TROUBLE CODE CHART</name>
+<subpara id="RM000000YXL01JX_z0" proc-id="RM21Q0EV__000020O00001">
+<content5 releasenbr="1">
+<atten4>
+<ptxt>If a trouble code is displayed during the DTC check, inspect the trouble areas listed for that code. For details of the code, refer to the "See page" below.</ptxt>
+</atten4>
+<table frame="all" colsep="1" rowsep="1" pgwide="1">
+<title/>
+<tgroup cols="5" colsep="1" rowsep="1">
+<colspec colnum="1" colname="1" colwidth="1.42in" colsep="0"/>
+<colspec colnum="2" colname="2" colwidth="1.42in" colsep="0"/>
+<colspec colnum="3" colname="3" colwidth="1.42in" colsep="0"/>
+<colspec colnum="4" colname="4" colwidth="1.42in" colsep="0"/>
+<colspec colnum="5" colname="5" colwidth="1.4in" colsep="0"/>
+<thead valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle" align="center">
+<ptxt>Detection Item</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>Check Mode</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>SRS Warning Light</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1000/31</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Center Airbag Sensor Assembly Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXW013X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1610/13</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Front Airbag Sensor RH Circuit Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXU01IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1615/14</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Front Airbag Sensor LH Circuit Malfunction</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXV01IX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1800/51</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short in Driver Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXQ016X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1801/51</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in Driver Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXQ016X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1802/51</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to GND in Driver Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXQ016X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1803/51</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to B+ in Driver Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXQ016X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1805/52</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short in Front Passenger Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXR01BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1806/52</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in Front Passenger Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXR01BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1807/52</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to GND in Front Passenger Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXR01BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1808/52</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to B+ in Front Passenger Side Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000000YXR01BX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1900/73</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short in Front Driver Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2U04SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1901/73</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in Front Driver Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2U04SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1902/73</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to GND in Front Driver Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2U04SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1903/73</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to B+ in Front Driver Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2U04SX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1905/74</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short in Front Passenger Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2T04WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1906/74</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Open in Front Passenger Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2T04WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1907/74</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to GND in Front Passenger Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2T04WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row rowsep="1">
+<entry colname="1" colsep="1" valign="middle" align="center">
+<ptxt>B1908/74</ptxt>
+</entry>
+<entry colname="2" colsep="1" valign="middle">
+<ptxt>Short to B+ in Front Passenger Side Pretensioner Squib Circuit</ptxt>
+</entry>
+<entry colname="3" colsep="1" valign="middle" align="center">
+<ptxt>○</ptxt>
+</entry>
+<entry colname="4" colsep="1" valign="middle" align="center">
+<ptxt>ON</ptxt>
+</entry>
+<entry colname="5" colsep="1" valign="middle" align="center">
+<ptxt>
+<xref href="RM000002O2T04WX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

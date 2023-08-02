@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM0000013TO019X" category="J" type-id="300WG" name-id="AT3Z0-01" from="201202">
+<dtccode/>
+<dtcname>Stop Light Switch Circuit</dtcname>
+<subpara id="RM0000013TO019X_01" type-id="60" category="03" proc-id="RM21Q0EV__000016S00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The purpose of this circuit is to prevent the engine from stalling while driving in the lock-up condition and the brakes are suddenly applied.</ptxt>
+<ptxt>When the brake pedal is depressed, this switch sends a signal to the ECM. Then the ECM cancels the operation of the lock-up clutch during braking.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000013TO019X_02" type-id="32" category="03" proc-id="RM21Q0EV__000016T00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C146704E15" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000013TO019X_03" type-id="51" category="05" proc-id="RM21Q0EV__000016U00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>Using the Data List of the intelligent tester allows switch, sensor, actuator and other item values to be read without removing any parts. Reading the Data List early in troubleshooting is one way to save time.</ptxt>
+</atten4>
+<list1 type="ordered">
+<item>
+<ptxt>Warm up the engine.</ptxt>
+</item>
+<item>
+<ptxt>Turn the ignition switch off.</ptxt>
+</item>
+<item>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</item>
+<item>
+<ptxt>Turn the ignition switch to ON and push the tester main switch on.</ptxt>
+</item>
+<item>
+<ptxt>Enter the following menus: Powertrain / Engine and ECT / Data List.</ptxt>
+</item>
+<item>
+<ptxt>Follow the instructions on the tester and read the Data List.</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Tester Display</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Measurement Item/Range</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Normal Condition</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Stop Light Switch</ptxt>
+</entry>
+<entry>
+<ptxt>Stop light switch status/</ptxt>
+<ptxt>ON or OFF</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Brake pedal is depressed: ON</ptxt>
+</item>
+<item>
+<ptxt>Brake pedal is released: OFF</ptxt>
+</item>
+</list1>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>In the table above, the values listed under "Normal Condition" are reference values. Do not depend solely on these reference values when deciding whether a part is faulty or not.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM0000013TO019X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000013TO019X_04_0001" proc-id="RM21Q0EV__000016V00000">
+<testtitle>INSPECT STOP LIGHT SWITCH</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the S13 stop light switch.</ptxt>
+<figure>
+<graphic graphicname="C170569E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance of the switch.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COLSPEC0" colwidth="1.37in"/>
+<colspec colname="COL1" colwidth="1.37in"/>
+<colspec colname="COL3" colwidth="1.39in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Pin pushed</ptxt>
+<ptxt>(pedal released)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Pin not pushed</ptxt>
+<ptxt>(pedal depressed)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>3 - 4</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Pin not pushed</ptxt>
+<ptxt>(pedal depressed)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>3 - 4</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Pin pushed</ptxt>
+<ptxt>(pedal released)</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TO019X_04_0002" fin="false">OK</down>
+<right ref="RM0000013TO019X_04_0003" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TO019X_04_0002" proc-id="RM21Q0EV__000016W00000">
+<testtitle>CHECK WIRE HARNESS (ECM - BATTERY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Measure the voltage of the ECM connector.</ptxt>
+<figure>
+<graphic graphicname="C192331E03" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COLSPEC1" colwidth="1.37in"/>
+<colspec colname="COL1" colwidth="1.37in"/>
+<colspec colname="COL3" colwidth="1.39in"/>
+<thead>
+<row>
+<entry valign="top" align="left">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="top" align="left">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left">
+<ptxt>E10-4 (STP) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Brake pedal is depressed</ptxt>
+</entry>
+<entry align="left">
+<ptxt>10 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry align="left">
+<ptxt>E10-4 (STP) - Body ground</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Brake pedal is released</ptxt>
+</entry>
+<entry align="left">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM0000013TO019X_04_0005" fin="true">OK</down>
+<right ref="RM0000013TO019X_04_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000013TO019X_04_0003">
+<testtitle>REPLACE STOP LIGHT SWITCH</testtitle>
+</testgrp>
+<testgrp id="RM0000013TO019X_04_0004">
+<testtitle>REPAIR OR REPLACE HARNESS AND CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM0000013TO019X_04_0005">
+<testtitle>REPLACE ECM</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

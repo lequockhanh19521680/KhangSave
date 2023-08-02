@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-flt>
+<pub id="NM21Q3EV">
+<channel>TOYOTA</channel>
+<market-code>E</market-code>
+<filter name="1tr-fe_g58_01.xml">
+<model-name>TOYOTA INNOVA / TGN40</model-name>
+<model-code>TGN40</model-code>
+<engine>1TR-FE</engine>
+<body-type>SUV/Van</body-type>
+<vinno-vds>XW41G</vinno-vds>
+</filter>
+<filter name="1tr-fe_g58_02.xml">
+<model-name>TOYOTA INNOVA / TGN40</model-name>
+<model-code>TGN40</model-code>
+<engine>1TR-FE</engine>
+<body-type>SUV/Van</body-type>
+<vinno-vds>XW42G</vinno-vds>
+</filter>
+<filter name="1tr-fe_a45de_01.xml">
+<model-name>TOYOTA INNOVA / TGN40</model-name>
+<model-code>TGN40</model-code>
+<engine>1TR-FE</engine>
+<body-type>SUV/Van</body-type>
+<vinno-vds>XW42G</vinno-vds>
+</filter>
+<filter name="1tr-fe_a45de_02.xml">
+<model-name>TOYOTA INNOVA / TGN40</model-name>
+<model-code>TGN40</model-code>
+<engine>1TR-FE</engine>
+<body-type>SUV/Van</body-type>
+<vinno-vds>XW43G</vinno-vds>
+</filter>
+</pub>
+</tmc-service-flt>

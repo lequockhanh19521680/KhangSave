@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000001DTG01HX" category="J" type-id="300CH" name-id="ACDFB-05" from="201202" to="201403">
+<dtccode/>
+<dtcname>Heater Relay Circuit</dtcname>
+<subpara id="RM000001DTG01HX_01" type-id="60" category="03" proc-id="RM21Q0EV__00004RY00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The No. 1 heater relay is turned on by signals from the air conditioning amplifier assembly. The No. 1 heater relay supplies power to the blower motor control.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000001DTG01HX_02" type-id="32" category="03" proc-id="RM21Q0EV__00004RZ00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E225442E08" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001DTG01HX_03" type-id="51" category="05" proc-id="RM21Q0EV__00004S000000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>Inspect the fuses for circuits related to this system before performing the following inspection procedure.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000001DTG01HX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001DTG01HX_04_0035" proc-id="RM21Q0EV__00004S200000">
+<testtitle>INSPECT NO. 1 HEATER RELAY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the No. 1 heater relay from the driver side junction block assembly (See page <xref label="Seep01" href="RM000004R4700IX"/>).</ptxt>
+<figure>
+<graphic graphicname="B106753E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>3 - 4</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Battery voltage is not applied to terminals 1 and 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 - 4</ptxt>
+</entry>
+<entry morerows="1" valign="middle" align="left">
+<ptxt>Battery voltage is applied to terminals 1 and 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>3 - 5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTG01HX_04_0030" fin="false">OK</down>
+<right ref="RM000001DTG01HX_04_0038" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTG01HX_04_0030" proc-id="RM21Q0EV__00004S100000">
+<testtitle>CHECK HARNESS AND CONNECTOR (NO. 1 HEATER RELAY - AIR CONDITIONING AMPLIFIER, BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the No. 1 heater relay from the driver side junction block assembly (See page <xref label="Seep01" href="RM000004R4700IX"/>).</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 heater relay terminal 2 - A36-14 (HR)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 heater relay terminal 2 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 heater relay terminal 3 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 heater relay terminal 4 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="1" valign="middle">
+<ptxt>No. 1 heater relay terminal 1 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Ignition switch ON</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Ignition switch off</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 heater relay terminal 5 - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTG01HX_04_0036" fin="false">OK</down>
+<right ref="RM000001DTG01HX_04_0039" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTG01HX_04_0036" proc-id="RM21Q0EV__00004S300000">
+<testtitle>CHECK AIR CONDITIONING AMPLIFIER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the air conditioning amplifier assembly with its connectors still connected (See page <xref label="Seep01" href="RM000001K3A01KX"/>).</ptxt>
+<figure>
+<graphic graphicname="E225456E52" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="2" valign="middle">
+<ptxt>A36-14 (HR) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch off</ptxt>
+</item>
+<item>
+<ptxt>Blower switch off</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Blower switch on (LO level)</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Ignition switch ON</ptxt>
+</item>
+<item>
+<ptxt>Blower switch off</ptxt>
+</item>
+</list1>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component with harness connected</ptxt>
+<ptxt>(Air Conditioning Amplifier Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DTG01HX_04_0017" fin="true">OK</down>
+<right ref="RM000001DTG01HX_04_0040" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DTG01HX_04_0017">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000045E301BX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTG01HX_04_0038">
+<testtitle>REPLACE NO. 1 HEATER RELAY<xref label="Seep01" href="RM000004R4700IX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DTG01HX_04_0039">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001DTG01HX_04_0040">
+<testtitle>REPLACE AIR CONDITIONING AMPLIFIER ASSEMBLY<xref label="Seep01" href="RM000001K3A01KX"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

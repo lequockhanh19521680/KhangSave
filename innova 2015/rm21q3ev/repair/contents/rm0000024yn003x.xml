@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X1_T001F" variety="T001F">
+<name>1TR-FE EXHAUST</name>
+<para id="RM0000024YN003X" category="F" type-id="30028" name-id="SS23Y-01" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000024YN003X_z0" proc-id="RM21Q0EV__000003M00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Front exhaust pipe x Heated oxygen sensor</ptxt>
+<ptxt>: for use with SST</ptxt>
+</entry>
+<entry>
+<ptxt>44</ptxt>
+</entry>
+<entry>
+<ptxt>449</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front exhaust pipe x Heated oxygen sensor</ptxt>
+<ptxt>: for use without SST</ptxt>
+</entry>
+<entry>
+<ptxt>40</ptxt>
+</entry>
+<entry>
+<ptxt>408</ptxt>
+</entry>
+<entry>
+<ptxt>30</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front exhaust pipe x Exhaust manifold</ptxt>
+</entry>
+<entry>
+<ptxt>43</ptxt>
+</entry>
+<entry>
+<ptxt>438</ptxt>
+</entry>
+<entry>
+<ptxt>32</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Front exhaust pipe x Center exhaust pipe</ptxt>
+</entry>
+<entry>
+<ptxt>48</ptxt>
+</entry>
+<entry>
+<ptxt>489</ptxt>
+</entry>
+<entry>
+<ptxt>35</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Center exhaust pipe x Tailpipe</ptxt>
+</entry>
+<entry>
+<ptxt>48</ptxt>
+</entry>
+<entry>
+<ptxt>489</ptxt>
+</entry>
+<entry>
+<ptxt>35</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

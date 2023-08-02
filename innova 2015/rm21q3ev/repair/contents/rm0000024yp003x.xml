@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7X4_T001I" variety="T001I">
+<name>1TR-FE IGNITION</name>
+<para id="RM0000024YP003X" category="F" type-id="30028" name-id="SS240-03" from="201202">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000024YP003X_z0" proc-id="RM21Q0EV__000003S00000">
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>N*m</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Spark plug x Cylinder head</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>18</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>184</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>13</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Ignition coil x Cylinder head cover</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>9.0</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>92</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>80 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

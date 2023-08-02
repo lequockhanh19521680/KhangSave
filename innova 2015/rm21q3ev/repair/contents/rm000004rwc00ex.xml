@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7C7H3_T00AV" variety="T00AV">
+<name>FRONT PASSENGER SEAT BELT WARNING LIGHT (w/ Multi-display)</name>
+<para id="RM000004RWC00EX" category="K" type-id="30193" name-id="SB4DR-12" from="201202">
+<name>COMPONENTS</name>
+<subpara id="RM000004RWC00EX_04" type-id="02" category="04" proc-id="RM21Q0EV__00005BV00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="B281316E06" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

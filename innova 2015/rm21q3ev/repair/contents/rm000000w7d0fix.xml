@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W7D0FIX" category="U" type-id="303FI" name-id="AT02V-58" from="201202">
+<name>SYSTEM DIAGRAM</name>
+<subpara id="RM000000W7D0FIX_z0" proc-id="RM21Q0EV__000018B00000">
+<content5 releasenbr="1">
+<ptxt>The configuration of the electronic control system in the A45DE automatic transmission is as shown in the following chart.</ptxt>
+<figure>
+<graphic graphicname="C193641E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+<figure>
+<graphic graphicname="C193642E01" width="7.106578999in" height="7.795582503in"/>
+</figure>
+<figure>
+<graphic graphicname="C193643E01" width="7.106578999in" height="7.795582503in"/>
+</figure>
+<figure>
+<graphic graphicname="C193644E01" width="7.106578999in" height="8.799559038in"/>
+</figure>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

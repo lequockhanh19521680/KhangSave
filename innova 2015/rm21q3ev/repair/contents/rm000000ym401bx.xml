@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000D_S000A" variety="S000A">
+<name>1TR-FE LUBRICATION</name>
+<ttl id="1000D_S000A_7A7YT_T0037" variety="T0037">
+<name>LUBRICATION SYSTEM</name>
+<para id="RM000000YM401BX" category="G" type-id="8000T" name-id="LU4HD-01" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000YM401BX_01" type-id="01" category="01">
+<s-1 id="RM000000YM401BX_01_0001" proc-id="RM21Q0EV__00000SF00000">
+<ptxt>CHECK ENGINE OIL LEVEL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Warm up the engine, stop the engine and wait 5 minutes. The oil level should be between the dipstick's low and full level marks.</ptxt>
+<ptxt>If the oil level is low, check for leakage and add oil up to the full level mark.</ptxt>
+<atten3>
+<ptxt>Do not add engine oil above the full level mark.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YM401BX_01_0002" proc-id="RM21Q0EV__00000SG00000">
+<ptxt>CHECK ENGINE OIL QUALITY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the oil for deterioration, water contamination, discoloring or thinning.</ptxt>
+<spec>
+<title>Oil grade</title>
+<specitem>
+<ptxt>20W-50 and 15W-40 API grade SL, SM or SN multigrade engine oil</ptxt>
+<ptxt>10W-30 and 5W-30 API grade SL "Energy-Conserving", SM "Energy-Conserving", SN "Resource- Conserving" or ILSAC multigrade engine oil</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="A112498E09" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YM401BX_01_0003" proc-id="RM21Q0EV__00000SH00000">
+<ptxt>CHECK OIL PRESSURE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the oil pressure switch connector.</ptxt>
+<figure>
+<graphic graphicname="A086844E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the oil pressure switch.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the oil pressure gauge.</ptxt>
+</s2>
+<s2>
+<ptxt>Warm up the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Check the oil pressure under the following conditions.</ptxt>
+<spec>
+<title>Standard oil pressure</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Idle</ptxt>
+</entry>
+<entry>
+<ptxt>29 kPa (0.3 kgf/cm<sup>2</sup>, 4.2 psi) or more</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>3,000 rpm</ptxt>
+</entry>
+<entry>
+<ptxt>160 to 490 kPa (1.6 to 5.0 kgf/cm<sup>2</sup>, 23 to 71 psi) or more</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+<s2>
+<ptxt>Remove the oil pressure gauge.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000YM401BX_01_0004" proc-id="RM21Q0EV__00000GR00000">
+<ptxt>INSTALL OIL PRESSURE SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Apply adhesive to 2 or 3 threads of the oil pressure switch.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota genuine adhesive 1344, three bond 1344 or equivalent</ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="G036762E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the oil pressure switch.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>15</t-value1>
+<t-value2>153</t-value2>
+<t-value4>11</t-value4>
+</torqueitem>
+</torque>
+<atten3>
+<ptxt>Do not start the engine for at least 1 hour after the installation of the switch.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Connect the oil pressure switch connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Start the engine and check for engine oil leaks.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7A83L_T007Z" variety="T007Z">
+<name>REAR NO. 1 SEAT ASSEMBLY (for RH Side)</name>
+<para id="RM0000024WO00BX" category="A" type-id="30014" name-id="SE0PO-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000024WO00BX_01" type-id="01" category="01">
+<s-1 id="RM0000024WO00BX_01_0001" proc-id="RM21Q0EV__00002UX00000">
+<ptxt>INSTALL REAR NO. 1 SEAT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fully tilt the seatback forward.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the seat in the cabin.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Fully fold the seat forward and install the seat with the 2 nuts.</ptxt>
+<figure>
+<graphic graphicname="B086054E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Tighten the nuts in the order indicated in the illustration.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Fully lock the seat to the vehicle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Tighten the 2 bolts on the front side in the order indicated in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B086440E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Confirm that the seat is firmly locked to the vehicle body.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Return the seatback to the upright position.  </ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024WO00BX_01_0003" proc-id="RM21Q0EV__00002UZ00000">
+<ptxt>INSTALL REAR SEAT CUSHION HINGE COVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 2 claws to install the hinge cover.</ptxt>
+<figure>
+<graphic graphicname="B086041E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024WO00BX_01_0002" proc-id="RM21Q0EV__00002UY00000">
+<ptxt>INSTALL REAR SEAT CUSHION HINGE COVER RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM0000024WO00BX_01_0004" proc-id="RM21Q0EV__00002V000000">
+<ptxt>INSPECT AND ADJUST SEAT SLIDE ADJUSTER LOCKS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>During sliding operation of the front seat, check that the left and right adjusters move together smoothly and lock simultaneously.</ptxt>
+<ptxt>If the seat adjusters do not lock simultaneously, loosen the seat fixation bolts to adjust the adjuster's position.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

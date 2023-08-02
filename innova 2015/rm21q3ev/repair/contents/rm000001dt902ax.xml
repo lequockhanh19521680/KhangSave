@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000001DT902AX" category="C" type-id="300BX" name-id="ACD5R-14" from="201403">
+<dtccode>12</dtccode>
+<dtcname>Ambient Temperature Sensor Circuit</dtcname>
+<subpara id="RM000001DT902AX_01" type-id="60" category="03" proc-id="RM21Q0EV__00004Q100001">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The thermistor assembly connected to the accessory meter detects fluctuations in the ambient temperature. This information is used for controlling the interior temperature. The accessory meter detects the resistance of the thermistor assembly and sends this information to the air conditioning amplifier assembly.</ptxt>
+<table pgwide="1">
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>12</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<ptxt>An open or short in ambient temperature sensor circuit</ptxt>
+</entry>
+<entry valign="middle" align="left">
+<list1 type="unordered">
+<item>
+<ptxt>Thermistor assembly</ptxt>
+</item>
+<item>
+<ptxt>Accessory meter assembly</ptxt>
+</item>
+<item>
+<ptxt>Air conditioning amplifier assembly</ptxt>
+</item>
+<item>
+<ptxt>Harness or connector</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM000001DT902AX_02" type-id="32" category="03" proc-id="RM21Q0EV__00004Q200001">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E227734E10" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000001DT902AX_03" type-id="51" category="05" proc-id="RM21Q0EV__00004Q300001">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>Check that the accessory meter assembly illuminates normally before performing the following inspection procedure.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000001DT902AX_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000001DT902AX_04_0001" proc-id="RM21Q0EV__00004Q400001">
+<testtitle>CHECK ACCESSORY METER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check the difference between the ambient temperature value displayed on the accessory meter assembly and the actual ambient temperature.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>The ambient temperature displayed on the accessory meter assembly and the actual ambient temperature are almost the same.</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>The temperature displayed on the accessory meter assembly and the actual temperature detected by the thermistor assembly may differ when the ambient temperature changes significantly (for example, when the vehicle is entering/exiting tunnels, or the vehicle speed or wind direction changes).</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DT902AX_04_0005" fin="false">OK</down>
+<right ref="RM000001DT902AX_04_0003" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0005" proc-id="RM21Q0EV__00004Q700001">
+<testtitle>CHECK HARNESS AND CONNECTOR (ACCESSORY METER - AIR CONDITIONING AMPLIFIER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A19 accessory meter assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A19-9 (DATA) - A36-18 (TAMO)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A19-9 (DATA) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Result</title>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="3.10in"/>
+<colspec colname="COL2" colwidth="1.03in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to problem symptoms table.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>OK (When troubleshooting according to DTC.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="left">
+<ptxt>NG</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>C</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DT902AX_04_0006" fin="true">A</down>
+<right ref="RM000001DT902AX_04_0011" fin="true">B</right>
+<right ref="RM000001DT902AX_04_0008" fin="true">C</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0003" proc-id="RM21Q0EV__00004Q500001">
+<testtitle>INSPECT THERMISTOR ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Remove the thermistor assembly (See page <xref label="Seep01" href="RM000002VYK035X"/>).</ptxt>
+<figure>
+<graphic graphicname="E236056E01" width="2.775699831in" height="4.7836529in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="10" valign="middle">
+<ptxt>1 - 2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10°C (50°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3.00 to 3.73 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>15°C (59°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>2.45 to 2.88 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.95 to 2.30 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>25°C (77°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.60 to 1.80 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>30°C (86°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.28 to 1.47 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>35°C (95°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>1.00 to 1.22 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>40°C (104°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.80 to 1.00 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>45°C (113°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.65 to 0.85 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>50°C (122°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.50 to 0.70 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>55°C (131°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.44 to 0.60 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>60°C (140°F)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0.36 to 0.50 kΩ</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Resistance (kΩ)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Temperature</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Even slightly touching the thermistor assembly may change the resistance value. Be sure to hold the connector of the thermistor assembly.</ptxt>
+</item>
+<item>
+<ptxt>When measuring the resistance, the thermistor assembly temperature must be the same as the ambient temperature.</ptxt>
+</item>
+</list1>
+</atten3>
+<atten4>
+<ptxt>As the temperature increases, the resistance decreases (Refer to the graph).</ptxt>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DT902AX_04_0004" fin="false">OK</down>
+<right ref="RM000001DT902AX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0004" proc-id="RM21Q0EV__00004Q600001">
+<testtitle>CHECK HARNESS AND CONNECTOR (THERMISTOR - ACCESSORY METER)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A1 thermistor assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the A19 meter connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COLSPEC0" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>A19-3 (TH+) - A1-2</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A19-2 (SG) - A1-1</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A19-3 (TH+) - Body ground</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry morerows="1" valign="middle">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>A19-2 (SG) - Body ground</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000001DT902AX_04_0009" fin="true">OK</down>
+<right ref="RM000001DT902AX_04_0007" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0009">
+<testtitle>REPLACE ACCESSORY METER ASSEMBLY<xref label="Seep01" href="RM000004S6B006X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0011">
+<testtitle>REPLACE AIR CONDITIONING AMPLIFIER ASSEMBLY<xref label="Seep01" href="RM000001K3A01KX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0008">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0006">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000045E302EX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000001DT902AX_04_0007">
+<testtitle>REPLACE THERMISTOR ASSEMBLY<xref label="Seep01" href="RM000002VYK035X"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

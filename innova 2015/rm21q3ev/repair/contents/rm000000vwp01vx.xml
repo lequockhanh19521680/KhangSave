@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XZ_T002D" variety="T002D">
+<name>THROTTLE BODY</name>
+<para id="RM000000VWP01VX" category="G" type-id="8000T" name-id="ES0AD-10" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000VWP01VX_01" type-id="01" category="01">
+<s-1 id="RM000000VWP01VX_01_0001" proc-id="RM21Q0EV__000006400000">
+<ptxt>CHECK THROTTLE BODY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A111693" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the throttle control motor operating sound.</ptxt>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>When pressing the accelerator pedal, check the operating sound of the running motor. Make sure that no friction noises emit from the motor.</ptxt>
+<ptxt>If friction noise is heard, replace the throttle body.</ptxt>
+</s3>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A099015E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the throttle position sensor.</ptxt>
+<s3>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</s3>
+<s3>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</s3>
+<s3>
+<ptxt>Under Current Data, check that the throttle valve opening percentage (Throttle Pos) is within the standard.</ptxt>
+<spec>
+<title>Standard throttle valve opening percentage</title>
+<specitem>
+<ptxt>60% or more </ptxt>
+</specitem>
+</spec>
+<atten3>
+<ptxt>When checking the standard throttle valve opening percentage, the shift lever should be in the N position.</ptxt>
+</atten3>
+<ptxt>If the percentage is less than 60%, replace the throttle body.</ptxt>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

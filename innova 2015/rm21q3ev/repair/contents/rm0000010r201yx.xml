@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZI_T003W" variety="T003W">
+<name>CLUTCH PEDAL</name>
+<para id="RM0000010R201YX" category="A" type-id="30014" name-id="CL23L-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010R201YX_01" type-id="01" category="01">
+<s-1 id="RM0000010R201YX_01_0001" proc-id="RM21Q0EV__000018H00000">
+<ptxt>INSTALL CLUTCH PEDAL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G037529E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the clutch pedal.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the bolt and 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>14</t-value1>
+<t-value2>143</t-value2>
+<t-value4>10</t-value4>
+<ptxt>for nut A</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>18</t-value1>
+<t-value2>184</t-value2>
+<t-value4>13</t-value4>
+<ptxt>for bolt B</ptxt>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010R201YX_01_0008" proc-id="RM21Q0EV__000018L00000">
+<ptxt>INSTALL PUSH ROD CLEVIS PIN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the pin and a new clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010R201YX_01_0002" proc-id="RM21Q0EV__000018I00000">
+<ptxt>INSTALL CLUTCH PEDAL RETURN SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C113186" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</content1>
+</s-1>
+<s-1 id="RM0000010R201YX_01_0006" proc-id="RM21Q0EV__000053500000">
+<ptxt>INSTALL COMBINATION METER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000004S66006X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010R201YX_01_0007" proc-id="RM21Q0EV__00003AU00000">
+<ptxt>INSTALL LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 7 claws to install the lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010R201YX_01_0009" proc-id="RM21Q0EV__000018M00000">
+<ptxt>CHECK FLUID LEVEL IN RESERVOIR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the fluid level and add fluid if necessary.</ptxt>
+<figure>
+<graphic graphicname="F052092" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Fluid</title>
+<specitem>
+<ptxt>SAE J1703 or FMVSS No. 116 DOT3</ptxt>
+</specitem>
+</spec>
+<atten4>
+<ptxt>Add fluid to a level between the reservoir's MIN and MAX lines.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002Y_S0019" variety="S0019">
+<name>INTERIOR</name>
+<ttl id="1002Y_S0019_7A842_T008G" variety="T008G">
+<name>ROOF HEADLINING</name>
+<para id="RM00000225T00DX" category="A" type-id="80001" name-id="IR1EK-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000225T00DX_02" type-id="01" category="01">
+<s-1 id="RM00000225T00DX_02_0098" proc-id="RM21Q0EV__00003DW00000">
+<ptxt>PRECAUTION (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After turning the ignition switch off, waiting time may be required before disconnecting the cable from the battery terminal. Therefore, make sure to read the disconnecting the cable from the battery terminal notice before proceeding with work (See page <xref label="Seep01" href="RM000000UYX0D4X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0046" proc-id="RM21Q0EV__00003CY00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL (w/ Airbag System)</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0047" proc-id="RM21Q0EV__00003CZ00000">
+<ptxt>REMOVE REAR NO. 2 SEAT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000023OA003X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0099" proc-id="RM21Q0EV__00003DX00000">
+<ptxt>REMOVE LOWER FRONT PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279271E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the lower front pillar garnish.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, detach the 3 claws and 3 guides and remove the lower front pillar garnish.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0100" proc-id="RM21Q0EV__00003DY00000">
+<ptxt>REMOVE LOWER FRONT PILLAR GARNISH RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0062" proc-id="RM21Q0EV__00003DC00000">
+<ptxt>REMOVE FRONT PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279270" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 3 clips and remove the front pillar garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0063" proc-id="RM21Q0EV__00003DD00000">
+<ptxt>REMOVE FRONT PILLAR GARNISH RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0048" proc-id="RM21Q0EV__00003D000000">
+<ptxt>REMOVE FRONT DOOR SCUFF PLATE LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279266E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the front door scuff plate.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 clips and 7 claws and remove the front door scuff plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0049" proc-id="RM21Q0EV__00003D100000">
+<ptxt>REMOVE FRONT DOOR SCUFF PLATE RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0050" proc-id="RM21Q0EV__00003D200000">
+<ptxt>REMOVE FRONT DOOR OPENING TRIM LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279289" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the front door opening trim.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0051" proc-id="RM21Q0EV__00003D300000">
+<ptxt>REMOVE FRONT DOOR OPENING TRIM RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0054" proc-id="RM21Q0EV__00003D400000">
+<ptxt>REMOVE REAR DOOR SCUFF PLATE LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279267E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the rear door scuff plate.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 clips and 7 claws and remove the rear door scuff plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0055" proc-id="RM21Q0EV__00003D500000">
+<ptxt>REMOVE REAR DOOR SCUFF PLATE RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0056" proc-id="RM21Q0EV__00003D600000">
+<ptxt>REMOVE REAR DOOR OPENING TRIM WEATHERSTRIP LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279291" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the rear door opening trim weatherstrip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0057" proc-id="RM21Q0EV__00003D700000">
+<ptxt>REMOVE REAR DOOR OPENING TRIM WEATHERSTRIP RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0058" proc-id="RM21Q0EV__00003D800000">
+<ptxt>REMOVE LOWER CENTER PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B276978" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and disconnect the front seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279268" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the 2 claws and remove the lower center pillar garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0059" proc-id="RM21Q0EV__00003D900000">
+<ptxt>REMOVE LOWER CENTER PILLAR GARNISH RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0060" proc-id="RM21Q0EV__00003DA00000">
+<ptxt>REMOVE CENTER PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B276930E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 4 claws and remove the front seat belt shoulder anchor cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the bolt and disconnect the front seat belt shoulder anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279269" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Detach the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the center pillar garnish in the direction indicated by the arrow in the illustration to detach the guide and remove the center pillar garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0061" proc-id="RM21Q0EV__00003DB00000">
+<ptxt>REMOVE CENTER PILLAR GARNISH RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0064" proc-id="RM21Q0EV__00003DE00000">
+<ptxt>REMOVE BACK DOOR SCUFF PLATE</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279272" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Detach the 6 clips and 4 claws and remove the back door scuff plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0065" proc-id="RM21Q0EV__00003DF00000">
+<ptxt>REMOVE QUARTER TRIM HOOK</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B276937" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for both quarter trim hooks.</ptxt>
+</atten4>
+<s2>
+<ptxt>Remove the screw and quarter trim hook.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0066" proc-id="RM21Q0EV__00003DG00000">
+<ptxt>REMOVE QUARTER INSIDE TRIM BOARD LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279273" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and disconnect the rear No. 1 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279274" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the bolt and disconnect the rear No. 2 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a clip remover, remove the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws, 8 clips and 2 guides and remove the quarter inside trim board.</ptxt>
+<figure>
+<graphic graphicname="B279275" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0067" proc-id="RM21Q0EV__00003DH00000">
+<ptxt>REMOVE QUARTER INSIDE TRIM BOARD RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279278" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and disconnect the rear No. 1 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279279" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the bolt and disconnect the rear No. 2 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws, 8 clips and 2 guides and remove the quarter inside trim board.</ptxt>
+<figure>
+<graphic graphicname="B279280" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0068" proc-id="RM21Q0EV__00003DI00000">
+<ptxt>REMOVE QUARTER PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B280110E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws and open the rear No. 1 seat belt shoulder anchor cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the bolt and disconnect the rear No. 1 seat belt shoulder anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279276" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the 3 clips and remove the quarter pillar garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0069" proc-id="RM21Q0EV__00003DJ00000">
+<ptxt>REMOVE QUARTER PILLAR GARNISH RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0070" proc-id="RM21Q0EV__00003DK00000">
+<ptxt>REMOVE INNER UPPER ROOF SIDE GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B280110E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws and open the rear No. 2 seat belt shoulder anchor cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279277" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the 5 clips and remove the inner upper roof side garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0071" proc-id="RM21Q0EV__00003DL00000">
+<ptxt>REMOVE INNER UPPER ROOF SIDE GARNISH RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0101" proc-id="RM21Q0EV__00004AX00000">
+<ptxt>REMOVE MAP LIGHT ASSEMBLY (w/ Map Light)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="E289365" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the claw and 2 guides and remove the map light assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225T00DX_02_0102" proc-id="RM21Q0EV__00002AJ00000">
+<ptxt>REMOVE NO. 1 ROOM LIGHT ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B117645" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 screws and room light.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the light connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225T00DX_02_0104" proc-id="RM21Q0EV__00002AK00000">
+<ptxt>REMOVE NO. 2 ROOM LIGHT ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B117645" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 screws and room light.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the light connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225T00DX_02_0107" proc-id="RM21Q0EV__00004A100000">
+<ptxt>REMOVE COOLER CONTROL SWITCH ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225309E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 clips and remove the cooler control switch assembly (rear blower control switch) as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225T00DX_02_0077" proc-id="RM21Q0EV__00003DM00000">
+<ptxt>REMOVE VISOR ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B266814" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the guide.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 screws and visor.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0078" proc-id="RM21Q0EV__00003DN00000">
+<ptxt>REMOVE VISOR ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0079" proc-id="RM21Q0EV__00003DO00000">
+<ptxt>REMOVE VISOR HOLDER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B266815" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the screw.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 claws and remove the visor holder.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0097" proc-id="RM21Q0EV__00003DV00000">
+<ptxt>REMOVE VISOR HOLDER RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0080" proc-id="RM21Q0EV__00003DP00000">
+<ptxt>REMOVE ASSIST GRIP</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B277629E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for all assist grips.</ptxt>
+</atten4>
+<s2>
+<ptxt>Using a screwdriver, detach the 4 claws and open the 2 covers.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B206336" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 2 screws and assist grip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0094" proc-id="RM21Q0EV__00003DU00000">
+<ptxt>REMOVE ROOF HEADLINING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B286144" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector and detach the 5 clamps from the front pillar.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B309791" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a clip remover, remove the 8 clips.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 4 fasteners.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279287" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the roof headlining as shown in the illustration.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the roof headlining when removing it.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0082" proc-id="RM21Q0EV__00003DQ00000">
+<ptxt>REMOVE FRONT SIDE RAIL SPACER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279281" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 3 claws and remove the front side rail spacer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0083" proc-id="RM21Q0EV__00003DR00000">
+<ptxt>REMOVE FRONT SIDE RAIL SPACER RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0084" proc-id="RM21Q0EV__00003DS00000">
+<ptxt>REMOVE SIDE RAIL SPACER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B291508" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 2 claws and remove the side rail spacer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0105" proc-id="RM21Q0EV__00003E200000">
+<ptxt>REMOVE REAR NO. 2 SIDE RAIL SPACER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279284" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for all rear No. 2 side rail spacers.</ptxt>
+</atten4>
+<s2>
+<ptxt>Detach the 2 claws and remove the rear No. 2 side rail spacer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0110" proc-id="RM21Q0EV__00003E600000">
+<ptxt>REMOVE REAR NO. 2 SIDE RAIL SPACER RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0085" proc-id="RM21Q0EV__00003DT00000">
+<ptxt>REMOVE REAR NO. 3 SIDE RAIL SPACER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279285" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 3 claws and remove the rear No. 3 side rail spacer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0108" proc-id="RM21Q0EV__00003E500000">
+<ptxt>REMOVE REAR NO. 3 SIDE RAIL SPACER RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225T00DX_02_0106" proc-id="RM21Q0EV__00003E300000">
+<ptxt>REMOVE REAR NO. 3 SIDE RAIL SPACER LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279286" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 3 claws and remove the rear No. 3 side rail spacer.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="37">
+<name>STEERING</name>
+<section id="1000U_S000P" variety="S000P">
+<name>STEERING COLUMN</name>
+<ttl id="1000U_S000P_7A80U_T0058" variety="T0058">
+<name>STEERING SYSTEM</name>
+<para id="RM00000137W00WX" category="G" type-id="8000T" name-id="SR05D-12" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM00000137W00WX_01" type-id="01" category="01">
+<s-1 id="RM00000137W00WX_01_0001" proc-id="RM21Q0EV__00001T100000">
+<ptxt>STEERING WHEEL FREE PLAY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F008463E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Stop the vehicle. Position the steering wheel in the center position with the tires pointing straight ahead.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the steering wheel gently right and left, and check the steering wheel free play.</ptxt>
+<spec>
+<title>Maximum free play</title>
+<specitem>
+<ptxt>30 mm (1.18 in.)</ptxt>
+</specitem>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the free play exceeds the maximum, replace the steering intermediate shaft sub-assembly or steering link assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

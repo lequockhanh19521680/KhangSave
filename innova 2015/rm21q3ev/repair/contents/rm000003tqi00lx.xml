@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROQ_T009T" variety="T009T">
+<name>FRONT BLOWER MOTOR</name>
+<para id="RM000003TQI00LX" category="G" type-id="3001K" name-id="ACC88-16" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000003TQI00LX_01" type-id="01" category="01">
+<s-1 id="RM000003TQI00LX_01_0001" proc-id="RM21Q0EV__000046P00000">
+<ptxt>INSPECT BLOWER MOTOR WITH FAN SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E218806E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Check the operation.</ptxt>
+<s3>
+<ptxt>Apply battery voltage to the blower motor and check the operation of the motor.</ptxt>
+<spec>
+<title>OK</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Measurement Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Battery positive (+) → Terminal 2</ptxt>
+<ptxt>Battery negative (-) → Terminal 1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>The blower motor operates smoothly</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the blower motor with fan sub-assembly.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Component without harness connected</ptxt>
+<ptxt>(Blower Motor with Fan Sub-assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

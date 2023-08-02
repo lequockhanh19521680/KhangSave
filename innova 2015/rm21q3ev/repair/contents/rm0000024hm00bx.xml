@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1002S_S0010" variety="S0010">
+<name>PARK ASSIST / MONITORING</name>
+<ttl id="1002S_S0010_7A82S_T0076" variety="T0076">
+<name>CLEARANCE WARNING BUZZER</name>
+<para id="RM0000024HM00BX" category="A" type-id="80001" name-id="PM0AS-04" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000024HM00BX_02" type-id="01" category="01">
+<s-1 id="RM0000024HM00BX_02_0001" proc-id="RM21Q0EV__00002KT00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM0000024HM00BX_02_0002" proc-id="RM21Q0EV__00002KU00000">
+<ptxt>REMOVE UPPER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the upper instrument panel (see page <xref label="Seep01" href="RM000003NEO00DX"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000024HM00BX_02_0003" proc-id="RM21Q0EV__00002KV00000">
+<ptxt>REMOVE NO. 1 CLEARANCE WARNING BUZZER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B136367" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the clamp and remove the buzzer.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

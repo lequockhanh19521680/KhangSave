@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002X_S0018" variety="S0018">
+<name>EXTERIOR</name>
+<ttl id="1002X_S0018_7ARLQ_T0097" variety="T0097">
+<name>FRONT BUMPER (for Standard)</name>
+<para id="RM000003NP100WX" category="A" type-id="80001" name-id="ET7WJ-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000003NP100WX_01" type-id="01" category="01">
+<s-1 id="RM000003NP100WX_01_0014" proc-id="RM21Q0EV__00003QM00000">
+<ptxt>REMOVE RADIATOR GRILLE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 clips.</ptxt>
+<figure>
+<graphic graphicname="B280893" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Put protective tape around the radiator grille.</ptxt>
+<figure>
+<graphic graphicname="B280907E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Detach the 8 claws and remove the radiator grille.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003NP100WX_01_0008" proc-id="RM21Q0EV__00003OV00000">
+<ptxt>REMOVE FRONT BUMPER COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 6 screws and clip.</ptxt>
+<figure>
+<graphic graphicname="B280750" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the screw.</ptxt>
+<figure>
+<graphic graphicname="B280864E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for both screws.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, turn the pin hold clip 90° and remove the pin hold clip.</ptxt>
+<atten4>
+<ptxt>Use the same procedure for both pin hold clips.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Put protective tape around the front bumper cover.</ptxt>
+<figure>
+<graphic graphicname="B280865E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Remove the 5 clips and 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 8 claws and 2 guides and remove the front bumper cover.</ptxt>
+<figure>
+<graphic graphicname="B280866" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>w/ Fog Light:</ptxt>
+<ptxt>Disconnect the 2 fog light connectors.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NP100WX_01_0020" proc-id="RM21Q0EV__00003OZ00000">
+<ptxt>REMOVE RADIATOR SIDE DEFLECTOR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 clips, bolt and radiator side deflector.</ptxt>
+<figure>
+<graphic graphicname="B280867" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NP100WX_01_0021" proc-id="RM21Q0EV__00003P000000">
+<ptxt>REMOVE RADIATOR SIDE DEFLECTOR RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000003NP100WX_01_0018" proc-id="RM21Q0EV__00003OX00000">
+<ptxt>REMOVE FRONT BUMPER REINFORCEMENT SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 4 nuts and front bumper reinforcement.</ptxt>
+<figure>
+<graphic graphicname="B280868" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NP100WX_01_0023" proc-id="RM21Q0EV__00003P100000">
+<ptxt>REMOVE FRONT BUMPER SIDE SUPPORT LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B280869" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 3 claws and remove the front bumper side support.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NP100WX_01_0024" proc-id="RM21Q0EV__00003P200000">
+<ptxt>REMOVE FRONT BUMPER SIDE SUPPORT RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM000003NP100WX_01_0019" proc-id="RM21Q0EV__00003OY00000">
+<ptxt>REMOVE FRONT BUMPER NO. 2 RETAINER BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt and front bumper No. 2 retainer bracket.</ptxt>
+<figure>
+<graphic graphicname="B280870" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003NP100WX_01_0026" proc-id="RM21Q0EV__00003P300000">
+<ptxt>REMOVE FRONT BUMPER NO. 1 RETAINER BRACKET</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the front bumper No. 2 retainer bracket.</ptxt>
+</atten4>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

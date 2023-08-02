@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001I_S000X" variety="S000X">
+<name>DOOR LOCK</name>
+<ttl id="1001I_S000X_7A82F_T006T" variety="T006T">
+<name>POWER DOOR LOCK CONTROL SYSTEM</name>
+<para id="RM000001IA800TX" category="D" type-id="303FN" name-id="DL0GP-13" from="201202">
+<name>CUSTOMIZE PARAMETERS</name>
+<subpara id="RM000001IA800TX_z0" proc-id="RM21Q0EV__00002FE00000">
+<content5 releasenbr="1">
+<atten4>
+<ptxt>w/ Theft Deterrent System:</ptxt>
+<ptxt>The following items can be customized.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When the customer requests a change in a function, first make sure that the function(s) can be customized.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>Be sure to write down the current settings before customizing.</ptxt>
+</item>
+</list1>
+</atten3>
+<table pgwide="1">
+<title>Theft warning ECU </title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Default</ptxt>
+</entry>
+<entry>
+<ptxt>Contents</ptxt>
+</entry>
+<entry>
+<ptxt>Setting</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Speed-sensitive automatic door lock function </ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>Function that locks all doors once vehicle speed reaches 25 km/h (16 mph) for 1 second or more</ptxt>
+</entry>
+<entry>
+<ptxt>ON / OFF*</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Ignition switch-linked automatic door unlock function</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+<entry>
+<ptxt>After speed-sensitive automatic door lock function operates, turning ignition switch OFF causes doors to automatically unlock</ptxt>
+</entry>
+<entry>
+<ptxt>ON / OFF*</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*: When customizing the ON / OFF setting of the speed-sensitive automatic door lock function or ignition switch-linked automatic door unlock function, please note that the two functions' settings are synchronized. For information on how to customize, refer to the flowchart below.</ptxt>
+</atten4>
+<step1>
+<ptxt>CUSTOMIZE METHOD FLOWCHART OF SPEED-SENSITIVE AUTOMATIC DOOR LOCK FUNCTION, IGNITION SWITCH-LINKED AUTOMATIC DOOR UNLOCK FUNCTION </ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>During customize mode, the alarm control functions are disabled.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>During customize mode, the following wireless control functions are disabled: remote alarm function, automatic locking function, operation stop function and illuminated entry function.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>In the flowchart, "lock operation" and "unlock operation" refer to the wireless transmitter lock operation and unlock operation.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>During customize mode, the ECU will not output lock/unlock signals.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>While in customize mode, if the key is inserted into the ignition key cylinder or a door is opened, customize mode will be canceled.</ptxt>
+</item>
+</list1>
+</step1>
+<descript-diag>
+<descript-testgroup>
+<testtitle>CHECK THAT THE FOLLOWING CONDITIONS ARE MET</testtitle>
+<test1>
+<ptxt>No key is in the ignition key cylinder.</ptxt>
+</test1>
+<test1>
+<ptxt>The theft deterrent system is in the disarmed state (when either condition below is met):</ptxt>
+<ptxt>- All the doors are in the unlocked condition and the doors are locked and unlocked using the transmitter.</ptxt>
+<ptxt>- The key is inserted into the ignition key cylinder, the ignition switch is turned ON then OFF, and then the key is removed.</ptxt>
+</test1>
+<test1>
+<ptxt>The driver side door is opened (the other doors are closed).</ptxt>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>INSERT KEY AND PULL OUT KEY. REPEAT ONCE WITHIN 5 SECONDS</testtitle>
+<atten4>
+<ptxt>If the key is inserted into the ignition key cylinder and the ignition switch is turned ON, the customization mode will be canceled.</ptxt>
+</atten4>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>WAIT FOR 5 SECONDS</testtitle>
+<atten4>
+<ptxt>If the key is inserted into the ignition key cylinder without waiting 5 seconds, customization mode will be canceled.</ptxt>
+</atten4>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>PRESS AND HOLD DOWN UNLOCK SWITCH</testtitle>
+<test1>
+<ptxt>Press and hold down the transmitter UNLOCK switch for 2.4 seconds or more twice.</ptxt>
+</test1>
+<test1>
+<ptxt>Close the driver side door.</ptxt>
+<atten3>
+<ptxt>Perform this procedure within 10 seconds of the previous step.</ptxt>
+</atten3>
+<atten4>
+<ptxt>When customize mode has been entered, the hazard warning lights will immediately flash once.</ptxt>
+</atten4>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>PERFORM LOCK OPERATION</testtitle>
+<test1>
+<ptxt>Perform the lock operation 2 times within 2 seconds.</ptxt>
+<atten3>
+<ptxt>Perform this procedure within 5 seconds of the previous step.</ptxt>
+</atten3>
+<atten4>
+<ptxt>If the lock operation is performed over 3 times or the unlock switch is pressed, customize mode will end.</ptxt>
+</atten4>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>PERFORM UNLOCK OPERATION</testtitle>
+<test1>
+<ptxt>Perform the unlock operation once.</ptxt>
+<atten3>
+<ptxt>Perform this procedure within 2 seconds of performing the last lock operation of the previous step.</ptxt>
+</atten3>
+<atten4>
+<ptxt>After the hazard warning lights flash 2 times, the user can confirm the customize setting, customize the setting, or end customize mode.</ptxt>
+</atten4>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>SELECT CUSTOMIZE MODE SETTING</testtitle>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Check current setting</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Turn ON speed-sensitive automatic door lock function and ignition switch-linked automatic door unlock function setting</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Turn OFF speed-sensitive automatic door lock function and ignition switch-linked automatic door unlock function setting</ptxt>
+</entry>
+<entry>
+<ptxt>C</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>End customize mode</ptxt>
+</entry>
+<entry>
+<ptxt>D</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>A selection must be made within 10 seconds.</ptxt>
+</atten3>
+<results>
+<result>B</result>
+<action-ci-right>Go to step 9</action-ci-right>
+<result>C</result>
+<action-ci-right>Go to step 10</action-ci-right>
+<result>D</result>
+<action-ci-right>Go to step 11</action-ci-right>
+<result-ci-down>A</result-ci-down>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>CHECK CURRENT SETTING</testtitle>
+<test1>
+<ptxt>Perform the unlock operation once.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Setting</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Hazard warning lights flash once</ptxt>
+</entry>
+<entry>
+<ptxt>ON</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Hazard warning lights flash twice</ptxt>
+</entry>
+<entry>
+<ptxt>OFF</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The current customize setting is communicated through hazard warning light flashes.</ptxt>
+</atten4>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+<action-ci-fin>END</action-ci-fin>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>TURN FUNCTION AND SETTING ON</testtitle>
+<test1>
+<ptxt>Perform the lock operation once. Then perform the unlock operation again within 2 seconds</ptxt>
+<atten4>
+<ptxt>The hazard warning lights will flash once. </ptxt>
+</atten4>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+<action-ci-fin>END</action-ci-fin>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>TURN FUNCTION AND SETTING OFF</testtitle>
+<test1>
+<ptxt>Perform the lock operation twice. Then perform the unlock operation again within 2 seconds.</ptxt>
+<atten4>
+<ptxt>The hazard warning lights will flash twice.</ptxt>
+</atten4>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+<action-ci-fin>END</action-ci-fin>
+</results>
+</descript-testgroup>
+<descript-testgroup>
+<testtitle>END CUSTOMIZE MODE</testtitle>
+<test1>
+<ptxt>Perform the lock operation 3 times or more.</ptxt>
+</test1>
+<results>
+<result-ci-down>NEXT</result-ci-down>
+<action-ci-fin>END</action-ci-fin>
+</results>
+</descript-testgroup>
+</descript-diag>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

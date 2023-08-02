@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROW_T009Y" variety="T009Y">
+<name>AIR CONDITIONING PANEL (for Manual Air Conditioning System)</name>
+<para id="RM0000012KC015X" category="A" type-id="80001" name-id="ACFUC-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000012KC015X_01" type-id="01" category="01">
+<s-1 id="RM0000012KC015X_01_0025" proc-id="RM21Q0EV__00003A000000">
+<ptxt>REMOVE CENTER LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279083E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the center lower instrument cluster finish panel.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 claws and 2 clips and remove the center lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012KC015X_01_0024" proc-id="RM21Q0EV__00003A000000">
+<ptxt>REMOVE CENTER INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279083E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the center lower instrument cluster finish panel.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 claws and 2 clips and remove the center lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012KC015X_01_0028" proc-id="RM21Q0EV__00004ES00000">
+<ptxt>REMOVE COOLER SWITCH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws.</ptxt>
+<figure>
+<graphic graphicname="E235153" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the connector and remove the cooler switch.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000012KC015X_01_0010" proc-id="RM21Q0EV__000049H00000">
+<ptxt>REMOVE NO. 2 HEATER CONTROL KNOB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225816" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the No. 2 heater control knob as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012KC015X_01_0014" proc-id="RM21Q0EV__000049K00000">
+<ptxt>REMOVE HEATER CONTROL KNOB</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225817" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the heater control knob as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012KC015X_01_0011" proc-id="RM21Q0EV__000049I00000">
+<ptxt>DISCONNECT AIR INLET DAMPER CONTROL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225076" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 2 claws and disconnect the air inlet damper control cable sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012KC015X_01_0012" proc-id="RM21Q0EV__000049J00000">
+<ptxt>DISCONNECT HEATER CONTROL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E225077" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Detach the 2 claws and disconnect the heater control cable sub-assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012KC015X_01_0027" proc-id="RM21Q0EV__000049O00000">
+<ptxt>DISCONNECT AIR MIX DAMPER CONTROL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the 2 claws and disconnect the air mix damper control cable sub-assembly.</ptxt>
+<figure>
+<graphic graphicname="E226070" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000012KC015X_01_0005" proc-id="RM21Q0EV__000049G00000">
+<ptxt>REMOVE AIR CONDITIONING CONTROL ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector and remove the air conditioning control assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

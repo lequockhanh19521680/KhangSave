@@ -1,0 +1,18 @@
+<!-- $Id: index.html,v 1.1 2008/03/27 07:36:24 k-matsumoto Exp $ -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<script language="javascript">
+var prm = location.search;
+var url = "html/toc/frame.html";
+if (prm == "") {
+	url += "?idx=toc";
+} else {
+	url += prm + "&idx=toc";
+}
+location.replace(url);
+</script>
+</head>
+<body></body>
+</html>

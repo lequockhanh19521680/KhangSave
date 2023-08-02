@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="54">
+<name>Brake</name>
+<section id="12034_S000N" variety="S000N">
+<name>PARKING BRAKE</name>
+<ttl id="12034_S000N_7AKNV_T0017" variety="T0017">
+<name>PARKING BRAKE SYSTEM</name>
+<para id="RM000004S1H004X" category="F" type-id="8048W" name-id="PB2DN-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004S1H004X_z0" proc-id="NM21Q0EV__000003500000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A leading-trailing drum parking brake is used.</ptxt>
+</step2>
+<step2>
+<ptxt>A center lever type parking brake lever is used.</ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

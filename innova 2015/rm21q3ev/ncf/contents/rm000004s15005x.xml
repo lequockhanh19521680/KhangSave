@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="53">
+<name>Suspension</name>
+<section id="12026_S000G" variety="S000G">
+<name>FRONT SUSPENSION</name>
+<ttl id="12026_S000G_7AKNO_T0010" variety="T0010">
+<name>FRONT SUSPENSION SYSTEM</name>
+<para id="RM000004S15005X" category="F" type-id="8048W" name-id="FP14S-01" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004S15005X_z0" proc-id="NM21Q0EV__000002U00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A double-wishbone type independent suspension is used for the front.</ptxt>
+</step2>
+<step2>
+<ptxt>Through the optimal allocation of components, the front suspension ensures excellent riding comfort and controllability.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>PRECAUTION</ptxt>
+<step2>
+<ptxt>The camber and caster of the front suspension are adjusted at the camber adjusting cams of the lower arms, and the toe-in is adjusted by changing the lengths of the tie rod ends. For details, refer to the corresponding Repair Manual for this model.</ptxt>
+</step2>
+<step2>
+<ptxt>The value of the front wheel alignment (caster, camber, toe-in and king pin inclination) varies in accordance with model and specification. For details, refer to the corresponding Repair Manual for this model.</ptxt>
+<figure>
+<graphic graphicname="X105359E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 1 Camber Adjusting Cam</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>No. 2 Camber Adjusting Cam</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="X105360E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Tie Rod End</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

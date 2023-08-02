@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="conn" code="S12" subcode="A">
+		<pin no="8" spec="Before Feb. 2012 Production">
+			<line id="1" color="W-R">
+				<connector type="jbc" code="2O">
+					<pin no="32"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S22" subcode="B">
+		<pin no="8" spec="From Feb. 2012 Production">
+			<line id="1" color="W-R">
+				<connector type="jbc" code="2O">
+					<pin no="32"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2N">
+		<pin no="16">
+			<line id="2" color="W-R">
+				<connector type="w2w" code="II4" sex="male">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="female">
+		<pin no="12">
+			<line id="3" color="W-R">
+				<connector type="jbc" code="1I">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="1I">
+		<pin no="8">
+			<line id="4" color="B">
+				<connector type="conn" code="H4">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="H4">
+		<pin no="1">
+			<line id="5" color="B">
+				<connector type="conn" code="H3">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

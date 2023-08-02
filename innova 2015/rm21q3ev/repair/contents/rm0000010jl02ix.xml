@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81E_T005S" variety="T005S">
+<name>FRONT AIRBAG SENSOR</name>
+<para id="RM0000010JL02IX" category="G" type-id="8000T" name-id="RS0JK-53" from="201202" to="201403">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM0000010JL02IX_01" type-id="01" category="01">
+<s-1 id="RM0000010JL02IX_01_0001" proc-id="RM21Q0EV__00004UZ00000">
+<ptxt>CHECK FRONT AIRBAG SENSOR LH (VEHICLE NOT INVOLVED IN COLLISION AND AIRBAG NOT DEPLOYED)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform a diagnostic system check (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JL02IX_01_0002" proc-id="RM21Q0EV__00004V000000">
+<ptxt>CHECK FRONT AIRBAG SENSOR LH (VEHICLE INVOLVED IN COLLISION AND AIRBAG NOT DEPLOYED)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform a diagnostic system check (See page <xref label="Seep01" href="RM000000YVX010X"/>).</ptxt>
+</s2>
+<s2>
+<ptxt>If the front fender of the vehicle or its periphery are damaged, perform a visual check:</ptxt>
+<list1 type="unordered">
+<item>
+<ptxt>Check for cracks, dents or chips in the case.</ptxt>
+</item>
+<item>
+<ptxt>Check for cracks, dents, chips and scratches in the connector.</ptxt>
+</item>
+<item>
+<ptxt>Check for peeling of the label or damage of the serial number.</ptxt>
+</item>
+</list1>
+<list1 type="nonmark">
+<item>
+<ptxt>If any of the defects mentioned above are present, replace the front airbag sensor LH with a new one.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010JL02IX_01_0003" proc-id="RM21Q0EV__00004V100000">
+<ptxt>CHECK FRONT AIRBAG SENSOR LH (VEHICLE INVOLVED IN COLLISION AND AIRBAG DEPLOYED)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Replace the front airbag sensor LH.</ptxt>
+<atten2>
+<ptxt>For removal and installation of the front airbag sensor LH, be sure to follow the correct procedures.</ptxt>
+</atten2>
+<atten4>
+<ptxt>If the airbags have deployed, replace the front airbag sensor LH on the side in which the collision occurred. Replace both if necessary.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

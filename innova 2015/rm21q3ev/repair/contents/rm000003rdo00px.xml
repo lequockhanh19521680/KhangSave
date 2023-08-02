@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7AX2N_T00AR" variety="T00AR">
+<name>RADIO ANTENNA CORD</name>
+<para id="RM000003RDO00PX" category="A" type-id="80001" name-id="AVC1K-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM000003RDO00PX_01" type-id="01" category="01">
+<s-1 id="RM000003RDO00PX_01_0001" proc-id="RM21Q0EV__000058A00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to disable the SRS system.</ptxt>
+</atten2>
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM000003RDO00PX_01_0002" proc-id="RM21Q0EV__000058B00000">
+<ptxt>REMOVE UPPER INSTRUMENT PANEL SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEO00DX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM000003RDO00PX_01_0011" proc-id="RM21Q0EV__000058E00000">
+<ptxt>REMOVE ANTENNA CORD SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connectors.</ptxt>
+<figure>
+<graphic graphicname="E226371" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 4 clamps shown in the illustration and remove the antenna cord.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

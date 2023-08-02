@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000Q_S000E" variety="S000E">
+<name>A45DE AUTOMATIC TRANSMISSION</name>
+<ttl id="1000Q_S000E_7A7ZH_T003V" variety="T003V">
+<name>AUTOMATIC TRANSMISSION SYSTEM</name>
+<para id="RM000000W7A0LXX" category="D" type-id="303FB" name-id="AT002Z-208" from="201202" to="201303">
+<name>MECHANICAL SYSTEM TESTS</name>
+<subpara id="RM000000W7A0LXX_z0" proc-id="RM21Q0EV__000018800000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>STALL SPEED TEST</ptxt>
+<atten4>
+<ptxt>This test is to check the overall performance of the engine and transmission.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Do not perform the stall speed test longer than 5 seconds.</ptxt>
+</item>
+<item>
+<ptxt>To ensure safety, perform this test in an open and level area that provides good traction.</ptxt>
+</item>
+<item>
+<ptxt>The stall speed test should always be performed with at least 2 people. One person should observe the condition of the wheels and wheel chocks while the other is performing the test.</ptxt>
+</item>
+</list1>
+</atten3>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Run the vehicle until the ATF temperature has reached 50 to 80°C (122 to 176°F).</ptxt>
+</step2>
+<step2>
+<ptxt>Allow the engine to idle with the air conditioning off.</ptxt>
+</step2>
+<step2>
+<ptxt>Chock all 4 wheels.</ptxt>
+</step2>
+<step2>
+<ptxt>Set the parking brake and keep the brake pedal depressed firmly with your left foot.</ptxt>
+</step2>
+<step2>
+<ptxt>Move the shift lever to the D position.</ptxt>
+</step2>
+<step2>
+<ptxt>Depress the accelerator pedal as much as possible with your right foot.</ptxt>
+</step2>
+<step2>
+<ptxt>Read the engine rpm (stall speed) and release the accelerator pedal immediately.</ptxt>
+<spec>
+<title>Standard value</title>
+<specitem>
+<ptxt>2100 +/- 150 rpm</ptxt>
+</specitem>
+</spec>
+<table pgwide="1">
+<title>Evaluation:</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.83in"/>
+<colspec colname="COL2" colwidth="4.25in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Test Result</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Possible Cause</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Stall speed is lower than standard value</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Stator one-way clutch is not operating properly</ptxt>
+</item>
+<item>
+<ptxt>Torque converter is faulty (Stall speed is less than standard value by 600 rpm or more)</ptxt>
+</item>
+<item>
+<ptxt>Engine power may be insufficient</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Stall speed is higher than standard value</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Line pressure is low</ptxt>
+</item>
+<item>
+<ptxt>Forward clutch slipping</ptxt>
+</item>
+<item>
+<ptxt>No.2 one-way clutch is not operating properly</ptxt>
+</item>
+<item>
+<ptxt>O/D one-way clutch is not operating properly</ptxt>
+</item>
+<item>
+<ptxt>Improper fluid level</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Perform the test at the normal operating ATF temperature of 50 to 80°C (122 to 176°F).</ptxt>
+</atten3>
+</step2>
+</step1>
+<step1>
+<ptxt>SHIFT TIME LAG TEST</ptxt>
+<atten4>
+<ptxt>This test is to check the condition of the direct clutch, forward clutch, 1st brake and reverse brake.</ptxt>
+</atten4>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Run the vehicle until the ATF temperature has reached 50 to 80°C (122 to 176°F).</ptxt>
+</step2>
+<step2>
+<ptxt>Allow the engine to idle with the air conditioning off.</ptxt>
+</step2>
+<step2>
+<ptxt>Set the parking brake and keep the brake pedal depressed firmly.</ptxt>
+</step2>
+<step2>
+<ptxt>Check the D range time lag.</ptxt>
+<step3>
+<ptxt>Move the shift lever to N and wait for 1 minute.</ptxt>
+</step3>
+<step3>
+<ptxt>Move the shift lever to D and measure the time until the shock is felt.</ptxt>
+</step3>
+<step3>
+<ptxt>Repeat the 2 procedures above 3 times, and calculate the average time of the 3 tests.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Check the R range time lag.</ptxt>
+<step3>
+<ptxt>Move the shift lever to N and wait for 1 minute.</ptxt>
+</step3>
+<step3>
+<ptxt>Move the shift lever to R and measure the time until the shock is felt.</ptxt>
+</step3>
+<step3>
+<ptxt>Repeat the 2 procedures above 3 times, and calculate the average time of the 3 tests.</ptxt>
+<spec>
+<title>Standard value</title>
+<specitem>
+<ptxt>D range time lag is less than 1.2 seconds</ptxt>
+</specitem>
+<specitem>
+<ptxt>R range time lag is less than 1.5 seconds</ptxt>
+</specitem>
+</spec>
+<table pgwide="1">
+<title>Evaluation:</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<thead>
+<row>
+<entry valign="top">
+<ptxt>Test Result</ptxt>
+</entry>
+<entry valign="top">
+<ptxt>Possible Cause</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>D range time lag exceeds standard value</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Line pressure is low</ptxt>
+</item>
+<item>
+<ptxt>Forward clutch is worn</ptxt>
+</item>
+<item>
+<ptxt>O/D one-way clutch is not operating properly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>R range time lag exceeds standard value</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>Line pressure is low</ptxt>
+</item>
+<item>
+<ptxt>Direct clutch is worn</ptxt>
+</item>
+<item>
+<ptxt>1st and reverse brake is worn</ptxt>
+</item>
+<item>
+<ptxt>O/D one-way clutch is not operating properly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</step3>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

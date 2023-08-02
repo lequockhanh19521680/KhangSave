@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A838_T007M" variety="T007M">
+<name>WINDOW DEFOGGER SYSTEM</name>
+<para id="RM000004T3000FX" category="T" type-id="3001H" name-id="WS5NU-13" from="201202">
+<name>PROBLEM SYMPTOMS TABLE</name>
+<subpara id="RM000004T3000FX_z0" proc-id="RM21Q0EV__00004YD00000">
+<content5 releasenbr="2">
+<atten4>
+<ptxt>Use the table below to help determine the cause of the problem symptom. The potential causes of the symptoms are listed in order of probability in the "Suspected Area" column of the table. Check each symptom by checking the suspected areas in the order they are listed. Replace parts as necessary.</ptxt>
+</atten4>
+<table pgwide="1">
+<title>Window Defogger System</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.76in"/>
+<colspec colname="COL2" colwidth="3.19in"/>
+<colspec colname="COL3" colwidth="1.13in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Symptom</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Suspected Area</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>See page</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry morerows="7" valign="middle">
+<ptxt>Rear window defogger switch is turned on but does not operate</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DEF fuse</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref href="RM000004UYE001X" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>DEF relay</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref href="RM000001L8501RX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Air conditioning amplifier assembly (for Automatic Air Conditioning System)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01KX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No. 1 cooler wire (for Automatic Air Conditioning System)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref href="RM000004QZA00DX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Integration panel sub-assembly (window defogger switch) (for Automatic Air Conditioning System)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref href="RM000001K3A01JX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rear window defogger switch assembly (for Manual Air Conditioning System)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref href="RM000001OES00TX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Back door glass (window defogger wire)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>
+<xref href="RM000001L6403TX" label="XX-XX"/>
+</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Harness or connector</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

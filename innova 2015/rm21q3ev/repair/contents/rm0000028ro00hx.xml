@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T3">
+<name>SERVICE SPECIFICATIONS</name>
+<section id="10004_S0003" variety="S0003">
+<name>SERVICE SPECIFICATIONS</name>
+<ttl id="10004_S0003_7A7XR_T0025" variety="T0025">
+<name>MIRROR</name>
+<para id="RM0000028RO00HX" category="F" type-id="30028" name-id="SS29M-01" from="201202" to="201303">
+<name>TORQUE SPECIFICATIONS</name>
+<subpara id="RM0000028RO00HX_z0" proc-id="RM21Q0EV__000004S00000">
+<content5 releasenbr="1">
+<spec>
+<title>MIRROR</title>
+<table pgwide="1">
+<tgroup cols="4">
+<colspec colname="COL1" colwidth="1.77in"/>
+<colspec colname="COL2" colwidth="1.77in"/>
+<colspec colname="COL3" colwidth="1.77in"/>
+<colspec colname="COL4" colwidth="1.77in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Part Tightened</ptxt>
+</entry>
+<entry>
+<ptxt>N*m</ptxt>
+</entry>
+<entry>
+<ptxt>kgf*cm</ptxt>
+</entry>
+<entry>
+<ptxt>ft.*lbf</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Outer rear view mirror assembly x Door panel</ptxt>
+</entry>
+<entry>
+<ptxt>8.0</ptxt>
+</entry>
+<entry>
+<ptxt>82</ptxt>
+</entry>
+<entry>
+<ptxt>71 in.*lbf</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

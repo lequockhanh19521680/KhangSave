@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AU9X_T00A3" variety="T00A3">
+<name>FRONT WIPER MOTOR</name>
+<para id="RM00000114B01AX" category="A" type-id="80001" name-id="WW54T-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000114B01AX_01" type-id="01" category="01">
+<s-1 id="RM00000114B01AX_01_0001" proc-id="RM21Q0EV__00004MO00000">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0002" proc-id="RM21Q0EV__00004MP00000">
+<ptxt>REMOVE FRONT WIPER ARM HEAD CAP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver, remove the front wiper arm head cap.</ptxt>
+<figure>
+<graphic graphicname="E225502" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</item>
+<item>
+<ptxt>Use the same procedure for both front wiper arm head caps.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0003" proc-id="RM21Q0EV__00004MQ00000">
+<ptxt>REMOVE FRONT WIPER ARM AND BLADE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the nut and the front wiper arm and blade assembly LH.</ptxt>
+<figure>
+<graphic graphicname="E226518" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0004" proc-id="RM21Q0EV__00004MR00000">
+<ptxt>REMOVE FRONT WIPER ARM AND BLADE ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the nut and the front wiper arm and blade assembly RH.</ptxt>
+<figure>
+<graphic graphicname="E226516" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0005" proc-id="RM21Q0EV__00004MS00000">
+<ptxt>REMOVE HOOD TO COWL TOP SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a clip remover, detach the 9 clips and remove the hood to cowl top seal.</ptxt>
+<figure>
+<graphic graphicname="E226525" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0007" proc-id="RM21Q0EV__00004MU00000">
+<ptxt>REMOVE COWL TOP VENTILATOR LOUVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the clip.</ptxt>
+<figure>
+<graphic graphicname="E226529" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws and 5 guides, and remove the cowl top ventilator louver RH in the direction indicated by the arrow in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0006" proc-id="RM21Q0EV__00004MT00000">
+<ptxt>REMOVE COWL TOP VENTILATOR LOUVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the clip.</ptxt>
+<figure>
+<graphic graphicname="E226527" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 6 claws and 5 guides, and remove the cowl top ventilator louver LH in the direction indicated by the arrow in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0008" proc-id="RM21Q0EV__00004MV00000">
+<ptxt>REMOVE WINDSHIELD WIPER MOTOR AND LINK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+<figure>
+<graphic graphicname="E226531" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts.</ptxt>
+</s2>
+<s2>
+<ptxt>Move the wiper cushion in the direction shown by the arrow in the illustration to detach the wiper cushion from the body, and remove the wiper motor and link.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114B01AX_01_0009" proc-id="RM21Q0EV__00004MW00000">
+<ptxt>REMOVE WINDSHIELD WIPER MOTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver, disconnect the 2 rods of the wiper link from the wiper motor as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E225277" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Using a T30 "TORX" socket, remove the 2 bolts and wiper motor.</ptxt>
+<figure>
+<graphic graphicname="E225278" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

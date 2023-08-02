@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000S_S000F" variety="S000F">
+<name>CLUTCH</name>
+<ttl id="1000S_S000F_7A7ZK_T003Y" variety="T003Y">
+<name>CLUTCH RELEASE CYLINDER</name>
+<para id="RM0000010RF00ZX" category="A" type-id="80002" name-id="CL02I-04" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000010RF00ZX_01" type-id="01" category="01">
+<s-1 id="RM0000010RF00ZX_01_0001" proc-id="RM21Q0EV__000019G00000">
+<ptxt>REMOVE CLUTCH RELEASE CYLINDER KIT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the boot from the cylinder body.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the push rod from the cylinder body.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the piston from the cylinder body.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the inside of the cylinder body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Remove the spring from the piston.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the bleeder plug cap from the bleeder plug.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010RF00ZX_01_0002">
+<ptxt>REMOVE RELEASE CYLINDER BLEEDER PLUG</ptxt>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AVQ5_T00A7" variety="T00A7">
+<name>AIR CONDITIONING SYSTEM (for Automatic Air Conditioning System)</name>
+<para id="RM000002LLV066X" category="J" type-id="300CG" name-id="ACDF9-10" from="201403">
+<dtccode/>
+<dtcname>Back-up Power Source Circuit</dtcname>
+<subpara id="RM000002LLV066X_01" type-id="60" category="03" proc-id="RM21Q0EV__00004S800001">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>The back-up power source circuit for the air conditioning amplifier assembly is shown below. Power is supplied even after the ignition switch is turned off and is used for diagnostic trouble code memory, etc.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM000002LLV066X_02" type-id="32" category="03" proc-id="RM21Q0EV__00004S900001">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E227740E07" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000002LLV066X_03" type-id="51" category="05" proc-id="RM21Q0EV__00004SA00001">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>Inspect the fuses for circuits related to this system before performing the following inspection procedure.</ptxt>
+</atten3>
+</content5>
+</subpara>
+<subpara id="RM000002LLV066X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000002LLV066X_04_0002" proc-id="RM21Q0EV__00004SB00001">
+<testtitle>CHECK HARNESS AND CONNECTOR (AIR CONDITIONING AMPLIFIER - BATTERY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the A36 air conditioning amplifier assembly connector.</ptxt>
+<figure>
+<graphic graphicname="E170963E43" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>A36-5 (+B1) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to Air Conditioning Amplifier Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000002LLV066X_04_0003" fin="true">OK</down>
+<right ref="RM000002LLV066X_04_0005" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000002LLV066X_04_0003">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000045E302EX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000002LLV066X_04_0005">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

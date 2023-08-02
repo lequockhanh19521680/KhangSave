@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YB_T002P" variety="T002P">
+<name>FUEL SYSTEM</name>
+<para id="RM000000YL401EX" category="L" type-id="3001A" name-id="FU0FW-02" from="201202">
+<name>PRECAUTION</name>
+<subpara id="RM000000YL401EX_z0" proc-id="RM21Q0EV__00000NS00000">
+<content5 releasenbr="1">
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Before working on the fuel system, disconnect the cable from the negative (-) battery terminal.</ptxt>
+</item>
+<item>
+<ptxt>Do not smoke or be near an open flame when working on the fuel system.</ptxt>
+</item>
+<item>
+<ptxt>Keep gasoline away from rubber or leather parts.</ptxt>
+</item>
+</list1>
+</atten2>
+<step1>
+<ptxt>DISCHARGE FUEL SYSTEM PRESSURE</ptxt>
+<atten2>
+<list1 type="unordered">
+<item>
+<ptxt>Do not disconnect any part of the fuel system until you have discharged the fuel system pressure.</ptxt>
+</item>
+<item>
+<ptxt>Even after discharging the fuel pressure, place a cloth or equivalent over fittings as you separate them to reduce the risk of fuel spray on yourself or in the engine compartment.</ptxt>
+</item>
+</list1>
+</atten2>
+<step2>
+<ptxt>Disconnect the cable from the negative (-) battery terminal.</ptxt>
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</step2>
+<step2>
+<ptxt>Remove the front driver side scuff plate.</ptxt>
+<step3>
+<ptxt>Using a screwdriver, detach the 7 claws.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</step3>
+<step3>
+<ptxt>Using a clip remover, detach the 3 clips and remove the scuff plate.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Turn up the floor carpet and disconnect the joining connector, as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="A116042" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>This connector has the lines of the fuel pump and rear speed sensor.</ptxt>
+</atten4>
+</step2>
+<step2>
+<ptxt>Connect the cable to the negative (-) battery terminal.</ptxt>
+</step2>
+<step2>
+<ptxt>Start the engine. After the engine has stopped on its own, turn the ignition switch OFF.</ptxt>
+<atten4>
+<ptxt>DTCs C0210/33 and C0215/34 (rear speed sensor circuit) and DTC P0171/25 (system too lean) may be set.</ptxt>
+</atten4>
+</step2>
+<step2>
+<ptxt>Crank the engine again, and then check that the engine does not start.</ptxt>
+</step2>
+<step2>
+<ptxt>Loosen the fuel tank cap, and then discharge the pressure in the fuel tank completely.</ptxt>
+</step2>
+<step2>
+<ptxt>Connect the fuel pump connector.</ptxt>
+</step2>
+<step2>
+<ptxt>Install the front driver side scuff plate.</ptxt>
+</step2>
+<step2>
+<ptxt>Clear the DTCs (see page <xref label="Seep02" href="RM000000ZPW01AX"/>).</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>FUEL SYSTEM</ptxt>
+<step2>
+<ptxt>When disconnecting the high fuel pressure line, a large amount of gasoline will spill out. Follow these procedures.</ptxt>
+<step3>
+<ptxt>Discharge the fuel system pressure (see above procedure).</ptxt>
+</step3>
+<step3>
+<ptxt>Put a container under the connection.</ptxt>
+</step3>
+<step3>
+<ptxt>Disconnect the fuel pump tube. </ptxt>
+</step3>
+<step3>
+<ptxt>Drain the fuel remaining inside the fuel pump tube.</ptxt>
+</step3>
+<step3>
+<ptxt>To protect the disconnected fuel pump tube from damage and contamination, cover it with a plastic bag.</ptxt>
+<figure>
+<graphic graphicname="B000679E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Observe these precautions when removing and installing the injector.</ptxt>
+<figure>
+<graphic graphicname="A111059E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<step3>
+<ptxt>Never reuse the O-rings.</ptxt>
+</step3>
+<step3>
+<ptxt>When placing a new O-ring on the injector, take care not to damage it in any way.</ptxt>
+</step3>
+<step3>
+<ptxt>Coat new O-rings with grease or gasoline before installing them. Never use engine, gear or brake oil.</ptxt>
+</step3>
+</step2>
+<step2>
+<ptxt>Install the injector to the delivery pipe and cylinder head, as shown in the illustration. Before installing the injector, be sure to apply grease or gasoline on the place where the delivery pipe touches the O-ring of the injector.</ptxt>
+<figure>
+<graphic graphicname="A099424E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step2>
+<step2>
+<ptxt>Observe these precautions when disconnecting the fuel tube connector (quick type). </ptxt>
+<figure>
+<graphic graphicname="A099425E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step3>
+<ptxt>Fuel hose connector cover type:</ptxt>
+<ptxt>Detach the lock claw by lifting up the cover, as shown in the illustration.</ptxt>
+</step3>
+<step3>
+<ptxt>Fuel pipe clamp type:</ptxt>
+<figure>
+<graphic graphicname="A099426E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the fuel pipe clamp from the fuel tube connector.</ptxt>
+</step3>
+<step3>
+<ptxt>Check for dirt or mud on the pipe and around the connector before disconnection. Clean if necessary.</ptxt>
+</step3>
+<step3>
+<ptxt>If the connector and the pipe are stuck together, pinch the connector, push and pull the pipe to disconnect the pipe and pull it out.</ptxt>
+<figure>
+<graphic graphicname="A088336E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt> Do not use any tools.</ptxt>
+</atten3>
+</step3>
+<step3>
+<ptxt>Check for dirt or mud on the seal surface of the disconnected pipe. Clean if necessary.</ptxt>
+</step3>
+<step3>
+<ptxt>To protect the disconnected pipe and connector from damage and contamination, cover it with a plastic bag.</ptxt>
+<figure>
+<graphic graphicname="A099427E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+</step2>
+<step2>
+<ptxt>Observe these precautions when connecting the fuel tube connector (quick type). </ptxt>
+<figure>
+<graphic graphicname="A071366E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step3>
+<ptxt>Check that there is no damage or contamination in the connected part of the pipe.</ptxt>
+</step3>
+<step3>
+<ptxt>Align the axis of the connector with the axis of the pipe. Push the pipe into the connector until the connector makes a "click" sound. If the connection is tight, apply a small amount of fresh engine oil on the tip of the pipe.</ptxt>
+</step3>
+<step3>
+<ptxt>After having finished the connection, try to pull apart the pipe and the connector and confirm that they are securely connected.</ptxt>
+<figure>
+<graphic graphicname="A071366E10" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</step3>
+<step3>
+<ptxt>Fuel pipe clamp type:</ptxt>
+<figure>
+<graphic graphicname="A099426E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the fuel pipe clamp to the connector.</ptxt>
+</step3>
+<step3>
+<ptxt>Fuel hose connector cover type:</ptxt>
+<figure>
+<graphic graphicname="A099425E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Attach the lock claws to the connector by pushing down on the cover, as shown in the illustration.</ptxt>
+</step3>
+<step3>
+<ptxt>Check that there is no fuel leakage.</ptxt>
+</step3>
+</step2>
+</step1>
+<step1>
+<ptxt>CHECK FOR FUEL LEAKS</ptxt>
+<step2>
+<ptxt>Check that there are no fuel leaks after performing maintenance anywhere on the fuel system (see page <xref label="Seep01" href="RM000000YL703IX"/>). </ptxt>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

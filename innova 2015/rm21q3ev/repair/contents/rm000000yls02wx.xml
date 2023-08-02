@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10007_S0006" variety="S0006">
+<name>1TR-FE FUEL</name>
+<ttl id="10007_S0006_7A7YG_T002U" variety="T002U">
+<name>FUEL TANK</name>
+<para id="RM000000YLS02WX" category="K" type-id="30193" name-id="FU0G0-02" from="201202">
+<name>COMPONENTS</name>
+<subpara id="RM000000YLS02WX_01" type-id="02" category="04" proc-id="RM21Q0EV__00000PB00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A129507E01" width="7.1065789991732in" height="8.79955903775739in"/>
+</figure>
+</content2>
+</subpara>
+<subpara id="RM000000YLS02WX_02" type-id="02" category="04" proc-id="RM21Q0EV__00000PC00000">
+<name>ILLUSTRATION</name>
+<content2 releasenbr="1">
+<figure>
+<graphic graphicname="A123612E01" width="7.1065789991732in" height="9.80353557226662in"/>
+</figure>
+</content2>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2Y3_T00B1" variety="T00B1">
+<name>RADIO RECEIVER</name>
+<para id="RM000003OG8011X" category="A" type-id="30014" name-id="AVFVE-01" from="201403">
+<name>INSTALLATION</name>
+<subpara id="RM000003OG8011X_01" type-id="01" category="01">
+<s-1 id="RM000003OG8011X_01_0001" proc-id="RM21Q0EV__00005L300000">
+<ptxt>INSTALL NO. 2 RADIO BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 2 radio bracket to the radio receiver with the 3 screws.</ptxt>
+<figure>
+<graphic graphicname="E226345" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OG8011X_01_0002" proc-id="RM21Q0EV__00005L400000">
+<ptxt>INSTALL NO. 1 RADIO BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the No. 1 radio bracket to the radio receiver with the 3 screws.</ptxt>
+<figure>
+<graphic graphicname="E226343" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OG8011X_01_0003" proc-id="RM21Q0EV__00005L500000">
+<ptxt>INSTALL RADIO RECEIVER ASSEMBLY WITH BRACKET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect all the connectors.</ptxt>
+<figure>
+<graphic graphicname="E226341" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the radio receiver assembly with bracket with the 4 screws.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000003OG8011X_01_0012" proc-id="RM21Q0EV__00003AO00000">
+<ptxt>INSTALL CENTER INSTRUMENT CLUSTER FINISH PANEL ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>for Manual Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 4 claws to connect the air conditioning control.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>for Automatic Air Conditioning System:</ptxt>
+<s3>
+<ptxt>Connect the connectors.</ptxt>
+</s3>
+<s3>
+<ptxt>Attach the 9 claws to install the center instrument cluster finish panel.</ptxt>
+</s3>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OG8011X_01_0021" proc-id="RM21Q0EV__00003AS00000">
+<ptxt>INSTALL CENTER LOWER INSTRUMENT CLUSTER FINISH PANEL
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 claws and 2 clips to install the center lower instrument cluster finish panel.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000003OG8011X_01_0007" proc-id="RM21Q0EV__00005L600000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

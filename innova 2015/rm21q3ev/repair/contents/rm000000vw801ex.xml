@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XY_T002C" variety="T002C">
+<name>ENGINE COOLANT TEMPERATURE SENSOR</name>
+<para id="RM000000VW801EX" category="G" type-id="3001K" name-id="ES0AB-08" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM000000VW801EX_01" type-id="01" category="01">
+<s-1 id="RM000000VW801EX_01_0001" proc-id="RM21Q0EV__000005P00000">
+<ptxt>INSPECT ENGINE COOLANT TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A107631E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<ptxt>Partially insert the sensor into the water and warm up the water.</ptxt>
+</s2>
+<s2>
+<ptxt>Measure the resistance between the terminals.</ptxt>
+<spec>
+<title>Standard resistance</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Approx. 20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>2.32 to 2.59 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Approx. 80°C (176°F)</ptxt>
+</entry>
+<entry>
+<ptxt>0.310 to 0.326 kΩ</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the sensor.</ptxt>
+<atten3>
+<ptxt>When checking the ECT sensor in the water, keep the terminals dry. After the check, wipe the sensor dry.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

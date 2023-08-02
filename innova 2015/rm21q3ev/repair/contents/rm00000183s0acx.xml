@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM00000183S0ACX" category="C" type-id="8011D" name-id="AV00FU-184" from="201403">
+<dtccode>01-21</dtccode>
+<dtcname>ROM Error</dtcname>
+<dtccode>01-22</dtccode>
+<dtcname>RAM Error</dtcname>
+<dtccode>01-23</dtccode>
+<dtcname>Bus Malfunction</dtcname>
+<dtccode>01-2A</dtccode>
+<dtcname>Internal Power Supply</dtcname>
+<dtccode>01-2B</dtccode>
+<dtcname>Internal Hardware</dtcname>
+<dtccode>01-2E</dtccode>
+<dtcname>EEPROM Error</dtcname>
+<subpara id="RM00000183S0ACX_01" type-id="60" category="03" proc-id="RM21Q0EV__00005GZ00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.34in"/>
+<colspec colname="COL2" colwidth="2.34in"/>
+<colspec colname="COL3" colwidth="2.40in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>DTC Code</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>01-21</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A malfunction exists in ROM.</ptxt>
+</entry>
+<entry morerows="5" valign="middle">
+<ptxt>Radio receiver assembly</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>01-22</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A malfunction exists in RAM.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>01-23</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A malfunction exists in the bus.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>01-2A</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>An internal power source malfunction exists.</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>01-2B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>An internal hardware malfunction exists (CPU fan, video decoder malfunction, GVIF IC, MOST [INIC]).</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>01-2E</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A checksum malfunction exists.</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM00000183S0ACX_02" type-id="51" category="05" proc-id="RM21Q0EV__00005H000000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten4>
+<ptxt>After the inspection is completed, clear the DTCs.</ptxt>
+</atten4>
+</content5>
+</subpara>
+<subpara id="RM00000183S0ACX_03" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000183S0ACX_03_0001" proc-id="RM21Q0EV__00005H100000">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Replace the radio receiver assembly (See page <xref label="Seep01" href="RM000003OG9012X"/>).</ptxt>
+</test1>
+</content6>
+<res>
+<down ref="RM00000183S0ACX_03_0002" fin="true">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM00000183S0ACX_03_0002">
+<testtitle>END</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

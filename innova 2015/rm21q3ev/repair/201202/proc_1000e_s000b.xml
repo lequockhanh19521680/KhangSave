@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<section id="1000E_S000B" variety="S000B">
+<ttl id="1000E_S000B_7A7YW_T003A" variety="T003A">
+<parts id="M000023"/>
+<para id="RM000000SM6055X" category="G" type-id="8000T" from="201202">
+<subpara id="RM000000SM6055X_01" proc-id="RM21Q0EV__00000TY00000"/>
+<subpara id="RM000000SM6055X_02">
+<s-1 id="RM000000SM6055X_02_0001" proc-id="RM21Q0EV__00000TZ00000">
+<parts id="B000144"/>
+</s-1>
+<s-1 id="RM000000SM6055X_02_0002" proc-id="RM21Q0EV__00000U000000">
+<parts id="19100P"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+<ttl id="1000E_S000B_7ARJQ_T008Z" variety="T008Z">
+<parts id="F0003AK"/>
+<para id="RM000000SK701HX" category="A" type-id="80001" from="201202">
+<subpara id="RM000000SK701HX_01">
+<s-1 id="RM000000SK701HX_01_0013" proc-id="RM21Q0EV__00000O400000">
+<parts id="17861"/>
+</s-1>
+<s-1 id="RM000000SK701HX_01_0004" proc-id="RM21Q0EV__00003IA00000">
+<parts id="19500"/>
+</s-1>
+<s-1 id="RM000000SK701HX_01_0014" proc-id="RM21Q0EV__00003IC00000">
+<parts id="19100P"/>
+</s-1>
+</subpara>
+</para>
+<para id="RM000000SK501KX" category="A" type-id="30014" from="201202">
+<subpara id="RM000000SK501KX_01">
+<s-1 id="RM000000SK501KX_01_0016" proc-id="RM21Q0EV__00003IE00000">
+<parts id="19100P"/>
+</s-1>
+<s-1 id="RM000000SK501KX_01_0001" proc-id="RM21Q0EV__00003ID00000">
+<parts id="19500"/>
+</s-1>
+<s-1 id="RM000000SK501KX_01_0017" proc-id="RM21Q0EV__00000NY00000">
+<parts id="17861"/>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-db>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="40">
+<name>SECURITIES</name>
+<section id="1002N_S000U" variety="S000U">
+<name>THEFT DETERRENT</name>
+<ttl id="1002N_S000U_7A81M_T0060" variety="T0060">
+<name>THEFT DETERRENT SYSTEM</name>
+<para id="RM000001J8T00SX" category="D" type-id="303F2" name-id="TD03N-05" from="201202">
+<name>SYSTEM DESCRIPTION</name>
+<subpara id="RM000001J8T00SX_z0" proc-id="RM21Q0EV__000027P00000">
+<content5 releasenbr="1">
+<list1 type="unordered">
+<item>
+<ptxt>The theft deterrent system uses the door lock control system and wireless door lock system. The theft deterrent system will activate when it detects that: 1) someone has attempted to forcibly enter the vehicle, 2) someone has opened the engine hood, 3) the vehicle has sustained an excessive amount of physical shock, or 4) the battery cables have been disconnected and reconnected.</ptxt>
+</item>
+<item>
+<ptxt>The shock sensing triggering sensor is built into the theft warning ECU.</ptxt>
+</item>
+<item>
+<ptxt>The theft warning ECU controls this system.</ptxt>
+</item>
+<item>
+<ptxt>The warning specifications of this system are listed below.</ptxt>
+</item>
+</list1>
+<table pgwide="1">
+<title>Warning specifications:</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry morerows="2">
+<ptxt>Warning Method</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle horns</ptxt>
+</entry>
+<entry morerows="1">
+<ptxt>Sounding</ptxt>
+<ptxt>(at approximately 0.4 second intervals)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Security horn</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Hazard warning lights</ptxt>
+</entry>
+<entry>
+<ptxt>Illuminating</ptxt>
+<ptxt>(at approximately 0.35 second intervals)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Warning Time</ptxt>
+</entry>
+<entry>
+<ptxt>All of the above</ptxt>
+</entry>
+<entry>
+<ptxt>27.5 seconds</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

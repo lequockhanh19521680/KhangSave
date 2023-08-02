@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002Y_S0019" variety="S0019">
+<name>INTERIOR</name>
+<ttl id="1002Y_S0019_7A841_T008F" variety="T008F">
+<name>FUEL LID LOCK CONTROL</name>
+<para id="RM00000225Q00BX" category="A" type-id="80001" name-id="IR1EA-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM00000225Q00BX_01" type-id="01" category="01">
+<s-1 id="RM00000225Q00BX_01_0024" proc-id="RM21Q0EV__00003H000000">
+<ptxt>REMOVE FRONT SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000Z8U09CX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0023" proc-id="RM21Q0EV__00003GZ00000">
+<ptxt>REMOVE FRONT SEAT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the RH side.</ptxt>
+</atten4>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0034" proc-id="RM21Q0EV__00003H900000">
+<ptxt>REMOVE REAR NO. 1 SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000024WV00BX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0026" proc-id="RM21Q0EV__00003H200000">
+<ptxt>REMOVE REAR NO. 1 SEAT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000024WQ00BX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0027" proc-id="RM21Q0EV__00003H300000">
+<ptxt>REMOVE REAR NO. 2 SEAT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000023OA003X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0028" proc-id="RM21Q0EV__00003H400000">
+<ptxt>REMOVE CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEC013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0010" proc-id="RM21Q0EV__00003D000000">
+<ptxt>REMOVE FRONT DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279266E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the front door scuff plate.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 clips and 7 claws and remove the front door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225Q00BX_01_0035" proc-id="RM21Q0EV__00003HA00000">
+<ptxt>REMOVE COWL SIDE TRIM BOARD LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B277609" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the part of the front door opening trim attached to the cowl side trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 clips and remove the cowl side trim board.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0012" proc-id="RM21Q0EV__00003D400000">
+<ptxt>REMOVE REAR DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279267E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Put protective tape around the rear door scuff plate.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Using a moulding remover, detach the 3 clips and 7 claws and remove the rear door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225Q00BX_01_0013" proc-id="RM21Q0EV__00003GX00000">
+<ptxt>REMOVE LOWER CENTER PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B276978" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and disconnect the front seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279268" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the part of the front door opening trim and rear door opening trim attached to the lower center pillar garnish.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 2 claws and remove the lower center pillar garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0030" proc-id="RM21Q0EV__00003DE00000">
+<ptxt>REMOVE BACK DOOR SCUFF PLATE
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279272" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<s2>
+<ptxt>Detach the 6 clips and 4 claws and remove the back door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225Q00BX_01_0031" proc-id="RM21Q0EV__00003DF00000">
+<ptxt>REMOVE QUARTER TRIM HOOK
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B276937" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Use the same procedure for both quarter trim hooks.</ptxt>
+</atten4>
+<s2>
+<ptxt>Remove the screw and quarter trim hook.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000225Q00BX_01_0014" proc-id="RM21Q0EV__00003GY00000">
+<ptxt>REMOVE QUARTER INSIDE TRIM BOARD LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279273" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the bolt and disconnect the rear No. 1 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B279274" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the bolt and disconnect the rear No. 2 seat outer belt floor anchor.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the part of the rear door opening trim attached to the quarter inside trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a clip remover, remove the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws, 8 clips and 2 guides and remove the quarter inside trim board.</ptxt>
+<figure>
+<graphic graphicname="B279275" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0033" proc-id="RM21Q0EV__00003H800000">
+<ptxt>REMOVE FRONT FLOOR CARPET ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Partially remove the floor carpet.</ptxt>
+<atten4>
+<ptxt>It is not necessary to fully remove the floor carpet. Partially remove it so that the lock control cable can be removed in a later step.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0008" proc-id="RM21Q0EV__00003GS00000">
+<ptxt>REMOVE FUEL LID LOCK CONTROL CABLE SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the fuel lid lock open lever.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the tape and detach the cable from each of the clamps shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B279300E01" width="7.106578999in" height="4.7836529in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Fuel Lid Lock Open Lever</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B277114" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Turn the fuel filler opening lid lock retainer counterclockwise and remove the fuel lid lock control cable from the fuel filler opening lid lock retainer.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000225Q00BX_01_0009" proc-id="RM21Q0EV__00003GT00000">
+<ptxt>REMOVE FUEL FILLER OPENING LID LOCK RETAINER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B277116" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Turn the fuel filler opening lid lock retainer clockwise and remove the fuel filler opening lid lock retainer as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

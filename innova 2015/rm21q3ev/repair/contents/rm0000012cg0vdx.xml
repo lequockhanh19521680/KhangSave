@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM0000012CG0VDX" category="J" type-id="3016Z" name-id="AVFVM-01" from="201403">
+<dtccode/>
+<dtcname>Illumination Circuit</dtcname>
+<subpara id="RM0000012CG0VDX_01" type-id="60" category="03" proc-id="RM21Q0EV__00005JY00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>Power is supplied to the radio receiver assembly illumination when the headlight dimmer switch assembly is in the tail or head position.</ptxt>
+</content5>
+</subpara>
+<subpara id="RM0000012CG0VDX_02" type-id="32" category="03" proc-id="RM21Q0EV__00005JZ00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E293408E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM0000012CG0VDX_03" type-id="51" category="05" proc-id="RM21Q0EV__00005K000000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten2>
+<ptxt>The vehicle is equipped with an SRS (Supplemental Restraint System) which includes components such as airbags. Before servicing (including removal or installation of parts), be sure to read the precautionary notice for the SRS (See page <xref label="Seep01" href="RM000000YVR01DX"/>).</ptxt>
+</atten2>
+</content5>
+</subpara>
+<subpara id="RM0000012CG0VDX_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM0000012CG0VDX_05_0001" proc-id="RM21Q0EV__00005K100000">
+<testtitle>CHECK ILLUMINATION</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check if the illumination for the radio receiver assembly, glove box or other parts (hazard switch, transmission control switch, etc.) comes on when the headlight dimmer switch assembly is turned to the head or tail position.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.89in"/>
+<colspec colname="COL2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Illumination comes on for all components except radio receiver assembly.</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>No illumination comes on (radio receiver assembly, hazard switch, glove box, etc.).</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM0000012CG0VDX_05_0011" fin="false">A</down>
+<right ref="RM0000012CG0VDX_05_0007" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM0000012CG0VDX_05_0011" proc-id="RM21Q0EV__00005K600000">
+<testtitle>CHECK HARNESS AND CONNECTOR (RADIO RECEIVER ASSEMBLY - BATTERY AND BODY GROUND)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the radio receiver assembly connector.</ptxt>
+<figure>
+<graphic graphicname="E178447E81" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R2-7 (GND) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3" align="center">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>R2-10 (ILL+) - Body ground</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Headlight dimmer switch assembly tail or head</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>11 to 14 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" align="left" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to Radio Receiver Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content6>
+<res>
+<down ref="RM0000012CG0VDX_05_0004" fin="true">OK</down>
+<right ref="RM0000012CG0VDX_05_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM0000012CG0VDX_05_0004">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000012A80GZX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000012CG0VDX_05_0007">
+<testtitle>GO TO LIGHTING SYSTEM<xref label="Seep01" href="RM000002CE20AZX"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM0000012CG0VDX_05_0015">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

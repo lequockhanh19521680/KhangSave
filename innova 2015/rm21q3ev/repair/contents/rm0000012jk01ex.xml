@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7A812_T005G" variety="T005G">
+<name>BLOWER UNIT</name>
+<para id="RM0000012JK01EX" category="A" type-id="80001" name-id="ACFTQ-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000012JK01EX_02" type-id="01" category="01">
+<s-1 id="RM0000012JK01EX_02_0016" proc-id="RM21Q0EV__00004HM00000">
+<ptxt>REMOVE AIR CONDITIONING UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM0000012JP01PX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000012JK01EX_02_0019" proc-id="RM21Q0EV__00004HN00000">
+<ptxt>REMOVE BLOWER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226179" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 3 screws and blower assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

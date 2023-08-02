@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="NM21Q3EV">
+<servcat id="51">
+<name>Engine / Hybrid System</name>
+<section id="12013_S000A" variety="S000A">
+<name>1TR-FE STARTING</name>
+<ttl id="12013_S000A_7AH5X_T0009" variety="T0009">
+<name>STARTING SYSTEM</name>
+<para id="RM000004RAY002X" category="F" type-id="8048W" name-id="ST5BR-02" from="201202">
+<name>GENERAL</name>
+<subpara id="RM000004RAY002X_z0" proc-id="NM21Q0EV__000000O00000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>OUTLINE</ptxt>
+<step2>
+<ptxt>A conventional planetary reduction type starter is used.</ptxt>
+</step2>
+</step1>
+<step1>
+<ptxt>SPECIFICATION</ptxt>
+<table pgwide="1">
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="3.54in"/>
+<colspec colname="COL2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Rating Output</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>1.0 kW</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rating Voltage</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>12 V</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Length*1</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>157.6 mm (6.2 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Weight</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>3100 g (6.6 lb)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Rotating Direction*2</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Clockwise</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>*1: Length from the mounted area to the rear end of the starter.</ptxt>
+<ptxt>*2: Viewed from pinion side.</ptxt>
+</atten4>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

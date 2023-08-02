@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1001H_S0016" variety="S0016">
+<name>SEAT</name>
+<ttl id="1001H_S0016_7A83K_T007Y" variety="T007Y">
+<name>REAR NO. 2 SEAT ASSEMBLY</name>
+<para id="RM0000023OB003X" category="A" type-id="80002" name-id="SE0PR-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000023OB003X_01" type-id="11" category="10" proc-id="RM21Q0EV__00002TY00000">
+<content3 releasenbr="1">
+<atten2>
+<ptxt>Wear protective gloves. Sharp areas on the seatback frames and seat cushion frame may injury your hands.</ptxt>
+</atten2>
+</content3>
+</subpara>
+<subpara id="RM0000023OB003X_02" type-id="01" category="01">
+<s-1 id="RM0000023OB003X_02_0001">
+<ptxt>REMOVE REAR NO. 2 SEAT HEADREST ASSEMBLY</ptxt>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0002" proc-id="RM21Q0EV__00002TZ00000">
+<ptxt>REMOVE REAR SEAT CUSHION HINGE LOWER COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Return the seatback to the upright position.</ptxt>
+<figure>
+<graphic graphicname="B085724E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 2 screws and lower cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0003" proc-id="RM21Q0EV__00002U000000">
+<ptxt>REMOVE NO. 1 RECLINING ADJUSTER RELEASE HANDLE RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw and release handle.</ptxt>
+<figure>
+<graphic graphicname="B085725E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0004" proc-id="RM21Q0EV__00002U100000">
+<ptxt>REMOVE REAR NO. 2 SEAT RECLINING COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws and reclining cover.</ptxt>
+<figure>
+<graphic graphicname="B085723E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0005" proc-id="RM21Q0EV__00002U200000">
+<ptxt>REMOVE REAR NO. 2 SEATBACK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 3 bolts, spacer, plate and seatback.</ptxt>
+<figure>
+<graphic graphicname="B086030E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0006" proc-id="RM21Q0EV__00002U300000">
+<ptxt>REMOVE REAR NO. 2 SEATBACK COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Open the fastening tape.</ptxt>
+<figure>
+<graphic graphicname="B085722E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, detach the hooks and open the lower part of the seatback cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Roll up the seatback cover.</ptxt>
+<figure>
+<graphic graphicname="B085727E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 4 claws and remove the 2 headrest supports.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the seatback cover (with pad) from the seatback frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 3 hog rings and seatback cover from the seatback pad.</ptxt>
+<figure>
+<graphic graphicname="B135691E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0007" proc-id="RM21Q0EV__00002U400000">
+<ptxt>REMOVE REAR SEAT HINGE COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws.</ptxt>
+<figure>
+<graphic graphicname="B086029E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a clip remover, remove the 2 clips.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a screwdriver, detach the 2 claws and remove the hinge cover.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0008" proc-id="RM21Q0EV__00002U500000">
+<ptxt>REMOVE REAR SEAT LEG COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 lock release buttons and fully extend the release band.</ptxt>
+<figure>
+<graphic graphicname="B085894E02" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 3 screws and leg cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0009" proc-id="RM21Q0EV__00002U600000">
+<ptxt>REMOVE REAR NO. 1 SEAT CUSHION HINGE COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws and hinge cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0010" proc-id="RM21Q0EV__00002U700000">
+<ptxt>REMOVE NO. 3 SEAT CUSHION HINGE COVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 screws and hinge cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0011" proc-id="RM21Q0EV__00002U800000">
+<ptxt>REMOVE REAR NO. 2 SEAT INNER BELT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the nut connecting the inner belt to the seat leg. Then remove the belt through the hole in the seat cushion cover (with pad).</ptxt>
+<figure>
+<graphic graphicname="B086024E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0012" proc-id="RM21Q0EV__00002U900000">
+<ptxt>REMOVE REAR NO. 2 SEAT LAP TYPE CENTER BELT ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the belt through the hole in the No. 2 seat cushion cover (with pad).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0013" proc-id="RM21Q0EV__00002UA00000">
+<ptxt>REMOVE NO. 2 SEAT LEG SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver, remove the No. 3 seat cushion spring from the leg as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B086028E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and leg.</ptxt>
+<figure>
+<graphic graphicname="B086027E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0014" proc-id="RM21Q0EV__00002UB00000">
+<ptxt>REMOVE REAR NO. 2 SEAT CUSHION COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver, detach the 2 hooks.</ptxt>
+<figure>
+<graphic graphicname="B119456E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Open the zippers and then remove the seat cushion cover (with pad).</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 8 hog rings and seat cushion cover (with pad) from the seat cushion frame.</ptxt>
+<figure>
+<graphic graphicname="B119457E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 6 hog rings and seat cushion cover from the seat cushion pad.</ptxt>
+<figure>
+<graphic graphicname="B135692E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0015" proc-id="RM21Q0EV__00002UC00000">
+<ptxt>REMOVE NO. 2 SEAT LEG PLATE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 2 bolts and plate.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0016" proc-id="RM21Q0EV__00002UD00000">
+<ptxt>REMOVE NO. 3 SEAT OUTER FRONT LEG SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, 2 plates and leg.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0017" proc-id="RM21Q0EV__00002UE00000">
+<ptxt>REMOVE NO. 3 SEAT OUTER REAR LEG SUB-ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bolt, 2 plates and leg.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000023OB003X_02_0018" proc-id="RM21Q0EV__00002UF00000">
+<ptxt>REMOVE NO. 2 FOLD SEAT STOPPER BAND ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the screw and stopper band.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

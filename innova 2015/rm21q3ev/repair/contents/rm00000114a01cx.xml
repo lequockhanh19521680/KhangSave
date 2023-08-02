@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7AU9X_T00A3" variety="T00A3">
+<name>FRONT WIPER MOTOR</name>
+<para id="RM00000114A01CX" category="A" type-id="30014" name-id="WW54U-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000114A01CX_01" type-id="01" category="01">
+<s-1 id="RM00000114A01CX_01_0001" proc-id="RM21Q0EV__00004N100000">
+<ptxt>INSTALL WINDSHIELD WIPER MOTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a T30 "TORX" socket, install the wiper motor with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1> 7.5</t-value1>
+<t-value2>76</t-value2>
+<t-value3>66</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the rod of the wiper link to the wiper motor.</ptxt>
+<figure>
+<graphic graphicname="E225942" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Apply MP grease to the front wiper crank pivot of the windshield wiper motor assembly.</ptxt>
+<figure>
+<graphic graphicname="E225941E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Crank Pivot</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<graphic graphicname="V100145" width="0.3937007874015748in" height="0.3937007874015748in"/>
+</entry>
+<entry valign="middle">
+<ptxt>MP grease</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>Connect the rod of the wiper link to the wiper motor.</ptxt>
+<figure>
+<graphic graphicname="E225943" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0002" proc-id="RM21Q0EV__00004N200000">
+<ptxt>INSTALL WINDSHIELD WIPER MOTOR AND LINK ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="E226532" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Move the wiper motor and link in the direction shown by the arrow in the illustration to attach the wiper cushion to the body, and install the wiper motor and link.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1> 5.5</t-value1>
+<t-value2>56</t-value2>
+<t-value3>49</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0003" proc-id="RM21Q0EV__00004N300000">
+<ptxt>INSTALL COWL TOP VENTILATOR LOUVER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 6 claws and 5 guides to install the cowl top ventilator louver LH.</ptxt>
+<figure>
+<graphic graphicname="E226535" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0004" proc-id="RM21Q0EV__00004N400000">
+<ptxt>INSTALL COWL TOP VENTILATOR LOUVER RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 4 claws and 5 guides to install the cowl top ventilator louver RH.</ptxt>
+<figure>
+<graphic graphicname="E226537" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0005" proc-id="RM21Q0EV__00004N500000">
+<ptxt>INSTALL HOOD TO COWL TOP SEAL</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 9 clips to install the seal.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0006" proc-id="RM21Q0EV__00004N600000">
+<ptxt>INSTALL FRONT WIPER ARM AND BLADE ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Operate the wiper and stop the front wiper motor and link at the automatic stop position.</ptxt>
+</s2>
+<s2>
+<ptxt>Clean the wiper arm serrations.</ptxt>
+<figure>
+<graphic graphicname="E177697E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiper Arm Serrations</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wire Brush</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiper Pivot Serrations</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>When reusing the front wiper motor and link assembly:</ptxt>
+<s3>
+<ptxt>Clean the wiper pivot serrations with a wire brush.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Position the blade tip within the range shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E226539E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mark for Blade Position</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Upper Limit</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 mm (0.393 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lower Limit</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The blade position is indicated by the mark on the glass.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the front wiper arm and blade assembly RH with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20.5</t-value1>
+<t-value2>209</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Hold the arm hinge by hand when tightening the nut.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0007" proc-id="RM21Q0EV__00004N700000">
+<ptxt>INSTALL FRONT WIPER ARM AND BLADE ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Operate the wiper and stop the front wiper motor and link at the automatic stop position.</ptxt>
+</s2>
+<s2>
+<ptxt>Clean the wiper arm serrations.</ptxt>
+<figure>
+<graphic graphicname="E177697E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiper Arm Serrations</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wire Brush</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Wiper Pivot Serrations</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+<s2>
+<ptxt>When reusing the front wiper motor and link assembly:</ptxt>
+<s3>
+<ptxt>Clean the wiper pivot serrations with a wire brush.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Position the blade tip within the range shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E226541E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mark for Blade Position</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Upper Limit</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*b</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10 mm (0.393 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*c</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Lower Limit</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten4>
+<ptxt>The blade position is indicated by the mark on the glass.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Install the front wiper arm and blade assembly LH with the nut.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>20.5</t-value1>
+<t-value2>209</t-value2>
+<t-value4>15</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Hold the arm hinge by hand when tightening the nut.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Operate the front wipers while spraying washer fluid on the windshield glass. Make sure that the front wipers function properly and the wipers do not come into contact with the vehicle body.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0008" proc-id="RM21Q0EV__00004N800000">
+<ptxt>INSTALL FRONT WIPER ARM HEAD CAP</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the front wiper arm head cap.</ptxt>
+<atten4>
+<ptxt>Use the same procedure for both front wiper arm head caps.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000114A01CX_01_0009" proc-id="RM21Q0EV__00004N900000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

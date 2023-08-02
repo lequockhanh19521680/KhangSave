@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TitleList SYSTEM "../../dtd/title.dtd">
+<TitleList pubno="EM21Q2EV" xml:lang="en">
+	<Routing section="EG" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR001">Position of Parts</name>
+		<note>1</note>
+		<fig>1TRFEL-P1</fig>
+	</Routing>
+	<Routing section="EG" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR002">Position of Parts</name>
+		<note>2</note>
+		<fig>1TRFEL-P2</fig>
+	</Routing>
+	<Routing section="INPANE" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR003">Position of Parts</name>
+		<note>1</note>
+		<fig>InpaneL-P1</fig>
+	</Routing>
+	<Routing section="INPANE" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR004">Position of Parts</name>
+		<note>2</note>
+		<fig>InpaneL-P2</fig>
+	</Routing>
+	<Routing section="INPANE" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR005">Position of Parts</name>
+		<note>3</note>
+		<fig>InpaneL-P3</fig>
+	</Routing>
+	<Routing section="INPANE" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR006">Position of Parts</name>
+		<note>4</note>
+		<fig>InpaneL-P4</fig>
+	</Routing>
+	<Routing section="BODY" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR007">Position of Parts</name>
+		<note>1</note>
+		<fig>BodyMIL-P1</fig>
+	</Routing>
+	<Routing section="BODY" note="conn">
+		<term from="201202" to=""/>
+		<name code="WR008">Position of Parts</name>
+		<note>2</note>
+		<fig>BodyMIL-P2</fig>
+	</Routing>
+	<Routing section="EG" note="w2w">
+		<term from="201202" to=""/>
+		<name code="WR009">Wire and Wire</name>
+		<fig>1TRFEL-WG</fig>
+	</Routing>
+	<Routing section="EG" note="gp">
+		<term from="201202" to=""/>
+		<name code="WR010">Ground Points</name>
+		<fig>1TRFEL-WG</fig>
+	</Routing>
+	<Routing section="INPANE" note="w2w">
+		<term from="201202" to=""/>
+		<name code="WR011">Wire and Wire</name>
+		<note>1</note>
+		<fig>InpaneL-W1</fig>
+	</Routing>
+	<Routing section="INPANE" note="gp">
+		<term from="201202" to=""/>
+		<name code="WR012">Ground Points</name>
+		<fig>InpaneL-G</fig>
+	</Routing>
+	<Routing section="INPANE" note="w2w">
+		<term from="201202" to=""/>
+		<name code="WR013">Wire and Wire</name>
+		<note>2</note>
+		<fig>InpaneL-W2</fig>
+	</Routing>
+	<Routing section="BODY" note="w2w">
+		<term from="201202" to=""/>
+		<name code="WR014">Wire and Wire</name>
+		<fig>BodyMIL-WG</fig>
+	</Routing>
+	<Routing section="BODY" note="gp">
+		<term from="201202" to=""/>
+		<name code="WR015">Ground Points</name>
+		<fig>BodyMIL-WG</fig>
+	</Routing>
+</TitleList>

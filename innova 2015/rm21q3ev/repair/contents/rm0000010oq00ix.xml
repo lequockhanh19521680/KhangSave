@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A80B_T004P" variety="T004P">
+<name>FRONT LOWER SUSPENSION ARM</name>
+<para id="RM0000010OQ00IX" category="A" type-id="80001" name-id="SP3EH-01" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000010OQ00IX_02" type-id="11" category="10" proc-id="RM21Q0EV__00001KN00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the RH side and LH side.</ptxt>
+</item>
+</list1>
+<list1 type="unordered">
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010OQ00IX_01" type-id="01" category="01">
+<s-1 id="RM0000010OQ00IX_01_0005">
+<ptxt>REMOVE FRONT WHEEL</ptxt>
+</s-1>
+<s-1 id="RM0000010OQ00IX_01_0006" proc-id="RM21Q0EV__00001LL00000">
+<ptxt>REMOVE FRONT SPEED SENSOR LH (w/ ABS)
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the connector.</ptxt>
+<figure>
+<graphic graphicname="C188015E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Detach the 2 clamps and the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Detach the clamp and remove the bolt and harness clamp.</ptxt>
+<figure>
+<graphic graphicname="C189975E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the bolt and harness clamp.</ptxt>
+<figure>
+<graphic graphicname="C188000E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 3 bolts, 2 harness clamps and speed sensor.</ptxt>
+<figure>
+<graphic graphicname="C187999E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<atten3>
+<ptxt>Keep the sensor tip and sensor installation hole free from foreign matter.</ptxt>
+</atten3>
+</s2>
+</content1></s-1>
+<s-1 id="RM0000010OQ00IX_01_0004" proc-id="RM21Q0EV__00001KM00000">
+<ptxt>INSPECT FRONT LOWER SUSPENSION ARM SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049923E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the hub nuts to the disc.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a dial indicator, measure the lower ball joint for excessive play when you push the hub nuts up and down with a force of 294 N (30 kgf, 66 lbf).</ptxt>
+<spec>
+<title>Standard</title>
+<specitem>
+<ptxt>0.5 mm (0.020 in.) or less</ptxt>
+</specitem>
+</spec>
+<list1 type="nonmark">
+<item>
+<ptxt>If the joint play is not as specified, replace the lower arm sub-assembly.</ptxt>
+</item>
+</list1>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OQ00IX_01_0002" proc-id="RM21Q0EV__00001KK00000">
+<ptxt>DISCONNECT FRONT SHOCK ABSORBER WITH COIL SPRING</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049906E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the nut and bolt.</ptxt>
+<atten4>
+<ptxt>While fixing the nut in place, loosen and remove the bolt.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Disconnect the shock absorber with coil spring from the lower arm.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OQ00IX_01_0007" proc-id="RM21Q0EV__000052V00000">
+<ptxt>DISCONNECT FRONT STABILIZER LINK ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the nut and disconnect the stabilizer link from the lower arm.</ptxt>
+<figure>
+<graphic graphicname="C113157" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>If the ball joint turns together with the nut, use a 6 mm hexagon wrench to hold the stud in place.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OQ00IX_01_0008" proc-id="RM21Q0EV__000052W00000">
+<ptxt>REMOVE FRONT SPRING BUMPER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using SST, remove the front spring bumper.</ptxt>
+<figure>
+<graphic graphicname="C237886E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<sst>
+<sstitem>
+<s-number>09922-10010</s-number>
+</sstitem>
+</sst>
+<atten3>
+<ptxt>Rotate SST in the direction shown in the illustration.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010OQ00IX_01_0003" proc-id="RM21Q0EV__00001KL00000">
+<ptxt>REMOVE FRONT LOWER SUSPENSION ARM SUB-ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F049924E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Remove the 2 bolts, and disconnect the ball joint attachment from the steering knuckle.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="F049925E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Place matchmarks on the No. 1 camber adjusting cam and vehicle frame.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 nuts, No. 1 and No. 2 camber adjusting cams, 2 camber adjusting cams and lower arm.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

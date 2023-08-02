@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10008_S0007" variety="S0007">
+<name>1TR-FE EMISSION CONTROL</name>
+<ttl id="10008_S0007_7A7YJ_T002X" variety="T002X">
+<name>HEATED OXYGEN SENSOR</name>
+<para id="RM000001420017X" category="A" type-id="30014" name-id="EC0GR-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM000001420017X_01" type-id="01" category="01">
+<s-1 id="RM000001420017X_01_0001" proc-id="RM21Q0EV__00000PW00000">
+<ptxt>INSTALL HEATED OXYGEN SENSOR (for Bank 1 Sensor 1)</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G039121E01" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Using SST, install the sensor.</ptxt>
+<sst>
+<sstitem>
+<s-number>09224-00010</s-number>
+</sstitem>
+</sst>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>32</t-value4>
+<ptxt> for use without SST</ptxt>
+</torqueitem>
+<torqueitem>
+<t-value1>40</t-value1>
+<t-value2>408</t-value2>
+<t-value4>30</t-value4>
+<ptxt> for use with SST</ptxt>
+</torqueitem>
+</torque>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use a torque wrench with a fulcrum length of 30 cm (11.81 in.).</ptxt>
+</item>
+<item>
+<ptxt>Make sure SST and wrench are connected in a straight line.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112091" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Attach the 3 wire clamps to the vehicle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001420017X_01_0002">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000001420017X_01_0003" proc-id="RM21Q0EV__00000PX00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

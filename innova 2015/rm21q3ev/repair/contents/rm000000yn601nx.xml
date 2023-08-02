@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000A_S0005" variety="S0005">
+<name>1TR-FE ENGINE MECHANICAL</name>
+<ttl id="1000A_S0005_7A7Y6_T002K" variety="T002K">
+<name>DRIVE BELT</name>
+<para id="RM000000YN601NX" category="G" type-id="8000T" name-id="EM03E-04" from="201202">
+<name>ON-VEHICLE INSPECTION</name>
+<subpara id="RM000000YN601NX_02" type-id="01" category="01">
+<s-1 id="RM000000YN601NX_02_0002" proc-id="RM21Q0EV__00000FW00000">
+<ptxt>INSPECT DRIVE BELT</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Visually check the drive belt for excessive wear, frayed cords, etc.</ptxt>
+<figure>
+<graphic graphicname="A058797E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If any defect is found, replace the drive belt.</ptxt>
+<atten4>
+<ptxt>Cracks on the rib side of a drive belt are considered acceptable. If the drive belt has chunks missing from the ribs, it should be replaced.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Check that the tensioner indicator mark is within range A shown in the illustration. </ptxt>
+<figure>
+<graphic graphicname="G038478E02" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>If the mark is not within range A, replace the drive belt.</ptxt>
+</s2>
+<s2>
+<ptxt>After installing the drive belt, check that it fits properly in the ribbed grooves. Check with your hand to confirm that the belt has not slipped out of the groove on the bottom of the crank pulley. </ptxt>
+<figure>
+<graphic graphicname="A087787E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>A "new belt" is a belt which has been used for less than 5 minutes on a running engine.</ptxt>
+</item>
+<item>
+<ptxt>A "used belt" is a belt which has been used on a running engine for 5 minutes or more. </ptxt>
+</item>
+<item>
+<ptxt>After installing a new belt, run the engine for approximately 5 minutes and then recheck the tension.</ptxt>
+</item>
+</list1>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROX_T009Z" variety="T009Z">
+<name>REAR BLOWER CONTROL SWITCH</name>
+<para id="RM00000249J00UX" category="A" type-id="30014" name-id="ACD2I-05" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000249J00UX_01" type-id="01" category="01">
+<s-1 id="RM00000249J00UX_01_0002" proc-id="RM21Q0EV__00004A900000">
+<ptxt>INSTALL COOLER CONTROL SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 2 clips to install the cooler control switch assembly (rear blower control switch) as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="E225319" width="2.775699831in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

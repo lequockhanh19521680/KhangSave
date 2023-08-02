@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="38">
+<name>HEATER &amp; AIR CONDITIONING SYSTEM</name>
+<section id="1002K_S000R" variety="S000R">
+<name>AIR CONDITIONING</name>
+<ttl id="1002K_S000R_7AROS_T009U" variety="T009U">
+<name>AMBIENT TEMPERATURE SENSOR</name>
+<para id="RM000002VYI035X" category="A" type-id="30014" name-id="ACCWF-14" from="201403">
+<name>INSTALLATION</name>
+<subpara id="RM000002VYI035X_01" type-id="01" category="01">
+<s-1 id="RM000002VYI035X_01_0001" proc-id="RM21Q0EV__000048F00001">
+<ptxt>INSTALL THERMISTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the clamp to install the thermistor assembly (ambient temperature sensor).</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000002VYI035X_01_0002" proc-id="RM21Q0EV__000048G00001">
+<ptxt>INSTALL RADIATOR GRILLE</ptxt>
+<content1 releasenbr="2">
+<s2>
+<ptxt>for Standard:</ptxt>
+<ptxt>(See page <xref label="Seep01" href="RM000004S3F00HX"/>)</ptxt>
+</s2>
+<s2>
+<ptxt>except Standard:</ptxt>
+<ptxt>(See page <xref label="Seep02" href="RM000005NNB001X"/>)</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

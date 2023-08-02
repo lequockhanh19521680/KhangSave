@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XZ_T002D" variety="T002D">
+<name>THROTTLE BODY</name>
+<para id="RM000000VWL028X" category="A" type-id="30014" name-id="ES464-01" from="201202" to="201403">
+<name>INSTALLATION</name>
+<subpara id="RM000000VWL028X_01" type-id="01" category="01">
+<s-1 id="RM000000VWL028X_01_0001" proc-id="RM21Q0EV__000005N00000">
+<ptxt>INSTALL THROTTLE BODY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G036423E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install a new gasket on the intake manifold.</ptxt>
+<atten4>
+<ptxt>Align the protrusion of the gasket with the groove of the intake manifold.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A086829E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Install the throttle body with the 2 bolts and 2 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>9.0</t-value1>
+<t-value2>92</t-value2>
+<t-value3>80</t-value3>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the 2 water by-pass hoses to the throttle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Connector the throttle position sensor and control motor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VWL028X_01_0017">
+<ptxt>INSTALL INTAKE AIR CONNECTOR</ptxt>
+</s-1>
+<s-1 id="RM000000VWL028X_01_0016" proc-id="RM21Q0EV__000005L00000">
+<ptxt>ADD ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Tighten all the plugs and fill the radiator with TOYOTA Super Long Life Coolant (SLLC).</ptxt>
+<torque>
+<torqueitem>
+<t-value1>130</t-value1>
+<t-value2>1326</t-value2>
+<t-value4>96</t-value4>
+<ptxt> for cylinder block drain cock plug</ptxt>
+</torqueitem>
+</torque>
+<spec>
+<title>Standard Capacity</title>
+<table>
+<tgroup cols="2" align="center">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Item</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>Manual Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>7.8 liters (8.2 US qts, 6.9 Imp. qts)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Automatic Transmission</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>8.1 liters (8.6 US qts, 7.1 Imp. qts)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>TOYOTA vehicles are filled with TOYOTA SLLC at the factory. In order to avoid damage to the engine cooling system and other technical problems, only use TOYOTA SLLC or similar high quality ethylene glycol based non-silicate, non-amine, non-nitrite, non-borate coolant with long-life hybrid organic acid technology (coolant with long-life hybrid organic acid technology is a combination of low phosphates and organic acids).</ptxt>
+</item>
+<item>
+<ptxt>Please contact your TOYOTA dealer for further details.</ptxt>
+</item>
+</list1>
+</atten4>
+<atten3>
+<ptxt>Never use water as a substitute for engine coolant.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Fill the radiator reservoir with TOYOTA SLLC to the F line.</ptxt>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand, and then check the level of the coolant.</ptxt>
+<ptxt>If the coolant level drops below the F line, add TOYOTA SLLC to the F line.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Bleed air from the cooling system.</ptxt>
+<s3>
+<ptxt>Warm up the engine until the thermostat opens.</ptxt>
+<ptxt>While the thermostat is open, circulate the coolant for several minutes.</ptxt>
+</s3>
+<s3>
+<ptxt>Maintain the engine speed at 2,500 to 3,000 rpm.</ptxt>
+</s3>
+<s3>
+<ptxt>Press the inlet and outlet radiator hoses several times by hand to bleed air.</ptxt>
+<atten2>
+<title>When pressing the radiator hoses:</title>
+<list1 type="unordered">
+<item>
+<ptxt>Wear protective gloves.</ptxt>
+</item>
+<item>
+<ptxt>Be careful as the radiator hoses are hot.</ptxt>
+</item>
+<item>
+<ptxt>Keep your hands away from the radiator fan.</ptxt>
+</item>
+</list1>
+</atten2>
+</s3>
+</s2>
+<s2>
+<ptxt>Stop the engine and wait until the coolant cools down to ambient temperature.</ptxt>
+<atten2>
+<ptxt>Do not remove the radiator cap while the engine and radiator are still hot. Pressurized, hot engine coolant and steam may be released and cause serious burns.</ptxt>
+</atten2>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A112081E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Check the coolant level in the radiator reservoir.</ptxt>
+<ptxt>If the coolant level is below the L line, add SLLC up to the reservoir F line.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VWL028X_01_0008">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+</s-1>
+<s-1 id="RM000000VWL028X_01_0009" proc-id="RM21Q0EV__000005Z00000">
+<ptxt>PERFORM INITIALIZATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Perform initialization (see page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+<atten3>
+<ptxt>Certain systems need to be initialized after disconnecting and reconnecting the cable from the negative (-) battery terminal.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000VWL028X_01_0011" proc-id="RM21Q0EV__000006000000">
+<ptxt>CHECK FOR ENGINE COOLANT LEAKS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check for engine coolant leaks (see page <xref label="Seep01" href="RM000001454018X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

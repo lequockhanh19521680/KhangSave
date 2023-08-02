@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1002J_S000M" variety="S000M">
+<name>BRAKE CONTROL</name>
+<ttl id="1002J_S000M_7A80G_T004U" variety="T004U">
+<name>ANTI-LOCK BRAKE SYSTEM</name>
+<para id="RM00000104A013X" category="C" type-id="3007L" name-id="BC0E0-10" from="201202">
+<dtccode>C0226/21</dtccode>
+<dtcname>SFR Solenoid Circuit</dtcname>
+<dtccode>C0236/22</dtccode>
+<dtcname>SFL Solenoid Circuit</dtcname>
+<dtccode>C0246/23</dtccode>
+<dtcname>SRR Solenoid Circuit</dtcname>
+<subpara id="RM00000104A013X_01" type-id="60" category="03" proc-id="RM21Q0EV__00001MC00000">
+<name>DESCRIPTION</name>
+<content5 releasenbr="1">
+<ptxt>ABS solenoids turn on when receiving signals from the ECU. They control braking force by adjusting the pressure applied to the wheel cylinders.</ptxt>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>DTC No.</ptxt>
+</entry>
+<entry>
+<ptxt>DTC Detection Condition</ptxt>
+</entry>
+<entry>
+<ptxt>Trouble Area</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>C0226/21</ptxt>
+</entry>
+<entry>
+<ptxt>Open or short circuit in front right solenoid circuit (SFRR or SFRH) continues for 0.05 sec. or more</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>SFRR or SFRH circuit</ptxt>
+</item>
+<item>
+<ptxt>Brake actuator assembly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C0236/22</ptxt>
+</entry>
+<entry>
+<ptxt>Open or short circuit in front left solenoid circuit (SFLR or SFLH) continues for 0.05 sec. or more</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>SFLR or SFLH circuit</ptxt>
+</item>
+<item>
+<ptxt>Brake actuator assembly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>C0246/23</ptxt>
+</entry>
+<entry>
+<ptxt>Open or short circuit in rear solenoid circuit (SRRR or SRRH) continues for 0.05 sec. or more</ptxt>
+</entry>
+<entry>
+<list1 type="unordered">
+<item>
+<ptxt>SRRR or SRRH circuit</ptxt>
+</item>
+<item>
+<ptxt>Brake actuator assembly</ptxt>
+</item>
+</list1>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content5>
+</subpara>
+<subpara id="RM00000104A013X_02" type-id="32" category="03" proc-id="RM21Q0EV__00001MD00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="C108862E18" width="7.106578999in" height="4.7836529in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM00000104A013X_03" type-id="51" category="05">
+<name>INSPECTION PROCEDURE</name>
+</subpara>
+<subpara id="RM00000104A013X_04" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM00000104A013X_04_0001" proc-id="RM21Q0EV__00001ME00000">
+<testtitle>RECONFIRM DTC</testtitle>
+<content6 releasenbr="1">
+<atten4>
+<ptxt>These codes are output when a problem is detected in the brake actuator assembly.</ptxt>
+<ptxt>As the solenoid circuit is built into the brake actuator assembly, solenoid circuit inspection and solenoid unit inspection cannot be performed.</ptxt>
+<ptxt>Be sure to check if the DTC is output before replacing the brake actuator assembly.</ptxt>
+</atten4>
+<test1>
+<ptxt>Clear the DTCs.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch ON and check that the ABS warning light illuminates for approximately 3 seconds.</ptxt>
+</test1>
+<test1>
+<ptxt>Check for DTCs.</ptxt>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Result</ptxt>
+</entry>
+<entry>
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>DTC is not output</ptxt>
+</entry>
+<entry>
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>DTC is output</ptxt>
+</entry>
+<entry>
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104A013X_04_0002" fin="false">A</down>
+<right ref="RM00000104A013X_04_0003" fin="true">B</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104A013X_04_0002" proc-id="RM21Q0EV__00001MF00000">
+<testtitle>PERFORM ACTIVE TEST BY INTELLIGENT TESTER (ABS SOLENOID)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Using the intelligent tester's Active Test, generate a control command and then check that the ABS solenoid operates.</ptxt>
+<table pgwide="1">
+<title>Skid control ECU</title>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Vehicle Condition / Test Details</ptxt>
+</entry>
+<entry>
+<ptxt>Diagnostic Note</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>ABS Solenoid (SRRR)</ptxt>
+</entry>
+<entry>
+<ptxt>Turns ABS solenoid (SRRR) ON / OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Operation of solenoid (clicking sound) can be heard</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ABS Solenoid (SRRH)</ptxt>
+</entry>
+<entry>
+<ptxt>Turns ABS solenoid (SRRH) ON / OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Operation of solenoid (clicking sound) can be heard</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ABS Solenoid (SFLR)</ptxt>
+</entry>
+<entry>
+<ptxt>Turns ABS solenoid (SFLR) ON / OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Operation of solenoid (clicking sound) can be heard</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ABS Solenoid (SFLH)</ptxt>
+</entry>
+<entry>
+<ptxt>Turns ABS solenoid (SFLH) ON / OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Operation of solenoid (clicking sound) can be heard</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ABS Solenoid (SFRR)</ptxt>
+</entry>
+<entry>
+<ptxt>Turns ABS solenoid (SFRR) ON / OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Operation of solenoid (clicking sound) can be heard</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>ABS Solenoid (SFRH)</ptxt>
+</entry>
+<entry>
+<ptxt>Turns ABS solenoid (SFRH) ON / OFF</ptxt>
+</entry>
+<entry>
+<ptxt>Operation of solenoid (clicking sound) can be heard</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Operation sound of ABS solenoid is heard.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM00000104A013X_04_0005" fin="true">OK</down>
+<right ref="RM00000104A013X_04_0004" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM00000104A013X_04_0003">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM00000104A013X_04_0004">
+<testtitle>REPLACE BRAKE ACTUATOR ASSEMBLY</testtitle>
+</testgrp>
+<testgrp id="RM00000104A013X_04_0005">
+<testtitle>END</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

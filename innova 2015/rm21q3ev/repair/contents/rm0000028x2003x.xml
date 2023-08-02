@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7W6_T000K" variety="T000K">
+<name>G58 MANUAL TRANSMISSION</name>
+<para id="RM0000028X2003X" category="B" type-id="8000C" name-id="PP3V1-01" from="201202">
+<name>LUBRICANT</name>
+<subpara id="RM0000028X2003X_z1" proc-id="RM21Q0EV__000001L00000">
+<content4 releasenbr="1">
+<table frame="all">
+<tgroup cols="3">
+<colspec colname="col1" colwidth="2.36in"/>
+<colspec colname="col2" colwidth="2.36in"/>
+<colspec colname="col3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Capacity</ptxt>
+</entry>
+<entry>
+<ptxt>Classification</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Manual transmission oil</ptxt>
+</entry>
+<entry>
+<ptxt>2.2 liters (2.3 US qts, 1.9 Imp. qts)</ptxt>
+</entry>
+<entry>
+<ptxt>API GL-4</ptxt>
+<ptxt>SAE 75W-90</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

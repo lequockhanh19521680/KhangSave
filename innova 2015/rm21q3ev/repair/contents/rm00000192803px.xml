@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002U_S0013" variety="S0013">
+<name>WINDSHIELD / WINDOWGLASS</name>
+<ttl id="1002U_S0013_7A833_T007H" variety="T007H">
+<name>QUARTER WINDOW GLASS</name>
+<para id="RM00000192803PX" category="A" type-id="30014" name-id="WS6T2-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM00000192803PX_02" type-id="11" category="10" proc-id="RM21Q0EV__00002OW00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the RH side.</ptxt>
+</item>
+<item>
+<ptxt>A bolt without a torque specification is shown in the standard bolt chart (See page <xref label="Seep01" href="RM00000118W0B5X"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM00000192803PX_01" type-id="01" category="01">
+<s-1 id="RM00000192803PX_01_0097" proc-id="RM21Q0EV__00002OU00000">
+<ptxt>INSTALL QUARTER WINDOW CLIP</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B084705E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Apply Primer G to the glass where the clip will be installed.</ptxt>
+<atten4>
+<ptxt>If primer is applied to an area that is not specified, wipe off the primer with white gasoline before it dries.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Allow the primer to dry for 3 minutes or more.</ptxt>
+</item>
+<item>
+<ptxt>Throw away any leftover primer.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply too much primer.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install 4 new clips onto the glass's dot marks, as shown in the illustration.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192803PX_01_0098" proc-id="RM21Q0EV__00002OV00000">
+<ptxt>INSTALL QUARTER WINDOW MOULDING RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B084704E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Apply Primer G to the glass where the clip will be installed.</ptxt>
+<atten4>
+<ptxt>If primer is applied to an area that is not specified, wipe off the primer with white gasoline before it dries.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Allow the primer to dry for 3 minutes or more.</ptxt>
+</item>
+<item>
+<ptxt>Throw away any leftover primer.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply too much primer.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the moulding.</ptxt>
+<spec>
+<title>Standard measurement</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Area</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>a</ptxt>
+</entry>
+<entry>
+<ptxt>6.0 mm (0.236 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>b</ptxt>
+</entry>
+<entry>
+<ptxt>8.0 mm (0.315 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192803PX_01_0045" proc-id="RM21Q0EV__00002OQ00000">
+<ptxt>INSTALL QUARTER WINDOW ASSEMBLY RH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B084701E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Using a brush or sponge, apply primer M to the exposed part of the vehicle body.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Allow the primer coating to dry for 3 minutes or more.</ptxt>
+</item>
+<item>
+<ptxt>Throw away any leftover primer.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply too much primer.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using a brush or sponge, apply primer G to the contact surface of the glass.</ptxt>
+<figure>
+<graphic graphicname="B084702E01" width="7.106578999in" height="2.775699831in"/>
+</figure>
+<atten4>
+<ptxt>If primer is applied to an area that is specified, wipe off the primer with white gasoline before it dries.</ptxt>
+</atten4>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Allow the primer to dry for 3 minutes or more.</ptxt>
+</item>
+<item>
+<ptxt>Throw away any leftover primer.</ptxt>
+</item>
+<item>
+<ptxt>Do not apply too much primer.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+<s2>
+<ptxt>Apply adhesive to the quarter window glass.</ptxt>
+<spec>
+<title>Adhesive</title>
+<specitem>
+<ptxt>Toyota Genuine Windshield Glass Adhesive or Equivalent</ptxt>
+</specitem>
+</spec>
+<s3>
+<ptxt>Cut off the tip of the cartridge nozzle as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B133565E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<spec>
+<title>Standard measurement</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Area</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>a</ptxt>
+</entry>
+<entry>
+<ptxt>12.0 mm (0.472 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>b</ptxt>
+</entry>
+<entry>
+<ptxt>8.0 mm (0.315 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>c</ptxt>
+</entry>
+<entry>
+<ptxt>13.0 mm (0.512 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>d</ptxt>
+</entry>
+<entry>
+<ptxt>22.2 mm (0.874 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>e</ptxt>
+</entry>
+<entry>
+<ptxt>6.0 mm (0.236 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<atten4>
+<ptxt>After cutting off the tip, use all adhesive within the time written in the table below.</ptxt>
+</atten4>
+<spec>
+<title>Usage time frame</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Temperature</ptxt>
+</entry>
+<entry>
+<ptxt>Usage Time Frame</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>35°C (95°F)</ptxt>
+</entry>
+<entry>
+<ptxt>15 minutes</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>1 hour 40 minutes</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5°C (41°F)</ptxt>
+</entry>
+<entry>
+<ptxt>8 hours</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+<s3>
+<ptxt>Load the sealer gun with the cartridge.</ptxt>
+</s3>
+<s3>
+<ptxt>Apply adhesive to the quarter window glass as shown in the illustration.</ptxt>
+</s3>
+</s2>
+<s2>
+<ptxt>Install the quarter window glass to the vehicle body.</ptxt>
+<s3>
+<ptxt>Hold the quarter window glass in place securely with protective tape or equivalent until the adhesive hardens.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>Allow the primer coating to dry for 3 minutes or more.</ptxt>
+</item>
+<item>
+<ptxt>Check that the clips are attached to the body correctly.</ptxt>
+</item>
+<item>
+<ptxt>Check the clearance between the body and glass.</ptxt>
+</item>
+</list1>
+</atten3>
+</s3>
+<s3>
+<ptxt>Lightly press the front surface of the glass to ensure a close fit.</ptxt>
+</s3>
+<s3>
+<figure>
+<graphic graphicname="BO03986E05" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Using a scraper, remove any excess or protruding adhesive.</ptxt>
+<atten4>
+<ptxt>Apply adhesive onto the glass rim.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Do not drive the vehicle within the time written in the table below.</ptxt>
+</atten3>
+<spec>
+<title>Minimum time</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Temperature</ptxt>
+</entry>
+<entry>
+<ptxt>Minimum time prior to driving vehicle</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>35°C (95°F)</ptxt>
+</entry>
+<entry>
+<ptxt>1 hour 30 minutes</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>20°C (68°F)</ptxt>
+</entry>
+<entry>
+<ptxt>5 hours</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>5°C (41°F)</ptxt>
+</entry>
+<entry>
+<ptxt>24 hours</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000192803PX_01_0077">
+<ptxt>INSTALL QUARTER WINDOW MOULDING RH</ptxt>
+</s-1>
+<s-1 id="RM00000192803PX_01_0079" proc-id="RM21Q0EV__00003EW00000">
+<ptxt>INSTALL ROOF HEADLINING ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279287" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Place the roof headlining into the vehicle as shown in the illustration.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the roof headlining when placing it.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Attach the 4 fasteners to install the roof headlining.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 8 clips.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the connectors and attach the 5 clamps to the front pillar.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0082" proc-id="RM21Q0EV__00003EX00000">
+<ptxt>INSTALL ASSIST GRIP
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure for all assist grips.</ptxt>
+</atten4>
+<s2>
+<ptxt>Install the assist grip with the 2 screws.</ptxt>
+</s2>
+<s2>
+<ptxt>Attach the 4 claws and close the 2 covers.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0083" proc-id="RM21Q0EV__00003F200000">
+<ptxt>INSTALL ROOF SIDE INNER UPPER GARNISH RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0084" proc-id="RM21Q0EV__00003F400000">
+<ptxt>INSTALL QUARTER PILLAR GARNISH RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0085" proc-id="RM21Q0EV__00003F600000">
+<ptxt>INSTALL QUARTER INSIDE TRIM BOARD RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 4 claws, 8 clips and 2 guides to install the quarter inside trim board.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the clip.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 1 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Connect the rear No. 2 seat outer belt floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0095" proc-id="RM21Q0EV__000026700000">
+<ptxt>CONNECT REAR NO. 2 SEAT BELT ASSEMBLY OUTER RH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B137266" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the seat belt's floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0096" proc-id="RM21Q0EV__000026800000">
+<ptxt>CONNECT REAR NO.1 SEAT BELT ASSEMBLY OUTER RH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B137267" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the seat belt's floor anchor with the bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0088">
+<ptxt>INSTALL REAR DOOR OPENING TRIM WEATHERSTRIP RH</ptxt>
+</s-1>
+<s-1 id="RM00000192803PX_01_0089" proc-id="RM21Q0EV__00003FH00000">
+<ptxt>INSTALL REAR DOOR SCUFF PLATE RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure described for the LH side.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0090" proc-id="RM21Q0EV__00003F700000">
+<ptxt>INSTALL BACK DOOR SCUFF PLATE
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 6 clips and 4 claws to install the back door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0091" proc-id="RM21Q0EV__000026B00000">
+<ptxt>INSTALL REAR NO. 2 SEAT ASSEMBLY RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fully tilt the seatback forward.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the seat onto the lock striker.</ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Install the bolt on the rear side of the seat.</ptxt>
+<figure>
+<graphic graphicname="B085726E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the bolt on the front side of the seat.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Fully lock the seat to the lock striker.</ptxt>
+<atten4>
+<ptxt>Confirm that the seat is firmly locked to the lock striker.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0092" proc-id="RM21Q0EV__00002OS00000">
+<ptxt>INSTALL REAR SEAT REAR BRACKET COVER RH
+</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedures described for the rear seat front bracket cover RH.</ptxt>
+</atten4>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0093" proc-id="RM21Q0EV__00002OT00000">
+<ptxt>INSTALL REAR SEAT FRONT BRACKET COVER RH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Fully tilt the seatback forward.</ptxt>
+<figure>
+<graphic graphicname="B085728E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the screw.</ptxt>
+</s2>
+<s2>
+<ptxt>Pull the bracket cover in the direction indicated by the arrow in the illustration to detach the claw and remove the bracket cover.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000192803PX_01_0002" proc-id="RM21Q0EV__00002OP00000">
+<ptxt>CHECK FOR LEAKS AND REPAIR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Conduct a leak test after the adhesive has completely hardened.</ptxt>
+</s2>
+<s2>
+<ptxt>Seal any leaks with auto glass sealer.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

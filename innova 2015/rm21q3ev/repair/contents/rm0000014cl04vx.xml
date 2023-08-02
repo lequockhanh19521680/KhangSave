@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7A83G_T007U" variety="T007U">
+<name>INNER REAR VIEW MIRROR</name>
+<para id="RM0000014CL04VX" category="A" type-id="30014" name-id="MI1SF-10" from="201303">
+<name>INSTALLATION</name>
+<subpara id="RM0000014CL04VX_01" type-id="01" category="01">
+<s-1 id="RM0000014CL04VX_01_0001" proc-id="RM21Q0EV__00005AM00000">
+<ptxt>INSTALL INNER REAR VIEW MIRROR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>w/o Screw:</ptxt>
+<figure>
+<graphic graphicname="B282331E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s3>
+<ptxt>Install the inner rear view mirror assembly in the direction of the white arrow.</ptxt>
+</s3>
+<s3>
+<ptxt>Install the cover as shown in the illustration.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry>
+<ptxt>Cover</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry>
+<ptxt>Claw</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s3>
+</s2>
+<s2>
+<ptxt>w/ Screw:</ptxt>
+<figure>
+<graphic graphicname="B166357E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s3>
+<ptxt>Install the inner rear view mirror assembly in the direction of the arrow.</ptxt>
+</s3>
+<s3>
+<ptxt>Using a T20 "TORX" socket wrench, install the inner rear view mirror assembly with the screw.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>1.0</t-value1>
+<t-value2>10</t-value2>
+<t-value3>9</t-value3>
+</torqueitem>
+</torque>
+</s3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

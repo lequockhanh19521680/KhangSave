@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="33">
+<name>TRANSMISSION</name>
+<section id="1000R_S000G" variety="S000G">
+<name>G58 MANUAL TRANSMISSION</name>
+<ttl id="1000R_S000G_7A7ZP_T0043" variety="T0043">
+<name>MANUAL TRANSMISSION ASSEMBLY</name>
+<para id="RM0000010UR00MX" category="A" type-id="30014" name-id="MT1TH-01" from="201202">
+<name>INSTALLATION</name>
+<subpara id="RM0000010UR00MX_01" type-id="01" category="01">
+<s-1 id="RM0000010UR00MX_01_0001" proc-id="RM21Q0EV__00000H400000">
+<ptxt>INSTALL MANUAL TRANSMISSION UNIT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Align the input shaft with the clutch disc and install the transmission to the engine.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 7 bolts.</ptxt>
+<figure>
+<graphic graphicname="C168651E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<subtitle>for bolt A</subtitle>
+<torqueitem>
+<t-value1>72</t-value1>
+<t-value2>734</t-value2>
+<t-value4>53</t-value4>
+</torqueitem>
+<subtitle>for bolt B</subtitle>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0024" proc-id="RM21Q0EV__000058N00000">
+<ptxt>INSTALL MANIFOLD STAY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install the manifold stay with the 3 bolts.</ptxt>
+<figure>
+<graphic graphicname="A252720E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<subtitle>for bolt A</subtitle>
+<torqueitem>
+<t-value1>72</t-value1>
+<t-value2>730</t-value2>
+<t-value4>53</t-value4>
+</torqueitem>
+<subtitle>for bolt B</subtitle>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+<subtitle>for bolt C</subtitle>
+<torqueitem>
+<t-value1>30</t-value1>
+<t-value2>306</t-value2>
+<t-value4>22</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0004" proc-id="RM21Q0EV__00001AG00000">
+<ptxt>INSTALL REAR NO. 1 ENGINE MOUNTING INSULATOR</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034222E05" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Install the rear No. 1 engine mounting insulator with the 4 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>44</t-value1>
+<t-value2>449</t-value2>
+<t-value4>32</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0005" proc-id="RM21Q0EV__00001AH00000">
+<ptxt>INSTALL NO. 3 FRAME CROSSMEMBER SUB-ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085193E11" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Install the frame crossmember with the 4 bolts and 4 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Install the 4 set bolts to the rear No. 1 engine mounting insulator.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>27</t-value1>
+<t-value2>275</t-value2>
+<t-value4>20</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0006" proc-id="RM21Q0EV__00001AI00000">
+<ptxt>INSTALL STARTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000135R01HX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0007" proc-id="RM21Q0EV__00000U600000">
+<ptxt>CONNECT CLUTCH RELEASE CYLINDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034217E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Connect the clutch release cylinder with the 2 bolts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>12</t-value1>
+<t-value2>122</t-value2>
+<t-value4>9</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0008" proc-id="RM21Q0EV__00001AJ00000">
+<ptxt>CONNECT WIRE HARNESS</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Connect the back-up light switch connector and speedometer sensor connector.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0009" proc-id="RM21Q0EV__00001AK00000">
+<ptxt>INSTALL FRONT EXHAUST PIPE ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM00000135701OX"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0010" proc-id="RM21Q0EV__00001AL00000">
+<ptxt>INSTALL REAR PROPELLER SHAFT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000000ZZ1020X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0011" proc-id="RM21Q0EV__00001AM00000">
+<ptxt>INSTALL NO. 2 FRAME CROSSMEMBER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D033401E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the frame crossmember with the 4 bolts and 4 nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>50</t-value1>
+<t-value2>510</t-value2>
+<t-value4>37</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0012" proc-id="RM21Q0EV__00000HD00000">
+<ptxt>ADD MANUAL TRANSMISSION OIL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="D025304E10" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Oil grade</title>
+<specitem>
+<ptxt>GL-4</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Viscosity</title>
+<specitem>
+<ptxt>SAE 75W-90</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>Standard capacity</title>
+<specitem>
+<ptxt>2.2 liters (2.3 US qts, 1.9 Imp. qts)</ptxt>
+</specitem>
+</spec>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0013" proc-id="RM21Q0EV__00001AN00000">
+<ptxt>INSTALL FLOOR SHIFT SHIFT LEVER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Cover the shift lever cap with a cloth.</ptxt>
+</s2>
+<s2>
+<ptxt>Press down on the shift lever cap and rotate it clockwise to install it.</ptxt>
+<atten4>
+<ptxt>Apply MP grease to the tip of the shift lever.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0014" proc-id="RM21Q0EV__00001AO00000">
+<ptxt>INSTALL SHIFT LEVER BOOT ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="G034215E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Install the shift lever boot with the 4 screws and 2 clips.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0019" proc-id="RM21Q0EV__000053Y00000">
+<ptxt>INSTALL CONSOLE BOX ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<ptxt>(See page <xref label="Seep01" href="RM000003NEA013X"/>)</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000010UR00MX_01_0018" proc-id="RM21Q0EV__000053Z00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

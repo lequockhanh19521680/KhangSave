@@ -1,0 +1,19 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<LINK REL="STYLESHEET" TYPE="text/css" HREF="../../../styles/system/outline.css">
+</head>
+<body>
+<h3>System Outline</h3>
+<hr>
+<p></p>
+<p>This system controls the respective brake fluid pressures acting on the brake cylinders of the right front wheel, left front wheel, and rear wheels when the brakes are applied in a panic stop so that the wheels do not lock.<br>This results in improved directional stability and steerability during panic braking.</p>
+<p><b>1.Input Signal</b></p>
+<p>(1)Speed sensor signal</p>
+<p>The speed of the wheels is detected and input to TERMINALS FL+, FR+, RL+ and RR+ of the skid control ECU with actuator.</p>
+<p>(2)Stop lamp SW signal</p>
+<p>A signal is input to TERMINAL STP of the skid control ECU with actuator when the brake pedal is depressed.</p>
+<p><b>2.System Operation</b></p>
+<p>During sudden braking, the skid control ECU with actuator which has signals input from each sensor lets the hydraulic pressure acting on each wheel cylinder escape to the reservoir.<br>The pump inside the skid control ECU with actuator is also operating at this time and it returns the brake fluid from the reservoir to the master cylinder, thus preventing locking of vehicle wheels.<br>If the skid control ECU with actuator judges that the hydraulic pressure acting on the wheel cylinder is insufficient, the current acting on the solenoid is controlled and the hydraulic pressure is increased.<br>Holding of the hydraulic pressure is also controlled by the ECU, by the same method as above, by repeated pressure reduction. Holding and increase are repeated to maintain vehicle stability and to improve steerability during sudden braking.</p>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7WA_T000O" variety="T000O">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<para id="RM0000028SH003X" category="B" type-id="8000B" name-id="PP3SN-01" from="201202">
+<name>EQUIPMENT</name>
+<subpara id="RM0000028SH003X_z1" proc-id="RM21Q0EV__000001Z00000">
+<content4 releasenbr="1">
+<table frame="all">
+<tgroup cols="2">
+<colspec colname="col1" colwidth="3.54in"/>
+<colspec colname="col2" colwidth="3.54in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Bolt</ptxt>
+<ptxt> Length: 35.0 mm (1.378 in.)</ptxt>
+<ptxt> Pitch: 1.0 mm (0.039 in.)</ptxt>
+<ptxt> Diameter: 6.0 mm (0.236 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Plastic bag</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tire</ptxt>
+<ptxt> Width: 185 mm (7.28 in.)</ptxt>
+<ptxt> Inner diameter: 360 mm (14.17 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tire with disc wheel</ptxt>
+<ptxt> Width: 185 mm (7.28 in.)</ptxt>
+<ptxt> Inner diameter: 360 mm (14.17 in.)</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Torque wrench</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Wire harness</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Battery</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Tape</ptxt>
+</entry>
+<entry>
+<ptxt>Airbag disposal</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

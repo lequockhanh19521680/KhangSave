@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7W7_T000L" variety="T000L">
+<name>CLUTCH</name>
+<para id="RM0000028WL00GX" category="B" type-id="8000C" name-id="PP3T5-01" from="201202">
+<name>LUBRICANT</name>
+<subpara id="RM0000028WL00GX_z1" proc-id="RM21Q0EV__000001P00000">
+<content4 releasenbr="1">
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Capacity</ptxt>
+</entry>
+<entry>
+<ptxt>Classification</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Brake fluid</ptxt>
+</entry>
+<entry>
+<ptxt>-</ptxt>
+</entry>
+<entry>
+<ptxt>SAE J1703 or FMVSS No. 116 DOT 3</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

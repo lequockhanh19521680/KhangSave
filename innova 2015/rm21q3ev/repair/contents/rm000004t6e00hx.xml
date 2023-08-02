@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="T2">
+<name>PREPARATION</name>
+<section id="10003_S0002" variety="S0002">
+<name>PREPARATION</name>
+<ttl id="10003_S0002_7A7W1_T000F" variety="T000F">
+<name>DIFFERENTIAL</name>
+<para id="RM000004T6E00HX" category="B" type-id="8000C" name-id="PPH3J-16" from="201202">
+<name>LUBRICANT</name>
+<subpara id="RM000004T6E00HX_z1" proc-id="RM21Q0EV__000057N00000">
+<content4 releasenbr="1">
+<table pgwide="1">
+<title>Recommended Viscosity</title>
+<tgroup cols="2">
+<colspec colname="COL2" colwidth="3.54in"/>
+<colspec colname="COL3" colwidth="3.54in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Temperature</ptxt>
+</entry>
+<entry>
+<ptxt>Viscosity</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Above -18°C (0°F)</ptxt>
+</entry>
+<entry>
+<ptxt>SAE 90</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Below -18°C (0°F)</ptxt>
+</entry>
+<entry>
+<ptxt>SAE 80W-90 or SAE 80W</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Differential Oil Type</title>
+<tgroup cols="1">
+<colspec colname="COL1" colwidth="7.08in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>Hypoid gear oil API GL-5</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<table pgwide="1">
+<title>Standard Rear Differential Oil Capacity</title>
+<tgroup cols="1">
+<colspec colname="COL1" colwidth="7.08in"/>
+<tbody>
+<row>
+<entry>
+<ptxt>3.00 to 3.10 liters (2.84 to 2.93 US qts., 2.64 to 2.73 Imp. qts.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</content4>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

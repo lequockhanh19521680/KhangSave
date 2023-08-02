@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="10006_S0004" variety="S0004">
+<name>1TR-FE ENGINE CONTROL SYSTEM</name>
+<ttl id="10006_S0004_7A7XY_T002C" variety="T002C">
+<name>ENGINE COOLANT TEMPERATURE SENSOR</name>
+<para id="RM000000VWA02DX" category="A" type-id="80001" name-id="ES461-03" from="201403">
+<name>REMOVAL</name>
+<subpara id="RM000000VWA02DX_01" type-id="01" category="01">
+<s-1 id="RM000000VWA02DX_01_0001" proc-id="RM21Q0EV__000005S00001">
+<ptxt>DISCONNECT CABLE FROM NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten2>
+<ptxt>Wait at least 90 seconds after disconnecting the cable from the negative (-) battery terminal to prevent airbag activation.</ptxt>
+</atten2>
+</content1>
+</s-1>
+<s-1 id="RM000000VWA02DX_01_0016" proc-id="RM21Q0EV__000005U00000">
+<ptxt>DRAIN ENGINE COOLANT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the radiator cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the cylinder block drain cock plug and radiator drain cock plug, and then drain the coolant.</ptxt>
+<atten4>
+<ptxt>Collect the coolant in a container and dispose of it according to the regulations in your area.</ptxt>
+</atten4>
+<figure>
+<graphic graphicname="A113302E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VWA02DX_01_0017" proc-id="RM21Q0EV__000005V00001">
+<ptxt>REMOVE INTAKE AIR CONNECTOR
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the No. 2 ventilation hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the hose clamp and remove the 2 bolts and intake air connector.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VWA02DX_01_0018" proc-id="RM21Q0EV__000005W00000">
+<ptxt>REMOVE STARTER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the starter connector.</ptxt>
+<figure>
+<graphic graphicname="G039040E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Disconnect the terminal cap.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the nut and disconnect the starter wire.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 2 bolts and starter.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VWA02DX_01_0019" proc-id="RM21Q0EV__000005X00001">
+<ptxt>REMOVE THROTTLE BODY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Disconnect the throttle position sensor and control motor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the 2 water by-pass hoses.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="A309649" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Remove the 4 bolts and throttle body.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the gasket.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VWA02DX_01_0020" proc-id="RM21Q0EV__000005Y00001">
+<ptxt>REMOVE INTAKE MANIFOLD
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="G039042E03" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the vacuum hose.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the purge line hose and purge VSV connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the 5 bolts, 2 nuts, intake manifold and gasket.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000VWA02DX_01_0007" proc-id="RM21Q0EV__000005T00001">
+<ptxt>REMOVE ENGINE COOLANT TEMPERATURE SENSOR</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="A111697" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Disconnect the sensor connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the sensor.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the gasket from the sensor.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

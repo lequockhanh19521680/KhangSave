@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE connectionList SYSTEM "../../../dtd/connect.dtd">
+<connectionList pubno="EM21Q2EV">
+	<connector type="jbc" code="1A">
+		<pin no="1">
+			<line id="1" color="W">
+				<connector type="NON" code="">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="1B">
+		<pin no="4">
+			<line id="2" color="W-R">
+				<connector type="w2w" code="II2" sex="female">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="1B">
+		<pin no="4">
+			<line id="3" color="W-R">
+				<connector type="rb" code="1">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II2" sex="male">
+		<pin no="1">
+			<line id="4" color="W-R">
+				<connector type="conn" code="I9">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="NON" code="">
+		<pin>
+			<line id="5" color="B-R">
+				<connector type="conn" code="S7" subcode="B">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="I9">
+		<pin no="7">
+			<line id="6" color="B-W">
+				<connector type="jbc" code="2C">
+					<pin no="7"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="jbc" code="2O">
+		<pin no="3">
+			<line id="7" color="L-Y">
+				<connector type="w2w" code="ID2" sex="male">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S6" subcode="A">
+		<pin no="1">
+			<line id="8" color="L">
+				<connector type="w2w" code="EA2" sex="female">
+					<pin no="2"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="EA2" sex="male">
+		<pin no="2">
+			<line id="9" color="L">
+				<connector type="rb" code="1">
+					<pin/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="rb" code="1">
+		<pin>
+			<line id="10" color="W-B">
+				<connector type="w2w" code="II4" sex="female">
+					<pin no="10"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="rb" code="1">
+		<pin>
+			<line id="11" color="B-Y">
+				<connector type="w2w" code="EA1" sex="male">
+					<pin no="10" spec="From Sep. 2009 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="rb" code="1">
+		<pin>
+			<line id="11" color="B-Y">
+				<connector type="w2w" code="EA1" sex="male">
+					<pin no="4" spec="Before Sep. 2009 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="EA1" sex="female">
+		<pin no="10" spec="From Sep. 2009 Production">
+			<line id="12" color="L-Y" spec="M/T">
+				<connector type="w2w" code="ID2" sex="female">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="EA1" sex="female">
+		<pin no="4" spec="Before Sep. 2009 Production">
+			<line id="12" color="L-Y" spec="M/T">
+				<connector type="w2w" code="ID2" sex="female">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="EA1" sex="female">
+		<pin no="10" spec="From Sep. 2009 Production">
+			<line id="13" color="B-Y" spec="A/T">
+				<connector type="conn" code="J14" subcode="A">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="EA1" sex="female">
+		<pin no="4" spec="Before Sep. 2009 Production">
+			<line id="13" color="B-Y" spec="A/T">
+				<connector type="conn" code="J14" subcode="A">
+					<pin no="3"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="ID2" sex="female">
+		<pin no="1">
+			<line id="14" color="L-Y" spec="A/T">
+				<connector type="conn" code="N1">
+					<pin no="4"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J14" subcode="A">
+		<pin no="4">
+			<line id="15" color="B-Y" spec="A/T">
+				<connector type="conn" code="N1">
+					<pin no="5"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="male">
+		<pin no="10">
+			<line id="16" color="W-B" spec="w/ Door Lock Control">
+				<connector type="conn" code="T9">
+					<pin no="12" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="male">
+		<pin no="10">
+			<line id="16" color="W-B" spec="w/ Door Lock Control">
+				<connector type="conn" code="T20" subcode="C">
+					<pin no="12" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="w2w" code="II4" sex="male">
+		<pin no="10">
+			<line id="17" color="B-W" spec="w/o Door Lock Control">
+				<connector type="conn" code="J27" subcode="A">
+					<pin no="8"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="S11" subcode="B">
+		<pin no="12">
+			<line id="18" color="W-B" spec="w/o Theft Deterrent System">
+				<connector type="conn" code="S11" subcode="B">
+					<pin no="1"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="gp" code="IG">
+		<pin>
+			<line id="19" color="W-B">
+				<connector type="conn" code="J28" subcode="B">
+					<pin no="12"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="8">
+			<line id="20" color="B-W" spec="w/ Door Lock Control">
+				<connector type="conn" code="T9">
+					<pin no="1" spec="Before Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+	<connector type="conn" code="J27" subcode="A">
+		<pin no="8">
+			<line id="20" color="B-W" spec="w/ Door Lock Control">
+				<connector type="conn" code="T20" subcode="C">
+					<pin no="1" spec="From Feb. 2012 Production"/>
+				</connector>
+			</line>
+		</pin>
+	</connector>
+</connectionList>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="30">
+<name>ENGINE</name>
+<section id="1000D_S000A" variety="S000A">
+<name>1TR-FE LUBRICATION</name>
+<ttl id="1000D_S000A_7A7YV_T0039" variety="T0039">
+<name>OIL PUMP</name>
+<para id="RM000001K58005X" category="A" type-id="80002" name-id="LU0CM-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000001K58005X_01" type-id="01" category="01">
+<s-1 id="RM000001K58005X_01_0001" proc-id="RM21Q0EV__00000LE00000">
+<ptxt>REMOVE OIL PUMP RELIEF VALVE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a 27 mm socket wrench, remove the plug and gasket.</ptxt>
+<figure>
+<graphic graphicname="A086864E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the valve spring and relief valve.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001K58005X_01_0002" proc-id="RM21Q0EV__00000TS00000">
+<ptxt>REMOVE OIL PUMP COVER</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the 7 bolts and oil pump cover.</ptxt>
+<figure>
+<graphic graphicname="A087020E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000001K58005X_01_0003" proc-id="RM21Q0EV__00000TT00000">
+<ptxt>REMOVE OIL PUMP ROTOR SET</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the oil pump rotor set from the timing chain cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

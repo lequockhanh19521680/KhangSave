@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="36">
+<name>BRAKE</name>
+<section id="1000N_S000N" variety="S000N">
+<name>BRAKE</name>
+<ttl id="1000N_S000N_7A80K_T004Y" variety="T004Y">
+<name>FRONT BRAKE</name>
+<para id="RM0000010KU00RX" category="A" type-id="80002" name-id="BR646-01" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM0000010KU00RX_01" type-id="11" category="10" proc-id="RM21Q0EV__00001Q000000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedures for the LH side and RH side.</ptxt>
+</item>
+<item>
+<ptxt>The procedures listed below are for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000010KU00RX_02" type-id="01" category="01">
+<s-1 id="RM0000010KU00RX_02_0006" proc-id="RM21Q0EV__00001Q500000">
+<ptxt>REMOVE CYLINDER BOOT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111363" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, pry out the set ring and cylinder boot.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Be careful not to damage the brake piston and cylinder.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0007" proc-id="RM21Q0EV__00001Q600000">
+<ptxt>REMOVE FRONT DISC BRAKE PISTON</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111364E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Prepare a wooden block to hold the pistons.</ptxt>
+</s2>
+<s2>
+<ptxt>Place the wooden plate between the piston and cylinder.</ptxt>
+<figure>
+<graphic graphicname="C111365" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Use compressed air to remove the piston from the cylinder.</ptxt>
+<atten2>
+<ptxt>Do not place your fingers in front of the piston when using compressed air.</ptxt>
+</atten2>
+<atten3>
+<ptxt>Be careful not to spatter the brake fluid.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0008" proc-id="RM21Q0EV__00001Q700000">
+<ptxt>REMOVE PISTON SEAL</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="C111366" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Using a screwdriver, pry out the seal from the cylinder.</ptxt>
+<atten4>
+<ptxt>Tape the screwdriver tip before use.</ptxt>
+</atten4>
+<atten3>
+<ptxt>Be careful not to damage the inner cylinder and cylinder groove.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0011">
+<ptxt>REMOVE FRONT DISC BRAKE BLEEDER PLUG CAP</ptxt>
+</s-1>
+<s-1 id="RM0000010KU00RX_02_0009" proc-id="RM21Q0EV__00001Q800000">
+<ptxt>REMOVE FRONT DISC BRAKE BLEEDER PLUG</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the bleeder plug from the cylinder.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

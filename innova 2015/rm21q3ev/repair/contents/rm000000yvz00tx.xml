@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Y_S000S" variety="S000S">
+<name>SUPPLEMENTAL RESTRAINT SYSTEM</name>
+<ttl id="1000Y_S000S_7A81B_T005P" variety="T005P">
+<name>AIRBAG SYSTEM</name>
+<para id="RM000000YVZ00TX" category="D" type-id="303F5" name-id="RS0GC-06" from="201202">
+<name>CHECK MODE PROCEDURE</name>
+<subpara id="RM000000YVZ00TX_z0" proc-id="RM21Q0EV__000021600000">
+<content5 releasenbr="1">
+<step1>
+<ptxt>CHECK MODE (SIGNAL CHECK)</ptxt>
+<figure>
+<graphic graphicname="A099015E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<step2>
+<ptxt>Connect the intelligent tester to the DLC3.</ptxt>
+</step2>
+<step2>
+<ptxt>Turn the ignition switch ON.</ptxt>
+</step2>
+<step2>
+<ptxt>Select the Signal Check, and perform the check using the intelligent tester.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Check mode is more sensitive to malfunctions than normal mode.</ptxt>
+</item>
+<item>
+<ptxt>If the normal system code is output in normal mode even when a sensor signal malfunction is suspected, perform the inspection in check mode.</ptxt>
+</item>
+</list1>
+</atten4>
+</step2>
+</step1>
+</content5>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

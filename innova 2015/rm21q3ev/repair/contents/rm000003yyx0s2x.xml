@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2BG_T00B0" variety="T00B0">
+<name>AUDIO AND VISUAL SYSTEM</name>
+<para id="RM000003YYX0S2X" category="J" type-id="804JL" name-id="AVFVL-01" from="201403">
+<dtccode/>
+<dtcname>USB Audio System Recognition/Play Error</dtcname>
+<subpara id="RM000003YYX0S2X_04" type-id="32" category="03" proc-id="RM21Q0EV__00005MX00000">
+<name>WIRING DIAGRAM</name>
+<content5 releasenbr="1">
+<figure>
+<graphic graphicname="E278688E13" width="7.106578999in" height="3.779676365in"/>
+</figure>
+</content5>
+</subpara>
+<subpara id="RM000003YYX0S2X_02" type-id="51" category="05" proc-id="RM21Q0EV__00005JN00000">
+<name>INSPECTION PROCEDURE</name>
+<content5 releasenbr="1">
+<atten3>
+<ptxt>The data stored on the USB device or "iPod" may be changed or lost due to malfunctions, repairs, system errors, etc. Therefore, when repairs are to be performed, explain this to the customer and obtain their consent prior to performing repairs.</ptxt>
+</atten3>
+<list1 type="unordered">
+<item>
+<ptxt>When a large amount of data is in a USB device, it may take a while to begin to play.</ptxt>
+</item>
+<item>
+<ptxt>When using a USB device, files that are protected by copyright cannot be played.</ptxt>
+</item>
+<item>
+<ptxt>When files are not played in the sorted order, perform the following procedure before inspection.</ptxt>
+</item>
+<list2 type="ordered">
+<item>
+<ptxt>Add numbers in front of the file names.</ptxt>
+</item>
+<item>
+<ptxt>Put the files in a folder and copy the folder data to the USB device.</ptxt>
+</item>
+</list2>
+</list1>
+</content5>
+</subpara>
+<subpara id="RM000003YYX0S2X_05" type-id="01" category="01">
+<name>PROCEDURE</name>
+<testgrp id="RM000003YYX0S2X_05_0007" proc-id="RM21Q0EV__00005JO00000">
+<testtitle>CHECK USB DEVICE OR "iPod"</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the USB device or "iPod" from the stereo jack adapter assembly.</ptxt>
+</test1>
+<test1>
+<ptxt>Check if playable files are present on the USB device or "iPod".</ptxt>
+<atten4>
+<ptxt>Refer to System Description for playable files (See page <xref label="Seep01" href="RM000000NKZ0GEX"/>).</ptxt>
+</atten4>
+</test1>
+<test1>
+<ptxt>Check if the USB device format or "iPod" version is compatible.</ptxt>
+<atten4>
+<ptxt>Refer to System Description for compatible formats and versions.</ptxt>
+</atten4>
+<table>
+<title>Result</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.89in"/>
+<colspec colname="COL2" colwidth="1.24in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Result</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Proceed to</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>No playable files exist, or device format or version is incompatible</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>A</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>Playable files exist, and device format or version is compatible</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>B</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000003YYX0S2X_05_0002" fin="true">A</down>
+<right ref="RM000003YYX0S2X_05_0012" fin="false">B</right>
+</res>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0012" proc-id="RM21Q0EV__00005MD00000">
+<testtitle>CHECK HARNESS AND CONNECTOR (RADIO RECEIVER ASSEMBLY - NO. 1 STEREO JACK ADAPTER ASSEMBLY)</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Disconnect the R16 radio receiver assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Disconnect the N3 No. 1 stereo jack adapter assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Resistance</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-1 (USV1) - N3-1 (UPI)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-2 (USI-) - N3-2 (UDO-)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-3 (USI+) - N3-3 (UDO+)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-4 (UGD1) - N3-4 (UJSG)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-5 (USG1) - N3-4 (UJSS)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 1 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-1 (USV1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-2 (USI-) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-3 (USI+) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-4 (UGD1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>R16-5 (USG1) - Body ground</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>10 kΩ or higher</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003YYX0S2X_05_0013" fin="false">OK</down>
+<right ref="RM000003YYX0S2X_05_0014" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0013" proc-id="RM21Q0EV__00005O300000">
+<testtitle>INSPECT RADIO RECEIVER ASSEMBLY</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Reconnect the R16 radio receiver assembly connector. </ptxt>
+<figure>
+<graphic graphicname="E293407E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</test1>
+<test1>
+<ptxt>Disconnect the No. 1 stereo jack adapter assembly connector.</ptxt>
+</test1>
+<test1>
+<ptxt>Measure the voltage according to the value(s) in the table below.</ptxt>
+<spec>
+<title>Standard Voltage</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>N3-1 (UPI) - N3-4 (UJSG)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Ignition switch ACC</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>4.5 to 5.5 V</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front view of wire harness connector</ptxt>
+<ptxt>(to No. 1 Stereo Jack Adapter Assembly)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</test1>
+</content6>
+<res>
+<down ref="RM000003YYX0S2X_05_0010" fin="false">OK</down>
+<right ref="RM000003YYX0S2X_05_0015" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0010" proc-id="RM21Q0EV__00005JR00000">
+<testtitle>FORMAT USB DEVICE OR RESTORE "iPod" AND RECHECK</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Delete all files in the USB device or "iPod" and format/restore it.</ptxt>
+<atten3>
+<ptxt>Formatting a USB device or restoring an "iPod" clears all files on the device.</ptxt>
+<ptxt>Make sure that backup data is available before performing this operation.</ptxt>
+</atten3>
+</test1>
+<test1>
+<ptxt>Save the data again and check if it can be played on the in-vehicle device.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Malfunction disappears.</ptxt>
+</specitem>
+</spec>
+</test1>
+</content6>
+<res>
+<down ref="RM000003YYX0S2X_05_0011" fin="true">OK</down>
+<right ref="RM000003YYX0S2X_05_0008" fin="false">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0008" proc-id="RM21Q0EV__00005JP00000">
+<testtitle>REPLACE USB DEVICE OR "iPod"</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Turn the ignition switch off.</ptxt>
+</test1>
+<test1>
+<ptxt>Turn the ignition switch to ACC.</ptxt>
+</test1>
+<test1>
+<ptxt>Connect a known good USB device or "iPod" to the stereo jack adapter.</ptxt>
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>If the malfunction occurred when a USB device was in use, use another USB device for the inspection. If the malfunction occurred when an "iPod" was in use, use another "iPod" for the inspection.</ptxt>
+</item>
+<item>
+<ptxt>Refer to System Description for compatible formats and versions (See page <xref label="Seep01" href="RM000000NKZ0GEX"/>).</ptxt>
+</item>
+</list1>
+</atten4>
+</test1>
+</content6>
+<res>
+<down ref="RM000003YYX0S2X_05_0009" fin="false">NEXT</down>
+</res>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0009" proc-id="RM21Q0EV__00005JQ00000">
+<testtitle>CHECK USB DEVICE OR "iPod"</testtitle>
+<content6 releasenbr="1">
+<test1>
+<ptxt>Check if the USB device or "iPod" is recognized by the radio receiver, or if information, such as track, artist and album names, is displayed on the screen.</ptxt>
+</test1>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>USB device or "iPod" is recognized or track information, such as track, artist and album names, is displayed.</ptxt>
+</specitem>
+</spec>
+</content6>
+<res>
+<down ref="RM000003YYX0S2X_05_0005" fin="true">OK</down>
+<right ref="RM000003YYX0S2X_05_0006" fin="true">NG</right>
+</res>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0005">
+<testtitle>USB DEVICE OR "iPod" WAS INCOMPATIBLE OR DEFECTIVE</testtitle>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0002">
+<testtitle>USB DEVICE FORMAT WAS INCOMPATIBLE, "iPod" VERSION WAS INCOMPATIBLE, OR NO PLAYABLE FILES PRESENT</testtitle>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0014">
+<testtitle>REPAIR OR REPLACE HARNESS OR CONNECTOR</testtitle>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0015">
+<testtitle>REPLACE RADIO RECEIVER ASSEMBLY<xref label="Seep01" href="RM000003OG9012X"/>
+</testtitle>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0011">
+<testtitle>END</testtitle>
+</testgrp>
+<testgrp id="RM000003YYX0S2X_05_0006">
+<testtitle>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE<xref label="Seep01" href="RM0000012A80GZX"/>
+</testtitle>
+</testgrp>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

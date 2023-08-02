@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001C_S000Z" variety="S000Z">
+<name>AUDIO / VISUAL</name>
+<ttl id="1001C_S000Z_7D2Y5_T00B3" variety="T00B3">
+<name>STEERING PAD SWITCH</name>
+<para id="RM000003VJJ025X" category="G" type-id="3001K" name-id="AVFV8-01" from="201403">
+<name>INSPECTION</name>
+<subpara id="RM000003VJJ025X_02" type-id="01" category="01">
+<s-1 id="RM000003VJJ025X_02_0001" proc-id="RM21Q0EV__00005M100000">
+<ptxt>INSPECT STEERING PAD SWITCH ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Measure the resistance according to the value(s) in the table below.</ptxt>
+<figure>
+<graphic graphicname="C238003E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Volume+ Switch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Volume- Switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*3</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Seek+ Switch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*4</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Seek- Switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*5</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>MODE Switch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*6</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>On Hook Switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*7</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Off Hook Switch</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*8</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>DISP Switch</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*9</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Horn Wire</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>-</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>-</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<spec>
+<title>Standard Resistance</title>
+<table pgwide="1">
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="2.36in"/>
+<colspec colname="COL2" colwidth="2.36in"/>
+<colspec colname="COL3" colwidth="2.36in"/>
+<thead>
+<row>
+<entry valign="middle" align="center">
+<ptxt>Tester Connection</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Switch Condition</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>9 (AU2) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>95 to 105 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>9 (AU2) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>MODE switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 2.5 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>9 (AU2) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>On hook switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>312.6 to 345.5 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>9 (AU2) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Off hook switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>950 to 1050 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>10 (AU1) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>No switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>95 to 105 kΩ</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>10 (AU1) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Seek+ switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 2.5 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>10 (AU1) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Seek- switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>312.6 to 345.5 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>10 (AU1) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Volume+ switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>950 to 1050 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>10 (AU1) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Volume- switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>2954.5 to 3265.5 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>7 (DISP) - 8 (EAU)</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>DISP switch pushed</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 2.5 Ω</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>1 (HO) - Horn wire</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Always</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>Below 2.5 Ω</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the result is not as specified, replace the steering pad switch assembly.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the battery positive (+) lead to terminal IL+2 and the negative (-) lead to terminal EAU of the steering pad switch assembly connector.</ptxt>
+</s2>
+<s2>
+<ptxt>Check that the switch illumination comes on.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Steering pad switch illumination comes on.</ptxt>
+</specitem>
+</spec>
+<ptxt>If the result is not as specified, replace the steering pad switch assembly.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="39">
+<name>RESTRAINTS</name>
+<section id="1000Z_S000T" variety="S000T">
+<name>SEAT BELT</name>
+<ttl id="1000Z_S000T_7A81I_T005W" variety="T005W">
+<name>FRONT SEAT OUTER BELT ASSEMBLY</name>
+<para id="RM00000120908TX" category="A" type-id="30014" name-id="SB59I-01" from="201303">
+<name>INSTALLATION</name>
+<subpara id="RM00000120908TX_01" type-id="01" category="01">
+<s-1 id="RM00000120908TX_01_0002" proc-id="RM21Q0EV__000024R00001">
+<ptxt>INSTALL FRONT SHOULDER BELT ANCHOR ADJUSTER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B084924E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Insert the tip of the adjuster to the pillar, and align the adjuster's bolt hole to the pillar's bolt hole.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the bolt as shown in the illustration.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120908TX_01_0001" proc-id="RM21Q0EV__000024Q00001">
+<ptxt>INSTALL SHOULDER BELT ANCHORAGE PLATE COVER</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B087816E03" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s2>
+<ptxt>Install the plate cover as shown in the illustration.</ptxt>
+<atten4>
+<ptxt>Make sure the plate cover is firmly set into the garnish's claws.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120908TX_01_0006" proc-id="RM21Q0EV__000024U00001">
+<ptxt>INSTALL CENTER PILLAR GARNISH LH</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B085561E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Attach the claw and clip to install the garnish.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120908TX_01_0003" proc-id="RM21Q0EV__000024S00001">
+<ptxt>INSTALL FRONT SEAT OUTER BELT ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>Do not disassemble the retractor.</ptxt>
+</atten3>
+<s2>
+<figure>
+<graphic graphicname="B123966E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Align the claws with the seat belt positioning holes and install the retractor of the outer belt with the bolt as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the 2 bolts and seat belt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>4.8</t-value1>
+<t-value2>49</t-value2>
+<t-value3>42</t-value3>
+<ptxt>for bolt A</ptxt>
+</torqueitem>
+</torque>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+<ptxt>for bolt B</ptxt>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B114993" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the pretensioner connector as shown in the illustration.</ptxt>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B084920E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the outer belt with the shoulder anchor's bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Attach the 4 claws to install the seat belt anchor cover cap.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120908TX_01_0007" proc-id="RM21Q0EV__000024V00001">
+<ptxt>INSTALL CENTER PILLAR GARNISH LOWER LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<figure>
+<graphic graphicname="B123883E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>Connect the anchor of the outer belt with the built-in bolt after installing the center pillar garnish lower.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>42</t-value1>
+<t-value2>428</t-value2>
+<t-value4>31</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B089695E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<ptxt>Attach the 2 claws to install the lap belt outer anchor cover.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM00000120908TX_01_0015" proc-id="RM21Q0EV__00003FE00000">
+<ptxt>INSTALL REAR DOOR OPENING TRIM WEATHERSTRIP LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279292E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the paint mark on the rear door opening trim weatherstrip with the mark position on the vehicle and install the rear door opening trim weatherstrip as shown in the illustration.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Paint Mark</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mark Position</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120908TX_01_0009" proc-id="RM21Q0EV__00003FG00000">
+<ptxt>INSTALL REAR DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 clips and 7 claws to install the rear door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120908TX_01_0016" proc-id="RM21Q0EV__00003FI00000">
+<ptxt>INSTALL FRONT DOOR OPENING TRIM WEATHERSTRIP LH
+</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="B279290E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<s2>
+<ptxt>Align the paint mark on the front door opening trim with the mark position on the vehicle and install the front door opening trim as shown in the illustration.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Paint Mark</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Mark Position</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120908TX_01_0011" proc-id="RM21Q0EV__00003FK00000">
+<ptxt>INSTALL FRONT DOOR SCUFF PLATE LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Attach the 3 clips and 7 claws to install the front door scuff plate.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120908TX_01_0013" proc-id="RM21Q0EV__000024Y00000">
+<ptxt>INSTALL FRONT SEAT ASSEMBLY LH
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place the seat in the cabin. </ptxt>
+<atten3>
+<ptxt>Be careful not to damage the vehicle body.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>w/ Seat belt warning system:</ptxt>
+<ptxt>Connect the connector under the seat.</ptxt>
+</s2>
+<s2>
+<ptxt>Install the seat with the 4 bolts.</ptxt>
+<figure>
+<graphic graphicname="B108471E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<torque>
+<torqueitem>
+<t-value1>37</t-value1>
+<t-value2>377</t-value2>
+<t-value4>27</t-value4>
+</torqueitem>
+</torque>
+<atten4>
+<ptxt>Tighten the bolts in the order indicated in the illustration.</ptxt>
+</atten4>
+</s2>
+</content1></s-1>
+<s-1 id="RM00000120908TX_01_0004" proc-id="RM21Q0EV__00005CJ00000">
+<ptxt>CONNECT CABLE TO NEGATIVE BATTERY TERMINAL</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>When disconnecting the cable, some systems need to be initialized after the cable is reconnected (See page <xref label="Seep01" href="RM000001126016X"/>).</ptxt>
+</atten3>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

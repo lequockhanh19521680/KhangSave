@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="43">
+<name>BODY</name>
+<section id="1002V_S0014" variety="S0014">
+<name>MIRROR</name>
+<ttl id="1002V_S0014_7ARM9_T009L" variety="T009L">
+<name>OUTER REAR VIEW MIRROR GLASS</name>
+<para id="RM0000015DU038X" category="A" type-id="80001" name-id="MX2PI-08" from="201202">
+<name>REMOVAL</name>
+<subpara id="RM0000015DU038X_03" type-id="11" category="10" proc-id="RM21Q0EV__000045T00000">
+<content3 releasenbr="1">
+<atten4>
+<list1 type="unordered">
+<item>
+<ptxt>Use the same procedure for the RH and LH sides.</ptxt>
+</item>
+<item>
+<ptxt>The procedure listed below is for the LH side.</ptxt>
+</item>
+</list1>
+</atten4>
+</content3>
+</subpara>
+<subpara id="RM0000015DU038X_02" type-id="01" category="01">
+<s-1 id="RM0000015DU038X_02_0005" proc-id="RM21Q0EV__000045S00000">
+<ptxt>REMOVE OUTER MIRROR LH</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a screwdriver with its tip, detach the 2 claws as shown in the illustration.</ptxt>
+<figure>
+<graphic graphicname="B278386E01" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<table pgwide="1">
+<title>Text in Illustration</title>
+<tgroup cols="4">
+<colspec colname="COL1" align="left" colwidth="0.71in"/>
+<colspec colname="COL2" colwidth="2.83in"/>
+<colspec colname="COL3" align="left" colwidth="0.71in"/>
+<colspec colname="COL4" colwidth="2.83in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*1</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Screw Driver</ptxt>
+</entry>
+<entry valign="middle" align="center">
+<ptxt>*2</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Protective Tape</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<atten3>
+<ptxt>Do not pull the outer mirror LH with excessive force. Doing so may cause the actuator to come off or break the mirror surface.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Apply protective tape to the mirror body and screw driver.</ptxt>
+</atten4>
+</s2>
+<s2>
+<figure>
+<graphic graphicname="B278387" width="2.775699831in" height="2.775699831in"/>
+</figure>
+<ptxt>Detach the 2 claws at the upper part of the outer mirror.</ptxt>
+</s2>
+<s2>
+<ptxt>Remove the outer mirror LH.</ptxt>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="34">
+<name>DRIVE LINE</name>
+<section id="1002F_S000H" variety="S000H">
+<name>PROPELLER SHAFT</name>
+<ttl id="1002F_S000H_7ARNQ_T009N" variety="T009N">
+<name>PROPELLER SHAFT ASSEMBLY</name>
+<para id="RM000000ZZ401ZX" category="A" type-id="80002" name-id="PR0A7-05" from="201202">
+<name>DISASSEMBLY</name>
+<subpara id="RM000000ZZ401ZX_01" type-id="01" category="01">
+<s-1 id="RM000000ZZ401ZX_01_0001" proc-id="RM21Q0EV__000046B00000">
+<ptxt>REMOVE CENTER NO. 1 SUPPORT BEARING ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place matchmarks on the flange coupling and flange yoke.</ptxt>
+<figure>
+<graphic graphicname="F049877E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the 4 nuts and 4 washers.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the propeller shaft and intermediate shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Fix the flange coupling at the center bearing section in a vise.</ptxt>
+</s2>
+<s2>
+<ptxt>Using a chisel and hammer, loosen the staked part of the lock nut.</ptxt>
+<figure>
+<graphic graphicname="A098690E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Loosen the staked part of the lock nut completely. If not, the screw of the intermediate shaft may be damaged.</ptxt>
+</atten3>
+</s2>
+<s2>
+<ptxt>Using SST and a socket wrench, remove the lock nut and washer.</ptxt>
+<sst>
+<sstitem>
+<s-number>09330-00021</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F049875E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Place matchmarks on the intermediate shaft and flange coupling.</ptxt>
+<figure>
+<graphic graphicname="F049874E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using SST, remove the flange coupling from the intermediate shaft.</ptxt>
+<sst>
+<sstitem>
+<s-number>09950-30012</s-number>
+<s-subnumber>09951-03010</s-subnumber>
+<s-subnumber>09953-03010</s-subnumber>
+<s-subnumber>09954-03010</s-subnumber>
+<s-subnumber>09955-03030</s-subnumber>
+<s-subnumber>09956-03030</s-subnumber>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F049876E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Remove the center support bearing.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM000000ZZ401ZX_01_0006" proc-id="RM21Q0EV__000046D00000">
+<ptxt>INSPECT PROPELLER SHAFT AND INTERMEDIATE SHAFT
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Using a dial indicator, measure the propeller shaft and intermediate shaft runout.</ptxt>
+<figure>
+<graphic graphicname="C061260E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Maximum Runout</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry>
+<ptxt>Item</ptxt>
+</entry>
+<entry>
+<ptxt>Specified Condition</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>
+<ptxt>Propeller shaft</ptxt>
+</entry>
+<entry>
+<ptxt>0.3 mm (0.0118 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry>
+<ptxt>Intermediate shaft</ptxt>
+</entry>
+<entry>
+<ptxt>0.5 mm (0.0197 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the shaft runout is more than the maximum, replace the shaft.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000ZZ401ZX_01_0007" proc-id="RM21Q0EV__000046E00000">
+<ptxt>INSPECT UNIVERSAL JOINT SPIDER ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Check the spider bearings for wear or damage.</ptxt>
+</s2>
+<s2>
+<ptxt>Check each spider bearing's axial play by turning the yoke while holding the shaft tightly.</ptxt>
+<spec>
+<title>Maximum bearing axial play</title>
+<specitem>
+<ptxt>0 to 0.05 mm (0 to 0.00197 in.)</ptxt>
+</specitem>
+</spec>
+<ptxt>If the bearing axial play is more than the maximum, replace the spider bearing.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000ZZ401ZX_01_0008" proc-id="RM21Q0EV__000046F00000">
+<ptxt>INSPECT CENTER NO. 1 SUPPORT BEARING ASSEMBLY
+</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>When turning the center bearing with your hand, check that it turns smoothly without catching, and that there are no cracks or damage.</ptxt>
+<figure>
+<graphic graphicname="F049879E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<ptxt>If there are any defects, replace the center bearing.</ptxt>
+<ptxt>If there is any damage to the lip of the center bearing case, replace it.</ptxt>
+</s2>
+</content1></s-1>
+<s-1 id="RM000000ZZ401ZX_01_0005" proc-id="RM21Q0EV__000046C00000">
+<ptxt>REMOVE UNIVERSAL JOINT SPIDER ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Place matchmarks on the yoke and shaft.</ptxt>
+<figure>
+<graphic graphicname="F015023E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a brass bar and hammer, slightly tap in the spider bearing outer races.</ptxt>
+<figure>
+<graphic graphicname="C061264E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using 2 screwdrivers, remove the 4 snap rings from the grooves.</ptxt>
+</s2>
+<s2>
+<ptxt>Clamp the shaft in a vise between aluminum plates.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, push the yoke side spider bearing until: 1) the spider almost touches the yoke or shaft, and 2) the spider bearing on the opposite side is partially pushed out. </ptxt>
+<sst>
+<sstitem>
+<s-number>09332-25010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F015025E11" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Before installing SST, sufficiently raise the part labeled A. If part A is too low, SST may be difficult to install.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Clamp the pushed out spider bearing outer race between aluminum plates in a vise and tap the shaft to remove the spider bearing. </ptxt>
+<figure>
+<graphic graphicname="F044192E07" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten3>
+<ptxt>Do not tap the shaft tube.</ptxt>
+</atten3>
+<atten4>
+<ptxt>Remove the spider bearing on the opposite side of the spider using the same procedure.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the yoke and spider from the shaft.</ptxt>
+</s2>
+<s2>
+<ptxt>Reinstall the 2 removed spider bearings to the spider and clamp the spider bearings between aluminum plates in a vise.</ptxt>
+</s2>
+<s2>
+<ptxt>Using SST, push the yoke side spider bearing until: 1) the spider almost touches the yoke, and 2) the spider bearing on the opposite side is partially pushed out.</ptxt>
+<sst>
+<sstitem>
+<s-number>09332-25010</s-number>
+</sstitem>
+</sst>
+<figure>
+<graphic graphicname="F015030E09" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Before installing SST, sufficiently raise the part labeled A. If part A is too low, SST may be difficult to install.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Clamp the pushed out spider bearing outer race between aluminum plates in a vise and tap the yoke to remove the spider bearing.</ptxt>
+<figure>
+<graphic graphicname="F044193E08" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<atten4>
+<ptxt>Remove the spider bearing on the opposite side of the spider using the same procedure.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Remove the spider from the yoke.</ptxt>
+<atten4>
+<ptxt>Remove the other universal joint spider(s) using the same procedures.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

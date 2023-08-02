@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="42">
+<name>BODY ELECTRICAL</name>
+<section id="1001B_S000W" variety="S000W">
+<name>WIPER AND WASHER</name>
+<ttl id="1001B_S000W_7A82B_T006P" variety="T006P">
+<name>WASHER MOTOR</name>
+<para id="RM0000055UD000X" category="G" type-id="3001K" name-id="WW552-01" from="201202">
+<name>INSPECTION</name>
+<subpara id="RM0000055UD000X_01" type-id="01" category="01">
+<s-1 id="RM0000055UD000X_01_0001" proc-id="RM21Q0EV__00004ZG00000">
+<ptxt>REMOVE WINDSHIELD WASHER MOTOR AND PUMP ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the washer jar.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the windshield washer motor and pump connector.</ptxt>
+<atten4>
+<ptxt>Make sure that the windshield washer motor and pump is installed to the washer jar.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Fill the washer jar with washer fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the positive (+) lead of the battery to terminal 1 of the windshield washer motor and pump, and the negative (-) lead to terminal 2.</ptxt>
+<figure>
+<graphic graphicname="E132855E10" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that washer fluid flows from the washer jar.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Washer fluid flows from the washer jar.</ptxt>
+<ptxt>If the result is not as specified, replace the washer motor and pump assembly.</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000055UD000X_01_0002" proc-id="RM21Q0EV__00004ZH00000">
+<ptxt>REMOVE REAR WASHER MOTOR ASSEMBLY</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Remove the washer jar.</ptxt>
+</s2>
+<s2>
+<ptxt>Disconnect the rear washer motor and pump connector.</ptxt>
+<atten4>
+<ptxt>Make sure that the rear washer motor and pump is installed to the washer jar.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>Fill the washer jar with washer fluid.</ptxt>
+</s2>
+<s2>
+<ptxt>Connect the battery's positive (+) lead to terminal 1 of the rear washer motor and pump, and the negative (-) lead to terminal 2.</ptxt>
+<figure>
+<graphic graphicname="E285990E01" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Check that washer fluid flows from the washer jar.</ptxt>
+<spec>
+<title>OK</title>
+<specitem>
+<ptxt>Washer fluid flows from washer jar.</ptxt>
+<ptxt>If the result is not as specified, replace the rear washer motor and pump assembly.</ptxt>
+</specitem>
+</spec>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

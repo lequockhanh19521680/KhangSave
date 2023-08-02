@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7AX04_T00AM" variety="T00AM">
+<name>FRONT SHOCK ABSORBER</name>
+<para id="RM0000010O100GX" category="N" type-id="3000N" name-id="SP06W-11" from="201202">
+<name>DISPOSAL</name>
+<subpara id="RM0000010O100GX_01" type-id="01" category="01">
+<s-1 id="RM0000010O100GX_01_0001" proc-id="RM21Q0EV__000051O00000">
+<ptxt>DISPOSE OF FRONT SHOCK ABSORBER ASSEMBLY LH</ptxt>
+<content1 releasenbr="1">
+<atten4>
+<ptxt>Use the same procedure for the other front shock absorber.</ptxt>
+</atten4>
+<s2>
+<ptxt>Fully extend the shock absorber piston rod and fix the shock absorber in place at an angle in a vise or similar tool.</ptxt>
+<table>
+<title>Text in Illustration</title>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="0.41in"/>
+<colspec colname="COL2" colwidth="3.72in"/>
+<tbody>
+<row>
+<entry valign="middle" align="center">
+<ptxt>*a</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Approximately 35 mm</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<figure>
+<graphic graphicname="F052450E02" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Using a drill or similar tool, slowly make a hole approximately 35 mm (1.38 in.) from the top end of the shock absorber and discharge the gas inside of it.</ptxt>
+<atten3>
+<list1 type="unordered">
+<item>
+<ptxt>The gas is colorless, odorless and harmless.</ptxt>
+</item>
+<item>
+<ptxt>Since the discharged gas may cause chips to fly off, cover the drill with a cloth when making a hole.</ptxt>
+</item>
+</list1>
+</atten3>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-db><pub id="RM21Q3EV"><servcat id="40"><name>SECURITIES</name><section id="1002N_S000U" variety="S000U">
+<name>THEFT DETERRENT</name><ttl id="1002N_S000U_7A81M_T0060" variety="T0060"><name>THEFT DETERRENT SYSTEM</name>
+<parts id="M000196"><name>THEFT DETERRENT SYSTEM</name></parts>
+<para id="RM000005OL7007X" category="A" type-id="804QI" from="201202"><name>CUSTOMIZE PARAMETERS</name>
+
+<parts id="D1002NZ"><name>THEFT DETERRENT SYSTEM</name></parts></para>
+<para id="RM000001J8Z00OX" category="G" type-id="8000T" from="201202"><name>ON-VEHICLE INSPECTION</name>
+
+<parts id="28300"><name>STARTER RELAY ASSEMBLY</name></parts><parts id="F0001ZC"><name>ALARM MEMORY FUNCTION</name></parts><parts id="81850K"><name>SECURITY INDICATOR LAMP ASSEMBLY</name></parts><parts id="F0001ZB"><name>ARMING MODE</name></parts><parts id="F0001ZA"><name>OUTLINE OF THEFT DETERRENT SYSTEM</name></parts></para>
+<para id="RM000001K6300WX" category="J" type-id="3011F" from="201202"><name>Engine Hood Courtesy Switch Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="53510"><name>HOOD LOCK ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8R00WX" category="J" type-id="3024U" from="201202"><name>Horn Circuit</name>
+
+
+
+
+<parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="M000183"><name>HORN SYSTEM</name></parts><parts id="89730F"><name>THEFT WARNING(WIRELESS &amp; SECURITY) ECU ASSY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts><parts id="J865001"><name>HORN ASSEMBLY</name></parts></para>
+<para id="RM000001J8Q00WX" category="J" type-id="3019A" from="201202"><name>Security Horn Circuit</name>
+
+
+
+
+<parts id="89730F"><name>THEFT WARNING(WIRELESS &amp; SECURITY) ECU ASSY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="86510A"><name>SECURITY HORN ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8P00WX" category="J" type-id="3010V" from="201202"><name>Ignition Switch Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="69057A"><name>IGNITION SWITCH LOCK CYLINDER &amp; KEY SET</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8S00WX" category="J" type-id="3027N" from="201202"><name>Security Indicator Light Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="81850K"><name>SECURITY INDICATOR LAMP ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001K6400LX" category="J" type-id="305UB" from="201202"><name>Back Door Courtesy Switch Circuit</name>
+
+
+
+
+<parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="69350"><name>BACK DOOR LOCK ASSEMBLY</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8V00WX" category="J" type-id="30503" from="201202"><name>Driver Side Door Courtesy Switch Circuit</name>
+
+
+
+
+<parts id="83100"><name>COMBINATION METER ASSEMBLY</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84233"><name>FRONT DOOR COURTESY LAMP SWITCH ASSEMBLY</name></parts><parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8W00WX" category="J" type-id="30504" from="201202"><name>Front Passenger Side Door Courtesy Switch Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84233"><name>FRONT DOOR COURTESY LAMP SWITCH ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8X00WX" category="J" type-id="30505" from="201202"><name>Rear Door Courtesy Switch LH Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84234"><name>REAR DOOR COURTESY LAMP SWITCH ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8Y00WX" category="J" type-id="30506" from="201202"><name>Rear Door Courtesy Switch RH Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84234"><name>REAR DOOR COURTESY LAMP SWITCH ASSEMBLY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001KVS006X" category="J" type-id="801G9" from="201202"><name>Starter Relay Circuit</name>
+
+
+
+
+<parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="84540"><name>PARK/NEUTRAL POSITION SWITCH ASSY</name></parts><parts id="69057A"><name>IGNITION SWITCH LOCK CYLINDER &amp; KEY SET</name></parts><parts id="28300"><name>STARTER RELAY ASSEMBLY</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="89730F"><name>THEFT WARNING(WIRELESS &amp; SECURITY) ECU ASSY</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+<para id="RM000001J8O00WX" category="J" type-id="3009M" from="201202"><name>ECU Power Source Circuit</name>
+
+
+
+
+<parts id="F000463"><name>PROCEED TO NEXT SUSPECTED AREA SHOWN IN PROBLEM SYMPTOMS TABLE</name></parts><parts id="B000324"><name>HARNESS AND CONNECTOR</name></parts><parts id="B000302"><name>FUSE</name></parts><parts id="B000204"><name>WIRE HARNESS</name></parts></para>
+</ttl>
+<ttl id="1002N_S000U_7A81N_T0061" variety="T0061"><name>ENGINE HOOD COURTESY SWITCH</name>
+<parts id="B005076"><name>ENGINE HOOD COURTESY SWITCH</name></parts>
+<para id="RM000001KRD00PX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="53510"><name>HOOD LOCK ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002N_S000U_7A81O_T0062" variety="T0062"><name>SECURITY HORN ASSEMBLY</name>
+<parts id="B009092"><name>SECURITY HORN ASSEMBLY</name></parts>
+<para id="RM000001KRC00OX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="86510A"><name>SECURITY HORN ASSEMBLY</name></parts></para>
+</ttl>
+<ttl id="1002N_S000U_7A81P_T0063" variety="T0063"><name>SECURITY INDICATOR LIGHT ASSEMBLY</name>
+<parts id="F0001SQ"><name>SECURITY INDICATOR LIGHT ASSEMBLY</name></parts>
+<para id="RM000001KVR00RX" category="G" type-id="3001K" from="201202"><name>INSPECTION</name>
+
+<parts id="81850K"><name>SECURITY INDICATOR LAMP ASSEMBLY</name></parts></para>
+</ttl>
+</section></servcat></pub></tmc-service-db>

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tmc-service-inc>
+<pub id="RM21Q3EV">
+<servcat id="35">
+<name>SUSPENSION &amp; AXLE</name>
+<section id="1002I_S000K" variety="S000K">
+<name>SUSPENSION</name>
+<ttl id="1002I_S000K_7A803_T004H" variety="T004H">
+<name>FRONT WHEEL ALIGNMENT</name>
+<para id="RM0000039J4005X" category="N" type-id="3000G" name-id="SP3QU-01" from="201503">
+<name>ADJUSTMENT</name>
+<subpara id="RM0000039J4005X_01" type-id="01" category="01">
+<s-1 id="RM0000039J4005X_01_0001" proc-id="RM21Q0EV__00001IB00001">
+<ptxt>INSPECT TIRE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Inspect the tires (See page <xref label="Seep01" href="RM0000010MW013X"/>).</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000039J4005X_01_0002" proc-id="RM21Q0EV__00001IC00001">
+<ptxt>INSPECT VEHICLE HEIGHT</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="F050751E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<atten3>
+<ptxt>Before inspecting the wheel alignment, adjust the vehicle height to the specification.</ptxt>
+</atten3>
+<s2>
+<ptxt>Press down on the vehicle several times to stabilize the suspension, and then measure the vehicle height.</ptxt>
+<spec>
+<title>Standard vehicle height (unloaded vehicle)</title>
+<table>
+<tgroup cols="3">
+<colspec colname="COL1" colwidth="1.38in"/>
+<colspec colname="COL2" colwidth="1.38in"/>
+<colspec colname="COL3" colwidth="1.37in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Front A - B</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Rear C - D</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMRKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76 mm (2.99 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>45 mm (1.77 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMDKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>76 mm (2.99 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>46 mm (1.81 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPDKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>79 mm (3.11 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>47 mm (1.85 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPNKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>80 mm (3.15 in.)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>48 mm (1.89 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Measuring point</title>
+<subtitle>A</subtitle>
+<specitem>
+<ptxt>Ground clearance of front wheel center</ptxt>
+</specitem>
+<subtitle>B</subtitle>
+<specitem>
+<ptxt>Ground clearance of lower suspension arm No. 1 set bolt center</ptxt>
+</specitem>
+<subtitle>C</subtitle>
+<specitem>
+<ptxt>Ground clearance of rear wheel center</ptxt>
+</specitem>
+<subtitle>D</subtitle>
+<specitem>
+<ptxt>Ground clearance of strut rod set bolt center</ptxt>
+</specitem>
+</spec>
+<ptxt>If the vehicle height is not as specified, press down on the vehicle several times to stabilize the suspension. Then measure the vehicle height again.</ptxt>
+<atten3>
+<ptxt>The standard value shown here is a value that is used for adjusting the wheel alignment and does not indicate the height of an actual vehicle.</ptxt>
+</atten3>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000039J4005X_01_0003" proc-id="RM21Q0EV__00001ID00001">
+<ptxt>INSPECT TOE-IN</ptxt>
+<content1 releasenbr="1">
+<figure>
+<graphic graphicname="SA03213E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard toe-in (unloaded vehicle)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A + B</ptxt>
+<ptxt>C - D</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMRKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A + B: 0°10' +/-5' (0.17° +/-0.09°)</ptxt>
+<ptxt>C - D: 3.6 +/-1.0 mm (0.14 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMDKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A + B: 0°10' +/-5' (0.17° +/-0.09°)</ptxt>
+<ptxt>C - D: 3.5 +/-1.0 mm (0.14 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPDKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A + B: 0°9' +/-5' (0.15° +/-0.09°)</ptxt>
+<ptxt>C - D: 3.1 +/-1.0 mm (0.12 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPNKU</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>A + B: 0°8' +/-5' (0.14° +/-0.09°)</ptxt>
+<ptxt>C - D: 2.9 +/-1.0 mm (0.11 +/-0.04 in.)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the toe-in is not as specified, adjust it at the rack ends.</ptxt>
+</content1>
+</s-1>
+<s-1 id="RM0000039J4005X_01_0004" proc-id="RM21Q0EV__00001IE00001">
+<ptxt>ADJUST TOE-IN</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Detach the rack boot set clips.</ptxt>
+</s2>
+<s2>
+<ptxt>Loosen the tie rod end lock nuts.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the right and left rack ends by an equal amount to adjust the toe-in to the center value.</ptxt>
+</s2>
+<s2>
+<ptxt>Make sure that the lengths of the right and left rack ends are approximately the same.</ptxt>
+<figure>
+<graphic graphicname="C137547E04" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard difference</title>
+<specitem>
+<ptxt>0 +/-1 mm (0 +/-0.039 in.)</ptxt>
+</specitem>
+</spec>
+</s2>
+<s2>
+<ptxt>Tighten the tie rod end lock nuts.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>55.5</t-value1>
+<t-value2>566</t-value2>
+<t-value4>41</t-value4>
+</torqueitem>
+</torque>
+</s2>
+<s2>
+<ptxt>Place the boots on the seats and attach the clips.</ptxt>
+<atten4>
+<ptxt>Make sure that the boots are not twisted.</ptxt>
+</atten4>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000039J4005X_01_0005" proc-id="RM21Q0EV__00001IF00001">
+<ptxt>INSPECT WHEEL ANGLE</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Turn the steering wheel to the left and right full lock positions, and measure the wheel angle.</ptxt>
+<figure>
+<graphic graphicname="SA00028E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+<spec>
+<title>Standard wheel angle (unloaded vehicle)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Inside wheel angle</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Outside wheel angle (reference)</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>39°48' (37°48' to 40°48')</ptxt>
+<ptxt>(39.8° (37.8° to 40.8°))</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>33°30' </ptxt>
+<ptxt>(33.5°)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the angles are not as specified, check and adjust the right and left rack end lengths.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000039J4005X_01_0006" proc-id="RM21Q0EV__00001IG00001">
+<ptxt>INSPECT CAMBER, CASTER AND STEERING AXIS INCLINATION</ptxt>
+<content1 releasenbr="1">
+<s2>
+<ptxt>Install a camber-caster-kingpin gauge or place the front wheels on the center of a wheel alignment tester.</ptxt>
+<figure>
+<graphic graphicname="Z003382E06" width="2.775699831in" height="1.771723296in"/>
+</figure>
+</s2>
+<s2>
+<ptxt>Inspect the camber, caster and steering axis inclination.</ptxt>
+<spec>
+<title>Standard camber inclination (unloaded vehicle)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Camber Inclination</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMRKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0°13' +/-30' (0.22° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0°13' +/-30' (0.22° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0°10' +/-30' (0.17° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPNKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>0°9' +/-30' (0.15° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard caster inclination (unloaded vehicle)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Caster Inclination</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMRKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3°27' +/-30' (3.45° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3°29' +/-30' (3.48° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3°30' +/-30' (3.50° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPNKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3°31' +/-30' (3.52° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<spec>
+<title>Standard steering axis inclination (unloaded vehicle)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Vehicle Model</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Steering Axis Inclination</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMRKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10°47' +/-30' (10.78° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKMDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10°47' +/-30' (10.78° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPDKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10°50' +/-30' (10.83° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+<row>
+<entry valign="middle">
+<ptxt>TGN40L-GKPNKU</ptxt>
+<ptxt>Right-left error</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>10°50' +/-30' (10.83° +/-0.50°)</ptxt>
+<ptxt>30' (0.50°) or less</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+<ptxt>If the camber and caster are not as specified, adjust them.</ptxt>
+<ptxt>If the steering axis inclination is not as specified after the camber and caster have been correctly adjusted, check the steering knuckle and front wheel for distortion or looseness.</ptxt>
+</s2>
+</content1>
+</s-1>
+<s-1 id="RM0000039J4005X_01_0007" proc-id="RM21Q0EV__00001IH00001">
+<ptxt>ADJUST CAMBER AND CASTER</ptxt>
+<content1 releasenbr="1">
+<atten3>
+<ptxt>After the camber has been adjusted, inspect the toe-in.</ptxt>
+</atten3>
+<s2>
+<ptxt>Loosen the camber adjusting cam nut and camber adjusting cam bolt.</ptxt>
+</s2>
+<s2>
+<ptxt>Turn the No. 1 camber adjusting cam and No. 2 camber adjusting cam in both directions, and adjust the camber and caster to the center value.</ptxt>
+<figure>
+<graphic graphicname="F049902E02" width="7.106578999in" height="3.779676365in"/>
+</figure>
+<atten4>
+<ptxt>The camber and caster should be as close as possible to the center value.</ptxt>
+</atten4>
+</s2>
+<s2>
+<ptxt>How to read the adjustment chart (using examples).</ptxt>
+<figure>
+<graphic graphicname="F049903E01" width="2.775699831in" height="3.779676365in"/>
+</figure>
+<s3>
+<ptxt>Measure the present alignment.</ptxt>
+<spec>
+<title>Measured value (reference)</title>
+<table>
+<tgroup cols="2">
+<colspec colname="COL1" colwidth="2.07in"/>
+<colspec colname="COL2" colwidth="2.06in"/>
+<thead>
+<row>
+<entry valign="middle">
+<ptxt>Camber  </ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>Caster</ptxt>
+</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry valign="middle">
+<ptxt>0°20' (0.30°)</ptxt>
+</entry>
+<entry valign="middle">
+<ptxt>3°20' (3.30°)</ptxt>
+</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</spec>
+</s3>
+<s3>
+<ptxt>Mark the difference between the standard value (A) and the measured value (B) on the adjustment chart.</ptxt>
+<spec>
+<title>Standard value</title>
+<subtitle>Camber</subtitle>
+<specitem>
+<ptxt>0°00' (0.00°)</ptxt>
+</specitem>
+<subtitle>Caster</subtitle>
+<specitem>
+<ptxt>3°00' (3.00°)</ptxt>
+</specitem>
+<subtitle>Formula</subtitle>
+<specitem>
+<ptxt>A - B = C</ptxt>
+</specitem>
+<subtitle>Camber</subtitle>
+<specitem>
+<ptxt>0°00' - 0°20' = -0°20'</ptxt>
+</specitem>
+<subtitle>Caster</subtitle>
+<specitem>
+<ptxt>3°00' - 3°20' = -0°20'</ptxt>
+</specitem>
+</spec>
+</s3>
+<s3>
+<ptxt>As shown in the chart, read the distance from the marked point to 0, and adjust the front and/or rear adjusting cams accordingly.</ptxt>
+<spec>
+<title>No. 1 camber adjusting cam</title>
+<specitem>
+<ptxt>- 1.2</ptxt>
+</specitem>
+</spec>
+<spec>
+<title>No. 2 camber adjusting cam</title>
+<specitem>
+<ptxt>- 0.3 </ptxt>
+</specitem>
+</spec>
+<figure>
+<graphic graphicname="F049904E02" width="7.106578999in" height="9.803535572in"/>
+</figure>
+</s3>
+</s2>
+<s2>
+<ptxt>Tighten the camber adjusting cam nut and camber adjusting cam bolt.</ptxt>
+<torque>
+<torqueitem>
+<t-value1>210</t-value1>
+<t-value2>2141</t-value2>
+<t-value4>155</t-value4>
+</torqueitem>
+</torque>
+</s2>
+</content1>
+</s-1>
+</subpara>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-inc>
